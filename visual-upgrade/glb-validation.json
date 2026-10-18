@@ -2,11 +2,15 @@
   {
     "file": "race-quest-cat-sport.glb",
     "meshes": 44,
-    "root": true
+    "root": true,
+    "unit_normals_checked": 31154,
+    "bytes": 1137120
   },
   {
     "file": "race-quest-cat-sport-low.glb",
     "meshes": 44,
-    "root": true
+    "root": true,
+    "unit_normals_checked": 13729,
+    "bytes": 513684
   }
 ]

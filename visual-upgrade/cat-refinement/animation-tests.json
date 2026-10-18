@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Blink squashes the refined eye surfaces",
+    "Both refined ears retain idle articulation",
+    "Tail animation retained",
+    "Unified torso retains steering lean",
+    "Unified torso retains jump response",
+    "Front wheels retain steering",
+    "Wheel rotation retained",
+    "All rigid matrices remain identical at frozen simulation time",
+    "Palm-centre contact fixture stays within grip envelope through steering and jump",
+    "Refined model renders without WebGL errors"
+  ],
+  "max_palm_centre_to_rim_distance_m": 0.04759917267343556,
+  "note": "Contact fixture verifies designed centres and actual rigid transforms, supplemented by front/profile/back render inspection. It is not a full mesh collision solver.",
+  "errors": []
+}

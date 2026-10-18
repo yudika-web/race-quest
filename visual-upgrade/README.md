@@ -1,5 +1,7 @@
 # RACE QUEST — peningkatan visual Kucing / Sport
 
+Revisi terbaru khusus Kucing: lihat [cat-refinement/README.md](cat-refinement/README.md) dan [perbandingan sebelum–sesudah](cat-refinement/cat-refinement-sheet.jpg). Geometri/material mobil, seluruh pivot, runtime, dan 13 karakter lain identik dengan commit pengembangan `e5d7e07313751b5d168e77f7ac457f2139ceb80c`.
+
 Buka **race-quest-visual-upgrade.html**. Semua aset sudah tertanam; tidak membutuhkan CDN, unduhan model, paket JavaScript, atau backend. Untuk server lokal opsional: `python3 -m http.server 8000` dari folder ini. Berkas asli tersimpan sebagai `original.html`; `../index.html` tidak diubah.
 
 ## Hasil
@@ -9,7 +11,7 @@ Buka **race-quest-visual-upgrade.html**. Semua aset sudah tertanam; tidak membut
 - `race-quest-cat-sport-low.glb`: geometri ringan untuk kualitas rendah dan Kucing yang berjarak lebih dari 24 unit dari kamera. LOD mengurangi segitiga; jumlah batch material tetap sama.
 - `source/race-quest-cat-sport.blend`: sumber Blender 4.3, material dapat diedit, pengelompokan bagian, kamera studio dan lampu untuk render. Scene editor memakai Z-up; ekspor game memakai Y-up.
 - `source/build_cat.py`: membangun geometri melalui Blender Python, memanggang modifier dan mengekspor GLB 2.0 sesuai parser game. `source/assemble.py` menanamkan kedua GLB dan perubahan renderer ke salinan HTML asli.
-- `comparisons/`: tangkapan WebGL nyata, tanpa retouch model. `comparison-sheet.jpg` memuat empat sudut. `comparison-game-race.jpg` memakai kamera balapan asli dengan posisi dan seed yang disamakan. Tangkapan lain mencatat garasi desktop/HP, balapan, dan soal.
+- `cat-refinement/`: perbandingan Kucing revisi terbaru dari render nyata di garasi dan balapan. `comparisons/`: tangkapan WebGL dan riwayat perbandingan tahap awal, tanpa retouch model. `comparison-sheet.jpg` memuat empat sudut. `comparison-game-race.jpg` memakai kamera balapan asli dengan posisi dan seed yang disamakan. Tangkapan lain mencatat garasi desktop/HP, balapan, dan soal.
 
 ## Desain dan integrasi
 
@@ -25,12 +27,12 @@ Animasi bersifat prosedural di renderer game. GLB menyimpan geometri dan pivot; 
 
 | Ukuran | Asli | Revisi |
 |---|---:|---:|
-| HTML | 17.997.235 byte | 19.051.488 byte (+5,86%) |
-| GLB Kucing–Sport | 348.496 byte | 767.256 byte; LOD 369.692 byte |
-| Segitiga model | 15.256 | 37.445; LOD 15.656 |
+| HTML | 17.997.235 byte | 19.736.629 byte (+9,66%) |
+| GLB Kucing–Sport | 348.496 byte | 1.137.120 byte; LOD 513.684 byte |
+| Segitiga model | 15.256 | 58.389; LOD 24.083 |
 | Batch gambar model, satu pass warna | 30 | 44 |
 
-Angka batch tidak mencakup arena, partikel, atau pass bayangan. Model dekat lebih mahal daripada model lama; LOD ringan mendekati jumlah segitiga lama. `render-metrics.json` menyimpan hitungan instrumentasi dan waktu wall-time cloud. GPU timer tidak tersedia; angka waktu tersebut hanya observasi pengiriman perintah WebGL dan tidak cukup untuk menyimpulkan biaya GPU atau FPS perangkat nyata. Pengujian HP memakai emulasi viewport dan sentuhan, bukan perangkat fisik.
+Angka batch tidak mencakup arena, partikel, atau pass bayangan. Model dekat lebih mahal daripada model lama; LOD ringan mendekati jumlah segitiga lama. `render-metrics.json` menyimpan hitungan instrumentasi dan waktu wall-time cloud. Data lama perbandingan tahap awal tetap tersimpan pada commit sebelumnya; hitungan saat ini memakai model Kucing revisi terbaru. GPU timer tidak tersedia; angka waktu tersebut hanya observasi pengiriman perintah WebGL dan tidak cukup untuk menyimpulkan biaya GPU atau FPS perangkat nyata. Pengujian HP memakai emulasi viewport dan sentuhan, bukan perangkat fisik.
 
 ## Validasi
 

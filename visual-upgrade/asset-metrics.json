@@ -1,13 +1,19 @@
 {
   "original_html_bytes": 17997235,
-  "revised_html_bytes": 19051488,
-  "growth_percent": 5.86,
+  "revised_html_bytes": 19736629,
+  "growth_percent": 9.66,
   "original_cat_glb_bytes": 348496,
   "original_cat_triangles": 15256,
-  "new_high_glb_bytes": 767256,
-  "new_low_glb_bytes": 369692,
-  "new_high_triangles": 37445,
-  "new_low_triangles": 15656,
+  "new_high_glb_bytes": 1137120,
+  "new_low_glb_bytes": 513684,
+  "new_high_triangles": 58389,
+  "new_low_triangles": 24083,
   "original_draw_batches": 30,
-  "new_draw_batches": 44
+  "new_draw_batches": 44,
+  "cat_refinement_baseline_html_bytes": 19051488,
+  "cat_refinement_growth_percent": 3.6,
+  "car_high_triangles_unchanged": 20931,
+  "car_low_triangles_unchanged": 8678,
+  "refined_cat_high_triangles": 37458,
+  "refined_cat_low_triangles": 15405
 }

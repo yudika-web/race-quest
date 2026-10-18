@@ -154,62 +154,8 @@ for side,x in [('l',-.59),('r',.59)]:
   for k in range(5):
    a=math.tau*k/5;pts=[(face+sg*.033,.205+.025*math.cos(a),z+.025*math.sin(a)),(face+sg*.037,.205+.085*math.cos(a+.12),z+.085*math.sin(a+.12)),(face+sg*.029,.205+.139*math.cos(a+.18),z+.139*math.sin(a+.18))];tube('Swept forged spoke',pts,[.016,.013,.011],metal,8)
   ell('Cyan axle cap',(face+sg*.047,.205,z),(.014,.037,.037),blue,16,10)
-# driver proportions: joined overlapping organic masses, fitted seat and wheel contact
-GROUP='driver'
-ell('Seated connected torso',(0,.76,-.22),(.225,.285,.19),orange)
-ell('Cream bib',(0,.80,-.042),(.151,.19,.035),cream)
-for side in [-1,1]:
- ell('Folded thigh',(side*.13,.55,-.14),(.11,.13,.20),orange,24,12)
- ell('Racing boot',(side*.135,.48,.035),(.095,.07,.15),navy,24,12)
- # shoulder-to-elbow-to-wrist continuous curved tapered arms
- tube('Soft bent forearm',[(side*.18,.90,-.20),(side*.245,.82,-.10),(side*.24,.80,.06),(side*.18,.83,.235)],[.087,.082,.067,.060],orange,14)
- ell('Paw gripping wheel',(side*.18,.834,.235),(.076,.062,.067),orange,24,12)
- for k in [-1,0,1]:tube('Paw finger crease',[(side*.184+k*.022,.875,.257),(side*.18+k*.022,.86,.29)],.003,stripe,6)
-# skull with lower jaw and cheek pads; organic volumes with smooth normals
-ell('Pear shaped skull',(0,1.245,-.095),(.335,.335,.285),orange,40,24)
-ell('Blended lower jaw',(0,1.087,.054),(.235,.175,.21),orange,28,16)
-# cheek tufts use tapered swept geometry rather than detached spheres
-for side in [-1,1]:
- for k in range(2):tube('Swept cheek tuft',[(side*.25,1.13+k*.055,.015),(side*.34,1.14+k*.065,.025),(side*.37,1.16+k*.075,.00)],[.06,.038,.001],orange,10)
- # eye dark socket / amber iris / pupil / corneal catchlight
- ell('Sculpted eye socket',(side*.137,1.30,.143),(.123,.149,.045),orange,30,18)
- ell('Warm eye white',(side*.137,1.30,.176),(.110,.137,.049),cream,30,18,group='eyes')
- ell('Amber iris',(side*.13,1.303,.214),(.073,.102,.020),iris,28,16,group='eyes')
- ell('Deep oval pupil',(side*.13,1.306,.23),(.040,.080,.014),dark,26,16,group='eyes')
- ell('Cornea highlight',(side*.13-.018,1.343,.243),(.018,.028,.008),glint,16,10,group='eyes')
- ell('Tiny eye glimmer',(side*.13+.018,1.28,.244),(.008,.011,.005),glint,12,8,group='eyes')
- # raised eyebrow, separate curved sweep
- tube('Expressive brow',[(side*.052,1.44,.156),(side*.12,1.475,.137),(side*.21,1.443,.105)],[.012,.017,.007],stripe,10)
- ell('Cream cheek muzzle',(side*.080,1.145,.207),(.105,.070,.085),cream,28,16)
- # whisker follicles, sculpted subtle dark spots
- for j in range(3):ell('Whisker freckle',(side*(.10+j*.021),1.135-j*.016,.275-j*.009),(.007,.005,.004),stripe,12,8)
-# smiling open mouth behind muzzle with tongue and lip contours
-ell('Smile opening',(0,1.071,.250),(.098,.078,.025),dark,28,16)
-ell('Little tongue',(0,1.030,.276),(.047,.025,.009),pink,24,12)
-ell('Button heart nose',(0,1.181,.292),(.042,.029,.024),pink,24,12)
-tube('Nose philtrum',[(0,1.145,.285),(0,1.115,.275)],.006,stripe,8)
-# ears are authored rounded triangular shells with inset concave rose region
-for side,key in [(-1,'ear_l'),(1,'ear_r')]:
- GROUP=key
- # outline and curved surface formed by smooth radial triangular layers
- outline=[(side*.12,1.43,-.09),(side*.34,1.70,-.115),(side*.35,1.40,-.13)]
- # triangle subdiv grid, soft protrusion front
- def earpatch(name,pts,ma,bulge):
-  v=[];f=[];n=9 if detail else 5;ids={}
-  for i in range(n+1):
-   for j in range(n+1-i):
-    a=i/n;b=j/n;c=1-a-b;p=Vector(pts[0])*a+Vector(pts[1])*b+Vector(pts[2])*c;p.z+=bulge*27*a*b*c;ids[i,j]=len(v);v.append(tuple(p))
-  for i in range(n):
-   for j in range(n-i):
-    f.append((ids[i,j],ids[i+1,j],ids[i,j+1]))
-    if j<n-i-1:f.append((ids[i+1,j],ids[i+1,j+1],ids[i,j+1]))
-  o=mesh(name,v,f,ma);o.data.materials[0]=ma
-  # glTF double-sided used for thin soft ears
-  MATS[ma.name]['doubleSided']=True
- earpatch('Rounded ear outer',outline,orange,.065)
- earpatch('Rounded ear back',[(x,y,z-.025) for x,y,z in outline],orange,-.045)
- tube('Soft ear edge',[outline[0],outline[1],outline[2],outline[0]], [.018,.010,.018,.018],orange,10)
- earpatch('Rose inset ear',[(side*.175,1.45,-.035),(side*.324,1.647,-.063),(side*.315,1.43,-.064)],pink,.022)
+# Cat-only organic refinement; the sport car above is intentionally unchanged.
+exec(compile((OUT/'source/refine_cat.py').read_text(), str(OUT/'source/refine_cat.py'), 'exec'))
 # curled tail rises from seat behind body and curls to side, clearly readable from chase camera
 GROUP='tail'
 pts=[]
@@ -217,26 +163,11 @@ for i in range(24):
  t=i/23;pts.append((-.04+.36*math.sin(t*math.pi*1.25),.69+.37*t+.10*math.sin(t*math.pi*2),-.43-.18*math.sin(t*math.pi)))
 tube('Single flowing curled tail',pts,[.058*(1-.40*i/23) for i in range(24)],orange,14)
 for j in [6,11,16,21]:tube('Tail tabby rings',pts[j:j+2],[.058*(1-.40*j/23)+.001,.058*(1-.40*(j+1)/23)+.001],stripe,14)
-# head stripes as surface-conforming tapered patches on ellipsoid, not floating painted blocks
-GROUP='driver'
-def mark(name,theta0,phi0,dtheta,dphi):
- v=[];f=[];n=12 if detail else 6
- for i in range(n+1):
-  t=i/n;th=theta0+dtheta*t;w=dphi*math.sin(math.pi*t)**.6
-  for side in [-1,1]:
-   ph=phi0+w*side;v.append((.337*math.sin(th)*math.cos(ph),1.245+.337*math.cos(th),-.095+.287*math.sin(th)*math.sin(ph)))
- for i in range(n):f.append((2*i,2*i+1,2*i+3,2*i+2))
- mesh(name,v,f,stripe)
-for ph in [.55,1.15,1.99,2.59,3.5,4.0,4.7,5.4,5.9]:mark('Tapered tabby fur marking',.27,ph,.80,.075)
-# back torso stripes
-for y in [.69,.79,.89]:
- v=[];f=[]
- for j in range(17):
-  a=math.pi+math.pi*j/16
-  for offset in [-.010,.010]:
-   yy=y+offset*math.sin(math.pi*j/16);rr=math.sqrt(max(.01,1-((yy-.76)/.285)**2));v.append((.227*rr*math.cos(a),yy,-.22+.192*rr*math.sin(a)))
- for j in range(16):f.append((2*j,2*j+1,2*j+3,2*j+2))
- mesh('Surface tabby back marking',v,f,stripe)
+# Follow the revised sculpted skull for the fur markings.
+refined_markings()
+# Cat-only markings conform to the final fused torso.
+refined_back_markings()
+clean_cat_surfaces()
 # Paw emblem on bonnet: cream pad and four toes, integrated shallow relief
 GROUP='body_suspension'
 ell('Paw badge pad',(0,.455,.55),(.032,.004,.026),white,20,10)
