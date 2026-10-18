@@ -1,0 +1,40 @@
+{
+  "baseline_commit": "276792553e913520119038cac5c9512035751d86",
+  "before": {
+    "high": {
+      "bytes": 1162168,
+      "total_triangles": 49856,
+      "material_batches": 44,
+      "car_triangles": 20931,
+      "cat_triangles": 28925
+    },
+    "low": {
+      "bytes": 528680,
+      "total_triangles": 20553,
+      "material_batches": 44,
+      "car_triangles": 8678,
+      "cat_triangles": 11875
+    },
+    "html_bytes": 19796352
+  },
+  "after": {
+    "high": {
+      "bytes": 643708,
+      "total_triangles": 28735,
+      "material_batches": 42,
+      "car_triangles": 20931,
+      "cat_triangles": 7804
+    },
+    "low": {
+      "bytes": 285268,
+      "total_triangles": 10878,
+      "material_batches": 42,
+      "car_triangles": 8678,
+      "cat_triangles": 2200
+    },
+    "html_bytes": 18772016
+  },
+  "html_change_percent": -5.17,
+  "cat_triangle_reduction_percent": 73.02,
+  "html_sha256": "053e5effaa677e9810d8c5d5e4f04df739efc8e552e8bab5b081e1cb61b52e9f"
+}

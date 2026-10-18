@@ -1,57 +1,44 @@
-# RACE QUEST — peningkatan visual Kucing / Sport
+# RACE QUEST — Kucing blocky dan Sport biru
 
-Redesign Kucing terbaru: lihat [cat-redesign/README.md](cat-redesign/README.md), [perbandingan bentuk empat sudut](cat-redesign/cat-redesign-sheet.jpg), dan [close-up di garasi](cat-redesign/after/garage-close-desktop.png). Garasi kini mempunyai mode Mobil + Karakter dan Close-up Karakter, drag untuk memutar, serta scroll/pinch untuk zoom. Model Kucing high berkurang dari 37.458 menjadi 28.925 segitiga. Mobil dan 13 karakter lain dipertahankan, termasuk hasil render identik pada pemeriksaan kompatibilitas.
+Kucing terbaru dibangun ulang menjadi karakter chibi blocky mengikuti lembar referensi: kepala kubus membulat, mata persegi, wajah krem sederhana, telinga segitiga, lengan/paw pendek dan ekor kotak melengkung. Mobil biru dipertahankan. [Lihat hasil dan pengujian lengkap](cat-blocky/README.md), [perbandingan game](cat-blocky/cat-blocky-sheet.jpg), [depan/samping/belakang Kucing](cat-blocky/cat-turnaround-sheet.jpg), dan [close-up HP](cat-blocky/after/garage-close-mobile.png).
 
-Buka **race-quest-visual-upgrade.html**. Semua aset sudah tertanam; tidak membutuhkan CDN, unduhan model, paket JavaScript, atau backend. Untuk server lokal opsional: `python3 -m http.server 8000` dari folder ini. Berkas asli tersimpan sebagai `original.html`; `../index.html` tidak diubah.
+Buka **race-quest-visual-upgrade.html**, atau ekstrak `../race-quest-playable.zip` lalu buka **RACE-QUEST-Kucing-Blocky.html**. Semua aset tertanam dan tidak membutuhkan CDN atau backend. `../index.html` dan salinan asli `original.html` tidak diubah.
 
-## Hasil
+## Hasil terbaru
 
-- `race-quest-visual-upgrade.html`: game lengkap dengan pasangan Kucing–Sport baru, termasuk garasi dan lintasan. Tiga belas karakter lain dan aset mereka dipertahankan persis.
-- `race-quest-cat-sport.glb`: model gabungan detail, dengan hierarki pivot tubuh, pengemudi, mata, telinga, ekor, kemudi roda depan, dan putaran roda.
-- `race-quest-cat-sport-low.glb`: geometri ringan untuk kualitas rendah dan Kucing yang berjarak lebih dari 24 unit dari kamera. LOD mengurangi segitiga; jumlah batch material tetap sama.
-- `source/race-quest-cat-sport.blend`: sumber Blender 4.3, material dapat diedit, pengelompokan bagian, kamera studio dan lampu untuk render. Scene editor memakai Z-up; ekspor game memakai Y-up.
-- `source/build_cat.py`: membangun geometri melalui Blender Python, memanggang modifier dan mengekspor GLB 2.0 sesuai parser game. `source/assemble.py` menanamkan kedua GLB dan perubahan renderer ke salinan HTML asli.
-- `cat-redesign/`: perbandingan redesign terbaru dan dua mode garasi. `cat-refinement/`: riwayat penyempurnaan Kucing sebelumnya dari render nyata di garasi dan balapan. `comparisons/`: tangkapan WebGL dan riwayat perbandingan tahap awal, tanpa retouch model. `comparison-sheet.jpg` memuat empat sudut. `comparison-game-race.jpg` memakai kamera balapan asli dengan posisi dan seed yang disamakan. Tangkapan lain mencatat garasi desktop/HP, balapan, dan soal.
+- [HTML playable mandiri](race-quest-visual-upgrade.html).
+- [GLB high](race-quest-cat-sport.glb) dan [GLB low](race-quest-cat-sport-low.glb), termasuk mobil, Kucing dan pivot animasi.
+- [Sumber Blender 4.3](source/race-quest-cat-sport.blend), [builder Kucing](source/refine_cat.py), [builder/exporter gabungan](source/build_cat.py), dan [assembler HTML](source/assemble.py).
+- [Perbandingan garasi](cat-blocky/comparison-garage.jpg), [wajah](cat-blocky/comparison-face.jpg), [balapan](cat-blocky/comparison-race.jpg), [depan](cat-blocky/comparison-front.jpg), [samping](cat-blocky/comparison-profile.jpg), [belakang](cat-blocky/comparison-rear.jpg).
+- Garasi menyediakan **Mobil + Karakter** dan **Close-up Karakter**. Geser untuk memutar, scroll/pinch untuk zoom; rotasi otomatis dapat dihentikan atau dilanjutkan. Close-up Kucing dibesarkan tanpa mengubah kamera balapan atau framing karakter lain.
+- `../race-quest-visual-upgrade.zip` berisi HTML, model, sumber, hasil uji dan gambar. `cat-redesign/`, `cat-refinement/` dan `comparisons/` menyimpan riwayat sebelumnya; bukti terbaru berada di `cat-blocky/`.
 
-## Desain dan integrasi
+## Perubahan dan integrasi
 
-Referensi PNG diterjemahkan menjadi bulu jingga dengan pola tabby yang mengikuti permukaan, moncong krem, mata amber berlapis, telinga berongga dan ekor melengkung. Bodi mobil dibuat dari permukaan kap melengkung dan spatbor khusus, dengan warna sian, garis putih, emblem kaki, kokpit terbuka, jok, setir, lampu depan/belakang, intake, splitter, diffuser, knalpot, spoiler, serta ban berprofil dan pelek berjari-jari.
+Kucing organik diganti volume kubus dengan bidang datar dan tepi membulat kecil. Warna krem wajah berada pada mesh kepala yang sama; tidak ada bola pipi/moncong atau pelat wajah. Mata kotak dan mulut senyum grafis terbaca pada ukuran kecil. Tabby berupa garis lebar pada kepala/tubuh/ekor, dengan warna vertex ringan dan tanpa bulu berat. Portrait pemilih Kucing dirender dari GLB baru.
 
-Material membedakan cat, kaca asap, logam, karet, bulu dan lampu. Tambahan pantulan studio dibatasi pada material model baru; kaca tetap opak untuk menghindari persoalan sorting transparansi pada renderer sederhana. Variasi permukaan bulu bersifat ringan, bukan simulasi rambut. Garasi memperoleh latar studio, lantai dan bayangan kontak; sasaran kamera HP disesuaikan agar model tidak tertutup panel keterangan.
+Seluruh geometri/material mobil high dan low sama dengan baseline `2767925`. Mobil tetap mempunyai kap/spatbor melengkung, cat sian, garis putih, kokpit, jok, setir, lampu, intake, splitter, diffuser, knalpot, spoiler, ban berprofil dan pelek. Kaca opak menghindari masalah sorting transparansi renderer.
 
-Pusat roda tetap **X ±0,59; Y 0,205; Z depan 0,48 / belakang −0,56**, dengan radius ban nominal **0,205**. Titik asal model dan kode tabrakan tetap sama. Tangan diletakkan pada sisi rim setir; ayunan tambahan pengemudi dibatasi agar kontak tidak terlepas. Suspensi, telinga, ekor dan kedipan memakai waktu simulasi, sehingga berhenti bersama permainan. Putaran dan belokan roda memakai jarak serta input kemudi yang sudah ada.
+Pusat roda tetap **X ±0,59; Y 0,205; Z depan 0,48 / belakang −0,56**, radius **0,205**, beserta origin dan pivot driver/mata/telinga/ekor. Paw duduk di sisi rim setir dan paha menyentuh jok. Kedip, gerak telinga/ekor, lean, suspensi dan respons jump memakai waktu simulasi sehingga membeku saat jeda/soal. Animasi prosedural berada di renderer; GLB tidak menyimpan klip skeletal. Sumber Blender memakai Z-up, ekspor game memakai Y-up.
 
-Animasi bersifat prosedural di renderer game. GLB menyimpan geometri dan pivot; tidak berisi klip skeletal/skin. Untuk reproduksi animasi di aplikasi lain diperlukan pengaitan pivot atau baking tersendiri. Source Blender menyediakan bagian yang dapat diedit, bukan rig deformasi produksi penuh.
+## Ukuran dibanding revisi sebelumnya
 
-## Ukuran dan beban
-
-| Ukuran | Asli | Revisi |
+| Ukuran | Sebelum (2767925) | Blocky |
 |---|---:|---:|
-| HTML | 17.997.235 byte | 19.796.352 byte (+10,0%) |
-| GLB Kucing–Sport | 348.496 byte | 1.162.168 byte; LOD 528.680 byte |
-| Segitiga model | 15.256 | 49.856; LOD 20.553 |
-| Batch gambar model, satu pass warna | 30 | 44 |
+| HTML | 19.796.352 byte | 18.772.016 byte |
+| GLB high / low | 1.162.168 / 528.680 byte | 643.708 / 285.268 byte |
+| Segitiga Kucing high / low | 28.925 / 11.875 | 7.804 / 2.200 |
+| Segitiga gabungan high / low | 49.856 / 20.553 | 28.735 / 10.878 |
+| Batch satu pass warna model | 44 | 42 |
 
-Angka batch tidak mencakup arena, partikel, atau pass bayangan. Model dekat lebih mahal daripada model lama; LOD ringan mendekati jumlah segitiga lama. `render-metrics.json` menyimpan hitungan instrumentasi dan waktu wall-time cloud. Data lama perbandingan tahap awal tetap tersimpan pada commit sebelumnya; hitungan saat ini memakai model Kucing revisi terbaru. GPU timer tidak tersedia; angka waktu tersebut hanya observasi pengiriman perintah WebGL dan tidak cukup untuk menyimpulkan biaya GPU atau FPS perangkat nyata. Pengujian HP memakai emulasi viewport dan sentuhan, bukan perangkat fisik.
+HTML berkurang 5,17%; segitiga Kucing berkurang 73,02%. Segitiga mobil tetap 20.931 / 8.678. LOD dipilih pada kualitas rendah atau Kucing jauh. Hitungan tidak mencakup arena/pass bayangan/partikel. [Metrik baseline terbaru](cat-blocky/metrics.json) dan [instrumentasi render](cat-blocky/render-metrics.json) tersedia. `render-metrics.json` di root membandingkan game asli tahap awal. Wall-time Chromium cloud bukan FPS perangkat nyata; GPU timer tidak tersedia.
 
-## Validasi
+## Validasi dan batas pengujian
 
-- Browser Chromium/WebGL: halaman utama, bank soal Ruang Guru, model di garasi, 14 model dapat dimuat, masuk balapan, A ke kiri/D ke kanan, jump, jeda, soal, buff jawaban benar, penggunaan buff, dan kelanjutan permainan.
-- Snapshot pemain, AI dan waktu renderer identik selama jeda dan saat soal terbuka setelah frame transisi selesai.
-- Desktop 1440×1000 dan HP 390×844: kontrol sentuh kiri bekerja, pratinjau dan tombol garasi tidak bertumpuk; tangkapan disertakan.
-- Browser dengan jaringan dimatikan: HTML dipasok langsung dari byte lokal, balapan berjalan tanpa permintaan HTTP aset dan tanpa error JavaScript. Pembukaan `file://` secara langsung diblokir administrator browser cloud, sehingga jalur itu tidak diklaim lolos pengujian.
-- Regresi inti: materi/jumlah soal dan JSON round trip, ekspor/impor CSV, tiga stage, konfigurasi AI bertingkat, aturan mastery/retry Grand Prix, drift, jump, pembekuan kuis, buff, hasil, ghost dan progres.
-- Logika aturan/UI/scenery serta seluruh aset asli selain GLB Kucing dibandingkan identik dengan sumber asli. Pemeriksaan sintaks JavaScript lolos. Kedua GLB berhasil diimpor kembali oleh Blender.
+Pengujian browser mencakup Ruang Guru, 14 model, A kiri/D kanan, sentuhan, jump, pause, kuis, buff benar, pemakaian buff dan lanjut balapan. Pemain, AI dan waktu animasi membeku saat pause/soal. Core mencakup PG, materi/jumlah soal, persistence, CSV, stage, AI, Grand Prix, drift, ghost, progres dan hasil. Kode aturan/UI/scenery, renderer balapan dan animasi rigid tidak berubah. Aset selain dua GLB Kucing dan portrait Kucing identik. Render mobil dan 13 karakter lain identik pada kamera uji.
 
-Smoke browser memperpendek hitungan mundur dan memosisikan pemain mendekati gerbang soal sebagai fixture. Ini menguji event/game/UI sebenarnya, bukan menyelesaikan semua putaran secara manual. Grand Prix dan hasil/ghost/progres diuji pada inti simulasi; tidak semua variasi stage, perangkat, impor file melalui UI, atau seluruh Grand Prix dijalankan manual di browser.
+Dua mode garasi diuji pada desktop 1440×1000 dan HP emulasi 390×844, termasuk mouse, drag sentuh, wheel/pinch, reset dan rotasi. Tidak ada error JavaScript/WebGL pada pemeriksaan ini. HTML dan hasil ekspor Ruang Guru berjalan dengan jaringan dimatikan, tanpa unduhan aset. Browser cloud melarang `file://`, sehingga pengujian offline memasok byte lokal langsung ke browser. HP fisik/FPS nyata dan seluruh Grand Prix manual belum diuji; browser smoke memakai fixture countdown/gerbang, sementara aturan Grand Prix diuji pada core.
 
-Hasil terperinci: `test-results.json`, `core-test-results.json`, `offline-test-results.json`, `glb-validation.json`, `asset-metrics.json`, dan `render-metrics.json`.
+Laporan terbaru: [cat-blocky/README.md](cat-blocky/README.md), `test-results.json`, `core-test-results.json`, `offline-test-results.json`, dan `glb-validation.json`. Normal GLB dan warna vertex diperiksa, kedua GLB diimpor ulang dengan Blender. Perbandingan lama–baru memakai kamera, ukuran canvas, skala, pencahayaan dan pose setara.
 
-## Reproduksi
-
-1. Blender 4.3+: `blender -b --python source/build_cat.py`.
-2. Python 3: `python3 source/assemble.py`.
-3. Server statis di folder induk proyek untuk menjalankan skrip browser (URL pengujian memakai `/visual-upgrade/...`).
-4. Node: `node source/test_core.cjs`, `node source/test_game.cjs`. Playwright disediakan runtime cloud; sesuaikan lokasi `require` dan executable Chromium bila dijalankan di mesin lain.
-
-Satu pasangan ini menjadi acuan bentuk, palet, material, pivot dan LOD untuk peningkatan 13 karakter berikutnya. Karakter lain belum didesain ulang pada tahap ini.
+Petunjuk build/test ada pada [cat-blocky/README.md](cat-blocky/README.md#reproduksi). Pasangan ini menjadi acuan gaya blocky; 13 karakter lain belum didesain ulang.

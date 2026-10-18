@@ -2,7 +2,7 @@
   "status": "passed",
   "checks": [
     "Game rules, UI logic, scenery scripts and initial data unchanged",
-    "Every original asset except cat GLB preserved exactly",
+    "Every original asset except cat model and portrait preserved exactly",
     "Teacher question count, material and JSON persistence round trip",
     "Question CSV export/import retains choices and correct answers",
     "All stages and AI difficulty settings remain available",

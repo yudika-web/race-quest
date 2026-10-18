@@ -5,7 +5,7 @@ const a=scripts(old),b=scripts(html),sandbox={module:{exports:{}}};vm.runInNewCo
 function test(name,fn){fn();checks.push(name);console.log('PASS',name)}
 test('Game rules, UI logic, scenery scripts and initial data unchanged',()=>{for(const i of [0,2,3,5])assert.equal(a[i].body,b[i].body)});
 const oldAssets=JSON.parse(a[1].body),newAssets=JSON.parse(b[1].body);
-test('Every original asset except cat GLB preserved exactly',()=>{for(const k of Object.keys(oldAssets))if(k!=='kart_arka.glb')assert.deepEqual(oldAssets[k],newAssets[k])});
+test('Every original asset except cat model and portrait preserved exactly',()=>{for(const k of Object.keys(oldAssets))if(!['kart_arka.glb','avatar_arka.webp'].includes(k))assert.deepEqual(oldAssets[k],newAssets[k])});
 test('Teacher question count, material and JSON persistence round trip',()=>{const data=C.sampleData();data.banks[0].material='Materi uji';data.banks[0].settings.count=3;const restored=C.normalizeData(JSON.parse(JSON.stringify(data)));assert.equal(restored.banks[0].settings.count,3);assert.equal(restored.banks[0].material,'Materi uji')});
 test('Question CSV export/import retains choices and correct answers',()=>{const qs=C.sampleData().banks[0].questions;const imported=C.parseCSV(C.questionsCSV(qs));assert.equal(imported.length,qs.length);qs.forEach((q,i)=>{assert.equal(q.text,imported[i].text);assert.equal(q.correct,imported[i].correct);assert.equal(JSON.stringify(q.options),JSON.stringify(imported[i].options))})});
 test('All stages and AI difficulty settings remain available',()=>{assert.equal(C.STAGES.length,3);for(const stage of C.STAGES)assert(new C.Track(stage.id).length>100);assert(C.AI_LEVELS.hard.pace>C.AI_LEVELS.easy.pace)});

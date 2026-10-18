@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "checks": [
+    "desktop close-up visibly enlarges character",
+    "desktop mode selection exposed accessibly",
+    "desktop close-up ears clear the toolbar",
+    "desktop preview clears race action buttons",
+    "desktop mouse drag rotates model",
+    "desktop wheel zoom works",
+    "desktop manual orbit stops automatic spin",
+    "desktop orbit reset restores scale and auto rotation",
+    "desktop automatic rotation can resume",
+    "desktop composition mode remains available",
+    "desktop close-up does not alter the race camera",
+    "desktop no WebGL error after garage-to-race transition",
+    "mobile close-up visibly enlarges character",
+    "mobile mode selection exposed accessibly",
+    "mobile close-up ears clear the toolbar",
+    "mobile preview clears race action buttons",
+    "mobile finger drag rotates model",
+    "mobile pinch zoom works",
+    "mobile manual orbit stops automatic spin",
+    "mobile orbit reset restores scale and auto rotation",
+    "mobile automatic rotation can resume",
+    "mobile composition mode remains available",
+    "mobile close-up does not alter the race camera",
+    "mobile no WebGL error after garage-to-race transition",
+    "No JavaScript errors in preview controls"
+  ],
+  "devices": [
+    {
+      "device": "desktop",
+      "eye_span_full_px": 56.43308930063904,
+      "eye_span_close_px": 126.66630216163674,
+      "enlargement": 2.2445395729948525,
+      "fit": {
+        "earTop": 250.93123046509922,
+        "controlsBottom": 115,
+        "previewBottom": 902.5,
+        "footerTop": 918.5,
+        "noteTop": 837
+      },
+      "raceCameraDistance": 6.799999999999999
+    },
+    {
+      "device": "mobile",
+      "eye_span_full_px": 22.387931948220256,
+      "eye_span_close_px": 46.643832798148395,
+      "enlargement": 2.0834364203906013,
+      "fit": {
+        "earTop": 501.9255041763066,
+        "controlsBottom": 464.03125,
+        "previewBottom": 761,
+        "footerTop": 771,
+        "noteTop": 695.5
+      },
+      "raceCameraDistance": 6.799999999999999
+    }
+  ],
+  "errors": []
+}

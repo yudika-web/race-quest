@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-10-18T22:27:47.018515+00:00",
+  "html_sha256": "053e5effaa677e9810d8c5d5e4f04df739efc8e552e8bab5b081e1cb61b52e9f",
+  "original_main_index_unchanged": true,
+  "artifacts": {
+    "race-quest-visual-upgrade.html": {
+      "bytes": 18772016,
+      "sha256": "053e5effaa677e9810d8c5d5e4f04df739efc8e552e8bab5b081e1cb61b52e9f"
+    },
+    "race-quest-cat-sport.glb": {
+      "bytes": 643708,
+      "sha256": "5c37eea5cf87818f6785703652ea7185b1c8f7eafa91bd06dc9c321bde8d7255"
+    },
+    "race-quest-cat-sport-low.glb": {
+      "bytes": 285268,
+      "sha256": "750888d04ca58e569733e306b593a145b36590ee79a473d87b2ef733e5462bcc"
+    },
+    "source/race-quest-cat-sport.blend": {
+      "bytes": 3581424,
+      "sha256": "46247f440a69e22e6af3c4ae23ad98fbab2a0e58006e0ba6ecc921b37b995973"
+    },
+    "cat-blocky/avatar.webp": {
+      "bytes": 7452,
+      "sha256": "cafd8d63d2bea8d4cb50c8eebf5ba835051ad5bd3ea275ba87244b6e2ef13604"
+    }
+  },
+  "checks": {
+    "test-results.json": {
+      "status": "passed",
+      "check_count": 17
+    },
+    "core-test-results.json": {
+      "status": "passed",
+      "check_count": 7
+    },
+    "offline-test-results.json": {
+      "status": "passed",
+      "check_count": 0
+    },
+    "cat-blocky/scope-verification.json": {
+      "status": "passed",
+      "check_count": 0
+    },
+    "cat-blocky/preview-tests.json": {
+      "status": "passed",
+      "check_count": 25
+    },
+    "cat-blocky/animation-tests.json": {
+      "status": "passed",
+      "check_count": 10
+    },
+    "cat-blocky/unchanged-renders.json": {
+      "status": "passed",
+      "check_count": 14
+    },
+    "cat-blocky/export-tests.json": {
+      "status": "passed",
+      "check_count": 4
+    },
+    "cat-blocky/camera-verification.json": {
+      "status": "passed",
+      "check_count": 0
+    },
+    "cat-blocky/turnaround-cameras.json": {
+      "status": "passed",
+      "check_count": 0
+    }
+  }
+}

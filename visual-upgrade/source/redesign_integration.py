@@ -18,8 +18,8 @@ def integrate(s,renderer,D):
   if(!this.garageOrbit)this.garageOrbit={yaw:.52,pitch:.318,scale:1,auto:true,dragging:false,lastTime:null};
   const orbit=this.garageOrbit,dt=orbit.lastTime===null?0:Math.max(0,Math.min(.05,time-orbit.lastTime));orbit.lastTime=time;
   if(orbit.auto&&!orbit.dragging)orbit.yaw+=dt*.12;
-  const close=this.garageView==='close',narrow=this.canvas.clientWidth<600;
-  const target=[0,close?1.19:(narrow?.70:.85),close?.015:0],radius=(close?(narrow?2.15:1.95):4.0)*orbit.scale;
+  const close=this.garageView==='close',narrow=this.canvas.clientWidth<600,cat=character===0;
+  const target=[0,close?(cat?1.32:1.19):(narrow?.70:.85),close?.015:0],radius=(close?(cat?(narrow?1.85:1.75):(narrow?2.15:1.95)):4.0)*orbit.scale;
   const eye=[Math.sin(orbit.yaw)*radius*Math.cos(orbit.pitch),target[1]+radius*Math.sin(orbit.pitch),Math.cos(orbit.yaw)*radius*Math.cos(orbit.pitch)];
   this.clock=time;this.weather='clear';this.begin(eye,target,0);this.gl.uniform1f(this.L.uSunEnabled,0);
   this.drawPrimitive(this.studioFloor,M.identity(),0);this.drawShadow(M.trans([0,.002,0]));this.drawModel(KARTS[character],M.identity(),{fog:0});

@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Teacher HTML export preserves embedded color model and controls",
+    "Exported HTML resets accessible mode to full composition",
+    "Exported HTML close-up works with browser network disabled",
+    "Exported game starts race offline without JavaScript errors"
+  ],
+  "errors": [],
+  "status": "passed"
+}

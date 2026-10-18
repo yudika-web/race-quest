@@ -13,6 +13,7 @@ await page.locator('[data-act="exportBanks"]:visible').click();await page.locato
 await page.locator('#home [data-act="setup"]').click();await page.locator('#playerName').fill('Visual QA');await page.locator('#setupForm button[type="submit"]').click();await page.locator('#helpDialog').waitFor({state:'visible'});await page.locator('#helpDialog [data-close="helpDialog"]').first().click();
 await page.screenshot({path:OUT+'/comparisons/garage-desktop.png'});
 check(await page.evaluate(()=>!!testRenderer.models['kart_arka.glb']),'New cat GLB loaded in garage');
+check(await page.locator('#characterGrid [data-index="0"] img').evaluate(el=>el.complete&&el.naturalWidth===256),'Blocky cat portrait loads in character selection');
 // Test every model through the same parser while retaining the original 13 characters.
 const models=await page.evaluate(()=>{const r=testRenderer;return RaceCore.CHARACTERS.map(c=>{r.ensureModel(c.model);return {name:c.name,file:c.model,nodes:r.models[c.model].doc.nodes.length}})});check(models.length===14,'All 14 character models still load');report.models=models;
 await page.evaluate(()=>testRenderer.setQuality('low'));await page.locator('#startRaceBtn').click();await page.locator('#race').waitFor({state:'visible'});await page.waitForFunction(()=>window.testSession);await page.evaluate(()=>{testSession.countdown=.01});await page.waitForFunction(()=>testSession.status==='racing',{},{timeout:120000});

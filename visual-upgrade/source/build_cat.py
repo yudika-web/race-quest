@@ -154,13 +154,13 @@ for side,x in [('l',-.59),('r',.59)]:
   for k in range(5):
    a=math.tau*k/5;pts=[(face+sg*.033,.205+.025*math.cos(a),z+.025*math.sin(a)),(face+sg*.037,.205+.085*math.cos(a+.12),z+.085*math.sin(a+.12)),(face+sg*.029,.205+.139*math.cos(a+.18),z+.139*math.sin(a+.18))];tube('Swept forged spoke',pts,[.016,.013,.011],metal,8)
   ell('Cyan axle cap',(face+sg*.047,.205,z),(.014,.037,.037),blue,16,10)
-# Cat-only organic refinement; the sport car above is intentionally unchanged.
+# Cat-only blocky/chibi rebuild; the sport car above is intentionally unchanged.
 exec(compile((OUT/'source/refine_cat.py').read_text(), str(OUT/'source/refine_cat.py'), 'exec'))
-# Sculpted tapered S-tail, retaining the original tail pivot.
+# Square-section curled tail, retaining the original tail pivot.
 redesigned_tail()
-# Follow the revised sculpted skull for the fur markings.
+# Graphic tabby bars wrap the cube crown.
 refined_markings()
-# Cat-only markings conform to the final fused torso.
+# Flat rear markings on the cube head and short torso.
 refined_back_markings()
 clean_cat_surfaces()
 # Paw emblem on bonnet: cream pad and four toes, integrated shallow relief
@@ -176,19 +176,24 @@ def export(path,decimate=1):
   p,t=pivots[name];return Vector(t)+(absolute(p) if p else Vector((0,0,0)))
  for o in list(bpy.context.scene.objects):
   if o.type!='MESH':continue
-  if decimate<1:
+  cat=o.get('cat_blocky',False);bevels=[(m,m.segments) for m in o.modifiers if m.type=='BEVEL']
+  if cat:
+   for m,_ in bevels:m.segments=1 if decimate<.5 else 3
+   bpy.context.view_layer.update()
+  if decimate<1 and not cat:
    mod=o.modifiers.new('Distance LOD','DECIMATE');mod.ratio=decimate
    bpy.context.view_layer.update()
   ev=o.evaluated_get(deps);me=ev.to_mesh();me.calc_loop_triangles();group=o['pivot'];ma=o.data.materials[0];origin=absolute(group)
   # normals orientation from Blender geometry; keep both faces for sculpted thin panels
   V=[];N=[];C=[];F=[];lookup={};colors=me.color_attributes.get('CatGradient')
   for tri in me.loop_triangles:
-   for vi in tri.vertices:
-    vert=me.vertices[vi];pos=o.matrix_world@vert.co-origin;n=o.matrix_world.to_3x3()@vert.normal;n.normalize();key=tuple(round(x,7) for x in (*pos,*n))
-    if key not in lookup:lookup[key]=len(V);V.append(tuple(pos));N.append(tuple(n));C.append(tuple(colors.data[vi].color[:3]) if colors else (1,1,1))
+   for vi,li in zip(tri.vertices,tri.loops):
+    vert=me.vertices[vi];pos=o.matrix_world@vert.co-origin;n=o.matrix_world.to_3x3()@(me.corner_normals[li].vector if cat else vert.normal);n.normalize();color=tuple(max(0.0,min(1.0,c)) for c in colors.data[li if colors.domain=='CORNER' else vi].color[:3]) if colors else (1,1,1);key=tuple(round(x,7) for x in (*pos,*n,*color)) if colors else tuple(round(x,7) for x in (*pos,*n))
+    if key not in lookup:lookup[key]=len(V);V.append(tuple(pos));N.append(tuple(n));C.append(color)
     F.append(lookup[key])
   batches[(group,ma.name)].append((V,N,C,F,bool(colors)));triangles+=len(F)//3;ev.to_mesh_clear()
-  if decimate<1:o.modifiers.remove(mod)
+  if decimate<1 and not cat:o.modifiers.remove(mod)
+  for m,segments in bevels:m.segments=segments
  bin=bytearray();views=[];accs=[];meshes=[];nodes=[];materials=json.loads(json.dumps(list(MATS.values())));
  for material in materials:
   if int(material['name'][:2])>=10:material['pbrMetallicRoughness']['baseColorFactor']=[1,1,1,1]

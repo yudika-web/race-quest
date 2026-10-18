@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "viewport": [
+    256,
+    256
+  ],
+  "checks": [
+    {
+      "model": "car-only",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_nara.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_bimo.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_sora.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_bebek.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_ayam.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_domba.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_robot.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_anjing.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_tikus.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_rubah.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_panda.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_koala.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_rakun.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    }
+  ],
+  "note": "Identical camera, light and pose; no color attribute present on car or the other 13 characters."
+}

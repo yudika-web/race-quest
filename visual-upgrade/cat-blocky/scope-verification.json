@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "276792553e913520119038cac5c9512035751d86",
+  "status": "passed",
+  "models": [
+    {
+      "file": "race-quest-cat-sport.glb",
+      "car_batches_identical": 28,
+      "rig_pivots_identical": true,
+      "old_triangles": 49856,
+      "new_triangles": 28735,
+      "bytes": 643708
+    },
+    {
+      "file": "race-quest-cat-sport-low.glb",
+      "car_batches_identical": 28,
+      "rig_pivots_identical": true,
+      "old_triangles": 20553,
+      "new_triangles": 10878,
+      "bytes": 285268
+    }
+  ],
+  "gameplay_scenery_and_race_camera_identical": true,
+  "existing_rig_animation_logic_identical": true,
+  "existing_garage_controls_and_vertex_colors_retained": true,
+  "cat_only_closeup_framing_adjusted": true,
+  "other_assets_identical": true,
+  "only_cat_model_lods_and_portrait_replaced": true
+}

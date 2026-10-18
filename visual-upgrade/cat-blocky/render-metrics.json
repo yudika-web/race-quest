@@ -1,0 +1,78 @@
+[
+  {
+    "label": "before",
+    "quality": "high",
+    "width": 640,
+    "height": 512,
+    "draws": 44,
+    "triangles": 49856,
+    "medianWallMs": 0.20000000018626451,
+    "timingsMs": [
+      0.10000000055879354,
+      0.19999999925494194,
+      0.20000000018626451,
+      0.20000000018626451,
+      0.39999999944120646
+    ],
+    "glError": 0,
+    "gpuTimerAvailable": false,
+    "note": "Isolated model only; gl.finish wall time on cloud Chromium software rendering, not device FPS."
+  },
+  {
+    "label": "before-low",
+    "quality": "low",
+    "width": 416,
+    "height": 333,
+    "draws": 44,
+    "triangles": 20553,
+    "medianWallMs": 0.20000000018626451,
+    "timingsMs": [
+      0.09999999962747097,
+      0.20000000018626451,
+      0.20000000018626451,
+      0.2999999998137355,
+      0.40000000037252903
+    ],
+    "glError": 0,
+    "gpuTimerAvailable": false,
+    "note": "Isolated model only; gl.finish wall time on cloud Chromium software rendering, not device FPS."
+  },
+  {
+    "label": "after",
+    "quality": "high",
+    "width": 640,
+    "height": 512,
+    "draws": 42,
+    "triangles": 28735,
+    "medianWallMs": 0.40000000037252903,
+    "timingsMs": [
+      0.09999999962747097,
+      0.20000000018626451,
+      0.40000000037252903,
+      0.40000000037252903,
+      1.2999999998137355
+    ],
+    "glError": 0,
+    "gpuTimerAvailable": false,
+    "note": "Isolated model only; gl.finish wall time on cloud Chromium software rendering, not device FPS."
+  },
+  {
+    "label": "after-low",
+    "quality": "low",
+    "width": 416,
+    "height": 333,
+    "draws": 42,
+    "triangles": 10878,
+    "medianWallMs": 0.20000000018626451,
+    "timingsMs": [
+      0.09999999962747097,
+      0.19999999925494194,
+      0.20000000018626451,
+      0.20000000018626451,
+      0.30000000074505806
+    ],
+    "glError": 0,
+    "gpuTimerAvailable": false,
+    "note": "Isolated model only; gl.finish wall time on cloud Chromium software rendering, not device FPS."
+  }
+]

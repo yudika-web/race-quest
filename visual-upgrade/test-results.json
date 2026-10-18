@@ -2,6 +2,7 @@
   "checks": [
     "Teacher question bank renders",
     "New cat GLB loaded in garage",
+    "Blocky cat portrait loads in character selection",
     "All 14 character models still load",
     "A steers left",
     "D steers right",
@@ -23,7 +24,7 @@
     {
       "name": "Kucing",
       "file": "kart_arka.glb",
-      "nodes": 59
+      "nodes": 57
     },
     {
       "name": "Pinguin",

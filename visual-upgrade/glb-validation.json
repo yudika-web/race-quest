@@ -1,18 +1,18 @@
 [
   {
     "file": "race-quest-cat-sport.glb",
-    "meshes": 44,
+    "meshes": 42,
     "root": true,
-    "unit_normals_checked": 26884,
-    "color_vertices_checked": 14572,
-    "bytes": 1162168
+    "unit_normals_checked": 15888,
+    "color_vertices_checked": 4068,
+    "bytes": 643708
   },
   {
     "file": "race-quest-cat-sport-low.glb",
-    "meshes": 44,
+    "meshes": 42,
     "root": true,
-    "unit_normals_checked": 11966,
-    "color_vertices_checked": 6224,
-    "bytes": 528680
+    "unit_normals_checked": 6804,
+    "color_vertices_checked": 1266,
+    "bytes": 285268
   }
 ]

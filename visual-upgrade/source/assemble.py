@@ -5,6 +5,8 @@ D=Path(__file__).resolve().parents[1]
 s=(D/'original.html').read_text();assets=json.loads(re.search(r'<script id="assetData"[^>]*>(.*?)</script>',s,re.S)[1])
 for key,file in [('kart_arka.glb','race-quest-cat-sport.glb'),('kart_arka_low.glb','race-quest-cat-sport-low.glb')]:
  b=(D/file).read_bytes();assets[key]={'uri':'data:model/gltf-binary;base64,'+base64.b64encode(b).decode(),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+# The cat's selection portrait is an actual render of the same delivered GLB.
+b=(D/'cat-blocky/avatar.webp').read_bytes();assets['avatar_arka.webp']={'uri':'data:image/webp;base64,'+base64.b64encode(b).decode(),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
 s=re.sub(r'(<script id="assetData"[^>]*>).*?(</script>)',lambda m:m[1]+json.dumps(assets,separators=(',',':'))+m[2],s,flags=re.S)
 renderer=(D/'source/original-script-4.js').read_text()
 old="drawModel(file,matrix,{spin=0,steer=0,fog=1}={}){"
