@@ -156,13 +156,8 @@ for side,x in [('l',-.59),('r',.59)]:
   ell('Cyan axle cap',(face+sg*.047,.205,z),(.014,.037,.037),blue,16,10)
 # Cat-only organic refinement; the sport car above is intentionally unchanged.
 exec(compile((OUT/'source/refine_cat.py').read_text(), str(OUT/'source/refine_cat.py'), 'exec'))
-# curled tail rises from seat behind body and curls to side, clearly readable from chase camera
-GROUP='tail'
-pts=[]
-for i in range(24):
- t=i/23;pts.append((-.04+.36*math.sin(t*math.pi*1.25),.69+.37*t+.10*math.sin(t*math.pi*2),-.43-.18*math.sin(t*math.pi)))
-tube('Single flowing curled tail',pts,[.058*(1-.40*i/23) for i in range(24)],orange,14)
-for j in [6,11,16,21]:tube('Tail tabby rings',pts[j:j+2],[.058*(1-.40*j/23)+.001,.058*(1-.40*(j+1)/23)+.001],stripe,14)
+# Sculpted tapered S-tail, retaining the original tail pivot.
+redesigned_tail()
 # Follow the revised sculpted skull for the fur markings.
 refined_markings()
 # Cat-only markings conform to the final fused torso.
@@ -186,15 +181,18 @@ def export(path,decimate=1):
    bpy.context.view_layer.update()
   ev=o.evaluated_get(deps);me=ev.to_mesh();me.calc_loop_triangles();group=o['pivot'];ma=o.data.materials[0];origin=absolute(group)
   # normals orientation from Blender geometry; keep both faces for sculpted thin panels
-  V=[];N=[];F=[];lookup={}
+  V=[];N=[];C=[];F=[];lookup={};colors=me.color_attributes.get('CatGradient')
   for tri in me.loop_triangles:
    for vi in tri.vertices:
     vert=me.vertices[vi];pos=o.matrix_world@vert.co-origin;n=o.matrix_world.to_3x3()@vert.normal;n.normalize();key=tuple(round(x,7) for x in (*pos,*n))
-    if key not in lookup:lookup[key]=len(V);V.append(tuple(pos));N.append(tuple(n))
+    if key not in lookup:lookup[key]=len(V);V.append(tuple(pos));N.append(tuple(n));C.append(tuple(colors.data[vi].color[:3]) if colors else (1,1,1))
     F.append(lookup[key])
-  batches[(group,ma.name)].append((V,N,F));triangles+=len(F)//3;ev.to_mesh_clear()
+  batches[(group,ma.name)].append((V,N,C,F,bool(colors)));triangles+=len(F)//3;ev.to_mesh_clear()
   if decimate<1:o.modifiers.remove(mod)
- bin=bytearray();views=[];accs=[];meshes=[];nodes=[];materials=list(MATS.values());mi={m['name']:i for i,m in enumerate(materials)}
+ bin=bytearray();views=[];accs=[];meshes=[];nodes=[];materials=json.loads(json.dumps(list(MATS.values())));
+ for material in materials:
+  if int(material['name'][:2])>=10:material['pbrMetallicRoughness']['baseColorFactor']=[1,1,1,1]
+ mi={m['name']:i for i,m in enumerate(materials)}
  def acc(data,typ,ctype):
   while len(bin)%4:bin.append(0)
   off=len(bin);flat=[x for v in data for x in v] if typ=='VEC3' else data;fmt='f' if ctype==5126 else 'H';bin.extend(struct.pack('<'+fmt*len(flat),*flat));views.append({'buffer':0,'byteOffset':off,'byteLength':len(bin)-off});a={'bufferView':len(views)-1,'componentType':ctype,'count':len(data),'type':typ}
@@ -205,10 +203,12 @@ def export(path,decimate=1):
  for name,(parent,t) in pivots.items():
   if parent:nodes[idx[parent]]['children'].append(idx[name])
  for (group,ma),chunks in batches.items():
-  V=[];N=[];F=[]
-  for v,n,f in chunks:base=len(V);V+=v;N+=n;F += [i+base for i in f]
+  V=[];N=[];C=[];F=[];colored=False
+  for v,n,c,f,has_color in chunks:base=len(V);V+=v;N+=n;C+=c;F += [i+base for i in f];colored=colored or has_color
   assert len(V)<65536,(group,ma,len(V))
-  prim={'attributes':{'POSITION':acc(V,'VEC3',5126),'NORMAL':acc(N,'VEC3',5126)},'indices':acc(F,'SCALAR',5123),'material':mi[ma]};meshes.append({'name':group+'_'+ma,'primitives':[prim]});nodes[idx[group]]['children'].append(len(nodes));nodes.append({'name':group+'_'+ma,'mesh':len(meshes)-1})
+  prim={'attributes':{'POSITION':acc(V,'VEC3',5126),'NORMAL':acc(N,'VEC3',5126)},'indices':acc(F,'SCALAR',5123),'material':mi[ma]};
+  if colored:prim['attributes']['COLOR_0']=acc(C,'VEC3',5126)
+  meshes.append({'name':group+'_'+ma,'primitives':[prim]});nodes[idx[group]]['children'].append(len(nodes));nodes.append({'name':group+'_'+ma,'mesh':len(meshes)-1})
  # Thin body lofts are intentionally two-sided; tires and solids remain closed.
  for m in materials:
   if m['name'].startswith(('01_','03_','07_','12_')):m['doubleSided']=True

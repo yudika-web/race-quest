@@ -1,0 +1,41 @@
+{
+  "baseline": "12a3a6f700430f0a39dd4eb3a8ed9ba480106b9c",
+  "html_before_bytes": 19736629,
+  "html_after_bytes": 19796352,
+  "models": {
+    "high": {
+      "before": {
+        "triangles": 58389,
+        "car_triangles": 20931,
+        "cat_triangles": 37458,
+        "draw_batches": 44,
+        "bytes": 1137120
+      },
+      "after": {
+        "triangles": 49856,
+        "car_triangles": 20931,
+        "cat_triangles": 28925,
+        "draw_batches": 44,
+        "bytes": 1162168
+      },
+      "cat_triangle_reduction_percent": 22.78
+    },
+    "low": {
+      "before": {
+        "triangles": 24083,
+        "car_triangles": 8678,
+        "cat_triangles": 15405,
+        "draw_batches": 44,
+        "bytes": 513684
+      },
+      "after": {
+        "triangles": 20553,
+        "car_triangles": 8678,
+        "cat_triangles": 11875,
+        "draw_batches": 44,
+        "bytes": 528680
+      },
+      "cat_triangle_reduction_percent": 22.91
+    }
+  }
+}

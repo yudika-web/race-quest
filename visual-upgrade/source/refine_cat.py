@@ -1,278 +1,295 @@
-"""Organic cat refinement, executed by build_cat.py in the shared Blender context.
-Only driver / eyes / ears are authored here. Car geometry and material definitions
-remain in build_cat.py without modification. All coordinates are game Y-up.
+"""Tabby kitten redesign, game Y-up. Executed in the Blender builder context.
+Shape language: wide cheek apples, tapered heart jaw, canted almond eyes,
+cupped outward ears, compact torso, curled digits and a tapering S-tail.
 """
-
-# Smooth cross-sections define a pear-shaped skull, integrated jaw and chin.
-# (height, half width, front depth, back depth)
-HEAD_SECTIONS=[(.965,0,.035,.035),(.985,.095,.145,-.115),
- (1.025,.184,.218,-.270),(1.085,.267,.237,-.340),
- (1.160,.322,.211,-.373),(1.245,.334,.185,-.381),
- (1.330,.323,.174,-.365),(1.410,.288,.143,-.328),
- (1.485,.220,.085,-.269),(1.545,.126,-.006,-.196),
- (1.578,0,-.101,-.101)]
+HEAD_SECTIONS=[(.963,0,.132,.132),(.987,.108,.236,-.070),
+ (1.030,.233,.279,-.203),(1.095,.344,.277,-.307),
+ (1.175,.387,.244,-.354),(1.275,.373,.220,-.374),
+ (1.390,.326,.194,-.352),(1.500,.263,.123,-.294),
+ (1.590,.148,-.008,-.207),(1.628,0,-.109,-.109)]
 
 def catmull(a,b,c,d,t):
- return .5*((2*b)+(-a+c)*t+(2*a-5*b+4*c-d)*t*t+(-a+3*b-3*c+d)*t*t*t)
+ return .5*(2*b+(-a+c)*t+(2*a-5*b+4*c-d)*t*t+(-a+3*b-3*c+d)*t*t*t)
 
 def head_profile(y):
+ base=[0,-.109,-.109]
  for i in range(len(HEAD_SECTIONS)-1):
   b,c=HEAD_SECTIONS[i:i+2]
   if y<=c[0]:
-   a=HEAD_SECTIONS[max(0,i-1)];d=HEAD_SECTIONS[min(len(HEAD_SECTIONS)-1,i+2)]
-   t=max(0,min(1,(y-b[0])/(c[0]-b[0])))
-   return [catmull(a[k],b[k],c[k],d[k],t) for k in range(1,4)]
- return [0,-.101,-.101]
+   a=HEAD_SECTIONS[max(0,i-1)];d=HEAD_SECTIONS[min(len(HEAD_SECTIONS)-1,i+2)];t=max(0,min(1,(y-b[0])/(c[0]-b[0])))
+   base=[catmull(a[k],b[k],c[k],d[k],t) for k in range(1,4)];break
+ if y>1.32:
+  factor=math.sqrt(max(0,1-((y-1.40)/.228)**2))
+  cap=[.322*factor,-.080+.267*factor,-.080-.267*factor]
+  t=max(0,min(1,(y-1.32)/.20));t=t*t*(3-2*t)
+  return [a*(1-t)+b*t for a,b in zip(base,cap)]
+ return base
+
+def gauss(x,c,w):return math.exp(-((x-c)/w)**2)
+def facial_volume(x,y):
+ # Muzzle and brow volumes belong to the skull itself, not attached balls.
+ cheeks=.038*(gauss(x,-.113,.115)+gauss(x,.113,.115))*gauss(y,1.145,.085)
+ bridge=.026*gauss(x,0,.052)*gauss(y,1.255,.105)
+ orbit=-.012*(gauss(x,-.160,.117)+gauss(x,.160,.117))*gauss(y,1.323,.104)
+ return cheeks+bridge+orbit
 
 def face_z(x,y):
- w,front,back=head_profile(y)
- return (front+back)*.5+(front-back)*.5*math.sqrt(max(.001,1-(x/max(.001,w))**2))
+ w,front,back=head_profile(y);s=math.sqrt(max(.001,1-(x/max(.001,w))**2))
+ return (front+back)/2+(front-back)/2*s+facial_volume(x,y)*s**4
 
-def smooth_path(points,radii,steps=8):
+def smooth_path(points,radii,steps=7):
  pts=[];rs=[]
  for j in range(len(points)-1):
-  a=points[max(0,j-1)];b=points[j];c=points[j+1];d=points[min(len(points)-1,j+2)]
+  a,b,c,d=points[max(0,j-1)],points[j],points[j+1],points[min(len(points)-1,j+2)]
   for i in range(steps):
    t=i/steps;pts.append(tuple(catmull(a[k],b[k],c[k],d[k],t) for k in range(3)))
    rs.append(catmull(radii[max(0,j-1)],radii[j],radii[j+1],radii[min(len(points)-1,j+2)],t))
- pts.append(points[-1]);rs.append(radii[-1]);return pts,rs
+ return pts+[points[-1]],rs+[radii[-1]]
 
-def curved_tube(name,points,radii,material,sides=20,steps=8,group=None):
- pts,rs=smooth_path(points,radii,steps)
- return tube(name,pts,rs,material,sides,group)
+def curved_tube(name,points,radii,material,sides=16,steps=7,group=None):
+ p,r=smooth_path(points,radii,steps);return tube(name,p,r,material,sides,group)
 
-def surface_patch(name,center,radius,material,depth=.0,radial=12,segments=56,group=None,bulge=None):
- # A fitted face patch; the edge follows the actual skull instead of a floating disk.
- v=[];f=[];cx,cy=center;rx,ry=radius
- for j in range(radial+1):
-  r=j/radial
-  for k in range(segments):
-   a=math.tau*k/segments;x=cx+rx*r*math.cos(a);y=cy+ry*r*math.sin(a)
-   z=face_z(x,y)+depth+(bulge(x,y,r) if bulge else 0)
-   v.append((x,y,z))
- for j in range(radial):
-  for k in range(segments):
-   a=j*segments+k;b=j*segments+(k+1)%segments;f.append((a,b,b+segments,a+segments))
- # x/y parametrization is front-facing (positive Z).
- return mesh(name,v,[tuple(reversed(q)) for q in f],material,group=group)
+def patch(name,coords,material,group='driver',rings=10,segments=48):
+ v=[];f=[]
+ for j in range(rings+1):
+  r=j/rings
+  for i in range(segments):
+   a=math.tau*i/segments;v.append(coords(r*math.cos(a),r*math.sin(a),r))
+ for j in range(rings):
+  for i in range(segments):
+   a=j*segments+i;b=j*segments+(i+1)%segments;f.append((a,a+segments,b+segments,b))
+ # Winding is corrected per connected patch, including mirrored eye patches.
+ o=mesh(name,v,f,material,group=group)
+ if sum(p.normal.z for p in o.data.polygons)<0:
+  import bmesh
+  bm=bmesh.new();bm.from_mesh(o.data);bmesh.ops.reverse_faces(bm,faces=list(bm.faces));bm.to_mesh(o.data);bm.free();o.data.update()
+ return o
 
 GROUP='driver'
-# Authored head surface, not intersecting cheek/jaw spheres.
-v=[];f=[];rings=72;segments=72
+# Analytic skull: actual cheek projection, tapered lower jaw, shorter chin.
+v=[];f=[];rings=44;segments=64
 for j in range(rings+1):
- y=HEAD_SECTIONS[0][0]+(HEAD_SECTIONS[-1][0]-HEAD_SECTIONS[0][0])*j/rings
- w,front,back=head_profile(y)
+ y=.963+(1.628-.963)*j/rings;w,front,back=head_profile(y)
  for k in range(segments):
-  a=k*math.tau/segments
-  # Soft, shallow cheek flares belong to the same continuous surface.
-  flare=.007*math.exp(-((y-1.145)/.055)**2)*abs(math.cos(a))**8
-  v.append(((w+flare)*math.cos(a),y,(front+back)*.5+(front-back)*.5*math.sin(a)))
+  a=k*math.tau/segments;x=w*math.cos(a)
+  flare=.012*gauss(y,1.145,.060)*abs(math.cos(a))**8
+  x+=math.copysign(flare,x)
+  z=(front+back)/2+(front-back)/2*math.sin(a)+facial_volume(x,y)*max(0,math.sin(a))**4
+  v.append((x,y,z))
 for j in range(rings):
  for k in range(segments):
   a=j*segments+k;b=j*segments+(k+1)%segments;f.append((a,a+segments,b+segments,b))
-head=mesh('Cat — continuous sculpted skull and jaw',v,f,orange)
-
-# Continuous seated pear torso, shoulders, elbows, wrists, hips and paws.
-# Skin is fused below with a cat-only voxel remesh and curvature smoothing.
-skin=[head]
-skin.append(ell('Cat — seated pear torso',(0,.752,-.214),(.218,.265,.183),orange,40,28))
-skin.append(ell('Cat — soft neck bridge',(0,.969,-.160),(.148,.136,.142),orange,36,24))
-skin.append(ell('Cat — seated pelvis',(0,.568,-.171),(.213,.121,.169),orange,36,24))
+head=mesh('Cat — heart-shaped cheek and jaw sculpt',v,f,orange)
+# Compact torso and tapered arms. The head retains its analytic topology;
+# only the smaller torso/limb volume is fused, at a bounded resolution.
+skin=[ell('Cat — compact seated ribcage',(0,.739,-.193),(.186,.223,.155),orange,32,20),
+ ell('Cat — short soft neck',(0,.936,-.128),(.126,.105,.123),orange,28,18),
+ ell('Cat — seated haunches',(0,.562,-.168),(.202,.112,.155),orange,28,18)]
 for side in [-1,1]:
- skin.append(ell('Cat — connected folded thigh',(side*.118,.553,-.103),(.105,.103,.175),orange,32,22))
- skin.append(curved_tube('Cat — continuous shoulder to wrist',
-  [(side*.146,.921,-.204),(side*.209,.879,-.165),
-   (side*.242,.810,-.060),(side*.225,.807,.092),(side*.180,.839,.231)],
-  [.084,.081,.075,.061,.048],orange,24,10))
- skin.append(ell('Cat — rounded gripping palm',(side*.180,.847,.232),(.066,.052,.055),orange,36,24))
- skin.append(curved_tube('Cat — tucked gripping thumb',
-  [(side*.146,.850,.210),(side*.137,.827,.228),(side*.151,.812,.245)],
-  [.031,.028,.019],orange,20,7))
- # Feet remain under the bonnet and fit the existing seat and floor.
- ell('Cat — fitted racing shoe',(side*.128,.458,.025),(.088,.064,.141),navy,32,20)
-
-# Remove internal intersections and hard shoulder/jaw seams. This operation is
-# deliberately scoped to orange cat skin; the car is never remeshed/subdivided.
+ skin.append(ell('Cat — folded thigh',(side*.121,.548,-.097),(.098,.091,.160),orange,24,16))
+ skin.append(curved_tube('Cat — shoulder elbow wrist sweep',[(side*.137,.887,-.151),(side*.201,.858,-.133),(side*.247,.791,-.028),(side*.224,.809,.109),(side*.180,.835,.225)],[.073,.071,.062,.052,.039],orange,20,7))
+ skin.append(ell('Cat — grip palm',(side*.181,.840,.234),(.056,.044,.052),orange,28,18))
+ for dx in [-.024,0,.024]:
+  x=side*.180+dx
+  skin.append(curved_tube('Cat — curled grip digit',[(x,.863,.247),(x,.852,.274),(x,.829,.278),(x,.817,.258)],[.016,.017,.014,.010],orange,12,5))
+ skin.append(curved_tube('Cat — opposed thumb',[(side*.148,.846,.213),(side*.137,.826,.233),(side*.154,.812,.257)],[.025,.022,.014],orange,14,6))
+ ell('Cat — small fitted shoe',(side*.126,.452,.025),(.083,.059,.133),navy,24,16)
 bpy.ops.object.select_all(action='DESELECT')
 for o in skin:o.select_set(True)
-bpy.context.view_layer.objects.active=head;bpy.ops.object.join()
-head.name='Cat — unified organic skin';head.data.remesh_voxel_size=.009
+bpy.context.view_layer.objects.active=skin[0];bpy.ops.object.join();body=bpy.context.object
+body.name='Cat — fused compact body and articulated grip';body['pivot']='driver';body.data.remesh_voxel_size=.0105
 bpy.ops.object.voxel_remesh()
-head['pivot']='driver'
-for p in head.data.polygons:p.use_smooth=True
-sm=head.modifiers.new('Cat-only curvature relaxation','SMOOTH');sm.factor=1.05;sm.iterations=5
-bpy.ops.object.modifier_apply(modifier=sm.name)
-# Keep surface normals reliable after the union.
-head.data.update()
-retopo=head.modifiers.new('Cat-only controlled surface density','DECIMATE');retopo.ratio=.28
-bpy.ops.object.modifier_apply(modifier=retopo.name)
-for p in head.data.polygons:p.use_smooth=True
+sm=body.modifiers.new('Relax joins only','SMOOTH');sm.factor=.8;sm.iterations=3;bpy.ops.object.modifier_apply(modifier=sm.name)
+de=body.modifiers.new('Bounded body topology','DECIMATE');de.ratio=.36;bpy.ops.object.modifier_apply(modifier=de.name)
+for p in body.data.polygons:p.use_smooth=True
+# Fitted chest bib, broader at its base, not an extra belly volume.
+def chest(u,v,r):
+ x=.111*u;y=.774+.139*v;z=-.193+.155*math.sqrt(max(.01,1-(x/.186)**2-((y-.739)/.223)**2))+.003
+ return x,y,z
+patch('Cat — cream chest bib',chest,cream,rings=10,segments=40)
+# Eye anatomy: outward-canted almond openings, less exposed sclera, deep iris.
+pupil=mat('16_Deep_teal_pupil','15292A',.24)
+def eye_xy(side,u,v):return side*(.158+.126*u),1.322+.106*v*(.95-.09*abs(u))+.012*u
 
-# A cream bib follows the torso rather than protruding as a separate belly ball.
-v=[];f=[];seg=48;radial=12
-for j in range(radial+1):
- r=j/radial
- for k in range(seg):
-  a=k*math.tau/seg;x=.133*r*math.cos(a);y=.792+.171*r*math.sin(a)
-  z=-.214+.183*math.sqrt(max(.01,1-(x/.218)**2-((y-.752)/.265)**2))+.0035
-  v.append((x,y,z))
-for j in range(radial):
- for k in range(seg):
-  a=j*seg+k;b=j*seg+(k+1)%seg;f.append((a,b,b+seg,a+seg))
-mesh('Cat — fitted cream chest marking',v,[tuple(reversed(q)) for q in f],cream)
-
-# Subtle curved paw creases define three toes without sausage-like fingers.
+def eye_z(x,y,side,offset=0):
+ u=(side*x-.158)/.126;v=(y-1.322-.012*u)/(.106*(.95-.09*abs(u)))
+ return face_z(x,y)+.004+.032*max(0,1-u*u-v*v)**.7+offset
 for side in [-1,1]:
- for dx in [-.018,.010]:
-  curved_tube('Cat — soft paw crease',
-   [(side*.180+dx,.885,.255),(side*.180+dx,.877,.272),(side*.180+dx,.866,.281)],
-   [.0006,.0014,.0006],stripe,8,5)
-
-# Recessed, symmetric eye surfaces are projected onto the skull. Orbital skin
-# stays part of the head; only eye surfaces use the existing blink pivot.
-for side in [-1,1]:
- cx=side*.132;cy=1.302;rx=.106;ry=.128
- def sclera_height(x,y,r):return .028*max(0,1-r*r)**.70
- surface_patch('Cat — fitted sclera',(cx,cy),(rx,ry),cream,.0028,12,56,'eyes',sclera_height)
- def eye_layer(x,y,r):
-  rr=((x-cx)/rx)**2+((y-cy)/ry)**2
-  return .028*max(0,1-rr)**.70
- # Slightly smaller irises and consistent inset depth avoid the old goggle rim.
- surface_patch('Cat — polished amber iris',(cx,cy+.001),(.068,.096),iris,.005,10,48,'eyes',eye_layer)
- surface_patch('Cat — clean oval pupil',(cx,cy+.003),(.038,.073),dark,.007,10,44,'eyes',eye_layer)
- for dx,dy,sx,sy in [(-.018,.040,.016,.024),(.018,-.027,.0065,.010)]:
-  x=cx+dx;y=cy+dy;z=face_z(x,y)+.011+eye_layer(x,y,0)
-  ell('Cat — soft corneal glint',(x,y,z),(sx,sy,.004),glint,16,10,group='eyes')
- # Rounded eyelids follow the orbital edge, with soft tapered inner corners.
+ def eye_surface(u,v,r,side=side):
+  x,y=eye_xy(side,u,v);return x,y,eye_z(x,y,side)
+ patch('Cat — almond sclera',eye_surface,cream,'eyes',12,56)
+ def iris_surface(u,v,r,side=side):
+  x,y=eye_xy(side,-.04+.61*u,.01+.82*v);return x,y,eye_z(x,y,side,.0025)
+ patch('Cat — honey iris',iris_surface,iris,'eyes',10,48)
+ def pupil_surface(u,v,r,side=side):
+  x,y=eye_xy(side,-.04+.315*u,.015+.66*v);return x,y,eye_z(x,y,side,.0045)
+ patch('Cat — deep living pupil',pupil_surface,pupil,'eyes',10,40)
+ for dx,dy,sx,sy in [(-.020,.031,.014,.021),(.016,-.029,.005,.008)]:
+  x=side*(.158-.04*.126)+dx;y=1.322+dy
+  ell('Cat — eye catchlight',(x,y,eye_z(x,y,side,.009)),(sx,sy,.0035),glint,16,10,group='eyes')
  for upper in [True,False]:
-  pts=[];rs=[]
-  for i in range(25):
-   a=(math.pi*i/24) if upper else (math.pi+math.pi*i/24)
-   x=cx+rx*math.cos(a);y=cy+ry*math.sin(a)
-   pts.append((x,y,face_z(x,y)+.004));rs.append(.003+.006*math.sin(math.pi*i/24)**.7)
-  tube('Cat — blended upper eyelid' if upper else 'Cat — blended lower eyelid',pts,rs,orange,12)
- # Clean tapered brows, less heavy and angular than the original bars.
+  points=[];radii=[]
+  for j in range(29):
+   a=(0 if upper else math.pi)+math.pi*j/28;x,y=eye_xy(side,math.cos(a),math.sin(a))
+   points.append((x,y,face_z(x,y)+.005));radii.append((.004 if upper else .002)+(.009 if upper else .005)*math.sin(math.pi*j/28)**.7)
+  tube('Cat — sculpted eyelid',points,radii,orange,12)
+ # Friendly raised inner brow, no heavy angular moustache over the eyes.
  points=[]
- for x,y in [(side*.053,1.443),(side*.127,1.463),(side*.214,1.430)]:points.append((x,y,face_z(x,y)+.005))
- curved_tube('Cat — tapered expressive brow',points,[.004,.010,.002],stripe,12,10)
-
-# One bilobed cream muzzle with a continuous bridge replaces two intersecting
-# cheek balls. The perimeter blends flush into the authored cheek surface.
-def muzzle_bulge(x,y,r):
- lobes=math.exp(-((x-.073)/.082)**2)+math.exp(-((x+.073)/.082)**2)
- return (.012+.042*lobes)*max(0,1-r*r)**.8
-surface_patch('Cat — continuous bilobed muzzle',(0,1.145),(.191,.079),cream,.0025,18,72,bulge=muzzle_bulge)
-# A small chin marking extends the same surface flow below the smile.
-surface_patch('Cat — soft cream chin',(0,1.015),(.092,.028),cream,.002,8,40)
-surface_patch('Cat — inset smiling mouth',(0,1.070),(.084,.058),dark,.005,12,56)
-surface_patch('Cat — tongue inside smile',(0,1.042),(.036,.015),pink,.0075,8,36)
-
-# Rounded heart/triangle nose, with a gently narrowing lower half and satin tip.
-o=ell('Cat — softly sculpted nose',(0,1.178,.271),(.036,.025,.018),pink,40,24)
-for vtx in o.data.vertices:
- ny=(vtx.co.y-1.178)/.025
- vtx.co.x*=.82+.24*(ny+1)/2
-# Philtrum is seated on the muzzle; no detached rod between nose and mouth.
-curved_tube('Cat — fine philtrum',[(0,1.157,.270),(0,1.139,.264),(0,1.123,.258)],
- [.0028,.0024,.0012],stripe,10,8)
+ for x,y in [(side*.064,1.443),(side*.145,1.477),(side*.247,1.456)]:points.append((x,y,face_z(x,y)+.004))
+ curved_tube('Cat — expressive brow',points,[.003,.008,.001],stripe,10,7)
+# A heart-like cream mask traces the actual cheek/muzzle volumes of the skull.
+def muzzle_surface(u,v,r):
+ x=.226*u;y=1.153+.080*v+.008*gauss(abs(x),.110,.070)
+ return x,y,face_z(x,y)+.0035
+patch('Cat — sculpted whisker muzzle',muzzle_surface,cream,rings=15,segments=64)
+# Radial polygon patch, using a smooth closed contour and a domed surface.
+def outline_patch(name,points,material,offset=.006,dome=0,group='driver',rings=10):
+ center=sum((Vector((x,y)) for x,y in points),Vector((0,0)))/len(points)
+ boundary=[]
+ for j in range(len(points)):
+  a,b,c,d=points[(j-1)%len(points)],points[j],points[(j+1)%len(points)],points[(j+2)%len(points)]
+  for k in range(5):boundary.append(tuple(catmull(a[i],b[i],c[i],d[i],k/5) for i in range(2)))
+ v=[];f=[];n=len(boundary)
+ for j in range(rings+1):
+  r=j/rings
+  for xy in boundary:
+   q=center+(Vector(xy)-center)*r;x,y=q
+   v.append((x,y,face_z(x,y)+offset+dome*(1-r*r)))
+ for j in range(rings):
+  for k in range(n):
+   a=j*n+k;b=j*n+(k+1)%n;f.append((a,a+n,b+n,b))
+ o=mesh(name,v,f,material,group=group)
+ if sum(p.normal.z for p in o.data.polygons)<0:
+  import bmesh
+  bm=bmesh.new();bm.from_mesh(o.data);bmesh.ops.reverse_faces(bm,faces=list(bm.faces));bm.to_mesh(o.data);bm.free();o.data.update()
+ return o
+outline_patch('Cat — upward smiling mouth',[(-.143,1.105),(-.089,1.083),(0,1.080),(.089,1.083),(.143,1.105),(.101,1.045),(.043,1.016),(0,1.010),(-.043,1.016),(-.101,1.045)],pupil,.008)
+patch('Cat — tongue in smile',lambda u,v,r:(.040*u,1.037+.016*v,face_z(.040*u,1.037+.016*v)+.011),pink,rings=8,segments=32)
+# Two small incisors catch the upper lip; they are rounded shallow relief.
+for side in [-1,1]:
+ patch('Cat — tiny smile tooth',lambda u,v,r,side=side:(side*.023+.018*u,1.073+.010*v,face_z(side*.023+.018*u,1.073+.010*v)+.012),cream,rings=6,segments=24)
+outline_patch('Cat — heart triangle nose',[(-.037,1.210),(-.015,1.215),(0,1.209),(.015,1.215),(.037,1.210),(.027,1.190),(0,1.171),(-.027,1.190)],pink,.009,.018,rings=8)
+curved_tube('Cat — philtrum',[(0,1.176,face_z(0,1.176)+.008),(0,1.152,face_z(0,1.152)+.007),(0,1.127,face_z(0,1.127)+.006)],[.0025,.002,.0008],stripe,8,6)
 for side in [-1,1]:
  for j in range(3):
-  x=side*(.096+j*.021);y=1.144-j*.012;r=math.sqrt((x/.191)**2+((y-1.145)/.079)**2)
-  z=face_z(x,y)+.004+muzzle_bulge(x,y,r)
-  ell('Cat — tiny whisker follicle',(x,y,z),(.0038,.0035,.002),stripe,16,10)
-
-# Closed rounded ears: a real volume with a softly inset inner ear, replacing
-# the thin triangular sheets and angular tube outlines of the prior model.
-def rounded_outline(vertices,rounding=.20,steps=10):
- points=[]
- for i,c in enumerate(vertices):
-  prev=Vector(vertices[(i-1)%len(vertices)]);c=Vector(c);nxt=Vector(vertices[(i+1)%len(vertices)])
-  a=c+(prev-c)*rounding;b=c+(nxt-c)*rounding
-  for j in range(steps):
-   t=j/steps;points.append(tuple((1-t)**2*a+2*t*(1-t)*c+t*t*b))
- return points
+  x=side*(.123+j*.024);y=1.154-j*.015
+  ell('Cat — whisker freckles',(x,y,face_z(x,y)+.006),(.0035,.003,.0015),stripe,12,8)
+# Closed cupped ears with outward sweeping tips and a rolled rim. Not a flat triangle.
 for side,key in [(-1,'ear_l'),(1,'ear_r')]:
- GROUP=key
- outline=rounded_outline([(side*.119,1.421,-.085),(side*.331,1.698,-.111),(side*.348,1.407,-.130)],.19,12)
- area=sum(outline[i][0]*outline[(i+1)%len(outline)][1]-outline[(i+1)%len(outline)][0]*outline[i][1] for i in range(len(outline)))
- if area<0:outline.reverse()
- n=len(outline);center=sum((Vector(p) for p in outline),Vector())/n;v=[];f=[];nr=10
+ boundary2=[(.125,1.457),(.201,1.574),(.385,1.809),(.424,1.824),(.435,1.767),(.422,1.588),(.401,1.453),(.316,1.432)]
+ points=[]
+ for j in range(len(boundary2)):
+  a,b,c,d=boundary2[(j-1)%len(boundary2)],boundary2[j],boundary2[(j+1)%len(boundary2)],boundary2[(j+2)%len(boundary2)]
+  for i in range(5):points.append((side*catmull(a[0],b[0],c[0],d[0],i/5),catmull(a[1],b[1],c[1],d[1],i/5)))
+ points=[(x*.96,1.46+(y-1.46)*.82) for x,y in points]
+ if sum(points[i][0]*points[(i+1)%len(points)][1]-points[(i+1)%len(points)][0]*points[i][1] for i in range(len(points)))<0:points.reverse()
+ center=sum((Vector(q) for q in points),Vector((0,0)))/len(points);n=len(points);nr=9;v=[];f=[]
+ def ear_z(x,y):return -.065-.105*(y-1.46)/.30+.026*gauss(y,1.73,.07)-.075*gauss(y,1.455,.11)
  for back in [False,True]:
   for j in range(nr+1):
    r=j/nr
-   for p in outline:
-    q=center+(Vector(p)-center)*r
-    q.z+=(-.013-.030*(1-r*r)) if back else (.013+.045*(1-r*r))
-    v.append(tuple(q))
+   for q in points:
+    x,y=center+(Vector(q)-center)*r
+    z=ear_z(x,y)+(-.028-.034*(1-r*r) if back else .018+.035*r*r)
+    v.append((x,y,z))
  count=(nr+1)*n
- for offset in [0,count]:
+ for off in [0,count]:
   for j in range(nr):
    for k in range(n):
-    a=offset+j*n+k;b=offset+j*n+(k+1)%n
-    face=(a,b,b+n,a+n);f.append(tuple(reversed(face)) if offset==0 else face)
- for k in range(n):
-  a=nr*n+k;b=nr*n+(k+1)%n;f.append((a,a+count,b+count,b))
- mesh('Cat — rounded volumetric ear',v,f,orange)
+    a=off+j*n+k;b=off+j*n+(k+1)%n;face=(a,a+n,b+n,b);f.append(face if not off else tuple(reversed(face)))
+ for k in range(n):a=nr*n+k;b=nr*n+(k+1)%n;f.append((a,b,b+count,a+count))
+ mesh('Cat — swept cupped ear',v,f,orange,group=key)
  v=[];f=[]
- for j in range(11):
-  r=j/10
-  for p in outline:
-   q=center+(Vector(p)-center)*r*.71
-   q.y+=.008;q.z+=.015+.045*(1-(r*.71)**2)
-   v.append(tuple(q))
- for j in range(10):
-  for k in range(n):
-   a=j*n+k;b=j*n+(k+1)%n;f.append((a,b,b+n,a+n))
- mesh('Cat — inset rose ear bowl',v,[tuple(reversed(q)) for q in f],pink)
+ for j in range(nr+1):
+  r=j/nr
+  for q in points:
+   x,y=center+(Vector(q)-center)*r*.73
+   z=ear_z(x,y)+.020+.035*(r*.73)**2
+   v.append((x,y,z))
+ for j in range(nr):
+  for k in range(n):a=j*n+k;b=j*n+(k+1)%n;f.append((a,a+n,b+n,b))
+ mesh('Cat — velvet ear concha',v,f,pink,group=key)
 
-# The tail keeps its existing mesh and pivot. All animation remains untouched.
-GROUP='driver'
+def redesigned_tail():
+ p,r=smooth_path([(0,.659,-.383),(-.14,.705,-.50),(-.37,.830,-.65),(-.50,1.020,-.66),(-.52,1.190,-.60),(-.475,1.285,-.53),(-.43,1.250,-.52)], [.057,.056,.052,.047,.038,.027,.010],7)
+ tube('Cat — tapering S tail',p,r,orange,18,group='tail')
+ # Color bands are fitted to the same swept surface and taper with the tail.
+ for a,b in [(10,13),(23,26),(35,38)]:tube('Cat — tail tabby band',p[a:b+1],[x+.0009 for x in r[a:b+1]],stripe,18,group='tail')
+
 def refined_markings():
- # Surface-following painted strokes; no geometry spikes along the cheek.
- global GROUP
- GROUP='driver'
- for ph in [.55,1.15,1.99,2.59,3.5,4.0,4.7,5.4,5.9]:
-  v=[];f=[];steps=24
-  for i in range(steps+1):
-   t=i/steps;y=1.554-(.158 if math.sin(ph)>0 else .245)*t
-   w,front,back=head_profile(y);width=.070*math.sin(math.pi*t)**.7
-   for sign in [-1,1]:
-    a=ph+sign*width;v.append(((w+.0018)*math.cos(a),y,(front+back)*.5+((front-back)*.5+.0018)*math.sin(a)))
-  for i in range(steps):f.append((2*i,2*i+1,2*i+3,2*i+2))
-  mesh('Cat — fine tapered crown marking',v,f,stripe)
- # Small side cheek markings stay embedded and do not change the silhouette.
  for side in [-1,1]:
-  for y0 in [1.155,1.208]:
+  for index in range(3):
+   ph=(.88+index*.43) if side==1 else (math.pi-.88-index*.43)
+   v=[];f=[]
+   for i in range(21):
+    t=i/20;y=1.594-(.137+index*.009)*t;w,front,back=head_profile(y)
+    for s in [-1,1]:
+     a=ph+s*.072*math.sin(math.pi*t)**.65;x=(w+.0016)*math.cos(a);z=(front+back)/2+((front-back)/2+.0016)*math.sin(a)+facial_volume(x,y)*max(0,math.sin(a))**4
+     v.append((x,y,z))
+   for i in range(20):f.append((2*i,2*i+1,2*i+3,2*i+2))
+   mesh('Cat — forehead tabby M stroke',v,f,stripe,group='driver')
+ # Rear crown stripes keep the kitten readable from the chase camera.
+ for ph in [3.65,4.15,4.7,5.25,5.75]:
+  v=[];f=[]
+  for i in range(21):
+   t=i/20;y=1.592-.293*t;w,front,back=head_profile(y)
+   for s in [-1,1]:
+    a=ph+s*.055*math.sin(math.pi*t)**.7;v.append(((w+.0015)*math.cos(a),y,(front+back)/2+((front-back)/2+.0015)*math.sin(a)))
+  for i in range(20):f.append((2*i,2*i+1,2*i+3,2*i+2))
+  mesh('Cat — tapered rear crown tabby',v,f,stripe,group='driver')
+ for side in [-1,1]:
+  for yy in [1.159,1.218]:
    pts=[]
-   for i in range(16):
-    t=i/15;x=side*(.266-.052*t);y=y0+.009*math.sin(math.pi*t)
-    pts.append((x,y,face_z(x,y)+.001))
-   tube('Cat — painted cheek accent',pts,[.0008+.0032*math.sin(math.pi*i/15) for i in range(16)],stripe,8)
+   for j in range(17):
+    t=j/16;x=side*(.328-.089*t);y=yy+.013*math.sin(math.pi*t);pts.append((x,y,face_z(x,y)+.002))
+   tube('Cat — cheek tabby sweep',pts,[.0005+.006*math.sin(math.pi*j/16) for j in range(17)],stripe,8,group='driver')
 
 def refined_back_markings():
- # Project color strokes onto the final fused skin instead of the old ellipsoid.
  from mathutils.bvhtree import BVHTree
- bpy.context.view_layer.update()
- tree=BVHTree.FromObject(head,bpy.context.evaluated_depsgraph_get())
- for y0 in [.69,.79,.89]:
+ bpy.context.view_layer.update();tree=BVHTree.FromObject(body,bpy.context.evaluated_depsgraph_get())
+ for yy in [.673,.762,.844]:
   v=[];f=[]
-  for j in range(25):
-   t=j/24;x=-.175+.35*t
-   for sign in [-1,1]:
-    y=y0+.010*math.sin(math.pi*t)+sign*.006*math.sin(math.pi*t)
-    hit,normal,index,distance=tree.ray_cast(Vector((x,y,-1)),Vector((0,0,1)))
-    assert hit is not None,'Back marking must remain on the skin'
-    v.append((x,y,hit.z-.0013))
-  for j in range(24):f.append((2*j,2*j+1,2*j+3,2*j+2))
-  mesh('Cat — skin-fitted back stripe',v,f,stripe,group='driver')
+  for j in range(21):
+   t=j/20;x=-.145+.29*t
+   for side in [-1,1]:
+    y=yy+.011*math.sin(math.pi*t)+side*.007*math.sin(math.pi*t);hit,*_=tree.ray_cast(Vector((x,y,-1)),Vector((0,0,1)))
+    assert hit is not None;v.append((x,y,hit.z-.001))
+  for j in range(20):f.append((2*j,2*j+1,2*j+3,2*j+2))
+  mesh('Cat — fitted back tabby',v,f,stripe,group='driver')
+
+def linear_hex(h):
+ vals=[int(h[i:i+2],16)/255 for i in (0,2,4)]
+ return [v/12.92 if v<.04045 else ((v+.055)/1.055)**2.4 for v in vals]
+def blend(a,b,t):return [x*(1-t)+y*t for x,y in zip(a,b)]
+def cat_color(o,p):
+ x,y,z=p;name=o.data.materials[0].name;kind=int(name[:2]);original=MATS[name]['pbrMetallicRoughness']['baseColorFactor'][:3]
+ if kind==10:
+  color=linear_hex('E7973D');crown=gauss(y,1.56,.18);color=blend(color,linear_hex('D47726'),crown*.65)
+  cheek=gauss(y,1.15,.13)*max(0,min(1,(z+.05)/.3));color=blend(color,linear_hex('F6BC76'),cheek*.67)
+  paw=gauss(y,.850,.048)*gauss(z,.261,.065);color=blend(color,linear_hex('F1C480'),paw*.72)
+  return color
+ if kind==11:
+  color=linear_hex('FFF0D2');edge=0
+  if 'muzzle' in o.name:
+   rr=math.sqrt((x/.226)**2+((y-1.153)/.080)**2);edge=max(0,min(1,(rr-.68)/.32))*.5
+  return blend(color,linear_hex('EDB56F'),edge)
+ if kind==12:return linear_hex('965020')
+ if kind==13:
+  if 'ear' in o.name:return blend(linear_hex('B96D70'),linear_hex('F3BEAC'),max(0,min(1,(y-1.50)/.28)))
+  return linear_hex('CB8586')
+ if kind==14:
+  return blend(linear_hex('875020'),linear_hex('EFBE46'),max(0,min(1,(1.38-y)/.13)))
+ if kind==16:return linear_hex('12292B')
+ return original
 
 def clean_cat_surfaces():
- # Weld collapsed patch centres and UV-sphere poles before computing normals.
- # Scope by authored cat object names; wheel/car meshes are intentionally exempt.
  import bmesh
  for o in list(bpy.context.scene.objects):
   if o.type=='MESH' and o.name.startswith('Cat —'):
-   bm=bmesh.new();bm.from_mesh(o.data)
-   bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.0000005)
-   bm.to_mesh(o.data);bm.free();o.data.update()
+   bm=bmesh.new();bm.from_mesh(o.data);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.0000005);bm.to_mesh(o.data);bm.free();o.data.update()
    for p in o.data.polygons:p.use_smooth=True
+   material=o.data.materials[0]
+   if int(material.name[:2])>=10:
+    attr=o.data.color_attributes.new(name='CatGradient',type='FLOAT_COLOR',domain='POINT')
+    for i,v in enumerate(o.data.vertices):attr.data[i].color=(*cat_color(o,tuple(o.matrix_world@v.co)),1)
+    material.use_nodes=True;nodes=material.node_tree.nodes;shader=nodes.get('Principled BSDF');vc=nodes.get('CatGradient') or nodes.new('ShaderNodeVertexColor');vc.name='CatGradient';vc.layer_name='CatGradient';material.node_tree.links.new(vc.outputs['Color'],shader.inputs['Base Color'])

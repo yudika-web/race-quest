@@ -52,6 +52,10 @@ renderer=renderer.replace('vec3 c=base*diffuse+specColor*sp+uEmissive*.42;', """
 renderer=renderer.replace('double:mat.doubleSided,texture:', "double:mat.doubleSided,hero:/^[0-9][0-9]_/.test(mat.name||'')?1:0,fur:/^(10_|11_)/.test(mat.name||'')?1:0,texture:")
 renderer=renderer.replace('gl.uniform3fv(L.uColor,mat.color);', 'gl.uniform1f(L.uHero,mat.hero||0);gl.uniform1f(L.uFur,mat.fur||0);gl.uniform3fv(L.uColor,mat.color);')
 renderer=renderer.replace('[0,.95,0],0);this.gl.uniform1f', '[0,this.canvas.clientWidth<600?.70:.85,0],0);this.gl.uniform1f')
+import sys
+sys.dont_write_bytecode=True
+from redesign_integration import integrate
+s,renderer=integrate(s,renderer,D)
 s=s.replace((D/'source/original-script-4.js').read_text(),renderer)
 # Give the garage a quiet studio backdrop rather than competing scene artwork.
 css='''

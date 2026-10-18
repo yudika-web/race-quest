@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "cases": [
+    "garage",
+    "face",
+    "front",
+    "profile",
+    "rear",
+    "race"
+  ],
+  "projection_and_view_matrices_bit_identical": true,
+  "canvas_dimensions_identical": true
+}

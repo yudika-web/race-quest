@@ -17,9 +17,9 @@ class Renderer{
  constructor(canvas,assets){
   this.canvas=canvas;this.assets=assets;this.gl=canvas.getContext('webgl',{antialias:true,alpha:true,powerPreference:'high-performance'});if(!this.gl)throw Error('Perangkat ini belum mendukung WebGL. Coba Chrome/Edge dengan akselerasi grafis aktif.');
   const gl=this.gl;this.models={};this.textureList=[];this.eye=null;this.mode='none';
-  const vs=`attribute vec3 aPos,aNormal;attribute vec2 aUV;uniform mat4 uModel,uView,uProjection,uLightMatrix;uniform float uFoliage,uTime;varying vec3 vNormal,vWorld;varying vec2 vUV;varying vec4 vLight;void main(){vec4 w=uModel*vec4(aPos,1.0);w.x+=uFoliage*.045*sin(w.z*.7+uTime*.65)*smoothstep(1.7,4.0,aPos.y);vWorld=w.xyz;vNormal=mat3(uModel)*aNormal;vUV=aUV;vLight=uLightMatrix*w;gl_Position=uProjection*uView*w;}`;
+  const vs=`attribute vec3 aPos,aNormal,aPaint;attribute vec2 aUV;uniform mat4 uModel,uView,uProjection,uLightMatrix;uniform float uFoliage,uTime;varying vec3 vNormal,vWorld,vPaint;varying vec2 vUV;varying vec4 vLight;void main(){vec4 w=uModel*vec4(aPos,1.0);w.x+=uFoliage*.045*sin(w.z*.7+uTime*.65)*smoothstep(1.7,4.0,aPos.y);vWorld=w.xyz;vPaint=aPaint;vNormal=mat3(uModel)*aNormal;vUV=aUV;vLight=uLightMatrix*w;gl_Position=uProjection*uView*w;}`;
   const fs=`precision highp float;
-varying vec3 vNormal,vWorld;varying vec2 vUV;varying vec4 vLight;
+varying vec3 vNormal,vWorld,vPaint;varying vec2 vUV;varying vec4 vLight;
 uniform vec3 uColor,uEye,uEmissive;uniform float uRough,uMetal,uHasTexture,uFog,uAlpha,uShadow,uWater,uTime,uFoliage,uSunEnabled,uBubble,uOil,uWeather,uOpacity,uSunQuality,uHero,uFur;uniform vec3 uFogColor,uPaint;uniform sampler2D uTexture;uniform highp sampler2D uSunMap;uniform vec2 uSunTexel;
 float sunlight(vec3 n,vec3 l){
  if(uSunEnabled<.5)return 1.0;vec3 q=vLight.xyz/vLight.w*.5+.5;
@@ -32,7 +32,7 @@ void main(){
  float fog=clamp((distance(uEye,vWorld)-mix(105.0,23.0,step(1.5,uWeather)))/mix(290.0,85.0,step(1.5,uWeather)),0.0,1.0)*uFog;
  if(uShadow>.5){float r=length((vUV-.5)*2.0);float a=(1.0-smoothstep(.12,1.0,r))*uAlpha*(1.0-fog);gl_FragColor=vec4(.025,.042,.060,a);return;}
  vec3 n=normalize(vNormal);if(!gl_FrontFacing)n=-n;
- vec3 base=uColor*uPaint;if(uHasTexture>.5)base*=pow(texture2D(uTexture,vUV).rgb,vec3(2.2));
+ vec3 base=uColor*uPaint*vPaint;if(uHasTexture>.5)base*=pow(texture2D(uTexture,vUV).rgb,vec3(2.2));
  if(uWater>.5){vec2 q=vWorld.xz;n=normalize(vec3(.055*cos(q.x*1.2+uTime),1.0,.045*sin(q.y*1.6-uTime*.7)));float wave=.5+.5*sin(q.x*2.2+q.y*.7+uTime*.8);base*=.9+.15*wave;}
  vec3 l=normalize(vec3(-1.0,2.0,1.0)),v=normalize(uEye-vWorld),h=normalize(l+v);float sun=sunlight(n,l);
  float hemi=clamp(n.y*.5+.5,0.0,1.0);vec3 ambient=mix(vec3(.18,.17,.125),vec3(.34,.45,.56),hemi);
@@ -54,7 +54,7 @@ void main(){
 }`;
   const shader=(t,s)=>{let o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);if(!gl.getShaderParameter(o,gl.COMPILE_STATUS))throw Error('Shader: '+gl.getShaderInfoLog(o));return o};
   this.prog=gl.createProgram();gl.attachShader(this.prog,shader(gl.VERTEX_SHADER,vs));gl.attachShader(this.prog,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(this.prog);if(!gl.getProgramParameter(this.prog,gl.LINK_STATUS))throw Error('Tampilan 3D belum dapat dimuat.');gl.useProgram(this.prog);
-  this.L={};for(let a of ['aPos','aNormal','aUV'])this.L[a]=gl.getAttribLocation(this.prog,a);for(let u of ['uModel','uView','uProjection','uColor','uEye','uEmissive','uRough','uMetal','uHasTexture','uTexture','uFog','uAlpha','uShadow','uWater','uTime','uFoliage','uLightMatrix','uSunEnabled','uSunMap','uSunTexel','uBubble','uOil','uWeather','uOpacity','uSunQuality','uFogColor','uPaint','uHero','uFur'])this.L[u]=gl.getUniformLocation(this.prog,u);
+  this.L={};for(let a of ['aPos','aNormal','aUV','aPaint'])this.L[a]=gl.getAttribLocation(this.prog,a);for(let u of ['uModel','uView','uProjection','uColor','uEye','uEmissive','uRough','uMetal','uHasTexture','uTexture','uFog','uAlpha','uShadow','uWater','uTime','uFoliage','uLightMatrix','uSunEnabled','uSunMap','uSunTexel','uBubble','uOil','uWeather','uOpacity','uSunQuality','uFogColor','uPaint','uHero','uFur'])this.L[u]=gl.getUniformLocation(this.prog,u);
   gl.enable(gl.DEPTH_TEST);gl.enable(gl.CULL_FACE);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);
   this.quality='auto';this.pixelScale=.9;this.maxParticles=300;this.viewDistance=105;this.frameWindow=[];this.adaptCooldown=0;
   this.roadTexture=this.textureURI(assets['texture_road.webp'].uri);this.grassTexture=this.textureURI(assets['texture_grass.webp'].uri);
@@ -64,7 +64,7 @@ void main(){
 this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles(shader);this.scenery=new RaceScenery(this);this.clock=0;this.cameraTime=0;this.cameraTarget=null;this.initSunShadows(shader);this.initSky(shader);this.setQuality('auto');
  }
  ensureModel(file){if(!this.models[file])this.loadModel(file)}
- prepareModels(files){const keep=new Set(files);for(const f of files)this.ensureModel(f);if(keep.has('kart_arka.glb'))keep.add('kart_arka_low.glb');for(const f of [...KARTS,'kart_arka_low.glb'])if(this.models[f]&&!keep.has(f)){const m=this.models[f];for(const group of [m.primitives,m.depthPrimitives])for(const ps of Object.values(group))for(const p of ps)for(const b of [p.pos,p.normal,p.uv,p.index])if(b)this.gl.deleteBuffer(b);delete this.models[f]}}
+ prepareModels(files){const keep=new Set(files);for(const f of files)this.ensureModel(f);if(keep.has('kart_arka.glb'))keep.add('kart_arka_low.glb');for(const f of [...KARTS,'kart_arka_low.glb'])if(this.models[f]&&!keep.has(f)){const m=this.models[f];for(const group of [m.primitives,m.depthPrimitives])for(const ps of Object.values(group))for(const p of ps)for(const b of [p.pos,p.normal,p.uv,p.paint,p.index])if(b)this.gl.deleteBuffer(b);delete this.models[f]}}
  setQuality(value){this.quality=['low','medium','high','auto'].includes(value)?value:'auto';const q=this.quality;this.pixelScale=q==='low'?.65:q==='high'?1.4:.9;this.maxParticles=q==='low'?120:q==='high'?480:300;this.viewDistance=q==='low'?78:q==='high'?125:105;const size=q==='high'?1024:512;if(size!==this.sunSize&&this.sunTexture){const gl=this.gl;this.sunSize=size;gl.bindTexture(gl.TEXTURE_2D,this.sunTexture);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,size,size,0,gl.RGBA,gl.UNSIGNED_BYTE,null);gl.bindRenderbuffer(gl.RENDERBUFFER,this.sunDepth);gl.renderbufferStorage(gl.RENDERBUFFER,gl.DEPTH_COMPONENT16,size,size);gl.bindRenderbuffer(gl.RENDERBUFFER,null)}this.frameWindow=[];this.adaptCooldown=0}
  observeFrame(dt){if(this.quality!=='auto'||dt<=0||dt>.25)return;this.adaptCooldown=Math.max(0,this.adaptCooldown-dt);this.frameWindow.push(dt);const span=this.frameWindow.reduce((a,b)=>a+b,0);if(span<2)return;const fps=this.frameWindow.length/span;this.frameWindow=[];if(!this.adaptCooldown&&fps<32&&this.pixelScale>.55){this.pixelScale=Math.max(.55,this.pixelScale-.1);this.adaptCooldown=4}else if(!this.adaptCooldown&&fps>55&&this.pixelScale<.9){this.pixelScale=Math.min(.9,this.pixelScale+.05);this.adaptCooldown=10}}
  initSunShadows(shader){
@@ -84,7 +84,7 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
   const center=[pos.x,pos.y+2,pos.z],eye=[center[0]-42,center[1]+84,center[2]+42];this.lightMatrix=M.mul(orthographic(45,1,180),look(eye,center));
   // Snap the light projection to texels to suppress shimmering while driving.
   for(const i of [12,13])this.lightMatrix[i]=Math.round(this.lightMatrix[i]*this.sunSize*.5)/(this.sunSize*.5);
-  gl.bindFramebuffer(gl.FRAMEBUFFER,this.sunFramebuffer);gl.viewport(0,0,this.sunSize,this.sunSize);gl.clearColor(1,1,1,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.disable(gl.BLEND);gl.disable(gl.DITHER);gl.depthMask(true);gl.disable(gl.CULL_FACE);gl.useProgram(this.sunProgram);for(const n of ['aPos','aNormal','aUV'])if(this.L[n]!==this.SL.aPos)gl.disableVertexAttribArray(this.L[n]);gl.uniformMatrix4fv(this.SL.uLightMatrix,false,this.lightMatrix);gl.uniform1f(this.SL.uTime,this.clock);this.depthPass=true;
+  gl.bindFramebuffer(gl.FRAMEBUFFER,this.sunFramebuffer);gl.viewport(0,0,this.sunSize,this.sunSize);gl.clearColor(1,1,1,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.disable(gl.BLEND);gl.disable(gl.DITHER);gl.depthMask(true);gl.disable(gl.CULL_FACE);gl.useProgram(this.sunProgram);for(const n of ['aPos','aNormal','aUV','aPaint'])if(this.L[n]!==this.SL.aPos)gl.disableVertexAttribArray(this.L[n]);gl.uniformMatrix4fv(this.SL.uLightMatrix,false,this.lightMatrix);gl.uniform1f(this.SL.uTime,this.clock);this.depthPass=true;
   for(const o of this.static){const x=o.matrix[12],z=o.matrix[14];if(Math.hypot(x-pos.x,z-pos.z)<68)this.drawModel(o.file,o.matrix)}
   for(const {key,p} of this.scenery.batches)if(key!=='shadow'&&key!=='water')this.drawPrimitive(p,M.identity());
   const files=KARTS;
@@ -109,7 +109,7 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
  }
  drawSky(eye,target){
   const gl=this.gl,L=this.KL,z=norm(target.map((x,i)=>x-eye[i])),right=norm(cross(z,[0,1,0])),up=cross(right,z);gl.useProgram(this.skyProgram);gl.disable(gl.DEPTH_TEST);gl.depthMask(false);gl.disable(gl.BLEND);gl.disable(gl.CULL_FACE);
-  for(const n of ['aPos','aNormal','aUV'])if(this.L[n]!==L.aSkyPos)gl.disableVertexAttribArray(this.L[n]);gl.bindBuffer(gl.ARRAY_BUFFER,this.skyBuffer);gl.enableVertexAttribArray(L.aSkyPos);gl.vertexAttribPointer(L.aSkyPos,2,gl.FLOAT,false,0,0);
+  for(const n of ['aPos','aNormal','aUV','aPaint'])if(this.L[n]!==L.aSkyPos)gl.disableVertexAttribArray(this.L[n]);gl.bindBuffer(gl.ARRAY_BUFFER,this.skyBuffer);gl.enableVertexAttribArray(L.aSkyPos);gl.vertexAttribPointer(L.aSkyPos,2,gl.FLOAT,false,0,0);
   gl.uniform3fv(L.uSkyRight,right);gl.uniform3fv(L.uSkyUp,up);gl.uniform3fv(L.uSkyForward,z);gl.uniform3fv(L.uSkyEye,eye);gl.uniform1f(L.uSkyAspect,this.canvas.width/this.canvas.height);gl.uniform1f(L.uSkyTan,Math.tan(this.fov*Math.PI/360));gl.uniform1f(L.uSkyTime,this.clock);gl.uniform1f(L.uSkyWeather,this.weather==='clear'?0:1);
   gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,this.skyTexture);gl.uniform1i(L.uSkyImage,0);gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,this.cloudTexture);gl.uniform1i(L.uCloudImage,1);gl.drawArrays(gl.TRIANGLES,0,3);gl.disableVertexAttribArray(L.aSkyPos);gl.activeTexture(gl.TEXTURE0);gl.depthMask(true);gl.enable(gl.DEPTH_TEST);gl.enable(gl.BLEND);gl.useProgram(this.prog);
  }
@@ -140,7 +140,7 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
   if(s.lastImpact&&s.lastImpact.serial!==this.fxImpact){const hit=s.track.place(s.lastImpact.s,s.lastImpact.lateral);for(let i=0;i<22;i++){const a=i/22*Math.PI*2;this.emitParticle(hit.x,hit.y+.7,hit.z,Math.sin(a)*2.5,Math.random()*2,Math.cos(a)*2.5,.1,.55,s.lastImpact.item==='bubble'?[.35,.85,1]:[.6,.35,.8],true)}this.fxImpact=s.lastImpact.serial}
  }
  drawParticles(){
-  const gl=this.gl,L=this.PL;gl.useProgram(this.particleProgram);gl.uniformMatrix4fv(L.uView,false,this.view);gl.uniformMatrix4fv(L.uProjection,false,this.projection);gl.uniform1f(L.uHeight,this.canvas.height);gl.disable(gl.CULL_FACE);gl.depthMask(false);
+  const gl=this.gl,L=this.PL;gl.disableVertexAttribArray(this.L.aPaint);gl.useProgram(this.particleProgram);gl.uniformMatrix4fv(L.uView,false,this.view);gl.uniformMatrix4fv(L.uProjection,false,this.projection);gl.uniform1f(L.uHeight,this.canvas.height);gl.disable(gl.CULL_FACE);gl.depthMask(false);
   for(const energy of [false,true]){let n=0;for(const p of this.particles){if(p.energy!==energy)continue;const age=1-p.life/p.ttl,alpha=(energy?.85:.26)*Math.min(1,age*7)*(1-age);
     this.particleData.set([p.x,p.y,p.z,...p.color,alpha,p.size*(energy?1:1+age*2.5)],n*8);n++;
    }if(!n)continue;
@@ -157,7 +157,7 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
   const bytes=Uint8Array.from(atob(uri.split(',')[1]),c=>c.charCodeAt(0)),v=new DataView(bytes.buffer),len=v.getUint32(12,true),doc=JSON.parse(new TextDecoder().decode(bytes.slice(20,20+len))),start=28+len,gl=this.gl,textures=[];
   const acc=i=>{const a=doc.accessors[i],b=doc.bufferViews[a.bufferView],k={VEC3:3,VEC2:2,SCALAR:1}[a.type],T={5126:Float32Array,5123:Uint16Array,5125:Uint32Array}[a.componentType];return new T(bytes.buffer,start+(b.byteOffset||0)+(a.byteOffset||0),a.count*k)};
   for(let image of doc.images||[]){const b=doc.bufferViews[image.bufferView],raw=bytes.slice(start+b.byteOffset,start+b.byteOffset+b.byteLength);let str='';for(let i=0;i<raw.length;i+=8192)str+=String.fromCharCode(...raw.subarray(i,i+8192));textures.push(this.textureURI('data:'+image.mimeType+';base64,'+btoa(str)))}
-  const primitives={};doc.nodes.forEach((n,i)=>{if(n.mesh===undefined)return;primitives[i]=doc.meshes[n.mesh].primitives.map(p=>{const pos=acc(p.attributes.POSITION),normal=acc(p.attributes.NORMAL),indices=acc(p.indices),uv=p.attributes.TEXCOORD_0===undefined?null:acc(p.attributes.TEXCOORD_0);let mat=doc.materials[p.material],pbr=mat.pbrMetallicRoughness;return {pos:this.buffer(pos),normal:this.buffer(normal),uv:uv?this.buffer(uv):null,index:this.buffer(indices,gl.ELEMENT_ARRAY_BUFFER),count:indices.length,type:indices instanceof Uint16Array?gl.UNSIGNED_SHORT:gl.UNSIGNED_INT,material:{color:pbr.baseColorFactor.slice(0,3),rough:pbr.roughnessFactor,metal:pbr.metallicFactor,emissive:mat.emissiveFactor||[0,0,0],foliage:/foliage/.test(mat.name||'')?1:0,double:mat.doubleSided,hero:/^[0-9][0-9]_/.test(mat.name||'')?1:0,fur:/^(10_|11_)/.test(mat.name||'')?1:0,texture:pbr.baseColorTexture?textures[doc.textures[pbr.baseColorTexture.index].source]:null}}})});
+  const primitives={};doc.nodes.forEach((n,i)=>{if(n.mesh===undefined)return;primitives[i]=doc.meshes[n.mesh].primitives.map(p=>{const pos=acc(p.attributes.POSITION),normal=acc(p.attributes.NORMAL),indices=acc(p.indices),uv=p.attributes.TEXCOORD_0===undefined?null:acc(p.attributes.TEXCOORD_0);let mat=doc.materials[p.material],pbr=mat.pbrMetallicRoughness;return {pos:this.buffer(pos),normal:this.buffer(normal),paint:p.attributes.COLOR_0===undefined?null:this.buffer(acc(p.attributes.COLOR_0)),uv:uv?this.buffer(uv):null,index:this.buffer(indices,gl.ELEMENT_ARRAY_BUFFER),count:indices.length,type:indices instanceof Uint16Array?gl.UNSIGNED_SHORT:gl.UNSIGNED_INT,material:{color:pbr.baseColorFactor.slice(0,3),rough:pbr.roughnessFactor,metal:pbr.metallicFactor,emissive:mat.emissiveFactor||[0,0,0],foliage:/foliage/.test(mat.name||'')?1:0,double:mat.doubleSided,hero:/^[0-9][0-9]_/.test(mat.name||'')?1:0,fur:/^(10_|11_)/.test(mat.name||'')?1:0,texture:pbr.baseColorTexture?textures[doc.textures[pbr.baseColorTexture.index].source]:null}}})});
   // The sun pass does not need material colours or textures. Merge opaque
   // pieces at each rig pivot to avoid redrawing every material separately.
   const depthPrimitives={};doc.nodes.forEach((parent,i)=>{const groups={};for(const child of parent.children||[]){const n=doc.nodes[child];if(n.mesh===undefined)continue;for(const p of doc.meshes[n.mesh].primitives){const foliage=/foliage/.test(doc.materials[p.material].name||'')?1:0,g=groups[foliage]||(groups[foliage]={V:[],F:[],foliage}),positions=acc(p.attributes.POSITION),indices=acc(p.indices),base=g.V.length/3,t=n.translation||[0,0,0];for(let j=0;j<positions.length;j++)g.V.push(positions[j]+t[j%3]);for(const index of indices)g.F.push(index+base)}}
@@ -213,6 +213,7 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
   if(this.depthPass){const gl=this.gl,L=this.SL;gl.uniformMatrix4fv(L.uModel,false,matrix);gl.uniform1f(L.uFoliage,p.material.foliage||0);gl.bindBuffer(gl.ARRAY_BUFFER,p.pos);gl.enableVertexAttribArray(L.aPos);gl.vertexAttribPointer(L.aPos,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,p.index);gl.drawElements(gl.TRIANGLES,p.count,p.type,0);return}
   const gl=this.gl,L=this.L,mat=p.material;gl.uniformMatrix4fv(L.uModel,false,matrix);
   for(const [name,b,n] of [['aPos',p.pos,3],['aNormal',p.normal,3],['aUV',p.uv,2]]){if(b){gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.enableVertexAttribArray(L[name]);gl.vertexAttribPointer(L[name],n,gl.FLOAT,false,0,0)}else{gl.disableVertexAttribArray(L[name]);gl.vertexAttrib2f(L[name],0,0)}}
+  if(p.paint){gl.bindBuffer(gl.ARRAY_BUFFER,p.paint);gl.enableVertexAttribArray(L.aPaint);gl.vertexAttribPointer(L.aPaint,3,gl.FLOAT,false,0,0)}else{gl.disableVertexAttribArray(L.aPaint);gl.vertexAttrib3f(L.aPaint,1,1,1)}
   gl.uniform1f(L.uHero,mat.hero||0);gl.uniform1f(L.uFur,mat.fur||0);gl.uniform3fv(L.uColor,mat.color);gl.uniform3fv(L.uPaint,this.paintMultiplier&&mat.metal>.1?this.paintMultiplier:[1,1,1]);gl.uniform1f(L.uOpacity,this.opacity??1);gl.uniform3fv(L.uEmissive,mat.emissive||[0,0,0]);gl.uniform1f(L.uRough,mat.rough??.5);gl.uniform1f(L.uMetal,mat.metal||0);gl.uniform1f(L.uFog,fog);gl.uniform1f(L.uAlpha,mat.alpha??1);gl.uniform1f(L.uHasTexture,mat.texture?1:0);gl.uniform1f(L.uShadow,mat.shadow||0);gl.uniform1f(L.uWater,mat.water||0);gl.uniform1f(L.uTime,this.clock||0);
   gl.uniform1f(L.uFoliage,mat.foliage||0);gl.uniform1f(L.uBubble,mat.bubble||0);gl.uniform1f(L.uOil,mat.oil||0);if(mat.texture){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,mat.texture);gl.uniform1i(L.uTexture,0)}if(mat.double)gl.disable(gl.CULL_FACE);else gl.enable(gl.CULL_FACE);gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,p.index);gl.drawElements(gl.TRIANGLES,p.count,p.type,0);
  }
@@ -237,7 +238,18 @@ this.bubbleMesh=this.makeBubble();this.oilMesh=this.makeOil();this.initParticles
  begin(eye,target,fog=1){
   const gl=this.gl,c=this.canvas;const dpr=Math.min(window.devicePixelRatio||1,this.pixelScale),w=Math.max(1,Math.round(c.clientWidth*dpr)),h=Math.max(1,Math.round(c.clientHeight*dpr));if(c.width!==w||c.height!==h){c.width=w;c.height=h}gl.viewport(0,0,w,h);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(this.prog);this.view=look(eye,target);this.projection=perspective(w/h,fog?this.fov:52);gl.uniformMatrix4fv(this.L.uLightMatrix,false,this.lightMatrix||M.identity());gl.uniformMatrix4fv(this.L.uView,false,this.view);gl.uniformMatrix4fv(this.L.uProjection,false,this.projection);gl.uniform3fv(this.L.uEye,eye);gl.uniform1f(this.L.uWeather,this.weather==='rain'?1:this.weather==='fog'?2:0);gl.uniform3fv(this.L.uFogColor,this.stage?.palette.fog||[.43,.70,.78]);if(fog)this.drawSky(eye,target);
  }
- garage(character,time){if(this.garageCharacter!==character){this.prepareModels([KARTS[character]]);this.garageCharacter=character}this.clock=time;this.weather='clear';this.begin([Math.sin(.4+time*.12)*3.8,2.1,Math.cos(.4+time*.12)*3.8],[0,this.canvas.clientWidth<600?.70:.85,0],0);this.gl.uniform1f(this.L.uSunEnabled,0);this.drawPrimitive(this.studioFloor,M.identity(),0);this.drawShadow(M.trans([0,.002,0]));this.drawModel(KARTS[character],M.identity(),{fog:0})}
+ garage(character,time){
+  if(this.garageCharacter!==character){this.prepareModels([KARTS[character]]);this.garageCharacter=character}
+  this.canvas.__garageRenderer=this;
+  if(!this.garageOrbit)this.garageOrbit={yaw:.52,pitch:.318,scale:1,auto:true,dragging:false,lastTime:null};
+  const orbit=this.garageOrbit,dt=orbit.lastTime===null?0:Math.max(0,Math.min(.05,time-orbit.lastTime));orbit.lastTime=time;
+  if(orbit.auto&&!orbit.dragging)orbit.yaw+=dt*.12;
+  const close=this.garageView==='close',narrow=this.canvas.clientWidth<600;
+  const target=[0,close?1.19:(narrow?.70:.85),close?.015:0],radius=(close?(narrow?2.15:1.95):4.0)*orbit.scale;
+  const eye=[Math.sin(orbit.yaw)*radius*Math.cos(orbit.pitch),target[1]+radius*Math.sin(orbit.pitch),Math.cos(orbit.yaw)*radius*Math.cos(orbit.pitch)];
+  this.clock=time;this.weather='clear';this.begin(eye,target,0);this.gl.uniform1f(this.L.uSunEnabled,0);
+  this.drawPrimitive(this.studioFloor,M.identity(),0);this.drawShadow(M.trans([0,.002,0]));this.drawModel(KARTS[character],M.identity(),{fog:0});
+ }
  race(session,dt,input={},alpha=1){
   if(this.preparedSession!==session){this.prepareModels([KARTS[session.character],...session.ai.map(a=>KARTS[a.character]),...(session.ghost?[KARTS[session.ghost.character]]:[])]);this.preparedSession=session;this.garageCharacter=null}this.paintMultiplier=null;this.weather=session.weather;this.updateVFX(session,input);
   this.clock=session.elapsed;const visualDt=session.status==='racing'?Math.max(0,Math.min(.05,dt)):Math.max(0,Math.min(.05,session.elapsed-this.cameraTime));this.cameraTime=session.elapsed;

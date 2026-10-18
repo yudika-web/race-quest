@@ -1,19 +1,25 @@
 {
   "original_html_bytes": 17997235,
-  "revised_html_bytes": 19736629,
-  "growth_percent": 9.66,
+  "revised_html_bytes": 19796352,
+  "growth_percent": 10.0,
   "original_cat_glb_bytes": 348496,
   "original_cat_triangles": 15256,
-  "new_high_glb_bytes": 1137120,
-  "new_low_glb_bytes": 513684,
-  "new_high_triangles": 58389,
-  "new_low_triangles": 24083,
+  "new_high_glb_bytes": 1162168,
+  "new_low_glb_bytes": 528680,
+  "new_high_triangles": 49856,
+  "new_low_triangles": 20553,
   "original_draw_batches": 30,
   "new_draw_batches": 44,
-  "cat_refinement_baseline_html_bytes": 19051488,
-  "cat_refinement_growth_percent": 3.6,
   "car_high_triangles_unchanged": 20931,
   "car_low_triangles_unchanged": 8678,
-  "refined_cat_high_triangles": 37458,
-  "refined_cat_low_triangles": 15405
+  "refined_cat_high_triangles": 28925,
+  "refined_cat_low_triangles": 11875,
+  "redesign_baseline_html_bytes": 19736629,
+  "redesign_html_growth_percent": 0.3,
+  "redesign_cat_triangle_reduction_percent": 22.78,
+  "prior_refinement_stage": {
+    "html_bytes": 19736629,
+    "cat_refinement_baseline_html_bytes": 19051488,
+    "cat_refinement_growth_percent": 3.6
+  }
 }
