@@ -1,0 +1,12 @@
+[
+  {
+    "file": "race-quest-cat-sport.glb",
+    "meshes": 44,
+    "root": true
+  },
+  {
+    "file": "race-quest-cat-sport-low.glb",
+    "meshes": 44,
+    "root": true
+  }
+]

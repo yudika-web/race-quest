@@ -1,0 +1,13 @@
+{
+  "original_html_bytes": 17997235,
+  "revised_html_bytes": 19051488,
+  "growth_percent": 5.86,
+  "original_cat_glb_bytes": 348496,
+  "original_cat_triangles": 15256,
+  "new_high_glb_bytes": 767256,
+  "new_low_glb_bytes": 369692,
+  "new_high_triangles": 37445,
+  "new_low_triangles": 15656,
+  "original_draw_batches": 30,
+  "new_draw_batches": 44
+}
