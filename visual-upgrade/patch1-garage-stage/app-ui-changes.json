@@ -1,0 +1,18 @@
+[
+  {
+    "old": "function fillSetupBank(){const b=data.banks.find(b=>b.id===$('setupBank').value);if(!b)return;$('setupCount').max=b.questions.length;$('setupCount').value=Math.min(b.settings.count,b.questions.length);$('setupLaps').value=b.settings.laps;$('setupDifficulty').value=b.settings.difficulty;$('setupAutoGas').checked=b.settings.autoGas;$('setupStageFields').innerHTML=stageFields('setup',b.settings);$('setupMasteryInfo').textContent='Grand Prix: Kampung → Kapuas → Hutan. Skor kuis minimal '+b.settings.mastery+'% membuka tahap berikutnya.';$('setupBankDescription').textContent=(b.subject||'Bebas mata pelajaran')+' · '+(b.material||b.title)+' · '+b.questions.length+' soal tersedia. Soal tidak diulang dalam satu balapan.'}",
+    "new": "function fillSetupBank(){const b=data.banks.find(b=>b.id===$('setupBank').value);if(!b)return;$('setupCount').max=b.questions.length;$('setupCount').value=Math.min(b.settings.count,b.questions.length);$('setupLaps').value=b.settings.laps;$('setupDifficulty').value=b.settings.difficulty;$('setupAutoGas').checked=b.settings.autoGas;$('setupStageFields').innerHTML=stageFields('setup',b.settings);$('setupMasteryInfo').textContent='Grand Prix: Kampung → Kapuas → Hutan. Skor kuis minimal '+b.settings.mastery+'% membuka tahap berikutnya.';$('setupBankDescription').textContent=(b.subject||'Bebas mata pelajaran')+' · '+(b.material||b.title)+' · '+b.questions.length+' soal tersedia. Soal tidak diulang dalam satu balapan.';RaceStageUI.mountSetup(b)}"
+  },
+  {
+    "old": "await ensureRenderer();if(!preferences.tutorialSeen)",
+    "new": "await ensureRenderer();RaceStageUI.mountGarage(state.config,b);if(!preferences.tutorialSeen)"
+  },
+  {
+    "old": "Grand Prix: Kampung → Kapuas → Hutan.",
+    "new": "Grand Prix: Pontianak → Mempawah → Singkawang."
+  },
+  {
+    "old": "clone.querySelector('#initialData').textContent=",
+    "new": "for(const n of clone.querySelectorAll('.patch-stage-picker'))n.remove();clone.querySelector('#garageStagePicker').replaceChildren();\n clone.querySelector('#initialData').textContent="
+  }
+]

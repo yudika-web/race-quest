@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baseline": "eaf32f667699541def49b2559dc92f387a1a4b57",
+  "historical_files_byte_identical": 1453,
+  "original_embedded_assets_byte_identical": 94,
+  "baseline_exact_after_reversing_documented_UI_insertions": true,
+  "original_core_renderer_scenery_models_avatars_and_gameplay_unchanged": true,
+  "html_bytes": 23613758,
+  "growth_bytes": 219526,
+  "html_under_25_decimal_MB": true,
+  "html_sha256": "6e95905f35390f841108f6092f976714e86f5a33973d3ed4c7bd171e0ebbb3a1"
+}

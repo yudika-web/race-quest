@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "errors": [],
+  "cases": [
+    {
+      "mode": "before",
+      "device": "desktop",
+      "status": "captured"
+    },
+    {
+      "mode": "before",
+      "device": "mobile",
+      "status": "captured"
+    },
+    {
+      "mode": "after",
+      "device": "desktop",
+      "status": "captured"
+    },
+    {
+      "mode": "after",
+      "device": "mobile",
+      "status": "captured"
+    }
+  ]
+}

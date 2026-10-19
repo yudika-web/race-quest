@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checks": [
+    "Native two-finger pinch zooms mobile preview",
+    "Reset restores pinch zoom",
+    "Switching 14 previews reuses workshop GPU resources",
+    "Workshop dispose deletes owned buffers and banner texture",
+    "No JavaScript error"
+  ],
+  "errors": [],
+  "pinch": {
+    "before": 1,
+    "after": 0.7
+  },
+  "reuse": {
+    "sameWorkshop": true,
+    "allOwnedBuffersStillLive": true,
+    "sameBufferCount": true,
+    "sameTexture": true,
+    "stats": {
+      "triangles": 5588,
+      "colour_draw_calls": 13,
+      "textures": 1
+    },
+    "webgl": 0
+  },
+  "cleanup": {
+    "buffers": 41,
+    "textures": 1,
+    "allBuffersDeleted": true,
+    "allTexturesDeleted": true,
+    "webgl": 0
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "html_bytes": 23613758,
+  "growth_bytes": 219526,
+  "html_sha256": "6e95905f35390f841108f6092f976714e86f5a33973d3ed4c7bd171e0ebbb3a1",
+  "html_under_25_decimal_MB": true,
+  "baseline_bytes": 23394232,
+  "workshop": {
+    "triangles": 5588,
+    "colour_draw_calls": 13,
+    "textures": 1
+  },
+  "thumbnail_webp_bytes": 144344,
+  "fps_measured": false,
+  "physical_phone_tested": false,
+  "teacher_export_bytes": 23695671,
+  "asset_files": [
+    {
+      "name": "mempawah-landmark.png",
+      "bytes": 189828,
+      "sha256": "3770ff2f3baad6c092d21bdc22f6d685376fd2d4e14013084ac88d2dd177a9a3"
+    },
+    {
+      "name": "mempawah-landmark.webp",
+      "bytes": 23010,
+      "sha256": "8b2531e2819658c95817863f4a18f9d80a964b9e2446ebad6c98c1ff6ad35320"
+    },
+    {
+      "name": "mempawah-race.png",
+      "bytes": 167380,
+      "sha256": "0617e4f6e761b095698fa8feff8f28b26982c53548b19849b129090b48fadbc6"
+    },
+    {
+      "name": "mempawah-race.webp",
+      "bytes": 25374,
+      "sha256": "158727559a1af1e67a988edbc81c49357289af6b8b8d9523d05f1bbb88d1cf23"
+    },
+    {
+      "name": "pontianak-landmark.png",
+      "bytes": 188246,
+      "sha256": "a9d8f6524a3e8270ca3b5a82a4483f1d221f6b182dc0d37c5d77e58c72dee5bb"
+    },
+    {
+      "name": "pontianak-landmark.webp",
+      "bytes": 17530,
+      "sha256": "fb2c9dc285a5a39d4bb8e4cca48d1e570ad6ce72a416761880f2a525affd2cab"
+    },
+    {
+      "name": "pontianak-race.png",
+      "bytes": 174723,
+      "sha256": "b8408b0ab6beed431cf729c70c31e757c3fbabfda9502d24bcf015d658425252"
+    },
+    {
+      "name": "pontianak-race.webp",
+      "bytes": 23282,
+      "sha256": "89e0ba788ec3bcf2ad516f02e713ee5614d43bdfcdaad899c56ab52904718ba9"
+    },
+    {
+      "name": "singkawang-landmark.png",
+      "bytes": 226789,
+      "sha256": "9e962c79b9b4b2ff07223d8c3dbe95cb8c6f5c0888c39bb69ab2e93e79fac0d2"
+    },
+    {
+      "name": "singkawang-landmark.webp",
+      "bytes": 25136,
+      "sha256": "af40c1b4a81c27e8423bcf886ed3787f7bf4461817407f3cbabe8ad371bb4298"
+    },
+    {
+      "name": "singkawang-race.png",
+      "bytes": 220288,
+      "sha256": "6b3f8c2013845fefc6ccafe5b0b08a34b57c836a44cb76ff7c5454c3aef368e8"
+    },
+    {
+      "name": "singkawang-race.webp",
+      "bytes": 30012,
+      "sha256": "fd6f0316fb40e3415394fdef5833b251bc58b2747ebb1331a63bb231b46c1ee6"
+    },
+    {
+      "name": "workshop-banner.png",
+      "bytes": 29146,
+      "sha256": "388a26fbd66f8ad86fcc587409175d4a735b4ec2d92f7f58253359d6635a849b"
+    },
+    {
+      "name": "workshop-geometry.json",
+      "bytes": 391407,
+      "sha256": "141fce24f1dd94826355ded28da35cb791cdc359d4c78aff97050ec163f5da78"
+    },
+    {
+      "name": "workshop.blend",
+      "bytes": 1200788,
+      "sha256": "58a5830560aa2d217b6e630a9703aa48ffbe78248bc02f0bf47ecd2ea81e1873"
+    },
+    {
+      "name": "workshop.glb",
+      "bytes": 323172,
+      "sha256": "e23879845df77cd530923c19c1e5f5646d0217bf515318756d43c95d30076236"
+    }
+  ]
+}

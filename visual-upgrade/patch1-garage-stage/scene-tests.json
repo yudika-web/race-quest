@@ -1,0 +1,549 @@
+{
+  "status": "passed",
+  "errors": [],
+  "consoleErrors": [],
+  "comparisons": [
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "4ea19518a40e522a57e1c9350d1be64d34a688b7baf1df514bc56a320472d9c3",
+      "after_sha256": "4ea19518a40e522a57e1c9350d1be64d34a688b7baf1df514bc56a320472d9c3",
+      "before_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 23,
+        "colour_triangles": 143343,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 23,
+        "colour_triangles": 143343,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "da8519313576276de52c1e10a50cdf0d0db28a490bb036c7d7d4254a14f3b2ce",
+      "after_sha256": "da8519313576276de52c1e10a50cdf0d0db28a490bb036c7d7d4254a14f3b2ce",
+      "before_submitted": {
+        "colour_draws": 226,
+        "depth_draws": 23,
+        "colour_triangles": 143331,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 226,
+        "depth_draws": 23,
+        "colour_triangles": 143331,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "ed0d11b3875bad62be59f1a9440aeee399316d9d0dfadf12b3a854ee7d87d44b",
+      "after_sha256": "ed0d11b3875bad62be59f1a9440aeee399316d9d0dfadf12b3a854ee7d87d44b",
+      "before_submitted": {
+        "colour_draws": 108,
+        "depth_draws": 23,
+        "colour_triangles": 119749,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 108,
+        "depth_draws": 23,
+        "colour_triangles": 119749,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "07e69d45faecdd80c7496e8de22b29c4a551b6f85642f439cc4ba6b207db3776",
+      "after_sha256": "07e69d45faecdd80c7496e8de22b29c4a551b6f85642f439cc4ba6b207db3776",
+      "before_submitted": {
+        "colour_draws": 212,
+        "depth_draws": 23,
+        "colour_triangles": 142911,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 212,
+        "depth_draws": 23,
+        "colour_triangles": 142911,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "e1d6f03bbb9737b6e65ca97558d8f465a5fca6150f683fbc3d7c424ae7548016",
+      "after_sha256": "e1d6f03bbb9737b6e65ca97558d8f465a5fca6150f683fbc3d7c424ae7548016",
+      "before_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 23,
+        "colour_triangles": 142467,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 23,
+        "colour_triangles": 142467,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "e08c6ef966276cf3ccf04d0084f6d5216af8b3d23ab3ab6ac04c8b92b3ed76b2",
+      "after_sha256": "e08c6ef966276cf3ccf04d0084f6d5216af8b3d23ab3ab6ac04c8b92b3ed76b2",
+      "before_submitted": {
+        "colour_draws": 107,
+        "depth_draws": 23,
+        "colour_triangles": 119469,
+        "depth_triangles": 84297
+      },
+      "after_submitted": {
+        "colour_draws": 107,
+        "depth_draws": 23,
+        "colour_triangles": 119469,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "dfb860a26154258c3de90d95f523bc7cbf27bdb5c3098bc4a965b321232069bf",
+      "after_sha256": "dfb860a26154258c3de90d95f523bc7cbf27bdb5c3098bc4a965b321232069bf",
+      "before_submitted": {
+        "colour_draws": 199,
+        "depth_draws": 0,
+        "colour_triangles": 123138,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 199,
+        "depth_draws": 0,
+        "colour_triangles": 123138,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "911da7460aded5440b8c672b5b56475d6da2eb9fac6b6dbaa7cfde9a15d9e684",
+      "after_sha256": "911da7460aded5440b8c672b5b56475d6da2eb9fac6b6dbaa7cfde9a15d9e684",
+      "before_submitted": {
+        "colour_draws": 214,
+        "depth_draws": 0,
+        "colour_triangles": 124178,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 214,
+        "depth_draws": 0,
+        "colour_triangles": 124178,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "4593c42b3edf856e2586706cdb4f363c2fcf9ee20a88f4116bf3cc0b759f5a5c",
+      "after_sha256": "4593c42b3edf856e2586706cdb4f363c2fcf9ee20a88f4116bf3cc0b759f5a5c",
+      "before_submitted": {
+        "colour_draws": 97,
+        "depth_draws": 0,
+        "colour_triangles": 100740,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 97,
+        "depth_draws": 0,
+        "colour_triangles": 100740,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "after_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "before_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "after_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "before_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "after_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "before_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "after_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "before_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "after_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "before_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "after_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "before_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "after_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "before_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "after_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "before_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "after_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "before_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "366e9a0f9bf038d080d8ddc35d611911dd0dc6ef6eec6d5af0b54bdaa35ee61e",
+      "after_sha256": "366e9a0f9bf038d080d8ddc35d611911dd0dc6ef6eec6d5af0b54bdaa35ee61e",
+      "before_submitted": {
+        "colour_draws": 220,
+        "depth_draws": 22,
+        "colour_triangles": 153031,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 220,
+        "depth_draws": 22,
+        "colour_triangles": 153031,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "3879af2736db613d0102bd2d343d180c17810fec8a5b0337ea5080541f525425",
+      "after_sha256": "3879af2736db613d0102bd2d343d180c17810fec8a5b0337ea5080541f525425",
+      "before_submitted": {
+        "colour_draws": 223,
+        "depth_draws": 22,
+        "colour_triangles": 152581,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 223,
+        "depth_draws": 22,
+        "colour_triangles": 152581,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "155f61599bf47f15c92a1b4254b4b67baba216d07f58764973a8b546ef908560",
+      "after_sha256": "155f61599bf47f15c92a1b4254b4b67baba216d07f58764973a8b546ef908560",
+      "before_submitted": {
+        "colour_draws": 114,
+        "depth_draws": 22,
+        "colour_triangles": 129169,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 114,
+        "depth_draws": 22,
+        "colour_triangles": 129169,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "e55c95d0069e129a9caba6aae4d4ce0960183dfb43ee1aa92942602b815309b8",
+      "after_sha256": "e55c95d0069e129a9caba6aae4d4ce0960183dfb43ee1aa92942602b815309b8",
+      "before_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 22,
+        "colour_triangles": 152599,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 22,
+        "colour_triangles": 152599,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "2e8d38d4ad3f4fa1e6f82c924fb302cf15c4b55ee555a0f40f1589c6dfaab89d",
+      "after_sha256": "2e8d38d4ad3f4fa1e6f82c924fb302cf15c4b55ee555a0f40f1589c6dfaab89d",
+      "before_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 22,
+        "colour_triangles": 152139,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 22,
+        "colour_triangles": 152139,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "f37fea8402f664a71316abdabe4f1d39b20d379d356be7195bfaaa80770e59ff",
+      "after_sha256": "f37fea8402f664a71316abdabe4f1d39b20d379d356be7195bfaaa80770e59ff",
+      "before_submitted": {
+        "colour_draws": 110,
+        "depth_draws": 22,
+        "colour_triangles": 128737,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 110,
+        "depth_draws": 22,
+        "colour_triangles": 128737,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "5e95d6081e31824e973907ec22404a412774f88fb02ac594a5b728f47471a068",
+      "after_sha256": "5e95d6081e31824e973907ec22404a412774f88fb02ac594a5b728f47471a068",
+      "before_submitted": {
+        "colour_draws": 201,
+        "depth_draws": 0,
+        "colour_triangles": 132398,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 201,
+        "depth_draws": 0,
+        "colour_triangles": 132398,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "b39d5a82bc8b5ad30268997777adc1fed7b54b064f8c2aba36cc7199676993af",
+      "after_sha256": "b39d5a82bc8b5ad30268997777adc1fed7b54b064f8c2aba36cc7199676993af",
+      "before_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 133418,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 133418,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "4042855bd5c610e41716b2dc84b051c7d98618820b39d4a2ebe374bff5ff9a9e",
+      "after_sha256": "4042855bd5c610e41716b2dc84b051c7d98618820b39d4a2ebe374bff5ff9a9e",
+      "before_submitted": {
+        "colour_draws": 102,
+        "depth_draws": 0,
+        "colour_triangles": 110016,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 102,
+        "depth_draws": 0,
+        "colour_triangles": 110016,
+        "depth_triangles": 0
+      }
+    }
+  ],
+  "coast": null,
+  "cleanup": null
+}

@@ -1,0 +1,5 @@
+[
+ {"id":"kampung","name":"Pontianak","theme":"Jalanan Kota","landmarks":["Tugu Khatulistiwa","Tugu Bambu"],"description":"Jalan kota dengan plaza, bangunan pastel dan dua landmark khas Pontianak.","thumbnail":"pontianak-landmark.webp","raceImage":"pontianak-race.webp"},
+ {"id":"kapuas","name":"Mempawah","theme":"Jalanan Taman","landmarks":["Tugu Pak Tani","Keraton Mempawah"],"description":"Lintasi taman hijau, gazebo dan keraton. Cuaca tema hujan membuat jalan lebih licin.","thumbnail":"mempawah-landmark.webp","raceImage":"mempawah-race.webp"},
+ {"id":"hutan","name":"Singkawang","theme":"Pantai Meriah","landmarks":["Tugu Naga","Ornamen Imlek"],"description":"Balapan tepi pantai dengan kelapa, promenade, Tugu Naga dan gapura merah–emas.","thumbnail":"singkawang-landmark.webp","raceImage":"singkawang-race.webp"}
+]

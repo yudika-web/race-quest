@@ -1,4 +1,14 @@
-# RACE QUEST PRO — Singkawang Stage 3
+# RACE QUEST PRO — PATCH 1: Garasi & Stage Selection
+
+**Distribusi pengembangan terbaru:** bengkel balap 3D, preview pembalap lebih menonjol, dan kartu arena bergambar dari render game asli. Seluruh 14 pasangan blocky serta arena Pontianak, Mempawah dan Singkawang dipertahankan.
+
+- [ZIP playable PATCH 1](race-quest-pro-patch1-playable.zip) — **unduh, ekstrak, lalu buka `race-quest-pro-patch1.html`**. Semua aset tertanam, playable offline.
+- [HTML mandiri](visual-upgrade/race-quest-pro-patch1.html) · [ZIP review + sumber + aset](race-quest-pro-patch1-review.zip).
+- Before–after garasi: [desktop](visual-upgrade/patch1-garage-stage/comparisons/comparison-garage-desktop.jpg), [HP](visual-upgrade/patch1-garage-stage/comparisons/comparison-garage-mobile.jpg).
+- Pemilihan stage: [sebelum–sesudah](visual-upgrade/patch1-garage-stage/comparisons/comparison-setup-desktop.jpg), [kartu HP](visual-upgrade/patch1-garage-stage/after/stages-mobile.png).
+- [Laporan build, pengujian, ukuran dan keterbatasan](visual-upgrade/patch1-garage-stage/README.md). HTML **23.613.758 byte**, di bawah 25 MB. `index.html` online dan `main` tetap utuh; tidak ada deployment.
+
+# Tahap sebelumnya — Singkawang Stage 3
 
 **Distribusi pengembangan terbaru:** Stage 3 bertema pantai Singkawang, Tugu Naga dan ornamen Imlek. Stage 1 Pontianak, Stage 2 Mempawah, serta seluruh 14 pasangan blocky tetap utuh.
 
