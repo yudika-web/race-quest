@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "note": "OfflineAudioContext measurement, not physical playback. Preview is not embedded in HTML.",
+  "rate": 44100,
+  "recipes": [
+    {
+      "name": "jump",
+      "start": 0,
+      "window_seconds": 0.9,
+      "peak": 0.24180258810520172,
+      "rms": 0.017988114420795086
+    },
+    {
+      "name": "land",
+      "start": 0.9,
+      "window_seconds": 0.9,
+      "peak": 0.39850664138793945,
+      "rms": 0.03584457924769877
+    },
+    {
+      "name": "heavy",
+      "start": 1.8,
+      "window_seconds": 0.9,
+      "peak": 0.41933178901672363,
+      "rms": 0.03602285197336102
+    },
+    {
+      "name": "bubble_fire",
+      "start": 2.7,
+      "window_seconds": 0.9,
+      "peak": 0.34732475876808167,
+      "rms": 0.028925811324556842
+    },
+    {
+      "name": "bubble_hit",
+      "start": 3.6,
+      "window_seconds": 0.9,
+      "peak": 0.3608056604862213,
+      "rms": 0.03618149982474349
+    },
+    {
+      "name": "oil_drop",
+      "start": 4.5,
+      "window_seconds": 0.9,
+      "peak": 0.38393333554267883,
+      "rms": 0.03645335071017706
+    },
+    {
+      "name": "oil_slip",
+      "start": 5.4,
+      "window_seconds": 0.9,
+      "peak": 0.1452430784702301,
+      "rms": 0.010260831819756736
+    },
+    {
+      "name": "shield_on",
+      "start": 6.3,
+      "window_seconds": 0.9,
+      "peak": 0.21991807222366333,
+      "rms": 0.028739791910030205
+    },
+    {
+      "name": "shield_block",
+      "start": 7.2,
+      "window_seconds": 0.9,
+      "peak": 0.23716410994529724,
+      "rms": 0.020686333386758793
+    },
+    {
+      "name": "magnet_on",
+      "start": 8.1,
+      "window_seconds": 0.9,
+      "peak": 0.19283118844032288,
+      "rms": 0.02417398323537523
+    },
+    {
+      "name": "turbo_end",
+      "start": 9,
+      "window_seconds": 0.9,
+      "peak": 0.12924544513225555,
+      "rms": 0.013893539411414985
+    },
+    {
+      "name": "go",
+      "start": 9.9,
+      "window_seconds": 0.9,
+      "peak": 0.21503400802612305,
+      "rms": 0.024353815115514342
+    },
+    {
+      "name": "rank_up",
+      "start": 10.8,
+      "window_seconds": 0.9,
+      "peak": 0.1784028261899948,
+      "rms": 0.018367352262460012
+    },
+    {
+      "name": "level_up",
+      "start": 11.700000000000001,
+      "window_seconds": 0.9,
+      "peak": 0.19104525446891785,
+      "rms": 0.025378855342160053
+    },
+    {
+      "name": "result",
+      "start": 12.6,
+      "window_seconds": 0.9,
+      "peak": 0.18062816560268402,
+      "rms": 0.023974572085005284
+    },
+    {
+      "name": "character",
+      "start": 13.5,
+      "window_seconds": 0.9,
+      "peak": 0.1423836052417755,
+      "rms": 0.013197917777928352
+    },
+    {
+      "name": "stage",
+      "start": 14.4,
+      "window_seconds": 0.9,
+      "peak": 0.13533508777618408,
+      "rms": 0.012342471056894714
+    }
+  ]
+}

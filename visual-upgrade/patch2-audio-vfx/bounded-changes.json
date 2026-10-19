@@ -1,0 +1,106 @@
+[
+  {
+    "old": "class AudioSystem{\n constructor(){this.buffers={};this.pending={};this.loops={};this.voices=[];this.currentName='';this.context=null;this.fallback={};this.lastToken=0;try{this.settings={music:.35,engine:.2,effects:.55,mute:false,...JSON.parse(localStorage.getItem(AUDIO_STORAGE)||'{}')}}catch(e){this.settings={music:.35,engine:.2,effects:.55,mute:false}}}\n unlock(){try{if(!this.context){const AC=window.AudioContext||window.webkitAudioContext;if(!AC){this.useFallback=true;if(this.currentName)this.music(this.currentName);return}this.context=new AC();this.gains={};for(const k of ['music','engine','effects']){const g=this.context.createGain();g.connect(this.context.destination);this.gains[k]=g}this.apply()}if(this.context.state==='suspended')this.context.resume().catch(()=>{});if(this.currentName)this.music(this.currentName)}catch(e){this.useFallback=true}}\n buffer(name){if(this.buffers[name])return Promise.resolve(this.buffers[name]);if(!this.pending[name]){const raw=Uint8Array.from(atob(uri(name).split(',')[1]),c=>c.charCodeAt(0));this.pending[name]=this.context.decodeAudioData(raw.buffer).then(b=>{this.buffers[name]=b;return b}).catch(()=>{delete this.pending[name];return null})}return this.pending[name]}\n fallbackPool(name,count=1){if(!this.fallback[name])this.fallback[name]=Array.from({length:count},()=>{const a=new Audio(uri(name));a.preservesPitch=false;return a});return this.fallback[name]}\n loop(key,name,category){if(this.loops[key]||!this.context)return;this.loops[key]={loading:true,name};this.buffer(name).then(buffer=>{const pending=this.loops[key];if(!pending||pending.name!==name||!pending.loading)return;if(!buffer){delete this.loops[key];return}const source=this.context.createBufferSource();source.buffer=buffer;source.loop=true;source.connect(this.gains[category]);if(key==='engine')source.playbackRate.value=.65+C.clamp(this.engineSpeed/23,0,1)*.95;source.start();this.loops[key]={name,source}})}\n stopLoop(key){const loop=this.loops[key];if(loop?.source)try{loop.source.stop()}catch(e){}delete this.loops[key]}\n music(name){this.currentName=name;if(this.useFallback){for(const [n,p] of Object.entries(this.fallback))if(n.startsWith('music_')&&n!==name)p[0].pause();const a=this.fallbackPool(name)[0];a.loop=true;a.volume=this.settings.mute?0:this.settings.music;if(!this.settings.mute)a.play().catch(()=>{});return}if(!this.context)return;if(this.loops.music?.name!==name)this.stopLoop('music');this.loop('music',name,'music');this.apply()}\n pauseMusic(){this.stopLoop('music');for(const [n,p] of Object.entries(this.fallback))if(n.startsWith('music_'))p[0].pause()}\n engineState(on,speed=0){this.engineSpeed=speed;if(this.useFallback){const a=this.fallbackPool('sfx_engine.ogg')[0];a.loop=true;a.volume=this.settings.mute?0:this.settings.engine;a.playbackRate=.65+C.clamp(speed/23,0,1)*.95;if(on&&!this.settings.mute)a.play().catch(()=>{});else a.pause();return}if(!this.context)return;if(on)this.loop('engine','sfx_engine.ogg','engine');else this.stopLoop('engine');if(this.loops.engine?.source)this.loops.engine.source.playbackRate.setTargetAtTime(.65+C.clamp(speed/23,0,1)*.95,this.context.currentTime,.07);this.apply()}\n fx(name,rate=1){if(this.settings.mute)return;if(name==='sfx_pickup.ogg'){const n=performance.now();if(n-this.lastToken<80)return;this.lastToken=n}if(this.useFallback){const pool=this.fallbackPool(name,3),a=pool.find(a=>a.paused||a.ended)||pool[0];a.currentTime=0;a.volume=C.clamp(this.settings.effects,0,1);a.playbackRate=rate;a.play().catch(()=>{});return}if(!this.context)return;this.buffer(name).then(buffer=>{if(!buffer||this.settings.mute||this.context.state!=='running')return;const s=this.context.createBufferSource();s.buffer=buffer;s.playbackRate.value=rate;s.connect(this.gains.effects);if(this.voices.length>=16)try{this.voices.shift().stop()}catch(e){}this.voices.push(s);s.onended=()=>{this.voices=this.voices.filter(x=>x!==s)};s.start()})}\n apply(){if(this.gains)for(const k of ['music','engine','effects'])this.gains[k].gain.setTargetAtTime(this.settings.mute?0:C.clamp(Number(this.settings[k])||0,0,1),this.context.currentTime,.025);for(const [n,p] of Object.entries(this.fallback))for(const a of p)a.volume=this.settings.mute?0:this.settings[n.startsWith('music_')?'music':n==='sfx_engine.ogg'?'engine':'effects']}\n store(){this.apply();try{localStorage.setItem(AUDIO_STORAGE,JSON.stringify(this.settings))}catch(e){}}\n}",
+    "new": "const AudioSystem=RaceArcadeAudio;"
+  },
+  {
+    "old": "const sound=new AudioSystem();",
+    "new": "const sound=new AudioSystem(uri,AUDIO_STORAGE);RacePatchAV.attach(sound);"
+  },
+  {
+    "old": "document.addEventListener('pointerdown',()=>sound.unlock(),{once:true});document.addEventListener('keydown',()=>sound.unlock(),{once:true});",
+    "new": "document.addEventListener('pointerdown',()=>sound.unlock());document.addEventListener('keydown',()=>sound.unlock());"
+  },
+  {
+    "old": "function syncAudio(){const s=state.session;if(state.screen==='race'&&s){if(s.status==='question'||s.status==='feedback'){sound.music('music_mission.ogg');sound.engineState(false)}else if(s.status==='paused'){sound.pauseMusic();sound.engineState(false)}else if(s.status==='racing'||s.status==='countdown'){sound.music('music_race.ogg');sound.engineState(s.status==='racing',s.player.speed)}else sound.engineState(false)}else{sound.engineState(false);sound.music('music_menu.ogg')}}",
+    "new": "function syncAudio(){sound.mode(state.screen,state.session)}"
+  },
+  {
+    "old": "sound.fx(item==='turbo'?'sfx_turbo.ogg':'sfx_pickup.ogg');",
+    "new": "sound.item(item);"
+  },
+  {
+    "old": "sound.fx(r.correct?'sfx_correct.ogg':'sfx_retry.ogg');",
+    "new": "sound.fx(r.correct?'sfx_correct.ogg':'sfx_retry.ogg');RacePatchAV.feedback(r.correct);"
+  },
+  {
+    "old": "const award=C.awardProfile(data.profile,r);",
+    "new": "const previousAudioLevel=1+Math.floor(data.profile.xp/250);const award=C.awardProfile(data.profile,r);"
+  },
+  {
+    "old": "sound.fx('sfx_finish.ogg');",
+    "new": "sound.finish(r,previousAudioLevel);"
+  },
+  {
+    "old": "function showResults(r){",
+    "new": "function showResults(r){RacePatchAV.results(r);"
+  },
+  {
+    "old": "open('audioDialog')}",
+    "new": "RacePatchAV.settings(sound);open('audioDialog')}"
+  },
+  {
+    "old": "for(let id of ['audioMute','musicVolume','engineVolume','effectsVolume'])",
+    "new": "for(let id of ['audioMute','masterVolume','musicVolume','engineVolume','effectsVolume','reduceAudio','reduceEffects'])"
+  },
+  {
+    "old": "sound.settings={mute:$('audioMute').checked,music:",
+    "new": "sound.settings={...sound.settings,master:Number($('masterVolume').value)/100,reduceAudio:$('reduceAudio').checked,reduceEffects:$('reduceEffects').checked,mute:$('audioMute').checked,music:"
+  },
+  {
+    "old": "if(!['answer','continueRace','useItem'].includes(act)&&state.screen!=='race')sound.fx('sfx_click.ogg');",
+    "new": "if(!['answer','continueRace','useItem'].includes(act)&&state.screen!=='race')sound.ui(button,act);"
+  },
+  {
+    "old": "if(controls.brake&&!state.lastBrake&&s.player.speed>9)sound.fx('sfx_skid.ogg');state.lastBrake=controls.brake;",
+    "new": "state.lastBrake=controls.brake;"
+  },
+  {
+    "old": "const event=s.advance(1/60,",
+    "new": "const avSpeed=s.player.speed,avShield=s.buffs.shield,avCooldown=s.collisionCooldown;const event=s.advance(1/60,"
+  },
+  {
+    "old": "accumulator-=1/60;",
+    "new": "accumulator-=1/60;RacePatchAV.event(sound,state.renderer,s,event,avSpeed,avShield,avCooldown);"
+  },
+  {
+    "old": "sound.fx('sfx_collision.ogg');",
+    "new": "/* Actual event audio 0 dispatched above. */"
+  },
+  {
+    "old": "sound.fx('sfx_collision.ogg',1.3);",
+    "new": "/* Actual event audio 1 dispatched above. */"
+  },
+  {
+    "old": "sound.fx('sfx_turbo.ogg');",
+    "new": "/* Actual event audio 2 dispatched above. */"
+  },
+  {
+    "old": " requestAnimationFrame(frame);",
+    "new": " RacePatchAV.frame(sound,state.renderer,s,state.screen,controls);requestAnimationFrame(frame);"
+  },
+  {
+    "old": "pulse=1+.12*Math.sin(session.elapsed*55)",
+    "new": "pulse=this.patchReduced?1:1+.035*Math.sin(session.elapsed*9)"
+  },
+  {
+    "old": "<label class=\"toggle\"><input id=\"audioMute\" type=\"checkbox\">Matikan seluruh suara</label>",
+    "new": "<label class=\"toggle\"><input id=\"audioMute\" type=\"checkbox\">Matikan seluruh suara</label><label class=\"field\"><span>Volume Master</span><input id=\"masterVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"85\"></label>"
+  },
+  {
+    "old": "<span>Efek suara</span>",
+    "new": "<span>Volume SFX</span>"
+  },
+  {
+    "old": "<input id=\"effectsVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"55\"></label>",
+    "new": "<input id=\"effectsVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"55\"></label><label class=\"toggle\"><input id=\"reduceAudio\" type=\"checkbox\">Kurangi suara intens</label><label class=\"toggle\"><input id=\"reduceEffects\" type=\"checkbox\">Reduced Effects · minim gerak &amp; partikel</label><p id=\"arcadeAudioStatus\" role=\"status\">Sentuh tombol untuk mengaktifkan audio.</p>"
+  },
+  {
+    "old": "clone.querySelector('#initialData').textContent=",
+    "new": "clone.querySelector('#activeFeedback').removeAttribute('data-arcade-feedback');clone.querySelector('body').removeAttribute('data-arcade-confetti');\n clone.querySelector('#initialData').textContent="
+  },
+  {
+    "old": "<dialog id=\"audioDialog\"><div class=\"dialog-head\"><div class=\"row\"><span class=\"eyebrow\">SUARA & GRAFIS</span><button class=\"dialog-close\" data-close=\"audioDialog\" aria-label=\"Tutup\">✕</button></div><h2>Atur suasana balapan.</h2></div><div class=\"dialog-body stack\"><label class=\"field\"><span>Kualitas grafis</span><select id=\"graphicsQuality\"><option value=\"auto\">Otomatis · adaptif</option><option value=\"low\">Rendah · HP hemat</option><option value=\"medium\">Sedang</option><option value=\"high\">Tinggi</option></select></label><div class=\"row\"><label class=\"toggle\"><input id=\"enableGhost\" type=\"checkbox\" checked>Ghost rekor</label><label class=\"toggle\"><input id=\"enableHaptics\" type=\"checkbox\" checked>Getaran</label><label class=\"toggle\"><input id=\"tiltSteering\" type=\"checkbox\">Kemudi miring HP</label></div><div class=\"two-col\"><label class=\"field\"><span>Ukuran teks soal</span><select id=\"textSize\"><option value=\"normal\">Normal</option><option value=\"large\">Besar</option></select></label><label class=\"toggle\"><input id=\"colorblindMode\" type=\"checkbox\">Kontras penanda tinggi</label></div><div class=\"row\"><button class=\"btn ghost sm\" data-act=\"exportGhost\">Ekspor ghost terakhir</button><button class=\"btn ghost sm\" data-act=\"importGhost\">Impor ghost teman</button></div><label class=\"toggle\"><input id=\"audioMute\" type=\"checkbox\">Matikan seluruh suara</label><label class=\"field\"><span>Volume Master</span><input id=\"masterVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"85\"></label><label class=\"field\"><span>Musik</span><input id=\"musicVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"35\"></label><label class=\"field\"><span>Mesin</span><input id=\"engineVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"20\"></label><label class=\"field\"><span>Volume SFX</span><input id=\"effectsVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"55\"></label><label class=\"toggle\"><input id=\"reduceAudio\" type=\"checkbox\">Kurangi suara intens</label><label class=\"toggle\"><input id=\"reduceEffects\" type=\"checkbox\">Reduced Effects · minim gerak &amp; partikel</label><p id=\"arcadeAudioStatus\" role=\"status\">Sentuh tombol untuk mengaktifkan audio.</p></div><div class=\"dialog-foot\"><button class=\"btn\" data-close=\"audioDialog\">Selesai</button></div></dialog>",
+    "new": "<dialog id=\"audioDialog\"><div class=\"dialog-head\"><div class=\"row\"><span class=\"eyebrow\">SUARA & GRAFIS</span><button class=\"dialog-close\" data-close=\"audioDialog\" aria-label=\"Tutup\">✕</button></div><h2>Atur suasana balapan.</h2></div><div class=\"dialog-body arcade-settings\"><section aria-label=\"Pengaturan audio\"><h3>Audio Arcade</h3><label class=\"toggle\"><input id=\"audioMute\" type=\"checkbox\">Matikan seluruh suara</label><label class=\"field\"><span>Volume Master</span><input id=\"masterVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"85\"></label><label class=\"field\"><span>Musik</span><input id=\"musicVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"35\"></label><label class=\"field\"><span>Mesin</span><input id=\"engineVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"20\"></label><label class=\"field\"><span>Volume SFX</span><input id=\"effectsVolume\" type=\"range\" min=\"0\" max=\"100\" value=\"55\"></label><label class=\"toggle\"><input id=\"reduceAudio\" type=\"checkbox\">Kurangi suara intens</label><label class=\"toggle\"><input id=\"reduceEffects\" type=\"checkbox\">Reduced Effects · minim gerak &amp; partikel</label><p id=\"arcadeAudioStatus\" role=\"status\">Sentuh tombol untuk mengaktifkan audio.</p></section><section aria-label=\"Pengaturan tampilan\"><h3>Tampilan &amp; Akses</h3><label class=\"field\"><span>Kualitas grafis</span><select id=\"graphicsQuality\"><option value=\"auto\">Otomatis · adaptif</option><option value=\"low\">Rendah · HP hemat</option><option value=\"medium\">Sedang</option><option value=\"high\">Tinggi</option></select></label><div class=\"row\"><label class=\"toggle\"><input id=\"enableGhost\" type=\"checkbox\" checked>Ghost rekor</label><label class=\"toggle\"><input id=\"enableHaptics\" type=\"checkbox\" checked>Getaran</label><label class=\"toggle\"><input id=\"tiltSteering\" type=\"checkbox\">Kemudi miring HP</label></div><div class=\"two-col\"><label class=\"field\"><span>Ukuran teks soal</span><select id=\"textSize\"><option value=\"normal\">Normal</option><option value=\"large\">Besar</option></select></label><label class=\"toggle\"><input id=\"colorblindMode\" type=\"checkbox\">Kontras penanda tinggi</label></div><div class=\"row\"><button class=\"btn ghost sm\" data-act=\"exportGhost\">Ekspor ghost terakhir</button><button class=\"btn ghost sm\" data-act=\"importGhost\">Impor ghost teman</button></div></section></div><div class=\"dialog-foot\"><button class=\"btn\" data-close=\"audioDialog\">Selesai</button></div></dialog>"
+  }
+]

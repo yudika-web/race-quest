@@ -1,0 +1,45 @@
+{
+  "baseline": "7fbb3080ce20ad44e5ca4c32bacbdaec062c400e",
+  "html_bytes": 23638560,
+  "growth_bytes": 24802,
+  "html_sha256": "66487090d4bc496184e1f8492180241792f5b49a6afad5eb1f336c7eab72fd7b",
+  "under_25_decimal_MB": true,
+  "original_embedded_audio_bytes": 2233600,
+  "new_embedded_audio_files": 0,
+  "new_embedded_audio_bytes": 0,
+  "new_synth_recipes": 17,
+  "noise_loops": 2,
+  "transient_voice_cap": 8,
+  "reduced_voice_cap": 5,
+  "particle_pool_slots": 480,
+  "particle_caps": {
+    "high": 320,
+    "medium": 200,
+    "low": 80,
+    "reduced": 32
+  },
+  "shield_triangles": 16,
+  "shield_draws_when_active": 1,
+  "measured_audio": [
+    {
+      "device": "desktop",
+      "pcm_rms": 0.01989371614051444,
+      "voice_peak": 8,
+      "source_peak": 19,
+      "pool_peak": 26,
+      "decode_failures": []
+    },
+    {
+      "device": "mobile",
+      "pcm_rms": 0.027836847840091727,
+      "voice_peak": 8,
+      "source_peak": 19,
+      "pool_peak": 27,
+      "decode_failures": []
+    }
+  ],
+  "all_assets_decode_fixture_pcm_bytes": 71680208,
+  "teacher_export_bytes": 23720511,
+  "fps_measured": false,
+  "physical_phone_or_speakers_tested": false
+}

@@ -1,0 +1,161 @@
+{
+  "baseline": "7fbb3080ce20ad44e5ca4c32bacbdaec062c400e",
+  "embedded_audio": [
+    {
+      "name": "music_menu.ogg",
+      "bytes": 708949,
+      "sha256": "01654351ec10578431964d552e8ca31e490573da4cefb827a636e2e2ecec26fd",
+      "duration": 60.0,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 2,
+      "patch2_routing": "Home, garage, teacher and results; same loop retained between these screens",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "music_mission.ogg",
+      "bytes": 352146,
+      "sha256": "562abd039d750cd0af371250c8c9fc2a03e964f03bd65d2615de7080a8abf1a4",
+      "duration": 45.0,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 2,
+      "patch2_routing": "Retained as original asset; no longer switched in on questions",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "music_race.ogg",
+      "bytes": 1062714,
+      "sha256": "a3336a0475fdc9b82828ed954b14537f9752e11ab4311cd62127c4fd4961c887",
+      "duration": 90.0,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 2,
+      "patch2_routing": "All three arenas, countdown, race, pause and questions; duck rather than restart",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_click.ogg",
+      "bytes": 4371,
+      "sha256": "88d58f7491e0e88327cad29959465a5e645564ad728f17770d8a3f3b0588ba85",
+      "duration": 0.12,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused navigation; original synth motifs for character/stage selection",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_collision.ogg",
+      "bytes": 6041,
+      "sha256": "aab29268037e582ba7b99b21e3be9c2317501fd6851b69808e5d4a7b04a9fe06",
+      "duration": 0.4,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused for light impacts; new synthesis for heavy impacts",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_correct.ogg",
+      "bytes": 6443,
+      "sha256": "8bfaa2af05fb1c85663fd7eb5cb3a0bcb8b957e00541636ad766cafa5df4a437",
+      "duration": 0.8,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused unchanged on real correct answer",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_countdown.ogg",
+      "bytes": 4344,
+      "sha256": "e2f51ef1c35605e330e683795ec595f869f59fa5a387450f1517678b65e19617",
+      "duration": 0.25,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused 3/2/1; distinct synth GO added",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_engine.ogg",
+      "bytes": 10438,
+      "sha256": "bfcef804caecbf95f45c821df7a69ea67c968902ca580e38a1ef41a6a717d74b",
+      "duration": 3.0,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused looping engine, smoothed speed pitch and amplitude",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_finish.ogg",
+      "bytes": 38549,
+      "sha256": "477d49125301ffd815eeb07a1837f13aa9e23a3ed44a052c98b16f0d74be453a",
+      "duration": 4.0,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 2,
+      "patch2_routing": "Reused actual victory only; neutral synthesized result for other positions",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_mission.ogg",
+      "bytes": 5797,
+      "sha256": "e36d3d3081ec5337815263c6f48959b314f3c02b5fc7abd02ad6d13ab2311d5f",
+      "duration": 0.8,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused question-open cue",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_pickup.ogg",
+      "bytes": 4722,
+      "sha256": "7c68786db88e7085f6de264965c27c14e0942990f4dac222b291c6e34c1e0971",
+      "duration": 0.3,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused actual token pickup (including magnet)",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_retry.ogg",
+      "bytes": 5316,
+      "sha256": "c8d643815a3a6815330e3e2ba0d3ec0f32a87bd07733e62e8647bc570dd68dba",
+      "duration": 0.6,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused unchanged on real wrong answer",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_skid.ogg",
+      "bytes": 9012,
+      "sha256": "c79b212ecd8f4d9f37433d7e220cb2a2c616920c91bfd9c64b97556ca8b0f9ea",
+      "duration": 0.7,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Retained original; new continuous filtered-noise drift is used instead",
+      "asset_action": "retained byte-identical"
+    },
+    {
+      "name": "sfx_turbo.ogg",
+      "bytes": 14758,
+      "sha256": "f6b2df893a5e4b729b319e749712d51360a0c38e853a80e2253d3019fdb186dd",
+      "duration": 1.4,
+      "codec": "vorbis",
+      "sample_rate": "44100",
+      "channels": 1,
+      "patch2_routing": "Reused once at actual Turbo onset; synth sustain/end are added",
+      "asset_action": "retained byte-identical"
+    }
+  ],
+  "new_embedded_audio_files": 0,
+  "production": "Original Web Audio oscillators + seeded filtered noise; not studio-recorded or licensed third-party assets."
+}

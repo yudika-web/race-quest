@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "errors": [],
+  "captures": [
+    {
+      "device": "desktop",
+      "files": [
+        "audio-desktop.png",
+        "feedback-desktop.png",
+        "victory-desktop.png"
+      ],
+      "viewport": [
+        1100,
+        800
+      ]
+    },
+    {
+      "device": "mobile",
+      "files": [
+        "audio-mobile.png",
+        "feedback-mobile.png",
+        "victory-mobile.png"
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ]
+}

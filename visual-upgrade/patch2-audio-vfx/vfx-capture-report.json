@@ -1,0 +1,330 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "drift",
+      "after": false,
+      "minAlpha": 126,
+      "time": 1.3333333333333335,
+      "particles": 49,
+      "colourAndDepthCalls": 262,
+      "quality": "medium",
+      "player": {
+        "s": 71.10015382772802,
+        "lateral": -5.897430287973089,
+        "speed": 7.0987056953882925,
+        "error": 0.01845468483544597,
+        "steering": 0.5503725467492676,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "turbo",
+      "after": false,
+      "minAlpha": 195,
+      "time": 1.3333333333333335,
+      "particles": 56,
+      "colourAndDepthCalls": 254,
+      "quality": "medium",
+      "player": {
+        "s": 82.212849817559,
+        "lateral": -3.140393766108159,
+        "speed": 26.561601847261574,
+        "error": -0.23149749318858062,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "shield",
+      "after": false,
+      "minAlpha": 195,
+      "time": 1.3333333333333335,
+      "particles": 27,
+      "colourAndDepthCalls": 251,
+      "quality": "medium",
+      "player": {
+        "s": 81.38409843511529,
+        "lateral": -2.9062131824804585,
+        "speed": 23,
+        "error": -0.22054975597347623,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "bubble",
+      "after": false,
+      "minAlpha": 162,
+      "time": 1.3333333333333335,
+      "particles": 25,
+      "colourAndDepthCalls": 251,
+      "quality": "medium",
+      "player": {
+        "s": 81.38409843511529,
+        "lateral": -2.9062131824804585,
+        "speed": 23,
+        "error": -0.22054975597347623,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "landing",
+      "after": false,
+      "minAlpha": 196,
+      "time": 0.8166666666666675,
+      "particles": 1,
+      "colourAndDepthCalls": 242,
+      "quality": "medium",
+      "player": {
+        "s": 69.17592772758982,
+        "lateral": -0.15809822866840773,
+        "speed": 17.19485670923048,
+        "error": -0.21522047655825893,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "impact",
+      "after": false,
+      "minAlpha": 143,
+      "time": 1.3333333333333335,
+      "particles": 61,
+      "colourAndDepthCalls": 250,
+      "quality": "medium",
+      "player": {
+        "s": 77.70115109153596,
+        "lateral": 6.272927442053521,
+        "speed": 6.624219090307676,
+        "error": 0.03578263407114603,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "drift",
+      "after": true,
+      "minAlpha": 255,
+      "time": 1.3333333333333335,
+      "particles": 16,
+      "colourAndDepthCalls": 256,
+      "quality": "medium",
+      "player": {
+        "s": 71.10015382772802,
+        "lateral": -5.897430287973089,
+        "speed": 7.0987056953882925,
+        "error": 0.01845468483544597,
+        "steering": 0.5503725467492676,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "turbo",
+      "after": true,
+      "minAlpha": 255,
+      "time": 1.3333333333333335,
+      "particles": 32,
+      "colourAndDepthCalls": 254,
+      "quality": "medium",
+      "player": {
+        "s": 82.212849817559,
+        "lateral": -3.140393766108159,
+        "speed": 26.561601847261574,
+        "error": -0.23149749318858062,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "shield",
+      "after": true,
+      "minAlpha": 255,
+      "time": 1.3333333333333335,
+      "particles": 14,
+      "colourAndDepthCalls": 252,
+      "quality": "medium",
+      "player": {
+        "s": 81.38409843511529,
+        "lateral": -2.9062131824804585,
+        "speed": 23,
+        "error": -0.22054975597347623,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "bubble",
+      "after": true,
+      "minAlpha": 255,
+      "time": 1.3333333333333335,
+      "particles": 14,
+      "colourAndDepthCalls": 251,
+      "quality": "medium",
+      "player": {
+        "s": 81.38409843511529,
+        "lateral": -2.9062131824804585,
+        "speed": 23,
+        "error": -0.22054975597347623,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "landing",
+      "after": true,
+      "minAlpha": 255,
+      "time": 0.8166666666666675,
+      "particles": 18,
+      "colourAndDepthCalls": 242,
+      "quality": "medium",
+      "player": {
+        "s": 69.17592772758982,
+        "lateral": -0.15809822866840773,
+        "speed": 17.19485670923048,
+        "error": -0.21522047655825893,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    },
+    {
+      "name": "impact",
+      "after": true,
+      "minAlpha": 255,
+      "time": 1.3333333333333335,
+      "particles": 36,
+      "colourAndDepthCalls": 250,
+      "quality": "medium",
+      "player": {
+        "s": 77.70115109153596,
+        "lateral": 6.272927442053521,
+        "speed": 6.624219090307676,
+        "error": 0.03578263407114603,
+        "steering": 0,
+        "y": 0,
+        "vy": 0,
+        "air": false,
+        "bubble": 0,
+        "slip": 0,
+        "driftCharge": 0,
+        "drifting": false
+      },
+      "canvas": [
+        864,
+        576
+      ]
+    }
+  ],
+  "errors": []
+}

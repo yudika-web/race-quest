@@ -1,0 +1,18 @@
+#arcadeAudioStatus{font-size:11px;line-height:1.6;color:#b7d4d6}
+#activeFeedback[data-arcade-feedback=correct]{border:2px solid #64d6b1;animation:arcadeAnswer .32s ease-out}
+#activeFeedback[data-arcade-feedback=retry]{border:2px solid #edb279;animation:arcadeAnswer .26s ease-out}
+@keyframes arcadeAnswer{from{opacity:.6;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+#results .podium-confetti{display:none}
+body[data-arcade-confetti=true] #results .podium-confetti{display:block}
+body[data-arcade-confetti=true] #results .podium-confetti i{border-radius:1px;animation-iteration-count:1;animation-duration:2.8s;animation-delay:calc(var(--i)*.022s);animation-fill-mode:both}
+body[data-reduced-effects=true] #speedLines,body[data-reduced-effects=true] #results .podium-confetti{display:none!important}
+body[data-reduced-effects=true] #countdownNumber,body[data-reduced-effects=true] #activeFeedback,body[data-reduced-effects=true] #itemIcon,body[data-reduced-effects=true] .buff-reveal{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){#speedLines,#results .podium-confetti{display:none!important}#activeFeedback{animation:none!important}}
+
+#audioDialog{width:min(980px,96vw);max-width:980px}
+#audioDialog .arcade-settings{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.arcade-settings>section{display:flex;flex-direction:column;gap:10px;min-width:0}
+.arcade-settings h3{font-size:17px;margin:0 0 4px;color:#aee1e0}
+#audioDialog input[type=range]{min-height:30px;height:30px;padding:0}
+#audioDialog .field{gap:5px}
+@media(max-width:720px){#audioDialog .arcade-settings{grid-template-columns:1fr;gap:24px}#audioDialog .arcade-settings>section{gap:8px}#audioDialog .dialog-head h2{font-size:22px}}

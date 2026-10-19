@@ -1,4 +1,16 @@
-# RACE QUEST PRO — PATCH 1: Garasi & Stage Selection
+# RACE QUEST PRO — PATCH 2: Audio & VFX
+
+**Distribusi pengembangan terbaru:** audio arcade dinamis, pengaturan Master/Musik/SFX/Mesin/Mute, mode suara ringan dan Reduced Effects. Musik tetap berjalan pelan saat soal; suara balapan dan VFX dunia berhenti. Model, arena, aturan AI dan buff dipertahankan.
+
+- [ZIP playable PATCH 2](race-quest-pro-patch2-playable.zip) — **unduh, ekstrak, buka `race-quest-pro-patch2.html`, lalu klik/sentuh untuk mengaktifkan audio**.
+- [HTML mandiri](visual-upgrade/race-quest-pro-patch2.html) · [ZIP review + sumber](race-quest-pro-patch2-review.zip).
+- [Preview SFX sintesis](visual-upgrade/patch2-audio-vfx/audio-review/arcade-sfx-preview.ogg) · [audit/daftar audio, ukuran dan hasil uji](visual-upgrade/patch2-audio-vfx/README.md).
+- Before–after: [Turbo](visual-upgrade/patch2-audio-vfx/comparisons/comparison-turbo.jpg), [perisai](visual-upgrade/patch2-audio-vfx/comparisons/comparison-shield.jpg), [landing](visual-upgrade/patch2-audio-vfx/comparisons/comparison-landing.jpg).
+- Pengaturan: [desktop](visual-upgrade/patch2-audio-vfx/screenshots/audio-desktop.png), [HP](visual-upgrade/patch2-audio-vfx/screenshots/audio-mobile.png).
+
+HTML **23.638.560 byte**, naik 24.802 byte dari PATCH 1. Empat belas berkas OGG lama tetap identik, tanpa berkas audio tambahan di HTML. SFX baru berupa sintesis Web Audio orisinal; belum diuji melalui HP/speaker fisik. Offline penuh, tidak mengganti `index.html` online atau melakukan deployment.
+
+# Tahap sebelumnya — PATCH 1: Garasi & Stage Selection
 
 **Distribusi pengembangan terbaru:** bengkel balap 3D, preview pembalap lebih menonjol, dan kartu arena bergambar dari render game asli. Seluruh 14 pasangan blocky serta arena Pontianak, Mempawah dan Singkawang dipertahankan.
 

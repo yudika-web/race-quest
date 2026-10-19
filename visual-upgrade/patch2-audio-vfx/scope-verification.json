@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "baseline": "7fbb3080ce20ad44e5ca4c32bacbdaec062c400e",
+  "historical_files_identical": 1554,
+  "embedded_assets_identical": 94,
+  "all_14_original_ogg_vorbis_identical": true,
+  "core_AI_buffs_stages_physics_models_avatars_unchanged": true,
+  "baseline_exact_after_reversing_bounded_presentation_changes": true,
+  "html_bytes": 23638560,
+  "growth_bytes": 24802,
+  "html_sha256": "66487090d4bc496184e1f8492180241792f5b49a6afad5eb1f336c7eab72fd7b",
+  "under_25_decimal_MB": true
+}

@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 14 original Vorbis assets decode in Chromium",
+    "Reduced intense audio caps transient voices at 5",
+    "100 requested effects leave no retained transient voice",
+    "Repeated same-track requests do not restart music",
+    "Particle slots recycle after 2,000 requests at every quality",
+    "High/medium/low particle budgets enforced",
+    "Mute removes race loops and transient voices",
+    "Explicit disposal leaves zero owned active audio sources",
+    "HTMLAudio fallback initializes without Web Audio",
+    "Fallback respects master mute",
+    "Budget tests have no JavaScript error"
+  ],
+  "errors": [],
+  "decoded": [
+    {
+      "name": "music_menu.ogg",
+      "ok": true,
+      "duration": 60,
+      "channels": 2,
+      "decoded_pcm_bytes": 21168000
+    },
+    {
+      "name": "music_mission.ogg",
+      "ok": true,
+      "duration": 45,
+      "channels": 2,
+      "decoded_pcm_bytes": 15876000
+    },
+    {
+      "name": "music_race.ogg",
+      "ok": true,
+      "duration": 90,
+      "channels": 2,
+      "decoded_pcm_bytes": 31752000
+    },
+    {
+      "name": "sfx_click.ogg",
+      "ok": true,
+      "duration": 0.11709750566893425,
+      "channels": 1,
+      "decoded_pcm_bytes": 20656
+    },
+    {
+      "name": "sfx_collision.ogg",
+      "ok": true,
+      "duration": 0.39709750566893426,
+      "channels": 1,
+      "decoded_pcm_bytes": 70048
+    },
+    {
+      "name": "sfx_correct.ogg",
+      "ok": true,
+      "duration": 0.7996371882086167,
+      "channels": 1,
+      "decoded_pcm_bytes": 141056
+    },
+    {
+      "name": "sfx_countdown.ogg",
+      "ok": true,
+      "duration": 0.24816326530612245,
+      "channels": 1,
+      "decoded_pcm_bytes": 43776
+    },
+    {
+      "name": "sfx_engine.ogg",
+      "ok": true,
+      "duration": 3,
+      "channels": 1,
+      "decoded_pcm_bytes": 529200
+    },
+    {
+      "name": "sfx_finish.ogg",
+      "ok": true,
+      "duration": 4,
+      "channels": 2,
+      "decoded_pcm_bytes": 1411200
+    },
+    {
+      "name": "sfx_mission.ogg",
+      "ok": true,
+      "duration": 0.7970975056689342,
+      "channels": 1,
+      "decoded_pcm_bytes": 140608
+    },
+    {
+      "name": "sfx_pickup.ogg",
+      "ok": true,
+      "duration": 0.2970975056689342,
+      "channels": 1,
+      "decoded_pcm_bytes": 52408
+    },
+    {
+      "name": "sfx_retry.ogg",
+      "ok": true,
+      "duration": 0.5970975056689343,
+      "channels": 1,
+      "decoded_pcm_bytes": 105328
+    },
+    {
+      "name": "sfx_skid.ogg",
+      "ok": true,
+      "duration": 0.6970975056689342,
+      "channels": 1,
+      "decoded_pcm_bytes": 122968
+    },
+    {
+      "name": "sfx_turbo.ogg",
+      "ok": true,
+      "duration": 1.4,
+      "channels": 1,
+      "decoded_pcm_bytes": 246960
+    }
+  ],
+  "pool": [
+    {
+      "quality": "high",
+      "peak": 320,
+      "active": 0,
+      "free": 480,
+      "allocated": 480
+    },
+    {
+      "quality": "medium",
+      "peak": 200,
+      "active": 0,
+      "free": 480,
+      "allocated": 480
+    },
+    {
+      "quality": "low",
+      "peak": 80,
+      "active": 0,
+      "free": 480,
+      "allocated": 480
+    }
+  ]
+}

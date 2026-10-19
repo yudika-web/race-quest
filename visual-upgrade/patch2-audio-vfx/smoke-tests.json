@@ -1,0 +1,27 @@
+{
+  "errors": [],
+  "console": [],
+  "state": {
+    "audio": {
+      "played": {
+        "sfx_click.ogg": 4,
+        "sfx_countdown.ogg": 1,
+        "go": 1,
+        "shield_on": 1
+      },
+      "voicePeak": 2,
+      "musicStarts": 2,
+      "dropped": 1,
+      "decodeFailures": [],
+      "liveSources": 2,
+      "sourcePeak": 5
+    },
+    "context": "running",
+    "policy": "racing",
+    "webgl": 0,
+    "pool": 480,
+    "cap": 200,
+    "shader": true
+  },
+  "status": "passed"
+}
