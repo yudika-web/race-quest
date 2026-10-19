@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "errors": [],
+  "httpRequests": [],
+  "reason": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch4.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch4.html\", waiting until \"load\"\u001b[22m\n"
+}

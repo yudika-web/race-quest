@@ -1,0 +1,342 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "index": 0,
+      "name": "Kucing",
+      "vehicle": "Sport",
+      "file": "kart_arka.glb",
+      "low": "kart_arka_low.glb",
+      "avatar": "avatar_arka.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 643708,
+          "sha256": "5c37eea5cf87818f6785703652ea7185b1c8f7eafa91bd06dc9c321bde8d7255",
+          "visible_triangles": 28735,
+          "colour_draw_calls": 42,
+          "stored_triangles": 28735
+        },
+        "low": {
+          "bytes": 285268,
+          "sha256": "750888d04ca58e569733e306b593a145b36590ee79a473d87b2ef733e5462bcc",
+          "visible_triangles": 10878,
+          "colour_draw_calls": 42,
+          "stored_triangles": 10878
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Pinguin",
+      "vehicle": "Kapsul",
+      "file": "kart_nara.glb",
+      "low": "kart_nara_low.glb",
+      "avatar": "avatar_nara.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 303996,
+          "sha256": "0fe87ee2068908a39372a14373636535f6c59e13b0e31fadb07d6b62f256987c",
+          "visible_triangles": 10042,
+          "colour_draw_calls": 23,
+          "stored_triangles": 10966
+        },
+        "low": {
+          "bytes": 169568,
+          "sha256": "7f8e19ba7151d78720d395d716b26341dcd3853dc2c7616374651945abfe96ef",
+          "visible_triangles": 5058,
+          "colour_draw_calls": 23,
+          "stored_triangles": 5450
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "Beruang",
+      "vehicle": "Buggy",
+      "file": "kart_bimo.glb",
+      "low": "kart_bimo_low.glb",
+      "avatar": "avatar_bimo.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 432968,
+          "sha256": "7c155eacf9601e5f99d02707f29e36122155fd4d2ce37405f17e31d52f54da46",
+          "visible_triangles": 15004,
+          "colour_draw_calls": 25,
+          "stored_triangles": 16008
+        },
+        "low": {
+          "bytes": 209392,
+          "sha256": "fa33853d941ef32c8ce8bc48cc575d6eefd94cde12aae2e837c692ff04355750",
+          "visible_triangles": 6404,
+          "colour_draw_calls": 25,
+          "stored_triangles": 6816
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Kelinci",
+      "vehicle": "Formula",
+      "file": "kart_sora.glb",
+      "low": "kart_sora_low.glb",
+      "avatar": "avatar_sora.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 364732,
+          "sha256": "261446c212b3669bbf56e145b4c8d39f0fbef6ff97362117f27189331e882408",
+          "visible_triangles": 12146,
+          "colour_draw_calls": 25,
+          "stored_triangles": 13366
+        },
+        "low": {
+          "bytes": 192980,
+          "sha256": "2db79a8c7dfdc54a70c52525ebf3b88b9a1bb6a7a2a72c9557ddb20037b2099d",
+          "visible_triangles": 5786,
+          "colour_draw_calls": 25,
+          "stored_triangles": 6286
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Bebek",
+      "vehicle": "Amfibi",
+      "file": "kart_bebek.glb",
+      "low": "kart_bebek_low.glb",
+      "avatar": "avatar_bebek.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 316740,
+          "sha256": "ef0c460fd51489bee295e51d144657cba3cd260d7168d2321d5b73d8e5da7276",
+          "visible_triangles": 10716,
+          "colour_draw_calls": 23,
+          "stored_triangles": 11508
+        },
+        "low": {
+          "bytes": 169956,
+          "sha256": "7ad9ee58db2cb9a615b6bbf60632f5ae3fa368932c121a51d8ccc3640814ce3c",
+          "visible_triangles": 5136,
+          "colour_draw_calls": 23,
+          "stored_triangles": 5468
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Ayam",
+      "vehicle": "Farm Buggy",
+      "file": "kart_ayam.glb",
+      "low": "kart_ayam_low.glb",
+      "avatar": "avatar_ayam.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 444060,
+          "sha256": "6f5dc480e0f5cc1b6750f07225925126a752f19c6fd4e0cdfcd0471b32c77254",
+          "visible_triangles": 15720,
+          "colour_draw_calls": 24,
+          "stored_triangles": 16512
+        },
+        "low": {
+          "bytes": 210516,
+          "sha256": "f5d5e5db775e71de9c60fcbcf9a090e5be82a06dbde8165b3ca5ee2a75d993d9",
+          "visible_triangles": 6572,
+          "colour_draw_calls": 24,
+          "stored_triangles": 6904
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Domba",
+      "vehicle": "Cloud Cruiser",
+      "file": "kart_domba.glb",
+      "low": "kart_domba_low.glb",
+      "avatar": "avatar_domba.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 363968,
+          "sha256": "af7184220c4a35fa9a3077b606a3a0554afaaf3ee40e5e805f389e181983b15c",
+          "visible_triangles": 12524,
+          "colour_draw_calls": 25,
+          "stored_triangles": 13348
+        },
+        "low": {
+          "bytes": 190660,
+          "sha256": "226724e579110cac512d5372c2ed8ad5da10ba8b32920e15ab496bdcb30653b3",
+          "visible_triangles": 5864,
+          "colour_draw_calls": 25,
+          "stored_triangles": 6204
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "Robot",
+      "vehicle": "Photon",
+      "file": "kart_robot.glb",
+      "low": "kart_robot_low.glb",
+      "avatar": "avatar_robot.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 377512,
+          "sha256": "0e696bdab9cf39a4f65bb39d01115ad3b0302f3baf717a81da75149bfcd682a7",
+          "visible_triangles": 12870,
+          "colour_draw_calls": 32,
+          "stored_triangles": 13586
+        },
+        "low": {
+          "bytes": 199628,
+          "sha256": "a4ab9b0d541fccd4dfba65c7f19dfc9fd5542ada33ded5e72667c9be13b93e62",
+          "visible_triangles": 5954,
+          "colour_draw_calls": 32,
+          "stored_triangles": 6250
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Anjing",
+      "vehicle": "Rally",
+      "file": "kart_anjing.glb",
+      "low": "kart_anjing_low.glb",
+      "avatar": "avatar_anjing.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 500844,
+          "sha256": "b9726e0d59d48dcb2768b8abe8c51aa012361c1fe0f4b8ab698d6b64857fb44a",
+          "visible_triangles": 17810,
+          "colour_draw_calls": 28,
+          "stored_triangles": 18634
+        },
+        "low": {
+          "bytes": 239648,
+          "sha256": "882a91baa75bda75f0d5fa9480a1a6fe0424cc75a7c238f76b9ad9d415aee23c",
+          "visible_triangles": 7534,
+          "colour_draw_calls": 28,
+          "stored_triangles": 7874
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "Tikus",
+      "vehicle": "Mini Roadster",
+      "file": "kart_tikus.glb",
+      "low": "kart_tikus_low.glb",
+      "avatar": "avatar_tikus.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 357332,
+          "sha256": "4f41c64932385433d25d7b3f8122a3d39f27c23e070d63cc369e2201c93a512f",
+          "visible_triangles": 12186,
+          "colour_draw_calls": 26,
+          "stored_triangles": 13010
+        },
+        "low": {
+          "bytes": 190164,
+          "sha256": "3bc41c87a89379313c0a8ed24cc9bf99463ebc6e754999ab8cb938f911ab0844",
+          "visible_triangles": 5782,
+          "colour_draw_calls": 26,
+          "stored_triangles": 6122
+        }
+      }
+    },
+    {
+      "index": 10,
+      "name": "Rubah",
+      "vehicle": "GT",
+      "file": "kart_rubah.glb",
+      "low": "kart_rubah_low.glb",
+      "avatar": "avatar_rubah.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 432664,
+          "sha256": "92148317ee72ab2b728351b2be3389fe03f9f8af46f5c27b092c69d18fc09ae5",
+          "visible_triangles": 15242,
+          "colour_draw_calls": 26,
+          "stored_triangles": 16066
+        },
+        "low": {
+          "bytes": 219808,
+          "sha256": "24706d3b285e97cfefef9fa5383f998d6be44ba8789ba61e893bbc331ddd0c52",
+          "visible_triangles": 6934,
+          "colour_draw_calls": 26,
+          "stored_triangles": 7274
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": "Panda",
+      "vehicle": "Bamboo",
+      "file": "kart_panda.glb",
+      "low": "kart_panda_low.glb",
+      "avatar": "avatar_panda.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 461900,
+          "sha256": "073425c09465131fa5f5e3f6af1f0a00732898d81fe4b60d1aabe3bdb3d148c5",
+          "visible_triangles": 16320,
+          "colour_draw_calls": 26,
+          "stored_triangles": 17144
+        },
+        "low": {
+          "bytes": 220460,
+          "sha256": "084d6aa09387b43c4931f52d210e54ec4231d5173af823a75158108f182f2746",
+          "visible_triangles": 6868,
+          "colour_draw_calls": 26,
+          "stored_triangles": 7208
+        }
+      }
+    },
+    {
+      "index": 12,
+      "name": "Koala",
+      "vehicle": "Eco Pod",
+      "file": "kart_koala.glb",
+      "low": "kart_koala_low.glb",
+      "avatar": "avatar_koala.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 399208,
+          "sha256": "274b20e99130276b8027d5f15168e78e59af5f1e02b6163dc77742a490f88f6f",
+          "visible_triangles": 13892,
+          "colour_draw_calls": 26,
+          "stored_triangles": 14716
+        },
+        "low": {
+          "bytes": 204420,
+          "sha256": "ede4e7c1fca532d0b686464e24a2264017708cab36fcd2bc2569d1a73238509f",
+          "visible_triangles": 6336,
+          "colour_draw_calls": 26,
+          "stored_triangles": 6676
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "Rakun",
+      "vehicle": "Trail Pickup",
+      "file": "kart_rakun.glb",
+      "low": "kart_rakun_low.glb",
+      "avatar": "avatar_rakun.webp",
+      "renderer_stats": {
+        "high": {
+          "bytes": 494720,
+          "sha256": "3f1dec4cb0436248cff5bec7c21b3291ef630d3432557314cfd2083a251c9476",
+          "visible_triangles": 17658,
+          "colour_draw_calls": 26,
+          "stored_triangles": 18482
+        },
+        "low": {
+          "bytes": 233040,
+          "sha256": "8d1b16e98fa46af2e0a80bbf1d76d6336ea6aecbc44a81d0b6cd0009fd674446",
+          "visible_triangles": 7362,
+          "colour_draw_calls": 26,
+          "stored_triangles": 7702
+        }
+      }
+    }
+  ],
+  "measurement": "Actual RaceRenderer high/low normal-expression draw submissions, time 1, one colour pass. Excludes world/UI/AI and shadow passes. No physical-device FPS measurement."
+}

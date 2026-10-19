@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "ddc28f89d628b877d6e70149b0301df4a8aa24a9",
+  "html_sha256": "bd3afbde40d41ff6509bd7e24dc1f8e4939405bf89a76f9c026f57371d9a2c09",
+  "models": {
+    "kart_panda.glb": "da50fa3de5bedbbef3712161748cf36a42aaaa16adc44a2c626f4fca590f7473",
+    "kart_koala.glb": "e87568e57821fee6a3fdf9746d3341c56d141e079d405a66fbdae7ced2eab761",
+    "kart_rakun.glb": "34ff131fa5d3fe7884dc7f73cc0e340216323e19808086963eee0104b45770cd"
+  }
+}

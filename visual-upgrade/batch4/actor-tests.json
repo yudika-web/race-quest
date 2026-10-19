@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "panda",
+      "status": "passed",
+      "checks": [
+        "New panda meshes submitted as AI",
+        "New koala meshes submitted as AI",
+        "New rakun meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New panda meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    },
+    {
+      "id": "koala",
+      "status": "passed",
+      "checks": [
+        "New panda meshes submitted as AI",
+        "New koala meshes submitted as AI",
+        "New rakun meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New koala meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    },
+    {
+      "id": "rakun",
+      "status": "passed",
+      "checks": [
+        "New panda meshes submitted as AI",
+        "New koala meshes submitted as AI",
+        "New rakun meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New rakun meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    }
+  ],
+  "errors": []
+}

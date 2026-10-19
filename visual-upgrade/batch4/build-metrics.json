@@ -1,0 +1,101 @@
+[
+  {
+    "id": "panda",
+    "name": "Panda",
+    "vehicle": "Bamboo",
+    "models": {
+      "high": {
+        "bytes": 461900,
+        "triangles": 17144,
+        "materialBatches": 29,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "panda",
+        "vehicle": "Bamboo",
+        "identityReference": "avatar_panda.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      },
+      "low": {
+        "bytes": 220460,
+        "triangles": 7208,
+        "materialBatches": 29,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "panda",
+        "vehicle": "Bamboo",
+        "identityReference": "avatar_panda.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      }
+    }
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "vehicle": "Eco Pod",
+    "models": {
+      "high": {
+        "bytes": 399208,
+        "triangles": 14716,
+        "materialBatches": 29,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "koala",
+        "vehicle": "Eco Pod",
+        "identityReference": "avatar_koala.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      },
+      "low": {
+        "bytes": 204420,
+        "triangles": 6676,
+        "materialBatches": 29,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "koala",
+        "vehicle": "Eco Pod",
+        "identityReference": "avatar_koala.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      }
+    }
+  },
+  {
+    "id": "rakun",
+    "name": "Rakun",
+    "vehicle": "Trail Pickup",
+    "models": {
+      "high": {
+        "bytes": 494720,
+        "triangles": 18482,
+        "materialBatches": 29,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "raccoon",
+        "vehicle": "Trail Pickup",
+        "identityReference": "avatar_rakun.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      },
+      "low": {
+        "bytes": 233040,
+        "triangles": 7702,
+        "materialBatches": 29,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "raccoon",
+        "vehicle": "Trail Pickup",
+        "identityReference": "avatar_rakun.webp",
+        "style": "blocky chibi",
+        "version": "Batch 4 final"
+      }
+    }
+  }
+]

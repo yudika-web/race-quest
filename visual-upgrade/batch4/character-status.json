@@ -1,0 +1,152 @@
+{
+  "completed_this_batch": 3,
+  "accepted_baseline_unchanged": 11,
+  "remaining_original_models": 0,
+  "next_batches_require_user_approval": false,
+  "characters": [
+    {
+      "name": "Kucing",
+      "vehicle": "Sport",
+      "id": "arka",
+      "batch": 0,
+      "status": "completed_ready_for_review",
+      "model": "kart_arka.glb",
+      "avatar": "avatar_arka.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Pinguin",
+      "vehicle": "Kapsul",
+      "id": "nara",
+      "batch": 1,
+      "status": "completed_ready_for_review",
+      "model": "kart_nara.glb",
+      "avatar": "avatar_nara.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Beruang",
+      "vehicle": "Buggy",
+      "id": "bimo",
+      "batch": 1,
+      "status": "completed_ready_for_review",
+      "model": "kart_bimo.glb",
+      "avatar": "avatar_bimo.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Kelinci",
+      "vehicle": "Formula",
+      "id": "sora",
+      "batch": 1,
+      "status": "completed_ready_for_review",
+      "model": "kart_sora.glb",
+      "avatar": "avatar_sora.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Bebek",
+      "vehicle": "Amfibi",
+      "id": "bebek",
+      "batch": 2,
+      "status": "completed_ready_for_review",
+      "model": "kart_bebek.glb",
+      "avatar": "avatar_bebek.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Ayam",
+      "vehicle": "Farm Buggy",
+      "id": "ayam",
+      "batch": 2,
+      "status": "completed_ready_for_review",
+      "model": "kart_ayam.glb",
+      "avatar": "avatar_ayam.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Domba",
+      "vehicle": "Cloud Cruiser",
+      "id": "domba",
+      "batch": 2,
+      "status": "completed_ready_for_review",
+      "model": "kart_domba.glb",
+      "avatar": "avatar_domba.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Robot",
+      "vehicle": "Photon",
+      "id": "robot",
+      "batch": 2,
+      "status": "completed_ready_for_review",
+      "model": "kart_robot.glb",
+      "avatar": "avatar_robot.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Anjing",
+      "vehicle": "Rally",
+      "id": "anjing",
+      "batch": 3,
+      "status": "completed_ready_for_review",
+      "model": "kart_anjing.glb",
+      "avatar": "avatar_anjing.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Tikus",
+      "vehicle": "Mini Roadster",
+      "id": "tikus",
+      "batch": 3,
+      "status": "completed_ready_for_review",
+      "model": "kart_tikus.glb",
+      "avatar": "avatar_tikus.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Rubah",
+      "vehicle": "GT",
+      "id": "rubah",
+      "batch": 3,
+      "status": "completed_ready_for_review",
+      "model": "kart_rubah.glb",
+      "avatar": "avatar_rubah.webp",
+      "unchanged_this_batch": true
+    },
+    {
+      "name": "Panda",
+      "vehicle": "Bamboo",
+      "id": "panda",
+      "batch": 4,
+      "status": "completed_ready_for_review",
+      "model": "kart_panda.glb",
+      "avatar": "avatar_panda.webp",
+      "unchanged_this_batch": false
+    },
+    {
+      "name": "Koala",
+      "vehicle": "Eco Pod",
+      "id": "koala",
+      "batch": 4,
+      "status": "completed_ready_for_review",
+      "model": "kart_koala.glb",
+      "avatar": "avatar_koala.webp",
+      "unchanged_this_batch": false
+    },
+    {
+      "name": "Rakun",
+      "vehicle": "Trail Pickup",
+      "id": "rakun",
+      "batch": 4,
+      "status": "completed_ready_for_review",
+      "model": "kart_rakun.glb",
+      "avatar": "avatar_rakun.webp",
+      "unchanged_this_batch": false
+    }
+  ],
+  "total_blocky_pairs": 14,
+  "arena_work_started": false,
+  "ready_for_final_user_review": true,
+  "next_phase": "await_user_review_before_any_arena_development"
+}

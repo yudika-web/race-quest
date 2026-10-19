@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-10-19T06:12:45.783706+00:00",
+  "baseline_commit": "ddc28f89d628b877d6e70149b0301df4a8aa24a9",
+  "branch": "dev/race-quest-cat-sport-visual-upgrade",
+  "html_bytes": 23349280,
+  "html_sha256": "97d1912558ad940ccb945cacd0038a9954c063ba3917578b40f8fc805a79506c",
+  "completed_this_batch": 3,
+  "batch0_to_3_unchanged": true,
+  "pending_pairs": 0,
+  "completed_total_pairs": 14,
+  "arena_work_started": false,
+  "checks": {
+    "scope-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "glb-validation.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "core-test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 7
+    },
+    "test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 17
+    },
+    "offline-test-results.json": {
+      "status": "passed",
+      "case_count": 3,
+      "check_count": 0
+    },
+    "rig-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "preview-race-tests.json": {
+      "status": "passed",
+      "case_count": 6,
+      "check_count": 0
+    },
+    "export-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 13
+    },
+    "unchanged-renders.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 25
+    },
+    "camera-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "actor-tests.json": {
+      "status": "passed",
+      "case_count": 3,
+      "check_count": 0
+    },
+    "all-character-tests.json": {
+      "status": "passed",
+      "case_count": 14,
+      "check_count": 0
+    },
+    "lineup-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "complete-asset-catalog.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    }
+  },
+  "artifacts": {
+    "visual-upgrade/race-quest-pro-batch4.html": {
+      "bytes": 23349280,
+      "sha256": "97d1912558ad940ccb945cacd0038a9954c063ba3917578b40f8fc805a79506c"
+    },
+    "visual-upgrade/batch4/models/kart_koala.glb": {
+      "bytes": 399208,
+      "sha256": "274b20e99130276b8027d5f15168e78e59af5f1e02b6163dc77742a490f88f6f"
+    },
+    "visual-upgrade/batch4/models/kart_koala_low.glb": {
+      "bytes": 204420,
+      "sha256": "ede4e7c1fca532d0b686464e24a2264017708cab36fcd2bc2569d1a73238509f"
+    },
+    "visual-upgrade/batch4/models/kart_panda.glb": {
+      "bytes": 461900,
+      "sha256": "073425c09465131fa5f5e3f6af1f0a00732898d81fe4b60d1aabe3bdb3d148c5"
+    },
+    "visual-upgrade/batch4/models/kart_panda_low.glb": {
+      "bytes": 220460,
+      "sha256": "084d6aa09387b43c4931f52d210e54ec4231d5173af823a75158108f182f2746"
+    },
+    "visual-upgrade/batch4/models/kart_rakun.glb": {
+      "bytes": 494720,
+      "sha256": "3f1dec4cb0436248cff5bec7c21b3291ef630d3432557314cfd2083a251c9476"
+    },
+    "visual-upgrade/batch4/models/kart_rakun_low.glb": {
+      "bytes": 233040,
+      "sha256": "8d1b16e98fa46af2e0a80bbf1d76d6336ea6aecbc44a81d0b6cd0009fd674446"
+    },
+    "visual-upgrade/batch4/source/race-quest-koala.blend": {
+      "bytes": 1652072,
+      "sha256": "076423067c5437eb97eb82d07edcabd5a62b86782b4333d643ae4eec8cb0ee42"
+    },
+    "visual-upgrade/batch4/source/race-quest-panda.blend": {
+      "bytes": 2072536,
+      "sha256": "d15da5fec280aff896026758bb12c07c88e3d391cf3074a24e8b1d0acb78109b"
+    },
+    "visual-upgrade/batch4/source/race-quest-rakun.blend": {
+      "bytes": 2132360,
+      "sha256": "4a5f229b0bbe39b152f9ffad3048b4edce47c33f41a1236483665509ed09a1e0"
+    }
+  },
+  "optional_checks": {
+    "direct_file_offline": {
+      "status": "blocked",
+      "errors": [],
+      "httpRequests": [],
+      "reason": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch4.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch4.html\", waiting until \"load\"\u001b[22m\n"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "baseline_commit": "ddc28f89d628b877d6e70149b0301df4a8aa24a9",
+  "model_comparisons": 33,
+  "game_comparisons": 6,
+  "view_projection_resolution_time_equal": true,
+  "garage_and_model_time": 1,
+  "race_time": 2,
+  "same_seed_scale_lighting_pose": true,
+  "note": "Character-only and vehicle-only views use the same delivered GLBs and RaceRenderer, with other primitives hidden. Native UI close-up/mobile captures are separate from controlled camera comparisons."
+}

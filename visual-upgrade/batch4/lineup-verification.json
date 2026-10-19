@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "models": 14,
+  "views": 42,
+  "camera_pose_light_time_equal_per_lineup": true,
+  "character_pose": "Authored seated driving pose; vehicle primitives hidden, no model rescaling.",
+  "generative_images": false
+}
