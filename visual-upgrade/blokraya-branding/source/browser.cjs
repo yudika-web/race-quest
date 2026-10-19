@@ -1,0 +1,1 @@
+module.exports=require('./reuse.cjs').run('browser.cjs',s=>s.replace("'http://127.0.0.1:8000/visual-upgrade/race-quest-pro-patch'+patch+'.html'","'http://127.0.0.1:8000/visual-upgrade/blokraya-balap-edukasi-nusantara.html'"));

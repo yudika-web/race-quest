@@ -1,0 +1,48 @@
+{
+  "baseline_commit": "9bd494aa07b08c2bc58755e9577f9c0237f8df6e",
+  "html_bytes": 24402739,
+  "baseline_bytes": 23701999,
+  "growth_bytes": 700740,
+  "html_sha256": "aecb01624c406162ce505a62799ca692d068d7e55cc81cee255ba61d4bbf2e37",
+  "under_25_decimal_MB": true,
+  "protected_historical_files": 1945,
+  "poster_original_total_bytes": 686198,
+  "poster_distribution_total_bytes": 519768,
+  "posters": [
+    {
+      "orientation": "landscape",
+      "original_bytes": 368694,
+      "original_sha256": "90f5f041c6959485d2714c1023d8eae6e70b8445a685a1deb845fc3bac483e50",
+      "optimized_bytes": 262388,
+      "size": [
+        1440,
+        810
+      ],
+      "sha256": "3e388fab358e529246c17c7fe518bc9ff2464324673d5c5ca364dea43803cfcf"
+    },
+    {
+      "orientation": "portrait",
+      "original_bytes": 317504,
+      "original_sha256": "11cb43e2865c3720b1aa161508cd7e95c3ae3bd01975b6463a3c5ff1b91c53f5",
+      "optimized_bytes": 257380,
+      "size": [
+        900,
+        1599
+      ],
+      "sha256": "fe93d039805915404043a45bafa7ae9d5d5a7eae68886eb321d7d43ce3c421b5"
+    }
+  ],
+  "new_embedded_images": 2,
+  "each_poster_embedded_once": true,
+  "existing_asset_payload_preserved": true,
+  "new_GPU_programs": 0,
+  "new_WebGL_draw_calls": 0,
+  "new_animation_loops": 0,
+  "loading_viewports": 4,
+  "paired_complete_races": 36,
+  "teacher_export_bytes": 24484810,
+  "storage_keys_preserved": true,
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "direct_file_scheme_tested": false
+}

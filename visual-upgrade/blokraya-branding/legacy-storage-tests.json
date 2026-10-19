@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "Opening new brand does not rewrite old bank/profile storage",
+    "Old tokens, XP and race progress restored",
+    "Old active bank restored",
+    "Old HUD preferences restored",
+    "Old teacher question count restored",
+    "Old unlocked character remains available",
+    "Legacy unlocked character can still be selected",
+    "Legacy paint palette retained",
+    "No JavaScript errors in legacy storage flow"
+  ],
+  "errors": []
+}

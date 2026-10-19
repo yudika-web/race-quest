@@ -1,4 +1,15 @@
-# RACE QUEST PRO — Blocky Sky & Clean Horizon
+# BlokRaya — Balap Edukasi Nusantara
+
+Distribusi terbaru memakai identitas **BlokRaya**, dua poster asli pengguna sesuai orientasi, dan loading **“Memuat...”** yang menunggu kesiapan resource/tampilan. Game tetap offline; seluruh PATCH 1–4.5, 14 pembalap, tiga arena dan perbaikan langit dipertahankan. Kunci penyimpanan lama tetap digunakan.
+
+- [Unduh ZIP playable](blokraya-balap-edukasi-nusantara-playable.zip) — **ekstrak, lalu buka `blokraya-balap-edukasi-nusantara.html`**.
+- [HTML mandiri](visual-upgrade/blokraya-balap-edukasi-nusantara.html) · [ZIP review + sumber + poster](blokraya-balap-edukasi-nusantara-review.zip).
+- Loading [desktop](visual-upgrade/blokraya-branding/screenshots/loading-1366x768.png), [HP portrait](visual-upgrade/blokraya-branding/screenshots/loading-390x844.png), [HP landscape](visual-upgrade/blokraya-branding/screenshots/loading-844x390.png).
+- [Metode/build dan laporan uji](visual-upgrade/blokraya-branding/README.md) · [metrik distribusi](visual-upgrade/blokraya-branding/release-metrics.json).
+
+HTML **24.402.739 byte**, di bawah 25 MB. Poster dioptimalkan tanpa dibuat ulang atau didistorsi. Uji loading, rotasi, kontrol, progres lama, kuis, ekspor guru/offline dan 36 balapan engine berpasangan lolos. HP fisik/FPS belum diuji. Tidak merge ke main, mengganti `index.html` online, atau deployment.
+
+# Tahap sebelumnya — Blocky Sky & Clean Horizon
 
 Distribusi terbaru mempertahankan PATCH 4.5 dan memperbaiki langit ketiga arena: gradient tanpa sambungan, awan blocky berbevel, serta haze yang menyatukan air/daratan jauh dengan horizon. Nuansa Pontianak hangat, Mempawah sejuk, Singkawang cerah. Gameplay, AI, buff, HUD dan model tetap utuh.
 

@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "checks": [
+    "1366x768: correct original landscape poster",
+    "1366x768: full poster contained above separate loading panel",
+    "1366x768: no viewport overflow",
+    "1366x768: branded startup overlay visible",
+    "1366x768: loader dismisses when menu ready",
+    "Pending actual image keeps progress incomplete",
+    "Image load event completes loading, no artificial timer",
+    "Broken decorative image resolves with fallback, not infinite loading",
+    "Fatal startup recovery exposes reload button",
+    "390x844: correct original portrait poster",
+    "390x844: full poster contained above separate loading panel",
+    "390x844: no viewport overflow",
+    "390x844: branded startup overlay visible",
+    "Poster changes to landscape on rotation during loading",
+    "390x844: loader dismisses when menu ready",
+    "844x390: correct original landscape poster",
+    "844x390: full poster contained above separate loading panel",
+    "844x390: no viewport overflow",
+    "844x390: branded startup overlay visible",
+    "844x390: loader dismisses when menu ready",
+    "768x1024: correct original portrait poster",
+    "768x1024: full poster contained above separate loading panel",
+    "768x1024: no viewport overflow",
+    "768x1024: branded startup overlay visible",
+    "768x1024: loader dismisses when menu ready",
+    "No JavaScript errors in loading/orientation tests"
+  ],
+  "errors": [],
+  "viewports": [
+    {
+      "w": 1366,
+      "h": 768,
+      "source": "landscape",
+      "correctSource": true,
+      "natural": [
+        1440,
+        810
+      ],
+      "objectFit": "contain",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 666.203125,
+        "bottom": 666.203125
+      },
+      "panel": {
+        "y": 666.203125,
+        "bottom": 768
+      },
+      "overflow": false,
+      "busy": true,
+      "title": "BlokRaya — Balap Edukasi Nusantara"
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "source": "portrait",
+      "correctSource": true,
+      "natural": [
+        900,
+        1599
+      ],
+      "objectFit": "contain",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 742.203125,
+        "bottom": 742.203125
+      },
+      "panel": {
+        "y": 742.203125,
+        "bottom": 844
+      },
+      "overflow": false,
+      "busy": true,
+      "title": "BlokRaya — Balap Edukasi Nusantara"
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "source": "landscape",
+      "correctSource": true,
+      "natural": [
+        1440,
+        810
+      ],
+      "objectFit": "contain",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 311.703125,
+        "bottom": 311.703125
+      },
+      "panel": {
+        "y": 311.703125,
+        "bottom": 390
+      },
+      "overflow": false,
+      "busy": true,
+      "title": "BlokRaya — Balap Edukasi Nusantara"
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "source": "portrait",
+      "correctSource": true,
+      "natural": [
+        900,
+        1599
+      ],
+      "objectFit": "contain",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 922.203125,
+        "bottom": 922.203125
+      },
+      "panel": {
+        "y": 922.203125,
+        "bottom": 1024
+      },
+      "overflow": false,
+      "busy": true,
+      "title": "BlokRaya — Balap Edukasi Nusantara"
+    }
+  ]
+}

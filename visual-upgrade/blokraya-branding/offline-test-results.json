@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "offline": true,
+  "screen": "race",
+  "assetHttpRequests": [],
+  "errors": [],
+  "note": "Network disabled. Main HTML fulfilled directly from local bytes; all game assets embedded. Direct file:// opening is blocked by cloud browser administrator."
+}

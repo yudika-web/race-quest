@@ -1,0 +1,20 @@
+/* Presentation/resource readiness only. No simulation, storage, or scoring changes. */
+(function(root){'use strict';
+const $=id=>document.getElementById(id),overlay=$('loading'),bar=$('brLoadingProgress'),detail=$('brLoadingDetail'),count=$('brLoadingCount');
+const tracked=new WeakMap(),pending=new Set();let operation=0,failedImages=0;
+const posters=JSON.parse($('blokRayaPosters').textContent),portrait=matchMedia('(orientation:portrait)');
+function begin(label){operation++;overlay.hidden=false;overlay.setAttribute('aria-busy','true');detail.textContent=label;count.textContent='';bar.removeAttribute('value');$('brLoadingRetry').hidden=true;return operation}
+function trackImage(im){if(tracked.has(im))return tracked.get(im);let finish;const p=new Promise(r=>finish=r);tracked.set(im,p);pending.add(p);const done=()=>{im.removeEventListener('load',done);im.removeEventListener('error',done);if(!im.naturalWidth)failedImages++;pending.delete(p);finish()};if(im.complete&&im.currentSrc)done();else{im.addEventListener('load',done,{once:true});im.addEventListener('error',done,{once:true})}return p}
+function setPosters(){const image=$('brPosterImage'),source=$('brPosterPortrait');if(posters.landscape&&posters.portrait){source.srcset=posters.portrait;image.src=posters.landscape;document.documentElement.style.setProperty('--br-landscape','url("'+posters.landscape+'")');document.documentElement.style.setProperty('--br-portrait','url("'+posters.portrait+'")')}else{image.hidden=true;source.removeAttribute('srcset')}}
+async function paint(){await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))}
+async function waitImages(label){detail.textContent=label;const im=$('brPosterImage');if(!im.hidden&&im.currentSrc)await im.decode().catch(()=>{});document.querySelectorAll('img[src]').forEach(im=>{if(im.getClientRects().length)trackImage(im)});let complete=0;while(pending.size){const list=[...pending],total=complete+list.length;bar.max=total;bar.value=complete;count.textContent=complete+' / '+total+' gambar';await Promise.all(list.map(p=>p.then(()=>{complete++;bar.value=complete;count.textContent=complete+' / '+total+' gambar'})))}if(!complete){bar.max=1;bar.value=1;count.textContent='Siap'}return failedImages}
+async function finish(token=operation,ready=()=>{}){if(token!==operation)return;await paint();if(token!==operation)return;ready();overlay.hidden=true;overlay.setAttribute('aria-busy','false')}
+function fail(message){detail.textContent=message;bar.removeAttribute('value');count.textContent='Belum siap';overlay.setAttribute('aria-busy','false');$('brLoadingRetry').hidden=false}
+async function bootReady(){const token=operation;try{await waitImages('Menyiapkan menu…');await finish(token)}catch(e){fail('Menu belum dapat disiapkan. Silakan muat ulang.')}}
+function cleanExport(clone){clone.querySelector('#brPosterImage').removeAttribute('src');clone.querySelector('#brPosterPortrait').removeAttribute('srcset');clone.querySelector('#brPosterImage').hidden=false;clone.querySelector('#brLoadingCount').textContent='';clone.querySelector('#brLoadingDetail').textContent='Membaca data game…';clone.querySelector('#brLoadingProgress').removeAttribute('value');clone.querySelector('#brLoadingRetry').hidden=true;clone.querySelector('#loading').hidden=false;clone.querySelector('#loading').setAttribute('aria-busy','true')}
+$('brLoadingRetry').onclick=()=>location.reload();
+root.BlokRayaLoading={begin,paint,waitImages,finish,fail,bootReady,trackImage,cleanExport,get busy(){return!overlay.hidden},get failedImages(){return failedImages}};
+// Parsing/boot exceptions must leave a recovery screen, not an endless spinner.
+addEventListener('error',e=>{if(!overlay.hidden&&e.error)fail('Pemuatan belum berhasil. '+e.message)});
+setPosters();portrait.addEventListener?.('change',()=>{if(!overlay.hidden)$('brPosterImage').decode().catch(()=>{})});begin('Membaca data game…');
+})(globalThis);

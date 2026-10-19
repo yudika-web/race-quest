@@ -1,0 +1,24 @@
+[
+  {
+    "orientation": "landscape",
+    "original_bytes": 368694,
+    "original_sha256": "90f5f041c6959485d2714c1023d8eae6e70b8445a685a1deb845fc3bac483e50",
+    "optimized_bytes": 262388,
+    "size": [
+      1440,
+      810
+    ],
+    "sha256": "3e388fab358e529246c17c7fe518bc9ff2464324673d5c5ca364dea43803cfcf"
+  },
+  {
+    "orientation": "portrait",
+    "original_bytes": 317504,
+    "original_sha256": "11cb43e2865c3720b1aa161508cd7e95c3ae3bd01975b6463a3c5ff1b91c53f5",
+    "optimized_bytes": 257380,
+    "size": [
+      900,
+      1599
+    ],
+    "sha256": "fe93d039805915404043a45bafa7ae9d5d5a7eae68886eb321d7d43ce3c421b5"
+  }
+]

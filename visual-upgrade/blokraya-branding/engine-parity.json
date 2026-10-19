@@ -1,0 +1,331 @@
+{
+  "status": "passed",
+  "cases": 36,
+  "method": "Complete paired races. Compare every simulation step, including all AI, stock, cooldown, projectiles, questions, scores, tokens, samples and lap times. Same seed/input and item/quiz actions.",
+  "results": [
+    {
+      "stage": "kampung",
+      "difficulty": "easy",
+      "seed": 101,
+      "steps": 678,
+      "elapsed": 33.650000000000226,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "easy",
+      "seed": 8020,
+      "steps": 708,
+      "elapsed": 35.15000000000014,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "easy",
+      "seed": 15939,
+      "steps": 701,
+      "elapsed": 34.80000000000016,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "easy",
+      "seed": 23858,
+      "steps": 708,
+      "elapsed": 35.15000000000014,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "normal",
+      "seed": 101,
+      "steps": 678,
+      "elapsed": 33.650000000000226,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "normal",
+      "seed": 8020,
+      "steps": 718,
+      "elapsed": 35.65000000000011,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "normal",
+      "seed": 15939,
+      "steps": 697,
+      "elapsed": 34.60000000000017,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "normal",
+      "seed": 23858,
+      "steps": 693,
+      "elapsed": 34.40000000000018,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "hard",
+      "seed": 101,
+      "steps": 693,
+      "elapsed": 34.40000000000018,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "hard",
+      "seed": 8020,
+      "steps": 767,
+      "elapsed": 38.09999999999997,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "hard",
+      "seed": 15939,
+      "steps": 707,
+      "elapsed": 35.10000000000014,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kampung",
+      "difficulty": "hard",
+      "seed": 23858,
+      "steps": 705,
+      "elapsed": 35.00000000000015,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "easy",
+      "seed": 101,
+      "steps": 772,
+      "elapsed": 38.34999999999996,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "easy",
+      "seed": 8020,
+      "steps": 781,
+      "elapsed": 38.79999999999993,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "easy",
+      "seed": 15939,
+      "steps": 778,
+      "elapsed": 38.64999999999994,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "easy",
+      "seed": 23858,
+      "steps": 782,
+      "elapsed": 38.84999999999993,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "normal",
+      "seed": 101,
+      "steps": 759,
+      "elapsed": 37.699999999999996,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "normal",
+      "seed": 8020,
+      "steps": 777,
+      "elapsed": 38.599999999999945,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "normal",
+      "seed": 15939,
+      "steps": 781,
+      "elapsed": 38.79999999999993,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "normal",
+      "seed": 23858,
+      "steps": 830,
+      "elapsed": 41.249999999999794,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "hard",
+      "seed": 101,
+      "steps": 773,
+      "elapsed": 38.399999999999956,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "hard",
+      "seed": 8020,
+      "steps": 783,
+      "elapsed": 38.89999999999993,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "hard",
+      "seed": 15939,
+      "steps": 782,
+      "elapsed": 38.84999999999993,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "kapuas",
+      "difficulty": "hard",
+      "seed": 23858,
+      "steps": 785,
+      "elapsed": 38.99999999999992,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "easy",
+      "seed": 101,
+      "steps": 812,
+      "elapsed": 40.349999999999845,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "easy",
+      "seed": 8020,
+      "steps": 831,
+      "elapsed": 41.29999999999979,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "easy",
+      "seed": 15939,
+      "steps": 841,
+      "elapsed": 41.79999999999976,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "easy",
+      "seed": 23858,
+      "steps": 831,
+      "elapsed": 41.29999999999979,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "normal",
+      "seed": 101,
+      "steps": 813,
+      "elapsed": 40.39999999999984,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "normal",
+      "seed": 8020,
+      "steps": 837,
+      "elapsed": 41.599999999999774,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "normal",
+      "seed": 15939,
+      "steps": 919,
+      "elapsed": 45.69999999999954,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "normal",
+      "seed": 23858,
+      "steps": 840,
+      "elapsed": 41.749999999999766,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "hard",
+      "seed": 101,
+      "steps": 814,
+      "elapsed": 40.44999999999984,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "hard",
+      "seed": 8020,
+      "steps": 910,
+      "elapsed": 45.24999999999957,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "hard",
+      "seed": 15939,
+      "steps": 912,
+      "elapsed": 45.34999999999956,
+      "score": 80,
+      "exact": true
+    },
+    {
+      "stage": "hutan",
+      "difficulty": "hard",
+      "seed": 23858,
+      "steps": 863,
+      "elapsed": 42.8999999999997,
+      "score": 80,
+      "exact": true
+    }
+  ]
+}
