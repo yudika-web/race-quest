@@ -1,0 +1,4 @@
+const fs=require('fs'),vm=require('vm'),path=require('path');const D=path.resolve(__dirname,'..');
+function load(patch=4){const h=fs.readFileSync(D+'/../race-quest-pro-patch'+patch+'.html','utf8'),scripts=[...h.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)],box={module:{exports:{}}};vm.runInNewContext(scripts[2][2],box);box.RaceCore=box.module.exports;for(const id of ['patch3BuffSystem',...(patch===4?['patch4SmartAI']:[])])vm.runInNewContext(scripts.find(s=>s[1].includes('id="'+id+'"'))[2],box);return{C:box.RaceCore,A:box.RaceSmartAI}}
+function create(C,stage='kampung',difficulty='normal',seed=61,count=5){const b=C.sampleData().banks[0];b.settings={...b.settings,stage,difficulty,count,laps:1,shuffle:false};const s=new C.Session(b,{rng:C.seedRandom(seed)});s.status='racing';return s}
+module.exports={D,load,create};

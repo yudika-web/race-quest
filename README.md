@@ -1,4 +1,15 @@
-# RACE QUEST PRO — PATCH 3: Strategic Buff System
+# RACE QUEST PRO — PATCH 4: Smart Racing AI
+
+Distribusi pengembangan terbaru: empat kepribadian AI, sembilan buff sesuai konteks, inventori terbatas per pos, waktu reaksi, validasi target dan peringatan serangan. Santai tidak menyerang; Sedang dan Menantang memakai serangan/pertahanan dengan cooldown. Batas kecepatan 23 / 31 m/s, tanpa catch-up berdasarkan jarak pemain.
+
+- [ZIP playable PATCH 4](race-quest-pro-patch4-playable.zip) — ekstrak, buka `race-quest-pro-patch4.html`.
+- [HTML mandiri](visual-upgrade/race-quest-pro-patch4.html) · [ZIP review + sumber](race-quest-pro-patch4-review.zip).
+- [Audit dan tabel keseimbangan](visual-upgrade/patch4-smart-ai/README.md) · [laporan pembanding](visual-upgrade/patch4-smart-ai/BEHAVIOR-REPORT.md) · [grafik](visual-upgrade/patch4-smart-ai/balance-chart.svg).
+- HUD [desktop](visual-upgrade/patch4-smart-ai/screenshots/racing-desktop.png) / [HP](visual-upgrade/patch4-smart-ai/screenshots/racing-mobile.png); [peringatan serangan HP](visual-upgrade/patch4-smart-ai/screenshots/warning-mobile.png).
+
+HTML **23.674.667 byte**, naik **19.610 byte** dari PATCH 3, tanpa aset/model/audio baru. Uji 216 balapan engine berpasangan, 108 kasus penyelesaian AI dan 16.000 kesempatan kepribadian terkontrol. Regresi quiz, buff, penyimpanan, Ruang Guru, tiga stage dan ekspor offline lolos. Hasil benchmark bukan win-rate siswa/FPS HP; perangkat fisik belum diuji. Model 14 pembalap dan arena tetap utuh. Tidak merge, mengganti `index.html`, atau deployment.
+
+# Tahap sebelumnya — PATCH 3: Strategic Buff System
 
 Distribusi pengembangan terbaru: **dua slot inventori**, pilihan Ganti/Lewati ketika penuh, **Perisai Pantul, Nitro Ganda, Ban Anti-Selip dan Radar Lintasan**. Cooldown, charge, timer dan kekebalan singkat memakai clock simulasi. Jawaban benar tetap sumber hadiah inventori; skor akademik tetap berdasarkan asesmen.
 

@@ -1,0 +1,39 @@
+{
+  "baseline": "dab093d0c26dd38afdece02b45a8577111b512ab",
+  "html_bytes": 23674667,
+  "baseline_bytes": 23655057,
+  "growth_bytes": 19610,
+  "html_sha256": "bd8a1a7bacb64baa9aebdf5b937e5643138edac175be840061fc85302f45fae9",
+  "under_25_decimal_MB": true,
+  "new_embedded_assets": 0,
+  "new_GPU_buffers": 0,
+  "additional_AI_indicator_max_draws": 4,
+  "additional_AI_indicator_max_triangles": 1280,
+  "particle_pool_slots_unchanged": 480,
+  "AI_inventory_slots_each": 2,
+  "AI_log_capacity": 240,
+  "AI_HUD_event_capacity": 24,
+  "AI_supply_max_per_actor": "Question count, one opportunity per physical public gate; probability and two-slot capacity apply. No timer refill.",
+  "unboosted_AI_speed_cap_mps": 23,
+  "boosted_AI_speed_cap_mps": 31,
+  "paired_races": 216,
+  "standalone_completion_cases": 108,
+  "seeds": 12,
+  "controlled_personality_opportunities": 16000,
+  "teacher_export_bytes": 23756618,
+  "protected_files": 1690,
+  "fps_measured": false,
+  "physical_phone_tested": false,
+  "human_student_win_rate_measured": false,
+  "mid_race_save_supported": false,
+  "playable_zip": {
+    "file": "race-quest-pro-patch4-playable.zip",
+    "bytes": 12158040,
+    "sha256": "1fb04e9ae7761adf601bd41dbce931930efac8eda6d2a53ffbf75badc8ea300b"
+  },
+  "review_zip": {
+    "file": "race-quest-pro-patch4-review.zip",
+    "bytes": 18006867,
+    "sha256": "8d1e417df301cc36fcf59ce699ebdeee4362ffad28756cc90134a97f566b9b13"
+  }
+}

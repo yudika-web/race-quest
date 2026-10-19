@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "Teacher count saved across reload",
+    "Teacher laps saved across reload",
+    "Real correct answer awards new Radar",
+    "Actual finish saves assessment score 100",
+    "Actual finish saves strategic item telemetry",
+    "Profile progress saved normally",
+    "Reload preserves bank, profile, ghost and learning records",
+    "Teacher results show saved student",
+    "No JavaScript errors"
+  ],
+  "errors": []
+}

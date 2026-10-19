@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "stage": "kampung",
+      "music": "music_race.ogg",
+      "policy": "racing",
+      "pool": 480,
+      "webgl": 0,
+      "decoded": 5,
+      "menuRestored": true
+    },
+    {
+      "stage": "kapuas",
+      "music": "music_race.ogg",
+      "policy": "racing",
+      "pool": 480,
+      "webgl": 0,
+      "decoded": 5,
+      "menuRestored": true
+    },
+    {
+      "stage": "hutan",
+      "music": "music_race.ogg",
+      "policy": "racing",
+      "pool": 480,
+      "webgl": 0,
+      "decoded": 5,
+      "menuRestored": true
+    }
+  ],
+  "errors": []
+}

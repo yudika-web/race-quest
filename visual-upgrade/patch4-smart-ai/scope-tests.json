@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "baseline": "dab093d0c26dd38afdece02b45a8577111b512ab",
+  "baseline_html_sha256": "50c7aee5ef46ea588756689c9f70792774f985de582606440827c0848bf8c325",
+  "current_html_bytes": 23674667,
+  "bounded_hooks": 5,
+  "reverse_reconstruction_exact": true,
+  "protected_files": 1690,
+  "protected_engine_scope": "Original core/player physics and academic methods, 14 GLBs/avatars, three scenery stages, audio and P3 inventory intact. New AI subclass overrides only AI advance/hit/result; five logged renderer/HUD/help/export hooks."
+}

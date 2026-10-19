@@ -1,0 +1,22 @@
+[
+  {
+    "old": "...this.batchPose(session,a,kartFiles[a.character],i+1)})}}",
+    "new": "...this.batchPose(session,a,kartFiles[a.character],i+1)});if(this.smartAIIndicator)this.smartAIIndicator(a,q)}}"
+  },
+  {
+    "old": "steer:-tr.curvature(a.s)*3",
+    "new": "steer:actual.smartSteer??-tr.curvature(a.s)*3"
+  },
+  {
+    "old": "RaceBuffUI.update(s);",
+    "new": "RaceBuffUI.update(s);RaceAIUI.update(s);"
+  },
+  {
+    "old": "for(const id of ['strategicSlots','strategyRadar','rewardChoice'])",
+    "new": "for(const id of ['strategicSlots','strategyRadar','rewardChoice','smartAINotice','smartAIWarning'])"
+  },
+  {
+    "old": "Lawan Sedang dan Menantang dapat menyerang dengan gelembung atau oli. Perisai menangkisnya; Santai aman dari serangan AI.",
+    "new": "Lawan punya dua slot dengan pasokan terbatas saat melintasi pos soal. Santai tidak menembak atau memasang oli; Sedang dan Menantang bereaksi bertahap dengan indikator ancaman. Perisai menangkis serangan. AI tidak membaca soal atau kunci jawaban."
+  }
+]

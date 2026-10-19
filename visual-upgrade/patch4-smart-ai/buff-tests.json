@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Nine rewards, original IDs and durations retained",
+    "Correct answers alone offer inventory; wrong preserves both slots; duplicate answer rejected",
+    "Full inventory requires explicit choice; decline/replace each slot; no third usable slot",
+    "Double Nitro uses separate charges, cooldown, shared 31 m/s cap; Turbo cannot stack",
+    "Single reflect: valid owner, short return, immunity, no recursive projectile",
+    "Reflect rejects unknown/distant/airborne/immune/finished attacker; blocks once",
+    "Regular shield and easy AI protection retain compatibility; shields exclude each other",
+    "Grip reduces oil to .7 s and cap 14, but not bubble; no permanent immunity",
+    "Radar reveals actual nearby threats only, max five, no academic content",
+    "Pause/question/feedback/countdown freeze new timers, inventory, cooldown, AI and immunity",
+    "Old projectile owners propagate through real swept collision into reflect",
+    "Cooldowns finite, effects expire, old bubble/oil owners retained, all stages",
+    "Race can finish without using rewards; scores independent of items/rank; saved results & banks restore",
+    "Academic score depends on assessments only, unaffected by rank or buff use",
+    "All 81 ordered buff pairs stay bounded; conflicting speed/defense items remain stored"
+  ]
+}

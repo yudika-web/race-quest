@@ -1,0 +1,267 @@
+{
+  "summary": [
+    {
+      "version": 3,
+      "difficulty": "easy",
+      "races": 36,
+      "mean_player_position": 1,
+      "player_win_rate": 1,
+      "mean_player_finish_seconds": 37.28,
+      "mean_obstacle_contacts_per_race": 4.639,
+      "ai_buff_uses_per_race": 0,
+      "ai_buff_uses_per_ai_minute": 0,
+      "uses": {},
+      "player_hits": 0,
+      "ai_hits": 0,
+      "blocks": 0,
+      "personalities": {}
+    },
+    {
+      "version": 3,
+      "difficulty": "normal",
+      "races": 36,
+      "mean_player_position": 4.417,
+      "player_win_rate": 0.028,
+      "mean_player_finish_seconds": 39.28,
+      "mean_obstacle_contacts_per_race": 4,
+      "ai_buff_uses_per_race": 1.417,
+      "ai_buff_uses_per_ai_minute": 0.541,
+      "uses": {
+        "bubble": 29,
+        "oil": 22
+      },
+      "player_hits": 24,
+      "ai_hits": 37,
+      "blocks": 0,
+      "personalities": {}
+    },
+    {
+      "version": 3,
+      "difficulty": "hard",
+      "races": 36,
+      "mean_player_position": 4.944,
+      "player_win_rate": 0,
+      "mean_player_finish_seconds": 39.28,
+      "mean_obstacle_contacts_per_race": 3.556,
+      "ai_buff_uses_per_race": 1.056,
+      "ai_buff_uses_per_ai_minute": 0.403,
+      "uses": {
+        "oil": 25,
+        "bubble": 13
+      },
+      "player_hits": 28,
+      "ai_hits": 19,
+      "blocks": 0,
+      "personalities": {}
+    },
+    {
+      "version": 4,
+      "difficulty": "easy",
+      "races": 36,
+      "mean_player_position": 1,
+      "player_win_rate": 1,
+      "mean_player_finish_seconds": 37.44,
+      "mean_obstacle_contacts_per_race": 5.333,
+      "ai_buff_uses_per_race": 4.278,
+      "ai_buff_uses_per_ai_minute": 1.714,
+      "uses": {
+        "radar": 35,
+        "magnet": 21,
+        "turbo": 29,
+        "nitro": 53,
+        "grip": 16
+      },
+      "player_hits": 0,
+      "ai_hits": 0,
+      "blocks": 0,
+      "personalities": {
+        "agresif": {
+          "uses": 15,
+          "attackOpportunities": 0,
+          "attacks": 0,
+          "defenseOpportunities": 0,
+          "defenses": 0,
+          "avoidPlans": 7,
+          "overtakePlans": 16
+        },
+        "defensif": {
+          "uses": 45,
+          "attackOpportunities": 0,
+          "attacks": 0,
+          "defenseOpportunities": 0,
+          "defenses": 0,
+          "avoidPlans": 8,
+          "overtakePlans": 131
+        },
+        "berisiko": {
+          "uses": 48,
+          "attackOpportunities": 0,
+          "attacks": 0,
+          "defenseOpportunities": 0,
+          "defenses": 0,
+          "avoidPlans": 5,
+          "overtakePlans": 94
+        },
+        "seimbang": {
+          "uses": 46,
+          "attackOpportunities": 0,
+          "attacks": 0,
+          "defenseOpportunities": 0,
+          "defenses": 0,
+          "avoidPlans": 11,
+          "overtakePlans": 157
+        }
+      }
+    },
+    {
+      "version": 4,
+      "difficulty": "normal",
+      "races": 36,
+      "mean_player_position": 3.028,
+      "player_win_rate": 0.028,
+      "mean_player_finish_seconds": 38.4,
+      "mean_obstacle_contacts_per_race": 5.5,
+      "ai_buff_uses_per_race": 8.306,
+      "ai_buff_uses_per_ai_minute": 3.244,
+      "uses": {
+        "oil": 24,
+        "magnet": 48,
+        "nitro": 67,
+        "bubble": 24,
+        "turbo": 42,
+        "radar": 51,
+        "grip": 24,
+        "shield": 11,
+        "reflect": 8
+      },
+      "player_hits": 14,
+      "ai_hits": 64,
+      "blocks": 1,
+      "personalities": {
+        "agresif": {
+          "uses": 76,
+          "attackOpportunities": 56,
+          "attacks": 12,
+          "defenseOpportunities": 4,
+          "defenses": 4,
+          "avoidPlans": 73,
+          "overtakePlans": 158
+        },
+        "defensif": {
+          "uses": 75,
+          "attackOpportunities": 144,
+          "attacks": 9,
+          "defenseOpportunities": 6,
+          "defenses": 5,
+          "avoidPlans": 79,
+          "overtakePlans": 414
+        },
+        "berisiko": {
+          "uses": 69,
+          "attackOpportunities": 104,
+          "attacks": 12,
+          "defenseOpportunities": 5,
+          "defenses": 4,
+          "avoidPlans": 67,
+          "overtakePlans": 524
+        },
+        "seimbang": {
+          "uses": 79,
+          "attackOpportunities": 119,
+          "attacks": 15,
+          "defenseOpportunities": 7,
+          "defenses": 6,
+          "avoidPlans": 77,
+          "overtakePlans": 607
+        }
+      }
+    },
+    {
+      "version": 4,
+      "difficulty": "hard",
+      "races": 36,
+      "mean_player_position": 4.083,
+      "player_win_rate": 0,
+      "mean_player_finish_seconds": 38.55,
+      "mean_obstacle_contacts_per_race": 2.611,
+      "ai_buff_uses_per_race": 9.861,
+      "ai_buff_uses_per_ai_minute": 3.837,
+      "uses": {
+        "oil": 37,
+        "grip": 32,
+        "magnet": 50,
+        "radar": 59,
+        "reflect": 19,
+        "bubble": 29,
+        "turbo": 43,
+        "nitro": 71,
+        "shield": 15
+      },
+      "player_hits": 15,
+      "ai_hits": 59,
+      "blocks": 10,
+      "personalities": {
+        "agresif": {
+          "uses": 69,
+          "attackOpportunities": 36,
+          "attacks": 15,
+          "defenseOpportunities": 6,
+          "defenses": 6,
+          "avoidPlans": 150,
+          "overtakePlans": 189
+        },
+        "defensif": {
+          "uses": 95,
+          "attackOpportunities": 127,
+          "attacks": 19,
+          "defenseOpportunities": 11,
+          "defenses": 9,
+          "avoidPlans": 156,
+          "overtakePlans": 747
+        },
+        "berisiko": {
+          "uses": 93,
+          "attackOpportunities": 87,
+          "attacks": 15,
+          "defenseOpportunities": 9,
+          "defenses": 8,
+          "avoidPlans": 123,
+          "overtakePlans": 1055
+        },
+        "seimbang": {
+          "uses": 98,
+          "attackOpportunities": 83,
+          "attacks": 17,
+          "defenseOpportunities": 12,
+          "defenses": 11,
+          "avoidPlans": 152,
+          "overtakePlans": 917
+        }
+      }
+    }
+  ],
+  "completion": [
+    {
+      "difficulty": "easy",
+      "cases": 36,
+      "mean_ai_finish_seconds": 48.95,
+      "max_stall_seconds": 0,
+      "all_finished": true
+    },
+    {
+      "difficulty": "normal",
+      "cases": 36,
+      "mean_ai_finish_seconds": 37.56,
+      "max_stall_seconds": 0,
+      "all_finished": true
+    },
+    {
+      "difficulty": "hard",
+      "cases": 36,
+      "mean_ai_finish_seconds": 36.05,
+      "max_stall_seconds": 0,
+      "all_finished": true
+    }
+  ],
+  "finding": "Medium obstacle contacts rose above baseline (5.50 vs 4.00/race). A delayed decision needed longer local sight distance; next calibration expands bounded view, avoids repeat gap rolls and differentiates defensive lead time."
+}
