@@ -1,4 +1,16 @@
-# RACE QUEST PRO — PATCH 2: Audio & VFX
+# RACE QUEST PRO — PATCH 3: Strategic Buff System
+
+Distribusi pengembangan terbaru: **dua slot inventori**, pilihan Ganti/Lewati ketika penuh, **Perisai Pantul, Nitro Ganda, Ban Anti-Selip dan Radar Lintasan**. Cooldown, charge, timer dan kekebalan singkat memakai clock simulasi. Jawaban benar tetap sumber hadiah inventori; skor akademik tetap berdasarkan asesmen.
+
+- [Unduh ZIP playable PATCH 3](race-quest-pro-patch3-playable.zip) — ekstrak, lalu buka `race-quest-pro-patch3.html`.
+- [HTML mandiri](visual-upgrade/race-quest-pro-patch3.html) · [ZIP review + sumber + screenshot](race-quest-pro-patch3-review.zip).
+- [Audit, tabel durasi/cooldown dan hasil uji](visual-upgrade/patch3-strategic-buffs/README.md).
+- HUD desktop: [sebelum](visual-upgrade/patch3-strategic-buffs/screenshots/desktop-before.png) / [sesudah](visual-upgrade/patch3-strategic-buffs/screenshots/desktop-after.png). HP: [sebelum](visual-upgrade/patch3-strategic-buffs/screenshots/mobile-before.png) / [sesudah](visual-upgrade/patch3-strategic-buffs/screenshots/mobile-after.png).
+- [Inventori penuh HP](visual-upgrade/patch3-strategic-buffs/screenshots/overflow-mobile.png) · [Radar HP](visual-upgrade/patch3-strategic-buffs/screenshots/radar-mobile.png) · [metrik](visual-upgrade/patch3-strategic-buffs/release-metrics.json).
+
+HTML **23.655.057 byte**, naik **16.497 byte** dari PATCH 2, di bawah 25 MB. Tidak mengubah strategi AI, model 14 pembalap, atau arena. Inventori berlaku per balapan; bank/profil/hasil belajar tersimpan seperti baseline, tanpa fitur save/resume mid-race. Offline diuji dalam browser cloud dengan jaringan dimatikan; HP fisik belum diuji. Tidak mengganti `index.html`, merge ke `main`, atau deployment.
+
+# Tahap sebelumnya — PATCH 2: Audio & VFX
 
 **Distribusi pengembangan terbaru:** audio arcade dinamis, pengaturan Master/Musik/SFX/Mesin/Mute, mode suara ringan dan Reduced Effects. Musik tetap berjalan pelan saat soal; suara balapan dan VFX dunia berhenti. Model, arena, aturan AI dan buff dipertahankan.
 

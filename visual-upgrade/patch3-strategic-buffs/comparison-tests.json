@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "captures": [
+    "desktop-before.png",
+    "desktop-after.png",
+    "mobile-before.png",
+    "mobile-after.png"
+  ],
+  "errors": [],
+  "fixture": "Browser-only fixed s=40, elapsed=8, low quality, same camera, car and lighting. Old single Turbo versus new two-slot Nitro/reflect plus active radar. Actual game renderer/UI, not mockups."
+}

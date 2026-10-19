@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "checks": [
+    "desktop new SVG icons load",
+    "desktop Nitro consumes one of two charges",
+    "desktop touch-select and use radar",
+    "desktop inventory fits viewport",
+    "desktop radar does not cover gas control",
+    "desktop pause freezes buffs/cooldowns/AI/particles",
+    "desktop overflow blocks resume until explicit choice",
+    "desktop previous inventory not overwritten",
+    "desktop reward choice enables resume",
+    "desktop reward resolved with exactly two slots",
+    "Keyboard 2 selects second slot",
+    "Q switches slots",
+    "E activates reflect shield",
+    "Grip combines with reflect, not speed stacking",
+    "desktop no WebGL error",
+    "mobile new SVG icons load",
+    "mobile Nitro consumes one of two charges",
+    "mobile touch-select and use radar",
+    "mobile inventory fits viewport",
+    "mobile inventory clear of touch steering",
+    "mobile radar does not cover gas control",
+    "mobile pause freezes buffs/cooldowns/AI/particles",
+    "mobile overflow blocks resume until explicit choice",
+    "mobile previous inventory not overwritten",
+    "mobile reward choice enables resume",
+    "mobile reward resolved with exactly two slots",
+    "mobile no WebGL error",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "captures": [
+    "desktop",
+    "mobile"
+  ],
+  "desktopGeometry": {
+    "slot": {
+      "x": 240,
+      "y": 572,
+      "right": 860,
+      "bottom": 695
+    },
+    "left": {
+      "x": 22,
+      "y": 711,
+      "right": 87,
+      "bottom": 776
+    },
+    "gas": {
+      "x": 1008,
+      "y": 515,
+      "right": 1078,
+      "bottom": 590
+    },
+    "radar": {
+      "x": 20,
+      "y": 155,
+      "right": 181.015625,
+      "bottom": 244.5
+    },
+    "width": 1100,
+    "height": 800
+  },
+  "mobileGeometry": {
+    "slot": {
+      "x": 12,
+      "y": 568.5,
+      "right": 378,
+      "bottom": 680
+    },
+    "left": {
+      "x": 9,
+      "y": 768,
+      "right": 60,
+      "bottom": 826
+    },
+    "gas": {
+      "x": 336,
+      "y": 770,
+      "right": 378,
+      "bottom": 826
+    },
+    "radar": {
+      "x": 267.921875,
+      "y": 240,
+      "right": 380,
+      "bottom": 302.25
+    },
+    "width": 390,
+    "height": 844
+  }
+}

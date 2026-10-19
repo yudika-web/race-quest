@@ -1,0 +1,47 @@
+{
+  "baseline": "c786d88aca6876e7913012f3490fd2f6660898c8",
+  "html_bytes": 23655057,
+  "baseline_bytes": 23638560,
+  "growth_bytes": 16497,
+  "html_sha256": "50c7aee5ef46ea588756689c9f70792774f985de582606440827c0848bf8c325",
+  "under_25_decimal_MB": true,
+  "new_icons": 4,
+  "new_icon_svg_bytes": 1154,
+  "new_audio_files": 0,
+  "new_models": 0,
+  "new_GPU_buffers": 0,
+  "additional_active_effects": {
+    "reflect": {
+      "draw_calls": 1,
+      "triangles": 320
+    },
+    "grip": {
+      "draw_calls": 1,
+      "triangles": 320
+    },
+    "radar": "DOM, no WebGL draws",
+    "nitro": "Existing bounded particle pool, no new pool"
+  },
+  "unchanged_particle_pool_slots": 480,
+  "inventory_slots": 2,
+  "max_nitro_charges_per_reward": 2,
+  "global_item_cooldown_seconds": 0.6,
+  "immunity_seconds": 1.1,
+  "tested_ordered_buff_pairs": 81,
+  "protected_historical_files": 1634,
+  "teacher_export_bytes": 23737008,
+  "browser": "Cloud Chromium WebGL/software GPU; desktop and touch emulation",
+  "fps_measured": false,
+  "physical_phone_tested": false,
+  "mid_race_save_supported": false,
+  "playable_zip": {
+    "file": "race-quest-pro-patch3-playable.zip",
+    "bytes": 12152007,
+    "sha256": "6d4acd5d139d23a6c8c6762a827693c8b413684b678d28bfcb071e69bdc33bfb"
+  },
+  "review_zip": {
+    "file": "race-quest-pro-patch3-review.zip",
+    "bytes": 16911939,
+    "sha256": "525dc6596c6b067b356f3cf1100761756fc9dd993acddd209977f8a61719c2a9"
+  }
+}

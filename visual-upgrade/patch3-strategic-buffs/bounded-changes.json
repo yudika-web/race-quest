@@ -1,0 +1,90 @@
+[
+  {
+    "old": "const max=p.bubble>0?3:p.slip>0?8:this.buffs.turbo>0?31:23;",
+    "new": "const max=p.bubble>0?3:p.slip>0?(this.buffs.grip>0?14:8):(this.buffs.turbo>0||this.buffs.nitro>0)?31:23;"
+  },
+  {
+    "old": "const cap=p.bubble>0?3:p.slip>0?8:Infinity;",
+    "new": "const cap=p.bubble>0?3:p.slip>0?(this.buffs.grip>0?14:8):Infinity;"
+  },
+  {
+    "old": "this.weather==='rain'?.78:1",
+    "new": "this.weather==='rain'?(this.buffs.grip>0?.94:.78):1"
+  },
+  {
+    "old": "Math.sin(this.elapsed*13)*dt*.9",
+    "new": "Math.sin(this.elapsed*13)*dt*.9*(this.buffs.grip>0?.3:1)"
+  },
+  {
+    "old": "this.hit(hit.r,'bubble')",
+    "new": "this.hit(hit.r,'bubble',b.owner)"
+  },
+  {
+    "old": "this.hit(r,'oil')",
+    "new": "this.hit(r,'oil',o.owner)"
+  },
+  {
+    "old": "const ASSETS=JSON.parse($('assetData').textContent)",
+    "new": "const ASSETS=Object.assign(JSON.parse($('assetData').textContent),RaceStrategicBuffs.icons)"
+  },
+  {
+    "old": "+(oldSlot?'<p class=\"small\">Buff di slot sebelumnya telah diganti.</p>':'')",
+    "new": "+'<p class=\"small\">Dua slot tersedia. Jika penuh, pilih item yang diganti atau lewati hadiah.</p>'"
+  },
+  {
+    "old": "$('activeFeedback').innerHTML=feedback;",
+    "new": "$('activeFeedback').innerHTML=feedback;RaceBuffUI.reward(s);"
+  },
+  {
+    "old": "function continueRace(){const s=state.session;if(!s||s.status!=='feedback')return;",
+    "new": "function continueRace(){const s=state.session;if(!s||s.status!=='feedback'||s.pendingReward)return;"
+  },
+  {
+    "old": "$('useItemBtn').disabled=!def||s.status!=='racing';drawMinimap();",
+    "new": "$('useItemBtn').disabled=!def||s.status!=='racing';drawMinimap();RaceBuffUI.update(s);"
+  },
+  {
+    "old": "if((e.key==='e'||e.key==='E'||e.code==='Space')&&!e.repeat)",
+    "new": "if(!e.repeat&&['q','Q','1','2'].includes(e.key)){e.preventDefault();s.selectSlot(e.key==='1'?0:e.key==='2'?1:1-s.selectedSlot);updateHud()}\n if((e.key==='e'||e.key==='E'||e.code==='Space')&&!e.repeat)"
+  },
+  {
+    "old": "clone.querySelector('#initialData').textContent=",
+    "new": "for(const id of ['strategicSlots','strategyRadar','rewardChoice'])clone.querySelector('#'+id)?.remove();clone.querySelector('#continueRaceBtn').disabled=false;\n clone.querySelector('#initialData').textContent="
+  },
+  {
+    "old": "const p=s.player,turbo=s.buffs.turbo>0;",
+    "new": "const p=s.player,turbo=s.buffs.turbo>0||s.buffs.nitro>0;"
+  },
+  {
+    "old": "this.sample('sfx_turbo.ogg',{category:'race',level:.65,gap:.45})",
+    "new": "this.sample('sfx_turbo.ogg',{category:'race',level:s.buffs.nitro>0?.5:.65,rate:s.buffs.nitro>0?1.2:1,gap:.45})"
+  },
+  {
+    "old": "const turbo=s.buffs.turbo>0;",
+    "new": "const turbo=s.buffs.turbo>0||s.buffs.nitro>0,trail=s.buffs.nitro>0?[1,.58,.16]:CYAN;"
+  },
+  {
+    "old": ",.10+(this.patchEmit%3)*.03,.32,CYAN,true",
+    "new": ",.10+(this.patchEmit%3)*.03,.32,trail,true"
+  },
+  {
+    "old": "low?8:16,CYAN,2,.09,.4",
+    "new": "low?8:16,trail,2,.09,.4"
+  },
+  {
+    "old": "if(session.buffs.shield>0)this.drawPrimitive(this.ring,transform(pos.x,pos.y+.18,pos.z,session.elapsed,1.05));",
+    "new": "if(session.buffs.shield>0)this.drawPrimitive(this.ring,transform(pos.x,pos.y+.18,pos.z,session.elapsed,1.05));if(session.buffs.reflect>0){this.ring.material.color=[.64,.32,.95];this.drawPrimitive(this.ring,transform(pos.x,pos.y+.3,pos.z,session.elapsed,1.12));this.ring.material.color=[.04,.65,.85]}if(session.buffs.grip>0){this.ring.material.color=[.20,.76,.47];this.drawPrimitive(this.ring,transform(pos.x,pos.y+.11,pos.z,0,.94));this.ring.material.color=[.04,.65,.85]}"
+  },
+  {
+    "old": "Slot hanya menyimpan satu buff; hadiah baru menggantikan buff yang belum dipakai.",
+    "new": "Dua slot menyimpan hadiah. Ketuk slot atau tekan Q / 1 / 2 untuk memilih. Saat penuh, pilih slot yang diganti atau lewati hadiah baru. Cooldown terlihat di slot; inventori berlaku selama balapan ini."
+  },
+  {
+    "old": "Semua efek ikut dijeda saat soal tampil.</p>",
+    "new": "Perisai Pantul menangkis satu serangan dan dapat memantulkan efek singkat; Nitro Ganda memiliki dua charge; Ban Anti-Selip mengurangi oli; Radar menampilkan ancaman dekat tanpa jawaban soal. Dorongan tidak ditumpuk. Semua efek dan cooldown ikut dijeda saat soal tampil.</p>"
+  },
+  {
+    "old": "const oldSlot=s.slot,r=s.answer(index);",
+    "new": "const r=s.answer(index);"
+  }
+]
