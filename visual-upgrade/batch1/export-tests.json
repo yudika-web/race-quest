@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Export retains delivered kart_nara.glb",
+    "Export retains delivered kart_nara_low.glb",
+    "Export retains delivered kart_bimo.glb",
+    "Export retains delivered kart_bimo_low.glb",
+    "Export retains delivered kart_sora.glb",
+    "Export retains delivered kart_sora_low.glb",
+    "Export resets accessible mode to full composition",
+    "Export creates a single expression control",
+    "Export resets stale happy selection",
+    "Exported expression and close-up controls work offline",
+    "Export starts race with browser network disabled",
+    "Export requests no HTTP assets",
+    "Export has no JavaScript errors"
+  ],
+  "errors": [],
+  "requests": []
+}

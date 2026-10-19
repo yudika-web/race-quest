@@ -1,0 +1,18 @@
+{
+  "baseline_commit": "5b50da96ae72ad7cb30c6cfd37cf25d7a1f5c303",
+  "html_sha256": "053e5effaa677e9810d8c5d5e4f04df739efc8e552e8bab5b081e1cb61b52e9f",
+  "original_models": {
+    "kart_nara.glb": {
+      "bytes": 355864,
+      "sha256": "1c8f61a9b16eebf9941e590bac3e11059d2162ccb0c6c34919aab8b8bd337ecd"
+    },
+    "kart_bimo.glb": {
+      "bytes": 400120,
+      "sha256": "814941451448d0e8ca5da4daf109d0a5073e6c312b9fe3ac8267020100bcc2e7"
+    },
+    "kart_sora.glb": {
+      "bytes": 348548,
+      "sha256": "d7f255e09e451cc8e8389f56bc8e5ee89085c3cf448e580c0cde66df9bf7162b"
+    }
+  }
+}

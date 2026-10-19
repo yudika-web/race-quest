@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-10-19T03:27:16.309418+00:00",
+  "baseline_commit": "5b50da96ae72ad7cb30c6cfd37cf25d7a1f5c303",
+  "branch": "dev/race-quest-cat-sport-visual-upgrade",
+  "html_bytes": 19539444,
+  "html_sha256": "64116e53805d626f79de18f36378529223058d5d27908acac9aec9e710ed43ae",
+  "completed_this_batch": 3,
+  "cat_unchanged": true,
+  "pending_pairs": 10,
+  "checks": {
+    "scope-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "glb-validation.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "core-test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 7
+    },
+    "test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 17
+    },
+    "offline-test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "rig-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "preview-race-tests.json": {
+      "status": "passed",
+      "case_count": 6,
+      "check_count": 0
+    },
+    "export-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 13
+    },
+    "unchanged-renders.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 15
+    },
+    "camera-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    }
+  },
+  "artifacts": {
+    "visual-upgrade/race-quest-pro-batch1.html": {
+      "bytes": 19539444,
+      "sha256": "64116e53805d626f79de18f36378529223058d5d27908acac9aec9e710ed43ae"
+    },
+    "visual-upgrade/batch1/models/kart_bimo.glb": {
+      "bytes": 432968,
+      "sha256": "7c155eacf9601e5f99d02707f29e36122155fd4d2ce37405f17e31d52f54da46"
+    },
+    "visual-upgrade/batch1/models/kart_bimo_low.glb": {
+      "bytes": 209392,
+      "sha256": "fa33853d941ef32c8ce8bc48cc575d6eefd94cde12aae2e837c692ff04355750"
+    },
+    "visual-upgrade/batch1/models/kart_nara.glb": {
+      "bytes": 303996,
+      "sha256": "0fe87ee2068908a39372a14373636535f6c59e13b0e31fadb07d6b62f256987c"
+    },
+    "visual-upgrade/batch1/models/kart_nara_low.glb": {
+      "bytes": 169568,
+      "sha256": "7f8e19ba7151d78720d395d716b26341dcd3853dc2c7616374651945abfe96ef"
+    },
+    "visual-upgrade/batch1/models/kart_sora.glb": {
+      "bytes": 364732,
+      "sha256": "261446c212b3669bbf56e145b4c8d39f0fbef6ff97362117f27189331e882408"
+    },
+    "visual-upgrade/batch1/models/kart_sora_low.glb": {
+      "bytes": 192980,
+      "sha256": "2db79a8c7dfdc54a70c52525ebf3b88b9a1bb6a7a2a72c9557ddb20037b2099d"
+    },
+    "visual-upgrade/batch1/source/race-quest-bimo.blend": {
+      "bytes": 1984736,
+      "sha256": "74a1e30f97fb54a219fd0e95c30e02a39610a44ebee4e1b8edb9fadbba769666"
+    },
+    "visual-upgrade/batch1/source/race-quest-nara.blend": {
+      "bytes": 1430980,
+      "sha256": "8485500c311757ded46eb3a0621c9530984005cd76556d450f916cd8f42b9cb4"
+    },
+    "visual-upgrade/batch1/source/race-quest-sora.blend": {
+      "bytes": 1539452,
+      "sha256": "5a6b2b9e91936539513f157a883aedd3b4d7bd7c38ef950df33531dcd91b2bd8"
+    }
+  }
+}

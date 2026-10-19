@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "baseline_commit": "5b50da96ae72ad7cb30c6cfd37cf25d7a1f5c303",
+  "gameplay_ui_scenery_initial_data_identical": true,
+  "race_camera_world_and_non_batch_calls_identical": true,
+  "gpu_programs_and_shared_material_rendering_identical": true,
+  "cat_html_models_and_source_byte_identical": true,
+  "unchanged_original_asset_count": 62,
+  "only_replaced_assets": [
+    "avatar_bimo.webp",
+    "avatar_nara.webp",
+    "avatar_sora.webp",
+    "kart_bimo.glb",
+    "kart_nara.glb",
+    "kart_sora.glb"
+  ],
+  "only_new_assets": [
+    "avatar_bimo_happy.webp",
+    "avatar_nara_happy.webp",
+    "avatar_sora_happy.webp",
+    "kart_bimo_low.glb",
+    "kart_nara_low.glb",
+    "kart_sora_low.glb"
+  ],
+  "no_duplicate_new_asset_payloads": true,
+  "html_bytes": 19539444,
+  "html_under_25_decimal_MB": true,
+  "html_sha256": "64116e53805d626f79de18f36378529223058d5d27908acac9aec9e710ed43ae"
+}

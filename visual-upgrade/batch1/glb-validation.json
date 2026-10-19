@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "file": "kart_bimo.glb",
+      "bytes": 432968,
+      "normals": 8464,
+      "color_vertices": 8464,
+      "triangles": 16008,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_bimo_low.glb",
+      "bytes": 209392,
+      "normals": 3788,
+      "color_vertices": 3788,
+      "triangles": 6816,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_nara.glb",
+      "bytes": 303996,
+      "normals": 5780,
+      "color_vertices": 5780,
+      "triangles": 10966,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 26,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_nara_low.glb",
+      "bytes": 169568,
+      "normals": 2968,
+      "color_vertices": 2968,
+      "triangles": 5450,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 26,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_sora.glb",
+      "bytes": 364732,
+      "normals": 7016,
+      "color_vertices": 7016,
+      "triangles": 13366,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_sora_low.glb",
+      "bytes": 192980,
+      "normals": 3428,
+      "color_vertices": 3428,
+      "triangles": 6286,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    }
+  ]
+}

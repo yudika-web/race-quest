@@ -1,0 +1,101 @@
+[
+  {
+    "id": "nara",
+    "name": "Pinguin",
+    "vehicle": "Kapsul",
+    "models": {
+      "high": {
+        "bytes": 303996,
+        "triangles": 10966,
+        "materialBatches": 26,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "penguin",
+        "vehicle": "Kapsul",
+        "identityReference": "avatar_nara.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      },
+      "low": {
+        "bytes": 169568,
+        "triangles": 5450,
+        "materialBatches": 26,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "penguin",
+        "vehicle": "Kapsul",
+        "identityReference": "avatar_nara.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      }
+    }
+  },
+  {
+    "id": "bimo",
+    "name": "Beruang",
+    "vehicle": "Buggy",
+    "models": {
+      "high": {
+        "bytes": 432968,
+        "triangles": 16008,
+        "materialBatches": 28,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "bear",
+        "vehicle": "Buggy",
+        "identityReference": "avatar_bimo.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      },
+      "low": {
+        "bytes": 209392,
+        "triangles": 6816,
+        "materialBatches": 28,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "bear",
+        "vehicle": "Buggy",
+        "identityReference": "avatar_bimo.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      }
+    }
+  },
+  {
+    "id": "sora",
+    "name": "Kelinci",
+    "vehicle": "Formula",
+    "models": {
+      "high": {
+        "bytes": 364732,
+        "triangles": 13366,
+        "materialBatches": 28,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "rabbit",
+        "vehicle": "Formula",
+        "identityReference": "avatar_sora.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      },
+      "low": {
+        "bytes": 192980,
+        "triangles": 6286,
+        "materialBatches": 28,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "rabbit",
+        "vehicle": "Formula",
+        "identityReference": "avatar_sora.webp",
+        "style": "blocky chibi",
+        "version": "Batch 1"
+      }
+    }
+  }
+]

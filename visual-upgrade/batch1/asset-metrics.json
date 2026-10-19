@@ -1,0 +1,334 @@
+{
+  "baseline_commit": "5b50da96ae72ad7cb30c6cfd37cf25d7a1f5c303",
+  "baseline_html_bytes": 18772016,
+  "html_bytes": 19539444,
+  "html_target_decimal_bytes": 25000000,
+  "models": [
+    {
+      "id": "nara",
+      "name": "Pinguin",
+      "vehicle": "Kapsul",
+      "before": {
+        "bytes": 355864,
+        "sha256": "1c8f61a9b16eebf9941e590bac3e11059d2162ccb0c6c34919aab8b8bd337ecd",
+        "stored_triangles": 15630,
+        "car_triangles": 8628,
+        "character_triangles": 7002,
+        "material_batches": 30,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7400000095367432,
+            0.0010000038146972534,
+            -0.8554423451423645
+          ],
+          "max": [
+            0.7400000095367432,
+            0.9750000238418579,
+            0.8748142123222351
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.353708416223526,
+            0.3700000047683716,
+            -0.6617674231529236
+          ],
+          "max": [
+            0.353708416223526,
+            1.4700000286102295,
+            0.467721164226532
+          ]
+        }
+      },
+      "high": {
+        "bytes": 303996,
+        "sha256": "0fe87ee2068908a39372a14373636535f6c59e13b0e31fadb07d6b62f256987c",
+        "stored_triangles": 10966,
+        "car_triangles": 7118,
+        "character_triangles": 3848,
+        "material_batches": 26,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8334999680519104
+          ],
+          "max": [
+            0.7295000219345092,
+            1.0094000267982484,
+            0.8650000095367432
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.30000001192092896,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.30000001192092896,
+            1.52999995470047,
+            0.2914999890327453
+          ]
+        }
+      },
+      "low": {
+        "bytes": 169568,
+        "sha256": "7f8e19ba7151d78720d395d716b26341dcd3853dc2c7616374651945abfe96ef",
+        "stored_triangles": 5450,
+        "car_triangles": 3842,
+        "character_triangles": 1608,
+        "material_batches": 26,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8334999680519104
+          ],
+          "max": [
+            0.7295000219345092,
+            1.0094000267982484,
+            0.8650000095367432
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.30000001192092896,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.30000001192092896,
+            1.52999995470047,
+            0.2914999890327453
+          ]
+        }
+      },
+      "blender_bytes": 1430980,
+      "visible_normal_high_triangles": 10042,
+      "visible_normal_low_triangles": 5058,
+      "visible_normal_draw_calls": 23
+    },
+    {
+      "id": "bimo",
+      "name": "Beruang",
+      "vehicle": "Buggy",
+      "before": {
+        "bytes": 400120,
+        "sha256": "814941451448d0e8ca5da4daf109d0a5073e6c312b9fe3ac8267020100bcc2e7",
+        "stored_triangles": 16684,
+        "car_triangles": 9352,
+        "character_triangles": 7332,
+        "material_batches": 30,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7250000238418579,
+            -0.0030375105142593506,
+            -0.8633012771606445
+          ],
+          "max": [
+            0.7250000238418579,
+            1.142340898513794,
+            0.9169999957084656
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.3709999918937683,
+            0.3700000047683716,
+            -0.6617674231529236
+          ],
+          "max": [
+            0.3709999918937683,
+            1.5269999504089355,
+            0.467721164226532
+          ]
+        }
+      },
+      "high": {
+        "bytes": 432968,
+        "sha256": "7c155eacf9601e5f99d02707f29e36122155fd4d2ce37405f17e31d52f54da46",
+        "stored_triangles": 16008,
+        "car_triangles": 11544,
+        "character_triangles": 4464,
+        "material_batches": 28,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8650000095367432
+          ],
+          "max": [
+            0.7295000219345092,
+            1.069000005722046,
+            0.8650000095367432
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.36000001430511475,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.36000001430511475,
+            1.6679999828338623,
+            0.2914999890327453
+          ]
+        }
+      },
+      "low": {
+        "bytes": 209392,
+        "sha256": "fa33853d941ef32c8ce8bc48cc575d6eefd94cde12aae2e837c692ff04355750",
+        "stored_triangles": 6816,
+        "car_triangles": 4984,
+        "character_triangles": 1832,
+        "material_batches": 28,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8650000095367432
+          ],
+          "max": [
+            0.7295000219345092,
+            1.069000005722046,
+            0.8650000095367432
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.36000001430511475,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.36000001430511475,
+            1.6679999828338623,
+            0.2914999890327453
+          ]
+        }
+      },
+      "blender_bytes": 1984736,
+      "visible_normal_high_triangles": 15004,
+      "visible_normal_low_triangles": 6404,
+      "visible_normal_draw_calls": 25
+    },
+    {
+      "id": "sora",
+      "name": "Kelinci",
+      "vehicle": "Formula",
+      "before": {
+        "bytes": 348548,
+        "sha256": "d7f255e09e451cc8e8389f56bc8e5ee89085c3cf448e580c0cde66df9bf7162b",
+        "stored_triangles": 15334,
+        "car_triangles": 6940,
+        "character_triangles": 8394,
+        "material_batches": 29,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.6785563120245933,
+            0.0010000038146972534,
+            -0.9100000262260437
+          ],
+          "max": [
+            0.6792800018191337,
+            0.881508469581604,
+            0.9800000190734863
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.353708416223526,
+            0.3700000047683716,
+            -0.6617674231529236
+          ],
+          "max": [
+            0.353708416223526,
+            2.049999952316284,
+            0.467721164226532
+          ]
+        }
+      },
+      "high": {
+        "bytes": 364732,
+        "sha256": "261446c212b3669bbf56e145b4c8d39f0fbef6ff97362117f27189331e882408",
+        "stored_triangles": 13366,
+        "car_triangles": 8362,
+        "character_triangles": 5004,
+        "material_batches": 28,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8585000038146973
+          ],
+          "max": [
+            0.7295000219345092,
+            1.0094000267982484,
+            0.875
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.3199999928474426,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.3199999928474426,
+            1.9532214403152466,
+            0.2914999890327453
+          ]
+        }
+      },
+      "low": {
+        "bytes": 192980,
+        "sha256": "2db79a8c7dfdc54a70c52525ebf3b88b9a1bb6a7a2a72c9557ddb20037b2099d",
+        "stored_triangles": 6286,
+        "car_triangles": 4234,
+        "character_triangles": 2052,
+        "material_batches": 28,
+        "embedded_textures": 0,
+        "car_bounds": {
+          "min": [
+            -0.7295000219345092,
+            1.7881393310492655e-09,
+            -0.8585000038146973
+          ],
+          "max": [
+            0.7295000219345092,
+            1.0094000267982484,
+            0.875
+          ]
+        },
+        "character_bounds": {
+          "min": [
+            -0.3199999928474426,
+            0.5134999585151673,
+            -0.4000000041723252
+          ],
+          "max": [
+            0.3199999928474426,
+            1.9532214403152466,
+            0.2914999890327453
+          ]
+        }
+      },
+      "blender_bytes": 1539452,
+      "visible_normal_high_triangles": 12146,
+      "visible_normal_low_triangles": 5786,
+      "visible_normal_draw_calls": 25
+    }
+  ],
+  "html_growth_percent": 4.09,
+  "under_25_MB": true
+}

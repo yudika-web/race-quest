@@ -1,0 +1,134 @@
+{
+  "completed_this_batch": 3,
+  "accepted_baseline_unchanged": 1,
+  "remaining_original_models": 10,
+  "next_batches_require_user_approval": true,
+  "characters": [
+    {
+      "name": "Kucing",
+      "vehicle": "Sport",
+      "id": "arka",
+      "batch": 0,
+      "status": "accepted_blocky_baseline_unchanged",
+      "model": "kart_arka.glb",
+      "avatar": "avatar_arka.webp"
+    },
+    {
+      "name": "Pinguin",
+      "vehicle": "Kapsul",
+      "id": "nara",
+      "batch": 1,
+      "status": "ready_for_review",
+      "model": "kart_nara.glb",
+      "avatar": "avatar_nara.webp"
+    },
+    {
+      "name": "Beruang",
+      "vehicle": "Buggy",
+      "id": "bimo",
+      "batch": 1,
+      "status": "ready_for_review",
+      "model": "kart_bimo.glb",
+      "avatar": "avatar_bimo.webp"
+    },
+    {
+      "name": "Kelinci",
+      "vehicle": "Formula",
+      "id": "sora",
+      "batch": 1,
+      "status": "ready_for_review",
+      "model": "kart_sora.glb",
+      "avatar": "avatar_sora.webp"
+    },
+    {
+      "name": "Bebek",
+      "vehicle": "Amfibi",
+      "id": "bebek",
+      "batch": 2,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_bebek.glb",
+      "avatar": "avatar_bebek.webp"
+    },
+    {
+      "name": "Ayam",
+      "vehicle": "Farm Buggy",
+      "id": "ayam",
+      "batch": 2,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_ayam.glb",
+      "avatar": "avatar_ayam.webp"
+    },
+    {
+      "name": "Domba",
+      "vehicle": "Cloud Cruiser",
+      "id": "domba",
+      "batch": 2,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_domba.glb",
+      "avatar": "avatar_domba.webp"
+    },
+    {
+      "name": "Robot",
+      "vehicle": "Photon",
+      "id": "robot",
+      "batch": 2,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_robot.glb",
+      "avatar": "avatar_robot.webp"
+    },
+    {
+      "name": "Anjing",
+      "vehicle": "Rally",
+      "id": "anjing",
+      "batch": 3,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_anjing.glb",
+      "avatar": "avatar_anjing.webp"
+    },
+    {
+      "name": "Tikus",
+      "vehicle": "Mini Roadster",
+      "id": "tikus",
+      "batch": 3,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_tikus.glb",
+      "avatar": "avatar_tikus.webp"
+    },
+    {
+      "name": "Rubah",
+      "vehicle": "GT",
+      "id": "rubah",
+      "batch": 3,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_rubah.glb",
+      "avatar": "avatar_rubah.webp"
+    },
+    {
+      "name": "Panda",
+      "vehicle": "Bamboo",
+      "id": "panda",
+      "batch": 4,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_panda.glb",
+      "avatar": "avatar_panda.webp"
+    },
+    {
+      "name": "Koala",
+      "vehicle": "Eco Pod",
+      "id": "koala",
+      "batch": 4,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_koala.glb",
+      "avatar": "avatar_koala.webp"
+    },
+    {
+      "name": "Rakun",
+      "vehicle": "Trail Pickup",
+      "id": "rakun",
+      "batch": 4,
+      "status": "pending_original_asset_unchanged",
+      "model": "kart_rakun.glb",
+      "avatar": "avatar_rakun.webp"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "cases": [],
+  "errors": [],
+  "consoleErrors": [],
+  "failure": "Error: nara mobile: Expression control clears the mouth\n    at check (/workspace/race-quest/visual-upgrade/batch1/source/test_preview_and_races.cjs:8:52)\n    at /workspace/race-quest/visual-upgrade/batch1/source/test_preview_and_races.cjs:25:71"
+}
