@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "2527304fb32174f5e07764f1cad84ecac866787f",
+  "html_sha256": "79a0d2100cefc2a3c5a7e3fdf4dd36fae766aa797e6931a3ac63b8ebf2c69f48",
+  "models": {
+    "kart_anjing.glb": "3feed46cf5f60305b7de3b3a5d12dd561e0a9729ab8f72266164c727b783f0fe",
+    "kart_tikus.glb": "c6c522b165318ec2a1deaeb57612db8a19dbc6986e416b78d9d71dec5e303d3f",
+    "kart_rubah.glb": "a7122bd5ad3d2b6514eeaa6ab8e4401c53cc822070001011faaa12a931e9e970"
+  }
+}

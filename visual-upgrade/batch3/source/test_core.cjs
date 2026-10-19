@@ -1,0 +1,1 @@
+const {run}=require('./reuse.cjs');run('test_core.cjs',s=>s.replaceAll('Batch 1','Batch 3').replace("['kart_nara.glb','avatar_nara.webp','kart_bimo.glb','avatar_bimo.webp','kart_sora.glb','avatar_sora.webp']","['kart_anjing.glb','avatar_anjing.webp','kart_tikus.glb','avatar_tikus.webp','kart_rubah.glb','avatar_rubah.webp']"));

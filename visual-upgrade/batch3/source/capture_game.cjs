@@ -1,0 +1,1 @@
+const {run,fixture}=require('./reuse.cjs');run('capture_game.cjs',s=>s.replace("[[1,'nara'],[2,'bimo'],[3,'sora']]","[[8,'anjing'],[9,'tikus'],[10,'rubah']]").replace("await p.goto(",fixture+"await p.goto(").replace("await p.locator('#characterGrid", "if(index>=6)await p.locator('#characterNext').click();await p.locator('#characterGrid"));

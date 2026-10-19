@@ -1,0 +1,101 @@
+[
+  {
+    "id": "anjing",
+    "name": "Anjing",
+    "vehicle": "Rally",
+    "models": {
+      "high": {
+        "bytes": 500844,
+        "triangles": 18634,
+        "materialBatches": 31,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "dog",
+        "vehicle": "Rally",
+        "identityReference": "avatar_anjing.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      },
+      "low": {
+        "bytes": 239648,
+        "triangles": 7874,
+        "materialBatches": 31,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "dog",
+        "vehicle": "Rally",
+        "identityReference": "avatar_anjing.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      }
+    }
+  },
+  {
+    "id": "tikus",
+    "name": "Tikus",
+    "vehicle": "Mini Roadster",
+    "models": {
+      "high": {
+        "bytes": 357332,
+        "triangles": 13010,
+        "materialBatches": 29,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "mouse",
+        "vehicle": "Mini Roadster",
+        "identityReference": "avatar_tikus.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      },
+      "low": {
+        "bytes": 190164,
+        "triangles": 6122,
+        "materialBatches": 29,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "mouse",
+        "vehicle": "Mini Roadster",
+        "identityReference": "avatar_tikus.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      }
+    }
+  },
+  {
+    "id": "rubah",
+    "name": "Rubah",
+    "vehicle": "GT",
+    "models": {
+      "high": {
+        "bytes": 432664,
+        "triangles": 16066,
+        "materialBatches": 29,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "fox",
+        "vehicle": "GT",
+        "identityReference": "avatar_rubah.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      },
+      "low": {
+        "bytes": 219808,
+        "triangles": 7274,
+        "materialBatches": 29,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "fox",
+        "vehicle": "GT",
+        "identityReference": "avatar_rubah.webp",
+        "style": "blocky chibi",
+        "version": "Batch 3"
+      }
+    }
+  }
+]

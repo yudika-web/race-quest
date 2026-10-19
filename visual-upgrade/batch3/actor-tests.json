@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "anjing",
+      "status": "passed",
+      "checks": [
+        "New anjing meshes submitted as AI",
+        "New tikus meshes submitted as AI",
+        "New rubah meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New anjing meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    },
+    {
+      "id": "tikus",
+      "status": "passed",
+      "checks": [
+        "New anjing meshes submitted as AI",
+        "New tikus meshes submitted as AI",
+        "New rubah meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New tikus meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    },
+    {
+      "id": "rubah",
+      "status": "passed",
+      "checks": [
+        "New anjing meshes submitted as AI",
+        "New tikus meshes submitted as AI",
+        "New rubah meshes submitted as AI",
+        "AI item state selects surprised expression",
+        "New rubah meshes submitted as translucent ghost",
+        "Paused AI and ghost matrices freeze",
+        "Question AI and ghost matrices freeze",
+        "AI and ghost animation resumes with simulation time",
+        "All three AI models load low LOD",
+        "AI/ghost rendering has no WebGL error"
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Export retains delivered kart_anjing.glb",
+    "Export retains delivered kart_anjing_low.glb",
+    "Export retains delivered kart_tikus.glb",
+    "Export retains delivered kart_tikus_low.glb",
+    "Export retains delivered kart_rubah.glb",
+    "Export retains delivered kart_rubah_low.glb",
+    "Export resets accessible mode to full composition",
+    "Export creates a single expression control",
+    "Export resets stale happy selection",
+    "Exported expression and close-up controls work offline",
+    "Export starts race with browser network disabled",
+    "Export requests no HTTP assets",
+    "Export has no JavaScript errors"
+  ],
+  "errors": [],
+  "requests": []
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "offline": true,
+  "cases": [
+    {
+      "id": "anjing",
+      "offline": true,
+      "character": 8,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    },
+    {
+      "id": "tikus",
+      "offline": true,
+      "character": 9,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    },
+    {
+      "id": "rubah",
+      "offline": true,
+      "character": 10,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    }
+  ],
+  "assetHttpRequests": [],
+  "errors": [],
+  "note": "Only the main HTML is fulfilled from local bytes. All network disabled; no HTTP asset requests. Direct file:// is blocked by the cloud browser administrator. Tokens/countdown are test fixtures, not shipped gameplay changes."
+}

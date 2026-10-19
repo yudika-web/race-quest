@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "baseline_commit": "2527304fb32174f5e07764f1cad84ecac866787f",
+  "html_bytes": 22162971,
+  "html_sha256": "bd3afbde40d41ff6509bd7e24dc1f8e4939405bf89a76f9c026f57371d9a2c09",
+  "html_under_25_decimal_MB": true,
+  "gameplay_ui_scenery_initial_data_identical": true,
+  "race_camera_world_and_animation_timing_identical": true,
+  "shared_renderer_lighting_loader_identical_except_three_model_configuration_entries": true,
+  "historical_files_byte_identical": 735,
+  "unchanged_original_asset_count": 76,
+  "only_replaced_assets": [
+    "avatar_anjing.webp",
+    "avatar_rubah.webp",
+    "avatar_tikus.webp",
+    "kart_anjing.glb",
+    "kart_rubah.glb",
+    "kart_tikus.glb"
+  ],
+  "only_new_assets": [
+    "avatar_anjing_happy.webp",
+    "avatar_rubah_happy.webp",
+    "avatar_tikus_happy.webp",
+    "kart_anjing_low.glb",
+    "kart_rubah_low.glb",
+    "kart_tikus_low.glb"
+  ],
+  "new_asset_payloads_unique": true
+}

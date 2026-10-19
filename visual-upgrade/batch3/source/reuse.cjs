@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path'),Module=require('module');
+exports.run=function(name,transform){const file=path.join(__dirname,name),m=new Module(file,module);m.filename=file;m.paths=module.paths;let text=fs.readFileSync(path.join(__dirname,'../../batch1/source',name),'utf8');text=text.replaceAll('race-quest-pro-batch1.html','race-quest-pro-batch3.html').replaceAll('race-quest-visual-upgrade.html','race-quest-pro-batch2.html').replaceAll('/batch1/','/batch3/').replaceAll("['nara','bimo','sora']","['anjing','tikus','rubah']");text=transform?transform(text):text;m._compile(text,file);return m.exports};
+// Supply tokens only in the test context; exercise the real 60-token purchase.
+// Grid pages remain real, including second-page selection of Anjing/Tikus/Rubah.
+exports.fixture=`await p.addInitScript(()=>{const old=Storage.prototype.getItem;Storage.prototype.getItem=function(k){const value=old.call(this,k);if(k.startsWith('race_quest_flexible_v1_')){const a=(value?JSON.parse(value):JSON.parse(document.getElementById('initialData').textContent))||RaceCore.sampleData();a.profile={...(a.profile||{}),tokens:1000};return JSON.stringify(a)}return value}});`;
+exports.selection=`if(spec.index>=6)await p.locator('#characterNext').click();`;

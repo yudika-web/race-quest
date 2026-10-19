@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-10-19T05:45:22.858243+00:00",
+  "baseline_commit": "2527304fb32174f5e07764f1cad84ecac866787f",
+  "branch": "dev/race-quest-cat-sport-visual-upgrade",
+  "html_bytes": 22162971,
+  "html_sha256": "bd3afbde40d41ff6509bd7e24dc1f8e4939405bf89a76f9c026f57371d9a2c09",
+  "completed_this_batch": 3,
+  "batch0_to_2_unchanged": true,
+  "pending_pairs": 3,
+  "checks": {
+    "scope-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "glb-validation.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "core-test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 7
+    },
+    "test-results.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 17
+    },
+    "offline-test-results.json": {
+      "status": "passed",
+      "case_count": 3,
+      "check_count": 0
+    },
+    "rig-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "preview-race-tests.json": {
+      "status": "passed",
+      "case_count": 6,
+      "check_count": 0
+    },
+    "export-tests.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 13
+    },
+    "unchanged-renders.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 22
+    },
+    "camera-verification.json": {
+      "status": "passed",
+      "case_count": 0,
+      "check_count": 0
+    },
+    "actor-tests.json": {
+      "status": "passed",
+      "case_count": 3,
+      "check_count": 0
+    }
+  },
+  "artifacts": {
+    "visual-upgrade/race-quest-pro-batch3.html": {
+      "bytes": 22162971,
+      "sha256": "bd3afbde40d41ff6509bd7e24dc1f8e4939405bf89a76f9c026f57371d9a2c09"
+    },
+    "visual-upgrade/batch3/models/kart_anjing.glb": {
+      "bytes": 500844,
+      "sha256": "b9726e0d59d48dcb2768b8abe8c51aa012361c1fe0f4b8ab698d6b64857fb44a"
+    },
+    "visual-upgrade/batch3/models/kart_anjing_low.glb": {
+      "bytes": 239648,
+      "sha256": "882a91baa75bda75f0d5fa9480a1a6fe0424cc75a7c238f76b9ad9d415aee23c"
+    },
+    "visual-upgrade/batch3/models/kart_rubah.glb": {
+      "bytes": 432664,
+      "sha256": "92148317ee72ab2b728351b2be3389fe03f9f8af46f5c27b092c69d18fc09ae5"
+    },
+    "visual-upgrade/batch3/models/kart_rubah_low.glb": {
+      "bytes": 219808,
+      "sha256": "24706d3b285e97cfefef9fa5383f998d6be44ba8789ba61e893bbc331ddd0c52"
+    },
+    "visual-upgrade/batch3/models/kart_tikus.glb": {
+      "bytes": 357332,
+      "sha256": "4f41c64932385433d25d7b3f8122a3d39f27c23e070d63cc369e2201c93a512f"
+    },
+    "visual-upgrade/batch3/models/kart_tikus_low.glb": {
+      "bytes": 190164,
+      "sha256": "3bc41c87a89379313c0a8ed24cc9bf99463ebc6e754999ab8cb938f911ab0844"
+    },
+    "visual-upgrade/batch3/source/race-quest-anjing.blend": {
+      "bytes": 2183436,
+      "sha256": "9d2a05375ea2d9b6eba0c3e5ff41a7067bd56ed2694631e2e2ad6bd087174406"
+    },
+    "visual-upgrade/batch3/source/race-quest-rubah.blend": {
+      "bytes": 1730396,
+      "sha256": "0e137dbc3af428967d41ec62407b8deb14312925ed66b70a70a6eca17195a6ee"
+    },
+    "visual-upgrade/batch3/source/race-quest-tikus.blend": {
+      "bytes": 1567200,
+      "sha256": "21e1f187621b3bebf33199f151a2d2b80c9a0b3a2f2a4bd073b03dd0d2c2d68e"
+    }
+  },
+  "optional_checks": {
+    "direct_file_offline": {
+      "status": "blocked",
+      "errors": [],
+      "httpRequests": [],
+      "reason": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch3.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/race-quest-pro-batch3.html\", waiting until \"load\"\u001b[22m\n"
+    }
+  }
+}
