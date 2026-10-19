@@ -1,0 +1,127 @@
+{
+  "checks": [
+    "Teacher question bank renders",
+    "New penguin GLB loaded in garage",
+    "Blocky penguin portrait loads in character selection",
+    "All 14 character models still load",
+    "A steers left",
+    "D steers right",
+    "Jump lifts kart above track",
+    "Pause freezes player, AI and animation clock",
+    "Quiz freezes player, AI and animation clock",
+    "Correct answer awards a buff",
+    "Buff can be used after quiz and race resumes",
+    "No JavaScript errors in desktop gameplay",
+    "Low graphics quality loads reduced geometry",
+    "Mobile preview and action buttons do not overlap",
+    "Touch left control steers left",
+    "Offline racing with network disabled",
+    "No JavaScript errors in desktop/mobile checks"
+  ],
+  "errors": [],
+  "requests": [],
+  "models": [
+    {
+      "name": "Kucing",
+      "file": "kart_arka.glb",
+      "nodes": 57
+    },
+    {
+      "name": "Pinguin",
+      "file": "kart_nara.glb",
+      "nodes": 47
+    },
+    {
+      "name": "Beruang",
+      "file": "kart_bimo.glb",
+      "nodes": 49
+    },
+    {
+      "name": "Kelinci",
+      "file": "kart_sora.glb",
+      "nodes": 49
+    },
+    {
+      "name": "Bebek",
+      "file": "kart_bebek.glb",
+      "nodes": 47
+    },
+    {
+      "name": "Ayam",
+      "file": "kart_ayam.glb",
+      "nodes": 48
+    },
+    {
+      "name": "Domba",
+      "file": "kart_domba.glb",
+      "nodes": 49
+    },
+    {
+      "name": "Robot",
+      "file": "kart_robot.glb",
+      "nodes": 56
+    },
+    {
+      "name": "Anjing",
+      "file": "kart_anjing.glb",
+      "nodes": 52
+    },
+    {
+      "name": "Tikus",
+      "file": "kart_tikus.glb",
+      "nodes": 50
+    },
+    {
+      "name": "Rubah",
+      "file": "kart_rubah.glb",
+      "nodes": 50
+    },
+    {
+      "name": "Panda",
+      "file": "kart_panda.glb",
+      "nodes": 50
+    },
+    {
+      "name": "Koala",
+      "file": "kart_koala.glb",
+      "nodes": 50
+    },
+    {
+      "name": "Rakun",
+      "file": "kart_rakun.glb",
+      "nodes": 50
+    }
+  ],
+  "desktop": "passed",
+  "mobileGeometry": {
+    "preview": {
+      "x": 18,
+      "y": 422.03125,
+      "w": 354,
+      "h": 338.96875
+    },
+    "footer": {
+      "x": 0,
+      "y": 771,
+      "w": 390,
+      "h": 73
+    },
+    "canvas": {
+      "x": 19,
+      "y": 423.03125,
+      "w": 352,
+      "h": 336.96875
+    },
+    "width": 390
+  },
+  "mobile": "passed",
+  "offline": {
+    "status": "passed",
+    "offline": true,
+    "screen": "race",
+    "assetHttpRequests": [],
+    "errors": [],
+    "note": "Network disabled. Main HTML fulfilled directly from local bytes; all game assets embedded. Direct file:// opening is blocked by cloud browser administrator."
+  },
+  "status": "passed"
+}

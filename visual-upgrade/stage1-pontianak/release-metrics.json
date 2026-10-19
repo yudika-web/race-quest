@@ -1,0 +1,22 @@
+{
+  "html_bytes": 23362544,
+  "baseline_bytes": 23349280,
+  "growth_bytes": 13264,
+  "under_25_decimal_MB": true,
+  "city_triangles": 37853,
+  "city_colour_submissions": 19,
+  "city_shadow_submissions": 14,
+  "city_owned_textures": 3,
+  "source_mode": "Procedural material batches; no new GLB or network assets",
+  "fps_measured": false,
+  "playable_zip": {
+    "name": "race-quest-pro-pontianak-stage1-playable.zip",
+    "bytes": 11974171,
+    "sha256": "84d6551e91cd7b6ee6285c581c720068c4e1069e6a9c987d16ff03919f508877"
+  },
+  "review_zip": {
+    "name": "race-quest-pro-pontianak-stage1-review.zip",
+    "bytes": 23188985,
+    "sha256": "4d3ac69673dea1c4721d6201c7020163b87175c6bf3ae002fc5cc98e916a5d0f"
+  }
+}

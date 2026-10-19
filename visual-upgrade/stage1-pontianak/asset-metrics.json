@@ -1,0 +1,12 @@
+{
+  "html_bytes": 23362544,
+  "baseline_bytes": 23349280,
+  "growth_bytes": 13264,
+  "under_25_decimal_MB": true,
+  "city_triangles": 37853,
+  "city_colour_submissions": 19,
+  "city_shadow_submissions": 14,
+  "city_owned_textures": 3,
+  "source_mode": "Procedural material batches; no new GLB or network assets",
+  "fps_measured": false
+}
