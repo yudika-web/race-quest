@@ -1,0 +1,134 @@
+[
+  {
+    "id": "bebek",
+    "name": "Bebek",
+    "vehicle": "Amfibi",
+    "models": {
+      "high": {
+        "bytes": 316740,
+        "triangles": 11508,
+        "materialBatches": 26,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "duck",
+        "vehicle": "Amfibi",
+        "identityReference": "avatar_bebek.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      },
+      "low": {
+        "bytes": 169956,
+        "triangles": 5468,
+        "materialBatches": 26,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "duck",
+        "vehicle": "Amfibi",
+        "identityReference": "avatar_bebek.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      }
+    }
+  },
+  {
+    "id": "ayam",
+    "name": "Ayam",
+    "vehicle": "Farm Buggy",
+    "models": {
+      "high": {
+        "bytes": 444060,
+        "triangles": 16512,
+        "materialBatches": 27,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "chicken",
+        "vehicle": "Farm Buggy",
+        "identityReference": "avatar_ayam.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      },
+      "low": {
+        "bytes": 210516,
+        "triangles": 6904,
+        "materialBatches": 27,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "chicken",
+        "vehicle": "Farm Buggy",
+        "identityReference": "avatar_ayam.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      }
+    }
+  },
+  {
+    "id": "domba",
+    "name": "Domba",
+    "vehicle": "Cloud Cruiser",
+    "models": {
+      "high": {
+        "bytes": 363968,
+        "triangles": 13348,
+        "materialBatches": 28,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "sheep",
+        "vehicle": "Cloud Cruiser",
+        "identityReference": "avatar_domba.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      },
+      "low": {
+        "bytes": 190660,
+        "triangles": 6204,
+        "materialBatches": 28,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "sheep",
+        "vehicle": "Cloud Cruiser",
+        "identityReference": "avatar_domba.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      }
+    }
+  },
+  {
+    "id": "robot",
+    "name": "Robot",
+    "vehicle": "Photon",
+    "models": {
+      "high": {
+        "bytes": 377512,
+        "triangles": 13586,
+        "materialBatches": 35,
+        "LOD": "high",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "robot",
+        "vehicle": "Photon",
+        "identityReference": "avatar_robot.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      },
+      "low": {
+        "bytes": 199628,
+        "triangles": 6250,
+        "materialBatches": 35,
+        "LOD": "low",
+        "axes": "X right Y up Z forward",
+        "wheelRadius": 0.205,
+        "animal": "robot",
+        "vehicle": "Photon",
+        "identityReference": "avatar_robot.webp",
+        "style": "blocky chibi",
+        "version": "Batch 2"
+      }
+    }
+  }
+]

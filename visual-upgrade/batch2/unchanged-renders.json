@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "viewport": [
+    256,
+    256
+  ],
+  "checks": [
+    {
+      "model": "cat-high",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "cat-low",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "cat-garage-full",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "cat-garage-close",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "car-only",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_nara.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_nara_low.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_bimo.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_bimo_low.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_sora.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_sora_low.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_anjing.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_tikus.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_rubah.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_panda.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_koala.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    },
+    {
+      "model": "kart_rakun.glb",
+      "exact": true,
+      "mean_channel_difference": 0,
+      "max_channel_difference": 0,
+      "different_channels": 0
+    }
+  ],
+  "note": "Accepted blocky cat high/low, both native garage modes, blue sport alone, and Batch 1 high/low and six later-batch characters: exact pixels, fixed time/pose/light on the same browser. CSS canvas is 256 square; low quality uses the existing 0.65 pixel scale."
+}

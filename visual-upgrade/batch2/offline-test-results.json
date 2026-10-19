@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "offline": true,
+  "cases": [
+    {
+      "id": "bebek",
+      "offline": true,
+      "character": 4,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    },
+    {
+      "id": "ayam",
+      "offline": true,
+      "character": 5,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    },
+    {
+      "id": "domba",
+      "offline": true,
+      "character": 6,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    },
+    {
+      "id": "robot",
+      "offline": true,
+      "character": 7,
+      "glError": 0,
+      "screen": "race",
+      "status": "passed"
+    }
+  ],
+  "assetHttpRequests": [],
+  "errors": [],
+  "note": "Only the main HTML is fulfilled from local bytes. All network disabled; no HTTP asset requests. Direct file:// is blocked by the cloud browser administrator. Tokens/countdown are test fixtures, not shipped gameplay changes."
+}

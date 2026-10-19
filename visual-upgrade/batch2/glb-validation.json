@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "file": "kart_ayam.glb",
+      "bytes": 444060,
+      "normals": 8718,
+      "color_vertices": 8718,
+      "triangles": 16512,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 27,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_ayam_low.glb",
+      "bytes": 210516,
+      "normals": 3834,
+      "color_vertices": 3834,
+      "triangles": 6904,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 27,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_bebek.glb",
+      "bytes": 316740,
+      "normals": 6048,
+      "color_vertices": 6048,
+      "triangles": 11508,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 26,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_bebek_low.glb",
+      "bytes": 169956,
+      "normals": 2980,
+      "color_vertices": 2980,
+      "triangles": 5468,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 26,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_domba.glb",
+      "bytes": 363968,
+      "normals": 6992,
+      "color_vertices": 6992,
+      "triangles": 13348,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_domba_low.glb",
+      "bytes": 190660,
+      "normals": 3372,
+      "color_vertices": 3372,
+      "triangles": 6204,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 28,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_robot.glb",
+      "bytes": 377512,
+      "normals": 7128,
+      "color_vertices": 7128,
+      "triangles": 13586,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 35,
+      "original_rig_pivots_and_collider_preserved": true
+    },
+    {
+      "file": "kart_robot_low.glb",
+      "bytes": 199628,
+      "normals": 3412,
+      "color_vertices": 3412,
+      "triangles": 6250,
+      "default_standard_gltf_expression": "normal",
+      "native_import_hides_inactive_expressions": true,
+      "imported_meshes": 35,
+      "original_rig_pivots_and_collider_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "id": "robot",
+      "device": "mobile",
+      "checks": [
+        "New 256px portrait loads",
+        "Close-up makes the face clearly larger",
+        "Head and ears clear the toolbar",
+        "Expression control clears the mouth",
+        "Preview clears race action buttons",
+        "Expression happy reaches the renderer",
+        "Expression shock reaches the renderer",
+        "Expression normal reaches the renderer",
+        "Finger drag rotates preview",
+        "Pinch zoom works",
+        "Manual rotation stops automatic spin",
+        "Reset restores scale and automatic spin",
+        "Automatic rotation can resume",
+        "Full vehicle mode remains available",
+        "Close-up does not change the chase camera",
+        "Pause freezes player, AI, every new-model matrix and reaction timer",
+        "Question freezes player, AI, every new-model matrix and reaction timer",
+        "Correct answer grants a buff",
+        "Race continues after answering",
+        "No WebGL error"
+      ],
+      "eye_span_full_px": 16.396059037579562,
+      "eye_span_close_px": 30.44098528010028,
+      "enlargement": 1.8566037857225277,
+      "fit": {
+        "top": 520.2394980146793,
+        "toolbarBottom": 464.03125,
+        "mouth": 617.2165867839594,
+        "expressionTop": 703,
+        "previewBottom": 761,
+        "footerTop": 771
+      },
+      "chase_distance": 6.833725953514665
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

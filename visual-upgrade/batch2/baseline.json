@@ -1,0 +1,10 @@
+{
+  "baseline_commit": "60b2edb966e5775c48c8868c105b700eb57718c4",
+  "html_sha256": "64116e53805d626f79de18f36378529223058d5d27908acac9aec9e710ed43ae",
+  "models": {
+    "kart_bebek.glb": "c90fc223b0b54ab11657f21f4ba39ab73e3f7fead288bc1dddc7212bf4731af3",
+    "kart_ayam.glb": "ef64880d7bc2e651a611d1d7303dbd3b683b5e73b1455ad60c94f82e491112db",
+    "kart_domba.glb": "b0e5109c5a996f5023df667fe1491cba5493ab7e9c91e1ba4eb58f7f59a60ba3",
+    "kart_robot.glb": "3821bd26f8e017bd66d6b3eff3fca2384abf032b97d4afc4206a3f3fb2b670f6"
+  }
+}

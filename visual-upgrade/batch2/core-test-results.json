@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Game rules, UI logic, scenery scripts and initial data unchanged",
+    "Every original asset except Batch 2 models and portraits preserved exactly",
+    "Teacher question count, material and JSON persistence round trip",
+    "Question CSV export/import retains choices and correct answers",
+    "All stages and AI difficulty settings remain available",
+    "Grand Prix mastery gating, retry and three-round completion",
+    "Drift, jump, quiz freeze, buff, result, ghost and progress"
+  ]
+}

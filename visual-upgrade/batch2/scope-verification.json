@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "baseline_commit": "60b2edb966e5775c48c8868c105b700eb57718c4",
+  "html_bytes": 20742156,
+  "html_sha256": "79a0d2100cefc2a3c5a7e3fdf4dd36fae766aa797e6931a3ac63b8ebf2c69f48",
+  "html_under_25_decimal_MB": true,
+  "gameplay_ui_scenery_initial_data_identical": true,
+  "race_camera_world_and_animation_timing_identical": true,
+  "shared_renderer_lighting_loader_identical_except_four_model_configuration_entries": true,
+  "historical_files_byte_identical": 429,
+  "unchanged_original_asset_count": 66,
+  "only_replaced_assets": [
+    "avatar_ayam.webp",
+    "avatar_bebek.webp",
+    "avatar_domba.webp",
+    "avatar_robot.webp",
+    "kart_ayam.glb",
+    "kart_bebek.glb",
+    "kart_domba.glb",
+    "kart_robot.glb"
+  ],
+  "only_new_assets": [
+    "avatar_ayam_happy.webp",
+    "avatar_bebek_happy.webp",
+    "avatar_domba_happy.webp",
+    "avatar_robot_happy.webp",
+    "kart_ayam_low.glb",
+    "kart_bebek_low.glb",
+    "kart_domba_low.glb",
+    "kart_robot_low.glb"
+  ],
+  "new_asset_payloads_unique": true
+}
