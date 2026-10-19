@@ -1,9 +1,18 @@
-# RACE QUEST PRO — Pontianak Stage 1
+# RACE QUEST PRO — Mempawah Stage 2
 
-**Distribusi pengembangan terbaru:** Stage 1 bertema jalanan kota Pontianak, Tugu Khatulistiwa dan Tugu Bambu, dengan 14 pasangan blocky Batch 4 tetap utuh.
+**Distribusi pengembangan terbaru:** Stage 2 bertema jalanan taman Mempawah, Tugu Pak Tani dan Keraton Mempawah. Stage 1 Pontianak dan seluruh 14 pasangan blocky tetap utuh; Stage 3 belum diubah.
+
+- [ZIP playable Mempawah](race-quest-pro-mempawah-stage2-playable.zip) — ekstrak, buka HTML, pilih **Stage Mempawah · Jalanan Taman** pada menu Mulai.
+- [HTML mandiri terbaru](visual-upgrade/race-quest-pro-mempawah-stage2.html) · [ZIP review](race-quest-pro-mempawah-stage2-review.zip).
+- Before–after: [Pak Tani](visual-upgrade/stage2-mempawah/comparisons/comparison-pak-tani.jpg), [Keraton](visual-upgrade/stage2-mempawah/comparisons/comparison-keraton.jpg), [taman](visual-upgrade/stage2-mempawah/comparisons/comparison-garden.jpg).
+- [Laporan ukuran, pengujian dan sumber](visual-upgrade/stage2-mempawah/README.md). HTML **23.378.794 byte**. Hujan/handling bawaan, ramp, gap, soal, AI dan fitur lain tetap berlaku.
+
+## Tahap sebelumnya — Pontianak Stage 1
+
+**Hasil Stage 1:** Stage 1 bertema jalanan kota Pontianak, Tugu Khatulistiwa dan Tugu Bambu, dengan 14 pasangan blocky Batch 4 tetap utuh.
 
 - [ZIP playable Pontianak](race-quest-pro-pontianak-stage1-playable.zip) — ekstrak dan buka HTML offline.
-- [HTML mandiri terbaru](visual-upgrade/race-quest-pro-pontianak-stage1.html) · [ZIP review](race-quest-pro-pontianak-stage1-review.zip).
+- [HTML Stage 1](visual-upgrade/race-quest-pro-pontianak-stage1.html) · [ZIP review](race-quest-pro-pontianak-stage1-review.zip).
 - Before–after: [Khatulistiwa](visual-upgrade/stage1-pontianak/comparisons/comparison-tugu-khatulistiwa.jpg), [Bambu](visual-upgrade/stage1-pontianak/comparisons/comparison-tugu-bambu.jpg), [kota](visual-upgrade/stage1-pontianak/comparisons/comparison-city.jpg).
 - [Laporan ukuran, pengujian dan sumber](visual-upgrade/stage1-pontianak/README.md). HTML 23.362.544 byte. Stage 2–3 dan seluruh aset karakter/kendaraan tetap identik; aturan balapan tidak berubah.
 
@@ -20,5 +29,5 @@
 
 HTML **23.349.280 byte (23,35 MB)**, seluruh aset tertanam dan di bawah target 25.000.000 byte. Aturan game, bank soal, data siswa/profil, harga unlock 60 token, AI, Grand Prix, kontrol, progres, ghost, audio, ekspor dan penyimpanan tidak diubah. Panda tersedia pada halaman 2; Koala dan Rakun pada halaman 3 garasi.
 
-`index.html` online dan `main` tetap utuh. Tidak ada deployment. Versi terbaru hanya memperbarui visual Stage 1; Stage 2–3 tetap seperti Batch 4.
+`index.html` online dan `main` tetap utuh. Tidak ada deployment. Versi Stage 1 hanya memperbarui visual Stage 1; hasil Mempawah terbaru melanjutkan perubahan visual Stage 2. Stage 3 tetap seperti Batch 4.
 Riwayat [Batch 3](visual-upgrade/batch3/README.md), [Batch 2](visual-upgrade/batch2/README.md), [Batch 1](visual-upgrade/batch1/README.md) dan [Kucing blocky](visual-upgrade/cat-blocky/README.md) tetap tersedia.

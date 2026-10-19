@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "baseline": "8bc787d01fb1a5a96ec177955b8378aea32cd57d",
+  "historical_files_byte_identical": 1345,
+  "embedded_assets_byte_identical": 94,
+  "original_inline_scripts_byte_identical_except_stage_display_name": true,
+  "road_physics_AI_UI_loader_animation_code_identical": true,
+  "html_bytes": 23378794,
+  "html_under_25_decimal_MB": true,
+  "html_sha256": "100dcf7214fde7e8542b3a381a478af7b0519186fdb97d327930ec44e3f774cc"
+}

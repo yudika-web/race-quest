@@ -1,0 +1,12 @@
+{
+  "html_bytes": 23378794,
+  "baseline_bytes": 23362544,
+  "growth_bytes": 16250,
+  "under_25_decimal_MB": true,
+  "garden_triangles": 83250,
+  "garden_colour_submissions": 26,
+  "garden_shadow_submissions": 12,
+  "garden_owned_textures": 3,
+  "source_mode": "Procedural material batches; no new GLB or network assets",
+  "fps_measured": false
+}

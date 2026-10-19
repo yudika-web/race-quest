@@ -1,0 +1,1952 @@
+{
+  "status": "passed",
+  "errors": [],
+  "consoleErrors": [],
+  "comparisons": [
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "after_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "before_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "after_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "before_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "after_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "before_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "after_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "before_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "after_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "before_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "after_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "before_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "after_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "before_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "after_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "before_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "after_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "before_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "3cb1ac73513bde98f53c598f59ab7c72ab00ad033974d1b3820e0ddb41b60a51",
+      "after_sha256": "3cb1ac73513bde98f53c598f59ab7c72ab00ad033974d1b3820e0ddb41b60a51",
+      "before_submitted": {
+        "colour_draws": 413,
+        "depth_draws": 58,
+        "colour_triangles": 262939,
+        "depth_triangles": 171573
+      },
+      "after_submitted": {
+        "colour_draws": 413,
+        "depth_draws": 58,
+        "colour_triangles": 262939,
+        "depth_triangles": 171573
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "004b63e7759e2d81be9951e068f9c8fa2659217e681ba0020fb616486999d5f4",
+      "after_sha256": "004b63e7759e2d81be9951e068f9c8fa2659217e681ba0020fb616486999d5f4",
+      "before_submitted": {
+        "colour_draws": 420,
+        "depth_draws": 49,
+        "colour_triangles": 261063,
+        "depth_triangles": 152393
+      },
+      "after_submitted": {
+        "colour_draws": 420,
+        "depth_draws": 49,
+        "colour_triangles": 261063,
+        "depth_triangles": 152393
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "4347118eba844d060bb702f191071ef006f0ac8033964f1e08d3d264937efbf9",
+      "after_sha256": "4347118eba844d060bb702f191071ef006f0ac8033964f1e08d3d264937efbf9",
+      "before_submitted": {
+        "colour_draws": 267,
+        "depth_draws": 52,
+        "colour_triangles": 226355,
+        "depth_triangles": 158165
+      },
+      "after_submitted": {
+        "colour_draws": 267,
+        "depth_draws": 52,
+        "colour_triangles": 226355,
+        "depth_triangles": 158165
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "650c4570582eefd984cecfa11dd45c68f5216d7538ad41822daf113df902041c",
+      "after_sha256": "650c4570582eefd984cecfa11dd45c68f5216d7538ad41822daf113df902041c",
+      "before_submitted": {
+        "colour_draws": 395,
+        "depth_draws": 58,
+        "colour_triangles": 250963,
+        "depth_triangles": 171573
+      },
+      "after_submitted": {
+        "colour_draws": 395,
+        "depth_draws": 58,
+        "colour_triangles": 250963,
+        "depth_triangles": 171573
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "ad394e246e1c76b137352e94a14be2b27c866a6424a3af581dd095c947eac51a",
+      "after_sha256": "ad394e246e1c76b137352e94a14be2b27c866a6424a3af581dd095c947eac51a",
+      "before_submitted": {
+        "colour_draws": 397,
+        "depth_draws": 49,
+        "colour_triangles": 248375,
+        "depth_triangles": 152393
+      },
+      "after_submitted": {
+        "colour_draws": 397,
+        "depth_draws": 49,
+        "colour_triangles": 248375,
+        "depth_triangles": 152393
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "a47585c1619895b8e834e523a0e7d7fcdb8623392e55204566132578ef96e271",
+      "after_sha256": "a47585c1619895b8e834e523a0e7d7fcdb8623392e55204566132578ef96e271",
+      "before_submitted": {
+        "colour_draws": 251,
+        "depth_draws": 52,
+        "colour_triangles": 214251,
+        "depth_triangles": 158165
+      },
+      "after_submitted": {
+        "colour_draws": 251,
+        "depth_draws": 52,
+        "colour_triangles": 214251,
+        "depth_triangles": 158165
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "e1f2bacec776f635b83ee08b2034b6114a7cb5c6e4147ed324c9a72a989d88b2",
+      "after_sha256": "e1f2bacec776f635b83ee08b2034b6114a7cb5c6e4147ed324c9a72a989d88b2",
+      "before_submitted": {
+        "colour_draws": 362,
+        "depth_draws": 0,
+        "colour_triangles": 214154,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 362,
+        "depth_draws": 0,
+        "colour_triangles": 214154,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "474d92ec0b325657d64ad5d559578f6ac8c0dcfad283fea065d3eafb89f61eff",
+      "after_sha256": "474d92ec0b325657d64ad5d559578f6ac8c0dcfad283fea065d3eafb89f61eff",
+      "before_submitted": {
+        "colour_draws": 366,
+        "depth_draws": 0,
+        "colour_triangles": 207278,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 366,
+        "depth_draws": 0,
+        "colour_triangles": 207278,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "36edf9787fbc4a8c0b76a8de51284fe097a4bd3627d78f4c84ce68f022865063",
+      "after_sha256": "36edf9787fbc4a8c0b76a8de51284fe097a4bd3627d78f4c84ce68f022865063",
+      "before_submitted": {
+        "colour_draws": 211,
+        "depth_draws": 0,
+        "colour_triangles": 171338,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 211,
+        "depth_draws": 0,
+        "colour_triangles": 171338,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "8c363c4a7e0816f1f39408bf4733cbfcb8e1badbfa04d6990579722a8b31b178",
+      "after_sha256": "366e9a0f9bf038d080d8ddc35d611911dd0dc6ef6eec6d5af0b54bdaa35ee61e",
+      "before_submitted": {
+        "colour_draws": 387,
+        "depth_draws": 47,
+        "colour_triangles": 245505,
+        "depth_triangles": 149741
+      },
+      "after_submitted": {
+        "colour_draws": 220,
+        "depth_draws": 22,
+        "colour_triangles": 153031,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "2ab0d2caf36b1fbb3d54ab26bf07ea87aab7666b8e09a48068416aa35a63ec9c",
+      "after_sha256": "3879af2736db613d0102bd2d343d180c17810fec8a5b0337ea5080541f525425",
+      "before_submitted": {
+        "colour_draws": 421,
+        "depth_draws": 48,
+        "colour_triangles": 252789,
+        "depth_triangles": 148157
+      },
+      "after_submitted": {
+        "colour_draws": 223,
+        "depth_draws": 22,
+        "colour_triangles": 152581,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "86b59e23f7e037cf445cfce7ab05c377fe48449671f2c187c6d1cbfe9a62f6e1",
+      "after_sha256": "155f61599bf47f15c92a1b4254b4b67baba216d07f58764973a8b546ef908560",
+      "before_submitted": {
+        "colour_draws": 254,
+        "depth_draws": 48,
+        "colour_triangles": 208295,
+        "depth_triangles": 148157
+      },
+      "after_submitted": {
+        "colour_draws": 114,
+        "depth_draws": 22,
+        "colour_triangles": 129169,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "ad3bfb42a268b6cf6d28d92729a422bf75709bb3fdd367825e05841c2b5d0a77",
+      "after_sha256": "e55c95d0069e129a9caba6aae4d4ce0960183dfb43ee1aa92942602b815309b8",
+      "before_submitted": {
+        "colour_draws": 368,
+        "depth_draws": 47,
+        "colour_triangles": 233249,
+        "depth_triangles": 149741
+      },
+      "after_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 22,
+        "colour_triangles": 152599,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "49f3f45c439577ec4d2a44c1dda8700eaf27fb87587c68a6cd34ca3b42461672",
+      "after_sha256": "2e8d38d4ad3f4fa1e6f82c924fb302cf15c4b55ee555a0f40f1589c6dfaab89d",
+      "before_submitted": {
+        "colour_draws": 399,
+        "depth_draws": 48,
+        "colour_triangles": 239427,
+        "depth_triangles": 148157
+      },
+      "after_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 22,
+        "colour_triangles": 152139,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "1c385966b42651c05d1ca006c418cce6eb6ef13536a261e069fae774e6074056",
+      "after_sha256": "f37fea8402f664a71316abdabe4f1d39b20d379d356be7195bfaaa80770e59ff",
+      "before_submitted": {
+        "colour_draws": 236,
+        "depth_draws": 48,
+        "colour_triangles": 196319,
+        "depth_triangles": 148157
+      },
+      "after_submitted": {
+        "colour_draws": 110,
+        "depth_draws": 22,
+        "colour_triangles": 128737,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "a699839f37dc9a43c804eea74cecefdb948f60a98c28e80325b609d189af75eb",
+      "after_sha256": "5e95d6081e31824e973907ec22404a412774f88fb02ac594a5b728f47471a068",
+      "before_submitted": {
+        "colour_draws": 338,
+        "depth_draws": 0,
+        "colour_triangles": 201224,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 201,
+        "depth_draws": 0,
+        "colour_triangles": 132398,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "23520dbbd33138126c0fc9347009a24859380b85a633c68ec2e8927a09145d1a",
+      "after_sha256": "b39d5a82bc8b5ad30268997777adc1fed7b54b064f8c2aba36cc7199676993af",
+      "before_submitted": {
+        "colour_draws": 376,
+        "depth_draws": 0,
+        "colour_triangles": 208882,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 133418,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "2c5acbd1e7b1fa189bc8f9034df35d2482ea271928903e012964a1f56dd5731c",
+      "after_sha256": "4042855bd5c610e41716b2dc84b051c7d98618820b39d4a2ebe374bff5ff9a9e",
+      "before_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 164398,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 102,
+        "depth_draws": 0,
+        "colour_triangles": 110016,
+        "depth_triangles": 0
+      }
+    }
+  ],
+  "garden": {
+    "landmarks": [
+      {
+        "type": "tugu-pak-tani",
+        "x": 3.55260280832643,
+        "y": -0.49,
+        "z": 118.90199839501288,
+        "yaw": 2.5599693221018454,
+        "radius": 9.5
+      },
+      {
+        "type": "keraton-mempawah",
+        "x": 43.78296131064255,
+        "y": -0.49,
+        "z": 3.522708365793389,
+        "yaw": 1.3999774132224285,
+        "radius": 20
+      }
+    ],
+    "objects": [
+      {
+        "type": "tugu-pak-tani",
+        "x": 3.55260280832643,
+        "z": 118.90199839501288,
+        "radius": 9.5,
+        "clearance": 24.001898576469713
+      },
+      {
+        "type": "keraton-mempawah",
+        "x": 43.78296131064255,
+        "z": 3.522708365793389,
+        "radius": 20,
+        "clearance": 41.99714781616009
+      },
+      {
+        "type": "garden-lantern",
+        "x": -7.555984434553174,
+        "z": 9.258019315682272,
+        "radius": 0.42,
+        "clearance": 9.063879671721354
+      },
+      {
+        "type": "garden-lantern",
+        "x": 4.221960744579111,
+        "z": 36.52925732518222,
+        "radius": 0.42,
+        "clearance": 9.050190302145717
+      },
+      {
+        "type": "garden-lantern",
+        "x": -19.51549268959034,
+        "z": 56.974049118987075,
+        "radius": 0.42,
+        "clearance": 9.068498587829636
+      },
+      {
+        "type": "garden-lantern",
+        "x": 4.8139687748517055,
+        "z": 75.3093743735059,
+        "radius": 0.42,
+        "clearance": 9.053781112979133
+      },
+      {
+        "type": "garden-lantern",
+        "x": 9.930861119178205,
+        "z": 105.17019662861385,
+        "radius": 0.42,
+        "clearance": 9.050954429256093
+      },
+      {
+        "type": "garden-lantern",
+        "x": 39.544170444594265,
+        "z": 98.97462892996512,
+        "radius": 0.42,
+        "clearance": 9.052280842534541
+      },
+      {
+        "type": "garden-lantern",
+        "x": 63.16472593786754,
+        "z": 118.22340278160269,
+        "radius": 0.42,
+        "clearance": 9.052102247367495
+      },
+      {
+        "type": "garden-lantern",
+        "x": 80.17332840394798,
+        "z": 93.34289627944881,
+        "radius": 0.42,
+        "clearance": 9.058381574623613
+      },
+      {
+        "type": "garden-lantern",
+        "x": 110.49583163285517,
+        "z": 90.30566008645845,
+        "radius": 0.42,
+        "clearance": 9.058664040020467
+      },
+      {
+        "type": "garden-lantern",
+        "x": 105.9303926748389,
+        "z": 61.754312561550236,
+        "radius": 0.42,
+        "clearance": 9.053446115272301
+      },
+      {
+        "type": "garden-lantern",
+        "x": 110.45056907129704,
+        "z": 35.46056146849881,
+        "radius": 0.42,
+        "clearance": 9.049962623841223
+      },
+      {
+        "type": "garden-lantern",
+        "x": 80.14296964984763,
+        "z": 26.972827150981516,
+        "radius": 0.42,
+        "clearance": 9.056102108725858
+      },
+      {
+        "type": "garden-lantern",
+        "x": 97.87715597784265,
+        "z": 5.661350727340557,
+        "radius": 0.42,
+        "clearance": 9.066565982125885
+      },
+      {
+        "type": "garden-lantern",
+        "x": 102.41356865506378,
+        "z": -23.88995736105992,
+        "radius": 0.42,
+        "clearance": 9.057058114628841
+      },
+      {
+        "type": "garden-lantern",
+        "x": 130.93634078221885,
+        "z": -36.56361060433729,
+        "radius": 0.42,
+        "clearance": 9.051044197876843
+      },
+      {
+        "type": "garden-lantern",
+        "x": 110.01886217151218,
+        "z": -59.34544671277903,
+        "radius": 0.42,
+        "clearance": 9.056506740928462
+      },
+      {
+        "type": "garden-lantern",
+        "x": 116.26296987963511,
+        "z": -89.23273125471809,
+        "radius": 0.42,
+        "clearance": 9.063575412899803
+      },
+      {
+        "type": "garden-lantern",
+        "x": 87.04918194865154,
+        "z": -96.93683944610225,
+        "radius": 0.42,
+        "clearance": 9.071019335245571
+      },
+      {
+        "type": "garden-lantern",
+        "x": 75.85187601236629,
+        "z": -125.20709538736938,
+        "radius": 0.42,
+        "clearance": 9.05048011898202
+      },
+      {
+        "type": "garden-lantern",
+        "x": 47.387159269128524,
+        "z": -114.79352257628946,
+        "radius": 0.42,
+        "clearance": 9.064621504109278
+      },
+      {
+        "type": "garden-lantern",
+        "x": 21.039274257839296,
+        "z": -129.31604979503066,
+        "radius": 0.42,
+        "clearance": 9.049731994153555
+      },
+      {
+        "type": "garden-lantern",
+        "x": 6.837837154055878,
+        "z": -102.04987741112801,
+        "radius": 0.42,
+        "clearance": 9.051454141558287
+      },
+      {
+        "type": "garden-lantern",
+        "x": -23.775201069489174,
+        "z": -101.61778613683593,
+        "radius": 0.42,
+        "clearance": 9.058983082984534
+      },
+      {
+        "type": "garden-lantern",
+        "x": -27.903632021323588,
+        "z": -71.22909913202878,
+        "radius": 0.42,
+        "clearance": 9.074485864542753
+      },
+      {
+        "type": "garden-lantern",
+        "x": -56.82350326706387,
+        "z": -60.743684993329296,
+        "radius": 0.42,
+        "clearance": 9.071823301786837
+      },
+      {
+        "type": "garden-lantern",
+        "x": -45.22140745089798,
+        "z": -36.241452108393005,
+        "radius": 0.42,
+        "clearance": 9.058839734433924
+      },
+      {
+        "type": "garden-lantern",
+        "x": -36.769478652736474,
+        "z": -11.099302490544309,
+        "radius": 0.42,
+        "clearance": 9.069447710402265
+      },
+      {
+        "type": "garden-lantern",
+        "x": -6.2680492137036605,
+        "z": -17.890429304955717,
+        "radius": 0.42,
+        "clearance": 9.053284751553235
+      },
+      {
+        "type": "garden-tree",
+        "x": 13.535693680198197,
+        "z": 1.4904848054055866,
+        "radius": 2.5,
+        "clearance": 12.60496673967103
+      },
+      {
+        "type": "garden-tree",
+        "x": -12.758889570652235,
+        "z": 13.860088501446677,
+        "radius": 2.5,
+        "clearance": 13.601811780035758
+      },
+      {
+        "type": "garden-tree",
+        "x": 11.090652934613132,
+        "z": 33.376528457836876,
+        "radius": 2.5,
+        "clearance": 14.604988943146893
+      },
+      {
+        "type": "garden-tree",
+        "x": -18.81966372211093,
+        "z": 37.3689700457346,
+        "radius": 2.5,
+        "clearance": 12.604070585454558
+      },
+      {
+        "type": "garden-tree",
+        "x": 3.423163661944173,
+        "z": 55.83800491316942,
+        "radius": 2.5,
+        "clearance": 13.607679550378034
+      },
+      {
+        "type": "garden-tree",
+        "x": -23.685996464128763,
+        "z": 70.30986152920796,
+        "radius": 2.5,
+        "clearance": 14.600263790707158
+      },
+      {
+        "type": "garden-tree",
+        "x": 6.332648597543643,
+        "z": 71.20345514778955,
+        "radius": 2.5,
+        "clearance": 12.6003237902668
+      },
+      {
+        "type": "garden-tree",
+        "x": -6.187112437031862,
+        "z": 97.39964437542054,
+        "radius": 2.5,
+        "clearance": 13.605011979042695
+      },
+      {
+        "type": "garden-tree",
+        "x": 21.940126388576143,
+        "z": 84.68288384216103,
+        "radius": 2.5,
+        "clearance": 14.603035227031299
+      },
+      {
+        "type": "garden-tree",
+        "x": 18.600173649807537,
+        "z": 114.43254466357358,
+        "radius": 2.5,
+        "clearance": 12.59975589048013
+      },
+      {
+        "type": "garden-tree",
+        "x": 39.5009212792112,
+        "z": 94.28786520082807,
+        "radius": 2.5,
+        "clearance": 13.607291903286855
+      },
+      {
+        "type": "garden-tree",
+        "x": 47.87964651772622,
+        "z": 124.03218087643936,
+        "radius": 2.5,
+        "clearance": 14.602584339088331
+      },
+      {
+        "type": "garden-tree",
+        "x": 60.404796927139486,
+        "z": 96.74653852849173,
+        "radius": 2.5,
+        "clearance": 12.602303716162742
+      },
+      {
+        "type": "garden-tree",
+        "x": 78.79725315393475,
+        "z": 119.35621294115104,
+        "radius": 2.5,
+        "clearance": 13.599544062186181
+      },
+      {
+        "type": "garden-tree",
+        "x": 77.43130679941699,
+        "z": 88.50094445264955,
+        "radius": 2.5,
+        "clearance": 14.601380787623619
+      },
+      {
+        "type": "garden-tree",
+        "x": 104.14646890634829,
+        "z": 101.95198834128603,
+        "radius": 2.5,
+        "clearance": 12.61452489066332
+      },
+      {
+        "type": "garden-tree",
+        "x": 93.99399838369939,
+        "z": 74.7313676651527,
+        "radius": 2.5,
+        "clearance": 13.611838610879621
+      },
+      {
+        "type": "garden-tree",
+        "x": 124.64250688576377,
+        "z": 79.3729062933505,
+        "radius": 2.5,
+        "clearance": 14.599512585378356
+      },
+      {
+        "type": "garden-tree",
+        "x": 102.4231429325054,
+        "z": 61.223368986682644,
+        "radius": 2.5,
+        "clearance": 12.600178761280786
+      },
+      {
+        "type": "garden-tree",
+        "x": 120.82011303867074,
+        "z": 40.85133597057741,
+        "radius": 2.5,
+        "clearance": 13.60714516791801
+      },
+      {
+        "type": "garden-tree",
+        "x": 90.7700329002773,
+        "z": 48.97178138105765,
+        "radius": 2.5,
+        "clearance": 14.608487335754528
+      },
+      {
+        "type": "garden-tree",
+        "x": 102.75264647866572,
+        "z": 21.538288953114357,
+        "radius": 2.5,
+        "clearance": 12.605537137220734
+      },
+      {
+        "type": "garden-tree",
+        "x": 73.48154110297999,
+        "z": 23.62157102646579,
+        "radius": 2.5,
+        "clearance": 13.602434249420003
+      },
+      {
+        "type": "garden-tree",
+        "x": 99.77492609299149,
+        "z": 12.623812045442264,
+        "radius": 2.5,
+        "clearance": 14.605177267142551
+      },
+      {
+        "type": "garden-tree",
+        "x": 85.32899602298507,
+        "z": -12.693112449453391,
+        "radius": 2.5,
+        "clearance": 12.606314416385585
+      },
+      {
+        "type": "garden-tree",
+        "x": 112.8662013569122,
+        "z": -2.6715562195413955,
+        "radius": 2.5,
+        "clearance": 13.61704245464852
+      },
+      {
+        "type": "garden-tree",
+        "x": 102.18603017450764,
+        "z": -31.554426960925426,
+        "radius": 2.5,
+        "clearance": 14.615137375837621
+      },
+      {
+        "type": "garden-tree",
+        "x": 131.77446059870908,
+        "z": -26.853302211902307,
+        "radius": 2.5,
+        "clearance": 12.607253338401735
+      },
+      {
+        "type": "garden-tree",
+        "x": 108.5451871384227,
+        "z": -43.857142414680624,
+        "radius": 2.5,
+        "clearance": 13.610019638774821
+      },
+      {
+        "type": "garden-tree",
+        "x": 134.1671645153867,
+        "z": -60.935238495252484,
+        "radius": 2.5,
+        "clearance": 14.603439932043514
+      },
+      {
+        "type": "garden-tree",
+        "x": 104.29712936171285,
+        "z": -64.73434897395279,
+        "radius": 2.5,
+        "clearance": 12.602844956363874
+      },
+      {
+        "type": "garden-tree",
+        "x": 122.44818409094314,
+        "z": -87.55482022466354,
+        "radius": 2.5,
+        "clearance": 13.601142980560699
+      },
+      {
+        "type": "garden-tree",
+        "x": 91.85563983770398,
+        "z": -83.39944742389476,
+        "radius": 2.5,
+        "clearance": 14.602328510314836
+      },
+      {
+        "type": "garden-tree",
+        "x": 104.00322935108852,
+        "z": -110.78513719545779,
+        "radius": 2.5,
+        "clearance": 12.599600643848083
+      },
+      {
+        "type": "garden-tree",
+        "x": 77.70135666487265,
+        "z": -98.34361295542983,
+        "radius": 2.5,
+        "clearance": 13.600500222890789
+      },
+      {
+        "type": "garden-tree",
+        "x": 80.51017242259203,
+        "z": -129.15076943328225,
+        "radius": 2.5,
+        "clearance": 14.613474592038225
+      },
+      {
+        "type": "garden-tree",
+        "x": 58.43143138636874,
+        "z": -108.7573002136703,
+        "radius": 2.5,
+        "clearance": 12.60198787246811
+      },
+      {
+        "type": "garden-tree",
+        "x": 51.55530927614016,
+        "z": -137.09828084998892,
+        "radius": 2.5,
+        "clearance": 13.610195544290535
+      },
+      {
+        "type": "garden-tree",
+        "x": 38.52240673660685,
+        "z": -109.38187582884257,
+        "radius": 2.5,
+        "clearance": 14.602201564277685
+      },
+      {
+        "type": "garden-tree",
+        "x": 20.315758748899697,
+        "z": -132.82321957322404,
+        "radius": 2.5,
+        "clearance": 12.602989180647022
+      },
+      {
+        "type": "garden-tree",
+        "x": 18.874102542661948,
+        "z": -103.71504497689075,
+        "radius": 2.5,
+        "clearance": 13.608088199446012
+      },
+      {
+        "type": "garden-tree",
+        "x": -6.2963307112081415,
+        "z": -121.7229482619581,
+        "radius": 2.5,
+        "clearance": 14.603631986323501
+      },
+      {
+        "type": "garden-tree",
+        "x": -1.320268463113866,
+        "z": -92.0381356946468,
+        "radius": 2.5,
+        "clearance": 12.605606562784203
+      },
+      {
+        "type": "garden-tree",
+        "x": -27.937018573830223,
+        "z": -104.00461644534684,
+        "radius": 2.5,
+        "clearance": 13.604560771132475
+      },
+      {
+        "type": "garden-tree",
+        "x": -17.301125381559686,
+        "z": -74.93153399502633,
+        "radius": 2.5,
+        "clearance": 14.606908223377406
+      },
+      {
+        "type": "garden-tree",
+        "x": -46.224367863115944,
+        "z": -83.00379479440348,
+        "radius": 2.5,
+        "clearance": 12.600635906591151
+      },
+      {
+        "type": "garden-tree",
+        "x": -32.55008664979616,
+        "z": -57.31139921213882,
+        "radius": 2.5,
+        "clearance": 13.606486059017048
+      },
+      {
+        "type": "garden-tree",
+        "x": -63.47036487726069,
+        "z": -59.85676973577413,
+        "radius": 2.5,
+        "clearance": 14.59995439839594
+      },
+      {
+        "type": "garden-tree",
+        "x": -41.75989664019602,
+        "z": -39.665193756919514,
+        "radius": 2.5,
+        "clearance": 12.610321953258024
+      },
+      {
+        "type": "garden-tree",
+        "x": -61.38391535547313,
+        "z": -20.22627496605289,
+        "radius": 2.5,
+        "clearance": 13.606697255100594
+      },
+      {
+        "type": "garden-tree",
+        "x": -34.57854100117514,
+        "z": -35.790767059530765,
+        "radius": 2.5,
+        "clearance": 14.601656146173909
+      },
+      {
+        "type": "garden-tree",
+        "x": -33.19053220470931,
+        "z": -5.935914066634542,
+        "radius": 2.5,
+        "clearance": 12.608437597740359
+      },
+      {
+        "type": "garden-tree",
+        "x": -11.325175233824003,
+        "z": -25.437419881119947,
+        "radius": 2.5,
+        "clearance": 13.599747137609613
+      },
+      {
+        "type": "garden-tree",
+        "x": -14.611175606778074,
+        "z": 4.803528721137163,
+        "radius": 2.5,
+        "clearance": 14.60793280679342
+      },
+      {
+        "type": "palm",
+        "x": 20.271674420698204,
+        "z": 28.56675887243873,
+        "radius": 3.8,
+        "clearance": 22.00421862161373
+      },
+      {
+        "type": "palm",
+        "x": -32.57290386020496,
+        "z": 59.80535763438078,
+        "radius": 3.8,
+        "clearance": 22.00139374331642
+      },
+      {
+        "type": "palm",
+        "x": 22.67880765765789,
+        "z": 75.7840774832566,
+        "radius": 3.8,
+        "clearance": 22.000831669205702
+      },
+      {
+        "type": "palm",
+        "x": 38.994751108791995,
+        "z": 130.46364313830966,
+        "radius": 3.8,
+        "clearance": 22.003587637624385
+      },
+      {
+        "type": "palm",
+        "x": 69.6651119442098,
+        "z": 84.57137297503571,
+        "radius": 3.8,
+        "clearance": 22.002339315438547
+      },
+      {
+        "type": "palm",
+        "x": 126.47006493633063,
+        "z": 90.71171127501265,
+        "radius": 3.8,
+        "clearance": 22.00778790665149
+      },
+      {
+        "type": "palm",
+        "x": 89.24471815757046,
+        "z": 58.35522309603502,
+        "radius": 3.8,
+        "clearance": 22.00885998917424
+      },
+      {
+        "type": "palm",
+        "x": 106.97581223399811,
+        "z": 13.120382056939865,
+        "radius": 3.8,
+        "clearance": 20.82232326020008
+      },
+      {
+        "type": "palm",
+        "x": 93.09000855072755,
+        "z": -32.89060063520093,
+        "radius": 3.8,
+        "clearance": 22.001712263608013
+      },
+      {
+        "type": "palm",
+        "x": 143.10131471701325,
+        "z": -54.5192776687357,
+        "radius": 3.8,
+        "clearance": 22.009332732193073
+      },
+      {
+        "type": "palm",
+        "x": 88.65404050976612,
+        "z": -74.88193045056472,
+        "radius": 3.8,
+        "clearance": 22.00256980077188
+      },
+      {
+        "type": "palm",
+        "x": 90.89668752864466,
+        "z": -132.02977302226773,
+        "radius": 3.8,
+        "clearance": 22.00399714725191
+      },
+      {
+        "type": "palm",
+        "x": 42.862515689358816,
+        "z": -102.14731516774829,
+        "radius": 3.8,
+        "clearance": 22.008219365485363
+      },
+      {
+        "type": "palm",
+        "x": -3.815990660699744,
+        "z": -131.88938238608614,
+        "radius": 3.8,
+        "clearance": 21.999774855268644
+      },
+      {
+        "type": "palm",
+        "x": -7.978231245603546,
+        "z": -73.91523782394708,
+        "radius": 3.8,
+        "clearance": 22.008478156627373
+      },
+      {
+        "type": "palm",
+        "x": -66.2920222393139,
+        "z": -70.39253267176547,
+        "radius": 3.8,
+        "clearance": 21.999601772517522
+      },
+      {
+        "type": "palm",
+        "x": -34.93378931199633,
+        "z": -44.28793590057376,
+        "radius": 3.8,
+        "clearance": 17.81589807240455
+      },
+      {
+        "type": "palm",
+        "x": -21.647497088226473,
+        "z": 9.088688542635738,
+        "radius": 3.8,
+        "clearance": 22.00758291714582
+      },
+      {
+        "type": "flower-bed",
+        "x": -9.278047045740042,
+        "z": 8.279586684899849,
+        "radius": 1.65,
+        "clearance": 10.815681194606627
+      },
+      {
+        "type": "flower-bed",
+        "x": 10.330541945756844,
+        "z": 22.34993584040643,
+        "radius": 1.65,
+        "clearance": 10.804299524115084
+      },
+      {
+        "type": "flower-bed",
+        "x": -13.699060853394599,
+        "z": 27.485753977673426,
+        "radius": 1.65,
+        "clearance": 10.800553241068068
+      },
+      {
+        "type": "flower-bed",
+        "x": 3.3069647893959617,
+        "z": 45.016635857828526,
+        "radius": 1.65,
+        "clearance": 10.809272285608913
+      },
+      {
+        "type": "flower-bed",
+        "x": -20.517617343269336,
+        "z": 51.08838021905499,
+        "radius": 1.65,
+        "clearance": 10.799736653625429
+      },
+      {
+        "type": "flower-bed",
+        "x": 0.44947327618923616,
+        "z": 62.22656755928113,
+        "radius": 1.65,
+        "clearance": 10.811263536378384
+      },
+      {
+        "type": "flower-bed",
+        "x": -15.387702384221036,
+        "z": 80.41152983072601,
+        "radius": 1.65,
+        "clearance": 10.799978466086042
+      },
+      {
+        "type": "flower-bed",
+        "x": 8.906253162803056,
+        "z": 77.72350405184848,
+        "radius": 1.65,
+        "clearance": 10.81302207360244
+      },
+      {
+        "type": "flower-bed",
+        "x": 1.7703013392979576,
+        "z": 101.06610279501679,
+        "radius": 1.65,
+        "clearance": 10.805745089556146
+      },
+      {
+        "type": "flower-bed",
+        "x": 23.83675930742234,
+        "z": 90.57350035769224,
+        "radius": 1.65,
+        "clearance": 10.80246509599457
+      },
+      {
+        "type": "flower-bed",
+        "x": 24.392686343257864,
+        "z": 115.04308040728398,
+        "radius": 1.65,
+        "clearance": 10.806145699259103
+      },
+      {
+        "type": "flower-bed",
+        "x": 41.551496383813266,
+        "z": 97.61143558336815,
+        "radius": 1.65,
+        "clearance": 10.807565134653538
+      },
+      {
+        "type": "flower-bed",
+        "x": 50.42785037211589,
+        "z": 120.3745213020045,
+        "radius": 1.65,
+        "clearance": 10.799827411424426
+      },
+      {
+        "type": "flower-bed",
+        "x": 61.19064627373969,
+        "z": 98.46898460337879,
+        "radius": 1.65,
+        "clearance": 10.813453675970452
+      },
+      {
+        "type": "flower-bed",
+        "x": 77.1980324841053,
+        "z": 116.94562070500567,
+        "radius": 1.65,
+        "clearance": 10.806486472756886
+      },
+      {
+        "type": "flower-bed",
+        "x": 78.24302136416799,
+        "z": 92.51137385163226,
+        "radius": 1.65,
+        "clearance": 10.814557226423643
+      },
+      {
+        "type": "flower-bed",
+        "x": 100.31795279022359,
+        "z": 102.93278743312739,
+        "radius": 1.65,
+        "clearance": 10.799841396446974
+      },
+      {
+        "type": "flower-bed",
+        "x": 93.64263836479486,
+        "z": 79.4126050805845,
+        "radius": 1.65,
+        "clearance": 10.800101544139865
+      },
+      {
+        "type": "flower-bed",
+        "x": 117.76855482582887,
+        "z": 83.58144682164902,
+        "radius": 1.65,
+        "clearance": 10.800819561305628
+      },
+      {
+        "type": "flower-bed",
+        "x": 103.62258061492332,
+        "z": 64.03081303914593,
+        "radius": 1.65,
+        "clearance": 10.810599222638729
+      },
+      {
+        "type": "flower-bed",
+        "x": 124.04293298669295,
+        "z": 52.13269834964448,
+        "radius": 1.65,
+        "clearance": 10.801235836200368
+      },
+      {
+        "type": "flower-bed",
+        "x": 99.45007309001468,
+        "z": 53.09364786921938,
+        "radius": 1.65,
+        "clearance": 10.805425971775506
+      },
+      {
+        "type": "flower-bed",
+        "x": 108.13538151204324,
+        "z": 30.329114826137417,
+        "radius": 1.65,
+        "clearance": 10.803405580023565
+      },
+      {
+        "type": "flower-bed",
+        "x": 84.1339999882779,
+        "z": 35.729876364386406,
+        "radius": 1.65,
+        "clearance": 10.806081075265126
+      },
+      {
+        "type": "flower-bed",
+        "x": 96.34284314379622,
+        "z": 15.083566667130622,
+        "radius": 1.65,
+        "clearance": 10.804816520234356
+      },
+      {
+        "type": "flower-bed",
+        "x": 75.75604053984827,
+        "z": 4.262231398916446,
+        "radius": 1.65,
+        "clearance": 10.79874636942123
+      },
+      {
+        "type": "flower-bed",
+        "x": 100.24509718018918,
+        "z": 5.597650517977501,
+        "radius": 1.65,
+        "clearance": 10.800803699504835
+      },
+      {
+        "type": "flower-bed",
+        "x": 93.11419368801774,
+        "z": -17.67239943347342,
+        "radius": 1.65,
+        "clearance": 10.8138381283047
+      },
+      {
+        "type": "flower-bed",
+        "x": 116.41270429233413,
+        "z": -9.814359363325828,
+        "radius": 1.65,
+        "clearance": 10.818638365197552
+      },
+      {
+        "type": "flower-bed",
+        "x": 108.04873175875521,
+        "z": -32.604851577103595,
+        "radius": 1.65,
+        "clearance": 10.801839867632296
+      },
+      {
+        "type": "flower-bed",
+        "x": 132.32145466003126,
+        "z": -34.233210872077485,
+        "radius": 1.65,
+        "clearance": 10.80939486785577
+      },
+      {
+        "type": "flower-bed",
+        "x": 111.10856125664303,
+        "z": -46.633493317552514,
+        "radius": 1.65,
+        "clearance": 10.80481845656283
+      },
+      {
+        "type": "flower-bed",
+        "x": 129.89898758139728,
+        "z": -62.15747889149025,
+        "radius": 1.65,
+        "clearance": 10.807781658948251
+      },
+      {
+        "type": "flower-bed",
+        "x": 105.71998951576772,
+        "z": -66.00890093168742,
+        "radius": 1.65,
+        "clearance": 10.81466484363568
+      },
+      {
+        "type": "flower-bed",
+        "x": 120.28159838456443,
+        "z": -85.67223665879128,
+        "radius": 1.65,
+        "clearance": 10.819517780191584
+      },
+      {
+        "type": "flower-bed",
+        "x": 95.87472637060316,
+        "z": -84.29184537734844,
+        "radius": 1.65,
+        "clearance": 10.820968743453792
+      },
+      {
+        "type": "flower-bed",
+        "x": 105.36979803875064,
+        "z": -106.87377379889251,
+        "radius": 1.65,
+        "clearance": 10.807326851558097
+      },
+      {
+        "type": "flower-bed",
+        "x": 82.39668353637991,
+        "z": -98.43904467243605,
+        "radius": 1.65,
+        "clearance": 10.813635910111127
+      },
+      {
+        "type": "flower-bed",
+        "x": 84.49654459583446,
+        "z": -122.78492791445616,
+        "radius": 1.65,
+        "clearance": 10.805317222798013
+      },
+      {
+        "type": "flower-bed",
+        "x": 64.72995776198351,
+        "z": -108.38746677914287,
+        "radius": 1.65,
+        "clearance": 10.806781868280025
+      },
+      {
+        "type": "flower-bed",
+        "x": 60.52238095521401,
+        "z": -132.48933577716735,
+        "radius": 1.65,
+        "clearance": 10.805212424659423
+      },
+      {
+        "type": "flower-bed",
+        "x": 45.596257567720144,
+        "z": -113.21165897609914,
+        "radius": 1.65,
+        "clearance": 10.802905598145587
+      },
+      {
+        "type": "flower-bed",
+        "x": 33.28804206325394,
+        "z": -134.30043104501667,
+        "radius": 1.65,
+        "clearance": 10.817235799212025
+      },
+      {
+        "type": "flower-bed",
+        "x": 27.44126175864784,
+        "z": -110.52263504469612,
+        "radius": 1.65,
+        "clearance": 10.808310152839459
+      },
+      {
+        "type": "flower-bed",
+        "x": 8.33485274498804,
+        "z": -125.7284331196639,
+        "radius": 1.65,
+        "clearance": 10.80946646015431
+      },
+      {
+        "type": "flower-bed",
+        "x": 8.837083934418109,
+        "z": -101.23998145117338,
+        "radius": 1.65,
+        "clearance": 10.800226416639903
+      },
+      {
+        "type": "flower-bed",
+        "x": -12.80954483591698,
+        "z": -112.65858432245608,
+        "radius": 1.65,
+        "clearance": 10.81084279209305
+      },
+      {
+        "type": "flower-bed",
+        "x": -8.535681205498475,
+        "z": -88.55320878336231,
+        "radius": 1.65,
+        "clearance": 10.818587586518657
+      },
+      {
+        "type": "flower-bed",
+        "x": -31.658924902431373,
+        "z": -96.6257857287968,
+        "radius": 1.65,
+        "clearance": 10.80049302109892
+      },
+      {
+        "type": "flower-bed",
+        "x": -23.742818488942056,
+        "z": -73.44751791110161,
+        "radius": 1.65,
+        "clearance": 10.815745944151766
+      },
+      {
+        "type": "flower-bed",
+        "x": -47.806066332943935,
+        "z": -78.01225002849009,
+        "radius": 1.65,
+        "clearance": 10.80236480343292
+      },
+      {
+        "type": "flower-bed",
+        "x": -36.48871518490718,
+        "z": -56.341102670902934,
+        "radius": 1.65,
+        "clearance": 10.800035234000127
+      },
+      {
+        "type": "flower-bed",
+        "x": -60.99795120770725,
+        "z": -56.10507691001159,
+        "radius": 1.65,
+        "clearance": 10.809828753454454
+      },
+      {
+        "type": "flower-bed",
+        "x": -43.59989347927763,
+        "z": -39.499567936946555,
+        "radius": 1.65,
+        "clearance": 10.802957906209407
+      },
+      {
+        "type": "flower-bed",
+        "x": -59.975439817737886,
+        "z": -22.844491016790855,
+        "radius": 1.65,
+        "clearance": 10.799999690914008
+      },
+      {
+        "type": "flower-bed",
+        "x": -37.58443385303896,
+        "z": -33.008564249762514,
+        "radius": 1.65,
+        "clearance": 10.806501002239203
+      },
+      {
+        "type": "flower-bed",
+        "x": -35.52517810168038,
+        "z": -8.745158729624784,
+        "radius": 1.65,
+        "clearance": 10.811404993082482
+      },
+      {
+        "type": "flower-bed",
+        "x": -16.848870481812448,
+        "z": -24.717581209840557,
+        "radius": 1.65,
+        "clearance": 10.801382313354242
+      },
+      {
+        "type": "flower-bed",
+        "x": -15.702401507375964,
+        "z": -0.42677111032185344,
+        "radius": 1.65,
+        "clearance": 10.800315220943922
+      },
+      {
+        "type": "flower-bed",
+        "x": 7.207241192725696,
+        "z": -8.949217179581794,
+        "radius": 1.65,
+        "clearance": 10.799299601633107
+      },
+      {
+        "type": "garden-shrub",
+        "x": 19.46558086749661,
+        "z": 5.798043050141238,
+        "radius": 2.1,
+        "clearance": 17.99800192930367
+      },
+      {
+        "type": "garden-shrub",
+        "x": -20.069111660169735,
+        "z": 23.788358939348548,
+        "radius": 2.1,
+        "clearance": 18.000029116402672
+      },
+      {
+        "type": "garden-shrub",
+        "x": 8.043793019055773,
+        "z": 55.09037061795044,
+        "radius": 2.1,
+        "clearance": 18.007290985713805
+      },
+      {
+        "type": "garden-shrub",
+        "x": -22.731353394771098,
+        "z": 81.91762391710735,
+        "radius": 2.1,
+        "clearance": 18.00199629159292
+      },
+      {
+        "type": "garden-shrub",
+        "x": 19.599490183151854,
+        "z": 78.39853735970323,
+        "radius": 2.1,
+        "clearance": 18.002886699663392
+      },
+      {
+        "type": "garden-shrub",
+        "x": 19.734470267842102,
+        "z": 120.91026156827841,
+        "radius": 2.1,
+        "clearance": 17.99978186607537
+      },
+      {
+        "type": "garden-shrub",
+        "x": 50.4775797434207,
+        "z": 91.53356960781852,
+        "radius": 2.1,
+        "clearance": 18.00545261252184
+      },
+      {
+        "type": "garden-shrub",
+        "x": 77.38390577080115,
+        "z": 124.44826182335487,
+        "radius": 2.1,
+        "clearance": 17.99968885505674
+      },
+      {
+        "type": "garden-shrub",
+        "x": 80.62093352152469,
+        "z": 81.86378097121164,
+        "radius": 2.1,
+        "clearance": 18.003894191599592
+      },
+      {
+        "type": "garden-shrub",
+        "x": 122.60247144178578,
+        "z": 89.27643583319539,
+        "radius": 2.1,
+        "clearance": 17.999688315849166
+      },
+      {
+        "type": "garden-shrub",
+        "x": 97.1755857296065,
+        "z": 62.49054710134088,
+        "radius": 2.1,
+        "clearance": 17.405301636538624
+      },
+      {
+        "type": "garden-shrub",
+        "x": 114.54198404229146,
+        "z": 26.66051238498163,
+        "radius": 2.1,
+        "clearance": 18.007147679691023
+      },
+      {
+        "type": "garden-shrub",
+        "x": 70.9064905484869,
+        "z": 28.674832433837558,
+        "radius": 2.1,
+        "clearance": 18.003318520084626
+      },
+      {
+        "type": "garden-shrub",
+        "x": 104.8842205057082,
+        "z": 11.234308931091526,
+        "radius": 2.1,
+        "clearance": 18.00604167485679
+      },
+      {
+        "type": "garden-shrub",
+        "x": 95.35298361043584,
+        "z": -29.523338258043722,
+        "radius": 2.1,
+        "clearance": 18.00602037016928
+      },
+      {
+        "type": "garden-shrub",
+        "x": 138.60089299280887,
+        "z": -29.688226846226843,
+        "radius": 2.1,
+        "clearance": 17.997422794015705
+      },
+      {
+        "type": "garden-shrub",
+        "x": 102.52716899966066,
+        "z": -53.07082471644083,
+        "radius": 2.1,
+        "clearance": 18.01184823336333
+      },
+      {
+        "type": "garden-shrub",
+        "x": 127.50070277726198,
+        "z": -87.41954666115394,
+        "radius": 2.1,
+        "clearance": 18.006254279390124
+      },
+      {
+        "type": "garden-shrub",
+        "x": 85.26137682151244,
+        "z": -86.20649806160016,
+        "radius": 2.1,
+        "clearance": 18.000541217564294
+      },
+      {
+        "type": "garden-shrub",
+        "x": 89.70322517009583,
+        "z": -128.099855433362,
+        "radius": 2.1,
+        "clearance": 17.99965599925628
+      },
+      {
+        "type": "garden-shrub",
+        "x": 54.590569520340416,
+        "z": -104.2675244584859,
+        "radius": 2.1,
+        "clearance": 18.000984816424424
+      },
+      {
+        "type": "garden-shrub",
+        "x": 34.42713143715884,
+        "z": -141.7247018947432,
+        "radius": 2.1,
+        "clearance": 17.99956408177418
+      },
+      {
+        "type": "garden-shrub",
+        "x": 22.513497638574314,
+        "z": -100.61316369665079,
+        "radius": 2.1,
+        "clearance": 18.004296527120886
+      },
+      {
+        "type": "garden-shrub",
+        "x": -15.6004130283302,
+        "z": -119.52543862757281,
+        "radius": 2.1,
+        "clearance": 18.010142990305695
+      },
+      {
+        "type": "garden-shrub",
+        "x": -10.31031908584939,
+        "z": -77.23194773095867,
+        "radius": 2.1,
+        "clearance": 18.001421067458253
+      },
+      {
+        "type": "garden-shrub",
+        "x": -52.47584528554977,
+        "z": -83.77234407197393,
+        "radius": 2.1,
+        "clearance": 18.0000019022459
+      },
+      {
+        "type": "garden-shrub",
+        "x": -34.10716974798828,
+        "z": -45.69020938221531,
+        "radius": 2.1,
+        "clearance": 18.002316032593402
+      },
+      {
+        "type": "garden-shrub",
+        "x": -67.83011811247655,
+        "z": -21.37040988334561,
+        "radius": 2.1,
+        "clearance": 17.998421099122268
+      },
+      {
+        "type": "garden-shrub",
+        "x": -26.67632435189016,
+        "z": -36.19796519371603,
+        "radius": 2.1,
+        "clearance": 18.009651110142933
+      },
+      {
+        "type": "garden-shrub",
+        "x": -20.207062375491432,
+        "z": 5.321754385467779,
+        "radius": 2.1,
+        "clearance": 18.003579765195568
+      },
+      {
+        "type": "gazebo",
+        "x": -28.26220962773085,
+        "z": 29.500901902742914,
+        "radius": 5.1,
+        "clearance": 24.004979490231918
+      },
+      {
+        "type": "gazebo",
+        "x": 143.86406395980816,
+        "z": -60.8712306576347,
+        "radius": 5.1,
+        "clearance": 23.99945505774728
+      },
+      {
+        "type": "gazebo",
+        "x": -21.430201457172068,
+        "z": -55.13419661622876,
+        "radius": 5.1,
+        "clearance": 24.00253981216309
+      }
+    ],
+    "triangles": 83250,
+    "colour_draw_calls": 26,
+    "shadow_draw_calls": 12,
+    "textures": 3,
+    "static_visuals": true,
+    "gap_left_open": true,
+    "minimum_structure_vertex_clearance": 8.207177692623038
+  },
+  "cleanup": {
+    "garden_buffers": 80,
+    "garden_textures": 3,
+    "all_buffers_deleted": true,
+    "all_textures_deleted": true,
+    "stage1_city_restored": true,
+    "stage1_buffers_cleaned_on_garden_entry": true,
+    "stage1_textures_cleaned_on_garden_entry": true,
+    "rebuild_same_owned_counts": true,
+    "stage3_restored_without_garden_or_city": true
+  }
+}
