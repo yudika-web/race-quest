@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "source": "landscape",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "50% 5%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "natural": [
+        1440,
+        810
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 31.600000008940697,
+        "fade": 3120,
+        "hidden": 3520.1000000089407
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "source": "landscape",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "50% 5%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 768
+      },
+      "natural": [
+        1440,
+        810
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 28.100000008940697,
+        "fade": 3109.2000000029802,
+        "hidden": 3509.300000011921
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "source": "portrait",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "35% 20%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 844
+      },
+      "natural": [
+        900,
+        1599
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 25.299999997019768,
+        "fade": 3091,
+        "hidden": 3491
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "source": "landscape",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "50% 5%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 844,
+        "h": 390
+      },
+      "natural": [
+        1440,
+        810
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 29.400000005960464,
+        "fade": 3100.9000000059605,
+        "hidden": 3501.2000000029802
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "source": "portrait",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "50% 20%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 1024
+      },
+      "natural": [
+        900,
+        1599
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 23.799999997019768,
+        "fade": 3094.0999999940395,
+        "hidden": 3494.2000000029802
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "source": "landscape",
+      "correctSource": true,
+      "objectFit": "cover",
+      "objectPosition": "50% 5%",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 768
+      },
+      "natural": [
+        1440,
+        810
+      ],
+      "overflow": false,
+      "timing": {
+        "shown": 31.5,
+        "fade": 3120.4000000059605,
+        "hidden": 3520.5
+      }
+    }
+  ],
+  "checks": [
+    "Genuine pending resource keeps loading beyond three seconds; release gates readiness",
+    "Reduced Motion removes fade while retaining minimum loading"
+  ],
+  "errors": []
+}

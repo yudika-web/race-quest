@@ -1,4 +1,16 @@
-# BlokRaya — Balap Edukasi Nusantara
+# BlokRaya — Mode Siswa & Mode Guru
+
+Distribusi terbaru: poster fullscreen portrait/landscape dengan loading minimum 3 detik, fade 400 ms, pilihan **Mode Siswa** tanpa PIN dan **Mode Guru** dengan PIN lokal. Seluruh gameplay, arena, AI, buff, HUD dan penyimpanan lama dipertahankan.
+
+- [ZIP playable terbaru](blokraya-mode-siswa-guru-playable.zip) — **ekstrak, lalu buka `blokraya-mode-siswa-guru.html`**.
+- [HTML mandiri](visual-upgrade/blokraya-mode-siswa-guru.html) · [ZIP review + sumber + screenshot](blokraya-mode-siswa-guru-review.zip).
+- Loading [desktop](visual-upgrade/student-teacher-modes/screenshots/loading-1920x1080.png), [HP portrait](visual-upgrade/student-teacher-modes/screenshots/loading-390x844.png), [HP landscape](visual-upgrade/student-teacher-modes/screenshots/loading-844x390.png).
+- [Pilih mode](visual-upgrade/student-teacher-modes/screenshots/modes-1366x768.png) · [Buat PIN](visual-upgrade/student-teacher-modes/screenshots/pin-create-phone.png) · [Login PIN](visual-upgrade/student-teacher-modes/screenshots/pin-login-phone.png).
+- [Implementasi, pemulihan PIN dan hasil uji](visual-upgrade/student-teacher-modes/README.md) · [metrik](visual-upgrade/student-teacher-modes/release-metrics.json).
+
+Verifier PIN memakai PBKDF2-SHA256 600.000 iterasi dengan salt acak; tidak menyimpan PIN asli, tidak ada PIN bawaan. Login/logout/ganti PIN, cooldown, akses guru, data lama dan ekspor/offline diuji. PIN merupakan pembatas UI lokal, bukan perlindungan terhadap pemilik HTML/storage. HTML **24.425.951 byte**, di bawah 25 MB. HP fisik/FPS belum diuji. Tidak merge ke main, mengganti `index.html`, atau deployment.
+
+# Tahap sebelumnya — Branding BlokRaya
 
 Distribusi terbaru memakai identitas **BlokRaya**, dua poster asli pengguna sesuai orientasi, dan loading **“Memuat...”** yang menunggu kesiapan resource/tampilan. Game tetap offline; seluruh PATCH 1–4.5, 14 pembalap, tiga arena dan perbaikan langit dipertahankan. Kunci penyimpanan lama tetap digunakan.
 

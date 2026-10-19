@@ -1,0 +1,96 @@
+{
+  "baseline_commit": "b98f40e7714b1d43d96020fc917f3575d1571494",
+  "html_bytes": 24425951,
+  "baseline_bytes": 24402739,
+  "growth_bytes": 23212,
+  "html_sha256": "f93a5182863a9dae28ea7d0c255639441ccbcdaf6823db81ff2f682e8f3912bc",
+  "under_25_decimal_MB": true,
+  "protected_historical_files": 1998,
+  "loading_minimum_ms": 3000,
+  "fade_ms": 400,
+  "reduced_motion_fade_ms": 0,
+  "loading_timings": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "timing": {
+        "shown": 31.600000008940697,
+        "fade": 3120,
+        "hidden": 3520.1000000089407
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "timing": {
+        "shown": 28.100000008940697,
+        "fade": 3109.2000000029802,
+        "hidden": 3509.300000011921
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "timing": {
+        "shown": 25.299999997019768,
+        "fade": 3091,
+        "hidden": 3491
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "timing": {
+        "shown": 29.400000005960464,
+        "fade": 3100.9000000059605,
+        "hidden": 3501.2000000029802
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "timing": {
+        "shown": 23.799999997019768,
+        "fade": 3094.0999999940395,
+        "hidden": 3494.2000000029802
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "timing": {
+        "shown": 31.5,
+        "fade": 3120.4000000059605,
+        "hidden": 3520.5
+      }
+    }
+  ],
+  "auth_checks": 43,
+  "offline_game_checks": 26,
+  "teacher_export_bytes": 24461336,
+  "PIN_KDF": "PBKDF2-SHA256",
+  "PIN_iterations": 600000,
+  "PIN_salt_bits": 128,
+  "PIN_verifier_bits": 256,
+  "PIN_plaintext_stored": false,
+  "teacher_session_persisted": false,
+  "storage_keys_preserved": true,
+  "new_embedded_images": 0,
+  "new_GPU_programs": 0,
+  "new_WebGL_draw_calls": 0,
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "direct_file_scheme_tested": false
+}

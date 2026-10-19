@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "Broken original-poster resource displays full-viewport branded gradient fallback",
+    "No blank black/white screen; loading completes to mode choice",
+    "No JavaScript error"
+  ],
+  "errors": []
+}
