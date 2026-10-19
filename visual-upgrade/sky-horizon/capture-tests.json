@@ -1,0 +1,950 @@
+{
+  "status": "passed",
+  "errors": [],
+  "captures": [
+    {
+      "version": "before",
+      "stage": "kampung",
+      "sky": null,
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        2.1660797543873196,
+        5.0298208992778,
+        19.707955156723344
+      ],
+      "target": [
+        0.7785288081230399,
+        2.6298208992778003,
+        31.426090775136416
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kampung",
+      "sky": null,
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        89.43391393642659,
+        8.12043459217669,
+        88.75066777151798
+      ],
+      "target": [
+        98.75397726561819,
+        5.72043459217669,
+        81.51351228473601
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kampung",
+      "sky": null,
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        26.372307414624075,
+        7.634028908756731,
+        -112.6990006748463
+      ],
+      "target": [
+        15.507108594969512,
+        5.2340289087567315,
+        -108.09601744552891
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kampung",
+      "sky": null,
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -47.27498889632087,
+        3.427491589297427,
+        -48.46223693507538
+      ],
+      "target": [
+        -49.10557410673448,
+        1.0274915892974275,
+        -36.80509501317124
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kapuas",
+      "sky": null,
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        -0.21533159645492095,
+        5.0287087499851575,
+        20.59936708939426
+      ],
+      "target": [
+        -3.720709537082252,
+        2.628708749985158,
+        31.866679346244307
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kapuas",
+      "sky": null,
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        82.95926488333343,
+        6.7554360190460265,
+        102.64831262540658
+      ],
+      "target": [
+        92.44523383828526,
+        4.355436019046026,
+        95.63002273500663
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kapuas",
+      "sky": null,
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        29.516132961992547,
+        3.493796512682734,
+        -122.80475004226261
+      ],
+      "target": [
+        18.446798241428322,
+        1.093796512682734,
+        -118.71698429015409
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "kapuas",
+      "sky": null,
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -48.7293498419466,
+        3.4,
+        -57.43327950410813
+      ],
+      "target": [
+        -53.30613679155589,
+        1,
+        -46.55701998082136
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "hutan",
+      "sky": null,
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        10.936853762535293,
+        5.029812695997805,
+        20.068874305107236
+      ],
+      "target": [
+        14.938180423515519,
+        2.629812695997805,
+        31.16974746680622
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "hutan",
+      "sky": null,
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        47.56061300468892,
+        3.620602090752541,
+        123.78820210204672
+      ],
+      "target": [
+        58.88738426370023,
+        1.2206020907525412,
+        120.47999218639211
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "hutan",
+      "sky": null,
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        52.29812478445553,
+        10.399050236530679,
+        -116.10168549638719
+      ],
+      "target": [
+        40.76238168424032,
+        7.999050236530678,
+        -113.61841524813852
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "before",
+      "stage": "hutan",
+      "sky": null,
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -47.51487831282997,
+        3.4,
+        -67.79012377603559
+      ],
+      "target": [
+        -51.22874435814443,
+        1,
+        -56.58980239683132
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        2.1660797543873196,
+        5.0298208992778,
+        19.707955156723344
+      ],
+      "target": [
+        0.7785288081230399,
+        2.6298208992778003,
+        31.426090775136416
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        89.43391393642659,
+        8.12043459217669,
+        88.75066777151798
+      ],
+      "target": [
+        98.75397726561819,
+        5.72043459217669,
+        81.51351228473601
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        26.372307414624075,
+        7.634028908756731,
+        -112.6990006748463
+      ],
+      "target": [
+        15.507108594969512,
+        5.2340289087567315,
+        -108.09601744552891
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -47.27498889632087,
+        3.427491589297427,
+        -48.46223693507538
+      ],
+      "target": [
+        -49.10557410673448,
+        1.0274915892974275,
+        -36.80509501317124
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "rain",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        2.1660797543873196,
+        5.0298208992778,
+        19.707955156723344
+      ],
+      "target": [
+        0.7785288081230399,
+        2.6298208992778003,
+        31.426090775136416
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kampung",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "fog",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        2.1660797543873196,
+        5.0298208992778,
+        19.707955156723344
+      ],
+      "target": [
+        0.7785288081230399,
+        2.6298208992778003,
+        31.426090775136416
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        -0.21533159645492095,
+        5.0287087499851575,
+        20.59936708939426
+      ],
+      "target": [
+        -3.720709537082252,
+        2.628708749985158,
+        31.866679346244307
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        82.95926488333343,
+        6.7554360190460265,
+        102.64831262540658
+      ],
+      "target": [
+        92.44523383828526,
+        4.355436019046026,
+        95.63002273500663
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        29.516132961992547,
+        3.493796512682734,
+        -122.80475004226261
+      ],
+      "target": [
+        18.446798241428322,
+        1.093796512682734,
+        -118.71698429015409
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -48.7293498419466,
+        3.4,
+        -57.43327950410813
+      ],
+      "target": [
+        -53.30613679155589,
+        1,
+        -46.55701998082136
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "rain",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        -0.21533159645492095,
+        5.0287087499851575,
+        20.59936708939426
+      ],
+      "target": [
+        -3.720709537082252,
+        2.628708749985158,
+        31.866679346244307
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "kapuas",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "fog",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        -0.21533159645492095,
+        5.0287087499851575,
+        20.59936708939426
+      ],
+      "target": [
+        -3.720709537082252,
+        2.628708749985158,
+        31.866679346244307
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "high",
+      "eye": [
+        10.936853762535293,
+        5.029812695997805,
+        20.068874305107236
+      ],
+      "target": [
+        14.938180423515519,
+        2.629812695997805,
+        31.16974746680622
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "turn",
+      "quality": "high",
+      "eye": [
+        47.56061300468892,
+        3.620602090752541,
+        123.78820210204672
+      ],
+      "target": [
+        58.88738426370023,
+        1.2206020907525412,
+        120.47999218639211
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "open",
+      "quality": "high",
+      "eye": [
+        52.29812478445553,
+        10.399050236530679,
+        -116.10168549638719
+      ],
+      "target": [
+        40.76238168424032,
+        7.999050236530678,
+        -113.61841524813852
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "fast",
+      "quality": "high",
+      "eye": [
+        -47.51487831282997,
+        3.4,
+        -67.79012377603559
+      ],
+      "target": [
+        -51.22874435814443,
+        1,
+        -56.58980239683132
+      ],
+      "error": 0,
+      "canvas": [
+        1280,
+        720
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "rain",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        10.936853762535293,
+        5.029812695997805,
+        20.068874305107236
+      ],
+      "target": [
+        14.938180423515519,
+        2.629812695997805,
+        31.16974746680622
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    {
+      "version": "after",
+      "stage": "hutan",
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "fog",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        10.936853762535293,
+        5.029812695997805,
+        20.068874305107236
+      ],
+      "target": [
+        14.938180423515519,
+        2.629812695997805,
+        31.16974746680622
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    }
+  ],
+  "stages": {
+    "kampung": {
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        2.1660797543873196,
+        5.0298208992778,
+        19.707955156723344
+      ],
+      "target": [
+        0.7785288081230399,
+        2.6298208992778003,
+        31.426090775136416
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    "kapuas": {
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        -0.21533159645492095,
+        5.0287087499851575,
+        20.59936708939426
+      ],
+      "target": [
+        -3.720709537082252,
+        2.628708749985158,
+        31.866679346244307
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    },
+    "hutan": {
+      "sky": {
+        "groupsHigh": 18,
+        "groupsLow": 10,
+        "trianglesHigh": 3240,
+        "trianglesLow": 1800,
+        "gpuBytes": 47088,
+        "drawCalls": 2,
+        "textures": 0,
+        "animated": false
+      },
+      "weather": "clear",
+      "view": "normal",
+      "quality": "low",
+      "eye": [
+        10.936853762535293,
+        5.029812695997805,
+        20.068874305107236
+      ],
+      "target": [
+        14.938180423515519,
+        2.629812695997805,
+        31.16974746680622
+      ],
+      "error": 0,
+      "canvas": [
+        832,
+        468
+      ]
+    }
+  }
+}

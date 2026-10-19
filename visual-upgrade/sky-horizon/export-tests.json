@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    "Teacher export preserves all 94 model/avatar/audio assets",
+    "Teacher export preserves all 6 stage thumbnails",
+    "Export removes dynamic picker DOM to avoid duplicating embedded thumbnails",
+    "Teacher export stays under 25 MB",
+    "Export resets accessible mode to full composition",
+    "Export creates a single expression control",
+    "Export resets stale happy selection",
+    "Exported expression and close-up controls work offline",
+    "Exported stage selector has exactly three cards",
+    "Exported card loads selected Singkawang offline",
+    "Export starts race with browser network disabled",
+    "Export preserves nine strategic buff definitions",
+    "Export loads new buff icons and two-slot HUD offline",
+    "Export requests no HTTP assets",
+    "Export has one responsive HUD root",
+    "Export has exactly four toolbar buttons",
+    "Export retains PATCH 4 AI and PATCH 4.5 HUD",
+    "Export has no JavaScript errors"
+  ],
+  "errors": [],
+  "requests": [],
+  "export_bytes": 23784066
+}

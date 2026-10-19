@@ -1,0 +1,3 @@
+const fs=require('fs'),vm=require('vm'),path=require('path');const D=path.resolve(__dirname,'..');
+function load(patch='sky'){const file=patch==='sky'?'race-quest-pro-sky-horizon.html':'race-quest-pro-patch4-5.html',h=fs.readFileSync(D+'/../'+file,'utf8'),scripts=[...h.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)],box={module:{exports:{}}};vm.runInNewContext(scripts[2][2],box);box.RaceCore=box.module.exports;for(const id of ['patch3BuffSystem','patch4SmartAI'])vm.runInNewContext(scripts.find(s=>s[1].includes('id="'+id+'"'))[2],box);return{C:box.RaceCore,A:box.RaceSmartAI}}
+module.exports={D,load,create:require('../../patch4-5-responsive-hud/source/harness.cjs').create};

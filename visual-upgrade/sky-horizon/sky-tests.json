@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "checks": [
+    "Gradient/cloud shader compile and render without WebGL errors",
+    "Sky uses exactly two draw calls on every stage",
+    "Sky remains translation-invariant: no finite dome edge or following texture seams",
+    "Sky stays continuous across panoramic wrap direction",
+    "Open-water horizon band has no hard color step",
+    "Renderer no longer uploads either old sky bitmap",
+    "Low graphics uses fewer cloud groups/triangles",
+    "kampung: 120 camera/motion samples at 31 m/s, stable cloud buffers",
+    "kapuas: 120 camera/motion samples at 31 m/s, stable cloud buffers",
+    "hutan: 120 camera/motion samples at 31 m/s, stable cloud buffers",
+    "Paused render repeats exactly; static clouds introduce no real-time animation",
+    "Touch controls retained 390x844",
+    "Live mobile emulation WebGL clean 390x844",
+    "Touch controls retained 844x390",
+    "Live mobile emulation WebGL clean 844x390",
+    "No JavaScript/console errors"
+  ],
+  "errors": [],
+  "metrics": {
+    "stats": {
+      "groupsHigh": 18,
+      "groupsLow": 10,
+      "trianglesHigh": 3240,
+      "trianglesLow": 1800,
+      "gpuBytes": 47088,
+      "drawCalls": 2,
+      "textures": 0,
+      "animated": false
+    },
+    "samples": [
+      {
+        "stage": "kampung",
+        "skyDrawCalls": 2,
+        "translationDifferentChannels": 0,
+        "seamMeanChannelDifference": 0.00010628972167433706,
+        "horizonBandMaxChannelStep": 1,
+        "palette": {
+          "top": [
+            0.3,
+            0.61,
+            0.85
+          ],
+          "horizon": [
+            0.84,
+            0.88,
+            0.89
+          ]
+        }
+      },
+      {
+        "stage": "kapuas",
+        "skyDrawCalls": 2,
+        "translationDifferentChannels": 0,
+        "seamMeanChannelDifference": 0.00010957703265395574,
+        "horizonBandMaxChannelStep": 0,
+        "palette": {
+          "top": [
+            0.29,
+            0.62,
+            0.83
+          ],
+          "horizon": [
+            0.79,
+            0.88,
+            0.88
+          ]
+        }
+      },
+      {
+        "stage": "hutan",
+        "skyDrawCalls": 2,
+        "translationDifferentChannels": 0,
+        "seamMeanChannelDifference": 0.00010848126232741617,
+        "horizonBandMaxChannelStep": 0,
+        "palette": {
+          "top": [
+            0.22,
+            0.64,
+            0.89
+          ],
+          "horizon": [
+            0.78,
+            0.89,
+            0.93
+          ]
+        }
+      }
+    ],
+    "error": 0,
+    "hasPanoramaTexture": false,
+    "hasCloudTexture": false,
+    "cloudGPUObjects": [
+      true,
+      true
+    ]
+  },
+  "motion": [
+    {
+      "stage": "kampung",
+      "errors": [],
+      "cloudBufferReplacements": 0,
+      "steps": 120,
+      "clock": 31.983333333333334,
+      "elapsed": 31.983333333333334
+    },
+    {
+      "stage": "kapuas",
+      "errors": [],
+      "cloudBufferReplacements": 0,
+      "steps": 120,
+      "clock": 31.983333333333334,
+      "elapsed": 31.983333333333334
+    },
+    {
+      "stage": "hutan",
+      "errors": [],
+      "cloudBufferReplacements": 0,
+      "steps": 120,
+      "clock": 31.983333333333334,
+      "elapsed": 31.983333333333334
+    }
+  ]
+}

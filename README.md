@@ -1,4 +1,15 @@
-# RACE QUEST PRO — PATCH 4.5: Responsive Racing HUD
+# RACE QUEST PRO — Blocky Sky & Clean Horizon
+
+Distribusi terbaru mempertahankan PATCH 4.5 dan memperbaiki langit ketiga arena: gradient tanpa sambungan, awan blocky berbevel, serta haze yang menyatukan air/daratan jauh dengan horizon. Nuansa Pontianak hangat, Mempawah sejuk, Singkawang cerah. Gameplay, AI, buff, HUD dan model tetap utuh.
+
+- [ZIP playable terbaru](race-quest-pro-sky-horizon-playable.zip) — **ekstrak, lalu buka `race-quest-pro-sky-horizon.html`**.
+- [HTML mandiri](visual-upgrade/race-quest-pro-sky-horizon.html) · [ZIP review + sumber + screenshot](race-quest-pro-sky-horizon-review.zip).
+- Before–after [Pontianak](visual-upgrade/sky-horizon/screenshots/comparison-pontianak.jpg), [Mempawah](visual-upgrade/sky-horizon/screenshots/comparison-mempawah.jpg), [Singkawang](visual-upgrade/sky-horizon/screenshots/comparison-singkawang.jpg).
+- [Metode, hasil uji dan build](visual-upgrade/sky-horizon/README.md) · [metrik](visual-upgrade/sky-horizon/release-metrics.json).
+
+HTML **23.701.999 byte**, naik hanya **2.706 byte**. Langit menggunakan dua draw call, tanpa tekstur baru; awan 3.240/1.800 segitiga high/low. Tes shader, tiga stage, 360 sampel kamera bergerak, kontrol keyboard/touch, kuis, ekspor/offline, serta 36 balapan engine berpasangan lolos. HP fisik/FPS belum diuji. Tidak mengubah `index.html`, merge ke main atau deployment.
+
+# Tahap sebelumnya — PATCH 4.5: Responsive Racing HUD
 
 HUD balapan baru: inventori dua slot di kiri bawah, statistik ringkas di bawah, toolbar seragam dan minimap yang dapat dibuka/ditutup. Area kendaraan tetap bebas. Desktop menyembunyikan kontrol sentuh; HP menampilkan kontrol minimal 44 px, dengan pilihan manual tersimpan melalui Suara/Pause.
 

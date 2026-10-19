@@ -1,0 +1,1 @@
+require('./reuse.cjs').run('test_unchanged_render.cjs',s=>s.replace('82c0f778b480d669b236b76517add5cd86e35fb2:visual-upgrade/race-quest-pro-patch4.html','b5611f4937c6139024779265f0b8434545b77cbf:visual-upgrade/race-quest-pro-patch4-5.html'));
