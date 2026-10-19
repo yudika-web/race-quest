@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baseline": "53d677c02228118b9933e3aa712b6dc66ce4be4c",
+  "historical_files_byte_identical": 1397,
+  "embedded_assets_byte_identical": 94,
+  "original_inline_scripts_identical_except_stage3_name_and_default_weather": true,
+  "stage3_default_weather_change": "fog -> clear; optional weather modes preserved",
+  "road_physics_AI_UI_loader_animation_code_identical": true,
+  "html_bytes": 23394232,
+  "html_under_25_decimal_MB": true,
+  "html_sha256": "8cf2f0756bf1c2950741c6fdaf368bb3f46db506ca73c63f0c1a2bf4819e904b"
+}

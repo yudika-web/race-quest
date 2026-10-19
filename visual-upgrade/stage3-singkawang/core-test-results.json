@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "Teacher question count, material and JSON persistence round trip",
+    "Question CSV export/import retains choices and correct answers",
+    "All stages and AI difficulty settings remain available",
+    "Grand Prix mastery gating, retry and three-round completion",
+    "Drift, jump, quiz freeze, buff, result, ghost and progress"
+  ]
+}

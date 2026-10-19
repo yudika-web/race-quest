@@ -1,0 +1,1269 @@
+{
+  "status": "passed",
+  "errors": [],
+  "consoleErrors": [],
+  "comparisons": [
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "3cb1ac73513bde98f53c598f59ab7c72ab00ad033974d1b3820e0ddb41b60a51",
+      "after_sha256": "4ea19518a40e522a57e1c9350d1be64d34a688b7baf1df514bc56a320472d9c3",
+      "before_submitted": {
+        "colour_draws": 413,
+        "depth_draws": 58,
+        "colour_triangles": 262939,
+        "depth_triangles": 171573
+      },
+      "after_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 23,
+        "colour_triangles": 143343,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "004b63e7759e2d81be9951e068f9c8fa2659217e681ba0020fb616486999d5f4",
+      "after_sha256": "da8519313576276de52c1e10a50cdf0d0db28a490bb036c7d7d4254a14f3b2ce",
+      "before_submitted": {
+        "colour_draws": 420,
+        "depth_draws": 49,
+        "colour_triangles": 261063,
+        "depth_triangles": 152393
+      },
+      "after_submitted": {
+        "colour_draws": 226,
+        "depth_draws": 23,
+        "colour_triangles": 143331,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "4347118eba844d060bb702f191071ef006f0ac8033964f1e08d3d264937efbf9",
+      "after_sha256": "ed0d11b3875bad62be59f1a9440aeee399316d9d0dfadf12b3a854ee7d87d44b",
+      "before_submitted": {
+        "colour_draws": 267,
+        "depth_draws": 52,
+        "colour_triangles": 226355,
+        "depth_triangles": 158165
+      },
+      "after_submitted": {
+        "colour_draws": 108,
+        "depth_draws": 23,
+        "colour_triangles": 119749,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "650c4570582eefd984cecfa11dd45c68f5216d7538ad41822daf113df902041c",
+      "after_sha256": "07e69d45faecdd80c7496e8de22b29c4a551b6f85642f439cc4ba6b207db3776",
+      "before_submitted": {
+        "colour_draws": 395,
+        "depth_draws": 58,
+        "colour_triangles": 250963,
+        "depth_triangles": 171573
+      },
+      "after_submitted": {
+        "colour_draws": 212,
+        "depth_draws": 23,
+        "colour_triangles": 142911,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "ad394e246e1c76b137352e94a14be2b27c866a6424a3af581dd095c947eac51a",
+      "after_sha256": "e1d6f03bbb9737b6e65ca97558d8f465a5fca6150f683fbc3d7c424ae7548016",
+      "before_submitted": {
+        "colour_draws": 397,
+        "depth_draws": 49,
+        "colour_triangles": 248375,
+        "depth_triangles": 152393
+      },
+      "after_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 23,
+        "colour_triangles": 142467,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "a47585c1619895b8e834e523a0e7d7fcdb8623392e55204566132578ef96e271",
+      "after_sha256": "e08c6ef966276cf3ccf04d0084f6d5216af8b3d23ab3ab6ac04c8b92b3ed76b2",
+      "before_submitted": {
+        "colour_draws": 251,
+        "depth_draws": 52,
+        "colour_triangles": 214251,
+        "depth_triangles": 158165
+      },
+      "after_submitted": {
+        "colour_draws": 107,
+        "depth_draws": 23,
+        "colour_triangles": 119469,
+        "depth_triangles": 84297
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": false,
+      "before_sha256": "e1f2bacec776f635b83ee08b2034b6114a7cb5c6e4147ed324c9a72a989d88b2",
+      "after_sha256": "dfb860a26154258c3de90d95f523bc7cbf27bdb5c3098bc4a965b321232069bf",
+      "before_submitted": {
+        "colour_draws": 362,
+        "depth_draws": 0,
+        "colour_triangles": 214154,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 199,
+        "depth_draws": 0,
+        "colour_triangles": 123138,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": false,
+      "before_sha256": "474d92ec0b325657d64ad5d559578f6ac8c0dcfad283fea065d3eafb89f61eff",
+      "after_sha256": "911da7460aded5440b8c672b5b56475d6da2eb9fac6b6dbaa7cfde9a15d9e684",
+      "before_submitted": {
+        "colour_draws": 366,
+        "depth_draws": 0,
+        "colour_triangles": 207278,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 214,
+        "depth_draws": 0,
+        "colour_triangles": 124178,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "hutan",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": false,
+      "before_sha256": "36edf9787fbc4a8c0b76a8de51284fe097a4bd3627d78f4c84ce68f022865063",
+      "after_sha256": "4593c42b3edf856e2586706cdb4f363c2fcf9ee20a88f4116bf3cc0b759f5a5c",
+      "before_submitted": {
+        "colour_draws": 211,
+        "depth_draws": 0,
+        "colour_triangles": 171338,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 97,
+        "depth_draws": 0,
+        "colour_triangles": 100740,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "after_sha256": "6492fc6eebe18dd81f8331218de8bbfec09cef17121fcb5394d95e0a1b306ca1",
+      "before_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 213,
+        "depth_draws": 24,
+        "colour_triangles": 107910,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "after_sha256": "0cf650a569b2ac474e1882f55dde1507e87ec3d428ea2c8822fcdcdb146bfc7c",
+      "before_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 219,
+        "depth_draws": 24,
+        "colour_triangles": 106926,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "after_sha256": "69e6e03d9a3e8eae582058f6cc4878993910faf641df30a584d9f63c9c334fab",
+      "before_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 157,
+        "depth_draws": 24,
+        "colour_triangles": 94974,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "after_sha256": "77271474b28eba33a228fc7cd9d2e601cd005774b81c971511664091ebc400d8",
+      "before_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 209,
+        "depth_draws": 24,
+        "colour_triangles": 107478,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "after_sha256": "2e35598ab89bc4a3a46a258fee3b33e5ece89518e9095894646ca6b3fdbebbc6",
+      "before_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 215,
+        "depth_draws": 24,
+        "colour_triangles": 106494,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "after_sha256": "06324bd9d21a03a297951b538c1d2c2766b137ef2d42f2bfcbcb3c4816da5908",
+      "before_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      },
+      "after_submitted": {
+        "colour_draws": 149,
+        "depth_draws": 24,
+        "colour_triangles": 94526,
+        "depth_triangles": 60648
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "after_sha256": "bbc477a112500c5651bc75d5ac1747eb14f9bf78a04bc4d150fa3e69044fa6e5",
+      "before_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 195,
+        "depth_draws": 0,
+        "colour_triangles": 87279,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "after_sha256": "1bdc70456f8176ba3c4e2ba757ef549c2c3f39998431ba0adad15f9fcb0d33ca",
+      "before_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 203,
+        "depth_draws": 0,
+        "colour_triangles": 87757,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kampung",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "after_sha256": "18b2afabb9feaf10fe302226480094a2d0b7d78bad4f2a3296e1d15b604b2961",
+      "before_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 141,
+        "depth_draws": 0,
+        "colour_triangles": 75805,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "366e9a0f9bf038d080d8ddc35d611911dd0dc6ef6eec6d5af0b54bdaa35ee61e",
+      "after_sha256": "366e9a0f9bf038d080d8ddc35d611911dd0dc6ef6eec6d5af0b54bdaa35ee61e",
+      "before_submitted": {
+        "colour_draws": 220,
+        "depth_draws": 22,
+        "colour_triangles": 153031,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 220,
+        "depth_draws": 22,
+        "colour_triangles": 153031,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "3879af2736db613d0102bd2d343d180c17810fec8a5b0337ea5080541f525425",
+      "after_sha256": "3879af2736db613d0102bd2d343d180c17810fec8a5b0337ea5080541f525425",
+      "before_submitted": {
+        "colour_draws": 223,
+        "depth_draws": 22,
+        "colour_triangles": 152581,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 223,
+        "depth_draws": 22,
+        "colour_triangles": 152581,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "high",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "155f61599bf47f15c92a1b4254b4b67baba216d07f58764973a8b546ef908560",
+      "after_sha256": "155f61599bf47f15c92a1b4254b4b67baba216d07f58764973a8b546ef908560",
+      "before_submitted": {
+        "colour_draws": 114,
+        "depth_draws": 22,
+        "colour_triangles": 129169,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 114,
+        "depth_draws": 22,
+        "colour_triangles": 129169,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "e55c95d0069e129a9caba6aae4d4ce0960183dfb43ee1aa92942602b815309b8",
+      "after_sha256": "e55c95d0069e129a9caba6aae4d4ce0960183dfb43ee1aa92942602b815309b8",
+      "before_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 22,
+        "colour_triangles": 152599,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 216,
+        "depth_draws": 22,
+        "colour_triangles": 152599,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "2e8d38d4ad3f4fa1e6f82c924fb302cf15c4b55ee555a0f40f1589c6dfaab89d",
+      "after_sha256": "2e8d38d4ad3f4fa1e6f82c924fb302cf15c4b55ee555a0f40f1589c6dfaab89d",
+      "before_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 22,
+        "colour_triangles": 152139,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 218,
+        "depth_draws": 22,
+        "colour_triangles": 152139,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "medium",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "f37fea8402f664a71316abdabe4f1d39b20d379d356be7195bfaaa80770e59ff",
+      "after_sha256": "f37fea8402f664a71316abdabe4f1d39b20d379d356be7195bfaaa80770e59ff",
+      "before_submitted": {
+        "colour_draws": 110,
+        "depth_draws": 22,
+        "colour_triangles": 128737,
+        "depth_triangles": 100791
+      },
+      "after_submitted": {
+        "colour_draws": 110,
+        "depth_draws": 22,
+        "colour_triangles": 128737,
+        "depth_triangles": 100791
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.12,
+      "pixels_identical": true,
+      "before_sha256": "5e95d6081e31824e973907ec22404a412774f88fb02ac594a5b728f47471a068",
+      "after_sha256": "5e95d6081e31824e973907ec22404a412774f88fb02ac594a5b728f47471a068",
+      "before_submitted": {
+        "colour_draws": 201,
+        "depth_draws": 0,
+        "colour_triangles": 132398,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 201,
+        "depth_draws": 0,
+        "colour_triangles": 132398,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.4,
+      "pixels_identical": true,
+      "before_sha256": "b39d5a82bc8b5ad30268997777adc1fed7b54b064f8c2aba36cc7199676993af",
+      "after_sha256": "b39d5a82bc8b5ad30268997777adc1fed7b54b064f8c2aba36cc7199676993af",
+      "before_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 133418,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 210,
+        "depth_draws": 0,
+        "colour_triangles": 133418,
+        "depth_triangles": 0
+      }
+    },
+    {
+      "stage": "kapuas",
+      "quality": "low",
+      "u": 0.7,
+      "pixels_identical": true,
+      "before_sha256": "4042855bd5c610e41716b2dc84b051c7d98618820b39d4a2ebe374bff5ff9a9e",
+      "after_sha256": "4042855bd5c610e41716b2dc84b051c7d98618820b39d4a2ebe374bff5ff9a9e",
+      "before_submitted": {
+        "colour_draws": 102,
+        "depth_draws": 0,
+        "colour_triangles": 110016,
+        "depth_triangles": 0
+      },
+      "after_submitted": {
+        "colour_draws": 102,
+        "depth_draws": 0,
+        "colour_triangles": 110016,
+        "depth_triangles": 0
+      }
+    }
+  ],
+  "coast": {
+    "landmarks": [
+      {
+        "type": "tugu-naga",
+        "x": -5.8747420702486615,
+        "y": -0.49,
+        "z": -121.33134019681725,
+        "yaw": 0.4178944631407333,
+        "radius": 10.5
+      },
+      {
+        "type": "gapura-imlek",
+        "x": 22.68164205325092,
+        "y": -0.49,
+        "z": 98.73107681808158,
+        "yaw": -0.20990139402168628,
+        "radius": 8.8
+      }
+    ],
+    "objects": [
+      {
+        "type": "tugu-naga",
+        "x": -5.8747420702486615,
+        "z": -121.33134019681725,
+        "radius": 10.5,
+        "clearance": 25.002827489680293
+      },
+      {
+        "type": "gapura-imlek",
+        "x": 22.68164205325092,
+        "z": 98.73107681808158,
+        "radius": 8.8,
+        "clearance": 25.012669483878373
+      },
+      {
+        "type": "coconut-palm",
+        "x": 17.41364179019863,
+        "z": -0.4052662926292312,
+        "radius": 3.8,
+        "clearance": 15.008370951688056
+      },
+      {
+        "type": "coconut-palm",
+        "x": -3.336224242878707,
+        "z": 30.648511268980872,
+        "radius": 3.8,
+        "clearance": 17.006550874811797
+      },
+      {
+        "type": "coconut-palm",
+        "x": 36.53811923134612,
+        "z": 40.4694829137068,
+        "radius": 3.8,
+        "clearance": 18.99939021271492
+      },
+      {
+        "type": "coconut-palm",
+        "x": 2.7450164946985165,
+        "z": 55.516630499641295,
+        "radius": 3.8,
+        "clearance": 15.009349696722202
+      },
+      {
+        "type": "coconut-palm",
+        "x": 8.3308039189211,
+        "z": 95.98841202629461,
+        "radius": 3.8,
+        "clearance": 17.008487422848457
+      },
+      {
+        "type": "coconut-palm",
+        "x": -24.317506436226424,
+        "z": 77.26644343900037,
+        "radius": 3.8,
+        "clearance": 19.00759517331231
+      },
+      {
+        "type": "coconut-palm",
+        "x": -1.4903179771963355,
+        "z": 100.31219211331775,
+        "radius": 3.8,
+        "clearance": 13.445612291161034
+      },
+      {
+        "type": "coconut-palm",
+        "x": -6.563606637449727,
+        "z": 133.4916887599537,
+        "radius": 3.8,
+        "clearance": 17.000489122758033
+      },
+      {
+        "type": "coconut-palm",
+        "x": 36.0060719305973,
+        "z": 106.08746302831034,
+        "radius": 3.8,
+        "clearance": 19.004817064907467
+      },
+      {
+        "type": "coconut-palm",
+        "x": 39.134417380414774,
+        "z": 139.9527123728711,
+        "radius": 3.8,
+        "clearance": 15.013756534059386
+      },
+      {
+        "type": "coconut-palm",
+        "x": 51.83925107999479,
+        "z": 104.78826373654495,
+        "radius": 3.8,
+        "clearance": 17.00057835654661
+      },
+      {
+        "type": "coconut-palm",
+        "x": 83.76621668880408,
+        "z": 130.35348188702397,
+        "radius": 3.8,
+        "clearance": 18.999733875509442
+      },
+      {
+        "type": "coconut-palm",
+        "x": 82.20190208131062,
+        "z": 91.25259718030368,
+        "radius": 3.8,
+        "clearance": 15.00543040815123
+      },
+      {
+        "type": "coconut-palm",
+        "x": 118.95821586634011,
+        "z": 97.89434510943525,
+        "radius": 3.8,
+        "clearance": 16.999479173970336
+      },
+      {
+        "type": "coconut-palm",
+        "x": 95.33641448168933,
+        "z": 64.63683870654017,
+        "radius": 3.8,
+        "clearance": 19.011111165637246
+      },
+      {
+        "type": "coconut-palm",
+        "x": 133.02665595780613,
+        "z": 54.93428315958262,
+        "radius": 3.8,
+        "clearance": 15.01290989840101
+      },
+      {
+        "type": "coconut-palm",
+        "x": 102.36100400682173,
+        "z": 34.80462508197826,
+        "radius": 3.8,
+        "clearance": 17.0100727303621
+      },
+      {
+        "type": "coconut-palm",
+        "x": 121.5163215716546,
+        "z": 2.264146610123321,
+        "radius": 3.8,
+        "clearance": 19.006775489884156
+      },
+      {
+        "type": "coconut-palm",
+        "x": 84.4291524532187,
+        "z": 17.078320805802456,
+        "radius": 3.8,
+        "clearance": 15.000005127038133
+      },
+      {
+        "type": "coconut-palm",
+        "x": 100.00673276299165,
+        "z": -9.727103494714488,
+        "radius": 3.8,
+        "clearance": 15.588871605951818
+      },
+      {
+        "type": "coconut-palm",
+        "x": 79.00526279954475,
+        "z": -39.820802803257656,
+        "radius": 3.8,
+        "clearance": 19.00165546623909
+      },
+      {
+        "type": "coconut-palm",
+        "x": 117.39433593804014,
+        "z": -30.11721646083868,
+        "radius": 3.8,
+        "clearance": 15.001580872619414
+      },
+      {
+        "type": "coconut-palm",
+        "x": 102.18061714776553,
+        "z": -62.166660260306685,
+        "radius": 3.8,
+        "clearance": 16.52341550998932
+      },
+      {
+        "type": "coconut-palm",
+        "x": 130.57095035253118,
+        "z": -84.45517385208987,
+        "radius": 3.8,
+        "clearance": 18.999810660455964
+      },
+      {
+        "type": "coconut-palm",
+        "x": 91.42770913630854,
+        "z": -79.37292960752943,
+        "radius": 3.8,
+        "clearance": 15.018653612481122
+      },
+      {
+        "type": "coconut-palm",
+        "x": 97.7748397864025,
+        "z": -116.30287169452824,
+        "radius": 3.8,
+        "clearance": 17.003296111651004
+      },
+      {
+        "type": "coconut-palm",
+        "x": 63.317829632612515,
+        "z": -95.43167678237329,
+        "radius": 3.8,
+        "clearance": 19.006858914793266
+      },
+      {
+        "type": "coconut-palm",
+        "x": 50.30271146876075,
+        "z": -130.58590139059788,
+        "radius": 3.8,
+        "clearance": 14.999282018225141
+      },
+      {
+        "type": "coconut-palm",
+        "x": 38.90758267579541,
+        "z": -94.90429304634311,
+        "radius": 3.8,
+        "clearance": 17.00667606073401
+      },
+      {
+        "type": "coconut-palm",
+        "x": 15.557062513569806,
+        "z": -124.24048949167346,
+        "radius": 3.8,
+        "clearance": 19.003892062984786
+      },
+      {
+        "type": "coconut-palm",
+        "x": 3.4474056324173556,
+        "z": -81.6476051924144,
+        "radius": 3.8,
+        "clearance": 15.01641950119517
+      },
+      {
+        "type": "coconut-palm",
+        "x": -28.44428092009946,
+        "z": -101.50290662633219,
+        "radius": 3.8,
+        "clearance": 17.00174728910735
+      },
+      {
+        "type": "coconut-palm",
+        "x": -25.414473798896537,
+        "z": -61.023962119449926,
+        "radius": 3.8,
+        "clearance": 19.015181491317527
+      },
+      {
+        "type": "coconut-palm",
+        "x": -63.640732543795934,
+        "z": -66.76350882925448,
+        "radius": 3.8,
+        "clearance": 15.001618444617995
+      },
+      {
+        "type": "coconut-palm",
+        "x": -32.16832647668092,
+        "z": -47.993008019934436,
+        "radius": 3.8,
+        "clearance": 17.00082056062696
+      },
+      {
+        "type": "coconut-palm",
+        "x": -56.16637040700804,
+        "z": -15.225039832290278,
+        "radius": 3.8,
+        "clearance": 19.002767779255727
+      },
+      {
+        "type": "coconut-palm",
+        "x": -19.52594172802325,
+        "z": -21.543370090335983,
+        "radius": 3.8,
+        "clearance": 14.843485708574836
+      },
+      {
+        "type": "coconut-palm",
+        "x": -12.521281632178358,
+        "z": 10.904472767837575,
+        "radius": 3.8,
+        "clearance": 16.491833260818545
+      },
+      {
+        "type": "lantern-post",
+        "x": -3.9316742019221476,
+        "z": 11.620832511161272,
+        "radius": 0.75,
+        "clearance": 9.513665574105682
+      },
+      {
+        "type": "lantern-post",
+        "x": 23.915450882892152,
+        "z": 28.4077938428909,
+        "radius": 0.75,
+        "clearance": 9.519901690829176
+      },
+      {
+        "type": "lantern-post",
+        "x": 8.625008971055824,
+        "z": 55.437037053006435,
+        "radius": 0.75,
+        "clearance": 9.503845694046186
+      },
+      {
+        "type": "lantern-post",
+        "x": 8.937931924904879,
+        "z": 85.28632461168361,
+        "radius": 0.75,
+        "clearance": 9.513610359833454
+      },
+      {
+        "type": "lantern-post",
+        "x": -24.198791377950304,
+        "z": 91.86264907067229,
+        "radius": 0.75,
+        "clearance": 9.4988027976806
+      },
+      {
+        "type": "lantern-post",
+        "x": 0.26816812925445177,
+        "z": 107.53236931116338,
+        "radius": 0.75,
+        "clearance": 9.500434778344658
+      },
+      {
+        "type": "lantern-post",
+        "x": 19.764912137387846,
+        "z": 133.29969457852272,
+        "radius": 0.75,
+        "clearance": 9.499880847066219
+      },
+      {
+        "type": "lantern-post",
+        "x": 45.64254759034281,
+        "z": 114.24281996800906,
+        "radius": 0.75,
+        "clearance": 9.521259854590816
+      },
+      {
+        "type": "lantern-post",
+        "x": 76.74071858226085,
+        "z": 123.2437871041773,
+        "radius": 0.75,
+        "clearance": 9.509662548548238
+      },
+      {
+        "type": "lantern-post",
+        "x": 88.41663626069099,
+        "z": 93.21722142287003,
+        "radius": 0.75,
+        "clearance": 9.500584512668851
+      },
+      {
+        "type": "lantern-post",
+        "x": 118.61515548157126,
+        "z": 82.88279480027094,
+        "radius": 0.75,
+        "clearance": 9.502226243546964
+      },
+      {
+        "type": "lantern-post",
+        "x": 108.66868796641988,
+        "z": 51.94961043759362,
+        "radius": 0.75,
+        "clearance": 9.51333591904839
+      },
+      {
+        "type": "lantern-post",
+        "x": 126.76756889243829,
+        "z": 23.871933074560125,
+        "radius": 0.75,
+        "clearance": 9.503608099100614
+      },
+      {
+        "type": "lantern-post",
+        "x": 93.71865953717898,
+        "z": 17.05054422701012,
+        "radius": 0.75,
+        "clearance": 9.507020953896268
+      },
+      {
+        "type": "lantern-post",
+        "x": 92.5118150535467,
+        "z": -9.9970307603401,
+        "radius": 0.75,
+        "clearance": 9.511815516990525
+      },
+      {
+        "type": "lantern-post",
+        "x": 91.05443541836927,
+        "z": -38.51494480998136,
+        "radius": 0.75,
+        "clearance": 9.52965032946015
+      },
+      {
+        "type": "lantern-post",
+        "x": 123.55194511055606,
+        "z": -46.14607257859397,
+        "radius": 0.75,
+        "clearance": 9.501922661681546
+      },
+      {
+        "type": "lantern-post",
+        "x": 105.57432511144015,
+        "z": -70.68668549445502,
+        "radius": 0.75,
+        "clearance": 9.502978659966793
+      },
+      {
+        "type": "lantern-post",
+        "x": 102.4833509338107,
+        "z": -102.70536802520633,
+        "radius": 0.75,
+        "clearance": 9.502363078197464
+      },
+      {
+        "type": "lantern-post",
+        "x": 70.23718522859751,
+        "z": -102.63206041872866,
+        "radius": 0.75,
+        "clearance": 9.522472293984835
+      },
+      {
+        "type": "lantern-post",
+        "x": 47.5708128995425,
+        "z": -124.6896619411793,
+        "radius": 0.75,
+        "clearance": 9.49961879665911
+      },
+      {
+        "type": "lantern-post",
+        "x": 27.665678757718986,
+        "z": -98.42653063796796,
+        "radius": 0.75,
+        "clearance": 9.510530112884656
+      },
+      {
+        "type": "lantern-post",
+        "x": -4.253098448330457,
+        "z": -105.06898942707646,
+        "radius": 0.75,
+        "clearance": 9.501009817583553
+      },
+      {
+        "type": "lantern-post",
+        "x": -19.263038219520347,
+        "z": -76.28181871960564,
+        "radius": 0.75,
+        "clearance": 9.510038237039524
+      },
+      {
+        "type": "lantern-post",
+        "x": -52.270441592770865,
+        "z": -74.99928814143871,
+        "radius": 0.75,
+        "clearance": 9.511773324376355
+      },
+      {
+        "type": "lantern-post",
+        "x": -39.63156781039554,
+        "z": -46.69944218429082,
+        "radius": 0.75,
+        "clearance": 9.501927202633363
+      },
+      {
+        "type": "lantern-post",
+        "x": -44.83118124710021,
+        "z": -15.042283293044656,
+        "radius": 0.75,
+        "clearance": 9.50878490286669
+      },
+      {
+        "type": "lantern-post",
+        "x": -15.869847058133946,
+        "z": -15.900033086295977,
+        "radius": 0.75,
+        "clearance": 9.50003491781406
+      },
+      {
+        "type": "beach-parasol",
+        "x": 37.7517394072693,
+        "z": 38.63263623989665,
+        "radius": 2.3,
+        "clearance": 20.500610042163377
+      },
+      {
+        "type": "beach-parasol",
+        "x": -38.70190552862407,
+        "z": 103.0208912837556,
+        "radius": 2.3,
+        "clearance": 20.49409113898034
+      },
+      {
+        "type": "beach-parasol",
+        "x": 43.80690806503797,
+        "z": 103.38463527289927,
+        "radius": 2.3,
+        "clearance": 20.5005783450296
+      },
+      {
+        "type": "beach-parasol",
+        "x": 126.09232783959682,
+        "z": 92.57941758708867,
+        "radius": 2.3,
+        "clearance": 20.50104412666175
+      },
+      {
+        "type": "beach-parasol",
+        "x": 94.58168137965075,
+        "z": 31.272508351024946,
+        "radius": 2.3,
+        "clearance": 20.508790199619003
+      },
+      {
+        "type": "beach-parasol",
+        "x": 120.36548672527262,
+        "z": -25.289443989374384,
+        "radius": 2.3,
+        "clearance": 20.500046035240885
+      },
+      {
+        "type": "beach-parasol",
+        "x": 78.58829467653509,
+        "z": -83.69123690002843,
+        "radius": 2.3,
+        "clearance": 20.513468540090674
+      },
+      {
+        "type": "beach-parasol",
+        "x": 15.110378794835308,
+        "z": -125.68202622015005,
+        "radius": 2.3,
+        "clearance": 20.501149394050522
+      },
+      {
+        "type": "beach-parasol",
+        "x": -28.009957540687594,
+        "z": -56.9501491300296,
+        "radius": 2.3,
+        "clearance": 20.500842149395517
+      },
+      {
+        "type": "beach-parasol",
+        "x": -34.288967232485,
+        "z": 10.681652432436323,
+        "radius": 2.3,
+        "clearance": 20.501930761685962
+      },
+      {
+        "type": "tourist-kiosk",
+        "x": -5.18256915073181,
+        "z": 54.706242897574484,
+        "radius": 4.5,
+        "clearance": 22.000587798959092
+      },
+      {
+        "type": "tourist-kiosk",
+        "x": 85.30145056712988,
+        "z": 78.07494405555802,
+        "radius": 4.5,
+        "clearance": 22.005564820719844
+      },
+      {
+        "type": "tourist-kiosk",
+        "x": 140.61748100069642,
+        "z": -67.09827739474996,
+        "radius": 4.5,
+        "clearance": 21.995948002412895
+      },
+      {
+        "type": "tourist-kiosk",
+        "x": -28.597582947374256,
+        "z": -54.78358108638815,
+        "radius": 4.5,
+        "clearance": 21.629743050207225
+      },
+      {
+        "type": "promenade-bench",
+        "x": 4.844729903854692,
+        "z": 35.10695385171093,
+        "radius": 1.4,
+        "clearance": 10.700554641545862
+      },
+      {
+        "type": "promenade-bench",
+        "x": 9.147208138725299,
+        "z": 86.72933925206807,
+        "radius": 1.4,
+        "clearance": 10.702977739530281
+      },
+      {
+        "type": "promenade-bench",
+        "x": -7.658178972180792,
+        "z": 126.12558371573795,
+        "radius": 1.4,
+        "clearance": 10.721388111969016
+      },
+      {
+        "type": "promenade-bench",
+        "x": 46.06768734533095,
+        "z": 112.91994599000631,
+        "radius": 1.4,
+        "clearance": 10.702424988743635
+      },
+      {
+        "type": "promenade-bench",
+        "x": 102.54040831168489,
+        "z": 107.67591021034455,
+        "radius": 1.4,
+        "clearance": 10.716521691495853
+      },
+      {
+        "type": "promenade-bench",
+        "x": 107.61932484833767,
+        "z": 51.02756191951277,
+        "radius": 1.4,
+        "clearance": 10.70617928990415
+      },
+      {
+        "type": "promenade-bench",
+        "x": 104.75192929782888,
+        "z": 0.11161377306822828,
+        "radius": 1.4,
+        "clearance": 10.708333717289912
+      },
+      {
+        "type": "promenade-bench",
+        "x": 90.7922646156895,
+        "z": -39.940938417455804,
+        "radius": 1.4,
+        "clearance": 10.700691267576328
+      },
+      {
+        "type": "promenade-bench",
+        "x": 122.08291949825337,
+        "z": -82.34873097686513,
+        "radius": 1.4,
+        "clearance": 10.717394463979335
+      },
+      {
+        "type": "promenade-bench",
+        "x": 69.08884619659956,
+        "z": -101.87919371053002,
+        "radius": 1.4,
+        "clearance": 10.700999454212942
+      },
+      {
+        "type": "promenade-bench",
+        "x": 18.911202946202486,
+        "z": -116.64828349166227,
+        "radius": 1.4,
+        "clearance": 10.705443387480262
+      },
+      {
+        "type": "promenade-bench",
+        "x": -19.313887091460746,
+        "z": -74.86791671701701,
+        "radius": 1.4,
+        "clearance": 10.713695854409318
+      },
+      {
+        "type": "promenade-bench",
+        "x": -58.63776415320022,
+        "z": -39.820618853117665,
+        "radius": 1.4,
+        "clearance": 10.720089902051418
+      },
+      {
+        "type": "promenade-bench",
+        "x": -15.02110660199876,
+        "z": -17.064194082133746,
+        "radius": 1.4,
+        "clearance": 10.700165145697994
+      }
+    ],
+    "triangles": 64076,
+    "terrain_triangles": 11520,
+    "colour_draw_calls": 26,
+    "shadow_draw_calls": 13,
+    "textures": 3,
+    "static_visuals": true,
+    "gap_left_open": true,
+    "minimum_structure_vertex_clearance": 8.346111966733856,
+    "weather_modes": [
+      "clear",
+      "rain",
+      "fog"
+    ]
+  },
+  "cleanup": {
+    "coast_buffers": 80,
+    "coast_textures": 3,
+    "world_ground_water_buffers": 6,
+    "all_buffers_deleted": true,
+    "all_textures_deleted": true,
+    "coast_ground_water_buffers_deleted": true,
+    "stage1_city_restored": true,
+    "stage1_buffers_cleaned_on_coast_entry": true,
+    "stage1_textures_cleaned_on_coast_entry": true,
+    "rebuild_same_owned_counts": true,
+    "stage2_restored_without_coast": true,
+    "stage2_buffers_cleaned_on_coast_entry": true,
+    "stage2_textures_cleaned_on_coast_entry": true
+  }
+}

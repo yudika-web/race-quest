@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "weather": "stage",
+      "old_effective_weather": "fog",
+      "new_effective_weather": "clear",
+      "exact_physics_ticks": 1500,
+      "ramp_jump_identical": true,
+      "gap_rescue_identical": true
+    },
+    {
+      "weather": "clear",
+      "old_effective_weather": "clear",
+      "new_effective_weather": "clear",
+      "exact_physics_ticks": 1500,
+      "ramp_jump_identical": true,
+      "gap_rescue_identical": true
+    },
+    {
+      "weather": "fog",
+      "old_effective_weather": "fog",
+      "new_effective_weather": "fog",
+      "exact_physics_ticks": 1500,
+      "ramp_jump_identical": true,
+      "gap_rescue_identical": true
+    },
+    {
+      "weather": "rain",
+      "old_effective_weather": "rain",
+      "new_effective_weather": "rain",
+      "exact_physics_ticks": 1500,
+      "ramp_jump_identical": true,
+      "gap_rescue_identical": true
+    }
+  ],
+  "track_geometry_hills_obstacles_ramps_gaps_identical": true
+}

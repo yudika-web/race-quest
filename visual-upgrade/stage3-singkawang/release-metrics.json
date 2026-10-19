@@ -1,0 +1,23 @@
+{
+  "html_bytes": 23394232,
+  "baseline_bytes": 23378794,
+  "growth_bytes": 15438,
+  "under_25_decimal_MB": true,
+  "coast_triangles": 64076,
+  "terrain_triangles": 11520,
+  "coast_colour_submissions": 26,
+  "coast_shadow_submissions": 13,
+  "coast_owned_textures": 3,
+  "source_mode": "Procedural material batches; no new GLB or network assets",
+  "fps_measured": false,
+  "playable_zip": {
+    "name": "race-quest-pro-singkawang-stage3-playable.zip",
+    "bytes": 11983371,
+    "sha256": "024df7b9b32c2b0049011826303dfb67f156cbb13cf20ef6fa6c93011e4af7dd"
+  },
+  "review_zip": {
+    "name": "race-quest-pro-singkawang-stage3-review.zip",
+    "bytes": 26032364,
+    "sha256": "df8aea3618ad1ccb447788915dcfcf63225398737697f8433a88c1e5b0f637da"
+  }
+}
