@@ -1,4 +1,15 @@
-# RACE QUEST PRO — PATCH 4: Smart Racing AI
+# RACE QUEST PRO — PATCH 4.5: Responsive Racing HUD
+
+HUD balapan baru: inventori dua slot di kiri bawah, statistik ringkas di bawah, toolbar seragam dan minimap yang dapat dibuka/ditutup. Area kendaraan tetap bebas. Desktop menyembunyikan kontrol sentuh; HP menampilkan kontrol minimal 44 px, dengan pilihan manual tersimpan melalui Suara/Pause.
+
+- [ZIP playable PATCH 4.5](race-quest-pro-patch4-5-playable.zip) — **ekstrak, lalu buka `race-quest-pro-patch4-5.html`**.
+- [HTML mandiri](visual-upgrade/race-quest-pro-patch4-5.html) · [ZIP review + sumber + screenshot](race-quest-pro-patch4-5-review.zip).
+- Before–after [desktop](visual-upgrade/patch4-5-responsive-hud/screenshots/comparison-1821x831.jpg), [HP portrait](visual-upgrade/patch4-5-responsive-hud/screenshots/comparison-390x844.jpg), [HP landscape](visual-upgrade/patch4-5-responsive-hud/screenshots/comparison-844x390.jpg).
+- [Ringkasan perubahan/build](visual-upgrade/patch4-5-responsive-hud/README.md) · [validasi layout dan interaksi](visual-upgrade/patch4-5-responsive-hud/VALIDATION.md) · [metrik](visual-upgrade/patch4-5-responsive-hud/release-metrics.json).
+
+HTML **23.699.293 byte**, naik **24.626 byte** dari PATCH 4. Matriks 55 kasus layout, kontrol keyboard/touch, kuis, ekspor offline serta 36 balapan engine berpasangan diuji. Smart AI PATCH 4, aturan buff/penilaian, 14 model dan tiga arena tetap dipertahankan. Emulasi HP bukan pengujian perangkat fisik/FPS HP. Tidak mengganti `index.html`, merge ke main, atau deployment.
+
+# Tahap sebelumnya — PATCH 4: Smart Racing AI
 
 Distribusi pengembangan terbaru: empat kepribadian AI, sembilan buff sesuai konteks, inventori terbatas per pos, waktu reaksi, validasi target dan peringatan serangan. Santai tidak menyerang; Sedang dan Menantang memakai serangan/pertahanan dengan cooldown. Batas kecepatan 23 / 31 m/s, tanpa catch-up berdasarkan jarak pemain.
 

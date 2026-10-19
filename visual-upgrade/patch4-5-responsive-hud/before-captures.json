@@ -1,0 +1,319 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "viewport": [
+        1821,
+        831
+      ],
+      "boxes": [
+        {
+          "selector": "#itemSlot",
+          "visible": true,
+          "x": 600.5,
+          "y": 603,
+          "right": 1220.5,
+          "bottom": 726,
+          "w": 620,
+          "h": 123
+        },
+        {
+          "selector": ".hud-bottom",
+          "visible": true,
+          "x": 693.734375,
+          "y": 749,
+          "right": 1127.265625,
+          "bottom": 809,
+          "w": 433.53125,
+          "h": 60
+        },
+        {
+          "selector": ".minimap",
+          "visible": true,
+          "x": 1618,
+          "y": 604.5,
+          "right": 1799,
+          "bottom": 799,
+          "w": 181,
+          "h": 194.5
+        },
+        {
+          "selector": ".hud-buttons",
+          "visible": true,
+          "x": 1598,
+          "y": 16,
+          "right": 1803,
+          "bottom": 62,
+          "w": 205,
+          "h": 46
+        },
+        {
+          "selector": ".touch-controls",
+          "visible": true,
+          "x": 22,
+          "y": 729,
+          "right": 188,
+          "bottom": 807,
+          "w": 166,
+          "h": 78
+        },
+        {
+          "selector": ".touch-controls.right",
+          "visible": true,
+          "x": 1729,
+          "y": 291,
+          "right": 1799,
+          "bottom": 621,
+          "w": 70,
+          "h": 330
+        },
+        {
+          "selector": ".keyboard-tip",
+          "visible": true,
+          "x": 24,
+          "y": 690,
+          "right": 474.828125,
+          "bottom": 719,
+          "w": 450.828125,
+          "h": 29
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "boxes": [
+        {
+          "selector": "#itemSlot",
+          "visible": true,
+          "x": 373,
+          "y": 540,
+          "right": 993,
+          "bottom": 663,
+          "w": 620,
+          "h": 123
+        },
+        {
+          "selector": ".hud-bottom",
+          "visible": true,
+          "x": 466.234375,
+          "y": 686,
+          "right": 899.765625,
+          "bottom": 746,
+          "w": 433.53125,
+          "h": 60
+        },
+        {
+          "selector": ".minimap",
+          "visible": true,
+          "x": 1163,
+          "y": 541.5,
+          "right": 1344,
+          "bottom": 736,
+          "w": 181,
+          "h": 194.5
+        },
+        {
+          "selector": ".hud-buttons",
+          "visible": true,
+          "x": 1143,
+          "y": 16,
+          "right": 1348,
+          "bottom": 62,
+          "w": 205,
+          "h": 46
+        },
+        {
+          "selector": ".touch-controls",
+          "visible": true,
+          "x": 22,
+          "y": 679,
+          "right": 162,
+          "bottom": 744,
+          "w": 140,
+          "h": 65
+        },
+        {
+          "selector": ".touch-controls.right",
+          "visible": true,
+          "x": 1274,
+          "y": 228,
+          "right": 1344,
+          "bottom": 558,
+          "w": 70,
+          "h": 330
+        },
+        {
+          "selector": ".keyboard-tip",
+          "visible": true,
+          "x": 24,
+          "y": 627,
+          "right": 474.828125,
+          "bottom": 656,
+          "w": 450.828125,
+          "h": 29
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "boxes": [
+        {
+          "selector": "#itemSlot",
+          "visible": true,
+          "x": 12,
+          "y": 568.5,
+          "right": 378,
+          "bottom": 680,
+          "w": 366,
+          "h": 111.5
+        },
+        {
+          "selector": ".hud-bottom",
+          "visible": true,
+          "x": 97.5,
+          "y": 665,
+          "right": 292.5,
+          "bottom": 750,
+          "w": 195,
+          "h": 85
+        },
+        {
+          "selector": ".minimap",
+          "visible": true,
+          "x": 269,
+          "y": 61,
+          "right": 380,
+          "bottom": 184,
+          "w": 111,
+          "h": 123
+        },
+        {
+          "selector": ".hud-buttons",
+          "visible": true,
+          "x": 274,
+          "y": 10,
+          "right": 380,
+          "bottom": 47.5,
+          "w": 106,
+          "h": 37.5
+        },
+        {
+          "selector": ".touch-controls",
+          "visible": true,
+          "x": 9,
+          "y": 768,
+          "right": 119,
+          "bottom": 826,
+          "w": 110,
+          "h": 58
+        },
+        {
+          "selector": ".touch-controls.right",
+          "visible": true,
+          "x": 192,
+          "y": 770,
+          "right": 378,
+          "bottom": 826,
+          "w": 186,
+          "h": 56
+        },
+        {
+          "selector": ".keyboard-tip",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "right": 0,
+          "bottom": 0,
+          "w": 0,
+          "h": 0
+        }
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "boxes": [
+        {
+          "selector": "#itemSlot",
+          "visible": true,
+          "x": 112,
+          "y": 187,
+          "right": 732,
+          "bottom": 310,
+          "w": 620,
+          "h": 123
+        },
+        {
+          "selector": ".hud-bottom",
+          "visible": true,
+          "x": 211,
+          "y": 318,
+          "right": 633,
+          "bottom": 378,
+          "w": 422,
+          "h": 60
+        },
+        {
+          "selector": ".minimap",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "right": 0,
+          "bottom": 0,
+          "w": 0,
+          "h": 0
+        },
+        {
+          "selector": ".hud-buttons",
+          "visible": true,
+          "x": 621,
+          "y": 16,
+          "right": 826,
+          "bottom": 62,
+          "w": 205,
+          "h": 46
+        },
+        {
+          "selector": ".touch-controls",
+          "visible": true,
+          "x": 22,
+          "y": 301,
+          "right": 162,
+          "bottom": 366,
+          "w": 140,
+          "h": 65
+        },
+        {
+          "selector": ".touch-controls.right",
+          "visible": true,
+          "x": 584,
+          "y": 318,
+          "right": 822,
+          "bottom": 370,
+          "w": 238,
+          "h": 52
+        },
+        {
+          "selector": ".keyboard-tip",
+          "visible": true,
+          "x": 24,
+          "y": 281,
+          "right": 474.828125,
+          "bottom": 310,
+          "w": 450.828125,
+          "h": 29
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual PATCH 4 baseline; same viewport, quality low, camera/pose/time 45, player speed 31, one Nitro charge plus Anti Slip, active shield/radar. Corresponding after files come from the layout matrix."
+}

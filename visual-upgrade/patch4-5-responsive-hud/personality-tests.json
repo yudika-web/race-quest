@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "checks": [
+    "Eight matched-context samples, 2000 opportunities each",
+    "Personality aggression order and configured probabilities",
+    "Earlier defense versus a shared incoming threat",
+    "No learner inventory or academic-content access in AI step"
+  ],
+  "cases": [
+    {
+      "difficulty": "normal",
+      "personality": "agresif",
+      "identical_opportunities": 2000,
+      "selected": 688,
+      "empirical_selection_rate": 0.344,
+      "configured_probability": 0.338
+    },
+    {
+      "difficulty": "normal",
+      "personality": "defensif",
+      "identical_opportunities": 2000,
+      "selected": 263,
+      "empirical_selection_rate": 0.1315,
+      "configured_probability": 0.117
+    },
+    {
+      "difficulty": "normal",
+      "personality": "berisiko",
+      "identical_opportunities": 2000,
+      "selected": 563,
+      "empirical_selection_rate": 0.2815,
+      "configured_probability": 0.273
+    },
+    {
+      "difficulty": "normal",
+      "personality": "seimbang",
+      "identical_opportunities": 2000,
+      "selected": 461,
+      "empirical_selection_rate": 0.2305,
+      "configured_probability": 0.221
+    },
+    {
+      "difficulty": "hard",
+      "personality": "agresif",
+      "identical_opportunities": 2000,
+      "selected": 1305,
+      "empirical_selection_rate": 0.6525,
+      "configured_probability": 0.65
+    },
+    {
+      "difficulty": "hard",
+      "personality": "defensif",
+      "identical_opportunities": 2000,
+      "selected": 476,
+      "empirical_selection_rate": 0.238,
+      "configured_probability": 0.225
+    },
+    {
+      "difficulty": "hard",
+      "personality": "berisiko",
+      "identical_opportunities": 2000,
+      "selected": 1078,
+      "empirical_selection_rate": 0.539,
+      "configured_probability": 0.525
+    },
+    {
+      "difficulty": "hard",
+      "personality": "seimbang",
+      "identical_opportunities": 2000,
+      "selected": 875,
+      "empirical_selection_rate": 0.4375,
+      "configured_probability": 0.425
+    }
+  ],
+  "defense": [
+    {
+      "personality": "agresif",
+      "threat_eta_seconds": 1.263157894736842,
+      "shield_selected": false,
+      "reaction_seconds": 0.65
+    },
+    {
+      "personality": "defensif",
+      "threat_eta_seconds": 1.263157894736842,
+      "shield_selected": true,
+      "reaction_seconds": 0.65
+    },
+    {
+      "personality": "berisiko",
+      "threat_eta_seconds": 1.263157894736842,
+      "shield_selected": false,
+      "reaction_seconds": 0.65
+    },
+    {
+      "personality": "seimbang",
+      "threat_eta_seconds": 1.263157894736842,
+      "shield_selected": true,
+      "reaction_seconds": 0.65
+    }
+  ]
+}

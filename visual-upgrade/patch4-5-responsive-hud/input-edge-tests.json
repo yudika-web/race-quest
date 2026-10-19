@@ -1,0 +1,408 @@
+{
+  "status": "passed",
+  "checks": [
+    "Simultaneous touch steering/drift produces original drift boost",
+    "Space shortcut still uses selected item",
+    "Notification queue bounded to three",
+    "Incoming AI attack has highest message priority",
+    "Legacy notifications and permanent keyboard hints do not occupy screen",
+    "Hit feedback wins over low-priority messages",
+    "Notification lifetime freezes with simulation",
+    "Expired messages disappear without stale backlog",
+    "Reduced motion disables progress transitions",
+    "HUD follows visual viewport after orientation resize",
+    "Compact minimap can expand",
+    "Compact minimap can collapse",
+    "Minimap preference restores across reload",
+    "Emulated notch insets preserve independent dock areas",
+    "WebGL remains clean",
+    "No JavaScript errors in edge tests"
+  ],
+  "errors": [],
+  "safeAreaGeometry": {
+    "viewport": [
+      844,
+      390
+    ],
+    "controls": "touch",
+    "boxes": [
+      {
+        "selector": ".rq-summary",
+        "visible": true,
+        "x": 44,
+        "y": 12,
+        "w": 216,
+        "h": 71.296875,
+        "right": 260,
+        "bottom": 83.296875
+      },
+      {
+        "selector": ".rq-mission",
+        "visible": true,
+        "x": 312,
+        "y": 12,
+        "w": 220,
+        "h": 37,
+        "right": 532,
+        "bottom": 49
+      },
+      {
+        "selector": ".rq-toolbar",
+        "visible": true,
+        "x": 612,
+        "y": 12,
+        "w": 188,
+        "h": 44,
+        "right": 800,
+        "bottom": 56
+      },
+      {
+        "selector": "#inventoryDock",
+        "visible": true,
+        "x": 44,
+        "y": 258,
+        "w": 252,
+        "h": 60,
+        "right": 296,
+        "bottom": 318
+      },
+      {
+        "selector": "#speedDock",
+        "visible": true,
+        "x": 337,
+        "y": 318.3125,
+        "w": 170,
+        "h": 51.6875,
+        "right": 507,
+        "bottom": 370
+      },
+      {
+        "selector": "#mapRail",
+        "visible": true,
+        "x": 692,
+        "y": 64,
+        "w": 108,
+        "h": 135.0625,
+        "right": 800,
+        "bottom": 199.0625
+      },
+      {
+        "selector": "#directionControls",
+        "visible": true,
+        "x": 44,
+        "y": 326,
+        "w": 94,
+        "h": 44,
+        "right": 138,
+        "bottom": 370
+      },
+      {
+        "selector": "#actionControls",
+        "visible": true,
+        "x": 706,
+        "y": 276,
+        "w": 94,
+        "h": 94,
+        "right": 800,
+        "bottom": 370
+      },
+      {
+        "selector": "#hudNotice",
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    ],
+    "hit": [
+      {
+        "id": "audio",
+        "x": 612,
+        "y": 12,
+        "w": 44,
+        "h": 44,
+        "right": 656,
+        "bottom": 56,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "restartRace",
+        "x": 660,
+        "y": 12,
+        "w": 44,
+        "h": 44,
+        "right": 704,
+        "bottom": 56,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "fullscreen",
+        "x": 708,
+        "y": 12,
+        "w": 44,
+        "h": 44,
+        "right": 752,
+        "bottom": 56,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "pauseRaceBtn",
+        "x": 756,
+        "y": 12,
+        "w": 44,
+        "h": 44,
+        "right": 800,
+        "bottom": 56,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "strategy-slot selected",
+        "x": 50,
+        "y": 264,
+        "w": 93,
+        "h": 48,
+        "right": 143,
+        "bottom": 312,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "strategy-slot",
+        "x": 148,
+        "y": 264,
+        "w": 93,
+        "h": 48,
+        "right": 241,
+        "bottom": 312,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "useItemBtn",
+        "x": 246,
+        "y": 264,
+        "w": 44,
+        "h": 48,
+        "right": 290,
+        "bottom": 312,
+        "clickable": true,
+        "disabled": true
+      },
+      {
+        "id": "mapToggle",
+        "x": 696,
+        "y": 68,
+        "w": 100,
+        "h": 44,
+        "right": 796,
+        "bottom": 112,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "leftControl",
+        "x": 44,
+        "y": 326,
+        "w": 44,
+        "h": 44,
+        "right": 88,
+        "bottom": 370,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "rightControl",
+        "x": 94,
+        "y": 326,
+        "w": 44,
+        "h": 44,
+        "right": 138,
+        "bottom": 370,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "driftControl",
+        "x": 706,
+        "y": 276,
+        "w": 44,
+        "h": 44,
+        "right": 750,
+        "bottom": 320,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "jumpControl",
+        "x": 756,
+        "y": 276,
+        "w": 44,
+        "h": 44,
+        "right": 800,
+        "bottom": 320,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "brakeControl",
+        "x": 706,
+        "y": 326,
+        "w": 44,
+        "h": 44,
+        "right": 750,
+        "bottom": 370,
+        "clickable": true,
+        "disabled": false
+      },
+      {
+        "id": "gasControl",
+        "x": 756,
+        "y": 326,
+        "w": 44,
+        "h": 44,
+        "right": 800,
+        "bottom": 370,
+        "clickable": true,
+        "disabled": false
+      }
+    ],
+    "texts": [
+      {
+        "id": "DIV",
+        "text": "POSISI5/5",
+        "overflow": false,
+        "x": 54,
+        "y": 19,
+        "w": 38,
+        "h": 41.5,
+        "right": 92,
+        "bottom": 60.5
+      },
+      {
+        "id": "hudTime",
+        "text": "00:45.0",
+        "overflow": false,
+        "x": 99,
+        "y": 29.390625,
+        "w": 151,
+        "h": 19.546875,
+        "right": 250,
+        "bottom": 48.9375
+      },
+      {
+        "id": "raceBankLabel",
+        "text": "Pontianak",
+        "overflow": false,
+        "x": 54,
+        "y": 62.5,
+        "w": 196,
+        "h": 13.796875,
+        "right": 250,
+        "bottom": 76.296875
+      },
+      {
+        "id": "hudQuestion",
+        "text": "SOAL 1 / 5",
+        "overflow": false,
+        "x": 322,
+        "y": 20,
+        "w": 49.203125,
+        "h": 13,
+        "right": 371.203125,
+        "bottom": 33
+      },
+      {
+        "id": "hudGate",
+        "text": "Pos · 297 m",
+        "overflow": false,
+        "x": 473.5,
+        "y": 20.65625,
+        "w": 48.5,
+        "h": 11.6875,
+        "right": 522,
+        "bottom": 32.34375
+      },
+      {
+        "id": "B",
+        "text": "Nitro",
+        "overflow": false,
+        "x": 82,
+        "y": 276.59375,
+        "w": 41.609375,
+        "h": 12,
+        "right": 123.609375,
+        "bottom": 288.59375
+      },
+      {
+        "id": "SMALL",
+        "text": "Aktif 1.0s",
+        "overflow": false,
+        "x": 82,
+        "y": 288.59375,
+        "w": 41.609375,
+        "h": 10.796875,
+        "right": 123.609375,
+        "bottom": 299.390625
+      },
+      {
+        "id": "B",
+        "text": "Anti Slip",
+        "overflow": false,
+        "x": 180,
+        "y": 276.59375,
+        "w": 41.40625,
+        "h": 12,
+        "right": 221.40625,
+        "bottom": 288.59375
+      },
+      {
+        "id": "SMALL",
+        "text": "0.6s",
+        "overflow": false,
+        "x": 180,
+        "y": 288.59375,
+        "w": 41.40625,
+        "h": 10.796875,
+        "right": 221.40625,
+        "bottom": 299.390625
+      },
+      {
+        "id": "hudSpeed",
+        "text": "112",
+        "overflow": false,
+        "x": 346,
+        "y": 324.3125,
+        "w": 41.1875,
+        "h": 25.1875,
+        "right": 387.1875,
+        "bottom": 349.5
+      },
+      {
+        "id": "hudTokens",
+        "text": "110",
+        "overflow": false,
+        "x": 453.765625,
+        "y": 329.03125,
+        "w": 25.75,
+        "h": 15.75,
+        "right": 479.515625,
+        "bottom": 344.78125
+      }
+    ],
+    "bodyOverflow": false,
+    "notificationCount": 0
+  },
+  "performance": {
+    "calls": 200,
+    "total_js_ms": 26.899999991059303,
+    "nodes_in_race": 108,
+    "method": "Incremental HUD JavaScript only, batched DOM writes, no render/layout flush. Not frame time or device FPS."
+  }
+}

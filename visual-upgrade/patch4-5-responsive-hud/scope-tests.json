@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "baseline": "82c0f778b480d669b236b76517add5cd86e35fb2",
+  "baseline_html_sha256": "bd8a1a7bacb64baa9aebdf5b937e5643138edac175be840061fc85302f45fae9",
+  "html_sha256": "ff1a6313aa20524215bbe96516c5c5c2e9bdd2078db458c3379761cbcdb5dc70",
+  "html_bytes": 23699293,
+  "growth_bytes": 24626,
+  "under_25_decimal_MB": true,
+  "bounded_changes": 9,
+  "reverse_reconstruction_exact": true,
+  "protected_historical_files": 1755,
+  "component_sha256_unchanged": {
+    "RaceCore / physics / assessment": "95aedc69633cff98fafc7c7dfbef0764998a669c4679cdd085d206723f0fb6b3",
+    "Scenery": "326b3c780bd80c4bcf10d81a0ce8377af65b82c5f8885a3f3cbaa8435809094e",
+    "Pontianak": "c3edbbb6f25c0e2fae33078d251d3370e3f71a0d6119499e5fdf992ebb698dc2",
+    "Mempawah": "3ad2c2efbdb1fcd11ece8572c003b6b215f5399f1d4ac3a3534e246cd229af62",
+    "Singkawang": "e652d25b2f571b7a6f56b4b63a25ed11ccddc074e664481aecfee48b44eb0941",
+    "Renderer / models": "2dc9dea6dad005c42589e5bb8c75b6ede83fe9d24432e8b8aaddd6c5d15769fc",
+    "Garage workshop": "f88faf9446e93a4fe6d30b5539cb393a10e02457d6ff72a54b72667a07d585d0",
+    "Stage selection": "8dcf1a2d1b358f364ad8a9e2690fdc72d44cf5a1159ffabec7499343ee5bd100",
+    "Audio": "b922949e7e4bf062a44e3481d4d6b0801c1c405f6b5b15f2a6c3210b23212161",
+    "VFX": "190f71891862cd311b29d1ee848d3e60c2f1b69be7316ecd41c477c545054997",
+    "Strategic buff system": "8454aa820660679c54a3c5757bbd64609101036e5c925d82ed1630e4ba5a7629",
+    "Original buff reward callbacks": "30c69a43e0c65e1580118afd35eb7c675d2cc07d4199a15eaeedc67f96cce08b",
+    "Smart Racing AI": "84fb05ee61f1b7e226dd76ee4c4cc47477984242a6ff18cd51c44f381938bc7c",
+    "AI indicator/audio layer": "63fe8d02404f74c5728201113369003be16b263dd475a49eafefa07051a2303d"
+  },
+  "scope": "New HUD markup/styles/presentation plus routing restart through existing Pause and controls release on input mode changes. Core/AI/buff/physics/assessment/audio/VFX files remain identical."
+}

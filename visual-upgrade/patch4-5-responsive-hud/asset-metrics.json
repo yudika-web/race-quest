@@ -1,0 +1,28 @@
+{
+  "baseline": "82c0f778b480d669b236b76517add5cd86e35fb2",
+  "html_sha256": "ff1a6313aa20524215bbe96516c5c5c2e9bdd2078db458c3379761cbcdb5dc70",
+  "html_bytes": 23699293,
+  "growth_bytes": 24626,
+  "under_25_decimal_MB": true,
+  "protected_historical_files": 1755,
+  "baseline_bytes": 23674667,
+  "new_embedded_assets": 0,
+  "new_GPU_buffers": 0,
+  "additional_WebGL_draw_calls": 0,
+  "layout_cases": 55,
+  "viewport_sizes": 9,
+  "minimum_racing_button_css_px": 44,
+  "paired_complete_races": 36,
+  "unchanged_render_cases": 16,
+  "teacher_export_bytes": 23781360,
+  "HUD_JS_microbenchmark": {
+    "calls": 200,
+    "total_js_ms": 26.899999991059303,
+    "nodes_in_race": 108,
+    "method": "Incremental HUD JavaScript only, batched DOM writes, no render/layout flush. Not frame time or device FPS.",
+    "mean_js_ms": 0.13449999995529652
+  },
+  "FPS_measured": false,
+  "physical_phone_tested": false,
+  "direct_file_scheme_tested": false
+}

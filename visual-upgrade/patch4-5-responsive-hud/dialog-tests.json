@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "390x844 quiz, correct-answer overflow, decline preserving stock, resume and Pause",
+    "844x390 quiz, correct-answer overflow, decline preserving stock, resume and Pause"
+  ],
+  "errors": [],
+  "captures": [
+    "quiz-390x844.png",
+    "quiz-overflow-390x844.png",
+    "pause-390x844.png",
+    "quiz-844x390.png",
+    "quiz-overflow-844x390.png",
+    "pause-844x390.png"
+  ]
+}
