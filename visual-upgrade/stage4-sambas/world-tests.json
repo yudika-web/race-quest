@@ -1,0 +1,1928 @@
+{
+  "status": "passed",
+  "checks": [
+    "Palace, dock and decorative bridge actually built",
+    "Structural scenery stays outside driving/collision envelope",
+    "Located props have safe footprint clearance",
+    "108 actual renderer samples: 12 route positions × 3 quality × 3 weather, no WebGL errors",
+    "Owned GPU buffers/textures freed on all old-stage transitions and stable rebuild counts",
+    "Existing gradient/cloud system retained without sky textures",
+    "No JavaScript errors during renderer and cleanup checks"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 172903,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 147379,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 21,
+      "colour_triangles": 147379,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145893,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 168,
+      "depth_draws": 21,
+      "colour_triangles": 136085,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 116,
+      "depth_draws": 21,
+      "colour_triangles": 124527,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 21,
+      "colour_triangles": 146179,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 159,
+      "depth_draws": 21,
+      "colour_triangles": 134717,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 217,
+      "depth_draws": 21,
+      "colour_triangles": 147393,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 44,
+      "colour_triangles": 147379,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 172903,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 147379,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 21,
+      "colour_triangles": 147379,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145893,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 168,
+      "depth_draws": 21,
+      "colour_triangles": 136085,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 116,
+      "depth_draws": 21,
+      "colour_triangles": 124527,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 21,
+      "colour_triangles": 146179,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 159,
+      "depth_draws": 21,
+      "colour_triangles": 134717,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 217,
+      "depth_draws": 21,
+      "colour_triangles": 147393,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 44,
+      "colour_triangles": 147379,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 172903,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 65,
+      "colour_triangles": 147379,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 21,
+      "colour_triangles": 147379,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145893,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 168,
+      "depth_draws": 21,
+      "colour_triangles": 136085,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 116,
+      "depth_draws": 21,
+      "colour_triangles": 124527,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 21,
+      "colour_triangles": 146179,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 159,
+      "depth_draws": 21,
+      "colour_triangles": 134717,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 217,
+      "depth_draws": 21,
+      "colour_triangles": 147393,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 214,
+      "depth_draws": 44,
+      "colour_triangles": 147379,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 205,
+      "depth_draws": 65,
+      "colour_triangles": 172035,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 65,
+      "colour_triangles": 146933,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 21,
+      "colour_triangles": 145465,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 162,
+      "depth_draws": 21,
+      "colour_triangles": 135639,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 108,
+      "depth_draws": 21,
+      "colour_triangles": 123663,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145747,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 21,
+      "colour_triangles": 134281,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 210,
+      "depth_draws": 44,
+      "colour_triangles": 146947,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 205,
+      "depth_draws": 65,
+      "colour_triangles": 172035,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 65,
+      "colour_triangles": 146933,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 21,
+      "colour_triangles": 145465,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 162,
+      "depth_draws": 21,
+      "colour_triangles": 135639,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 108,
+      "depth_draws": 21,
+      "colour_triangles": 123663,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145747,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 21,
+      "colour_triangles": 134281,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 210,
+      "depth_draws": 44,
+      "colour_triangles": 146947,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 205,
+      "depth_draws": 65,
+      "colour_triangles": 172035,
+      "depth_triangles": 143873
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 65,
+      "colour_triangles": 146933,
+      "depth_triangles": 118349
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 21,
+      "colour_triangles": 145465,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 21,
+      "colour_triangles": 145461,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 162,
+      "depth_draws": 21,
+      "colour_triangles": 135639,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 108,
+      "depth_draws": 21,
+      "colour_triangles": 123663,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145747,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 21,
+      "colour_triangles": 134281,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 21,
+      "colour_triangles": 145477,
+      "depth_triangles": 94489
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 210,
+      "depth_draws": 44,
+      "colour_triangles": 146947,
+      "depth_triangles": 106887
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 127780,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 0,
+      "colour_triangles": 128212,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 0,
+      "colour_triangles": 116918,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 0,
+      "colour_triangles": 104942,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 193,
+      "depth_draws": 0,
+      "colour_triangles": 127014,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 144,
+      "depth_draws": 0,
+      "colour_triangles": 115276,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 126756,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 0,
+      "colour_triangles": 128226,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 127780,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 0,
+      "colour_triangles": 128212,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 0,
+      "colour_triangles": 116918,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 0,
+      "colour_triangles": 104942,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 193,
+      "depth_draws": 0,
+      "colour_triangles": 127014,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 144,
+      "depth_draws": 0,
+      "colour_triangles": 115276,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 126756,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 0,
+      "colour_triangles": 128226,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 127780,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 0,
+      "colour_triangles": 128212,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 154,
+      "depth_draws": 0,
+      "colour_triangles": 116918,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 0,
+      "colour_triangles": 104942,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 193,
+      "depth_draws": 0,
+      "colour_triangles": 127014,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 144,
+      "depth_draws": 0,
+      "colour_triangles": 115276,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 0,
+      "colour_triangles": 126756,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 192,
+      "depth_draws": 0,
+      "colour_triangles": 126740,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 202,
+      "depth_draws": 0,
+      "colour_triangles": 128226,
+      "depth_triangles": 0
+    }
+  ],
+  "stats": {
+    "landmarks": [
+      {
+        "x": 17,
+        "z": 67,
+        "y": -0.49,
+        "yaw": -2.764601535159018,
+        "radius": 25,
+        "type": "istana-alwatzikhoebillah"
+      },
+      {
+        "x": 153.71818682590612,
+        "y": -0.5,
+        "z": 40,
+        "yaw": 1.5707963267948966,
+        "type": "dermaga-sungai",
+        "radius": 11
+      },
+      {
+        "x": 174.97383638234191,
+        "y": -0.5,
+        "z": -141,
+        "yaw": 1.5707963267948966,
+        "type": "jembatan-wisata",
+        "radius": 38
+      }
+    ],
+    "objects": [
+      {
+        "x": 17,
+        "z": 67,
+        "y": -0.49,
+        "yaw": -2.764601535159018,
+        "radius": 25,
+        "type": "istana-alwatzikhoebillah",
+        "clearance": 57.52713939201907
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -13.543142587506427,
+        "z": -3.278072604384236,
+        "radius": 0.55,
+        "clearance": 9.807431560471464
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -27.793364113333315,
+        "z": 25.592708256731072,
+        "radius": 0.55,
+        "clearance": 9.807039043867329
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -60.182319855356155,
+        "z": 25.089343241983922,
+        "radius": 0.55,
+        "clearance": 9.800756566708362
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -65.28762882944102,
+        "z": 56.89433789187472,
+        "radius": 0.55,
+        "clearance": 9.817541859019318
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -89.0081259546105,
+        "z": 77.10802002573226,
+        "radius": 0.55,
+        "clearance": 9.803590227539273
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -62.11337543875096,
+        "z": 94.628714069106,
+        "radius": 0.55,
+        "clearance": 9.811679693680212
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -52.45010993415274,
+        "z": 124.63573347254905,
+        "radius": 0.55,
+        "clearance": 9.80067004950686
+      },
+      {
+        "type": "lampu-jalan",
+        "x": -21.457353646143684,
+        "z": 113.44574162018941,
+        "radius": 0.55,
+        "clearance": 9.815745498308793
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 3.074602969762031,
+        "z": 135.31179888132002,
+        "radius": 0.55,
+        "clearance": 9.828323496241879
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 27.9316748179667,
+        "z": 113.69229018435084,
+        "radius": 0.55,
+        "clearance": 9.800358508751955
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 57.985484210870354,
+        "z": 127.26330444988153,
+        "radius": 0.55,
+        "clearance": 9.82159384480103
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 74.64947547758459,
+        "z": 99.17324074430381,
+        "radius": 0.55,
+        "clearance": 9.815038730068988
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 107.34655090586412,
+        "z": 96.83435131073499,
+        "radius": 0.55,
+        "clearance": 9.79966131564025
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 101.15490407589307,
+        "z": 64.46581503247454,
+        "radius": 0.55,
+        "clearance": 9.800665614595935
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 125.19880600272279,
+        "z": 42.478131174652866,
+        "radius": 0.55,
+        "clearance": 9.800008855403531
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 109.88123872776913,
+        "z": 13.506896133491919,
+        "radius": 0.55,
+        "clearance": 9.813257988470022
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 131.2235280881611,
+        "z": -11.757466827880085,
+        "radius": 0.55,
+        "clearance": 9.81742489604806
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 107.56141751229602,
+        "z": -34.319153375906424,
+        "radius": 0.55,
+        "clearance": 9.805300366094826
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 112.85546432549128,
+        "z": -66.68819924134857,
+        "radius": 0.55,
+        "clearance": 9.809577167191604
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 80.84785504136393,
+        "z": -70.44653761659825,
+        "radius": 0.55,
+        "clearance": 9.801209107541942
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 62.85130331911796,
+        "z": -97.59805987693603,
+        "radius": 0.55,
+        "clearance": 9.801871357437298
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 38.28955841220069,
+        "z": -77.72155344740929,
+        "radius": 0.55,
+        "clearance": 9.807874557618264
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 5.797039818377417,
+        "z": -79.29750442585188,
+        "radius": 0.55,
+        "clearance": 9.799461482391907
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 20.77651289297832,
+        "z": -56.507795595356725,
+        "radius": 0.55,
+        "clearance": 9.812899675235286
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 19.232411677743322,
+        "z": -28.587318377265817,
+        "radius": 0.55,
+        "clearance": 9.708944284909572
+      },
+      {
+        "type": "lampu-jalan",
+        "x": 18.75137554172536,
+        "z": -1.1479401788534602,
+        "radius": 0.55,
+        "clearance": 9.801360399126189
+      },
+      {
+        "type": "pohon-kota",
+        "x": -12.283665483025144,
+        "z": -8.503489300679478,
+        "radius": 2.3,
+        "clearance": 13.80552345602514
+      },
+      {
+        "type": "pohon-kota",
+        "x": -18.259277336315566,
+        "z": 26.185856533979667,
+        "radius": 2.3,
+        "clearance": 14.809318706117702
+      },
+      {
+        "type": "pohon-kota",
+        "x": -52.475136014269154,
+        "z": 11.640856033605154,
+        "radius": 2.3,
+        "clearance": 15.80701182176036
+      },
+      {
+        "type": "pohon-kota",
+        "x": -50.91442210048698,
+        "z": 47.99358152981178,
+        "radius": 2.3,
+        "clearance": 13.80351015010715
+      },
+      {
+        "type": "pohon-kota",
+        "x": -86.93006626792197,
+        "z": 44.92350521734924,
+        "radius": 2.3,
+        "clearance": 14.808159112856202
+      },
+      {
+        "type": "pohon-kota",
+        "x": -63.69620743887896,
+        "z": 72.68249885505408,
+        "radius": 2.3,
+        "clearance": 15.802314484698218
+      },
+      {
+        "type": "pohon-kota",
+        "x": -86.16119260390934,
+        "z": 100.47090292672354,
+        "radius": 2.3,
+        "clearance": 13.80102164061051
+      },
+      {
+        "type": "pohon-kota",
+        "x": -51.64016549430051,
+        "z": 97.46516448806238,
+        "radius": 2.3,
+        "clearance": 14.806462104661078
+      },
+      {
+        "type": "pohon-kota",
+        "x": -45.01407499290637,
+        "z": 133.79421912659797,
+        "radius": 2.3,
+        "clearance": 15.799761035896744
+      },
+      {
+        "type": "pohon-kota",
+        "x": -17.01123485894626,
+        "z": 110.17510710886712,
+        "radius": 2.3,
+        "clearance": 13.800425073004185
+      },
+      {
+        "type": "pohon-kota",
+        "x": 2.21255490109045,
+        "z": 140.31895808726043,
+        "radius": 2.3,
+        "clearance": 14.799821429110255
+      },
+      {
+        "type": "pohon-kota",
+        "x": 21.747543710591152,
+        "z": 108.45425027406384,
+        "radius": 2.3,
+        "clearance": 15.81048024895087
+      },
+      {
+        "type": "pohon-kota",
+        "x": 47.805333727246826,
+        "z": 134.02405108839125,
+        "radius": 2.3,
+        "clearance": 13.816281490106492
+      },
+      {
+        "type": "pohon-kota",
+        "x": 59.985249369879114,
+        "z": 100.59234986983986,
+        "radius": 2.3,
+        "clearance": 14.806324648022054
+      },
+      {
+        "type": "pohon-kota",
+        "x": 93.26210972102162,
+        "z": 117.72844167955174,
+        "radius": 2.3,
+        "clearance": 15.803362565582747
+      },
+      {
+        "type": "pohon-kota",
+        "x": 89.23961718796055,
+        "z": 81.67518895838951,
+        "radius": 2.3,
+        "clearance": 13.806832206354537
+      },
+      {
+        "type": "pohon-kota",
+        "x": 123.71534344613838,
+        "z": 75.14243285875992,
+        "radius": 2.3,
+        "clearance": 14.801960980354366
+      },
+      {
+        "type": "pohon-kota",
+        "x": 98.48500263890449,
+        "z": 47.29410348279976,
+        "radius": 2.3,
+        "clearance": 15.806235169664772
+      },
+      {
+        "type": "pohon-kota",
+        "x": 131.16000282160107,
+        "z": 30.87776811705159,
+        "radius": 2.3,
+        "clearance": 13.808022032336824
+      },
+      {
+        "type": "pohon-kota",
+        "x": 105.74486649794156,
+        "z": 5.869939313918622,
+        "radius": 2.3,
+        "clearance": 14.809702439362784
+      },
+      {
+        "type": "pohon-kota",
+        "x": 137.14456826998992,
+        "z": -14.707510330046542,
+        "radius": 2.3,
+        "clearance": 15.799708288653104
+      },
+      {
+        "type": "pohon-kota",
+        "x": 104.44732204817252,
+        "z": -30.997673164001526,
+        "radius": 2.3,
+        "clearance": 13.81199836445197
+      },
+      {
+        "type": "pohon-kota",
+        "x": 121.65972601167155,
+        "z": -62.262475439570665,
+        "radius": 2.3,
+        "clearance": 14.79969720241145
+      },
+      {
+        "type": "pohon-kota",
+        "x": 84.90716470766927,
+        "z": -60.09278531283475,
+        "radius": 2.3,
+        "clearance": 15.804143031122283
+      },
+      {
+        "type": "pohon-kota",
+        "x": 82.87200809796383,
+        "z": -95.68073664742835,
+        "radius": 2.3,
+        "clearance": 13.800407918792699
+      },
+      {
+        "type": "pohon-kota",
+        "x": 54.82309335507106,
+        "z": -74.01598505352628,
+        "radius": 2.3,
+        "clearance": 14.800286349480514
+      },
+      {
+        "type": "pohon-kota",
+        "x": 30.455319204952538,
+        "z": -102.11129318945925,
+        "radius": 2.3,
+        "clearance": 15.799833385922598
+      },
+      {
+        "type": "pohon-kota",
+        "x": 25.996409380233146,
+        "z": -65.92881300168595,
+        "radius": 2.3,
+        "clearance": 13.803504552092258
+      },
+      {
+        "type": "pohon-kota",
+        "x": -6.473710989794316,
+        "z": -53.636485036945686,
+        "radius": 2.3,
+        "clearance": 14.799746886903126
+      },
+      {
+        "type": "pohon-kota",
+        "x": 32.427337982917024,
+        "z": -52.93319659503024,
+        "radius": 2.3,
+        "clearance": 15.810009578980083
+      },
+      {
+        "type": "pohon-kota",
+        "x": 15.286614831726922,
+        "z": -29.757389667647388,
+        "radius": 2.3,
+        "clearance": 12.3747097307285
+      },
+      {
+        "type": "pohon-kota",
+        "x": 20.952577746299053,
+        "z": 3.4277649777210684,
+        "radius": 2.3,
+        "clearance": 14.80000826891494
+      },
+      {
+        "type": "kelapa",
+        "x": -16.75753244768017,
+        "z": 33.47742691736564,
+        "radius": 3.5,
+        "clearance": 22.006271394891176
+      },
+      {
+        "type": "kelapa",
+        "x": -75.99030974603389,
+        "z": 22.348365906504387,
+        "radius": 3.5,
+        "clearance": 22.002215190293093
+      },
+      {
+        "type": "kelapa",
+        "x": -57.41412450245579,
+        "z": 73.5072819640299,
+        "radius": 3.5,
+        "clearance": 22.00010105669652
+      },
+      {
+        "type": "kelapa",
+        "x": -69.00123072672991,
+        "z": 129.9839136994039,
+        "radius": 3.5,
+        "clearance": 22.004212146803983
+      },
+      {
+        "type": "kelapa",
+        "x": -13.882710462139443,
+        "z": 102.36235717390734,
+        "radius": 3.5,
+        "clearance": 22.01095875464837
+      },
+      {
+        "type": "kelapa",
+        "x": 28.53427505401867,
+        "z": 145.70437076787306,
+        "radius": 3.5,
+        "clearance": 21.99995853603893
+      },
+      {
+        "type": "kelapa",
+        "x": 59.00939036175955,
+        "z": 93.23067386497905,
+        "radius": 3.5,
+        "clearance": 22.000652216301894
+      },
+      {
+        "type": "kelapa",
+        "x": 119.42104788971898,
+        "z": 101.0590832471019,
+        "radius": 3.5,
+        "clearance": 22.006586690195405
+      },
+      {
+        "type": "kelapa",
+        "x": 92.7067126038817,
+        "z": 44.227250006990104,
+        "radius": 3.5,
+        "clearance": 22.00037931145314
+      },
+      {
+        "type": "kelapa",
+        "x": 142.58201801001553,
+        "z": 7.292292108758865,
+        "radius": 3.5,
+        "clearance": 22.00599687732725
+      },
+      {
+        "type": "kelapa",
+        "x": 96.11468493236785,
+        "z": -30.093433885183217,
+        "radius": 3.5,
+        "clearance": 22.000364205361866
+      },
+      {
+        "type": "kelapa",
+        "x": 108.48096213027301,
+        "z": -89.71910548336345,
+        "radius": 3.5,
+        "clearance": 22.005507409377557
+      },
+      {
+        "type": "kelapa",
+        "x": 52.34712197005994,
+        "z": -67.06997548295409,
+        "radius": 3.5,
+        "clearance": 22.003785812549157
+      },
+      {
+        "type": "kelapa",
+        "x": 0.75321786460756,
+        "z": -91.40948396406647,
+        "radius": 3.5,
+        "clearance": 22.00209098773706
+      },
+      {
+        "type": "kelapa",
+        "x": 38.69657297843568,
+        "z": -55.2726436640513,
+        "radius": 3.5,
+        "clearance": 22.00294725377689
+      },
+      {
+        "type": "kelapa",
+        "x": -2.044130514417674,
+        "z": -25.380348921496783,
+        "radius": 3.5,
+        "clearance": 22.000443643354085
+      },
+      {
+        "type": "taman-bunga",
+        "x": 0.6493791166832485,
+        "z": 13.014000910689232,
+        "radius": 1.8,
+        "clearance": 11.299922265617454
+      },
+      {
+        "type": "taman-bunga",
+        "x": -37.39778465835841,
+        "z": 6.770404020518987,
+        "radius": 1.8,
+        "clearance": 11.305195362139898
+      },
+      {
+        "type": "taman-bunga",
+        "x": -48.80993676555596,
+        "z": 43.00950074620673,
+        "radius": 1.8,
+        "clearance": 11.318726287800402
+      },
+      {
+        "type": "taman-bunga",
+        "x": -86.23396567330067,
+        "z": 50.59297659405999,
+        "radius": 1.8,
+        "clearance": 11.30827716708962
+      },
+      {
+        "type": "taman-bunga",
+        "x": -66.6250084796071,
+        "z": 81.9200867050212,
+        "radius": 1.8,
+        "clearance": 11.300293276687501
+      },
+      {
+        "type": "taman-bunga",
+        "x": -67.16969951953361,
+        "z": 118.4831370985546,
+        "radius": 1.8,
+        "clearance": 11.311026174870507
+      },
+      {
+        "type": "taman-bunga",
+        "x": -30.474990035721444,
+        "z": 109.84352569960978,
+        "radius": 1.8,
+        "clearance": 11.313951750529673
+      },
+      {
+        "type": "taman-bunga",
+        "x": -4.371151200611811,
+        "z": 136.69953489621813,
+        "radius": 1.8,
+        "clearance": 11.305286918324754
+      },
+      {
+        "type": "taman-bunga",
+        "x": 24.474082977428438,
+        "z": 112.65255447483099,
+        "radius": 1.8,
+        "clearance": 11.300325427652387
+      },
+      {
+        "type": "taman-bunga",
+        "x": 58.41333069458733,
+        "z": 128.70099265890704,
+        "radius": 1.8,
+        "clearance": 11.318695493386533
+      },
+      {
+        "type": "taman-bunga",
+        "x": 76.46542562417736,
+        "z": 96.32927867023115,
+        "radius": 1.8,
+        "clearance": 11.310360233326413
+      },
+      {
+        "type": "taman-bunga",
+        "x": 113.32530714096151,
+        "z": 90.78497313215307,
+        "radius": 1.8,
+        "clearance": 11.299501293178068
+      },
+      {
+        "type": "taman-bunga",
+        "x": 101.7510551458184,
+        "z": 54.701082941332864,
+        "radius": 1.8,
+        "clearance": 11.300566334107394
+      },
+      {
+        "type": "taman-bunga",
+        "x": 128.9176105953911,
+        "z": 29.074824014677322,
+        "radius": 1.8,
+        "clearance": 11.315408645040305
+      },
+      {
+        "type": "taman-bunga",
+        "x": 109.95671555771594,
+        "z": -2.9839356524559064,
+        "radius": 1.8,
+        "clearance": 11.324201211870152
+      },
+      {
+        "type": "taman-bunga",
+        "x": 129.4233812970533,
+        "z": -35.06658377812532,
+        "radius": 1.8,
+        "clearance": 11.299827883974297
+      },
+      {
+        "type": "taman-bunga",
+        "x": 96.77343624404887,
+        "z": -52.844865699477694,
+        "radius": 1.8,
+        "clearance": 11.301426182390868
+      },
+      {
+        "type": "taman-bunga",
+        "x": 90.15116643152665,
+        "z": -89.41832187026546,
+        "radius": 1.8,
+        "clearance": 11.300918998924258
+      },
+      {
+        "type": "taman-bunga",
+        "x": 54.92160092928724,
+        "z": -77.53312647237652,
+        "radius": 1.8,
+        "clearance": 11.311844854328562
+      },
+      {
+        "type": "taman-bunga",
+        "x": 22.193318599070267,
+        "z": -93.50729911592782,
+        "radius": 1.8,
+        "clearance": 11.309681507174043
+      },
+      {
+        "type": "taman-bunga",
+        "x": 18.07717929421157,
+        "z": -60.72775128196718,
+        "radius": 1.8,
+        "clearance": 10.377299280643781
+      },
+      {
+        "type": "taman-bunga",
+        "x": 15.083776332301307,
+        "z": -31.698888508009965,
+        "radius": 1.8,
+        "clearance": 11.301841448885968
+      },
+      {
+        "type": "taman-bunga",
+        "x": 26.695010148919497,
+        "z": -5.415889377923163,
+        "radius": 1.8,
+        "clearance": 11.307642735336076
+      },
+      {
+        "type": "rumah-melayu",
+        "x": -10.461140909382928,
+        "z": 39.29936395565246,
+        "radius": 6,
+        "clearance": 30.000900392147223
+      },
+      {
+        "type": "rumah-melayu",
+        "x": -87.06424833093635,
+        "z": 21.682996542575548,
+        "radius": 6,
+        "clearance": 30.00156429133637
+      },
+      {
+        "type": "rumah-melayu",
+        "x": -47.6984100687923,
+        "z": 79.39511693342511,
+        "radius": 6,
+        "clearance": 30.00502851020621
+      },
+      {
+        "type": "rumah-melayu",
+        "x": -41.41718426823677,
+        "z": 149.66818167761792,
+        "radius": 6,
+        "clearance": 30.009640867403338
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 1.6652894507497313,
+        "z": 95.51852703746005,
+        "radius": 6,
+        "clearance": 30.00416728357145
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 82.17941094886164,
+        "z": 139.8799879308779,
+        "radius": 6,
+        "clearance": 30.00028065308979
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 79.51213819687528,
+        "z": 66.05645898413323,
+        "radius": 6,
+        "clearance": 30.005949644152583
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 90.42059133537408,
+        "z": -20.85400665332579,
+        "radius": 6,
+        "clearance": 30.00739987027491
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 114.10136880889522,
+        "z": -95.43395261764672,
+        "radius": 6,
+        "clearance": 30.000291275206447
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 47.23687899039536,
+        "z": -59.28251003663067,
+        "radius": 6,
+        "clearance": 30.000192284027346
+      },
+      {
+        "type": "rumah-melayu",
+        "x": -20.53987085566534,
+        "z": -47.87111721921474,
+        "radius": 6,
+        "clearance": 29.996691068362924
+      },
+      {
+        "type": "rumah-melayu",
+        "x": 41.65082770309026,
+        "z": 6.313371606644058,
+        "radius": 6,
+        "clearance": 29.99949903815935
+      }
+    ],
+    "triangles": 76634,
+    "colour_draw_calls": 20,
+    "shadow_draw_calls": 11,
+    "textures": 1,
+    "static_visuals": true,
+    "river_mesh_triangles": 160,
+    "terrain_triangles": 2400,
+    "palace_verified_reconstruction": false,
+    "minimum_structure_vertex_clearance": 7.60678107695921
+  },
+  "cleanup": {
+    "all_sambas_buffers_deleted": true,
+    "all_sambas_textures_deleted": true,
+    "city_restored": true,
+    "rebuild_same_owned_count": true,
+    "kapuas_buffers_deleted": true,
+    "kapuas_textures_deleted": true,
+    "kapuas_restored": true,
+    "hutan_buffers_deleted": true,
+    "hutan_textures_deleted": true,
+    "hutan_restored": true
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  }
+}

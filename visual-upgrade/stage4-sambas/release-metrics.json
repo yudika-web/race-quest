@@ -1,0 +1,181 @@
+{
+  "baseline": "346c915ca0272f6b10732fdd99fe28bcde87fb62",
+  "baseline_bytes": 24445403,
+  "html_bytes": 24504400,
+  "growth_bytes": 58997,
+  "html_sha256": "b61e6ba1e6ede2c18c48db86c302c1a71623f648db7d24b5fd45fd4564629d05",
+  "remaining_to_25M": 495600,
+  "track": {
+    "length": 687.843158633858,
+    "max_height": 1.9997075417392187,
+    "max_abs_grade": 0.04877972597307137,
+    "minimum_nonadjacent_centerline_distance": 19.57990889841812,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "log"
+      },
+      {
+        "u": 0.53,
+        "lateral": 2.6,
+        "type": "rock"
+      },
+      {
+        "u": 0.85,
+        "lateral": -2.5,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.71
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 76634,
+    "colour_draw_calls": 20,
+    "shadow_draw_calls": 11,
+    "textures": 1,
+    "static_visuals": true,
+    "river_mesh_triangles": 160,
+    "terrain_triangles": 2400,
+    "palace_verified_reconstruction": false,
+    "minimum_structure_vertex_clearance": 7.60678107695921
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "sambas-landmark.webp": 11070,
+    "sambas-race.webp": 22552
+  },
+  "growth_components_bytes": [
+    13528,
+    45130,
+    339
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 116,
+        "max": 217
+      },
+      "depth_draws": {
+        "min": 21,
+        "max": 65
+      },
+      "colour_triangles": {
+        "min": 124527,
+        "max": 172903
+      },
+      "depth_triangles": {
+        "min": 94489,
+        "max": 143873
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 108,
+        "max": 210
+      },
+      "depth_draws": {
+        "min": 21,
+        "max": 65
+      },
+      "colour_triangles": {
+        "min": 123663,
+        "max": 172035
+      },
+      "depth_triangles": {
+        "min": 94489,
+        "max": 143873
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 100,
+        "max": 202
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 104942,
+        "max": 128226
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 47.56874999999943,
+      "max_stall_seconds": 0,
+      "overtake_plans": 80
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 36.48125000000007,
+      "max_stall_seconds": 0,
+      "overtake_plans": 412
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 34.64791666666684,
+      "max_stall_seconds": 0,
+      "overtake_plans": 698
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "under_25_decimal_MB": true,
+  "reports": {
+    "physics-tests": 7,
+    "item-tests": 11,
+    "world-tests": 7,
+    "browser-tests": 27,
+    "offline-tests": 28,
+    "unchanged-renders": 19,
+    "scope-tests": 0
+  },
+  "teacher_export_bytes": 24539807,
+  "offline_asset_HTTP_requests": 0,
+  "direct_file_note": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-stage4-sambas.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/blokraya-stage4-sambas.html\", waiting until \"load\"\u001b[22m\n",
+  "release_status": "Ready for visual review; reference accuracy and direct file navigation have documented limitations.",
+  "playable_zip": {
+    "file": "blokraya-stage4-sambas-playable.zip",
+    "bytes": 12745966,
+    "sha256": "79ffccf38119f33a63617a58a5f0e2e0eb3a23924886f05d29241a0be651054a",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-stage4-sambas-review.zip",
+    "bytes": 19645159,
+    "sha256": "176e1278595a7ca9afd14c9d88ea88646ca22534613ae3089bba862a3e4da996",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 56
+  }
+}

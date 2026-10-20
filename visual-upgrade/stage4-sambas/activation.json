@@ -1,0 +1,20 @@
+{
+  "stage": "sambas",
+  "baseline_available": false,
+  "release_available": true,
+  "release_after_candidate_validation": true,
+  "release_html_identical_to_test_candidate": true,
+  "html_sha256": "b61e6ba1e6ede2c18c48db86c302c1a71623f648db7d24b5fd45fd4564629d05",
+  "reports": {
+    "offline-tests": "passed",
+    "physics-tests": "passed",
+    "scope-tests": "passed",
+    "browser-tests": "passed",
+    "item-tests": "passed",
+    "world-tests": "passed",
+    "unchanged-renders": "passed"
+  },
+  "other_new_stage_ids_activated": [],
+  "nusantara_available": false,
+  "landmark_historical_accuracy_verified": false
+}

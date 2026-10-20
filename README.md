@@ -1,4 +1,16 @@
-# BlokRaya — PATCH 5: Ten-stage architecture & Grand Prix Nusantara
+# BlokRaya — Stage 4 Sambas: Royal River Road (6A)
+
+Arena baru Sambas sudah playable: lintasan 687,84 m, kawasan istana Melayu bergaya blocky, jalan tepian sungai, taman/plaza, rumah panggung, promenade, dermaga dan jembatan dekoratif. Empat arena tersedia; Stage 5–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena, Nusantara menunggu enam world lainnya.
+
+- [ZIP playable terbaru](blokraya-stage4-sambas-playable.zip) — ekstrak, lalu buka `blokraya-stage4-sambas.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage4-sambas.html) · [ZIP review: builder, screenshot dan hasil uji](blokraya-stage4-sambas-review.zip).
+- [Istana](visual-upgrade/stage4-sambas/screenshots/palace.png) · [Sungai/promenade](visual-upgrade/stage4-sambas/screenshots/river-promenade.png) · [Kamera gameplay](visual-upgrade/stage4-sambas/screenshots/gameplay.png).
+- HP [portrait](visual-upgrade/stage4-sambas/screenshots/race-390x844.png), [landscape](visual-upgrade/stage4-sambas/screenshots/race-844x390.png) · [menu stage](visual-upgrade/stage4-sambas/screenshots/menu-desktop.png).
+- [Implementasi, metrik, batas akurasi dan laporan pengujian](visual-upgrade/stage4-sambas/README.md).
+
+HTML **24.504.400 byte**, naik **58.997 byte** dari Prompt 5, tetap di bawah 25 MB desimal. Uji 18 balapan referensi, 18 completion AI, 108 sampel renderer, item, kuis/PIN/progres/replay, ekspor dan jaringan offline lolos. Render 14 pasangan serta tiga world lama tetap identik. Istana merupakan interpretasi blocky; detail historis belum diverifikasi karena akses referensi diblokir 403. HP fisik/FPS belum diuji; navigasi `file://` ditolak kebijakan browser cloud. Tidak merge ke main, mengubah `index.html`, deployment, atau mengerjakan 6B.
+
+# Tahap sebelumnya — PATCH 5: Ten-stage architecture & Grand Prix Nusantara
 
 Distribusi terbaru menyiapkan katalog **10 arena** dengan **3 arena lama playable** dan **7 “Segera Hadir”** yang belum dapat dibuka. Grand Prix **Kalbar Klasik** tetap tiga ronde; **Nusantara** menunggu semua lintasan dan world nyata tersedia. Tidak membangun arena Prompt 6.
 
