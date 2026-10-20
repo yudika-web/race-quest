@@ -1,4 +1,16 @@
-# BlokRaya — Stage 8 Yogyakarta: Heritage Night Race (6E)
+# BlokRaya — Stage 9 Bali: Rice Terrace Rush (6F)
+
+Bali sudah playable: lintasan pedesaan fiktif **777,24m**, dua bentang sawah berkontur (enam/empat teras), irigasi, rumpun padi, bukit, kelapa serta bale wisata dan gerbang batu orisinal. Sembilan arena tersedia; Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena; Nusantara menunggu Bromo.
+
+- [ZIP playable terbaru](blokraya-stage9-bali-playable.zip) — ekstrak lalu buka `blokraya-stage9-bali.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage9-bali.html) · [ZIP review: sumber, screenshot dan laporan](blokraya-stage9-bali-review.zip).
+- [Sawah terasering](visual-upgrade/stage9-bali/screenshots/rice-terraces.png) · [Bale wisata](visual-upgrade/stage9-bali/screenshots/bale-wisata.png) · [Gameplay](visual-upgrade/stage9-bali/screenshots/gameplay.png).
+- HP [portrait](visual-upgrade/stage9-bali/screenshots/race-390x844.png)/[landscape](visual-upgrade/stage9-bali/screenshots/race-844x390.png) · menu [sebelum](visual-upgrade/stage9-bali/screenshots/before-menu.png)/[sesudah](visual-upgrade/stage9-bali/screenshots/after-menu.png).
+- [Sumber editable, metrik dan laporan uji](visual-upgrade/stage9-bali/README.md).
+
+HTML **24.764.231 byte**, naik **57.329 byte**. Lingkungan **36.988 segitiga**, 22 batch warna. Uji 18 balapan referensi, 18 completion seluruh AI, 108 sampel render, kuis/PIN/buff/progres/replay, ekspor offline dan sentuh emulasi lolos. 24 render terlindungi identik. Referensi web ditolak 403; landscape/arsitektur merupakan interpretasi stylized. HP fisik/FPS belum diuji; file:// diblokir browser cloud. Tidak merge, mengubah index.html, deployment atau mengerjakan6G.
+
+# Tahap sebelumnya — Stage 8 Yogyakarta: Heritage Night Race (6E)
 
 Yogyakarta sudah playable: lintasan kota fiktif **826,23m** pada malam hari, Tugu Pal Putih stylized, taman/plaza, koridor bernuansa Malioboro, lampu hangat, ruko dan gerobak dekoratif. Delapan arena tersedia; Bali dan Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu dua world terakhir.
 

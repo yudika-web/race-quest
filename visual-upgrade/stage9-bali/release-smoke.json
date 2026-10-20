@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "bali",
+    "ready": 9,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "a3776c50f22f0b62532d2051884c093de9fdfd2c0c3ac6ca84ff773a504ad09c"
+}

@@ -1,0 +1,20 @@
+from pathlib import Path
+import json,hashlib,zipfile,subprocess,sys
+D=Path(__file__).resolve().parents[2];B=D/'stage9-bali';R=D.parent;H=D/'blokraya-stage9-bali.html'
+subprocess.run([sys.executable,str(B/'source/report.py')],check=True)
+read=lambda n:json.loads((B/(n+'.json')).read_text());reports={n:read(n)for n in ['physics-tests','item-tests','surface-tests','world-tests','browser-tests','offline-tests','unchanged-renders','scope-tests','comparison-report','release-smoke','terrain-tests']}
+for n,r in reports.items():assert r['status']=='passed',n
+raw=H.read_bytes();sha=lambda x:hashlib.sha256(x).hexdigest();metrics=read('asset-metrics');assert sha(raw)==metrics['html_sha256'];assert reports['release-smoke']['html_sha256']==sha(raw);assert raw==Path('/tmp/blokraya-6f/candidate.html').read_bytes()
+metrics.update({'under_25_decimal_MB':len(raw)<25000000,'reports':{n:len(r.get('checks',[]))for n,r in reports.items()},'teacher_export_bytes':reports['offline-tests']['export_bytes'],'offline_asset_HTTP_requests':len(reports['offline-tests']['assetRequests']),'direct_file_note':read('direct-file-tests').get('reason'),'release_status':'Ready for visual review; reference accuracy and direct file navigation have documented limitations.'})
+notes='BLOKRAYA — STAGE 9 BALI: RICE TERRACE RUSH (6F)\n\nEkstrak ZIP lalu buka blokraya-stage9-bali.html pada browser modern dengan WebGL. Semua aset tertanam. Gunakan browser/profil/origin sama untuk data lokal lama. Mode Siswa tanpa PIN; Mode Guru memakai PIN lokal. Interaksi pengguna diperlukan untuk audio.\n\nSembilan arena playable. Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu Bromo. Tidak memberikan token/unlock QA pada distribusi.\n\nJalur pedesaan fiktif 777,24 m, dua bentang sawah melengkung dengan enam/empat teras, irigasi, rumpun padi, bukit, kelapa, bale wisata dan gerbang batu orisinal. Interpretasi stylized, bukan rekonstruksi geografis atau bangunan sakral. Referensi web ditolak proxy403; detail belum diverifikasi melalui foto.\n\nGeometri prosedural batched, satu tekstur papan kecil, sistem gradient/awan/fog lama. Tidak menambahkan shader langit atau point light. Physics, penilaian, AI, buff dan data lama dipertahankan.\n\nOffline lulus pada browser dengan jaringan dimatikan dan dokumen lokal disuplai harness localhost, tanpa permintaan aset HTTP/CDN. file:// dicoba tetapi diblokir administrator cloud. Perlu verifikasi browser target; tidak menambahkan server wajib/fetch aset lokal. HP fisik/FPS/memori belum diukur.\n\nKontrol: A/D/panah, W/S gas/rem, C drift, Shift jump, E/Spasi buff, Q/1/2 slot, P/Esc jeda, serta kontrol sentuh. Kuis membekukan simulasi. Nilai akademik terpisah dari posisi balapan.\n\nReview ZIP memuat sumber prosedural editable, screenshot renderer asli dan laporan. Build memerlukan checkout baseline Yogyakarta, lihat README. Blender tersedia; geometri prosedural JavaScript dipilih agar ringan tanpa GLB environment baru.\n\nTidak merge, mengubah index.html, deployment atau mengerjakan6G.\n'
+for kind in ['playable','review']:
+ dest=R/f'blokraya-stage9-bali-{kind}.zip'
+ with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=9)as z:
+  z.write(H,H.name);z.writestr('MULAI.txt',notes)
+  if kind=='review':
+   for f in sorted(B.rglob('*')):
+    if f.is_file()and '__pycache__'not in f.parts and f.name!='release-metrics.json':z.write(f,'stage9-bali/'+f.relative_to(B).as_posix())
+   z.writestr('stage9-bali/release-metrics.json',json.dumps({**metrics,'review_self_hash_omitted':True,'review_self_hash_note':'The full review ZIP hash lives in the repository release-metrics.json; an archive cannot contain its own final hash.'},indent=2))
+ with zipfile.ZipFile(dest)as z:assert z.testzip()is None;assert z.read(H.name)==raw;entries=len(z.namelist())
+ metrics[kind+'_zip']={'file':dest.name,'bytes':dest.stat().st_size,'sha256':sha(dest.read_bytes()),'crc_ok':True,'html_identical':True,'entries':entries}
+(B/'release-metrics.json').write_text(json.dumps(metrics,indent=2));print(json.dumps({k:metrics[k]for k in ['html_bytes','growth_bytes','html_sha256','playable_zip','review_zip']},indent=2))

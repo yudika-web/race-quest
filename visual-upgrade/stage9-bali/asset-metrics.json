@@ -1,0 +1,372 @@
+{
+  "baseline": "6cd35f0a5d005c56754a7167c1efeb36861bd3c1",
+  "baseline_bytes": 24706902,
+  "html_bytes": 24764231,
+  "growth_bytes": 57329,
+  "html_sha256": "a3776c50f22f0b62532d2051884c093de9fdfd2c0c3ac6ca84ff773a504ad09c",
+  "remaining_to_25M": 235769,
+  "track": {
+    "length": 777.2421643596647,
+    "max_height": 5.699652948052047,
+    "max_abs_grade": 0.08858043766319557,
+    "minimum_nonadjacent_centerline_distance": 21.254047679664072,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.82
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 36988,
+    "colour_draw_calls": 22,
+    "shadow_draw_calls": 18,
+    "textures": 1,
+    "terrain_triangles": 2,
+    "static_visuals": true,
+    "landmark_accuracy_verified": false,
+    "terrace_zones": 2,
+    "terrace_levels": [
+      6,
+      4
+    ],
+    "crop_tufts": 784,
+    "surface_index_cells": 476,
+    "new_sky_programs": 0,
+    "new_point_lights": 0,
+    "minimum_structure_vertex_clearance": 7.774143411171543
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "bali-landmark.webp": 12738,
+    "bali-race.webp": 20922
+  },
+  "growth_components_bytes": [
+    12148,
+    45181
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 102,
+        "max": 216
+      },
+      "depth_draws": {
+        "min": 28,
+        "max": 72
+      },
+      "colour_triangles": {
+        "min": 80869,
+        "max": 130699
+      },
+      "depth_triangles": {
+        "min": 61491,
+        "max": 110875
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 94,
+        "max": 212
+      },
+      "depth_draws": {
+        "min": 28,
+        "max": 72
+      },
+      "colour_triangles": {
+        "min": 80271,
+        "max": 129835
+      },
+      "depth_triangles": {
+        "min": 61491,
+        "max": 110875
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 88,
+        "max": 201
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 61698,
+        "max": 85594
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 51.341666666665894,
+      "max_stall_seconds": 0,
+      "overtake_plans": 95
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 40.14999999999986,
+      "max_stall_seconds": 0,
+      "overtake_plans": 434
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 39.852083333333205,
+      "max_stall_seconds": 0,
+      "overtake_plans": 697
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "terrain_checks": {
+    "levels": [
+      [
+        1.5499999999999998,
+        3.5999999999999996,
+        5.6499999999999995,
+        7.699999999999999,
+        9.75,
+        11.799999999999999
+      ],
+      [
+        0.8500000000000001,
+        2.2,
+        3.5500000000000007,
+        4.9
+      ]
+    ],
+    "samples": [
+      {
+        "x": -30,
+        "z": 108.6927129908546,
+        "expected": 1.5499999999999998,
+        "actual": 1.5499999999999998
+      },
+      {
+        "x": 25,
+        "z": 110.5,
+        "expected": 1.5499999999999998,
+        "actual": 1.5499999999999998
+      },
+      {
+        "x": 80,
+        "z": 116.66328700914539,
+        "expected": 1.5499999999999998,
+        "actual": 1.5499999999999998
+      },
+      {
+        "x": -30,
+        "z": 121.71482464335352,
+        "expected": 3.5999999999999996,
+        "actual": 3.5999999999999996
+      },
+      {
+        "x": 25,
+        "z": 123.69991667708271,
+        "expected": 3.5999999999999996,
+        "actual": 3.5999999999999996
+      },
+      {
+        "x": 80,
+        "z": 129.6754375196188,
+        "expected": 3.5999999999999996,
+        "actual": 3.6
+      },
+      {
+        "x": -30,
+        "z": 134.74684217026223,
+        "expected": 5.6499999999999995,
+        "actual": 5.65
+      },
+      {
+        "x": 25,
+        "z": 136.89933366658732,
+        "expected": 5.6499999999999995,
+        "actual": 5.65
+      },
+      {
+        "x": 80,
+        "z": 142.67759651811838,
+        "expected": 5.6499999999999995,
+        "actual": 5.6499999999999995
+      },
+      {
+        "x": -30,
+        "z": 147.78868554443787,
+        "expected": 7.699999999999999,
+        "actual": 7.699999999999999
+      },
+      {
+        "x": 25,
+        "z": 150.0977525298944,
+        "expected": 7.699999999999999,
+        "actual": 7.699999999999999
+      },
+      {
+        "x": 80,
+        "z": 155.66975860827228,
+        "expected": 7.699999999999999,
+        "actual": 7.7
+      },
+      {
+        "x": -30,
+        "z": 160.8402501792366,
+        "expected": 9.75,
+        "actual": 9.75
+      },
+      {
+        "x": 25,
+        "z": 163.29467732318025,
+        "expected": 9.75,
+        "actual": 9.75
+      },
+      {
+        "x": 80,
+        "z": 168.65194338077316,
+        "expected": 9.75,
+        "actual": 9.750000000000002
+      },
+      {
+        "x": -30,
+        "z": 173.90140718992575,
+        "expected": 11.799999999999999,
+        "actual": 11.799999999999999
+      },
+      {
+        "x": 25,
+        "z": 176.4896158370181,
+        "expected": 11.799999999999999,
+        "actual": 11.8
+      },
+      {
+        "x": 80,
+        "z": 181.62419536441183,
+        "expected": 11.799999999999999,
+        "actual": 11.799999999999999
+      },
+      {
+        "x": -40.5,
+        "z": -49.910027895812995,
+        "expected": 0.8500000000000001,
+        "actual": 0.8500000000000001
+      },
+      {
+        "x": -13,
+        "z": -47.75,
+        "expected": 0.8500000000000001,
+        "actual": 0.8500000000000001
+      },
+      {
+        "x": 14.5,
+        "z": -44.50097210418701,
+        "expected": 0.8500000000000001,
+        "actual": 0.8500000000000001
+      },
+      {
+        "x": -40.5,
+        "z": -39.2593532242934,
+        "expected": 2.2,
+        "actual": 2.2
+      },
+      {
+        "x": -13,
+        "z": -37.05008332291729,
+        "expected": 2.2,
+        "actual": 2.2
+      },
+      {
+        "x": 14.5,
+        "z": -33.85705734391605,
+        "expected": 2.2,
+        "actual": 2.2
+      },
+      {
+        "x": -40.5,
+        "z": -28.60229524973412,
+        "expected": 3.5500000000000007,
+        "actual": 3.5500000000000007
+      },
+      {
+        "x": -13,
+        "z": -26.350666333412686,
+        "expected": 3.5500000000000007,
+        "actual": 3.5500000000000007
+      },
+      {
+        "x": 14.5,
+        "z": -23.22026220684504,
+        "expected": 3.5500000000000007,
+        "actual": 3.5500000000000007
+      },
+      {
+        "x": -40.5,
+        "z": -17.93924653527735,
+        "expected": 4.9,
+        "actual": 4.900000000000001
+      },
+      {
+        "x": -13,
+        "z": -15.6522474701056,
+        "expected": 4.9,
+        "actual": 4.9
+      },
+      {
+        "x": 14.5,
+        "z": -12.59092860957513,
+        "expected": 4.9,
+        "actual": 4.9
+      }
+    ],
+    "frozen": {
+      "paused": true,
+      "question": true
+    },
+    "day_night_day_identical": true,
+    "night_program_deleted": true,
+    "day_cloud_restored": true,
+    "glError": 0
+  },
+  "sky_counter_note": "Two existing gradient/cloud draw calls; no additional sky program, light or texture. Prior night-stage resources are freed on transition."
+}
