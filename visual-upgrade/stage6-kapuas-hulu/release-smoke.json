@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "kapuas_hulu",
+    "ready": 6,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "af4ecb19d95c5a16562952e030958702b8d4ef042c9fbe1a1fcd984d9edb4722"
+}

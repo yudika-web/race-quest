@@ -1,0 +1,156 @@
+{
+  "baseline": "2055c4d7b441d67b06b485e70b8f960af658152b",
+  "baseline_bytes": 24549503,
+  "html_bytes": 24603486,
+  "growth_bytes": 53983,
+  "html_sha256": "af4ecb19d95c5a16562952e030958702b8d4ef042c9fbe1a1fcd984d9edb4722",
+  "remaining_to_25M": 396514,
+  "track": {
+    "length": 836.7049857258274,
+    "max_height": 2.9999696308280335,
+    "max_abs_grade": 0.05628191700984109,
+    "minimum_nonadjacent_centerline_distance": 20.88193193746077,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.71
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 87846,
+    "colour_draw_calls": 13,
+    "shadow_draw_calls": 9,
+    "textures": 1,
+    "terrain_triangles": 2,
+    "static_visuals": true,
+    "geographic_reconstruction": false,
+    "water_level": -1.05,
+    "lake_bed": -3.5,
+    "minimum_structure_vertex_clearance": 7.504368213231139
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "sentarum-landmark.webp": 10764,
+    "sentarum-race.webp": 21230
+  },
+  "growth_components_bytes": [
+    11014,
+    42969
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 93,
+        "max": 199
+      },
+      "depth_draws": {
+        "min": 19,
+        "max": 63
+      },
+      "colour_triangles": {
+        "min": 123609,
+        "max": 172995
+      },
+      "depth_triangles": {
+        "min": 113105,
+        "max": 162489
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 85,
+        "max": 199
+      },
+      "depth_draws": {
+        "min": 19,
+        "max": 63
+      },
+      "colour_triangles": {
+        "min": 123431,
+        "max": 172995
+      },
+      "depth_triangles": {
+        "min": 113105,
+        "max": 162489
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 79,
+        "max": 189
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 104858,
+        "max": 128746
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 56.62916666666558,
+      "max_stall_seconds": 0,
+      "overtake_plans": 102
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 43.22708333333301,
+      "max_stall_seconds": 0,
+      "overtake_plans": 446
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 42.16666666666641,
+      "max_stall_seconds": 0,
+      "overtake_plans": 788
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed"
+}

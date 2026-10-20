@@ -1,0 +1,799 @@
+{
+  "status": "passed",
+  "checks": [
+    "Six actual tracks; four planned stages unavailable; classic cup unchanged and Nusantara blocked",
+    "Original configurations, session physics and storage normalization unchanged",
+    "Unique closed 550-segment route, no self-crossing or nonadjacent road overlap",
+    "Reference-driver races complete across all difficulties and six seeds, with exact academic scores",
+    "Every AI finishes without deadlock at three difficulties and six seeds",
+    "Real obstacle collision, border response, jump/landing, drift and all nine buff activations",
+    "Simulation, AI, items and clocks freeze during question/pause; ghost and progress use kapuas_hulu key"
+  ],
+  "races": [
+    {
+      "level": "easy",
+      "seed": 101,
+      "elapsed": 42.099999999999746,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {},
+        {
+          "radar": 1,
+          "magnet": 1
+        },
+        {
+          "nitro": 2,
+          "magnet": 1
+        },
+        {}
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 8020,
+      "elapsed": 41.99999999999975,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {
+          "magnet": 1
+        },
+        {
+          "nitro": 1
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 15939,
+      "elapsed": 41.949999999999754,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 23858,
+      "elapsed": 42.04999999999975,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 31777,
+      "elapsed": 41.99999999999975,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {},
+        {},
+        {
+          "radar": 1
+        },
+        {
+          "magnet": 1,
+          "turbo": 1
+        }
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 39696,
+      "elapsed": 42.04999999999975,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {},
+        {
+          "nitro": 2
+        },
+        {
+          "nitro": 2
+        },
+        {
+          "radar": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 101,
+      "elapsed": 41.79999999999976,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {
+          "radar": 1,
+          "shield": 1
+        },
+        {
+          "turbo": 1,
+          "bubble": 1,
+          "magnet": 1,
+          "radar": 1
+        },
+        {
+          "oil": 1,
+          "nitro": 2
+        },
+        {
+          "turbo": 1,
+          "magnet": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 8020,
+      "elapsed": 41.89999999999976,
+      "position": 2,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 1,
+      "ai_uses": [
+        {
+          "radar": 1,
+          "magnet": 1,
+          "turbo": 1
+        },
+        {
+          "nitro": 2
+        },
+        {
+          "nitro": 2
+        },
+        {
+          "bubble": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 15939,
+      "elapsed": 41.69999999999977,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {
+          "nitro": 2,
+          "turbo": 1,
+          "magnet": 1
+        },
+        {
+          "magnet": 1,
+          "turbo": 1
+        },
+        {},
+        {
+          "magnet": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 23858,
+      "elapsed": 42.099999999999746,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {
+          "radar": 1,
+          "oil": 1,
+          "magnet": 1
+        },
+        {
+          "nitro": 1
+        },
+        {
+          "nitro": 2,
+          "turbo": 1,
+          "grip": 1,
+          "magnet": 1
+        },
+        {
+          "turbo": 1,
+          "magnet": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 31777,
+      "elapsed": 42.14999999999974,
+      "position": 2,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 1,
+      "ai_uses": [
+        {
+          "magnet": 1,
+          "nitro": 2
+        },
+        {
+          "nitro": 2,
+          "turbo": 1
+        },
+        {
+          "radar": 1,
+          "magnet": 1
+        },
+        {
+          "magnet": 1
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 39696,
+      "elapsed": 42.8999999999997,
+      "position": 2,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 1,
+      "ai_uses": [
+        {},
+        {},
+        {
+          "grip": 1,
+          "magnet": 1
+        },
+        {
+          "oil": 1,
+          "nitro": 2
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 101,
+      "elapsed": 45.299999999999564,
+      "position": 4,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 3,
+      "ai_uses": [
+        {
+          "turbo": 1,
+          "bubble": 1,
+          "radar": 1
+        },
+        {
+          "magnet": 1,
+          "reflect": 1,
+          "grip": 1
+        },
+        {
+          "nitro": 2,
+          "bubble": 1
+        },
+        {
+          "bubble": 1,
+          "radar": 1,
+          "oil": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 8020,
+      "elapsed": 42.69999999999971,
+      "position": 5,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 4,
+      "ai_uses": [
+        {},
+        {
+          "radar": 1,
+          "nitro": 2,
+          "turbo": 1
+        },
+        {
+          "nitro": 2,
+          "reflect": 1
+        },
+        {
+          "nitro": 2,
+          "bubble": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 15939,
+      "elapsed": 41.89999999999976,
+      "position": 1,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 0,
+      "ai_uses": [
+        {
+          "reflect": 1
+        },
+        {
+          "bubble": 1,
+          "turbo": 1
+        },
+        {
+          "nitro": 2
+        },
+        {
+          "oil": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 23858,
+      "elapsed": 46.349999999999504,
+      "position": 4,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 3,
+      "ai_uses": [
+        {
+          "shield": 1
+        },
+        {
+          "bubble": 1,
+          "oil": 1,
+          "radar": 1
+        },
+        {
+          "turbo": 1,
+          "bubble": 1,
+          "magnet": 1
+        },
+        {
+          "radar": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 31777,
+      "elapsed": 42.19999999999974,
+      "position": 2,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 1,
+      "ai_uses": [
+        {
+          "magnet": 1
+        },
+        {
+          "oil": 1,
+          "reflect": 1
+        },
+        {
+          "nitro": 2,
+          "magnet": 1,
+          "bubble": 1
+        },
+        {
+          "nitro": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 39696,
+      "elapsed": 42.19999999999974,
+      "position": 3,
+      "score": 80,
+      "jumps": 1,
+      "lands": 1,
+      "ai_finished": 2,
+      "ai_uses": [
+        {
+          "turbo": 1,
+          "reflect": 1
+        },
+        {
+          "magnet": 1,
+          "radar": 1
+        },
+        {
+          "radar": 1,
+          "bubble": 1,
+          "magnet": 1
+        },
+        {
+          "radar": 1,
+          "oil": 1,
+          "magnet": 1,
+          "bubble": 1
+        }
+      ]
+    }
+  ],
+  "completion": [
+    {
+      "level": "easy",
+      "seed": 101,
+      "finish_times": [
+        55.299999999998995,
+        57.599999999998865,
+        55.499999999998984,
+        57.79999999999885
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        0,
+        1,
+        5,
+        6
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 8020,
+      "finish_times": [
+        55.54999999999898,
+        56.49999999999893,
+        56.04999999999895,
+        57.49999999999887
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        0,
+        7,
+        5,
+        7
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 15939,
+      "finish_times": [
+        59.84999999999874,
+        57.69999999999886,
+        60.29999999999871,
+        59.549999999998754
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        3,
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 23858,
+      "finish_times": [
+        56.04999999999895,
+        56.899999999998904,
+        56.699999999998916,
+        57.749999999998856
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        0,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 31777,
+      "finish_times": [
+        54.599999999999035,
+        56.199999999998944,
+        55.04999999999901,
+        55.89999999999896
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        0,
+        6,
+        4,
+        6
+      ]
+    },
+    {
+      "level": "easy",
+      "seed": 39696,
+      "finish_times": [
+        54.64999999999903,
+        54.89999999999902,
+        55.39999999999899,
+        55.79999999999897
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        0,
+        12,
+        5,
+        6
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 101,
+      "finish_times": [
+        41.64999999999977,
+        44.199999999999626,
+        42.04999999999975,
+        44.09999999999963
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        2,
+        25,
+        15,
+        21
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 8020,
+      "finish_times": [
+        43.09999999999969,
+        44.29999999999962,
+        41.89999999999976,
+        44.199999999999626
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        14,
+        24,
+        5,
+        16
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 15939,
+      "finish_times": [
+        42.299999999999734,
+        41.1999999999998,
+        41.89999999999976,
+        43.499999999999666
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        18,
+        13,
+        14,
+        19
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 23858,
+      "finish_times": [
+        44.14999999999963,
+        44.24999999999962,
+        42.74999999999971,
+        44.749999999999595
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        21,
+        33,
+        17,
+        28
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 31777,
+      "finish_times": [
+        42.54999999999972,
+        42.34999999999973,
+        43.39999999999967,
+        43.79999999999965
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        19,
+        11,
+        20,
+        17
+      ]
+    },
+    {
+      "level": "normal",
+      "seed": 39696,
+      "finish_times": [
+        44.34999999999962,
+        42.799999999999706,
+        43.74999999999965,
+        44.14999999999963
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        26,
+        12,
+        27,
+        29
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 101,
+      "finish_times": [
+        40.84999999999982,
+        43.19999999999968,
+        42.34999999999973,
+        42.19999999999974
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        7,
+        40,
+        45,
+        28
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 8020,
+      "finish_times": [
+        40.94999999999981,
+        42.8499999999997,
+        40.39999999999984,
+        41.84999999999976
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        24,
+        33,
+        29,
+        25
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 15939,
+      "finish_times": [
+        41.949999999999754,
+        42.74999999999971,
+        43.64999999999966,
+        43.44999999999967
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        23,
+        46,
+        45,
+        45
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 23858,
+      "finish_times": [
+        44.24999999999962,
+        43.39999999999967,
+        44.09999999999963,
+        42.54999999999972
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        49,
+        36,
+        45,
+        50
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 31777,
+      "finish_times": [
+        40.199999999999854,
+        42.54999999999972,
+        40.899999999999814,
+        41.69999999999977
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        6,
+        34,
+        20,
+        33
+      ]
+    },
+    {
+      "level": "hard",
+      "seed": 39696,
+      "finish_times": [
+        41.249999999999794,
+        40.99999999999981,
+        41.79999999999976,
+        41.84999999999976
+      ],
+      "max_stall": 0,
+      "overtake_plans": [
+        33,
+        13,
+        36,
+        43
+      ]
+    }
+  ],
+  "track": {
+    "length": 836.7049857258274,
+    "max_height": 2.9999696308280335,
+    "max_abs_grade": 0.05628191700984109,
+    "minimum_nonadjacent_centerline_distance": 20.88193193746077,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.71
+    ],
+    "gaps": []
+  }
+}

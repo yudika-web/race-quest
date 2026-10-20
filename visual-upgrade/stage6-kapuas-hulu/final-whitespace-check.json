@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "change": "Removed two trailing spaces on one otherwise blank line in the new visual script; no executable statement, metadata or asset change.",
+  "byte_difference": -2,
+  "prior_test_candidate_sha256": "b98025421fe1ed33c80f19337d6efa8a0d91d98420e70e829a69b00c55f791ef",
+  "release_sha256": "af4ecb19d95c5a16562952e030958702b8d4ef042c9fbe1a1fcd984d9edb4722"
+}

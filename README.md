@@ -1,4 +1,16 @@
-# BlokRaya — Stage 5 Sintang: Kelam Mountain Run (6B)
+# BlokRaya — Stage 6 Kapuas Hulu: Sentarum Lake Circuit (6C)
+
+Arena danau sudah playable: jalur wisata fiktif **836,70 m**, jalan/boardwalk bertiang, pondok pengamatan, dermaga, kano dan hutan rawa blocky. Enam arena tersedia; Stage 7–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu empat arena lain.
+
+- [ZIP playable terbaru](blokraya-stage6-kapuas-hulu-playable.zip) — ekstrak lalu buka `blokraya-stage6-kapuas-hulu.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage6-kapuas-hulu.html) · [ZIP review: sumber, screenshot dan laporan](blokraya-stage6-kapuas-hulu-review.zip).
+- [Danau/pondok](visual-upgrade/stage6-kapuas-hulu/screenshots/sentarum-lake.png) · [Dermaga](visual-upgrade/stage6-kapuas-hulu/screenshots/timber-jetty.png) · [Gameplay](visual-upgrade/stage6-kapuas-hulu/screenshots/gameplay.png).
+- HP [portrait](visual-upgrade/stage6-kapuas-hulu/screenshots/race-390x844.png), [landscape](visual-upgrade/stage6-kapuas-hulu/screenshots/race-844x390.png) · menu [sebelum](visual-upgrade/stage6-kapuas-hulu/screenshots/before-menu.png) / [sesudah](visual-upgrade/stage6-kapuas-hulu/screenshots/after-menu.png).
+- [Build, metrik, pengujian dan batas representasi](visual-upgrade/stage6-kapuas-hulu/README.md).
+
+HTML **24.603.486 byte**, naik **53.983 byte** dari Sintang, tetap di bawah 25 MB desimal. Uji 18 balapan referensi, 18 completion AI, 108 sampel renderer, item, kuis/PIN/progres/replay serta ekspor offline lolos. Render 14 pasangan dan lima world lama tetap identik. Lanskap adalah interpretasi stylized; akurasi geografis/ekologis belum diverifikasi. HP fisik/FPS belum diuji dan navigasi `file://` diblokir browser cloud. Tidak merge, mengubah `index.html`, deployment atau mengerjakan 6D.
+
+# Tahap sebelumnya — Stage 5 Sintang: Kelam Mountain Run (6B)
 
 Sintang sudah playable: lintasan 905,66 m dengan naik-turun hingga 8 m, hutan tropis blocky, monolit granit terinspirasi Bukit Kelam dan rumah panjang terinspirasi Rumah Betang Ensaid Panjang. Lima arena tersedia; Stage 6–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara masih menunggu lima world lainnya.
 

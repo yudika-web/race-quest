@@ -1,0 +1,29 @@
+{
+  "stage": "kapuas_hulu",
+  "baseline": "2055c4d7b441d67b06b485e70b8f960af658152b",
+  "baseline_available": false,
+  "release_available": true,
+  "required_reports": {
+    "physics-tests": "passed",
+    "item-tests": "passed",
+    "surface-tests": "passed",
+    "world-tests": "passed",
+    "browser-tests": "passed",
+    "offline-tests": "passed",
+    "unchanged-renders": "passed",
+    "scope-tests": "passed",
+    "comparison-report": "passed"
+  },
+  "candidate_release_bytes_identical": true,
+  "other_stage_metadata_identical": true,
+  "other_new_stages_activated": [],
+  "available_count": 6,
+  "unavailable_ids": [
+    "bengkayang",
+    "yogyakarta",
+    "bali",
+    "bromo"
+  ],
+  "nusantara_available": false,
+  "geographic_accuracy_verified": false
+}
