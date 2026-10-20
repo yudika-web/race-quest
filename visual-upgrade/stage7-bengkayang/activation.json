@@ -1,0 +1,29 @@
+{
+  "stage": "bengkayang",
+  "baseline": "d95fb920c781b408f04b95ee479c616cb58c4f4b",
+  "baseline_available": false,
+  "release_available": true,
+  "required_reports": {
+    "physics-tests": "passed",
+    "item-tests": "passed",
+    "surface-tests": "passed",
+    "world-tests": "passed",
+    "browser-tests": "passed",
+    "offline-tests": "passed",
+    "unchanged-renders": "passed",
+    "scope-tests": "passed",
+    "comparison-report": "passed",
+    "release-smoke": "passed"
+  },
+  "candidate_release_bytes_identical": true,
+  "other_stage_metadata_identical": true,
+  "other_new_stages_activated": [],
+  "available_count": 7,
+  "unavailable_ids": [
+    "yogyakarta",
+    "bali",
+    "bromo"
+  ],
+  "nusantara_available": false,
+  "landmark_accuracy_verified": false
+}

@@ -1,0 +1,190 @@
+{
+  "baseline": "d95fb920c781b408f04b95ee479c616cb58c4f4b",
+  "baseline_bytes": 24603486,
+  "html_bytes": 24658272,
+  "growth_bytes": 54786,
+  "html_sha256": "b984187e5da3b54dba9ae444f5fc3aa80ea0b6c37571d0f4398f37e198ccf181",
+  "remaining_to_25M": 341728,
+  "track": {
+    "length": 801.0373516327412,
+    "max_height": 5.199685542597427,
+    "max_abs_grade": 0.1019140140392325,
+    "minimum_nonadjacent_centerline_distance": 21.32882339461207,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.74
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 60586,
+    "colour_draw_calls": 14,
+    "shadow_draw_calls": 8,
+    "textures": 1,
+    "terrain_triangles": 18432,
+    "static_visuals": true,
+    "landmark_accuracy_verified": false,
+    "waterfall_height": 26,
+    "river_waterline": -1.05,
+    "bridge_segments": 91,
+    "minimum_structure_vertex_clearance": 7.573113629286587
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "bengkayang-landmark.webp": 6982,
+    "bengkayang-race.webp": 23482
+  },
+  "growth_components_bytes": [
+    13851,
+    40935
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 94,
+        "max": 204
+      },
+      "depth_draws": {
+        "min": 18,
+        "max": 62
+      },
+      "colour_triangles": {
+        "min": 116669,
+        "max": 165623
+      },
+      "depth_triangles": {
+        "min": 85305,
+        "max": 134689
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 86,
+        "max": 200
+      },
+      "depth_draws": {
+        "min": 18,
+        "max": 62
+      },
+      "colour_triangles": {
+        "min": 116059,
+        "max": 165623
+      },
+      "depth_triangles": {
+        "min": 85305,
+        "max": 134689
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 80,
+        "max": 191
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 97486,
+        "max": 121376
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 53.99791666666574,
+      "max_stall_seconds": 0,
+      "overtake_plans": 76
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 41.664583333333105,
+      "max_stall_seconds": 0,
+      "overtake_plans": 347
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 39.81458333333321,
+      "max_stall_seconds": 0,
+      "overtake_plans": 752
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "under_25_decimal_MB": true,
+  "reports": {
+    "physics-tests": 7,
+    "item-tests": 11,
+    "surface-tests": 0,
+    "world-tests": 7,
+    "browser-tests": 27,
+    "offline-tests": 28,
+    "unchanged-renders": 22,
+    "scope-tests": 0,
+    "comparison-report": 0,
+    "release-smoke": 0
+  },
+  "teacher_export_bytes": 24693683,
+  "offline_asset_HTTP_requests": 0,
+  "direct_file_note": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-stage7-bengkayang.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/blokraya-stage7-bengkayang.html\", waiting until \"load\"\u001b[22m\n",
+  "release_status": "Ready for visual review; reference accuracy and direct file navigation have documented limitations.",
+  "playable_zip": {
+    "file": "blokraya-stage7-bengkayang-playable.zip",
+    "bytes": 12843161,
+    "sha256": "82d13653b479a88c31c860558f2ff3c9c1e11709ea1cb3e7dfe41936e75d5078",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-stage7-bengkayang-review.zip",
+    "bytes": 21499073,
+    "sha256": "8fbfb304bdde53b1e972cb61f9324d37b1b3519a738e8d23caef1d2738dfe330",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 68
+  }
+}

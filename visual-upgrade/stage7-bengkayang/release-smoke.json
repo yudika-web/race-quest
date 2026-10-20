@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "bengkayang",
+    "ready": 7,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "b984187e5da3b54dba9ae444f5fc3aa80ea0b6c37571d0f4398f37e198ccf181"
+}

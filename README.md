@@ -1,4 +1,16 @@
-# BlokRaya — Stage 6 Kapuas Hulu: Sentarum Lake Circuit (6C)
+# BlokRaya — Stage 7 Bengkayang: Waterfall Adventure (6D)
+
+Bengkayang sudah playable: lintasan fiktif **801,04 m**, air terjun lebar terinspirasi Riam Merasap, kolam/sungai berbatu, dua jembatan, dek pandang dan hutan blocky. Tujuh arena tersedia; Yogyakarta, Bali dan Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu tiga world terakhir.
+
+- [ZIP playable terbaru](blokraya-stage7-bengkayang-playable.zip) — ekstrak lalu buka `blokraya-stage7-bengkayang.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage7-bengkayang.html) · [ZIP review: sumber, screenshot dan laporan](blokraya-stage7-bengkayang-review.zip).
+- [Air terjun](visual-upgrade/stage7-bengkayang/screenshots/riam-merasap.png) · [Jembatan](visual-upgrade/stage7-bengkayang/screenshots/river-bridge.png) · [Gameplay menuju landmark](visual-upgrade/stage7-bengkayang/screenshots/waterfall-approach.png).
+- HP [portrait](visual-upgrade/stage7-bengkayang/screenshots/race-390x844.png), [landscape](visual-upgrade/stage7-bengkayang/screenshots/race-844x390.png) · menu [sebelum](visual-upgrade/stage7-bengkayang/screenshots/before-menu.png) / [sesudah](visual-upgrade/stage7-bengkayang/screenshots/after-menu.png).
+- [Build, metrik, hasil uji dan batas representasi](visual-upgrade/stage7-bengkayang/README.md).
+
+HTML **24.658.272 byte**, bertambah **54.786 byte**, tetap di bawah 25 MB desimal. Uji 18 balapan referensi, 18 completion AI, 108 sampel renderer, kuis/PIN/buff/progres/replay dan ekspor offline lolos. Render 14 pasangan dan enam world sebelumnya tetap identik. Landmark merupakan interpretasi stylized; referensi web ditolak 403 dan akurasi geografis belum diverifikasi. HP fisik/FPS belum diuji; `file://` diblokir browser cloud. Tidak merge, mengubah `index.html`, deployment atau mengerjakan 6E.
+
+# Tahap sebelumnya — Stage 6 Kapuas Hulu: Sentarum Lake Circuit (6C)
 
 Arena danau sudah playable: jalur wisata fiktif **836,70 m**, jalan/boardwalk bertiang, pondok pengamatan, dermaga, kano dan hutan rawa blocky. Enam arena tersedia; Stage 7–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu empat arena lain.
 

@@ -1,0 +1,2522 @@
+{
+  "status": "passed",
+  "checks": [
+    "Broad waterfall, plunge pool and forest overlook built",
+    "Structural scenery stays outside driving/collision envelope",
+    "Located props have safe footprint clearance",
+    "108 actual renderer samples: 12 route positions × 3 quality × 3 weather, no WebGL errors",
+    "Owned GPU buffers/textures freed on all old-stage transitions and stable rebuild counts",
+    "Existing gradient/cloud system retained without sky textures",
+    "No JavaScript errors during renderer and cleanup checks"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 203,
+      "depth_draws": 28,
+      "colour_triangles": 140521,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 139319,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116923,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 96,
+      "depth_draws": 18,
+      "colour_triangles": 116937,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 18,
+      "colour_triangles": 117409,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116669,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116939,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 18,
+      "colour_triangles": 116953,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 18,
+      "colour_triangles": 139345,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 19,
+      "colour_triangles": 140531,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 203,
+      "depth_draws": 28,
+      "colour_triangles": 140521,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 139319,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116923,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 96,
+      "depth_draws": 18,
+      "colour_triangles": 116937,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 18,
+      "colour_triangles": 117409,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116669,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116939,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 18,
+      "colour_triangles": 116953,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 18,
+      "colour_triangles": 139345,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 19,
+      "colour_triangles": 140531,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 203,
+      "depth_draws": 28,
+      "colour_triangles": 140521,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 139319,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116923,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 96,
+      "depth_draws": 18,
+      "colour_triangles": 116937,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 18,
+      "colour_triangles": 117409,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116669,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 18,
+      "colour_triangles": 116939,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 100,
+      "depth_draws": 18,
+      "colour_triangles": 116953,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 18,
+      "colour_triangles": 139345,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 204,
+      "depth_draws": 19,
+      "colour_triangles": 140531,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 198,
+      "depth_draws": 28,
+      "colour_triangles": 140085,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 18,
+      "colour_triangles": 138883,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 18,
+      "colour_triangles": 116059,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 92,
+      "depth_draws": 18,
+      "colour_triangles": 116505,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 89,
+      "depth_draws": 18,
+      "colour_triangles": 116217,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116507,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 18,
+      "colour_triangles": 116075,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 138913,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 19,
+      "colour_triangles": 140099,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 198,
+      "depth_draws": 28,
+      "colour_triangles": 140085,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 18,
+      "colour_triangles": 138883,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 18,
+      "colour_triangles": 116059,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 92,
+      "depth_draws": 18,
+      "colour_triangles": 116505,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 89,
+      "depth_draws": 18,
+      "colour_triangles": 116217,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116507,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 18,
+      "colour_triangles": 116075,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 138913,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 19,
+      "colour_triangles": 140099,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 62,
+      "colour_triangles": 165623,
+      "depth_triangles": 134689
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 198,
+      "depth_draws": 28,
+      "colour_triangles": 140085,
+      "depth_triangles": 91839
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 18,
+      "colour_triangles": 138883,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 18,
+      "colour_triangles": 116059,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 92,
+      "depth_draws": 18,
+      "colour_triangles": 116505,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 18,
+      "colour_triangles": 116977,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 89,
+      "depth_draws": 18,
+      "colour_triangles": 116217,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 18,
+      "colour_triangles": 116507,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 18,
+      "colour_triangles": 116075,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 196,
+      "depth_draws": 18,
+      "colour_triangles": 138913,
+      "depth_triangles": 85305
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 200,
+      "depth_draws": 19,
+      "colour_triangles": 140099,
+      "depth_triangles": 86781
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 182,
+      "depth_draws": 0,
+      "colour_triangles": 120162,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 98202,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 82,
+      "depth_draws": 0,
+      "colour_triangles": 97770,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 80,
+      "depth_draws": 0,
+      "colour_triangles": 97486,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 97786,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 0,
+      "colour_triangles": 98218,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 185,
+      "depth_draws": 0,
+      "colour_triangles": 120180,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 191,
+      "depth_draws": 0,
+      "colour_triangles": 121376,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 182,
+      "depth_draws": 0,
+      "colour_triangles": 120162,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 98202,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 82,
+      "depth_draws": 0,
+      "colour_triangles": 97770,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 80,
+      "depth_draws": 0,
+      "colour_triangles": 97486,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 97786,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 0,
+      "colour_triangles": 98218,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 185,
+      "depth_draws": 0,
+      "colour_triangles": 120180,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 191,
+      "depth_draws": 0,
+      "colour_triangles": 121376,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 190,
+      "depth_draws": 0,
+      "colour_triangles": 121364,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 182,
+      "depth_draws": 0,
+      "colour_triangles": 120162,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 98202,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 82,
+      "depth_draws": 0,
+      "colour_triangles": 97770,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 98256,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 80,
+      "depth_draws": 0,
+      "colour_triangles": 97486,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 86,
+      "depth_draws": 0,
+      "colour_triangles": 97786,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 90,
+      "depth_draws": 0,
+      "colour_triangles": 98218,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 185,
+      "depth_draws": 0,
+      "colour_triangles": 120180,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 191,
+      "depth_draws": 0,
+      "colour_triangles": 121376,
+      "depth_triangles": 0
+    }
+  ],
+  "stats": {
+    "landmarks": [
+      {
+        "x": 45,
+        "z": 142,
+        "y": -0.5,
+        "yaw": 0,
+        "radius": 42,
+        "type": "riam-merasap-inspired-cascade"
+      },
+      {
+        "x": -12,
+        "z": 106,
+        "yaw": 3.141592653589793,
+        "y": -0.5,
+        "radius": 7.2,
+        "type": "forest-overlook"
+      }
+    ],
+    "objects": [
+      {
+        "x": 45,
+        "z": 142,
+        "y": -0.5,
+        "yaw": 0,
+        "radius": 42,
+        "type": "riam-merasap-inspired-cascade",
+        "clearance": 80.3277142395711
+      },
+      {
+        "x": -12,
+        "z": 106,
+        "yaw": 3.141592653589793,
+        "y": -0.5,
+        "radius": 7.2,
+        "type": "forest-overlook",
+        "clearance": 26.866897943619982
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 1.3317085277818426,
+        "z": -96.6596696195411,
+        "radius": 2.7,
+        "clearance": 15.009730743862082
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -19.554877520607832,
+        "z": -123.62829118440075,
+        "radius": 2.7,
+        "clearance": 17.500844354808212
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -13.598932036853121,
+        "z": -85.2798765401849,
+        "radius": 2.7,
+        "clearance": 20.001372807926835
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -43.307095932185376,
+        "z": -117.35044137905992,
+        "radius": 2.7,
+        "clearance": 22.49956824789558
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -30.58696982969025,
+        "z": -80.5586691768052,
+        "radius": 2.7,
+        "clearance": 15.00044055004223
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -59.79549996751281,
+        "z": -98.08723182694266,
+        "radius": 2.7,
+        "clearance": 17.51072913033494
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -39.41577433138154,
+        "z": -65.02459206647323,
+        "radius": 2.7,
+        "clearance": 20.004482867129962
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -78.99277333773128,
+        "z": -83.57514081226712,
+        "radius": 2.7,
+        "clearance": 22.505868818410814
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -54.37825784415945,
+        "z": -53.416956428871075,
+        "radius": 2.7,
+        "clearance": 15.021952456570979
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -87.45345392206221,
+        "z": -61.69131394767102,
+        "radius": 2.7,
+        "clearance": 17.50355875720063
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -59.217409732262105,
+        "z": -35.033209792776724,
+        "radius": 2.7,
+        "clearance": 20.00312097574894
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -102.2398136633016,
+        "z": -42.83407544173868,
+        "radius": 2.7,
+        "clearance": 22.50540737308275
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -70.46535662121768,
+        "z": -20.32379061128448,
+        "radius": 2.7,
+        "clearance": 15.013001584016088
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -104.53209612945378,
+        "z": -19.147714312891903,
+        "radius": 2.7,
+        "clearance": 17.507274306117367
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -70.02188648753022,
+        "z": -1.319649525500898,
+        "radius": 2.7,
+        "clearance": 20.010077656187438
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -113.56857351218576,
+        "z": 2.6443303414917025,
+        "radius": 2.7,
+        "clearance": 22.505409054658035
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -77.02570016289543,
+        "z": 16.017342682605253,
+        "radius": 2.7,
+        "clearance": 15.014707354458663
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -109.37613349396594,
+        "z": 26.76976954426695,
+        "radius": 2.7,
+        "clearance": 17.50476696279763
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -71.04551547499813,
+        "z": 32.6619149188624,
+        "radius": 2.7,
+        "clearance": 20.001841604295592
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -110.04207702463985,
+        "z": 52.381704240068366,
+        "radius": 2.7,
+        "clearance": 22.499538330682018
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -71.29153719775518,
+        "z": 49.041068439463245,
+        "radius": 2.7,
+        "clearance": 15.003461260754706
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -93.64955506703437,
+        "z": 74.66040674190259,
+        "radius": 2.7,
+        "clearance": 17.500479580141985
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -58.77567408028585,
+        "z": 57.84001928882108,
+        "radius": 2.7,
+        "clearance": 20.000240197180087
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -77.86772104405263,
+        "z": 97.08937046860137,
+        "radius": 2.7,
+        "clearance": 22.500914754314767
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -50.322951929663894,
+        "z": 69.75767938576149,
+        "radius": 2.7,
+        "clearance": 15.0002904435842
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -46.52781933718447,
+        "z": 103.31980997411327,
+        "radius": 2.7,
+        "clearance": 17.506641117115773
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -39.85866013016359,
+        "z": 65.18577911624295,
+        "radius": 2.7,
+        "clearance": 20.006744617599246
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -30.46155303449688,
+        "z": 106.64051220429116,
+        "radius": 2.7,
+        "clearance": 22.499629146790824
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -20.3606157674467,
+        "z": 64.78437196990956,
+        "radius": 2.7,
+        "clearance": 15.000910161494625
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -0.2990385362852246,
+        "z": 92.62398028884546,
+        "radius": 2.7,
+        "clearance": 17.499684255246702
+      },
+      {
+        "type": "rainforest-tree",
+        "x": -4.78322892855058,
+        "z": 53.96204244096181,
+        "radius": 2.7,
+        "clearance": 20.000481977994433
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 21.20994460600309,
+        "z": 89.01992327448292,
+        "radius": 2.7,
+        "clearance": 22.50055560710888
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 18.1028041915867,
+        "z": 50.34782299450747,
+        "radius": 2.7,
+        "clearance": 15.00361757578485
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 34.81633309823726,
+        "z": 79.97948336825448,
+        "radius": 2.7,
+        "clearance": 17.508685747535672
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 40.93356451450612,
+        "z": 41.57008299436034,
+        "radius": 2.7,
+        "clearance": 20.00310669275502
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 53.084931938553495,
+        "z": 83.50842821205597,
+        "radius": 2.7,
+        "clearance": 22.502925298415132
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 64.24029490054069,
+        "z": 46.37103388294153,
+        "radius": 2.7,
+        "clearance": 15.00143101737316
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 69.96010369005594,
+        "z": 79.85066097315394,
+        "radius": 2.7,
+        "clearance": 17.502079534570164
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 91.02236751968906,
+        "z": 47.094793903770665,
+        "radius": 2.7,
+        "clearance": 19.99941270887467
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 79.71342864685006,
+        "z": 89.25738780428767,
+        "radius": 2.7,
+        "clearance": 22.508319006609714
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 109.34822843292913,
+        "z": 64.31663159439668,
+        "radius": 2.7,
+        "clearance": 15.000476688597105
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 99.10037935924134,
+        "z": 96.9273142945282,
+        "radius": 2.7,
+        "clearance": 17.5056793449819
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 125.3414651968297,
+        "z": 68.8423610045975,
+        "radius": 2.7,
+        "clearance": 20.008200995377223
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 128.2492956660055,
+        "z": 111.62856026684977,
+        "radius": 2.7,
+        "clearance": 22.506353421841478
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 133.84112557355218,
+        "z": 73.12880642324716,
+        "radius": 2.7,
+        "clearance": 15.010449803790582
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 155.46237673581072,
+        "z": 99.32711231710569,
+        "radius": 2.7,
+        "clearance": 17.51114820269977
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 143.9304410747684,
+        "z": 62.40776449124843,
+        "radius": 2.7,
+        "clearance": 20.006691269509474
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 180.47337211000195,
+        "z": 86.2135321045028,
+        "radius": 2.7,
+        "clearance": 22.508515173086273
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 157.0398022091161,
+        "z": 55.06821863396827,
+        "radius": 2.7,
+        "clearance": 15.002641965170294
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 190.50681587938317,
+        "z": 61.39008904309301,
+        "radius": 2.7,
+        "clearance": 17.499542294396417
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 159.22133195535858,
+        "z": 38.54198169437364,
+        "radius": 2.7,
+        "clearance": 20.002265366668013
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 202.8781489715602,
+        "z": 37.47473321383419,
+        "radius": 2.7,
+        "clearance": 22.499284110600435
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 165.88575536576565,
+        "z": 25.62058084724168,
+        "radius": 2.7,
+        "clearance": 15.002838565469327
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 195.8902066186052,
+        "z": 9.6799492361566,
+        "radius": 2.7,
+        "clearance": 17.49958142219351
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 157.13777311589155,
+        "z": 11.656917282939812,
+        "radius": 2.7,
+        "clearance": 20.00272839198822
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 191.5458022502864,
+        "z": -15.276442142846712,
+        "radius": 2.7,
+        "clearance": 22.502394928652095
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 153.87311779695014,
+        "z": -5.513970065792,
+        "radius": 2.7,
+        "clearance": 15.017092284381784
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 172.7651895258786,
+        "z": -33.95845777013053,
+        "radius": 2.7,
+        "clearance": 17.5134316123142
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 143.15637556589874,
+        "z": -9.715195916283623,
+        "radius": 2.7,
+        "clearance": 20.005925871076574
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 148.44899161022227,
+        "z": -52.87174470572573,
+        "radius": 2.7,
+        "clearance": 22.50534833181237
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 127.79184571152713,
+        "z": -19.791009418145194,
+        "radius": 2.7,
+        "clearance": 15.013375215930802
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 130.87783681325567,
+        "z": -53.31541479676094,
+        "radius": 2.7,
+        "clearance": 17.51298192787165
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 98.5110859690518,
+        "z": -32.97210061258359,
+        "radius": 2.7,
+        "clearance": 19.997108091785744
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 132.59903425019618,
+        "z": -59.5711015539927,
+        "radius": 2.7,
+        "clearance": 22.507195947238916
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 94.0933261620717,
+        "z": -61.733899146612714,
+        "radius": 2.7,
+        "clearance": 15.012715392495208
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 124.620911497839,
+        "z": -77.16087148096733,
+        "radius": 2.7,
+        "clearance": 17.499627527885824
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 86.12047017829337,
+        "z": -76.88871286628545,
+        "radius": 2.7,
+        "clearance": 20.00958849453187
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 116.82293599005675,
+        "z": -107.20683670566655,
+        "radius": 2.7,
+        "clearance": 22.49970297559814
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 82.33720409258287,
+        "z": -89.06762779783905,
+        "radius": 2.7,
+        "clearance": 15.017159418157307
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 94.76868603045726,
+        "z": -120.78951036620667,
+        "radius": 2.7,
+        "clearance": 17.49958515402367
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 65.99872689890564,
+        "z": -94.78622097990248,
+        "radius": 2.7,
+        "clearance": 20.002674394893145
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 75.14805509752722,
+        "z": -137.5121010969379,
+        "radius": 2.7,
+        "clearance": 22.51032782507996
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 53.57078946728065,
+        "z": -105.17782439104207,
+        "radius": 2.7,
+        "clearance": 15.00077028000019
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 47.10202978674615,
+        "z": -138.49687221091818,
+        "radius": 2.7,
+        "clearance": 17.5066406730163
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 38.538186688670265,
+        "z": -100.64630908505421,
+        "radius": 2.7,
+        "clearance": 20.002917774847884
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 22.012074807383566,
+        "z": -141.08018882910548,
+        "radius": 2.7,
+        "clearance": 22.50110890865707
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 19.984834619815494,
+        "z": -102.18994276146938,
+        "radius": 2.7,
+        "clearance": 15.008151310113877
+      },
+      {
+        "type": "rainforest-tree",
+        "x": 1.3718246769918618,
+        "z": -130.7355678619366,
+        "radius": 2.7,
+        "clearance": 17.50227537598296
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -28.686337268770608,
+        "z": -142.04909933124873,
+        "radius": 3.4,
+        "clearance": 37.99975332878354
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -7.432962433815145,
+        "z": -57.80477251838737,
+        "radius": 3.4,
+        "clearance": 47.00388440302726
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -89.29376019163092,
+        "z": -123.03341205017051,
+        "radius": 3.4,
+        "clearance": 55.99934910148834
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -10.050802081004193,
+        "z": -29.63774805308516,
+        "radius": 3.4,
+        "clearance": 65.00382497693569
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -107.30427929683859,
+        "z": -68.21988875803933,
+        "radius": 3.4,
+        "clearance": 38.00069778131048
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -38.58952528756802,
+        "z": -14.705060324274257,
+        "radius": 3.4,
+        "clearance": 47.004055834050995
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -143.287760668695,
+        "z": -22.454971903446292,
+        "radius": 3.4,
+        "clearance": 55.99983886270111
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -26.919767918257733,
+        "z": 15.43972282367119,
+        "radius": 3.4,
+        "clearance": 64.11294016164554
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -129.16685114216833,
+        "z": 35.72389413848339,
+        "radius": 3.4,
+        "clearance": 38.000506352673426
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -42.80647400482491,
+        "z": 34.358471568262864,
+        "radius": 3.4,
+        "clearance": 47.00166142333572
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -116.7114221957002,
+        "z": 107.19016483541479,
+        "radius": 3.4,
+        "clearance": 55.999098353720996
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -29.69380473039223,
+        "z": 24.24315988669874,
+        "radius": 3.4,
+        "clearance": 56.53606071648497
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -32.09726829310891,
+        "z": 122.7248502566504,
+        "radius": 3.4,
+        "clearance": 38.0003229705001
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -31.64042317090787,
+        "z": 34.76296159905341,
+        "radius": 3.4,
+        "clearance": 47.00146035899705
+      },
+      {
+        "type": "forest-backdrop",
+        "x": -0.7776311448338014,
+        "z": 133.03515853456142,
+        "radius": 3.4,
+        "clearance": 56.00057285173952
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 2.4817802488850056,
+        "z": 2.8315613423695822,
+        "radius": 3.4,
+        "clearance": 64.99943410715672
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 67.03131915493631,
+        "z": 14.490291861235647,
+        "radius": 3.4,
+        "clearance": 46.99968949963762
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 140.01501212950973,
+        "z": 24.804947553091814,
+        "radius": 3.4,
+        "clearance": 40.38547052422052
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 107.49590850542705,
+        "z": 124.05443482016787,
+        "radius": 3.4,
+        "clearance": 37.99704948879553
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 125.1613378294669,
+        "z": 42.326768152659504,
+        "radius": 3.4,
+        "clearance": 42.08565258938969
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 194.73288598505007,
+        "z": 119.03148103029157,
+        "radius": 3.4,
+        "clearance": 56.0004103458127
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 115.01654300333108,
+        "z": 27.941233900839435,
+        "radius": 3.4,
+        "clearance": 48.18654760645273
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 216.2958954934454,
+        "z": 49.6883451585996,
+        "radius": 3.4,
+        "clearance": 38.00476890440141
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 133.92222372607915,
+        "z": 27.917796357473733,
+        "radius": 3.4,
+        "clearance": 47.00335927224805
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 224.83425620733271,
+        "z": -23.34934288568762,
+        "radius": 3.4,
+        "clearance": 55.999168036911094
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 111.93206136836291,
+        "z": 21.737311034200367,
+        "radius": 3.4,
+        "clearance": 52.00239691178691
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 158.14999963083358,
+        "z": -66.06615715886142,
+        "radius": 3.4,
+        "clearance": 37.99951006371272
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 107.74000634727442,
+        "z": 7.010359254548291,
+        "radius": 3.4,
+        "clearance": 46.999739081913425
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 164.6950035983731,
+        "z": -69.0691105548961,
+        "radius": 3.4,
+        "clearance": 43.06499536273263
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 43.614478226125115,
+        "z": -61.401741587130786,
+        "radius": 3.4,
+        "clearance": 59.55264879633207
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 130.84004633452508,
+        "z": -114.51903763022214,
+        "radius": 3.4,
+        "clearance": 38.00091089860785
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 57.449855877535185,
+        "z": -68.17158740350717,
+        "radius": 3.4,
+        "clearance": 47.000840118046675
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 89.20716359186521,
+        "z": -167.94984447912924,
+        "radius": 3.4,
+        "clearance": 55.99890759155996
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 45.14027256293593,
+        "z": -56.0198352901257,
+        "radius": 3.4,
+        "clearance": 63.993379546003844
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 18.77873994974856,
+        "z": -156.24287431945817,
+        "radius": 3.4,
+        "clearance": 37.9996351700203
+      },
+      {
+        "type": "forest-backdrop",
+        "x": 19.189324402721923,
+        "z": -68.7407298990828,
+        "radius": 3.4,
+        "clearance": 47.00281805603391
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 8.155012917886449,
+        "z": -46.885206921389376,
+        "radius": 10,
+        "clearance": 64.00396258437641
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -92.6933339642564,
+        "z": -151.20507378150015,
+        "radius": 10,
+        "clearance": 78.99899316593174
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 14.048349400916194,
+        "z": -13.465434666782642,
+        "radius": 10,
+        "clearance": 78.0715936453449
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -173.64560570849468,
+        "z": -94.62206821841238,
+        "radius": 10,
+        "clearance": 108.99955168726403
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -24.82657047583239,
+        "z": -1.8625680603734693,
+        "radius": 10,
+        "clearance": 64.00109773692327
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -170.36310099881888,
+        "z": 2.7887326416698963,
+        "radius": 10,
+        "clearance": 79.00199025842791
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 1.9300469767622417,
+        "z": 20.395077777822856,
+        "radius": 10,
+        "clearance": 48.496709041746534
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -167.65154368579618,
+        "z": 128.47400806473465,
+        "radius": 10,
+        "clearance": 108.99922924754138
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -30.454306838952412,
+        "z": 24.988106130182523,
+        "radius": 10,
+        "clearance": 56.02732843814471
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -9.508425378352307,
+        "z": 159.65531346733906,
+        "radius": 10,
+        "clearance": 78.9995829214354
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -37.918806499748634,
+        "z": -12.351382032125727,
+        "radius": 10,
+        "clearance": 48.41957473026518
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 50.83489196020743,
+        "z": -2.967301249596403,
+        "radius": 10,
+        "clearance": 63.99982595030084
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 140.96483427095913,
+        "z": -3.380863754536719,
+        "radius": 10,
+        "clearance": 26.613292045575232
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 141.22507235685927,
+        "z": 197.44911680512183,
+        "radius": 10,
+        "clearance": 108.99805925353132
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 117.08836646104803,
+        "z": 27.5457194231941,
+        "radius": 10,
+        "clearance": 49.62638817618064
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 244.98285071686212,
+        "z": 90.03751670620537,
+        "radius": 10,
+        "clearance": 78.9994398931782
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 87.01547662715505,
+        "z": 28.62898680232568,
+        "radius": 10,
+        "clearance": 36.243506549663785
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 273.8350414418063,
+        "z": -43.596818204490354,
+        "radius": 10,
+        "clearance": 108.99961287108238
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 115.94649649222626,
+        "z": 24.345056239576888,
+        "radius": 10,
+        "clearance": 51.75088374494498
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 155.37865534345104,
+        "z": -109.65178476670823,
+        "radius": 10,
+        "clearance": 56.57403777190439
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 21.98100669939778,
+        "z": -22.883321655253834,
+        "radius": 10,
+        "clearance": 86.1517144575849
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 211.56321078373293,
+        "z": -107.52849739444338,
+        "radius": 10,
+        "clearance": 99.1711685168036
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 48.5513299297691,
+        "z": -53.53739908800476,
+        "radius": 10,
+        "clearance": 61.25503940875216
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 93.86344220722498,
+        "z": -190.87093049898687,
+        "radius": 10,
+        "clearance": 78.99916856127203
+      },
+      {
+        "type": "rainforest-grove",
+        "x": 46.34276189365825,
+        "z": -27.05752072165066,
+        "radius": 10,
+        "clearance": 69.58364400337724
+      },
+      {
+        "type": "rainforest-grove",
+        "x": -20.828490297101162,
+        "z": -219.57817895484175,
+        "radius": 10,
+        "clearance": 108.99987339203807
+      },
+      {
+        "type": "forest-fern",
+        "x": -8.215103085642037,
+        "z": -96.49808510167254,
+        "radius": 1.5,
+        "clearance": 11.904018923891204
+      },
+      {
+        "type": "forest-fern",
+        "x": -49.00072203730663,
+        "z": -100.26668228771405,
+        "radius": 1.5,
+        "clearance": 11.908640451170449
+      },
+      {
+        "type": "forest-fern",
+        "x": -54.000066212811106,
+        "z": -59.46581379394332,
+        "radius": 1.5,
+        "clearance": 11.912025549593448
+      },
+      {
+        "type": "forest-fern",
+        "x": -91.10444558449862,
+        "z": -42.036121739515096,
+        "radius": 1.5,
+        "clearance": 11.9274340096186
+      },
+      {
+        "type": "forest-fern",
+        "x": -77.90503892475064,
+        "z": -3.244605967995292,
+        "radius": 1.5,
+        "clearance": 11.90079848634491
+      },
+      {
+        "type": "forest-fern",
+        "x": -103.629009595899,
+        "z": 28.72797237737806,
+        "radius": 1.5,
+        "clearance": 11.900756350734962
+      },
+      {
+        "type": "forest-fern",
+        "x": -72.3950731866464,
+        "z": 53.56358581020165,
+        "radius": 1.5,
+        "clearance": 11.901596353384171
+      },
+      {
+        "type": "forest-fern",
+        "x": -64.13669516768482,
+        "z": 92.99879262164426,
+        "radius": 1.5,
+        "clearance": 11.903820788640411
+      },
+      {
+        "type": "forest-fern",
+        "x": -29.796909371866043,
+        "z": 70.91803793780817,
+        "radius": 1.5,
+        "clearance": 11.90688333100588
+      },
+      {
+        "type": "forest-fern",
+        "x": 9.910961275757195,
+        "z": 82.34864931055452,
+        "radius": 1.5,
+        "clearance": 11.907995384569727
+      },
+      {
+        "type": "forest-fern",
+        "x": 35.58226576067302,
+        "z": 50.2402452724766,
+        "radius": 1.5,
+        "clearance": 11.904862107103904
+      },
+      {
+        "type": "forest-fern",
+        "x": 68.41739543637422,
+        "z": 73.90322860677867,
+        "radius": 1.5,
+        "clearance": 11.90733881947958
+      },
+      {
+        "type": "forest-fern",
+        "x": 107.09256686325928,
+        "z": 66.50588520200577,
+        "radius": 1.5,
+        "clearance": 11.917198263748414
+      },
+      {
+        "type": "forest-fern",
+        "x": 130.77093481534374,
+        "z": 100.90031560205374,
+        "radius": 1.5,
+        "clearance": 11.898979189825594
+      },
+      {
+        "type": "forest-fern",
+        "x": 151.6591315827301,
+        "z": 66.50393017633925,
+        "radius": 1.5,
+        "clearance": 11.900523114939174
+      },
+      {
+        "type": "forest-fern",
+        "x": 188.55649641054922,
+        "z": 51.387345214686,
+        "radius": 1.5,
+        "clearance": 11.900678586058929
+      },
+      {
+        "type": "forest-fern",
+        "x": 167.5625102010479,
+        "z": 17.57337580177909,
+        "radius": 1.5,
+        "clearance": 11.921659337317852
+      },
+      {
+        "type": "forest-fern",
+        "x": 174.91667618180915,
+        "z": -22.391364266950564,
+        "radius": 1.5,
+        "clearance": 11.900173413821271
+      },
+      {
+        "type": "forest-fern",
+        "x": 134.3992546109412,
+        "z": -21.107992877254297,
+        "radius": 1.5,
+        "clearance": 11.908783274572505
+      },
+      {
+        "type": "forest-fern",
+        "x": 122.98270310075203,
+        "z": -54.7552762686013,
+        "radius": 1.5,
+        "clearance": 11.918748356889633
+      },
+      {
+        "type": "forest-fern",
+        "x": 93.8119825823721,
+        "z": -79.44257651358335,
+        "radius": 1.5,
+        "clearance": 11.912553911100487
+      },
+      {
+        "type": "forest-fern",
+        "x": 89.59172935689836,
+        "z": -117.59487139086272,
+        "radius": 1.5,
+        "clearance": 11.901157189388911
+      },
+      {
+        "type": "forest-fern",
+        "x": 50.85342065491248,
+        "z": -108.7940093690641,
+        "radius": 1.5,
+        "clearance": 11.902128599638695
+      },
+      {
+        "type": "forest-fern",
+        "x": 16.493803138115897,
+        "z": -129.03813856378395,
+        "radius": 1.5,
+        "clearance": 11.899979456927626
+      },
+      {
+        "type": "moss-rock",
+        "x": -31.084635227414488,
+        "z": -114.19401687458637,
+        "radius": 1.8,
+        "clearance": 13.700704393866584
+      },
+      {
+        "type": "moss-rock",
+        "x": -47.64603834265624,
+        "z": -64.95112346617258,
+        "radius": 1.8,
+        "clearance": 13.708343679728552
+      },
+      {
+        "type": "moss-rock",
+        "x": -93.71077527440919,
+        "z": -40.460349770983626,
+        "radius": 1.8,
+        "clearance": 13.702156411008353
+      },
+      {
+        "type": "moss-rock",
+        "x": -77.85765465717495,
+        "z": 9.12822795692318,
+        "radius": 1.8,
+        "clearance": 13.70897585976769
+      },
+      {
+        "type": "moss-rock",
+        "x": -99.26468584836284,
+        "z": 56.648653463890014,
+        "radius": 1.8,
+        "clearance": 13.703762113207688
+      },
+      {
+        "type": "moss-rock",
+        "x": -51.32028124526859,
+        "z": 70.7443611603075,
+        "radius": 1.8,
+        "clearance": 13.705124425892452
+      },
+      {
+        "type": "moss-rock",
+        "x": -9.906864448428003,
+        "z": 91.63380353176704,
+        "radius": 1.8,
+        "clearance": 13.701093606122276
+      },
+      {
+        "type": "moss-rock",
+        "x": 25.580273642928095,
+        "z": 49.86470878317701,
+        "radius": 1.8,
+        "clearance": 13.700998690053995
+      },
+      {
+        "type": "moss-rock",
+        "x": 69.97904048594731,
+        "z": 75.98984899048104,
+        "radius": 1.8,
+        "clearance": 13.70763211586324
+      },
+      {
+        "type": "moss-rock",
+        "x": 118.22533108767159,
+        "z": 72.1491028342003,
+        "radius": 1.8,
+        "clearance": 13.700240782513667
+      },
+      {
+        "type": "moss-rock",
+        "x": 160.13369930703158,
+        "z": 92.20892264568283,
+        "radius": 1.8,
+        "clearance": 13.69945431162852
+      },
+      {
+        "type": "moss-rock",
+        "x": 165.0274121268443,
+        "z": 41.068812544656986,
+        "radius": 1.8,
+        "clearance": 13.710031754838862
+      },
+      {
+        "type": "moss-rock",
+        "x": 187.4241093231541,
+        "z": -3.3197762683738437,
+        "radius": 1.8,
+        "clearance": 13.70981694862929
+      },
+      {
+        "type": "moss-rock",
+        "x": 141.71212413930698,
+        "z": -17.04705856428771,
+        "radius": 1.8,
+        "clearance": 13.70378928502272
+      },
+      {
+        "type": "moss-rock",
+        "x": 124.2478552233618,
+        "z": -56.7338348697683,
+        "radius": 1.8,
+        "clearance": 13.702148749842822
+      },
+      {
+        "type": "moss-rock",
+        "x": 87.7198191343382,
+        "z": -85.5125415471109,
+        "radius": 1.8,
+        "clearance": 13.716548141255338
+      },
+      {
+        "type": "moss-rock",
+        "x": 65.01915636928163,
+        "z": -131.80215558790516,
+        "radius": 1.8,
+        "clearance": 13.70263208352135
+      },
+      {
+        "type": "moss-rock",
+        "x": 20.437712032594163,
+        "z": -103.6460194082168,
+        "radius": 1.8,
+        "clearance": 13.706814701745579
+      },
+      {
+        "type": "trail-lamp",
+        "x": -27.182735478828757,
+        "z": -88.62004570921037,
+        "radius": 0.8,
+        "clearance": 10.405386563337801
+      },
+      {
+        "type": "trail-lamp",
+        "x": -90.83379874684988,
+        "z": -38.77357468318503,
+        "radius": 0.8,
+        "clearance": 10.400155388867905
+      },
+      {
+        "type": "trail-lamp",
+        "x": -79.09166509957824,
+        "z": 40.92386311096117,
+        "radius": 0.8,
+        "clearance": 10.400350448008169
+      },
+      {
+        "type": "trail-lamp",
+        "x": -27.51664369775353,
+        "z": 93.46117420289376,
+        "radius": 0.8,
+        "clearance": 10.40032806925799
+      },
+      {
+        "type": "trail-lamp",
+        "x": 45.654622258395726,
+        "z": 50.86069067985795,
+        "radius": 0.8,
+        "clearance": 10.40758562496149
+      },
+      {
+        "type": "trail-lamp",
+        "x": 115.94380023789255,
+        "z": 97.77420770620377,
+        "radius": 0.8,
+        "clearance": 10.412190177777251
+      },
+      {
+        "type": "trail-lamp",
+        "x": 168.28321734362424,
+        "z": 41.72083500781109,
+        "radius": 0.8,
+        "clearance": 10.418178838615445
+      },
+      {
+        "type": "trail-lamp",
+        "x": 158.97441183531225,
+        "z": -35.75296344952679,
+        "radius": 0.8,
+        "clearance": 10.39901494592391
+      },
+      {
+        "type": "trail-lamp",
+        "x": 96.12322610480803,
+        "z": -77.03308893137165,
+        "radius": 0.8,
+        "clearance": 10.416375509864695
+      },
+      {
+        "type": "trail-lamp",
+        "x": 42.68491886393034,
+        "z": -131.3864388846539,
+        "radius": 0.8,
+        "clearance": 10.399564526590707
+      }
+    ],
+    "triangles": 60586,
+    "colour_draw_calls": 14,
+    "shadow_draw_calls": 8,
+    "textures": 1,
+    "terrain_triangles": 18432,
+    "static_visuals": true,
+    "landmark_accuracy_verified": false,
+    "waterfall_height": 26,
+    "river_waterline": -1.05,
+    "bridge_segments": 91,
+    "minimum_structure_vertex_clearance": 7.573113629286587
+  },
+  "cleanup": {
+    "all_bengkayang_buffers_deleted": true,
+    "all_bengkayang_textures_deleted": true,
+    "surface_lookup_released": true,
+    "city_restored": true,
+    "rebuild_same_owned_count": true,
+    "kapuas_buffers_deleted": true,
+    "kapuas_textures_deleted": true,
+    "kapuas_restored": true,
+    "hutan_buffers_deleted": true,
+    "hutan_textures_deleted": true,
+    "hutan_restored": true,
+    "sambas_buffers_deleted": true,
+    "sambas_textures_deleted": true,
+    "sambas_restored": true,
+    "sintang_buffers_deleted": true,
+    "sintang_textures_deleted": true,
+    "sintang_restored": true,
+    "kapuas_hulu_buffers_deleted": true,
+    "kapuas_hulu_textures_deleted": true,
+    "kapuas_hulu_restored": true
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  }
+}
