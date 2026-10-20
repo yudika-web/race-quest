@@ -1,0 +1,419 @@
+{
+  "status": "passed",
+  "checks": [
+    "1366x768 displays ten stage cards",
+    "Seven planned stages disabled",
+    "Only three old stages available",
+    "Original Mempawah internal ID selected",
+    "Actual Mempawah preview selected",
+    "Selected card matches submitted stage",
+    "Nusantara region shows three planned cards",
+    "Browsing planned region does not change selected race",
+    "Kalimantan Barat group includes seven metadata entries",
+    "Dialog remains within responsive viewport",
+    "Region navigation has 44px touch targets",
+    "Stage grid has no horizontal overflow or image/text overlap",
+    "Forced planned-stage selection disables launch",
+    "Submit boundary rejects forced planned stage",
+    "Nusantara cannot launch before all worlds exist",
+    "Runtime form rejects incomplete cup",
+    "Classic GP remains launchable",
+    "Classic GP shows configured round count",
+    "390x844 displays ten stage cards",
+    "Seven planned stages disabled",
+    "Only three old stages available",
+    "Original Mempawah internal ID selected",
+    "Actual Mempawah preview selected",
+    "Selected card matches submitted stage",
+    "Nusantara region shows three planned cards",
+    "Browsing planned region does not change selected race",
+    "Kalimantan Barat group includes seven metadata entries",
+    "Dialog remains within responsive viewport",
+    "Region navigation has 44px touch targets",
+    "Stage grid has no horizontal overflow or image/text overlap",
+    "844x390 displays ten stage cards",
+    "Seven planned stages disabled",
+    "Only three old stages available",
+    "Original Mempawah internal ID selected",
+    "Actual Mempawah preview selected",
+    "Selected card matches submitted stage",
+    "Nusantara region shows three planned cards",
+    "Browsing planned region does not change selected race",
+    "Kalimantan Barat group includes seven metadata entries",
+    "Dialog remains within responsive viewport",
+    "Region navigation has 44px touch targets",
+    "Stage grid has no horizontal overflow or image/text overlap",
+    "768x1024 displays ten stage cards",
+    "Seven planned stages disabled",
+    "Only three old stages available",
+    "Original Mempawah internal ID selected",
+    "Actual Mempawah preview selected",
+    "Selected card matches submitted stage",
+    "Nusantara region shows three planned cards",
+    "Browsing planned region does not change selected race",
+    "Kalimantan Barat group includes seven metadata entries",
+    "Dialog remains within responsive viewport",
+    "Region navigation has 44px touch targets",
+    "Stage grid has no horizontal overflow or image/text overlap",
+    "No JavaScript errors across responsive picker tests"
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "overflow": false,
+      "dialog": {
+        "x": 93,
+        "y": 23.046875,
+        "w": 1180,
+        "h": 721.90625,
+        "right": 1273,
+        "bottom": 744.953125
+      },
+      "footer": {
+        "y": 670.953125,
+        "bottom": 745.953125
+      },
+      "buttons": [
+        {
+          "w": 66.625,
+          "h": 44
+        },
+        {
+          "w": 131.890625,
+          "h": 44
+        },
+        {
+          "w": 89.65625,
+          "h": 44
+        }
+      ],
+      "grid": {
+        "width": 741,
+        "scroll": 741,
+        "cards": [
+          {
+            "w": 176.953125,
+            "h": 257.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 257.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 257.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 257.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 176.953125,
+            "h": 243.78125,
+            "contentSeparated": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "dialog": {
+        "x": 7.796875,
+        "y": 21.09375,
+        "w": 374.390625,
+        "h": 801.796875,
+        "right": 382.1875,
+        "bottom": 822.890625
+      },
+      "footer": {
+        "y": 736.890625,
+        "bottom": 823.890625
+      },
+      "buttons": [
+        {
+          "w": 57.25,
+          "h": 44
+        },
+        {
+          "w": 117.078125,
+          "h": 44
+        },
+        {
+          "w": 78.34375,
+          "h": 44
+        }
+      ],
+      "grid": {
+        "width": 340,
+        "scroll": 340,
+        "cards": [
+          {
+            "w": 163.6875,
+            "h": 244.984375,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.703125,
+            "h": 244.984375,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.6875,
+            "h": 246.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.703125,
+            "h": 246.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.6875,
+            "h": 232.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.703125,
+            "h": 232.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.6875,
+            "h": 232.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.703125,
+            "h": 232.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.6875,
+            "h": 232.390625,
+            "contentSeparated": true
+          },
+          {
+            "w": 163.703125,
+            "h": 232.390625,
+            "contentSeparated": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "overflow": false,
+      "dialog": {
+        "x": 16.875,
+        "y": 11.703125,
+        "w": 810.234375,
+        "h": 366.59375,
+        "right": 827.109375,
+        "bottom": 378.296875
+      },
+      "footer": {
+        "y": 304.296875,
+        "bottom": 379.296875
+      },
+      "buttons": [
+        {
+          "w": 66.625,
+          "h": 44
+        },
+        {
+          "w": 131.890625,
+          "h": 44
+        },
+        {
+          "w": 89.65625,
+          "h": 44
+        }
+      ],
+      "grid": {
+        "width": 493,
+        "scroll": 493,
+        "cards": [
+          {
+            "w": 239.0625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.078125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.0625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.078125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.0625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.078125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.0625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.078125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.0625,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 239.078125,
+            "h": 243.78125,
+            "contentSeparated": true
+          }
+        ]
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "overflow": false,
+      "dialog": {
+        "x": 15.359375,
+        "y": 30.71875,
+        "w": 737.265625,
+        "h": 962.546875,
+        "right": 752.625,
+        "bottom": 993.265625
+      },
+      "footer": {
+        "y": 919.265625,
+        "bottom": 994.265625
+      },
+      "buttons": [
+        {
+          "w": 66.625,
+          "h": 44
+        },
+        {
+          "w": 131.890625,
+          "h": 44
+        },
+        {
+          "w": 89.65625,
+          "h": 44
+        }
+      ],
+      "grid": {
+        "width": 423,
+        "scroll": 423,
+        "cards": [
+          {
+            "w": 204.125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.140625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.140625,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.140625,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.125,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.140625,
+            "h": 240.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.125,
+            "h": 243.78125,
+            "contentSeparated": true
+          },
+          {
+            "w": 204.140625,
+            "h": 243.78125,
+            "contentSeparated": true
+          }
+        ]
+      }
+    }
+  ]
+}

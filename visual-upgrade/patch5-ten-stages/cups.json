@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kalbar-klasik",
+    "displayName": "Grand Prix Kalbar Klasik",
+    "stageIds": [
+      "kampung",
+      "kapuas",
+      "hutan"
+    ]
+  },
+  {
+    "id": "nusantara",
+    "displayName": "Grand Prix Nusantara",
+    "stageIds": [
+      "kampung",
+      "kapuas",
+      "hutan",
+      "sambas",
+      "sintang",
+      "kapuas_hulu",
+      "bengkayang",
+      "yogyakarta",
+      "bali",
+      "bromo"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "baseline": "07af6fb0a7dfab5cb9f77d8ba32ab0cefc69ce99",
+  "html_bytes": 24445403,
+  "baseline_bytes": 24425951,
+  "growth_bytes": 19452,
+  "html_sha256": "25ea9539ca78b6d40b813c4b7444a87fb8d018f913e951625a3412124b997d0d",
+  "remaining_bytes": 554597,
+  "budget_bytes": 25000000,
+  "historical_files_unchanged": 2009,
+  "under_25_decimal_MB": true,
+  "metadata_stages": 10,
+  "playable_stages": [
+    "kampung",
+    "kapuas",
+    "hutan"
+  ],
+  "coming_soon_stages": [
+    "sambas",
+    "sintang",
+    "kapuas_hulu",
+    "bengkayang",
+    "yogyakarta",
+    "bali",
+    "bromo"
+  ],
+  "playable_cups": [
+    "kalbar-klasik"
+  ],
+  "unavailable_cups": [
+    "nusantara"
+  ],
+  "unit_check_groups": 10,
+  "responsive_ui_checks": 55,
+  "grand_prix_browser_checks": 37,
+  "offline_export_checks": 28,
+  "protected_render_cases": 19,
+  "protected_named_script_payloads": 17,
+  "teacher_export_bytes": 24480807,
+  "new_environment_assets": 0,
+  "new_textures": 0,
+  "new_GPU_programs": 0,
+  "new_race_draw_calls": 0,
+  "new_race_triangles": 0,
+  "storage_keys_preserved": true,
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "direct_file_scheme_tested": false,
+  "offline_test_method": "Chromium context offline:true; local document fulfilled by harness on localhost; zero asset HTTP/CDN requests."
+}

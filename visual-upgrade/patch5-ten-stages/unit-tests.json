@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "Ten metadata entries and only three real tracks/builders ready",
+    "Known future IDs reject Track, Session and world dispatch; no renamed fallback",
+    "Nusantara requires every real arena; available flag alone is insufficient",
+    "Coming differs from progress lock, without introducing locks on the classic stages",
+    "Classic points/mastery/retry/champion match baseline including tie breaks",
+    "Ten-round metadata-only sequence completes only after round ten, with mastery retry",
+    "Arbitrary configured order and variable lengths, no hard-coded final round",
+    "Invalid order, wrong stage, duplicate acceptance and invalid academic score are rejected",
+    "Legacy profile, banks, results, ghosts and stage IDs survive additive normalization",
+    "Stage progress persists beyond history cap, is idempotent on reload, and never invents mastery"
+  ]
+}

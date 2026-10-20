@@ -1,4 +1,16 @@
-# BlokRaya — Mode Siswa & Mode Guru
+# BlokRaya — PATCH 5: Ten-stage architecture & Grand Prix Nusantara
+
+Distribusi terbaru menyiapkan katalog **10 arena** dengan **3 arena lama playable** dan **7 “Segera Hadir”** yang belum dapat dibuka. Grand Prix **Kalbar Klasik** tetap tiga ronde; **Nusantara** menunggu semua lintasan dan world nyata tersedia. Tidak membangun arena Prompt 6.
+
+- [ZIP playable terbaru](blokraya-patch5-playable.zip) — ekstrak, lalu buka `blokraya-patch5.html`.
+- [HTML mandiri](visual-upgrade/blokraya-patch5.html) · [ZIP review, sumber dan bukti uji](blokraya-patch5-review.zip).
+- Pemilihan arena [desktop](visual-upgrade/patch5-ten-stages/screenshots/stages-1366x768.png), [HP portrait](visual-upgrade/patch5-ten-stages/screenshots/stages-390x844.png), [HP landscape](visual-upgrade/patch5-ten-stages/screenshots/stages-844x390.png).
+- [GP selesai dan rekap ronde](visual-upgrade/patch5-ten-stages/screenshots/grand-prix-complete.png) · [Nusantara belum playable](visual-upgrade/patch5-ten-stages/screenshots/nusantara-blocked.png).
+- [Metadata, build, migrasi, laporan pengujian dan rencana distribusi](visual-upgrade/patch5-ten-stages/README.md) · [metrik](visual-upgrade/patch5-ten-stages/release-metrics.json).
+
+HTML **24.445.403 byte**, bertambah **19.452 byte**, masih di bawah 25 MB desimal. ID dan kunci data lama dipertahankan. GP memakai jumlah ronde dinamis; ketuntasan, poin, AI, buff, PIN dan ekspor offline tetap diuji. Render tetap 14 pasangan dan tiga world identik pada pose/kamera tetap. HP fisik/FPS dan navigasi langsung `file://` belum diuji dalam cloud. Tidak merge ke main, mengganti `index.html`, atau deployment.
+
+# Tahap sebelumnya — Mode Siswa & Mode Guru
 
 Distribusi terbaru: poster fullscreen portrait/landscape dengan loading minimum 3 detik, fade 400 ms, pilihan **Mode Siswa** tanpa PIN dan **Mode Guru** dengan PIN lokal. Seluruh gameplay, arena, AI, buff, HUD dan penyimpanan lama dipertahankan.
 

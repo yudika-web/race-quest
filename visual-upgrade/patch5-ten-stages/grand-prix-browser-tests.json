@@ -1,0 +1,326 @@
+{
+  "status": "passed",
+  "checks": [
+    "Authenticated teacher saves dynamic cup in existing bank settings",
+    "Dynamic round metadata and four Smart Racing AI active: pontianak",
+    "Pause freezes simulation",
+    "Actual stage renders without WebGL error: pontianak",
+    "Quiz freezes player, AI and buffs: pontianak",
+    "Inventory follows academic answer: pontianak",
+    "Correct original stage ID and academic score persisted: pontianak",
+    "First round advances without premature completion",
+    "Dynamic round metadata and four Smart Racing AI active: mempawah-blocked",
+    "Actual stage renders without WebGL error: mempawah-blocked",
+    "Quiz freezes player, AI and buffs: mempawah-blocked",
+    "Inventory follows academic answer: mempawah-blocked",
+    "Correct original stage ID and academic score persisted: mempawah-blocked",
+    "Mastery blocks failed round",
+    "Dynamic round metadata and four Smart Racing AI active: mempawah-retry",
+    "Actual stage renders without WebGL error: mempawah-retry",
+    "Quiz freezes player, AI and buffs: mempawah-retry",
+    "Inventory follows academic answer: mempawah-retry",
+    "Correct original stage ID and academic score persisted: mempawah-retry",
+    "Retry stays on same round and rolls back failed points",
+    "Dynamic round metadata and four Smart Racing AI active: singkawang",
+    "Actual stage renders without WebGL error: singkawang",
+    "Quiz freezes player, AI and buffs: singkawang",
+    "Inventory follows academic answer: singkawang",
+    "Correct original stage ID and academic score persisted: singkawang",
+    "Final configured round produces standings and champion",
+    "Three round recap rendered",
+    "Completed cup has no invalid next round",
+    "Academic result JSON export retains dynamic Grand Prix recap",
+    "Durable progress records failed and successful attempts separately",
+    "Ghosts still saved with legacy race key",
+    "Teacher PIN verifier unchanged after GP and reload",
+    "Stage progress survives reload",
+    "Wrong PIN still denied",
+    "Existing PIN opens teacher after reload",
+    "Teacher bank JSON exports new cup settings without PIN verifier",
+    "No JavaScript errors across GP, retry and authentication"
+  ],
+  "errors": [],
+  "rounds": [
+    {
+      "id": "kalbar-klasik",
+      "label": "Grand Prix Kalbar Klasik",
+      "totalRounds": 3,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 1,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 25,
+          "wins": 1
+        },
+        {
+          "id": 1,
+          "points": 18,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 15,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 12,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 10,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "kalbar-klasik",
+      "label": "Grand Prix Kalbar Klasik",
+      "totalRounds": 3,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 0,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 2,
+      "blocked": true,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 50,
+          "wins": 2
+        },
+        {
+          "id": 1,
+          "points": 36,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 30,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 24,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 20,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "kalbar-klasik",
+      "label": "Grand Prix Kalbar Klasik",
+      "totalRounds": 3,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 2,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 50,
+          "wins": 2
+        },
+        {
+          "id": 1,
+          "points": 36,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 30,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 24,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 20,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "kalbar-klasik",
+      "label": "Grand Prix Kalbar Klasik",
+      "totalRounds": 3,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": 0,
+      "round": 3,
+      "blocked": false,
+      "complete": true,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 75,
+          "wins": 3
+        },
+        {
+          "id": 1,
+          "points": 54,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 45,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 36,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 30,
+          "wins": 0
+        }
+      ]
+    }
+  ],
+  "method": "Actual game renderer and UI; test-only teleports to quiz gate/finish, not full manual races."
+}
