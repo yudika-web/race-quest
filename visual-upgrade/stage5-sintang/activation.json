@@ -1,0 +1,21 @@
+{
+  "stage": "sintang",
+  "baseline_available": false,
+  "release_available": true,
+  "release_after_candidate_validation": true,
+  "release_html_identical_to_test_candidate": true,
+  "html_sha256": "16413119938be3149e212c20b28007196453aaf2a7910362495a13fcbf39a5f5",
+  "reports": {
+    "physics-tests": "passed",
+    "item-tests": "passed",
+    "surface-tests": "passed",
+    "world-tests": "passed",
+    "browser-tests": "passed",
+    "offline-tests": "passed",
+    "unchanged-renders": "passed",
+    "scope-tests": "passed"
+  },
+  "other_new_stage_ids_activated": [],
+  "nusantara_available": false,
+  "landmark_historical_accuracy_verified": false
+}

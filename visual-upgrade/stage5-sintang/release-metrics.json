@@ -1,0 +1,185 @@
+{
+  "baseline": "201d60688976d6320c95a6a021472f5b27f12c87",
+  "baseline_bytes": 24504400,
+  "html_bytes": 24549503,
+  "growth_bytes": 45103,
+  "html_sha256": "16413119938be3149e212c20b28007196453aaf2a7910362495a13fcbf39a5f5",
+  "remaining_to_25M": 450497,
+  "track": {
+    "length": 905.661859280361,
+    "max_height": 7.9999428598321405,
+    "max_abs_grade": 0.1155630338652529,
+    "minimum_nonadjacent_centerline_distance": 17.833310940515805,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.72
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 52462,
+    "colour_draw_calls": 21,
+    "shadow_draw_calls": 13,
+    "textures": 1,
+    "static_visuals": true,
+    "terrain_triangles": 8712,
+    "historical_accuracy_verified": false,
+    "minimum_structure_vertex_clearance": 8.071296779727774
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "sintang-landmark.webp": 5190,
+    "sintang-race.webp": 18284
+  },
+  "growth_components_bytes": [
+    13499,
+    31604
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 99,
+        "max": 207
+      },
+      "depth_draws": {
+        "min": 23,
+        "max": 67
+      },
+      "colour_triangles": {
+        "min": 104635,
+        "max": 154021
+      },
+      "depth_triangles": {
+        "min": 74311,
+        "max": 123695
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 91,
+        "max": 207
+      },
+      "depth_draws": {
+        "min": 23,
+        "max": 67
+      },
+      "colour_triangles": {
+        "min": 104173,
+        "max": 154021
+      },
+      "depth_triangles": {
+        "min": 74311,
+        "max": 123695
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 87,
+        "max": 197
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 85884,
+        "max": 109768
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 62.1312499999986,
+      "max_stall_seconds": 0,
+      "overtake_plans": 95
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 47.47708333333278,
+      "max_stall_seconds": 0,
+      "overtake_plans": 462
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 45.49791666666622,
+      "max_stall_seconds": 0,
+      "overtake_plans": 802
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "under_25_decimal_MB": true,
+  "reports": {
+    "physics-tests": 7,
+    "item-tests": 11,
+    "surface-tests": 0,
+    "world-tests": 7,
+    "browser-tests": 27,
+    "offline-tests": 28,
+    "unchanged-renders": 20,
+    "scope-tests": 0
+  },
+  "teacher_export_bytes": 24584911,
+  "offline_asset_HTTP_requests": 0,
+  "direct_file_note": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-stage5-sintang.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/blokraya-stage5-sintang.html\", waiting until \"load\"\u001b[22m\n",
+  "release_status": "Ready for visual review; reference accuracy and direct file navigation have documented limitations.",
+  "playable_zip": {
+    "file": "blokraya-stage5-sintang-playable.zip",
+    "bytes": 12773588,
+    "sha256": "d3af5b774ed183c82ec4561bb084dfee63893fc1600b02f939bf38fcdbc60562",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-stage5-sintang-review.zip",
+    "bytes": 19653425,
+    "sha256": "82110e4c999d857e645b0d4ce5ba366af766292585d50fcaa034997a853c8539",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 58
+  }
+}

@@ -1,4 +1,16 @@
-# BlokRaya — Stage 4 Sambas: Royal River Road (6A)
+# BlokRaya — Stage 5 Sintang: Kelam Mountain Run (6B)
+
+Sintang sudah playable: lintasan 905,66 m dengan naik-turun hingga 8 m, hutan tropis blocky, monolit granit terinspirasi Bukit Kelam dan rumah panjang terinspirasi Rumah Betang Ensaid Panjang. Lima arena tersedia; Stage 6–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara masih menunggu lima world lainnya.
+
+- [ZIP playable terbaru](blokraya-stage5-sintang-playable.zip) — ekstrak, lalu buka `blokraya-stage5-sintang.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage5-sintang.html) · [ZIP review: builder, screenshot dan laporan](blokraya-stage5-sintang-review.zip).
+- [Monolit](visual-upgrade/stage5-sintang/screenshots/bukit-kelam.png) · [Rumah panjang](visual-upgrade/stage5-sintang/screenshots/betang.png) · [Gameplay](visual-upgrade/stage5-sintang/screenshots/gameplay.png).
+- HP [portrait](visual-upgrade/stage5-sintang/screenshots/race-390x844.png), [landscape](visual-upgrade/stage5-sintang/screenshots/race-844x390.png) · [menu stage](visual-upgrade/stage5-sintang/screenshots/menu-desktop.png).
+- [Build, metrik, hasil uji dan batas akurasi](visual-upgrade/stage5-sintang/README.md).
+
+HTML **24.549.503 byte**, naik **45.103 byte** dari Sambas, tetap di bawah 25 MB desimal. Uji 18 balapan referensi, 18 completion AI, 108 sampel renderer, permukaan dekorasi, item, kuis, PIN, progres, replay dan ekspor offline lolos. Render 14 pasangan dan empat arena lama tetap identik. Referensi web diblokir; landmark merupakan interpretasi, bukan rekonstruksi terverifikasi. HP fisik/FPS belum diuji dan navigasi `file://` diblokir browser cloud. Tidak merge, mengubah `index.html`, deployment, atau mengerjakan 6C.
+
+# Tahap sebelumnya — Stage 4 Sambas: Royal River Road (6A)
 
 Arena baru Sambas sudah playable: lintasan 687,84 m, kawasan istana Melayu bergaya blocky, jalan tepian sungai, taman/plaza, rumah panggung, promenade, dermaga dan jembatan dekoratif. Empat arena tersedia; Stage 5–10 tetap Segera Hadir. Kalbar Klasik tetap tiga arena, Nusantara menunggu enam world lainnya.
 
