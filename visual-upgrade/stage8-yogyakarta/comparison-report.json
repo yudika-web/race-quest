@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "views": [
+    {
+      "baseline": true,
+      "status": "coming",
+      "viewport": [
+        1366,
+        768
+      ],
+      "note": "Baseline future card; no playable world existed to render."
+    },
+    {
+      "baseline": false,
+      "status": "available",
+      "viewport": [
+        1366,
+        768
+      ],
+      "note": "Actual enabled card with renderer thumbnail."
+    }
+  ]
+}

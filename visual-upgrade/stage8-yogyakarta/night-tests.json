@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    "Night grading restores every cached GLB material without modifying asset data",
+    "Night-only cloud bindings and frame flag restored after each frame",
+    "Actual rendered pixels remain identical during paused/question simulation time",
+    "Garage pixels after night racing match garage after an old daytime world",
+    "No WebGL/JavaScript errors in night rendering and garage restoration"
+  ],
+  "errors": [],
+  "result": {
+    "material_restored": true,
+    "cloud_program_restored": true,
+    "frame_flag_cleared": true,
+    "frozen": {
+      "paused": true,
+      "question": true
+    },
+    "garageSame": true,
+    "glError": 0
+  }
+}

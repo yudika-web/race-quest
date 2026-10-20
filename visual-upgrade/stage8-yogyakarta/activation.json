@@ -1,0 +1,29 @@
+{
+  "stage": "yogyakarta",
+  "baseline": "a7355609e4f9eb6dc255a9951fc9f7419da4ec2e",
+  "baseline_available": false,
+  "release_available": true,
+  "required_reports": {
+    "physics-tests": "passed",
+    "item-tests": "passed",
+    "surface-tests": "passed",
+    "world-tests": "passed",
+    "night-tests": "passed",
+    "browser-tests": "passed",
+    "offline-tests": "passed",
+    "unchanged-renders": "passed",
+    "scope-tests": "passed",
+    "comparison-report": "passed",
+    "release-smoke": "passed"
+  },
+  "candidate_release_bytes_identical": true,
+  "other_stage_metadata_identical": true,
+  "other_new_stages_activated": [],
+  "available_count": 8,
+  "unavailable_ids": [
+    "bali",
+    "bromo"
+  ],
+  "nusantara_available": false,
+  "landmark_accuracy_verified": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "before_environment_triangles": 150076,
+  "after_environment_triangles": 51508,
+  "reduction_percent": 65.6787227804579,
+  "method": "Measured first full world vs revised world counters. Shallow shop panels became flat quads, small trim became boxes; major buildings, monument, vehicle geometry and layout retained. No FPS or device benchmark claimed.",
+  "before_candidate_html_sha256": "237e3cb8ac11ea3101456cedf2fb17acdbf82dd3b5b4fe68d6abaeb822bce350"
+}

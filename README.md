@@ -1,4 +1,16 @@
-# BlokRaya — Stage 7 Bengkayang: Waterfall Adventure (6D)
+# BlokRaya — Stage 8 Yogyakarta: Heritage Night Race (6E)
+
+Yogyakarta sudah playable: lintasan kota fiktif **826,23m** pada malam hari, Tugu Pal Putih stylized, taman/plaza, koridor bernuansa Malioboro, lampu hangat, ruko dan gerobak dekoratif. Delapan arena tersedia; Bali dan Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu dua world terakhir.
+
+- [ZIP playable terbaru](blokraya-stage8-yogyakarta-playable.zip) — ekstrak lalu buka `blokraya-stage8-yogyakarta.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage8-yogyakarta.html) · [ZIP review: sumber, screenshot dan laporan](blokraya-stage8-yogyakarta-review.zip).
+- [Tugu](visual-upgrade/stage8-yogyakarta/screenshots/tugu-pal-putih.png) · [Malioboro](visual-upgrade/stage8-yogyakarta/screenshots/malioboro-corridor.png) · [Gameplay malam](visual-upgrade/stage8-yogyakarta/screenshots/night-boulevard.png).
+- HP [portrait](visual-upgrade/stage8-yogyakarta/screenshots/race-390x844.png), [landscape](visual-upgrade/stage8-yogyakarta/screenshots/race-844x390.png) · menu [sebelum](visual-upgrade/stage8-yogyakarta/screenshots/before-menu.png) / [sesudah](visual-upgrade/stage8-yogyakarta/screenshots/after-menu.png).
+- [Build, metrik, hasil uji dan batas representasi](visual-upgrade/stage8-yogyakarta/README.md).
+
+HTML **24.706.902 byte**, bertambah **48.630 byte**, tetap di bawah 25 MB desimal. Geometri lingkungan dioptimalkan menjadi **51.508 segitiga**. Uji 18 balapan referensi, 18 completion AI, 108 sampel render, rendering malam/garasi/freeze, kuis/PIN/buff/progres/replay dan ekspor offline lolos. 23 render terlindungi tetap identik. Landmark merupakan interpretasi; referensi web ditolak 403 dan detail belum diverifikasi. HP fisik/FPS belum diuji; file:// diblokir browser cloud. Tidak merge, mengubah index.html, deployment atau mengerjakan 6F.
+
+# Tahap sebelumnya — Stage 7 Bengkayang: Waterfall Adventure (6D)
 
 Bengkayang sudah playable: lintasan fiktif **801,04 m**, air terjun lebar terinspirasi Riam Merasap, kolam/sungai berbatu, dua jembatan, dek pandang dan hutan blocky. Tujuh arena tersedia; Yogyakarta, Bali dan Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena awal; Nusantara menunggu tiga world terakhir.
 

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "kampung",
+    "city": "Pontianak",
+    "displayName": "Pontianak — City Road",
+    "region": "Kalimantan Barat",
+    "theme": "Jalanan Kota",
+    "description": "Jalan kota dengan plaza, bangunan pastel dan dua landmark khas Pontianak.",
+    "landmarks": [
+      "Tugu Khatulistiwa",
+      "Tugu Bambu"
+    ],
+    "thumbnail": "pontianak-landmark.webp",
+    "raceImage": "pontianak-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 1,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "kampung",
+    "environmentBuilder": "RacePontianakCity",
+    "grandPrixGroup": [
+      "kalbar-klasik",
+      "nusantara"
+    ]
+  },
+  {
+    "id": "kapuas",
+    "city": "Mempawah",
+    "displayName": "Mempawah — Garden Road",
+    "region": "Kalimantan Barat",
+    "theme": "Jalanan Taman",
+    "description": "Lintasi taman hijau, gazebo dan keraton. Cuaca tema hujan membuat jalan lebih licin.",
+    "landmarks": [
+      "Tugu Pak Tani",
+      "Keraton Mempawah"
+    ],
+    "thumbnail": "mempawah-landmark.webp",
+    "raceImage": "mempawah-race.webp",
+    "defaultWeather": "rain",
+    "difficulty": {
+      "source": "track",
+      "level": 2
+    },
+    "order": 2,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "kapuas",
+    "environmentBuilder": "RaceMempawahGarden",
+    "grandPrixGroup": [
+      "kalbar-klasik",
+      "nusantara"
+    ]
+  },
+  {
+    "id": "hutan",
+    "city": "Singkawang",
+    "displayName": "Singkawang — Coastal Festival",
+    "region": "Kalimantan Barat",
+    "theme": "Pantai Meriah",
+    "description": "Balapan tepi pantai dengan kelapa, promenade, Tugu Naga dan gapura merah–emas.",
+    "landmarks": [
+      "Tugu Naga",
+      "Ornamen Imlek"
+    ],
+    "thumbnail": "singkawang-landmark.webp",
+    "raceImage": "singkawang-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 3
+    },
+    "order": 3,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "hutan",
+    "environmentBuilder": "RaceSingkawangCoast",
+    "grandPrixGroup": [
+      "kalbar-klasik",
+      "nusantara"
+    ]
+  },
+  {
+    "id": "sambas",
+    "city": "Sambas",
+    "displayName": "Sambas — Royal River Road",
+    "region": "Kalimantan Barat",
+    "theme": "Kerajaan Melayu & Tepian Sungai",
+    "description": "Lintasan fiktif kawasan kerajaan Melayu dengan plaza istana, promenade, dermaga dan sungai. Istana merupakan interpretasi blocky, bukan rekonstruksi terverifikasi.",
+    "landmarks": [
+      "Istana Alwatzikhoebillah",
+      "Kawasan Sungai"
+    ],
+    "thumbnail": "sambas-landmark.webp",
+    "raceImage": "sambas-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 4,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "sambas",
+    "environmentBuilder": "RaceSambasRiver",
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "sintang",
+    "city": "Sintang",
+    "displayName": "Sintang — Kelam Mountain Run",
+    "region": "Kalimantan Barat",
+    "theme": "Perbukitan & Hutan Tropis",
+    "description": "Lintasan fiktif perbukitan hutan tropis, monolit granit dan area rumah panjang. Landmark merupakan interpretasi blocky, bukan rekonstruksi terverifikasi.",
+    "landmarks": [
+      "Bukit Kelam",
+      "Rumah Betang Ensaid Panjang"
+    ],
+    "thumbnail": "sintang-landmark.webp",
+    "raceImage": "sintang-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 5,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "sintang",
+    "environmentBuilder": "RaceSintangMountain",
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "kapuas_hulu",
+    "city": "Kapuas Hulu",
+    "displayName": "Kapuas Hulu — Sentarum Lake Circuit",
+    "region": "Kalimantan Barat",
+    "theme": "Danau & Hutan Rawa",
+    "description": "Lintasan wisata fiktif menyusuri perairan dan hutan rawa Danau Sentarum, dengan jalan bertiang, dermaga dan pondok pengamatan.",
+    "landmarks": [
+      "Danau Sentarum"
+    ],
+    "thumbnail": "sentarum-landmark.webp",
+    "raceImage": "sentarum-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 6,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "kapuas_hulu",
+    "environmentBuilder": "RaceSentarumLake",
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "bengkayang",
+    "city": "Bengkayang",
+    "displayName": "Bengkayang — Waterfall Adventure",
+    "region": "Kalimantan Barat",
+    "theme": "Hutan & Air Terjun",
+    "description": "Jalan wisata fiktif melintasi hutan hujan tropis, sungai berbatu dan jembatan, dengan air terjun lebar terinspirasi Riam Merasap.",
+    "landmarks": [
+      "Riam Merasap"
+    ],
+    "thumbnail": "bengkayang-landmark.webp",
+    "raceImage": "bengkayang-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 7,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "bengkayang",
+    "environmentBuilder": "RaceBengkayangWaterfall",
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "yogyakarta",
+    "city": "Yogyakarta",
+    "displayName": "Yogyakarta — Heritage Night Race",
+    "region": "Nusantara",
+    "theme": "Kota Budaya Malam Hari",
+    "description": "Lintasan kota budaya fiktif pada malam hari, dengan Tugu Pal Putih stylized, koridor pertokoan bernuansa Malioboro, trotoar dan lampu hangat.",
+    "landmarks": [
+      "Tugu Pal Putih",
+      "Koridor Malioboro"
+    ],
+    "thumbnail": "yogyakarta-landmark.webp",
+    "raceImage": "yogyakarta-race.webp",
+    "defaultWeather": "clear",
+    "difficulty": {
+      "source": "track",
+      "level": 1
+    },
+    "order": 8,
+    "available": true,
+    "unlockRequirement": null,
+    "trackConfig": "yogyakarta",
+    "environmentBuilder": "RaceYogyakartaNight",
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "bali",
+    "city": "Bali",
+    "displayName": "Bali — Rice Terrace Rush",
+    "region": "Nusantara",
+    "theme": "Pedesaan & Sawah Terasering",
+    "description": "Rencana arena pedesaan & sawah terasering. Lintasan dan environment belum dibuat.",
+    "landmarks": [
+      "Lanskap Terasering",
+      "Arsitektur Tradisional Bali"
+    ],
+    "thumbnail": "coming-soon",
+    "raceImage": null,
+    "defaultWeather": null,
+    "difficulty": null,
+    "order": 9,
+    "available": false,
+    "unlockRequirement": null,
+    "trackConfig": null,
+    "environmentBuilder": null,
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  },
+  {
+    "id": "bromo",
+    "city": "Bromo",
+    "displayName": "Bromo — Volcano Challenge",
+    "region": "Nusantara",
+    "theme": "Vulkanik & Lautan Pasir",
+    "description": "Rencana arena vulkanik & lautan pasir. Lintasan dan environment belum dibuat.",
+    "landmarks": [
+      "Gunung Bromo",
+      "Lautan Pasir"
+    ],
+    "thumbnail": "coming-soon",
+    "raceImage": null,
+    "defaultWeather": null,
+    "difficulty": null,
+    "order": 10,
+    "available": false,
+    "unlockRequirement": null,
+    "trackConfig": null,
+    "environmentBuilder": null,
+    "grandPrixGroup": [
+      "nusantara"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "yogyakarta",
+    "ready": 8,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "5a64b8922abca2c834d248eaaedb62b94661f3086773e3732809982219985ea1"
+}

@@ -1,0 +1,213 @@
+{
+  "baseline": "a7355609e4f9eb6dc255a9951fc9f7419da4ec2e",
+  "baseline_bytes": 24658272,
+  "html_bytes": 24706902,
+  "growth_bytes": 48630,
+  "html_sha256": "5a64b8922abca2c834d248eaaedb62b94661f3086773e3732809982219985ea1",
+  "remaining_to_25M": 293098,
+  "track": {
+    "length": 826.2272224186845,
+    "max_height": 1.4999988598707952,
+    "max_abs_grade": 0.03166146948943854,
+    "minimum_nonadjacent_centerline_distance": 19.836207186618193,
+    "obstacles": [
+      {
+        "u": 0.25,
+        "lateral": -2.7,
+        "type": "rock"
+      },
+      {
+        "u": 0.46,
+        "lateral": 2.6,
+        "type": "log"
+      },
+      {
+        "u": 0.75,
+        "lateral": -2.5,
+        "type": "rock"
+      },
+      {
+        "u": 0.9,
+        "lateral": 2.4,
+        "type": "log"
+      }
+    ],
+    "ramps": [
+      0.71
+    ],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 51508,
+    "colour_draw_calls": 23,
+    "shadow_draw_calls": 16,
+    "textures": 1,
+    "terrain_triangles": 2,
+    "static_visuals": true,
+    "landmark_accuracy_verified": false,
+    "night_cloud_programs": 1,
+    "night_sky_extra_draw_calls": 1,
+    "night_sky_triangles": 172,
+    "additional_point_lights": 0,
+    "light_pool_layers": 3,
+    "minimum_structure_vertex_clearance": 7.738580421184943
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "yogyakarta-landmark.webp": 7362,
+    "yogyakarta-race.webp": 15948
+  },
+  "growth_components_bytes": [
+    17237,
+    31393
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 104,
+        "max": 210
+      },
+      "depth_draws": {
+        "min": 26,
+        "max": 70
+      },
+      "colour_triangles": {
+        "min": 95141,
+        "max": 144527
+      },
+      "depth_triangles": {
+        "min": 72007,
+        "max": 121391
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 96,
+        "max": 210
+      },
+      "depth_draws": {
+        "min": 26,
+        "max": 70
+      },
+      "colour_triangles": {
+        "min": 94963,
+        "max": 144527
+      },
+      "depth_triangles": {
+        "min": 72007,
+        "max": 121391
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 90,
+        "max": 200
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 76390,
+        "max": 100278
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 55.28333333333233,
+      "max_stall_seconds": 0,
+      "overtake_plans": 96
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 43.31249999999968,
+      "max_stall_seconds": 0,
+      "overtake_plans": 443
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 41.95624999999975,
+      "max_stall_seconds": 0,
+      "overtake_plans": 825
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "night_checks": {
+    "material_restored": true,
+    "cloud_program_restored": true,
+    "frame_flag_cleared": true,
+    "frozen": {
+      "paused": true,
+      "question": true
+    },
+    "garageSame": true,
+    "glError": 0
+  },
+  "optimization": {
+    "status": "passed",
+    "before_environment_triangles": 150076,
+    "after_environment_triangles": 51508,
+    "reduction_percent": 65.6787227804579,
+    "method": "Measured first full world vs revised world counters. Shallow shop panels became flat quads, small trim became boxes; major buildings, monument, vehicle geometry and layout retained. No FPS or device benchmark claimed.",
+    "before_candidate_html_sha256": "237e3cb8ac11ea3101456cedf2fb17acdbf82dd3b5b4fe68d6abaeb822bce350"
+  },
+  "sky_counter_note": "Base gradient/cloud drawCalls=2; moon/stars add one drawPrimitive call already counted in full-frame samples. Night clouds share existing vertex buffers. No dynamic point lights.",
+  "under_25_decimal_MB": true,
+  "reports": {
+    "physics-tests": 7,
+    "item-tests": 11,
+    "surface-tests": 0,
+    "world-tests": 7,
+    "browser-tests": 27,
+    "offline-tests": 28,
+    "unchanged-renders": 23,
+    "scope-tests": 0,
+    "comparison-report": 0,
+    "release-smoke": 0,
+    "night-tests": 5
+  },
+  "teacher_export_bytes": 24742313,
+  "offline_asset_HTTP_requests": 0,
+  "direct_file_note": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-stage8-yogyakarta.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/blokraya-stage8-yogyakarta.html\", waiting until \"load\"\u001b[22m\n",
+  "release_status": "Ready for visual review; reference accuracy and direct file navigation have documented limitations.",
+  "playable_zip": {
+    "file": "blokraya-stage8-yogyakarta-playable.zip",
+    "bytes": 12871289,
+    "sha256": "9972a0e98b45ade36b0e5f14a70c7607f08528c5e9b763f909da2b7e812fe773",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-stage8-yogyakarta-review.zip",
+    "bytes": 20024289,
+    "sha256": "5a21f23828fe8d289b0e50378ea0d3aad36da3064481ab49e3133af936f8f373",
+    "crc_ok": true,
+    "html_identical": true,
+    "entries": 70
+  }
+}
