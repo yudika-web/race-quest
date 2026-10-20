@@ -1,0 +1,632 @@
+{
+  "status": "passed",
+  "errors": [],
+  "views": {
+    "overview": {
+      "u": 0.36,
+      "eye": [
+        225,
+        240,
+        310
+      ],
+      "target": [
+        -10,
+        10,
+        65
+      ],
+      "fov": 82,
+      "fog": 0,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "bromo-crater": {
+      "u": 0.38,
+      "eye": [
+        122,
+        105,
+        63
+      ],
+      "target": [
+        8,
+        30,
+        181
+      ],
+      "fov": 63,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "caldera-landscape": {
+      "u": 0.36,
+      "eye": [
+        86,
+        63,
+        32
+      ],
+      "target": [
+        -50,
+        25,
+        220
+      ],
+      "fov": 74,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "sand-sea-viewpoint": {
+      "u": 0.73,
+      "eye": [
+        94,
+        12,
+        -3
+      ],
+      "target": [
+        66,
+        2,
+        -23
+      ],
+      "fov": 60,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "gameplay": {
+      "u": 0.24,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "mountain-road": {
+      "u": 0.32,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "crater-approach": {
+      "u": 0.25,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "sand-corner": {
+      "u": 0.54,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "ramp": {
+      "u": 0.8,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "sunrise-road": {
+      "u": 0.1,
+      "glError": 0,
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "stats": {
+    "landmarks": [
+      {
+        "x": 12,
+        "y": 47.5,
+        "z": 182,
+        "radius": 79,
+        "type": "bromo-inspired-open-crater"
+      },
+      {
+        "x": -125,
+        "y": 76.5,
+        "z": 222,
+        "radius": 57,
+        "type": "ribbed-companion-cone"
+      }
+    ],
+    "objects": [
+      {
+        "x": 66,
+        "z": -23,
+        "yaw": 2.0734511513692637,
+        "y": -0.5,
+        "radius": 12,
+        "type": "sand-sea-viewpoint",
+        "clearance": 58.099489167981176
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -11.190588640022934,
+        "z": -118.90659179862013,
+        "radius": 1.7,
+        "clearance": 12.707038626406804
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -43.380109096597124,
+        "z": -142.97356893931496,
+        "radius": 1.7,
+        "clearance": 16.702810942906428
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -57.690081039136636,
+        "z": -98.95083756531412,
+        "radius": 1.7,
+        "clearance": 20.717419297573525
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -96.08150007056054,
+        "z": -118.1265974532123,
+        "radius": 1.7,
+        "clearance": 12.7139816884588
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -101.16518222464317,
+        "z": -79.04437004905195,
+        "radius": 1.7,
+        "clearance": 16.701269012235905
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -147.22612478557846,
+        "z": -83.1482389678382,
+        "radius": 1.7,
+        "clearance": 20.707423919848218
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -133.3602620092052,
+        "z": -41.96163767084577,
+        "radius": 1.7,
+        "clearance": 12.709442987024982
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -170.25200299730676,
+        "z": -25.083248234462037,
+        "radius": 1.7,
+        "clearance": 16.699984006963376
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -133.34768121694782,
+        "z": 1.5086289930662469,
+        "radius": 1.7,
+        "clearance": 20.707769254299322
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -156.29662243185737,
+        "z": 36.95460662601976,
+        "radius": 1.7,
+        "clearance": 12.701499195267132
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -117.31371958166137,
+        "z": 38.45888913225044,
+        "radius": 1.7,
+        "clearance": 16.712838839617703
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -110.4855213198672,
+        "z": 84.28777128164147,
+        "radius": 1.7,
+        "clearance": 20.69939528909274
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -80.6857852622263,
+        "z": 54.100739252215476,
+        "radius": 1.7,
+        "clearance": 12.712839948516441
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -45.87148726505122,
+        "z": 71.30212648404074,
+        "radius": 1.7,
+        "clearance": 16.709682425686577
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -17.74446866133176,
+        "z": 36.51238840634125,
+        "radius": 1.7,
+        "clearance": 20.709837725049205
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": -0.7137858337232885,
+        "z": 77.4197690288124,
+        "radius": 1.7,
+        "clearance": 12.707410562028947
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 26.061637501111253,
+        "z": 47.41673905849718,
+        "radius": 1.7,
+        "clearance": 16.705666441237106
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 61.11565159826291,
+        "z": 78.10573621003456,
+        "radius": 1.7,
+        "clearance": 20.712690480514134
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 72.06825370158674,
+        "z": 35.51423945482962,
+        "radius": 1.7,
+        "clearance": 12.71107489866504
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 110.44477406653783,
+        "z": 44.852367894948564,
+        "radius": 1.7,
+        "clearance": 16.70573723649897
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 112.86649289439637,
+        "z": -0.399192783375387,
+        "radius": 1.7,
+        "clearance": 20.70410678954014
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 153.48602982645983,
+        "z": -0.03031533620135196,
+        "radius": 1.7,
+        "clearance": 12.699484898331633
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 130.3092639875558,
+        "z": -31.74484715955273,
+        "radius": 1.7,
+        "clearance": 16.70682007905104
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 158.7690414174775,
+        "z": -67.76429233226806,
+        "radius": 1.7,
+        "clearance": 20.714419136253703
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 115.09355856313911,
+        "z": -69.30730196959001,
+        "radius": 1.7,
+        "clearance": 12.714005987756188
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 96.31588886716058,
+        "z": -105.12129996210834,
+        "radius": 1.7,
+        "clearance": 16.70439685131384
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 75.0923694859856,
+        "z": -60.38044597396265,
+        "radius": 1.7,
+        "clearance": 20.697388230470843
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 65.53943158302948,
+        "z": -103.04565650165215,
+        "radius": 1.7,
+        "clearance": 12.715922076283556
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 29.763357858943557,
+        "z": -107.79605496781052,
+        "radius": 1.7,
+        "clearance": 16.706058271686445
+      },
+      {
+        "type": "volcanic-boulder",
+        "x": 18.108952733697894,
+        "z": -151.275770552502,
+        "radius": 1.7,
+        "clearance": 20.703375383651526
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -48.250474085970644,
+        "z": -155.44572784101797,
+        "radius": 3.8,
+        "clearance": 29.999787477374767
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -80.2252813659149,
+        "z": -73.33029125313527,
+        "radius": 3.8,
+        "clearance": 34.00484982685858
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -173.38932923196788,
+        "z": -74.57841044692144,
+        "radius": 3.8,
+        "clearance": 38.00331213189046
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -124.29231262538659,
+        "z": -0.6741397373341318,
+        "radius": 3.8,
+        "clearance": 30.002354201393
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -139.39602511462994,
+        "z": 84.81262834173356,
+        "radius": 3.8,
+        "clearance": 33.99921581796875
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -77.7942223499916,
+        "z": 25.49050015975584,
+        "radius": 3.8,
+        "clearance": 38.00328305651347
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": -7.717474348303975,
+        "z": 93.83267883512644,
+        "radius": 3.8,
+        "clearance": 29.9995552515316
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 47.28617630142928,
+        "z": 24.982439795780426,
+        "radius": 3.8,
+        "clearance": 34.00483899667045
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 132.92240356016148,
+        "z": 56.34567375218903,
+        "radius": 3.8,
+        "clearance": 37.999934419290845
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 116.84568162464143,
+        "z": -29.103388433981692,
+        "radius": 3.8,
+        "clearance": 30.002792969237117
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 142.49431762595881,
+        "z": -107.31937421516078,
+        "radius": 3.8,
+        "clearance": 33.99925565756879
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 36.048021177903706,
+        "z": -57.13881749624535,
+        "radius": 3.8,
+        "clearance": 37.99575922092057
+      },
+      {
+        "type": "basalt-outcrop",
+        "x": 29.25253533457863,
+        "z": -158.51326442727787,
+        "radius": 3.8,
+        "clearance": 30.003462375273443
+      },
+      {
+        "type": "dry-grass",
+        "x": -6.316766495000476,
+        "z": -119.92942047148648,
+        "radius": 1,
+        "clearance": 12.000526899286795
+      },
+      {
+        "type": "dry-grass",
+        "x": -43.60874960857094,
+        "z": -138.05451184339697,
+        "radius": 1,
+        "clearance": 11.999986415248081
+      },
+      {
+        "type": "dry-grass",
+        "x": -68.08887035601434,
+        "z": -104.13421038239048,
+        "radius": 1,
+        "clearance": 12.000165754300228
+      },
+      {
+        "type": "dry-grass",
+        "x": -109.75911218071732,
+        "z": -108.90246182000588,
+        "radius": 1,
+        "clearance": 12.007460087619934
+      },
+      {
+        "type": "dry-grass",
+        "x": -117.77449362272802,
+        "z": -67.88054442645404,
+        "radius": 1,
+        "clearance": 12.030952642539837
+      },
+      {
+        "type": "dry-grass",
+        "x": -156.1338955876817,
+        "z": -51.62066109181279,
+        "radius": 1,
+        "clearance": 12.012881314060625
+      },
+      {
+        "type": "dry-grass",
+        "x": -142.97980667305347,
+        "z": -12.903514222308708,
+        "radius": 1,
+        "clearance": 12.000515663671145
+      },
+      {
+        "type": "dry-grass",
+        "x": -161.20308550448328,
+        "z": 23.728749295288505,
+        "radius": 1,
+        "clearance": 12.010133265903978
+      },
+      {
+        "type": "dry-grass",
+        "x": -123.74589858206132,
+        "z": 39.25984713459771,
+        "radius": 1,
+        "clearance": 12.002019077339583
+      },
+      {
+        "type": "dry-grass",
+        "x": -106.07059448571943,
+        "z": 76.60746740364999,
+        "radius": 1,
+        "clearance": 11.999595609474726
+      },
+      {
+        "type": "dry-grass",
+        "x": -73.90470778162022,
+        "z": 52.25204557150362,
+        "radius": 1,
+        "clearance": 12.025450673340808
+      },
+      {
+        "type": "dry-grass",
+        "x": -37.74880892169005,
+        "z": 65.03069436678788,
+        "radius": 1,
+        "clearance": 12.00200632723887
+      },
+      {
+        "type": "dry-grass",
+        "x": -1.642446364869485,
+        "z": 52.16952003800718,
+        "radius": 1,
+        "clearance": 12.008726695218295
+      },
+      {
+        "type": "dry-grass",
+        "x": 30.904539099843895,
+        "z": 75.73795454455686,
+        "radius": 1,
+        "clearance": 12.000212772236218
+      },
+      {
+        "type": "dry-grass",
+        "x": 57.56514037774413,
+        "z": 44.51869610510997,
+        "radius": 1,
+        "clearance": 12.003486410059013
+      },
+      {
+        "type": "dry-grass",
+        "x": 98.3390118693152,
+        "z": 47.34460351412989,
+        "radius": 1,
+        "clearance": 12.003108695453271
+      },
+      {
+        "type": "dry-grass",
+        "x": 113.95803835315338,
+        "z": 9.363457622024125,
+        "radius": 1,
+        "clearance": 12.002610739052233
+      },
+      {
+        "type": "dry-grass",
+        "x": 153.40792127884325,
+        "z": -1.7880376414614325,
+        "radius": 1,
+        "clearance": 11.99948437952074
+      },
+      {
+        "type": "dry-grass",
+        "x": 134.74817785336452,
+        "z": -38.262344654133,
+        "radius": 1,
+        "clearance": 12.020446103780461
+      },
+      {
+        "type": "dry-grass",
+        "x": 141.30466355044564,
+        "z": -77.61497445556557,
+        "radius": 1,
+        "clearance": 12.019898535262525
+      },
+      {
+        "type": "dry-grass",
+        "x": 104.22390733734413,
+        "z": -77.15094237979712,
+        "radius": 1,
+        "clearance": 12.007974948822683
+      },
+      {
+        "type": "dry-grass",
+        "x": 71.50741029428397,
+        "z": -92.90080505024007,
+        "radius": 1,
+        "clearance": 12.00088369721107
+      },
+      {
+        "type": "dry-grass",
+        "x": 39.74888146616178,
+        "z": -100.00908715400111,
+        "radius": 1,
+        "clearance": 12.007387410088553
+      },
+      {
+        "type": "dry-grass",
+        "x": 30.891778809142714,
+        "z": -139.24934845142525,
+        "radius": 1,
+        "clearance": 12.000418357081502
+      }
+    ],
+    "triangles": 15326,
+    "colour_draw_calls": 19,
+    "shadow_draw_calls": 14,
+    "textures": 1,
+    "terrain_triangles": 2,
+    "static_visuals": true,
+    "landmark_accuracy_verified": false,
+    "volcanoes": 2,
+    "crater_open": true,
+    "surface_index_cells": 546,
+    "new_sky_programs": 0,
+    "new_point_lights": 0
+  },
+  "length": 820.4104001844669,
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  }
+}

@@ -1,4 +1,16 @@
-# BlokRaya — Stage 9 Bali: Rice Terrace Rush (6F)
+# BlokRaya — Stage 10 Bromo: Volcano Challenge (6G)
+
+Bromo sudah playable: lintasan vulkanik fiktif **820,41m**, lautan pasir, kawah terbuka beralur, kerucut pendamping, dinding kaldera, kepulan blocky dan horizon pagi. **Seluruh sepuluh arena tersedia; Grand Prix Nusantara dapat dimainkan.** Kalbar Klasik tetap tiga arena awal.
+
+- [ZIP playable terbaru](blokraya-stage10-bromo-playable.zip) — ekstrak lalu buka `blokraya-stage10-bromo.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage10-bromo.html) · [ZIP review: sumber, screenshot dan laporan](blokraya-stage10-bromo-review.zip).
+- [Kawah](visual-upgrade/stage10-bromo/screenshots/bromo-crater.png) · [Gameplay](visual-upgrade/stage10-bromo/screenshots/gameplay.png) · [Rekap Nusantara](visual-upgrade/stage10-bromo/screenshots/grand-prix-complete.png).
+- HP [portrait](visual-upgrade/stage10-bromo/screenshots/race-390x844.png)/[landscape](visual-upgrade/stage10-bromo/screenshots/race-844x390.png) · menu [sebelum](visual-upgrade/stage10-bromo/screenshots/before-menu.png)/[sesudah](visual-upgrade/stage10-bromo/screenshots/after-menu.png).
+- [Sumber, metrik, hasil uji dan keterbatasan](visual-upgrade/stage10-bromo/README.md).
+
+HTML **24.802.112 byte**, naik **37.881 byte**. Lingkungan **15.326 segitiga**, 19 batch warna. Uji balapan/AI, 108 sampel render, UI sepuluh ronde GP beserta gagal/ulang/lolos, kuis/PIN/buff/progres/replay/ekspor offline dan sentuh emulasi lolos. 25 render terlindungi identik. GP browser memakai fixture posisi; bukan sepuluh balapan manual penuh. Landscape adalah interpretasi stylized; referensi web ditolak403. HP fisik/FPS belum diuji; file:// diblokir browser cloud. Tidak merge, deployment atau mengubah index.html.
+
+# Tahap sebelumnya — Stage 9 Bali: Rice Terrace Rush (6F)
 
 Bali sudah playable: lintasan pedesaan fiktif **777,24m**, dua bentang sawah berkontur (enam/empat teras), irigasi, rumpun padi, bukit, kelapa serta bale wisata dan gerbang batu orisinal. Sembilan arena tersedia; Bromo tetap Segera Hadir. Kalbar Klasik tetap tiga arena; Nusantara menunggu Bromo.
 

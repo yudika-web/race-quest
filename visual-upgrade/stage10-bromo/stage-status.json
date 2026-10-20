@@ -1,0 +1,97 @@
+{
+  "status": "ready-for-review",
+  "classic_cup_rounds": 3,
+  "nusantara_rounds": 10,
+  "stages": [
+    {
+      "id": "kampung",
+      "name": "Pontianak — City Road",
+      "order": 1,
+      "available": true,
+      "environmentBuilder": "RacePontianakCity",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "kapuas",
+      "name": "Mempawah — Garden Road",
+      "order": 2,
+      "available": true,
+      "environmentBuilder": "RaceMempawahGarden",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "hutan",
+      "name": "Singkawang — Coastal Festival",
+      "order": 3,
+      "available": true,
+      "environmentBuilder": "RaceSingkawangCoast",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "sambas",
+      "name": "Sambas — Royal River Road",
+      "order": 4,
+      "available": true,
+      "environmentBuilder": "RaceSambasRiver",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "sintang",
+      "name": "Sintang — Kelam Mountain Run",
+      "order": 5,
+      "available": true,
+      "environmentBuilder": "RaceSintangMountain",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "kapuas_hulu",
+      "name": "Kapuas Hulu — Sentarum Lake Circuit",
+      "order": 6,
+      "available": true,
+      "environmentBuilder": "RaceSentarumLake",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "bengkayang",
+      "name": "Bengkayang — Waterfall Adventure",
+      "order": 7,
+      "available": true,
+      "environmentBuilder": "RaceBengkayangWaterfall",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta — Heritage Night Race",
+      "order": 8,
+      "available": true,
+      "environmentBuilder": "RaceYogyakartaNight",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "bali",
+      "name": "Bali — Rice Terrace Rush",
+      "order": 9,
+      "available": true,
+      "environmentBuilder": "RaceBaliTerraces",
+      "status": "playable-tested",
+      "regression": "original script/asset hashes and fixed-pose render identical to Bali baseline"
+    },
+    {
+      "id": "bromo",
+      "name": "Bromo — Volcano Challenge",
+      "order": 10,
+      "available": true,
+      "environmentBuilder": "RaceBromoVolcano",
+      "status": "playable-tested",
+      "regression": "new environment; full physics/AI route, UI, offline and GP tested"
+    }
+  ]
+}

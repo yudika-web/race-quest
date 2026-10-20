@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "baseline": "ce295f302c1dbf4fe4b2189ece95b087b9454b6b",
+  "target": "bromo",
+  "baseline_available": false,
+  "release_available": true,
+  "available_stage_ids": [
+    "kampung",
+    "kapuas",
+    "hutan",
+    "sambas",
+    "sintang",
+    "kapuas_hulu",
+    "bengkayang",
+    "yogyakarta",
+    "bali",
+    "bromo"
+  ],
+  "future_unavailable": [],
+  "classic_cup_unchanged": true,
+  "nusantara_enabled": true,
+  "nusantara_rounds": 10,
+  "candidate_release_identical": true,
+  "html_sha256": "9368e94fa372b3bbd422773d1909eee7f2012c73947b6045bbd7957e17e08e07"
+}

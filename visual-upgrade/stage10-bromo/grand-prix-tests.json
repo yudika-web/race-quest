@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "checks": [
+    "Nusantara requires all ten real registered worlds; losing any adapter blocks it",
+    "Classic mastery/retry/points and final round identical to Bali baseline",
+    "Actual ten-stage GrandPrix constructs each real track; mastery retry on round ten rolls back points",
+    "Every actual arena supports a full reference-driver lap in configured Nusantara order"
+  ],
+  "rounds": [
+    {
+      "stage": "kampung",
+      "track_length": 672.145011455072,
+      "round": 1,
+      "complete": false,
+      "reference_completion_seconds": 33.80000000000022
+    },
+    {
+      "stage": "kapuas",
+      "track_length": 693.3699859900285,
+      "round": 2,
+      "complete": false,
+      "reference_completion_seconds": 37.99999999999998
+    },
+    {
+      "stage": "hutan",
+      "track_length": 741.7982548157815,
+      "round": 3,
+      "complete": false,
+      "reference_completion_seconds": 39.84999999999987
+    },
+    {
+      "stage": "sambas",
+      "track_length": 687.843158633858,
+      "round": 4,
+      "complete": false,
+      "reference_completion_seconds": 34.900000000000155
+    },
+    {
+      "stage": "sintang",
+      "track_length": 905.661859280361,
+      "round": 5,
+      "complete": false,
+      "reference_completion_seconds": 45.24999999999957
+    },
+    {
+      "stage": "kapuas_hulu",
+      "track_length": 836.7049857258274,
+      "round": 6,
+      "complete": false,
+      "reference_completion_seconds": 42.34999999999973
+    },
+    {
+      "stage": "bengkayang",
+      "track_length": 801.0373516327412,
+      "round": 7,
+      "complete": false,
+      "reference_completion_seconds": 37.05000000000003
+    },
+    {
+      "stage": "yogyakarta",
+      "track_length": 826.2272224186845,
+      "round": 8,
+      "complete": false,
+      "reference_completion_seconds": 42.54999999999972
+    },
+    {
+      "stage": "bali",
+      "track_length": 777.2421643596647,
+      "round": 9,
+      "complete": false,
+      "reference_completion_seconds": 38.89999999999993
+    },
+    {
+      "stage": "bromo",
+      "track_length": 820.4104001844669,
+      "round": 10,
+      "complete": true,
+      "reference_completion_seconds": 43.44999999999967
+    }
+  ]
+}
