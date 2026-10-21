@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8A: Landmark Kayong Utara & Ketapang
+# BlokRaya PRO — PATCH 8B: Alur Siswa Ringkas
+
+**Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas saja) → Garasi → Mulai Balapan.** Grand Prix langsung menuju garasi. Satu carousel arena memakai panah, keyboard, swipe dan daftar ringkas; pengaturan opsional berada dalam accordion. State Bebas/GP terpisah, jumlah soal tetap mengikuti Guru, dan start ganda dicegah.
+
+- [ZIP playable terbaru](blokraya-patch8b-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8b-student-flow.html) · [ZIP review](blokraya-patch8b-review.zip).
+- [Galeri setiap tahap + sebelum–sesudah](visual-upgrade/patch8b/review.html) · [Stage HP](visual-upgrade/patch8b/screenshots/390x844-stage-weather.png) · [GP landscape](visual-upgrade/patch8b/screenshots/844x390-mode-grand-prix.png).
+- [Dokumentasi, sumber dan laporan pengujian](visual-upgrade/patch8b/README.md) · [Metrik](visual-upgrade/patch8b/metrics.json).
+
+HTML **24.967.184 byte** (+12.865). 61 pemeriksaan navigasi, 42 tampilan enam viewport, 39 kasus metadata carousel dan 235 pemeriksaan transisi empat GP. Offline/ekspor, PIN dan kompatibilitas data diuji; 13 world/14 pasangan model identik secara piksel dengan PATCH 8A. GP memakai fixture posisi untuk pengujian transisi. Landscape pendek mengizinkan scroll lokal terbatas; contoh ekspor guru sekitar 25,003 MB. HP fisik/FPS dan file:// cloud tidak diklaim lulus. Tidak merge/deployment atau mengubah index.html utama.
+
+# Tahap sebelumnya — PATCH 8A: Landmark Kayong Utara & Ketapang
 
 Sail Selat Karimata kini memakai siluet hijau asimetris berlubang, panel batu dan rangka putih berornamen. Ale-Ale mengikuti versi menara jam hijau-kuning pada lampiran; Keraton Matan mempunyai serambi panjang, gable bermahkota dan paviliun sudut. Plaza, taman dan promenade pantai dirapikan; track, physics, obstacle, AI, buff, alur siswa, PIN dan podium tetap dipertahankan.
 

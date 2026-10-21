@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 13 protected worlds render exact pixels after entering/leaving both revised stages",
+    "All 14 accepted GLB pairs render exact pixels; no model payload changed",
+    "No JS/WebGL errors"
+  ],
+  "worlds": [
+    {
+      "name": "kampung",
+      "exact": true,
+      "sha256": "d45ed13528b150855605e3930bf435709a4ec8911467a32109cf887c1e465ad5"
+    },
+    {
+      "name": "kapuas",
+      "exact": true,
+      "sha256": "963728331f235c7df180247d76c26857a298287cf48cd725ea70a21ce238d8e7"
+    },
+    {
+      "name": "hutan",
+      "exact": true,
+      "sha256": "b20c487c6a479724a45ea2c65713b355fa7617e93eb3bc8d1cbcbc03ec642a5d"
+    },
+    {
+      "name": "sambas",
+      "exact": true,
+      "sha256": "f17cb61ec01a6537b6fa4328350f830d3bb2cc5cdbba96eda9df59801ebe4c34"
+    },
+    {
+      "name": "sintang",
+      "exact": true,
+      "sha256": "5eb72f5f7fb673a4b90beb9907ea508a0529b208fee95a516ae005ca6370c68e"
+    },
+    {
+      "name": "kapuas_hulu",
+      "exact": true,
+      "sha256": "cab2c5af025b2f4a12d6ff14a8e3d72167a5745e0bb34f7ee6ffd9010b8d197a"
+    },
+    {
+      "name": "bengkayang",
+      "exact": true,
+      "sha256": "7e913aa46a44269548dbc89a23dd6342d3a0ac12fc1802273afa354c521c30a5"
+    },
+    {
+      "name": "yogyakarta",
+      "exact": true,
+      "sha256": "4d2fbc7ec025f62b8570dfa32af93c1ea3c9a7af3b8dd5b893b16135f05d4eba"
+    },
+    {
+      "name": "bali",
+      "exact": true,
+      "sha256": "b1838a26096302655a579d2f122a17cd90ccf2ac125cc4ee4b3e372708e20e5e"
+    },
+    {
+      "name": "bromo",
+      "exact": true,
+      "sha256": "0ab6112f5716c7b7bf0da63e661d94722b3370e42085cc337b15b2e2c5d0998b"
+    },
+    {
+      "name": "kubu_raya",
+      "exact": true,
+      "sha256": "cea8b748f229b685c08779d890dab35234561054781ab765f2b7fd72e98464de"
+    },
+    {
+      "name": "kayong_utara",
+      "exact": true,
+      "sha256": "504eb0dc925bc652b460bb5984eb2d315384c13f53410f265332db6310e217ee"
+    },
+    {
+      "name": "ketapang",
+      "exact": true,
+      "sha256": "3838f2fb0744f473c25330a5908c9ec090732b209c87b3ebdd72348ff43f1c61"
+    }
+  ],
+  "models": [
+    {
+      "name": "kart_arka.glb",
+      "exact": true,
+      "sha256": "3b1fca9e7a83c477a1ad9b1d0f83a4608b33f704bac67139cdfad34a69bd946b"
+    },
+    {
+      "name": "kart_nara.glb",
+      "exact": true,
+      "sha256": "468300587f49bf871fc1de1b288b4bb6a0c60a72a33a22e01c4946206a541873"
+    },
+    {
+      "name": "kart_bimo.glb",
+      "exact": true,
+      "sha256": "208a1aa0f379bdafae9850505765081f24d7f635fb2d02ee401fa830eba392fe"
+    },
+    {
+      "name": "kart_sora.glb",
+      "exact": true,
+      "sha256": "e4f17b870cb572393c155b8c7c7b67e71d577f17eb2a99cab60bde655d7b7629"
+    },
+    {
+      "name": "kart_bebek.glb",
+      "exact": true,
+      "sha256": "9c072b40c042ac5393e27bb0312f2965431b9aae439730f4976c73d2d9d86895"
+    },
+    {
+      "name": "kart_ayam.glb",
+      "exact": true,
+      "sha256": "581a3aa3a76627135b055eb1c7b7725b06dc69cb7dd35eb00911522a5c45fe0e"
+    },
+    {
+      "name": "kart_domba.glb",
+      "exact": true,
+      "sha256": "73d584ce5f6ba8d5bc72e18faca92a1fdab1353883db10ae7a28513011af4b7f"
+    },
+    {
+      "name": "kart_robot.glb",
+      "exact": true,
+      "sha256": "c4f3cfc571cb17e7463519dc5a5944758be4d50cd0936380f34c322aec385b0f"
+    },
+    {
+      "name": "kart_anjing.glb",
+      "exact": true,
+      "sha256": "fbe06d0a6603e739b7161674866ab7877eab077a59f6171672172b32aba08f2b"
+    },
+    {
+      "name": "kart_tikus.glb",
+      "exact": true,
+      "sha256": "36c97c5982e0568b9aff87023be5273541c9ac1e7a9e45714f48aa2dc57447f5"
+    },
+    {
+      "name": "kart_rubah.glb",
+      "exact": true,
+      "sha256": "8d242609895ddbb885742b66db3e1ef11dada1bd1502363f62e6e3d3fada7b87"
+    },
+    {
+      "name": "kart_panda.glb",
+      "exact": true,
+      "sha256": "964dc23df30817181d7797d8f7f728ac0fc99384db2f6c08589869c406df718f"
+    },
+    {
+      "name": "kart_koala.glb",
+      "exact": true,
+      "sha256": "e9b265d9593b5079d9581c5b5d6ea6434cbc216232bfb47c5765c8157579c59e"
+    },
+    {
+      "name": "kart_rakun.glb",
+      "exact": true,
+      "sha256": "3b265a774b52d75680fecca218c0887481280e0f2011857010ec645e526fb708"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,12 @@
+BLOKRAYA PRO — PATCH 8B
+Ekstrak ZIP, lalu buka blokraya-patch8b-student-flow.html di browser modern.
+HTML mandiri: poster, model, audio, 13 arena dan thumbnail sudah tertanam; tidak memakai CDN.
+
+Mode Siswa: Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas saja) → Garasi → Mulai Balapan.
+Grand Prix langsung menuju garasi setelah memilih cup.
+Gunakan panah kiri/kanan, swipe di preview, atau daftar ringkas untuk arena.
+Pengaturan Lanjutan bersifat opsional; jumlah soal mengikuti Guru dan tetap read-only.
+Mode Guru tetap memakai PIN lokal perangkat/origin yang sama. Jangan menghapus penyimpanan browser untuk mencoba patch.
+
+Bukti offline memakai Chromium dengan jaringan dinonaktifkan. Navigasi file:// tidak dapat diuji pada browser cloud yang dikelola; tidak diklaim telah diuji. Tidak ada server/CDN wajib dalam HTML.
+HP fisik dan FPS tidak diuji. Baca visual-upgrade/patch8b/README.md pada ZIP review untuk hasil pengujian dan batasannya.

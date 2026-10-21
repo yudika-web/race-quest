@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Real local HTTP server serves exact release HTML without intercepting the document",
+    "Student entry starts the replaced wizard on normal HTTP navigation"
+  ],
+  "errors": [],
+  "html_sha256": "137e69a297c3904d5290e1c34fccfce12bcdf0a8140e979df5188af195c33155",
+  "file_navigation": "blocked_or_unavailable",
+  "file_navigation_error": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-patch8b-student-flow.html"
+}

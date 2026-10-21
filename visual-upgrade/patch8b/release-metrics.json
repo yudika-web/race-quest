@@ -1,0 +1,157 @@
+{
+  "baseline_commit": "83c2213f6b6791bfd2ad9f962a356a912bdf5b49",
+  "html_file": "blokraya-patch8b-student-flow.html",
+  "html_bytes": 24967184,
+  "baseline_bytes": 24954319,
+  "growth_bytes": 12865,
+  "html_sha256": "137e69a297c3904d5290e1c34fccfce12bcdf0a8140e979df5188af195c33155",
+  "under_25_decimal_MB": true,
+  "teacher_export_bytes": 25002581,
+  "mounted_teacher_export_bytes": 25002647,
+  "new_asset_bytes": 0,
+  "new_geometry": 0,
+  "protected_script_payloads": 50,
+  "protected_world_pixel_comparisons": 13,
+  "protected_character_vehicle_pixel_comparisons": 14,
+  "viewport_layout_checks": 42,
+  "carousel_metadata_layout_cases": 39,
+  "viewports": [
+    "1024x768",
+    "1366x768",
+    "1920x1080",
+    "390x844",
+    "768x1024",
+    "844x390"
+  ],
+  "local_scroll_pixels": {
+    "1920x1080 identity": 0,
+    "1920x1080 difficulty": 0,
+    "1920x1080 mode-free": 0,
+    "1920x1080 advanced": 0,
+    "1920x1080 mode-grand-prix": 0,
+    "1920x1080 stage-weather": 0,
+    "1920x1080 garage": 0,
+    "1366x768 identity": 0,
+    "1366x768 difficulty": 0,
+    "1366x768 mode-free": 0,
+    "1366x768 advanced": 27,
+    "1366x768 mode-grand-prix": 0,
+    "1366x768 stage-weather": 0,
+    "1366x768 garage": 0,
+    "390x844 identity": 0,
+    "390x844 difficulty": 0,
+    "390x844 mode-free": 0,
+    "390x844 advanced": 16,
+    "390x844 mode-grand-prix": 1,
+    "390x844 stage-weather": 0,
+    "390x844 garage": 0,
+    "844x390 identity": 0,
+    "844x390 difficulty": 0,
+    "844x390 mode-free": 0,
+    "844x390 advanced": 269,
+    "844x390 mode-grand-prix": 49,
+    "844x390 stage-weather": 0,
+    "844x390 garage": 0,
+    "768x1024 identity": 0,
+    "768x1024 difficulty": 0,
+    "768x1024 mode-free": 0,
+    "768x1024 advanced": 0,
+    "768x1024 mode-grand-prix": 0,
+    "768x1024 stage-weather": 0,
+    "768x1024 garage": 0,
+    "1024x768 identity": 0,
+    "1024x768 difficulty": 0,
+    "1024x768 mode-free": 0,
+    "1024x768 advanced": 27,
+    "1024x768 mode-grand-prix": 0,
+    "1024x768 stage-weather": 0,
+    "1024x768 garage": 0
+  },
+  "horizontal_overflow_pixels": 0,
+  "touch_swipes": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "before": "1 / 13",
+      "after": "2 / 13",
+      "input": "Chromium CDP touchStart/move/end"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "before": "1 / 13",
+      "after": "2 / 13",
+      "input": "Chromium CDP touchStart/move/end"
+    }
+  ],
+  "grand_prix_successful_rounds": 29,
+  "grand_prix_retry_rounds": 4,
+  "GP_method": "Actual teacher/student UI and world renderer. Test-only positions at quiz gates/finish; not full manual Grand Prix races.",
+  "offline_HTTP_asset_requests": 0,
+  "reports": {
+    "scope-tests": {
+      "status": "passed",
+      "checks": 6
+    },
+    "navigation-tests": {
+      "status": "passed",
+      "checks": 61
+    },
+    "layout-tests": {
+      "status": "passed",
+      "checks": 6
+    },
+    "render-parity-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "grand-prix-browser-tests": {
+      "status": "passed",
+      "checks": 235
+    },
+    "compatibility-tests": {
+      "status": "passed",
+      "checks": 13
+    },
+    "offline-tests": {
+      "status": "passed",
+      "checks": 28
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 2
+    },
+    "carousel-layout-tests": {
+      "status": "passed",
+      "checks": 3
+    }
+  },
+  "limits": [
+    "No new full physics/manual race benchmark: engine, worlds, assets and AI unchanged and protected by hashes/render comparison",
+    "GP transition tests use explicit quiz/finish position fixtures, not full manual driving",
+    "Network-disabled Chromium used for offline/export; managed browser blocks direct file:// navigation",
+    "Physical phones, device FPS and production deployment not tested",
+    "Grand Prix selection in short landscape allows limited local scrolling; footer remains visible",
+    "Teacher export may exceed the 25 MB optimization target by configuration data; no features/assets removed"
+  ],
+  "playable_zip": {
+    "file": "blokraya-patch8b-playable.zip",
+    "bytes": 12999854,
+    "sha256": "94532d75c1672b4cd84fc6409a1f2dc46dad54344159c0d1eda44461ac68121b",
+    "CRC_OK": true,
+    "HTML_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-patch8b-review.zip",
+    "bytes": 41555376,
+    "sha256": "25c3fdc109c09a4e2a2f0aba84b1ef781e5496fce47569aa8bfbe2519ee3a805",
+    "CRC_OK": true,
+    "HTML_identical": true,
+    "entries": 95
+  }
+}
