@@ -1,0 +1,147 @@
+{
+  "baseline_commit": "de6bd8009558d53a5c110644cdd4589e5cf3f731",
+  "html_file": "blokraya-patch8a-landmarks.html",
+  "html_bytes": 24954319,
+  "growth_bytes": 21557,
+  "remaining_to_25M": 45681,
+  "under_25_decimal_MB": true,
+  "html_sha256": "8413c27e2b9e3e98ef0dc63b7147c37db1072b8cd56402ad6240ac84a3a166fb",
+  "new_GLBS": 0,
+  "new_downloaded_textures": 0,
+  "landmark_source_sha256": "160dab077bcc81203960c601430aeae88a61e548d611ab5f6dc5d8c52040e9cd",
+  "changed_thumbnails": [
+    "kayong_utara-landmark.webp",
+    "kayong_utara-race.webp",
+    "ketapang-landmark.webp",
+    "ketapang-race.webp"
+  ],
+  "teacher_export_bytes": 24989731,
+  "offline_HTTP_asset_requests": 0,
+  "protected_script_payloads": 51,
+  "protected_tracked_files": 2995,
+  "protected_world_pixel_comparisons": 11,
+  "protected_character_vehicle_pixel_comparisons": 14,
+  "full_reference_driver_races": 18,
+  "completed_AI": 72,
+  "reports": {
+    "scope-tests": {
+      "status": "passed",
+      "checks": 4
+    },
+    "physics-tests": {
+      "status": "passed",
+      "checks": 2
+    },
+    "cup-tests": {
+      "status": "passed",
+      "checks": 4
+    },
+    "render-parity-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "browser-tests": {
+      "status": "passed",
+      "checks": 41
+    },
+    "offline-tests": {
+      "status": "passed",
+      "checks": 28
+    },
+    "extreme-render-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "kayong_utara-world-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "ketapang-world-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "kayong_utara-clearance-tests": {
+      "status": "passed",
+      "checks": 0
+    },
+    "ketapang-clearance-tests": {
+      "status": "passed",
+      "checks": 0
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 3
+    }
+  },
+  "environments": {
+    "kayong_utara": {
+      "triangles_before": 74130,
+      "triangles_after": 94596,
+      "triangle_growth": 20466,
+      "colour_batches_before": 32,
+      "colour_batches_after": 38,
+      "shadow_batches_after": 16,
+      "runtime_label_textures_after": 11,
+      "renderer_samples": 108,
+      "colour_draw_call_range": [
+        100,
+        218
+      ],
+      "colour_triangle_range": [
+        107940,
+        175631
+      ],
+      "safe_lane_samples": 1551,
+      "chase_camera_frames": 96,
+      "unintended_road_obstructions": 0,
+      "camera_penetrations": 0,
+      "GPU_cleanup_all_transitions": true
+    },
+    "ketapang": {
+      "triangles_before": 65930,
+      "triangles_after": 99670,
+      "triangle_growth": 33740,
+      "colour_batches_before": 50,
+      "colour_batches_after": 57,
+      "shadow_batches_after": 21,
+      "runtime_label_textures_after": 14,
+      "renderer_samples": 108,
+      "colour_draw_call_range": [
+        119,
+        233
+      ],
+      "colour_triangle_range": [
+        113012,
+        180703
+      ],
+      "safe_lane_samples": 1564,
+      "chase_camera_frames": 96,
+      "unintended_road_obstructions": 0,
+      "camera_penetrations": 0,
+      "GPU_cleanup_all_transitions": true
+    }
+  },
+  "reference_limit": "Web reference pages: CONNECT403 / browser tunnel failure. User-provided images visually compared in conversation. Original image files not exposed in workspace, so no photo is fabricated/embedded in offline photo-model-review.html; local photo chooser provided.",
+  "test_limits": [
+    "Cloud Chromium rendering; physical-phone performance/FPS not measured",
+    "Direct file:// blocked in managed browser baseline; offline tests use network-disabled contexts and locally intercepted documents",
+    "UI quiz/result checks use documented pose fixtures; full reference-driver races do not skip positions",
+    "No new full manual Grand Prix benchmark; exact metadata and engine preservation plus dynamic cup unit regression"
+  ],
+  "playable_zip": {
+    "file": "blokraya-patch8a-playable.zip",
+    "bytes": 12997360,
+    "sha256": "a71092548e950a036448790f24178e2205877b2b0677934f4d7a2e1c45409ac9",
+    "CRC_OK": true,
+    "HTML_identical": true,
+    "entries": 2
+  },
+  "review_zip": {
+    "file": "blokraya-patch8a-review.zip",
+    "bytes": 35135017,
+    "sha256": "e6f97f851ba1ed89d0cd02fdda58d65237a9fccd54f9ff970470b97a26180f90",
+    "CRC_OK": true,
+    "HTML_identical": true,
+    "entries": 95
+  }
+}

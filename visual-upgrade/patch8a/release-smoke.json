@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Final distributed HTML SHA and first loading minimum",
+    "Student identity → stage/weather → race settings → character → actual race",
+    "Thirteen worlds, fourteen characters, nine buffs, four Smart AI, locked teacher and clean WebGL"
+  ],
+  "errors": [],
+  "html_sha256": "8413c27e2b9e3e98ef0dc63b7147c37db1072b8cd56402ad6240ac84a3a166fb",
+  "loading_hidden_at_ms": 3860.0999999940395
+}

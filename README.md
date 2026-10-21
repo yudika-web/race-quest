@@ -1,4 +1,14 @@
-# BlokRaya PRO — Finalisasi 13 Arena (Prompt 7)
+# BlokRaya PRO — PATCH 8A: Landmark Kayong Utara & Ketapang
+
+Sail Selat Karimata kini memakai siluet hijau asimetris berlubang, panel batu dan rangka putih berornamen. Ale-Ale mengikuti versi menara jam hijau-kuning pada lampiran; Keraton Matan mempunyai serambi panjang, gable bermahkota dan paviliun sudut. Plaza, taman dan promenade pantai dirapikan; track, physics, obstacle, AI, buff, alur siswa, PIN dan podium tetap dipertahankan.
+
+- [ZIP playable terbaru](blokraya-patch8a-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8a-landmarks.html) · [ZIP review](blokraya-patch8a-review.zip).
+- [Sail sebelum–sesudah](visual-upgrade/patch8a/screenshots/comparison-sail-close.jpg) · [Ale-Ale](visual-upgrade/patch8a/screenshots/comparison-ale-close.jpg) · [Keraton Matan](visual-upgrade/patch8a/screenshots/comparison-matan-close.jpg).
+- [Dokumentasi, kesesuaian referensi, screenshot dan uji](visual-upgrade/patch8a/README.md) · [Metrik](visual-upgrade/patch8a/metrics.json).
+
+HTML **24.954.319 byte** (+21.557). 18 balapan driver penuh/72 AI finish; 216 sampel renderer, 3.115 sampel lajur dan 192 frame chase, cleanup GPU, kuis/buff/hasil dan offline diuji. 11 world lain serta 14 pasangan GLB identik secara piksel. Foto lampiran menjadi acuan visual; situs sumber diblokir 403 dan foto asli belum dibundel pada lembar review. HP fisik/FPS tidak diklaim diuji. Tidak merge/deployment atau mengganti index.html utama.
+
+# Tahap sebelumnya — Finalisasi 13 Arena (Prompt 7)
 
 Versi final untuk tinjauan melanjutkan HEAD 6J. **13 arena playable**, 14 pasangan karakter/kendaraan dan empat turnamen dipertahankan. Alur siswa kini **Nama dan Kelas → Arena dan Cuaca → Pengaturan Balapan → Karakter → Mulai Game**. Kelas siswa dicatat pada hasil tanpa mengubah bank soal/PIN/data lama.
 

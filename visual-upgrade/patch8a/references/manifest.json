@@ -1,0 +1,31 @@
+{
+  "authority": "Images visibly supplied by user in conversation; original image bytes are not exposed as local attachments in this workspace.",
+  "web_access": "All four requested pages blocked: CONNECT 403; browser ERR_TUNNEL_CONNECTION_FAILED.",
+  "reference_images_embedded": false,
+  "photos": [
+    {
+      "id": "sail",
+      "title": "Sail Selat Karimata",
+      "image": "sail-close",
+      "source": "https://kalbar.antaranews.com/foto/520877/tugu-sail-selat-karimata/2",
+      "features": "Bidang hijau asimetris, lubang bundar, garis putih, panel abu-abu, rangka putih melengkung dan ornamen cokelat; alas putih bundar. Foto kedua lampiran pengguna."
+    },
+    {
+      "id": "ale",
+      "title": "Ale-Ale: versi pada lampiran",
+      "image": "ale-close",
+      "source": "https://www.beritaketapang.com/gayahidup-kesehatan/2431736077/di-bawah-atap-melayu-di-tengah-cangkang-emas-cerita-dari-tugu-ale-ale-ketapang",
+      "features": "Menara jam hijau-kuning, atap Melayu bersilang, dua cangkang pada alas samping. Foto/gambar keempat lampiran; tidak digabung dengan versi 2019."
+    },
+    {
+      "id": "matan",
+      "title": "Keraton Matan",
+      "image": "matan-close",
+      "source": "https://www.pustaka-bpkxii.org/pustaka/arsitektur-keraton-matan-kabupaten-ketapang",
+      "features": "Fasad kuning-hijau, serambi panjang, gable pusat bermahkota dan paviliun terbuka di sudut kanan. Foto ketiga lampiran pengguna."
+    }
+  ],
+  "excluded": "First attachment depicts a mosque, not one of the three target landmarks.",
+  "older_ale_source": "https://commons.wikimedia.org/wiki/File:Tugu_Ale-ale_Ketapang_2019.jpg",
+  "accuracy_limit": "Visual interpretation from provided views, not measured reconstruction or verified architectural survey."
+}

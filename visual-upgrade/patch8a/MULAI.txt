@@ -1,0 +1,12 @@
+BLOKRAYA PRO — PATCH 8A
+
+Ekstrak ZIP playable, lalu buka blokraya-patch8a-landmarks.html dengan browser modern.
+Aset tertanam; tidak memakai CDN/backend. 13 arena dan 14 karakter tetap tersedia sesuai aturan game.
+Alur siswa dan PIN Guru tetap sama. Data lokal tetap memakai kunci lama pada browser/origin yang sama.
+
+Patch memperbaiki Sail Selat Karimata, Ale-Ale versi menara jam, Keraton Matan, plaza dan pantai.
+Pada ZIP review, HTML berada di visual-upgrade/blokraya-patch8a-landmarks.html dan laporan di visual-upgrade/patch8a/README.md.
+Lembar photo-model-review.html memuat render lama/baru dan pemilih foto lokal: foto referensi asli belum dibundel karena file gambarnya tidak tersedia di workspace dan situs sumber ditolak 403. Tidak ada foto pengganti yang difabrikasi.
+
+Pengujian offline cloud memakai jaringan mati dan dokumen lokal; file:// diblokir administrator browser uji.
+HP fisik/FPS dan seluruh Grand Prix manual belum diuji ulang. Tidak ada merge, deployment atau perubahan index.html utama.

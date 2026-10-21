@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "checks": [
+    "New world/Smart AI/buffs kayong_utara 1366",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 1366 0",
+    "Correct answer earns item kayong_utara 1366",
+    "Two-slot item use retained kayong_utara 1366",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 1366 1",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 1366 2",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 1366 3",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 1366 4",
+    "Academic results/stage/class persist kayong_utara 1366",
+    "No WebGL error kayong_utara 1366",
+    "New world/Smart AI/buffs kayong_utara 844",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 844 0",
+    "Correct answer earns item kayong_utara 844",
+    "Two-slot item use retained kayong_utara 844",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 844 1",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 844 2",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 844 3",
+    "Quiz freezes models/obstacles/AI/clock kayong_utara 844 4",
+    "Academic results/stage/class persist kayong_utara 844",
+    "No WebGL error kayong_utara 844",
+    "New world/Smart AI/buffs ketapang 1366",
+    "Quiz freezes models/obstacles/AI/clock ketapang 1366 0",
+    "Correct answer earns item ketapang 1366",
+    "Two-slot item use retained ketapang 1366",
+    "Quiz freezes models/obstacles/AI/clock ketapang 1366 1",
+    "Quiz freezes models/obstacles/AI/clock ketapang 1366 2",
+    "Quiz freezes models/obstacles/AI/clock ketapang 1366 3",
+    "Quiz freezes models/obstacles/AI/clock ketapang 1366 4",
+    "Academic results/stage/class persist ketapang 1366",
+    "No WebGL error ketapang 1366",
+    "New world/Smart AI/buffs ketapang 844",
+    "Quiz freezes models/obstacles/AI/clock ketapang 844 0",
+    "Correct answer earns item ketapang 844",
+    "Two-slot item use retained ketapang 844",
+    "Quiz freezes models/obstacles/AI/clock ketapang 844 1",
+    "Quiz freezes models/obstacles/AI/clock ketapang 844 2",
+    "Quiz freezes models/obstacles/AI/clock ketapang 844 3",
+    "Quiz freezes models/obstacles/AI/clock ketapang 844 4",
+    "Academic results/stage/class persist ketapang 844",
+    "No WebGL error ketapang 844",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "results": [
+    {
+      "id": "kayong_utara",
+      "width": 1366,
+      "score": 100
+    },
+    {
+      "id": "kayong_utara",
+      "width": 844,
+      "score": 100
+    },
+    {
+      "id": "ketapang",
+      "width": 1366,
+      "score": 100
+    },
+    {
+      "id": "ketapang",
+      "width": 844,
+      "score": 100
+    }
+  ],
+  "method": "Actual student onboarding, HUD, questions, buff and storage. Test-only pose fixtures for landmark screenshots and quiz gates/finish; full continuous driving is covered separately by physics-tests."
+}
