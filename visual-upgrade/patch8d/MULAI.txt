@@ -1,0 +1,17 @@
+BLOKRAYA PRO — PATCH 8D: FULLSCREEN & KEMUDI ANALOG
+Ekstrak ZIP, lalu buka blokraya-patch8d-controls.html dengan browser modern.
+HTML mandiri sudah berisi seluruh poster, audio, 14 karakter/kendaraan dan 13 arena. Tidak memakai CDN.
+
+Alur Siswa tetap: Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas) → Garasi → Mulai Balapan.
+Pada klik Mulai Balapan, game meminta fullscreen jika API/browser mengizinkan. Jika ditolak/tidak tersedia, balapan tetap berjalan di viewport browser. Tombol fullscreen HUD dapat dipakai untuk masuk/keluar; kontrol browser tetap tersedia.
+
+HP: analog kiri bawah mengatur besar belokan. Jari kanan dapat memakai gas/rem, drift, loncat dan buff bersamaan. Lepaskan analog untuk netral.
+Pengaturan Suara & Kontrol atau Pause menyediakan Model kemudi sentuh: Analog / Tombol Kiri-Kanan. Pilihan tampil/sembunyikan kontrol sentuh tetap tersedia dan disimpan pada browser yang sama.
+Desktop: WASD/panah, C drift, Shift loncat, E/Spasi buff dan shortcut lama tetap berlaku.
+
+PIN Guru, bank soal, hasil belajar dan progres memakai kunci penyimpanan lama. Jangan menghapus penyimpanan browser untuk mencoba patch.
+Podium PATCH 8C yang sudah ada dipertahankan.
+
+Uji menggunakan Chromium dengan emulasi HP dan jaringan dimatikan; bukan HP Android/iPhone fisik. Fullscreen tidak dapat dijamin pada semua browser, khususnya iOS. CSS tidak dapat menghapus toolbar sistem.
+Browser cloud menolak navigasi file:// melalui kebijakan administrator. Pengujian offline memakai konteks tanpa jaringan dan HTML lokal yang dipenuhi oleh harness, serta ekspor yang dimainkan kembali. Tidak diklaim lulus file:// pada browser cloud tersebut.
+Screenshot, sumber dan laporan tersedia dalam ZIP review di visual-upgrade/patch8d/.

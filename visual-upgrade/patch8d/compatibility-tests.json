@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "Legacy HUD preference loads with analog default",
+    "Saving analog preference preserves existing and unknown HUD fields",
+    "Student onboarding does not award tokens or free unlocks",
+    "Mounted export has bounded growth without duplicate avatar data",
+    "Export after mounted wizard removes private student inputs",
+    "Export after mounted wizard excludes PIN",
+    "Exported wizard starts with blank identity",
+    "Re-exported mounted wizard can reach garage without duplicate IDs",
+    "No duplicate form/stepper after export",
+    "Teacher bank, class, mastery and question count unchanged",
+    "Legacy tokens, XP and unlocks unchanged",
+    "Legacy three-stage progress unchanged",
+    "Existing PIN verifier survives reload and export",
+    "Reload locks teacher authentication",
+    "Control style and legacy minimap preference survive reload",
+    "No JavaScript errors in mounted export / data compatibility"
+  ],
+  "errors": [],
+  "mounted_export_bytes": 25038569
+}

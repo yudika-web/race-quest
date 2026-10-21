@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "Wizard footer stays inside shortened visual viewport including offset",
+    "Name/class remain reachable via local scroll",
+    "Teacher PIN create remains usable on short landscape",
+    "Wrong PIN remains rejected",
+    "Correct PIN still logs in",
+    "Logout locks teacher",
+    "No errors in viewport/PIN targeted regression"
+  ],
+  "errors": [],
+  "fixtures": [
+    "visualViewport height=300 and offsetTop=70 simulate browser UI/keyboard space; not a physical keyboard test"
+  ]
+}

@@ -1,0 +1,2728 @@
+{
+  "status": "passed",
+  "checks": [
+    "1920x1080 garage action visible #startRaceBtn",
+    "1920x1080 garage action visible #garage [data-act=setup]",
+    "1920x1080 garage action visible #garageStageBtn",
+    "1920x1080 garage action visible #characterNext",
+    "1920x1080 garage action visible #characterPrevious",
+    "1920x1080 garage action visible #garagePreviewHost",
+    "1920x1080 non-fullscreen race works after rejection",
+    "1920x1080 fullscreen attempted during user activation",
+    "1920x1080 HUD in viewport .rq-summary",
+    "1920x1080 HUD in viewport .rq-mission",
+    "1920x1080 HUD in viewport .rq-toolbar",
+    "1920x1080 HUD in viewport #inventoryDock",
+    "1920x1080 HUD in viewport #speedDock",
+    "1920x1080 HUD in viewport #mapRail",
+    "1920x1080 no HUD dock overlaps []",
+    "1920x1080 analog only for touch",
+    "1920x1080 renderer fills available viewport",
+    "1920x1080 fullscreen renderer fits visible viewport",
+    "1920x1080 exit fullscreen resizes without reload",
+    "1920x1080 pause bounded",
+    "1920x1080 quiz/footer bounded",
+    "1920x1080 quiz continue remains visible",
+    "1920x1080 no WebGL errors",
+    "1366x768 garage action visible #startRaceBtn",
+    "1366x768 garage action visible #garage [data-act=setup]",
+    "1366x768 garage action visible #garageStageBtn",
+    "1366x768 garage action visible #characterNext",
+    "1366x768 garage action visible #characterPrevious",
+    "1366x768 garage action visible #garagePreviewHost",
+    "1366x768 non-fullscreen race works after rejection",
+    "1366x768 fullscreen attempted during user activation",
+    "1366x768 HUD in viewport .rq-summary",
+    "1366x768 HUD in viewport .rq-mission",
+    "1366x768 HUD in viewport .rq-toolbar",
+    "1366x768 HUD in viewport #inventoryDock",
+    "1366x768 HUD in viewport #speedDock",
+    "1366x768 HUD in viewport #mapRail",
+    "1366x768 no HUD dock overlaps []",
+    "1366x768 analog only for touch",
+    "1366x768 renderer fills available viewport",
+    "1366x768 fullscreen renderer fits visible viewport",
+    "1366x768 exit fullscreen resizes without reload",
+    "1366x768 pause bounded",
+    "1366x768 quiz/footer bounded",
+    "1366x768 quiz continue remains visible",
+    "1366x768 no WebGL errors",
+    "768x1024 garage action visible #startRaceBtn",
+    "768x1024 garage action visible #garage [data-act=setup]",
+    "768x1024 garage action visible #garageStageBtn",
+    "768x1024 garage action visible #characterNext",
+    "768x1024 garage action visible #characterPrevious",
+    "768x1024 garage action visible #garagePreviewHost",
+    "768x1024 non-fullscreen race works after rejection",
+    "768x1024 fullscreen attempted during user activation",
+    "768x1024 HUD in viewport .rq-summary",
+    "768x1024 HUD in viewport .rq-mission",
+    "768x1024 HUD in viewport .rq-toolbar",
+    "768x1024 HUD in viewport #inventoryDock",
+    "768x1024 HUD in viewport #speedDock",
+    "768x1024 HUD in viewport #mapRail",
+    "768x1024 HUD in viewport #analogSteering",
+    "768x1024 HUD in viewport #actionControls",
+    "768x1024 no HUD dock overlaps []",
+    "768x1024 analog only for touch",
+    "768x1024 renderer fills available viewport",
+    "768x1024 fullscreen renderer fits visible viewport",
+    "768x1024 exit fullscreen resizes without reload",
+    "768x1024 pause bounded",
+    "768x1024 quiz/footer bounded",
+    "768x1024 quiz continue remains visible",
+    "768x1024 no WebGL errors",
+    "1024x768 garage action visible #startRaceBtn",
+    "1024x768 garage action visible #garage [data-act=setup]",
+    "1024x768 garage action visible #garageStageBtn",
+    "1024x768 garage action visible #characterNext",
+    "1024x768 garage action visible #characterPrevious",
+    "1024x768 garage action visible #garagePreviewHost",
+    "1024x768 non-fullscreen race works after rejection",
+    "1024x768 fullscreen attempted during user activation",
+    "1024x768 HUD in viewport .rq-summary",
+    "1024x768 HUD in viewport .rq-mission",
+    "1024x768 HUD in viewport .rq-toolbar",
+    "1024x768 HUD in viewport #inventoryDock",
+    "1024x768 HUD in viewport #speedDock",
+    "1024x768 HUD in viewport #mapRail",
+    "1024x768 HUD in viewport #analogSteering",
+    "1024x768 HUD in viewport #actionControls",
+    "1024x768 no HUD dock overlaps []",
+    "1024x768 analog only for touch",
+    "1024x768 renderer fills available viewport",
+    "1024x768 fullscreen renderer fits visible viewport",
+    "1024x768 exit fullscreen resizes without reload",
+    "1024x768 pause bounded",
+    "1024x768 quiz/footer bounded",
+    "1024x768 quiz continue remains visible",
+    "1024x768 no WebGL errors",
+    "390x844 garage action visible #startRaceBtn",
+    "390x844 garage action visible #garage [data-act=setup]",
+    "390x844 garage action visible #garageStageBtn",
+    "390x844 garage action visible #characterNext",
+    "390x844 garage action visible #characterPrevious",
+    "390x844 garage action visible #garagePreviewHost",
+    "390x844 non-fullscreen race works after rejection",
+    "390x844 fullscreen attempted during user activation",
+    "390x844 HUD in viewport .rq-summary",
+    "390x844 HUD in viewport .rq-mission",
+    "390x844 HUD in viewport .rq-toolbar",
+    "390x844 HUD in viewport #inventoryDock",
+    "390x844 HUD in viewport #speedDock",
+    "390x844 HUD in viewport #mapRail",
+    "390x844 HUD in viewport #analogSteering",
+    "390x844 HUD in viewport #actionControls",
+    "390x844 no HUD dock overlaps []",
+    "390x844 analog only for touch",
+    "390x844 renderer fills available viewport",
+    "390x844 fullscreen renderer fits visible viewport",
+    "390x844 exit fullscreen resizes without reload",
+    "390x844 pause bounded",
+    "390x844 quiz/footer bounded",
+    "390x844 quiz continue remains visible",
+    "390x844 no WebGL errors",
+    "844x390 garage action visible #startRaceBtn",
+    "844x390 garage action visible #garage [data-act=setup]",
+    "844x390 garage action visible #garageStageBtn",
+    "844x390 garage action visible #characterNext",
+    "844x390 garage action visible #characterPrevious",
+    "844x390 garage action visible #garagePreviewHost",
+    "844x390 non-fullscreen race works after rejection",
+    "844x390 fullscreen attempted during user activation",
+    "844x390 HUD in viewport .rq-summary",
+    "844x390 HUD in viewport .rq-mission",
+    "844x390 HUD in viewport .rq-toolbar",
+    "844x390 HUD in viewport #inventoryDock",
+    "844x390 HUD in viewport #speedDock",
+    "844x390 HUD in viewport #mapRail",
+    "844x390 HUD in viewport #analogSteering",
+    "844x390 HUD in viewport #actionControls",
+    "844x390 no HUD dock overlaps []",
+    "844x390 analog only for touch",
+    "844x390 renderer fills available viewport",
+    "844x390 fullscreen renderer fits visible viewport",
+    "844x390 exit fullscreen resizes without reload",
+    "844x390 pause bounded",
+    "844x390 quiz/footer bounded",
+    "844x390 quiz continue remains visible",
+    "844x390 no WebGL errors",
+    "320x568 garage action visible #startRaceBtn",
+    "320x568 garage action visible #garage [data-act=setup]",
+    "320x568 garage action visible #garageStageBtn",
+    "320x568 garage action visible #characterNext",
+    "320x568 garage action visible #characterPrevious",
+    "320x568 garage action visible #garagePreviewHost",
+    "320x568 non-fullscreen race works after rejection",
+    "320x568 fullscreen attempted during user activation",
+    "320x568 HUD in viewport .rq-summary",
+    "320x568 HUD in viewport .rq-mission",
+    "320x568 HUD in viewport .rq-toolbar",
+    "320x568 HUD in viewport #inventoryDock",
+    "320x568 HUD in viewport #speedDock",
+    "320x568 HUD in viewport #mapRail",
+    "320x568 HUD in viewport #analogSteering",
+    "320x568 HUD in viewport #actionControls",
+    "320x568 no HUD dock overlaps []",
+    "320x568 analog only for touch",
+    "320x568 renderer fills available viewport",
+    "320x568 fullscreen renderer fits visible viewport",
+    "320x568 exit fullscreen resizes without reload",
+    "320x568 pause bounded",
+    "320x568 quiz/footer bounded",
+    "320x568 quiz continue remains visible",
+    "320x568 no WebGL errors",
+    "No JavaScript errors across responsive flows"
+  ],
+  "layouts": [
+    {
+      "viewport": "1920x1080",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 18,
+          "y": 18,
+          "w": 270,
+          "h": 103,
+          "right": 288,
+          "bottom": 121
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 820,
+          "y": 18,
+          "w": 280,
+          "h": 46.59375,
+          "right": 1100,
+          "bottom": 64.59375
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 1708,
+          "y": 18,
+          "w": 194,
+          "h": 44,
+          "right": 1902,
+          "bottom": 62
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 18,
+          "y": 996,
+          "w": 300,
+          "h": 66,
+          "right": 318,
+          "bottom": 1062
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 860,
+          "y": 1002.609375,
+          "w": 200,
+          "h": 59.390625,
+          "right": 1060,
+          "bottom": 1062
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 1754,
+          "y": 867,
+          "w": 148,
+          "h": 195,
+          "right": 1902,
+          "bottom": 1062
+        },
+        {
+          "s": "#analogSteering",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 0
+        },
+        "width": 1248,
+        "height": 702
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 510,
+              "y": 329.75,
+              "w": 900,
+              "h": 420.5,
+              "right": 1410,
+              "bottom": 750.25
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 511,
+              "y": 675.75,
+              "w": 898,
+              "h": 73.5,
+              "right": 1409,
+              "bottom": 749.25
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 535,
+              "y": 688.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 663.171875,
+              "bottom": 737.25
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 1271.765625,
+              "y": 689.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1385,
+              "bottom": 736.25
+            }
+          ],
+          "overflow": {
+            "width": 1920,
+            "viewport": 1920,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 510,
+              "y": 319.25,
+              "w": 900,
+              "h": 441.5,
+              "right": 1410,
+              "bottom": 760.75
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 511,
+              "y": 686.25,
+              "w": 898,
+              "h": 73.5,
+              "right": 1409,
+              "bottom": 759.75
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 535,
+              "y": 699.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 663.171875,
+              "bottom": 747.75
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 1271.765625,
+              "y": 700.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1385,
+              "bottom": 746.75
+            }
+          ],
+          "overflow": {
+            "width": 1920,
+            "viewport": 1920,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 510,
+              "y": 306,
+              "w": 900,
+              "h": 468,
+              "right": 1410,
+              "bottom": 774
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 511,
+              "y": 699.5,
+              "w": 898,
+              "h": 73.5,
+              "right": 1409,
+              "bottom": 773
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 535,
+              "y": 712.5,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 663.171875,
+              "bottom": 761
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 1271.765625,
+              "y": 713.5,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1385,
+              "bottom": 760
+            }
+          ],
+          "overflow": {
+            "width": 1920,
+            "viewport": 1920,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 510,
+              "y": 208.140625,
+              "w": 900,
+              "h": 663.71875,
+              "right": 1410,
+              "bottom": 871.859375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 511,
+              "y": 797.359375,
+              "w": 898,
+              "h": 73.5,
+              "right": 1409,
+              "bottom": 870.859375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 535,
+              "y": 810.359375,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 663.171875,
+              "bottom": 858.859375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 1217.109375,
+              "y": 811.359375,
+              "w": 167.890625,
+              "h": 46.5,
+              "right": 1385,
+              "bottom": 857.859375
+            }
+          ],
+          "overflow": {
+            "width": 1920,
+            "viewport": 1920,
+            "local": false
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080,
+          "right": 1920,
+          "bottom": 1080
+        },
+        {
+          "s": "#analogSteering",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 18,
+          "y": 996,
+          "w": 300,
+          "h": 66,
+          "right": 318,
+          "bottom": 1062
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 860,
+          "y": 1002.609375,
+          "w": 200,
+          "h": 59.390625,
+          "right": 1060,
+          "bottom": 1062
+        }
+      ]
+    },
+    {
+      "viewport": "1366x768",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 13.65625,
+          "y": 13.65625,
+          "w": 270,
+          "h": 103,
+          "right": 283.65625,
+          "bottom": 116.65625
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 543,
+          "y": 13.65625,
+          "w": 280,
+          "h": 46.59375,
+          "right": 823,
+          "bottom": 60.25
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 1158.34375,
+          "y": 13.65625,
+          "w": 194,
+          "h": 44,
+          "right": 1352.34375,
+          "bottom": 57.65625
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 13.65625,
+          "y": 688.34375,
+          "w": 300,
+          "h": 66,
+          "right": 313.65625,
+          "bottom": 754.34375
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 583,
+          "y": 694.953125,
+          "w": 200,
+          "h": 59.390625,
+          "right": 783,
+          "bottom": 754.34375
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 1204.34375,
+          "y": 559.34375,
+          "w": 148,
+          "h": 195,
+          "right": 1352.34375,
+          "bottom": 754.34375
+        },
+        {
+          "s": "#analogSteering",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 768,
+          "top": 0,
+          "right": 1366,
+          "bottom": 768,
+          "left": 0
+        },
+        "width": 888,
+        "height": 499
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 233,
+              "y": 173.75,
+              "w": 900,
+              "h": 420.5,
+              "right": 1133,
+              "bottom": 594.25
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 234,
+              "y": 519.75,
+              "w": 898,
+              "h": 73.5,
+              "right": 1132,
+              "bottom": 593.25
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 258,
+              "y": 532.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 386.171875,
+              "bottom": 581.25
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 994.765625,
+              "y": 533.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1108,
+              "bottom": 580.25
+            }
+          ],
+          "overflow": {
+            "width": 1366,
+            "viewport": 1366,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 233,
+              "y": 163.25,
+              "w": 900,
+              "h": 441.5,
+              "right": 1133,
+              "bottom": 604.75
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 234,
+              "y": 530.25,
+              "w": 898,
+              "h": 73.5,
+              "right": 1132,
+              "bottom": 603.75
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 258,
+              "y": 543.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 386.171875,
+              "bottom": 591.75
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 994.765625,
+              "y": 544.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1108,
+              "bottom": 590.75
+            }
+          ],
+          "overflow": {
+            "width": 1366,
+            "viewport": 1366,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 233,
+              "y": 150,
+              "w": 900,
+              "h": 468,
+              "right": 1133,
+              "bottom": 618
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 234,
+              "y": 543.5,
+              "w": 898,
+              "h": 73.5,
+              "right": 1132,
+              "bottom": 617
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 258,
+              "y": 556.5,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 386.171875,
+              "bottom": 605
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 994.765625,
+              "y": 557.5,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 1108,
+              "bottom": 604
+            }
+          ],
+          "overflow": {
+            "width": 1366,
+            "viewport": 1366,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 233,
+              "y": 57.140625,
+              "w": 900,
+              "h": 653.71875,
+              "right": 1133,
+              "bottom": 710.859375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 234,
+              "y": 636.359375,
+              "w": 898,
+              "h": 73.5,
+              "right": 1132,
+              "bottom": 709.859375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 258,
+              "y": 649.359375,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 386.171875,
+              "bottom": 697.859375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 940.109375,
+              "y": 650.359375,
+              "w": 167.890625,
+              "h": 46.5,
+              "right": 1108,
+              "bottom": 696.859375
+            }
+          ],
+          "overflow": {
+            "width": 1366,
+            "viewport": 1366,
+            "local": false
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 768,
+          "right": 1366,
+          "bottom": 768
+        },
+        {
+          "s": "#analogSteering",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 13.65625,
+          "y": 688.34375,
+          "w": 300,
+          "h": 66,
+          "right": 313.65625,
+          "bottom": 754.34375
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 583,
+          "y": 694.953125,
+          "w": 200,
+          "h": 59.390625,
+          "right": 783,
+          "bottom": 754.34375
+        }
+      ]
+    },
+    {
+      "viewport": "768x1024",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 10,
+          "y": 10,
+          "w": 230,
+          "h": 88,
+          "right": 240,
+          "bottom": 98
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 274,
+          "y": 10,
+          "w": 220,
+          "h": 46.59375,
+          "right": 494,
+          "bottom": 56.59375
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 564,
+          "y": 10,
+          "w": 194,
+          "h": 44,
+          "right": 758,
+          "bottom": 54
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10,
+          "y": 822,
+          "w": 266,
+          "h": 66,
+          "right": 276,
+          "bottom": 888
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 294,
+          "y": 954.609375,
+          "w": 180,
+          "h": 59.390625,
+          "right": 474,
+          "bottom": 1014
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 626,
+          "y": 721,
+          "w": 132,
+          "h": 179,
+          "right": 758,
+          "bottom": 900
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10,
+          "y": 898,
+          "w": 116,
+          "h": 116,
+          "right": 126,
+          "bottom": 1014
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 652,
+          "y": 908,
+          "w": 106,
+          "h": 106,
+          "right": 758,
+          "bottom": 1014
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024,
+          "top": 0,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "width": 499,
+        "height": 666
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 305.921875,
+              "w": 744,
+              "h": 412.15625,
+              "right": 756,
+              "bottom": 718.078125
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 643.578125,
+              "w": 742,
+              "h": 73.5,
+              "right": 755,
+              "bottom": 717.078125
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 37,
+              "y": 656.578125,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 165.171875,
+              "bottom": 705.078125
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 617.765625,
+              "y": 657.578125,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 731,
+              "bottom": 704.078125
+            }
+          ],
+          "overflow": {
+            "width": 768,
+            "viewport": 768,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 295.421875,
+              "w": 744,
+              "h": 433.15625,
+              "right": 756,
+              "bottom": 728.578125
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 654.078125,
+              "w": 742,
+              "h": 73.5,
+              "right": 755,
+              "bottom": 727.578125
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 37,
+              "y": 667.078125,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 165.171875,
+              "bottom": 715.578125
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 617.765625,
+              "y": 668.078125,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 731,
+              "bottom": 714.578125
+            }
+          ],
+          "overflow": {
+            "width": 768,
+            "viewport": 768,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 282.171875,
+              "w": 744,
+              "h": 459.65625,
+              "right": 756,
+              "bottom": 741.828125
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 667.328125,
+              "w": 742,
+              "h": 73.5,
+              "right": 755,
+              "bottom": 740.828125
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 37,
+              "y": 680.328125,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 165.171875,
+              "bottom": 728.828125
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 617.765625,
+              "y": 681.328125,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 731,
+              "bottom": 727.828125
+            }
+          ],
+          "overflow": {
+            "width": 768,
+            "viewport": 768,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 213.7890625,
+              "w": 744,
+              "h": 596.421875,
+              "right": 756,
+              "bottom": 810.2109375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 735.7109375,
+              "w": 742,
+              "h": 73.5,
+              "right": 755,
+              "bottom": 809.2109375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 37,
+              "y": 748.7109375,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 165.171875,
+              "bottom": 797.2109375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 563.109375,
+              "y": 749.7109375,
+              "w": 167.890625,
+              "h": 46.5,
+              "right": 731,
+              "bottom": 796.2109375
+            }
+          ],
+          "overflow": {
+            "width": 768,
+            "viewport": 768,
+            "local": false
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 1024,
+          "right": 768,
+          "bottom": 1024
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10,
+          "y": 898,
+          "w": 116,
+          "h": 116,
+          "right": 126,
+          "bottom": 1014
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 652,
+          "y": 908,
+          "w": 106,
+          "h": 106,
+          "right": 758,
+          "bottom": 1014
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10,
+          "y": 822,
+          "w": 266,
+          "h": 66,
+          "right": 276,
+          "bottom": 888
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 294,
+          "y": 954.609375,
+          "w": 180,
+          "h": 59.390625,
+          "right": 474,
+          "bottom": 1014
+        }
+      ]
+    },
+    {
+      "viewport": "1024x768",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 10.234375,
+          "y": 10.234375,
+          "w": 230,
+          "h": 88,
+          "right": 240.234375,
+          "bottom": 98.234375
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 402,
+          "y": 10.234375,
+          "w": 220,
+          "h": 46.59375,
+          "right": 622,
+          "bottom": 56.828125
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 819.765625,
+          "y": 10.234375,
+          "w": 194,
+          "h": 44,
+          "right": 1013.765625,
+          "bottom": 54.234375
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10.234375,
+          "y": 565.765625,
+          "w": 266,
+          "h": 66,
+          "right": 276.234375,
+          "bottom": 631.765625
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 422,
+          "y": 698.375,
+          "w": 180,
+          "h": 59.390625,
+          "right": 602,
+          "bottom": 757.765625
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 881.765625,
+          "y": 464.765625,
+          "w": 132,
+          "h": 179,
+          "right": 1013.765625,
+          "bottom": 643.765625
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10.234375,
+          "y": 641.765625,
+          "w": 116,
+          "h": 116,
+          "right": 126.234375,
+          "bottom": 757.765625
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 907.765625,
+          "y": 651.765625,
+          "w": 106,
+          "h": 106,
+          "right": 1013.765625,
+          "bottom": 757.765625
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "width": 666,
+        "height": 499
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 62,
+              "y": 173.75,
+              "w": 900,
+              "h": 420.5,
+              "right": 962,
+              "bottom": 594.25
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 63,
+              "y": 519.75,
+              "w": 898,
+              "h": 73.5,
+              "right": 961,
+              "bottom": 593.25
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 87,
+              "y": 532.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 215.171875,
+              "bottom": 581.25
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 823.765625,
+              "y": 533.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 937,
+              "bottom": 580.25
+            }
+          ],
+          "overflow": {
+            "width": 1024,
+            "viewport": 1024,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 62,
+              "y": 163.25,
+              "w": 900,
+              "h": 441.5,
+              "right": 962,
+              "bottom": 604.75
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 63,
+              "y": 530.25,
+              "w": 898,
+              "h": 73.5,
+              "right": 961,
+              "bottom": 603.75
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 87,
+              "y": 543.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 215.171875,
+              "bottom": 591.75
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 823.765625,
+              "y": 544.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 937,
+              "bottom": 590.75
+            }
+          ],
+          "overflow": {
+            "width": 1024,
+            "viewport": 1024,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 62,
+              "y": 150,
+              "w": 900,
+              "h": 468,
+              "right": 962,
+              "bottom": 618
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 63,
+              "y": 543.5,
+              "w": 898,
+              "h": 73.5,
+              "right": 961,
+              "bottom": 617
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 87,
+              "y": 556.5,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 215.171875,
+              "bottom": 605
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 823.765625,
+              "y": 557.5,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 937,
+              "bottom": 604
+            }
+          ],
+          "overflow": {
+            "width": 1024,
+            "viewport": 1024,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 62,
+              "y": 54.53125,
+              "w": 900,
+              "h": 658.9375,
+              "right": 962,
+              "bottom": 713.46875
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 63,
+              "y": 638.96875,
+              "w": 898,
+              "h": 73.5,
+              "right": 961,
+              "bottom": 712.46875
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 87,
+              "y": 651.96875,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 215.171875,
+              "bottom": 700.46875
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 769.109375,
+              "y": 652.96875,
+              "w": 167.890625,
+              "h": 46.5,
+              "right": 937,
+              "bottom": 699.46875
+            }
+          ],
+          "overflow": {
+            "width": 1024,
+            "viewport": 1024,
+            "local": false
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 768,
+          "right": 1024,
+          "bottom": 768
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10.234375,
+          "y": 641.765625,
+          "w": 116,
+          "h": 116,
+          "right": 126.234375,
+          "bottom": 757.765625
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 907.765625,
+          "y": 651.765625,
+          "w": 106,
+          "h": 106,
+          "right": 1013.765625,
+          "bottom": 757.765625
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10.234375,
+          "y": 565.765625,
+          "w": 266,
+          "h": 66,
+          "right": 276.234375,
+          "bottom": 631.765625
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 422,
+          "y": 698.375,
+          "w": 180,
+          "h": 59.390625,
+          "right": 602,
+          "bottom": 757.765625
+        }
+      ]
+    },
+    {
+      "viewport": "390x844",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 10,
+          "y": 10,
+          "w": 174,
+          "h": 75.796875,
+          "right": 184,
+          "bottom": 85.796875
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 10,
+          "y": 91.796875,
+          "w": 250,
+          "h": 37,
+          "right": 260,
+          "bottom": 128.796875
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 192,
+          "y": 10,
+          "w": 188,
+          "h": 44,
+          "right": 380,
+          "bottom": 54
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10,
+          "y": 652,
+          "w": 256,
+          "h": 66,
+          "right": 266,
+          "bottom": 718
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 139,
+          "y": 776.625,
+          "w": 112,
+          "h": 57.375,
+          "right": 251,
+          "bottom": 834
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 268,
+          "y": 100,
+          "w": 112,
+          "h": 159,
+          "right": 380,
+          "bottom": 259
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10,
+          "y": 728,
+          "w": 106,
+          "h": 106,
+          "right": 116,
+          "bottom": 834
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 278,
+          "y": 732,
+          "w": 102,
+          "h": 102,
+          "right": 380,
+          "bottom": 834
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "width": 254,
+        "height": 549
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 219.65625,
+              "w": 374,
+              "h": 404.6875,
+              "right": 382,
+              "bottom": 624.34375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 558.34375,
+              "w": 372,
+              "h": 65,
+              "right": 381,
+              "bottom": 623.34375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 569.34375,
+              "w": 167,
+              "h": 44,
+              "right": 190,
+              "bottom": 613.34375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 202,
+              "y": 569.34375,
+              "w": 165,
+              "h": 44,
+              "right": 367,
+              "bottom": 613.34375
+            }
+          ],
+          "overflow": {
+            "width": 390,
+            "viewport": 390,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 157.65625,
+              "w": 374,
+              "h": 528.6875,
+              "right": 382,
+              "bottom": 686.34375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 620.34375,
+              "w": 372,
+              "h": 65,
+              "right": 381,
+              "bottom": 685.34375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 631.34375,
+              "w": 167,
+              "h": 44,
+              "right": 190,
+              "bottom": 675.34375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 202,
+              "y": 631.34375,
+              "w": 165,
+              "h": 44,
+              "right": 367,
+              "bottom": 675.34375
+            }
+          ],
+          "overflow": {
+            "width": 390,
+            "viewport": 390,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 220.515625,
+              "w": 374,
+              "h": 402.96875,
+              "right": 382,
+              "bottom": 623.484375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 557.484375,
+              "w": 372,
+              "h": 65,
+              "right": 381,
+              "bottom": 622.484375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 568.484375,
+              "w": 167,
+              "h": 44,
+              "right": 190,
+              "bottom": 612.484375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 202,
+              "y": 568.484375,
+              "w": 165,
+              "h": 44,
+              "right": 367,
+              "bottom": 612.484375
+            }
+          ],
+          "overflow": {
+            "width": 390,
+            "viewport": 390,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 89.7890625,
+              "w": 374,
+              "h": 664.421875,
+              "right": 382,
+              "bottom": 754.2109375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 688.2109375,
+              "w": 372,
+              "h": 65,
+              "right": 381,
+              "bottom": 753.2109375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 699.2109375,
+              "w": 167,
+              "h": 44,
+              "right": 190,
+              "bottom": 743.2109375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 202,
+              "y": 699.2109375,
+              "w": 165,
+              "h": 44,
+              "right": 367,
+              "bottom": 743.2109375
+            }
+          ],
+          "overflow": {
+            "width": 390,
+            "viewport": 390,
+            "local": false
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844,
+          "right": 390,
+          "bottom": 844
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 10,
+          "y": 728,
+          "w": 106,
+          "h": 106,
+          "right": 116,
+          "bottom": 834
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 278,
+          "y": 732,
+          "w": 102,
+          "h": 102,
+          "right": 380,
+          "bottom": 834
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 10,
+          "y": 652,
+          "w": 256,
+          "h": 66,
+          "right": 266,
+          "bottom": 718
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 139,
+          "y": 776.625,
+          "w": 112,
+          "h": 57.375,
+          "right": 251,
+          "bottom": 834
+        }
+      ]
+    },
+    {
+      "viewport": "844x390",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 8,
+          "y": 8,
+          "w": 216,
+          "h": 71.296875,
+          "right": 224,
+          "bottom": 79.296875
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 312,
+          "y": 8,
+          "w": 220,
+          "h": 37,
+          "right": 532,
+          "bottom": 45
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 648,
+          "y": 8,
+          "w": 188,
+          "h": 44,
+          "right": 836,
+          "bottom": 52
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 8,
+          "y": 216,
+          "w": 248,
+          "h": 60,
+          "right": 256,
+          "bottom": 276
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 337,
+          "y": 330.8125,
+          "w": 170,
+          "h": 51.1875,
+          "right": 507,
+          "bottom": 382
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 728,
+          "y": 64,
+          "w": 108,
+          "h": 52,
+          "right": 836,
+          "bottom": 116
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 8,
+          "y": 286,
+          "w": 96,
+          "h": 96,
+          "right": 104,
+          "bottom": 382
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 742,
+          "y": 288,
+          "w": 94,
+          "h": 94,
+          "right": 836,
+          "bottom": 382
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390,
+          "top": 0,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "width": 549,
+        "height": 254
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 66.75,
+              "w": 820,
+              "h": 256.5,
+              "right": 832,
+              "bottom": 323.25
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 258.75,
+              "w": 818,
+              "h": 63.5,
+              "right": 831,
+              "bottom": 322.25
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 29,
+              "y": 266.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 157.171875,
+              "bottom": 315.25
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 701.765625,
+              "y": 267.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 815,
+              "bottom": 314.25
+            }
+          ],
+          "overflow": {
+            "width": 844,
+            "viewport": 844,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 44.25,
+              "w": 820,
+              "h": 301.5,
+              "right": 832,
+              "bottom": 345.75
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 281.25,
+              "w": 818,
+              "h": 63.5,
+              "right": 831,
+              "bottom": 344.75
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 29,
+              "y": 289.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 157.171875,
+              "bottom": 337.75
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 701.765625,
+              "y": 290.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 815,
+              "bottom": 336.75
+            }
+          ],
+          "overflow": {
+            "width": 844,
+            "viewport": 844,
+            "local": false
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 31,
+              "w": 820,
+              "h": 328,
+              "right": 832,
+              "bottom": 359
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 294.5,
+              "w": 818,
+              "h": 63.5,
+              "right": 831,
+              "bottom": 358
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 29,
+              "y": 302.5,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 157.171875,
+              "bottom": 351
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 701.765625,
+              "y": 303.5,
+              "w": 113.234375,
+              "h": 46.5,
+              "right": 815,
+              "bottom": 350
+            }
+          ],
+          "overflow": {
+            "width": 844,
+            "viewport": 844,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 12,
+              "y": 16,
+              "w": 820,
+              "h": 358,
+              "right": 832,
+              "bottom": 374
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 13,
+              "y": 309.5,
+              "w": 818,
+              "h": 63.5,
+              "right": 831,
+              "bottom": 373
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 29,
+              "y": 317.5,
+              "w": 128.171875,
+              "h": 48.5,
+              "right": 157.171875,
+              "bottom": 366
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 647.109375,
+              "y": 318.5,
+              "w": 167.890625,
+              "h": 46.5,
+              "right": 815,
+              "bottom": 365
+            }
+          ],
+          "overflow": {
+            "width": 844,
+            "viewport": 844,
+            "local": true
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390,
+          "right": 844,
+          "bottom": 390
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 8,
+          "y": 286,
+          "w": 96,
+          "h": 96,
+          "right": 104,
+          "bottom": 382
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 742,
+          "y": 288,
+          "w": 94,
+          "h": 94,
+          "right": 836,
+          "bottom": 382
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 8,
+          "y": 216,
+          "w": 248,
+          "h": 60,
+          "right": 256,
+          "bottom": 276
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 337,
+          "y": 330.8125,
+          "w": 170,
+          "h": 51.1875,
+          "right": 507,
+          "bottom": 382
+        }
+      ]
+    },
+    {
+      "viewport": "320x568",
+      "hud": [
+        {
+          "s": ".rq-summary",
+          "visible": true,
+          "x": 8,
+          "y": 8,
+          "w": 204,
+          "h": 77.859375,
+          "right": 212,
+          "bottom": 85.859375
+        },
+        {
+          "s": ".rq-mission",
+          "visible": true,
+          "x": 8,
+          "y": 105,
+          "w": 204,
+          "h": 37,
+          "right": 212,
+          "bottom": 142
+        },
+        {
+          "s": ".rq-toolbar",
+          "visible": true,
+          "x": 220,
+          "y": 8,
+          "w": 92,
+          "h": 92,
+          "right": 312,
+          "bottom": 100
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 8,
+          "y": 396,
+          "w": 250,
+          "h": 60,
+          "right": 258,
+          "bottom": 456
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 104,
+          "y": 502.625,
+          "w": 112,
+          "h": 57.375,
+          "right": 216,
+          "bottom": 560
+        },
+        {
+          "s": "#mapRail",
+          "visible": true,
+          "x": 220,
+          "y": 107,
+          "w": 92,
+          "h": 56,
+          "right": 312,
+          "bottom": 163
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 8,
+          "y": 466,
+          "w": 94,
+          "h": 94,
+          "right": 102,
+          "bottom": 560
+        },
+        {
+          "s": "#directionControls",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 218,
+          "y": 466,
+          "w": 94,
+          "h": 94,
+          "right": 312,
+          "bottom": 560
+        }
+      ],
+      "overlap": [],
+      "canvas": {
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "width": 208,
+        "height": 369
+      },
+      "wizard": [
+        {
+          "step": 0,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 71.15625,
+              "w": 304,
+              "h": 425.6875,
+              "right": 312,
+              "bottom": 496.84375
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 430.84375,
+              "w": 302,
+              "h": 65,
+              "right": 311,
+              "bottom": 495.84375
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 441.84375,
+              "w": 132,
+              "h": 44,
+              "right": 155,
+              "bottom": 485.84375
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 167,
+              "y": 441.84375,
+              "w": 130,
+              "h": 44,
+              "right": 297,
+              "bottom": 485.84375
+            }
+          ],
+          "overflow": {
+            "width": 320,
+            "viewport": 320,
+            "local": false
+          }
+        },
+        {
+          "step": 1,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 16,
+              "w": 304,
+              "h": 536,
+              "right": 312,
+              "bottom": 552
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 486,
+              "w": 302,
+              "h": 65,
+              "right": 311,
+              "bottom": 551
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 497,
+              "w": 132,
+              "h": 44,
+              "right": 155,
+              "bottom": 541
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 167,
+              "y": 497,
+              "w": 130,
+              "h": 44,
+              "right": 297,
+              "bottom": 541
+            }
+          ],
+          "overflow": {
+            "width": 320,
+            "viewport": 320,
+            "local": true
+          }
+        },
+        {
+          "step": 2,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 73.8203125,
+              "w": 304,
+              "h": 420.359375,
+              "right": 312,
+              "bottom": 494.1796875
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 428.1796875,
+              "w": 302,
+              "h": 65,
+              "right": 311,
+              "bottom": 493.1796875
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 439.1796875,
+              "w": 132,
+              "h": 44,
+              "right": 155,
+              "bottom": 483.1796875
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 167,
+              "y": 439.1796875,
+              "w": 130,
+              "h": 44,
+              "right": 297,
+              "bottom": 483.1796875
+            }
+          ],
+          "overflow": {
+            "width": 320,
+            "viewport": 320,
+            "local": false
+          }
+        },
+        {
+          "step": 3,
+          "bounds": [
+            {
+              "s": "#setupDialog",
+              "visible": true,
+              "x": 8,
+              "y": 16,
+              "w": 304,
+              "h": 536,
+              "right": 312,
+              "bottom": 552
+            },
+            {
+              "s": "#setupForm>.dialog-foot",
+              "visible": true,
+              "x": 9,
+              "y": 486,
+              "w": 302,
+              "h": 65,
+              "right": 311,
+              "bottom": 551
+            },
+            {
+              "s": "#onboardingBack",
+              "visible": true,
+              "x": 23,
+              "y": 497,
+              "w": 132,
+              "h": 44,
+              "right": 155,
+              "bottom": 541
+            },
+            {
+              "s": "#setupForm button[type=submit]",
+              "visible": true,
+              "x": 167,
+              "y": 497,
+              "w": 130,
+              "h": 44,
+              "right": 297,
+              "bottom": 541
+            }
+          ],
+          "overflow": {
+            "width": 320,
+            "viewport": 320,
+            "local": true
+          }
+        }
+      ],
+      "fullscreen": [
+        {
+          "s": "#race",
+          "visible": true,
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 568,
+          "right": 320,
+          "bottom": 568
+        },
+        {
+          "s": "#analogSteering",
+          "visible": true,
+          "x": 8,
+          "y": 466,
+          "w": 94,
+          "h": 94,
+          "right": 102,
+          "bottom": 560
+        },
+        {
+          "s": "#actionControls",
+          "visible": true,
+          "x": 218,
+          "y": 466,
+          "w": 94,
+          "h": 94,
+          "right": 312,
+          "bottom": 560
+        },
+        {
+          "s": "#inventoryDock",
+          "visible": true,
+          "x": 8,
+          "y": 396,
+          "w": 250,
+          "h": 60,
+          "right": 258,
+          "bottom": 456
+        },
+        {
+          "s": "#speedDock",
+          "visible": true,
+          "x": 104,
+          "y": 502.625,
+          "w": 112,
+          "h": 57.375,
+          "right": 216,
+          "bottom": 560
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

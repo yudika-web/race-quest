@@ -1,0 +1,125 @@
+{
+  "baseline_commit": "18fce7045518dc7f4b8569ce3010a73f267056d2",
+  "html_file": "blokraya-patch8d-controls.html",
+  "baseline_bytes": 24985707,
+  "html_bytes": 25003020,
+  "growth_bytes": 17313,
+  "growth_percent": 0.0693,
+  "under_25_decimal_MB": false,
+  "bytes_over_target": 3020,
+  "html_sha256": "46d3cbded9e08a17f17f3d68cc8ce1be893b9c90d8951354b6c095b026c44112",
+  "teacher_export_bytes": 25038504,
+  "mounted_teacher_export_bytes": 25038569,
+  "new_GLBs": 0,
+  "new_textures": 0,
+  "new_3D_geometry": 0,
+  "new_lights": 0,
+  "new_shadow_maps": 0,
+  "protected_script_payloads": 53,
+  "protected_world_pixel_comparisons": 13,
+  "protected_model_pixel_comparisons": 14,
+  "responsive_viewports": [
+    "1920x1080",
+    "1366x768",
+    "768x1024",
+    "1024x768",
+    "390x844",
+    "844x390",
+    "320x568"
+  ],
+  "unintended_HUD_overlap_pairs": 0,
+  "native_fullscreen_start_cases": [
+    {
+      "touch": false,
+      "supported": true,
+      "entered": true,
+      "events": [
+        {
+          "type": "request",
+          "active": true,
+          "t": 5547.700000017881
+        },
+        {
+          "type": "world",
+          "t": 5622
+        }
+      ]
+    },
+    {
+      "touch": true,
+      "supported": true,
+      "entered": true,
+      "events": [
+        {
+          "type": "request",
+          "active": true,
+          "t": 4591
+        },
+        {
+          "type": "world",
+          "t": 4622.699999988079
+        }
+      ]
+    }
+  ],
+  "native_fullscreen_HUD_roundtrips": 7,
+  "offline_HTTP_asset_requests": 0,
+  "screenshots": 112,
+  "reports": {
+    "scope-tests": {
+      "status": "passed",
+      "checks": 6
+    },
+    "responsive-tests": {
+      "status": "passed",
+      "checks": 172
+    },
+    "input-tests": {
+      "status": "passed",
+      "checks": 36
+    },
+    "fullscreen-tests": {
+      "status": "passed",
+      "checks": 14
+    },
+    "short-viewport-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "stage-controls-tests": {
+      "status": "passed",
+      "checks": 13
+    },
+    "navigation-tests": {
+      "status": "passed",
+      "checks": 61
+    },
+    "offline-tests": {
+      "status": "passed",
+      "checks": 29
+    },
+    "compatibility-tests": {
+      "status": "passed",
+      "checks": 16
+    },
+    "render-parity-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 2
+    }
+  },
+  "total_reported_checks": 359,
+  "limits": [
+    "Browser tests use Chromium/SwiftShader and emulated touch/viewport; no physical Android/iOS or Safari test and no device FPS claim.",
+    "Fullscreen native success is measured in Chromium headless; rejected/unavailable APIs are explicit fixtures. CSS cannot hide browser system controls on unsupported iOS.",
+    "Virtual keyboard/address-bar reduction uses a documented visualViewport fixture, not a physical keyboard.",
+    "Very short screens retain local scrolling in preparation, garage list, PIN and quiz content; footers remain bounded.",
+    "Stage control tests use position fixtures near curves; not complete manual races or a new full-engine benchmark. GP regression tests navigation/configuration; scoring and final podium code are byte-identical.",
+    "Managed browser blocks file:// with ERR_BLOCKED_BY_ADMINISTRATOR. Network-disabled document/gameplay/export and normal HTTP are tested.",
+    "HTML exceeds soft 25,000,000-byte target slightly; no assets/features removed. Teacher export includes additional bank/config/runtime markup.",
+    "No new 3D assets/draw submissions; 13 worlds and 14 model renders are pixel-identical. Extra DOM/CSS compositing cost and physical FPS are not benchmarked."
+  ]
+}

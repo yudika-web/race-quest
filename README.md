@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8C: Podium Tiga Pembalap
+# BlokRaya PRO — PATCH 8D: Fullscreen & Kemudi Analog
+
+Fullscreen diminta langsung dari klik **Mulai Balapan**, dengan fallback viewport responsif ketika browser menolak/tidak mendukung. Analog HP mengatur besar kemudi secara proporsional; tombol klasik, multitouch gas/drift/jump/buff, keyboard dan preferensi lama dipertahankan. Footer persiapan/kuis serta garasi/HUD dirapikan untuk layar pendek.
+
+- [ZIP playable terbaru](blokraya-patch8d-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8d-controls.html) · [ZIP review](blokraya-patch8d-review.zip).
+- [Desktop fullscreen](visual-upgrade/patch8d/screenshots/after/fullscreen-1366.png) · [HP portrait](visual-upgrade/patch8d/screenshots/after/race-390.png) · [Analog HP landscape](visual-upgrade/patch8d/screenshots/after/analog-curve-kapuas.png) · [Galeri before–after](visual-upgrade/patch8d/review.html).
+- [Sumber dan laporan pengujian](visual-upgrade/patch8d/README.md) · [Metrik](visual-upgrade/patch8d/metrics.json).
+
+HTML **25.003.020 byte** (+17.313; +0,0693%). 359 pemeriksaan bernama lulus: tujuh viewport tanpa overlap dok HUD, fullscreen native masuk/keluar dan fallback, analog/multitouch/reset, wizard/GP, PIN/progres, offline/ekspor. Render 13 world/14 model identik dengan PATCH 8C. HP fisik/Safari dan FPS tidak diklaim diuji; file:// cloud diblokir administrator. Podium PATCH 8C tetap identik. Tidak merge/deployment atau mengubah index.html utama.
+
+# Tahap sebelumnya — PATCH 8C: Podium Tiga Pembalap
 
 Podium kemenangan **2–1–3** memakai karakter dan mobil asli, panggung bertingkat, medali serta perayaan singkat. Bebas memakai urutan finis aktual; GP memakai klasemen akhir dengan tie-break lama. Hasil belajar asli tetap dibuka melalui tombol **Lihat Hasil Belajar**; ronde GP/retry tetap berjalan seperti sebelumnya.
 

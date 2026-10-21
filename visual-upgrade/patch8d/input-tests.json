@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "checks": [
+    "Analog centre is neutral",
+    "slight left normalized continuous axis",
+    "slight left reaches original Session.advance steering adapter",
+    "full left normalized continuous axis",
+    "full left reaches original Session.advance steering adapter",
+    "slight right normalized continuous axis",
+    "slight right reaches original Session.advance steering adapter",
+    "full right normalized continuous axis",
+    "full right reaches original Session.advance steering adapter",
+    "Pointer capture tracks finger beyond joystick boundary",
+    "Release immediately returns to neutral",
+    "Native pointer cancellation returns to neutral",
+    "Native two-finger analog + gas",
+    "Native three-finger analog + gas + drift",
+    "Native three-finger analog + gas + jump",
+    "Releasing joystick does not release gas held by another finger",
+    "Analog + earned-inventory fixture buff activation",
+    "Secondary finger selects slot two while analog held",
+    "Secondary finger uses exactly one Nitro charge without duplicate native click",
+    "Pause clears captured joystick",
+    "Question clears joystick and capture",
+    "Quiz freezes player, AI and buff simulation",
+    "Releasing captured joystick cannot click through to quiz exit",
+    "Orientation/viewport resize clears steering",
+    "Browser blur neutralizes input and pauses",
+    "Classic mode replaces analog without duplicate controls",
+    "Steering choice persisted in existing HUD preference key",
+    "Classic left still drives digital steering",
+    "Keyboard A retains original full-left sensitivity",
+    "Keyboard D retains original full-right sensitivity",
+    "Keyboard release remains neutral",
+    "Manual show supports analog on keyboard/touch hybrids",
+    "Manual hide removes all touch controls",
+    "Race finish neutralizes analog before existing podium",
+    "Menu navigation leaves neutral input",
+    "No JavaScript errors during input tests"
+  ],
+  "samples": [
+    {
+      "label": "slight left",
+      "axis": -0.2777777914505279,
+      "input": -0.2777777914505279,
+      "steering": -0.19411272846787414
+    },
+    {
+      "label": "full left",
+      "axis": -1,
+      "input": -1,
+      "steering": -0.7748809277948356
+    },
+    {
+      "label": "slight right",
+      "axis": 0.2777777914505279,
+      "input": 0.2777777914505279,
+      "steering": -0.0821375792363974
+    },
+    {
+      "label": "full right",
+      "axis": 1,
+      "input": 1,
+      "steering": 0.7498200652843336
+    }
+  ],
+  "errors": []
+}

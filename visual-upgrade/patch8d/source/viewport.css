@@ -1,0 +1,83 @@
+/* One visible-viewport contract. Local scrolling keeps action footers accessible. */
+:root{--app-height:100dvh;--app-width:100%;--app-top:0px;--app-left:0px}
+@media screen{
+ body[data-screen]{min-height:var(--app-height)}
+ .screen{min-height:var(--app-height)}
+ #loading.br-loading,.br-mode-screen{inset:var(--app-top) auto auto var(--app-left);width:var(--app-width);height:var(--app-height)}
+ #garage:not([hidden]),#teacher:not([hidden]){height:var(--app-height);padding-top:env(safe-area-inset-top);padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+ #race{inset:var(--app-top) auto auto var(--app-left);width:var(--app-width);height:var(--app-height)}
+ body[data-screen=race] #scene{inset:var(--app-top) auto auto var(--app-left);width:var(--app-width);height:var(--app-height)}
+ dialog[open]{position:fixed;inset:var(--app-top) auto auto var(--app-left);margin:0;left:calc(var(--app-left) + var(--app-width)/2);top:calc(var(--app-top) + var(--app-height)/2);transform:translate(-50%,-50%);max-width:calc(var(--app-width) - max(16px,env(safe-area-inset-left)) - max(16px,env(safe-area-inset-right)));max-height:calc(var(--app-height) - max(12px,env(safe-area-inset-top)) - max(12px,env(safe-area-inset-bottom)));overflow:hidden;display:flex;flex-direction:column;min-height:0}
+ dialog>form{display:flex;flex-direction:column;min-height:0;max-height:inherit;overflow:hidden;width:100%}
+ dialog .dialog-head,dialog .question-head,dialog .dialog-foot,dialog .question-foot{flex:none}
+ dialog .dialog-body,dialog .question-body{min-height:0;overflow:auto;overscroll-behavior:contain;max-height:none;flex:1 1 auto;overflow-wrap:anywhere}
+ #setupDialog,#setupForm{max-height:calc(var(--app-height) - max(16px,env(safe-area-inset-top)) - max(16px,env(safe-area-inset-bottom)))}
+ #setupForm>.dialog-body{min-height:0;flex:1 1 auto}
+ .br-pin-dialog{overflow:auto!important}
+ .br-mode-screen{overscroll-behavior:contain;scrollbar-gutter:stable}
+ #garage .garage-layout{min-height:0;overflow:hidden}
+ #garage .garage-side{max-height:none;overscroll-behavior:contain}
+ #garage .garage-preview{min-height:0}
+ #garage .garage-bottom{flex-wrap:nowrap;padding-bottom:max(10px,env(safe-area-inset-bottom));min-width:0}
+ #garage .garage-bottom>*{min-width:0}
+ #garage .garage-bottom .btn{min-height:44px}
+ #pauseDialog .dialog-body{padding:16px 22px}
+ #pauseDialog .paused-content h2{font-size:clamp(22px,3vw,30px)}
+ .steering-choice select{min-height:44px}
+}
+/* Physical control docks: the left wheel and right actions never share inventory space. */
+#race{--stick:116px}
+#race .rq-analog{left:var(--sl);bottom:var(--sb);width:var(--stick);height:var(--stick);border-radius:50%;border:2px solid #8de6f08c;background:radial-gradient(circle,#173e58ba 30%,#0a253dc9 70%);box-shadow:inset 0 0 0 7px #7ddfe415,0 3px 15px #00132140;touch-action:none;user-select:none;display:block;cursor:grab}
+#race .analog-guide{position:absolute;inset:0;display:grid;place-items:center;color:#a4deec8a;font-size:29px;pointer-events:none}
+#race #analogKnob{position:absolute;width:44%;height:44%;left:28%;top:28%;border-radius:50%;background:linear-gradient(145deg,#73dfed,#237c9e);border:2px solid #d5f9ffad;box-shadow:0 3px 9px #001f3a5e;pointer-events:none;will-change:transform}
+#race .analog-label{position:absolute;bottom:8px;left:0;right:0;font-size:8px;text-align:center;letter-spacing:.12em;color:#d7f5ff;pointer-events:none}
+#race .rq-analog[data-engaged=true]{border-color:#ffc372;cursor:grabbing}#race .rq-analog[data-engaged=true] #analogKnob{background:linear-gradient(145deg,#ffe3a7,#ffb256)}
+#race[data-controls=keyboard] .rq-analog,#race[data-steering=buttons] .rq-analog,#race[data-steering=analog] .rq-directions{display:none}
+#race[data-controls=touch][data-steering=analog]{--left-lift:calc(var(--stick) + 10px)}
+#race[data-controls=touch] .rq-inventory-dock{width:266px}
+#race[data-controls=touch] .rq-map-rail{max-height:calc(var(--app-height) - 108px - var(--right-lift) - var(--sb));overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+@media(max-width:699px) and (orientation:portrait){
+ #race{--stick:106px}
+ #race[data-controls=touch] .rq-inventory-dock{width:256px}
+ #race .rq-speed{width:112px}
+ #race .rq-speed-value{display:flex;gap:3px;align-items:baseline}#race .rq-speed-value>b,#race .rq-speed-value>small{display:inline}
+ #race .rq-speed small{font-size:7px}#race #hudSpeed{font-size:23px}
+ #race .rq-token{padding-left:5px}#race .rq-token b{font-size:14px}
+ #garage .garage-layout{grid-template-columns:1fr;grid-template-rows:minmax(0,.9fr) minmax(0,1.1fr);padding:0 10px 8px;gap:8px}
+ #garage .garage-preview{grid-row:2;grid-column:1}#garage .garage-side{grid-row:1;grid-column:1;overflow:auto;padding:0 3px 6px}
+ #garage .app-top{gap:7px;padding:8px 10px}#garage .brand{font-size:23px}#garage .br-subtitle{font-size:8px}#garage .app-nav{gap:4px}#garage .app-nav button{padding:6px;min-height:44px}
+ #garage .garage-bottom{gap:6px;padding:8px 10px max(8px,env(safe-area-inset-bottom));display:grid;grid-template-columns:1fr 1fr}
+ #garage .garage-bottom>[data-act=setup]{grid-row:2;grid-column:1}#garage #startRaceBtn{grid-row:2;grid-column:2}
+ #garageStageBtn{grid-column:1/-1;min-height:44px;padding:4px 8px}#garageStageBtn .stage-button-kicker,#garageStageBtn .stage-button-link{display:none}
+ #garage .garage-side h1{font-size:23px;margin:4px 0}#garage .garage-side>.muted{margin-bottom:5px;font-size:10px}
+ #garage .garage-model-note{font-size:9px;padding:5px;inset:auto 6px 6px}#garage .garage-view-controls{gap:3px;padding:5px;flex-wrap:wrap}#garage .garage-view-controls button{padding:5px;font-size:9px;min-height:32px}
+}
+@media(max-width:359px) and (orientation:portrait){
+ #race{--stick:94px}
+ #race[data-controls=touch] .rq-inventory-dock{width:250px}
+ #race .rq-inventory{display:grid;grid-template-columns:minmax(0,1fr) 44px;padding:5px}
+ #race #strategicSlots{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+ #race .strategy-slot{height:48px;min-height:48px;padding:4px;gap:3px}#race .strategy-slot img{width:20px;height:20px}#race .strategy-slot b{font-size:9px}#race .strategy-slot small{font-size:8px}
+ #race .rq-speed{width:112px;bottom:var(--sb)}#race .rq-effect{font-size:8px}
+ #garage .app-nav button{font-size:9px;padding:4px}#garage .brand{font-size:20px}#garage .br-subtitle{font-size:7px}
+ #garage .character img{height:28px}#garage .character b{font-size:10px}#garage .character small{font-size:7px}#garage .character-grid{gap:4px}#garage .garage-side>.muted{display:none}
+ #garage .garage-model-note #garageSetupInfo{font-size:8px!important;line-height:1.2}#garage .garage-model-note>span{display:none}
+}
+@media(max-height:500px) and (orientation:landscape){
+ #race{--stick:96px}
+ #race[data-controls=touch] .rq-inventory-dock{width:248px}
+ #race .rq-map-rail{max-height:calc(var(--app-height) - 72px - var(--right-lift) - var(--sb))}
+ dialog .dialog-head,dialog .question-head{padding:9px 16px}dialog .dialog-head h2{font-size:21px;margin:4px 0}
+ dialog .dialog-body,dialog .question-body{padding:12px 16px}dialog .dialog-foot,dialog .question-foot{padding:8px 16px}
+ #pauseDialog .paused-content .stack{grid-template-columns:1fr 1fr;gap:8px}#pauseDialog .paused-content h2{margin:0 0 8px}#pauseDialog .paused-content>p{font-size:12px;margin-bottom:10px}
+ #audioDialog .arcade-settings{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+ #garage .app-nav button{min-height:44px}#garage .garage-view-controls button{min-height:32px}
+}
+@media(prefers-reduced-motion:reduce){#analogKnob{will-change:auto}}
+#garage .character-pager{position:sticky;bottom:0;background:#193548f5;z-index:2;padding:4px 0;margin-top:6px;min-height:52px}#garage .character-pager button{min-height:44px}
+#race #useItemBtn,#race .strategy-slot{touch-action:none}
+@media screen{
+ #home:not([hidden]){height:var(--app-height);min-height:0;grid-template-rows:auto minmax(0,1fr);overflow:hidden}#home .hero{min-height:0;overflow:auto;overscroll-behavior:contain;width:100%}
+ #results:not([hidden]){height:var(--app-height);min-height:0;display:flex;flex-direction:column;overflow:hidden}#results .app-top{flex:none}#results .results-wrap{min-height:0;overflow:auto;overscroll-behavior:contain;flex:1;width:100%;padding-bottom:max(24px,env(safe-area-inset-bottom))}
+}
+.br-pin-dialog>form{max-height:none;overflow:visible;flex-shrink:0}

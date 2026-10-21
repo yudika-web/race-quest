@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "checks": [
+    "No forced fullscreen at boot false",
+    "Native fullscreen result matches capability false",
+    "Fullscreen requested in activation before asynchronous arena load false",
+    "Manual exit updates fullscreen button false",
+    "Canvas resizes after native fullscreen exit false",
+    "No forced fullscreen at boot true",
+    "Native fullscreen result matches capability true",
+    "Fullscreen requested in activation before asynchronous arena load true",
+    "Manual exit updates fullscreen button true",
+    "Canvas resizes after native fullscreen exit true",
+    "Unavailable Fullscreen API does not block racing",
+    "Unsupported helper remains asynchronous and safe",
+    "Unsupported manual button is harmless",
+    "No JavaScript errors in native/unsupported fullscreen flows"
+  ],
+  "native": [
+    {
+      "touch": false,
+      "supported": true,
+      "entered": true,
+      "events": [
+        {
+          "type": "request",
+          "active": true,
+          "t": 5547.700000017881
+        },
+        {
+          "type": "world",
+          "t": 5622
+        }
+      ]
+    },
+    {
+      "touch": true,
+      "supported": true,
+      "entered": true,
+      "events": [
+        {
+          "type": "request",
+          "active": true,
+          "t": 4591
+        },
+        {
+          "type": "world",
+          "t": 4622.699999988079
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium emulation only; Android hardware and Safari/iOS not physically tested.",
+    "Unsupported and rejected APIs are explicit fixtures, not Safari claims."
+  ]
+}

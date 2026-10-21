@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "checks": [
+    "kampung analog reaches live physics near curve",
+    "kampung player/AI simulation advances",
+    "kampung renderer no WebGL errors",
+    "kampung release returns neutral",
+    "kapuas analog reaches live physics near curve",
+    "kapuas player/AI simulation advances",
+    "kapuas renderer no WebGL errors",
+    "kapuas release returns neutral",
+    "kayong_utara analog reaches live physics near curve",
+    "kayong_utara player/AI simulation advances",
+    "kayong_utara renderer no WebGL errors",
+    "kayong_utara release returns neutral",
+    "No JS errors across stage input checks"
+  ],
+  "stages": [
+    {
+      "stage": "kampung",
+      "before": {
+        "s": 111.69502971385508,
+        "ai": [
+          14.576666666666668,
+          11.576666666666668,
+          8.576666666666668,
+          5.576666666666667
+        ],
+        "t": 0.7166666666666672
+      },
+      "after": {
+        "s": 119.55176145543531,
+        "ai": [
+          17.501666666666665,
+          14.501666666666663,
+          11.501666666666663,
+          8.501666666666663
+        ],
+        "t": 1.2166666666666672,
+        "gl": 0,
+        "rescue": true
+      }
+    },
+    {
+      "stage": "kapuas",
+      "before": {
+        "s": 115.57342219895216,
+        "ai": [
+          14.110000000000001,
+          11.110000000000001,
+          8.110000000000001,
+          5.11
+        ],
+        "t": 0.6000000000000002
+      },
+      "after": {
+        "s": 120.19955795709426,
+        "ai": [
+          15.475,
+          12.475,
+          9.475,
+          6.4750000000000005
+        ],
+        "t": 0.9000000000000011,
+        "gl": 0,
+        "rescue": true
+      }
+    },
+    {
+      "stage": "kayong_utara",
+      "before": {
+        "s": 186.01767182615964,
+        "ai": [
+          14.110000000000001,
+          11.110000000000001,
+          8.110000000000001,
+          5.11
+        ],
+        "t": 0.6000000000000002
+      },
+      "after": {
+        "s": 193.02554639399037,
+        "ai": [
+          16.36,
+          13.36,
+          10.36,
+          7.359999999999999
+        ],
+        "t": 1.0500000000000012,
+        "gl": 0,
+        "rescue": true
+      }
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Position fixtures place actual live sessions near curves; these are input/renderer checks, not complete manual races."
+  ]
+}
