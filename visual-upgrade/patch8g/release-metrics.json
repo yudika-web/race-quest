@@ -1,0 +1,65 @@
+{
+  "baseline_commit": "0616727a46b6894d041f3604b1345b7f64d27129",
+  "html_bytes": 25011586,
+  "growth_bytes": 4342,
+  "growth_percent": 0.01736,
+  "html_sha256": "dc8e4a1b486acc1a0d2cabd61287837d62efcc4da2fe7b67d793ebb1e2842254",
+  "named_checks": 261,
+  "checks": {
+    "unit-results.json": 7,
+    "ui-results.json": 225,
+    "flow-tests.json": 25,
+    "purchase-ui-results.json": 3
+  },
+  "scope_passed": true,
+  "protected_scripts": 56,
+  "screenshots": 110,
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "max_settled_rect_shift_px": 0,
+  "clipped_text_surfaces": 0,
+  "horizontal_overflow_in_measured_wizard_phases": false,
+  "new_external_assets": 0,
+  "physical_mobile_tested": false,
+  "FPS_measured": false,
+  "playable_zip": {
+    "file": "blokraya-patch8g-playable.zip",
+    "bytes": 13011084,
+    "sha256": "0e025e026f94bc61df8920a01198e640d01ff9f6cc144fbf68891067315bc585",
+    "CRC_OK": true
+  },
+  "review_zip": {
+    "file": "blokraya-patch8g-review.zip",
+    "bytes": 46544837,
+    "sha256": "cb4b6f1c9d615fcd82d275027804a2019893c15e5dbdc32439766119d7d43765",
+    "CRC_OK": true
+  }
+}

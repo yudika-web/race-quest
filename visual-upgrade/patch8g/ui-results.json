@@ -1,0 +1,3137 @@
+{
+  "checks": [
+    "before-1366x768 step 0 settled geometry stable",
+    "before-1366x768 step 0 no horizontal overflow",
+    "before-1366x768 step 1 settled geometry stable",
+    "before-1366x768 step 1 no horizontal overflow",
+    "before-1366x768 step 2 settled geometry stable",
+    "before-1366x768 step 2 no horizontal overflow",
+    "before-1366x768 step 3 settled geometry stable",
+    "before-1366x768 step 3 no horizontal overflow",
+    "before-1366x768 WebGL healthy",
+    "before-390x844 step 0 settled geometry stable",
+    "before-390x844 step 0 no horizontal overflow",
+    "before-390x844 step 1 settled geometry stable",
+    "before-390x844 step 1 no horizontal overflow",
+    "before-390x844 step 2 settled geometry stable",
+    "before-390x844 step 2 no horizontal overflow",
+    "before-390x844 step 3 settled geometry stable",
+    "before-390x844 step 3 no horizontal overflow",
+    "before-390x844 WebGL healthy",
+    "after-1920x1080 step 0 settled geometry stable",
+    "after-1920x1080 step 0 no horizontal overflow",
+    "after-1920x1080 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-1920x1080 group and description gaps 18–24 px",
+    "after-1920x1080 identity fits without body scrolling",
+    "after-1920x1080 helpful validation message",
+    "after-1920x1080 existing field ID retained",
+    "after-1920x1080 step 1 settled geometry stable",
+    "after-1920x1080 step 1 no horizontal overflow",
+    "after-1920x1080 correct free step 1",
+    "after-1920x1080 step 2 settled geometry stable",
+    "after-1920x1080 step 2 no horizontal overflow",
+    "after-1920x1080 correct free step 2",
+    "after-1920x1080 step 3 settled geometry stable",
+    "after-1920x1080 step 3 no horizontal overflow",
+    "after-1920x1080 correct free step 3",
+    "after-1920x1080 return from garage correct",
+    "after-1920x1080 switching GP updates total and next",
+    "after-1920x1080-gp step 2 settled geometry stable",
+    "after-1920x1080-gp step 2 no horizontal overflow",
+    "after-1920x1080-advanced step 2 settled geometry stable",
+    "after-1920x1080-advanced step 2 no horizontal overflow",
+    "after-1920x1080 teacher question count remains read-only",
+    "after-1920x1080 GP back step 2",
+    "after-1920x1080 GP back step 1",
+    "after-1920x1080 identity retained",
+    "after-1920x1080 GP skips arena step",
+    "after-1920x1080 GP return from garage",
+    "after-1920x1080 free stage/weather draft retained",
+    "after-1366x768 step 0 settled geometry stable",
+    "after-1366x768 step 0 no horizontal overflow",
+    "after-1366x768 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-1366x768 group and description gaps 18–24 px",
+    "after-1366x768 identity fits without body scrolling",
+    "after-1366x768 helpful validation message",
+    "after-1366x768 existing field ID retained",
+    "after-1366x768 step 1 settled geometry stable",
+    "after-1366x768 step 1 no horizontal overflow",
+    "after-1366x768 correct free step 1",
+    "after-1366x768 step 2 settled geometry stable",
+    "after-1366x768 step 2 no horizontal overflow",
+    "after-1366x768 correct free step 2",
+    "after-1366x768 step 3 settled geometry stable",
+    "after-1366x768 step 3 no horizontal overflow",
+    "after-1366x768 correct free step 3",
+    "after-1366x768 return from garage correct",
+    "after-1366x768 switching GP updates total and next",
+    "after-1366x768-gp step 2 settled geometry stable",
+    "after-1366x768-gp step 2 no horizontal overflow",
+    "after-1366x768-advanced step 2 settled geometry stable",
+    "after-1366x768-advanced step 2 no horizontal overflow",
+    "after-1366x768 teacher question count remains read-only",
+    "after-1366x768 GP back step 2",
+    "after-1366x768 GP back step 1",
+    "after-1366x768 identity retained",
+    "after-1366x768 GP skips arena step",
+    "after-1366x768 GP return from garage",
+    "after-1366x768 free stage/weather draft retained",
+    "after-1366x768 WebGL healthy",
+    "after-390x844 step 0 settled geometry stable",
+    "after-390x844 step 0 no horizontal overflow",
+    "after-390x844 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-390x844 group and description gaps 18–24 px",
+    "after-390x844 identity fits without body scrolling",
+    "after-390x844 helpful validation message",
+    "after-390x844 existing field ID retained",
+    "after-390x844 step 1 settled geometry stable",
+    "after-390x844 step 1 no horizontal overflow",
+    "after-390x844 correct free step 1",
+    "after-390x844 step 2 settled geometry stable",
+    "after-390x844 step 2 no horizontal overflow",
+    "after-390x844 correct free step 2",
+    "after-390x844 step 3 settled geometry stable",
+    "after-390x844 step 3 no horizontal overflow",
+    "after-390x844 correct free step 3",
+    "after-390x844 return from garage correct",
+    "after-390x844 switching GP updates total and next",
+    "after-390x844-gp step 2 settled geometry stable",
+    "after-390x844-gp step 2 no horizontal overflow",
+    "after-390x844-advanced step 2 settled geometry stable",
+    "after-390x844-advanced step 2 no horizontal overflow",
+    "after-390x844 teacher question count remains read-only",
+    "after-390x844 GP back step 2",
+    "after-390x844 GP back step 1",
+    "after-390x844 identity retained",
+    "after-390x844 GP skips arena step",
+    "after-390x844 GP return from garage",
+    "after-390x844 free stage/weather draft retained",
+    "after-390x844 WebGL healthy",
+    "after-844x390 step 0 settled geometry stable",
+    "after-844x390 step 0 no horizontal overflow",
+    "after-844x390 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-844x390 group and description gaps 18–24 px",
+    "after-844x390 identity fits without body scrolling",
+    "after-844x390 helpful validation message",
+    "after-844x390 existing field ID retained",
+    "after-844x390 step 1 settled geometry stable",
+    "after-844x390 step 1 no horizontal overflow",
+    "after-844x390 correct free step 1",
+    "after-844x390 step 2 settled geometry stable",
+    "after-844x390 step 2 no horizontal overflow",
+    "after-844x390 correct free step 2",
+    "after-844x390 step 3 settled geometry stable",
+    "after-844x390 step 3 no horizontal overflow",
+    "after-844x390 correct free step 3",
+    "after-844x390 return from garage correct",
+    "after-844x390 switching GP updates total and next",
+    "after-844x390-gp step 2 settled geometry stable",
+    "after-844x390-gp step 2 no horizontal overflow",
+    "after-844x390-advanced step 2 settled geometry stable",
+    "after-844x390-advanced step 2 no horizontal overflow",
+    "after-844x390 teacher question count remains read-only",
+    "after-844x390 GP back step 2",
+    "after-844x390 GP back step 1",
+    "after-844x390 identity retained",
+    "after-844x390 GP skips arena step",
+    "after-844x390 GP return from garage",
+    "after-844x390 free stage/weather draft retained",
+    "after-320x568 step 0 settled geometry stable",
+    "after-320x568 step 0 no horizontal overflow",
+    "after-320x568 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-320x568 group and description gaps 18–24 px",
+    "after-320x568 identity fits without body scrolling",
+    "after-320x568 helpful validation message",
+    "after-320x568 existing field ID retained",
+    "after-320x568 step 1 settled geometry stable",
+    "after-320x568 step 1 no horizontal overflow",
+    "after-320x568 correct free step 1",
+    "after-320x568 step 2 settled geometry stable",
+    "after-320x568 step 2 no horizontal overflow",
+    "after-320x568 correct free step 2",
+    "after-320x568 step 3 settled geometry stable",
+    "after-320x568 step 3 no horizontal overflow",
+    "after-320x568 correct free step 3",
+    "after-320x568 return from garage correct",
+    "after-320x568 switching GP updates total and next",
+    "after-320x568-gp step 2 settled geometry stable",
+    "after-320x568-gp step 2 no horizontal overflow",
+    "after-320x568-advanced step 2 settled geometry stable",
+    "after-320x568-advanced step 2 no horizontal overflow",
+    "after-320x568 teacher question count remains read-only",
+    "after-320x568 GP back step 2",
+    "after-320x568 GP back step 1",
+    "after-320x568 identity retained",
+    "after-320x568 GP skips arena step",
+    "after-320x568 GP return from garage",
+    "after-320x568 free stage/weather draft retained",
+    "after-768x1024 step 0 settled geometry stable",
+    "after-768x1024 step 0 no horizontal overflow",
+    "after-768x1024 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-768x1024 group and description gaps 18–24 px",
+    "after-768x1024 identity fits without body scrolling",
+    "after-768x1024 helpful validation message",
+    "after-768x1024 existing field ID retained",
+    "after-768x1024 step 1 settled geometry stable",
+    "after-768x1024 step 1 no horizontal overflow",
+    "after-768x1024 correct free step 1",
+    "after-768x1024 step 2 settled geometry stable",
+    "after-768x1024 step 2 no horizontal overflow",
+    "after-768x1024 correct free step 2",
+    "after-768x1024 step 3 settled geometry stable",
+    "after-768x1024 step 3 no horizontal overflow",
+    "after-768x1024 correct free step 3",
+    "after-768x1024 return from garage correct",
+    "after-768x1024 switching GP updates total and next",
+    "after-768x1024-gp step 2 settled geometry stable",
+    "after-768x1024-gp step 2 no horizontal overflow",
+    "after-768x1024-advanced step 2 settled geometry stable",
+    "after-768x1024-advanced step 2 no horizontal overflow",
+    "after-768x1024 teacher question count remains read-only",
+    "after-768x1024 GP back step 2",
+    "after-768x1024 GP back step 1",
+    "after-768x1024 identity retained",
+    "after-768x1024 GP skips arena step",
+    "after-768x1024 GP return from garage",
+    "after-768x1024 free stage/weather draft retained",
+    "after-1024x768 step 0 settled geometry stable",
+    "after-1024x768 step 0 no horizontal overflow",
+    "after-1024x768 label/input gap 8–10 px, 16 px input, readable labels",
+    "after-1024x768 group and description gaps 18–24 px",
+    "after-1024x768 identity fits without body scrolling",
+    "after-1024x768 helpful validation message",
+    "after-1024x768 existing field ID retained",
+    "after-1024x768 step 1 settled geometry stable",
+    "after-1024x768 step 1 no horizontal overflow",
+    "after-1024x768 correct free step 1",
+    "after-1024x768 step 2 settled geometry stable",
+    "after-1024x768 step 2 no horizontal overflow",
+    "after-1024x768 correct free step 2",
+    "after-1024x768 step 3 settled geometry stable",
+    "after-1024x768 step 3 no horizontal overflow",
+    "after-1024x768 correct free step 3",
+    "after-1024x768 return from garage correct",
+    "after-1024x768 switching GP updates total and next",
+    "after-1024x768-gp step 2 settled geometry stable",
+    "after-1024x768-gp step 2 no horizontal overflow",
+    "after-1024x768-advanced step 2 settled geometry stable",
+    "after-1024x768-advanced step 2 no horizontal overflow",
+    "after-1024x768 teacher question count remains read-only",
+    "after-1024x768 GP back step 2",
+    "after-1024x768 GP back step 1",
+    "after-1024x768 identity retained",
+    "after-1024x768 GP skips arena step",
+    "after-1024x768 GP return from garage",
+    "after-1024x768 free stage/weather draft retained",
+    "No JavaScript errors",
+    "No external requests"
+  ],
+  "measurements": [
+    {
+      "prefix": "before-1366x768",
+      "step": 0,
+      "progress": "Persiapan 1 / 4 · berikutnya: garasi",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 395.5,
+            "right": 955.5,
+            "bottom": 423.25
+          },
+          "pad": 12
+        },
+        {
+          "id": "playerClass",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 395.5,
+            "right": 955.5,
+            "bottom": 501.75
+          },
+          "pad": 12
+        }
+      ],
+      "groups": 14,
+      "leadGap": 14,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 174.75,
+        "bottom": 593.25
+      },
+      "footer": {
+        "y": 519.75,
+        "bottom": 593.25
+      },
+      "pageHorizontal": 0,
+      "titleFont": 30,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-1366x768",
+      "step": 1,
+      "progress": "Persiapan 2 / 4 · berikutnya: garasi",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 164.25,
+        "bottom": 603.75
+      },
+      "footer": {
+        "y": 530.25,
+        "bottom": 603.75
+      },
+      "pageHorizontal": 0,
+      "titleFont": 30,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-1366x768",
+      "step": 2,
+      "progress": "Persiapan 3 / 4 · berikutnya: garasi",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 272,
+            "right": 1079,
+            "bottom": 589
+          },
+          "pad": 12
+        },
+        {
+          "id": "setupCount",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 272,
+            "right": 669.5,
+            "bottom": 713.5
+          },
+          "pad": 12
+        },
+        {
+          "id": "setupLaps",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 681.5,
+            "right": 1079,
+            "bottom": 734
+          },
+          "pad": 12
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 151,
+        "bottom": 617
+      },
+      "footer": {
+        "y": 543.5,
+        "bottom": 617
+      },
+      "pageHorizontal": 0,
+      "titleFont": 30,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-1366x768",
+      "step": 3,
+      "progress": "Persiapan 4 / 4 · berikutnya: garasi",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 58.140625,
+        "bottom": 709.859375
+      },
+      "footer": {
+        "y": 636.359375,
+        "bottom": 709.859375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 30,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-390x844",
+      "step": 0,
+      "progress": "Persiapan 1 / 4 · berikutnya: garasi",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 23,
+            "right": 367,
+            "bottom": 465.84375
+          },
+          "pad": 12
+        },
+        {
+          "id": "playerClass",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 23,
+            "right": 367,
+            "bottom": 544.34375
+          },
+          "pad": 12
+        }
+      ],
+      "groups": 14,
+      "leadGap": 14,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 220.65625,
+        "bottom": 623.34375
+      },
+      "footer": {
+        "y": 558.34375,
+        "bottom": 623.34375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 21,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-390x844",
+      "step": 1,
+      "progress": "Persiapan 2 / 4 · berikutnya: garasi",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 158.65625,
+        "bottom": 685.34375
+      },
+      "footer": {
+        "y": 620.34375,
+        "bottom": 685.34375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 21,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-390x844",
+      "step": 2,
+      "progress": "Persiapan 3 / 4 · berikutnya: garasi",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 606.984375
+          },
+          "pad": 12
+        },
+        {
+          "id": "setupCount",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 759.484375
+          },
+          "pad": 12
+        },
+        {
+          "id": "setupLaps",
+          "gap": 4,
+          "labelFont": 11,
+          "inputFont": 15,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 856.484375
+          },
+          "pad": 12
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 221.515625,
+        "bottom": 622.484375
+      },
+      "footer": {
+        "y": 557.484375,
+        "bottom": 622.484375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 21,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "before-390x844",
+      "step": 3,
+      "progress": "Persiapan 4 / 4 · berikutnya: garasi",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 90.7890625,
+        "bottom": 753.2109375
+      },
+      "footer": {
+        "y": 688.2109375,
+        "bottom": 753.2109375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 21,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 535,
+            "right": 942.5,
+            "bottom": 631.2890625
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 962.5,
+            "right": 1370,
+            "bottom": 631.2890625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 360.2109375,
+        "bottom": 719.7890625
+      },
+      "footer": {
+        "y": 649.2890625,
+        "bottom": 719.7890625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 319.703125,
+        "bottom": 760.296875
+      },
+      "footer": {
+        "y": 689.796875,
+        "bottom": 760.296875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 1356,
+            "bottom": 762.640625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 946.5,
+            "bottom": 907.625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 958.5,
+            "right": 1356,
+            "bottom": 933.125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 306.453125,
+        "bottom": 773.546875
+      },
+      "footer": {
+        "y": 703.046875,
+        "bottom": 773.546875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 208.59375,
+        "bottom": 871.40625
+      },
+      "footer": {
+        "y": 800.90625,
+        "bottom": 871.40625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 1356,
+            "bottom": 901.03125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 946.5,
+            "bottom": 1046.015625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 958.5,
+            "right": 1356,
+            "bottom": 1071.515625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 168.0625,
+        "bottom": 911.9375
+      },
+      "footer": {
+        "y": 841.4375,
+        "bottom": 911.9375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1920x1080-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 1356,
+            "bottom": 749.96875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 549,
+            "right": 946.5,
+            "bottom": 894.953125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 958.5,
+            "right": 1356,
+            "bottom": 920.453125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 66,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "dialog": {
+        "x": 511,
+        "right": 1409,
+        "y": 17,
+        "bottom": 1063
+      },
+      "footer": {
+        "y": 992.5,
+        "bottom": 1063
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 258,
+            "right": 665.5,
+            "bottom": 475.2890625
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 685.5,
+            "right": 1093,
+            "bottom": 475.2890625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 204.2109375,
+        "bottom": 563.7890625
+      },
+      "footer": {
+        "y": 493.2890625,
+        "bottom": 563.7890625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 163.703125,
+        "bottom": 604.296875
+      },
+      "footer": {
+        "y": 533.796875,
+        "bottom": 604.296875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 1079,
+            "bottom": 606.640625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 669.5,
+            "bottom": 751.625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 681.5,
+            "right": 1079,
+            "bottom": 777.125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 150.453125,
+        "bottom": 617.546875
+      },
+      "footer": {
+        "y": 547.046875,
+        "bottom": 617.546875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 57.59375,
+        "bottom": 710.40625
+      },
+      "footer": {
+        "y": 639.90625,
+        "bottom": 710.40625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 1079,
+            "bottom": 749.96875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 669.5,
+            "bottom": 894.953125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 681.5,
+            "right": 1079,
+            "bottom": 920.453125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 10,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 17,
+        "bottom": 751
+      },
+      "footer": {
+        "y": 680.5,
+        "bottom": 751
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1366x768-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 1079,
+            "bottom": 749.96875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 272,
+            "right": 669.5,
+            "bottom": 894.953125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 681.5,
+            "right": 1079,
+            "bottom": 920.453125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 378,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1366,
+        "h": 768
+      },
+      "dialog": {
+        "x": 234,
+        "right": 1132,
+        "y": 17,
+        "bottom": 751
+      },
+      "footer": {
+        "y": 680.5,
+        "bottom": 751
+      },
+      "pageHorizontal": 0,
+      "titleFont": 28,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 23,
+            "right": 367,
+            "bottom": 471.6484375
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 23,
+            "right": 367,
+            "bottom": 568.6328125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 196.3671875,
+        "bottom": 647.6328125
+      },
+      "footer": {
+        "y": 582.6328125,
+        "bottom": 647.6328125
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 152.8515625,
+        "bottom": 691.1484375
+      },
+      "footer": {
+        "y": 626.1484375,
+        "bottom": 691.1484375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 625.3828125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 798.3671875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 914.4609375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 217.2109375,
+        "bottom": 626.7890625
+      },
+      "footer": {
+        "y": 561.7890625,
+        "bottom": 626.7890625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 77.09375,
+        "bottom": 766.90625
+      },
+      "footer": {
+        "y": 701.90625,
+        "bottom": 766.90625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 895.734375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 1068.71875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 1184.8125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 70,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 17,
+        "bottom": 827
+      },
+      "footer": {
+        "y": 762,
+        "bottom": 827
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-390x844-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 825.734375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 998.71875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 353,
+            "bottom": 1114.8125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 575,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "dialog": {
+        "x": 9,
+        "right": 381,
+        "y": 17,
+        "bottom": 827
+      },
+      "footer": {
+        "y": 762,
+        "bottom": 827
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 29,
+            "right": 404.5,
+            "bottom": 271.0859375
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 424.5,
+            "right": 800,
+            "bottom": 271.0859375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 18,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 49.4140625,
+        "bottom": 340.5859375
+      },
+      "footer": {
+        "y": 280.0859375,
+        "bottom": 340.5859375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 40.40625,
+        "bottom": 349.59375
+      },
+      "footer": {
+        "y": 289.09375,
+        "bottom": 349.59375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 786,
+            "bottom": 371.6875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 408.5,
+            "bottom": 508.671875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 420.5,
+            "right": 786,
+            "bottom": 534.171875
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 26.40625,
+        "bottom": 363.59375
+      },
+      "footer": {
+        "y": 303.09375,
+        "bottom": 363.59375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 28,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 17,
+        "bottom": 373
+      },
+      "footer": {
+        "y": 312.5,
+        "bottom": 373
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 303.234375,
+            "bottom": 425.203125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 167.109375,
+            "bottom": 609.78125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 179.109375,
+            "right": 303.234375,
+            "bottom": 668.28125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 102,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 17,
+        "bottom": 373
+      },
+      "footer": {
+        "y": 312.5,
+        "bottom": 373
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-844x390-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 303.234375,
+            "bottom": 333.34375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 43,
+            "right": 167.109375,
+            "bottom": 517.921875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 179.109375,
+            "right": 303.234375,
+            "bottom": 576.421875
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 466,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 844,
+        "h": 390
+      },
+      "dialog": {
+        "x": 13,
+        "right": 831,
+        "y": 17,
+        "bottom": 373
+      },
+      "footer": {
+        "y": 312.5,
+        "bottom": 373
+      },
+      "pageHorizontal": 0,
+      "titleFont": 22,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 23,
+            "right": 297,
+            "bottom": 357.796875
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 23,
+            "right": 297,
+            "bottom": 454.78125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 34.21875,
+        "bottom": 533.78125
+      },
+      "footer": {
+        "y": 468.78125,
+        "bottom": 533.78125
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 25,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 17,
+        "bottom": 551
+      },
+      "footer": {
+        "y": 486,
+        "bottom": 551
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 506.8828125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 679.8671875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 812.4609375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 59.7109375,
+        "bottom": 508.2890625
+      },
+      "footer": {
+        "y": 443.2890625,
+        "bottom": 508.2890625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 128,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 17,
+        "bottom": 551
+      },
+      "footer": {
+        "y": 486,
+        "bottom": 551
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 987.234375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 1160.21875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 1292.8125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 437,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 17,
+        "bottom": 551
+      },
+      "footer": {
+        "y": 486,
+        "bottom": 551
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-320x568-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 550.234375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 723.21875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 283,
+            "bottom": 855.8125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 988,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 320,
+        "h": 568
+      },
+      "dialog": {
+        "x": 9,
+        "right": 311,
+        "y": 17,
+        "bottom": 551
+      },
+      "footer": {
+        "y": 486,
+        "bottom": 551
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 37,
+            "right": 366.5,
+            "bottom": 600.890625
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 386.5,
+            "right": 716,
+            "bottom": 600.890625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 334.609375,
+        "bottom": 689.390625
+      },
+      "footer": {
+        "y": 618.890625,
+        "bottom": 689.390625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 294.1015625,
+        "bottom": 729.8984375
+      },
+      "footer": {
+        "y": 659.3984375,
+        "bottom": 729.8984375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 702,
+            "bottom": 732.2421875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 370.5,
+            "bottom": 877.2265625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 382.5,
+            "right": 702,
+            "bottom": 902.7265625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 280.8515625,
+        "bottom": 743.1484375
+      },
+      "footer": {
+        "y": 672.6484375,
+        "bottom": 743.1484375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 215.0703125,
+        "bottom": 808.9296875
+      },
+      "footer": {
+        "y": 738.4296875,
+        "bottom": 808.9296875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 702,
+            "bottom": 879.6328125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 370.5,
+            "bottom": 1024.6171875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 382.5,
+            "right": 702,
+            "bottom": 1050.1171875
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 133.4609375,
+        "bottom": 890.5390625
+      },
+      "footer": {
+        "y": 820.0390625,
+        "bottom": 890.5390625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-768x1024-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 702,
+            "bottom": 763.171875
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 51,
+            "right": 370.5,
+            "bottom": 908.15625
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 382.5,
+            "right": 702,
+            "bottom": 933.65625
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 135,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 768,
+        "h": 1024
+      },
+      "dialog": {
+        "x": 13,
+        "right": 755,
+        "y": 17,
+        "bottom": 1007
+      },
+      "footer": {
+        "y": 936.5,
+        "bottom": 1007
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768",
+      "step": 0,
+      "progress": "Langkah 1 dari 4 · Berikutnya: Tingkat Kesulitan",
+      "labels": [
+        {
+          "id": "playerName",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 87,
+            "right": 494.5,
+            "bottom": 473.234375
+          },
+          "pad": 15
+        },
+        {
+          "id": "playerClass",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 514.5,
+            "right": 922,
+            "bottom": 473.234375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": 20,
+      "leadGap": 20,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 206.265625,
+        "bottom": 561.734375
+      },
+      "footer": {
+        "y": 491.234375,
+        "bottom": 561.734375
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768",
+      "step": 1,
+      "progress": "Langkah 2 dari 4 · Berikutnya: Mode Balapan",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 165.7578125,
+        "bottom": 602.2421875
+      },
+      "footer": {
+        "y": 531.7421875,
+        "bottom": 602.2421875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768",
+      "step": 2,
+      "progress": "Langkah 3 dari 4 · Berikutnya: Arena dan Cuaca",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 908,
+            "bottom": 604.5859375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 498.5,
+            "bottom": 749.5703125
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 510.5,
+            "right": 908,
+            "bottom": 775.0703125
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 152.5078125,
+        "bottom": 615.4921875
+      },
+      "footer": {
+        "y": 544.9921875,
+        "bottom": 615.4921875
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768",
+      "step": 3,
+      "progress": "Langkah 4 dari 4 · Berikutnya: Pilih Karakter",
+      "labels": [],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 0,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 59.6484375,
+        "bottom": 708.3515625
+      },
+      "footer": {
+        "y": 637.8515625,
+        "bottom": 708.3515625
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768-gp",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 908,
+            "bottom": 745.859375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 498.5,
+            "bottom": 890.84375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 510.5,
+            "right": 908,
+            "bottom": 916.34375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 5,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 17,
+        "bottom": 751
+      },
+      "footer": {
+        "y": 680.5,
+        "bottom": 751
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    },
+    {
+      "prefix": "after-1024x768-advanced",
+      "step": 2,
+      "progress": "Langkah 3 dari 3 · Berikutnya: Pilih Karakter",
+      "labels": [
+        {
+          "id": "setupBank",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 908,
+            "bottom": 745.859375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupCount",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 101,
+            "right": 498.5,
+            "bottom": 890.84375
+          },
+          "pad": 15
+        },
+        {
+          "id": "setupLaps",
+          "gap": 9,
+          "labelFont": 14,
+          "inputFont": 16,
+          "box": {
+            "x": 510.5,
+            "right": 908,
+            "bottom": 916.34375
+          },
+          "pad": 15
+        }
+      ],
+      "groups": null,
+      "leadGap": null,
+      "bodyScroll": 373,
+      "bodyHorizontal": 0,
+      "viewport": {
+        "w": 1024,
+        "h": 768
+      },
+      "dialog": {
+        "x": 63,
+        "right": 961,
+        "y": 17,
+        "bottom": 751
+      },
+      "footer": {
+        "y": 680.5,
+        "bottom": 751
+      },
+      "pageHorizontal": 0,
+      "titleFont": 24.576,
+      "maxSettledShift": 0
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "textAudits": [
+    {
+      "prefix": "before-1366x768",
+      "name": "modes",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "pin",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "teacher",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "teacher-settings",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "hud",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "pause",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "quiz",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "podium",
+      "clipped": []
+    },
+    {
+      "prefix": "before-1366x768",
+      "name": "results",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "modes",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "pin",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "teacher",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "teacher-settings",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "hud",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "pause",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "quiz",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "podium",
+      "clipped": []
+    },
+    {
+      "prefix": "before-390x844",
+      "name": "results",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1920x1080",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "modes",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "pin",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "teacher",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "teacher-settings",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "hud",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "pause",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "quiz",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "podium",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1366x768",
+      "name": "results",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "modes",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "pin",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "teacher",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "teacher-settings",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "hud",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "pause",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "quiz",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "podium",
+      "clipped": []
+    },
+    {
+      "prefix": "after-390x844",
+      "name": "results",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-844x390",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-320x568",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-768x1024",
+      "name": "advanced",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "identity",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "difficulty",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "race-mode",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "stage-weather",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "garage",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "grand-prix",
+      "clipped": []
+    },
+    {
+      "prefix": "after-1024x768",
+      "name": "advanced",
+      "clipped": []
+    }
+  ],
+  "status": "passed"
+}

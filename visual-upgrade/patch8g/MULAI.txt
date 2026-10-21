@@ -1,0 +1,5 @@
+BLOKRAYA PATCH 8G
+Ekstrak ZIP, lalu buka blokraya-patch8g-ui-polish.html di browser modern.
+Semua aset tertanam; tidak memerlukan CDN atau instalasi.
+Gunakan browser dan lokasi/origin yang sama untuk memakai profil tersimpan sebelumnya. Lokasi/browser baru dapat menggunakan penyimpanan berbeda.
+PATCH 8G hanya merapikan tulisan, tipografi, spacing dan petunjuk langkah.

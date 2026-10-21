@@ -1,0 +1,8 @@
+{
+  "passed": 3,
+  "checks": [
+    "390×844: purchase copy and actions visible; price 60, insufficient zero-wallet balance still rejected",
+    "844×390: purchase copy and actions visible; price 60, insufficient zero-wallet balance still rejected",
+    "320×568: purchase copy and actions visible; price 60, insufficient zero-wallet balance still rejected"
+  ]
+}

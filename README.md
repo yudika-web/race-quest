@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8F: Token dan Unlock Karakter
+# BlokRaya PRO — PATCH 8G: Tipografi, Spacing dan Microcopy
+
+Form identitas memakai **Nama Siswa**, **Kelas**, petunjuk singkat, label 14 px, input 16 px dan gap label–input 9 px. Petunjuk langkah mengikuti alur Bebas/Grand Prix dan navigasi kembali. Teks kartu, form guru/PIN, garasi dan laporan dirapikan tanpa mengubah warna, gameplay atau penyimpanan.
+
+- [ZIP playable terbaru](blokraya-patch8g-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8g-ui-polish.html) · [ZIP review](blokraya-patch8g-review.zip).
+- [Identitas desktop](visual-upgrade/patch8g/screenshots/after-1366x768-identity.png) · [HP kecil](visual-upgrade/patch8g/screenshots/after-320x568-identity.png) · [Galeri before–after](visual-upgrade/patch8g/review.html).
+- [Laporan dan sumber](visual-upgrade/patch8g/README.md) · [Metrik](visual-upgrade/patch8g/metrics.json).
+
+HTML **25.011.586 byte**, bertambah **4.342 byte**. **261 pemeriksaan** pada tujuh viewport lulus; 110 screenshot tersedia. Nol clipping teks pada permukaan yang diperiksa dan nol overflow horizontal pada 50 pengukuran wizard; 56 payload script lain identik dengan PATCH 8F. HP fisik/FPS dan file:// cloud tidak diklaim diuji. Tidak merge, deployment, atau mengubah index.html utama.
+
+# Tahap sebelumnya — PATCH 8F: Token dan Unlock Karakter
 
 Profil baru memperoleh 0 token dan empat karakter gratis. Sepuluh karakter lainnya berharga 60 token dengan konfirmasi pembelian, perlindungan klik ganda, dan penyimpanan unlock. Profil lama tetap dipertahankan; reward hasil balapan dilindungi dari pemrosesan berulang.
 
