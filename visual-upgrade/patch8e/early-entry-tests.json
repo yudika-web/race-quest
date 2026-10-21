@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Parser paused before asset/engine/input scripts: early helper already available",
+    "First poster gesture invokes original fullscreen helper before engine is parsed",
+    "Early interaction is remembered while remaining HTML loads",
+    "Parser resumes and enters fullscreen mode selection without another request",
+    "No early-interaction JavaScript errors"
+  ],
+  "errors": []
+}

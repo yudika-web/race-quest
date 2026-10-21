@@ -1,0 +1,364 @@
+{
+  "status": "passed",
+  "checks": [
+    "Native startup enters fullscreen once before mode selection",
+    "Teacher PIN and room preserve fullscreen",
+    "Export preserves PIN privacy",
+    "Export restores fresh enabled startup button",
+    "Teacher logout locks access without exiting/re-requesting fullscreen",
+    "Student wizard and garage preserve startup fullscreen",
+    "Race loading preserves fullscreen with no second request",
+    "Startup gate never returns during ordinary loading/menu transitions",
+    "Unchanged analog + gas + drift work together in fullscreen",
+    "Analog release remains neutral",
+    "Question remains fullscreen and clears analog",
+    "Question still freezes simulation and buff timers",
+    "Correct answer still rewards usable buff",
+    "Pause remains fullscreen",
+    "Browser/API fullscreen exit updates canvas without reload",
+    "Existing manual HUD fullscreen can re-enter",
+    "Existing three-racer vehicle podium remains fullscreen",
+    "Academic report and original scoring persist in fullscreen",
+    "Replay after voluntary exit never forces fullscreen again",
+    "No WebGL errors through race/podium/replay",
+    "Exported game enters mode selection offline without Fullscreen API",
+    "Exported device creates its own teacher PIN",
+    "Exported offline game retains racers, stages and buffs and starts racing",
+    "No external HTTP/CDN asset requests",
+    "No JavaScript errors in teacher/student/fullscreen/offline/export flows"
+  ],
+  "errors": [],
+  "assetRequests": [],
+  "export_bytes": 25040869,
+  "escape_exited_native": false,
+  "layout": [
+    {
+      "phase": "wizard 0",
+      "rects": [
+        {
+          "selector": "#setupDialog",
+          "x": 12,
+          "y": 66.75,
+          "right": 832,
+          "bottom": 323.25,
+          "w": 820,
+          "h": 256.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm>.dialog-foot",
+          "x": 13,
+          "y": 258.75,
+          "right": 831,
+          "bottom": 322.25,
+          "w": 818,
+          "h": 63.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#onboardingBack",
+          "x": 29,
+          "y": 266.75,
+          "right": 157.171875,
+          "bottom": 315.25,
+          "w": 128.171875,
+          "h": 48.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm button[type=submit]",
+          "x": 701.765625,
+          "y": 267.75,
+          "right": 815,
+          "bottom": 314.25,
+          "w": 113.234375,
+          "h": 46.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "wizard 1",
+      "rects": [
+        {
+          "selector": "#setupDialog",
+          "x": 12,
+          "y": 44.25,
+          "right": 832,
+          "bottom": 345.75,
+          "w": 820,
+          "h": 301.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm>.dialog-foot",
+          "x": 13,
+          "y": 281.25,
+          "right": 831,
+          "bottom": 344.75,
+          "w": 818,
+          "h": 63.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#onboardingBack",
+          "x": 29,
+          "y": 289.25,
+          "right": 157.171875,
+          "bottom": 337.75,
+          "w": 128.171875,
+          "h": 48.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm button[type=submit]",
+          "x": 701.765625,
+          "y": 290.25,
+          "right": 815,
+          "bottom": 336.75,
+          "w": 113.234375,
+          "h": 46.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "wizard 2",
+      "rects": [
+        {
+          "selector": "#setupDialog",
+          "x": 12,
+          "y": 31,
+          "right": 832,
+          "bottom": 359,
+          "w": 820,
+          "h": 328,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm>.dialog-foot",
+          "x": 13,
+          "y": 294.5,
+          "right": 831,
+          "bottom": 358,
+          "w": 818,
+          "h": 63.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#onboardingBack",
+          "x": 29,
+          "y": 302.5,
+          "right": 157.171875,
+          "bottom": 351,
+          "w": 128.171875,
+          "h": 48.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm button[type=submit]",
+          "x": 701.765625,
+          "y": 303.5,
+          "right": 815,
+          "bottom": 350,
+          "w": 113.234375,
+          "h": 46.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "wizard 3",
+      "rects": [
+        {
+          "selector": "#setupDialog",
+          "x": 12,
+          "y": 16,
+          "right": 832,
+          "bottom": 374,
+          "w": 820,
+          "h": 358,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm>.dialog-foot",
+          "x": 13,
+          "y": 309.5,
+          "right": 831,
+          "bottom": 373,
+          "w": 818,
+          "h": 63.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#onboardingBack",
+          "x": 29,
+          "y": 317.5,
+          "right": 157.171875,
+          "bottom": 366,
+          "w": 128.171875,
+          "h": 48.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#setupForm button[type=submit]",
+          "x": 647.109375,
+          "y": 318.5,
+          "right": 815,
+          "bottom": 365,
+          "w": 167.890625,
+          "h": 46.5,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "garage",
+      "rects": [
+        {
+          "selector": "#startRaceBtn",
+          "x": 723.453125,
+          "y": 334.5,
+          "right": 832,
+          "bottom": 378.5,
+          "w": 108.546875,
+          "h": 44,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#garage [data-act=setup]",
+          "x": 12,
+          "y": 334.5,
+          "right": 162.53125,
+          "bottom": 378.5,
+          "w": 150.53125,
+          "h": 44,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#garagePreviewHost",
+          "x": 341.078125,
+          "y": 61,
+          "right": 831.984375,
+          "bottom": 321,
+          "w": 490.90625,
+          "h": 260,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "quiz",
+      "rects": [
+        {
+          "selector": "#questionDialog",
+          "x": 16.8828125,
+          "y": 41.1796875,
+          "right": 827.1171875,
+          "bottom": 348.8203125,
+          "w": 810.234375,
+          "h": 307.640625,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": ".question-foot",
+          "x": 17.8828125,
+          "y": 286.8203125,
+          "right": 826.1171875,
+          "bottom": 347.8203125,
+          "w": 808.234375,
+          "h": 61,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "pause",
+      "rects": [
+        {
+          "selector": "#pauseDialog",
+          "x": 16,
+          "y": 12,
+          "right": 828,
+          "bottom": 378,
+          "w": 812,
+          "h": 366,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "phase": "podium",
+      "rects": [
+        {
+          "selector": "#podiumPreviewHost",
+          "x": 14,
+          "y": 75.890625,
+          "right": 830,
+          "bottom": 294.5,
+          "w": 816,
+          "h": 218.609375,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        },
+        {
+          "selector": "#podiumResultsBtn",
+          "x": 246.890625,
+          "y": 341,
+          "right": 384.8125,
+          "bottom": 385,
+          "w": 137.921875,
+          "h": 44,
+          "visible": true,
+          "width": 844,
+          "height": 390
+        }
+      ]
+    }
+  ]
+}

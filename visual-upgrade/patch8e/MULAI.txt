@@ -1,0 +1,13 @@
+BLOKRAYA PRO — PATCH 8E: FULLSCREEN DARI POSTER PEMBUKA
+Ekstrak ZIP dan buka blokraya-patch8e-startup.html menggunakan browser modern.
+Ketuk poster atau tombol Masuk BlokRaya (keyboard: Tab lalu Enter/Spasi).
+Game meminta fullscreen dari interaksi tersebut, lalu membuka pilihan Mode Siswa/Guru setelah loading siap dan minimum tiga detik selesai. Tidak ada hitungan tiga detik kedua jika Anda mengetuk belakangan.
+Jika fullscreen ditolak/tidak tersedia, game tetap dapat dimainkan dalam viewport browser.
+
+Sesudah keluar fullscreen, perpindahan menu dan Mulai Balapan tidak memintanya lagi. Gunakan tombol fullscreen di HUD jika ingin mengaktifkan kembali.
+Analog, kontrol klasik, 13 arena, 14 pembalap, buff, AI, PIN Guru, podium dan hasil belajar tetap memakai implementasi sebelumnya.
+
+HTML mandiri: poster, audio, model dan arena sudah tertanam; tanpa CDN/server wajib.
+Pengujian memakai Chromium dengan emulasi HP dan offline/network-disabled context; tidak mengklaim HP fisik/Safari/FPS.
+Browser cloud menolak file:// dengan kebijakan administrator. HTTP biasa dan ekspor guru yang dimainkan ulang tanpa jaringan diuji.
+Screenshot, sumber startup dan laporan tersedia dalam ZIP review pada visual-upgrade/patch8e/.

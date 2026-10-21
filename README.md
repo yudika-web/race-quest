@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8D: Fullscreen & Kemudi Analog
+# BlokRaya PRO — PATCH 8E: Fullscreen dari Layar Pembuka
+
+Ketuk poster atau **Masuk BlokRaya** untuk meminta fullscreen lewat helper PATCH 8D yang sama. Mode Siswa/Guru menunggu interaksi, kesiapan game dan minimum tiga detik sejak paint awal, tanpa timer tiga detik kedua. Browser yang menolak/tidak mendukung fullscreen tetap dapat bermain. Mulai Balapan tidak meminta fullscreen lagi; tombol manual HUD tetap tersedia.
+
+- [ZIP playable terbaru](blokraya-patch8e-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8e-startup.html) · [ZIP review](blokraya-patch8e-review.zip).
+- [Poster portrait](visual-upgrade/patch8e/screenshots/portrait-native-poster.png) · [Mode fullscreen](visual-upgrade/patch8e/screenshots/portrait-native-modes.png) · [Podium asli](visual-upgrade/patch8e/screenshots/native-podium.png) · [Galeri](visual-upgrade/patch8e/review.html).
+- [Sumber dan laporan](visual-upgrade/patch8e/README.md) · [Metrik](visual-upgrade/patch8e/metrics.json).
+
+HTML **25.005.151 byte** (+1.933 dari PATCH 8D). 116 pemeriksaan startup/early-gesture, fullscreen/fallback, wizard, PIN, analog, kuis, podium, hasil dan offline/ekspor lulus. Helper fullscreen dipindah verbatim; analog, podium, AI, arena, model dan nilai akademik tetap identik. HP fisik/Safari/FPS tidak diklaim diuji; file:// cloud diblokir administrator. Tidak merge/deployment atau mengganti index.html utama.
+
+# Tahap sebelumnya — PATCH 8D: Fullscreen & Kemudi Analog
 
 Fullscreen diminta langsung dari klik **Mulai Balapan**, dengan fallback viewport responsif ketika browser menolak/tidak mendukung. Analog HP mengatur besar kemudi secara proporsional; tombol klasik, multitouch gas/drift/jump/buff, keyboard dan preferensi lama dipertahankan. Footer persiapan/kuis serta garasi/HUD dirapikan untuk layar pendek.
 

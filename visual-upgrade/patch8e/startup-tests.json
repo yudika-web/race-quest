@@ -1,0 +1,1517 @@
+{
+  "status": "passed",
+  "checks": [
+    "desktop poster covers viewport without letterbox",
+    "desktop embedded poster orientation matches",
+    "desktop entry button fully visible",
+    "desktop no fullscreen request on page load",
+    "desktop synthetic click cannot enter or request fullscreen",
+    "desktop loading lasts at least three seconds from first paint",
+    "desktop startup makes at most one supported fullscreen request",
+    "desktop fullscreen requested synchronously before entry promise resolves",
+    "desktop native/fallback fullscreen state correct",
+    "desktop keyboard focus moves to mode selection",
+    "desktop wizard and garage preserve fullscreen state",
+    "desktop starting race never requests fullscreen again",
+    "desktop race preserves native/fallback state",
+    "desktop no WebGL error",
+    "portrait-native poster covers viewport without letterbox",
+    "portrait-native embedded poster orientation matches",
+    "portrait-native entry button fully visible",
+    "portrait-native no fullscreen request on page load",
+    "portrait-native synthetic click cannot enter or request fullscreen",
+    "portrait-native loading lasts at least three seconds from first paint",
+    "portrait-native startup makes at most one supported fullscreen request",
+    "portrait-native fullscreen requested synchronously before entry promise resolves",
+    "portrait-native native/fallback fullscreen state correct",
+    "portrait-native keyboard focus moves to mode selection",
+    "portrait-native wizard and garage preserve fullscreen state",
+    "portrait-native starting race never requests fullscreen again",
+    "portrait-native race preserves native/fallback state",
+    "portrait-native no WebGL error",
+    "landscape-native poster covers viewport without letterbox",
+    "landscape-native embedded poster orientation matches",
+    "landscape-native entry button fully visible",
+    "landscape-native no fullscreen request on page load",
+    "landscape-native synthetic click cannot enter or request fullscreen",
+    "landscape-native loading lasts at least three seconds from first paint",
+    "landscape-native startup makes at most one supported fullscreen request",
+    "landscape-native fullscreen requested synchronously before entry promise resolves",
+    "landscape-native native/fallback fullscreen state correct",
+    "landscape-native keyboard focus moves to mode selection",
+    "landscape-native wizard and garage preserve fullscreen state",
+    "landscape-native starting race never requests fullscreen again",
+    "landscape-native race preserves native/fallback state",
+    "landscape-native no WebGL error",
+    "portrait poster covers viewport without letterbox",
+    "portrait embedded poster orientation matches",
+    "portrait entry button fully visible",
+    "portrait no fullscreen request on page load",
+    "portrait synthetic click cannot enter or request fullscreen",
+    "portrait loading lasts at least three seconds from first paint",
+    "portrait startup makes at most one supported fullscreen request",
+    "portrait fullscreen requested synchronously before entry promise resolves",
+    "portrait native/fallback fullscreen state correct",
+    "portrait keyboard focus moves to mode selection",
+    "portrait wizard and garage preserve fullscreen state",
+    "portrait starting race never requests fullscreen again",
+    "portrait race preserves native/fallback state",
+    "portrait no WebGL error",
+    "landscape poster covers viewport without letterbox",
+    "landscape embedded poster orientation matches",
+    "landscape entry button fully visible",
+    "landscape no fullscreen request on page load",
+    "landscape synthetic click cannot enter or request fullscreen",
+    "landscape ready poster waits for deliberate entry",
+    "landscape loading lasts at least three seconds from first paint",
+    "landscape late entry does not start a second three-second wait",
+    "landscape startup makes at most one supported fullscreen request",
+    "landscape fullscreen requested synchronously before entry promise resolves",
+    "landscape native/fallback fullscreen state correct",
+    "landscape keyboard focus moves to mode selection",
+    "landscape wizard and garage preserve fullscreen state",
+    "landscape starting race never requests fullscreen again",
+    "landscape race preserves native/fallback state",
+    "landscape no WebGL error",
+    "Slow essential poster readiness keeps startup visible beyond minimum",
+    "Pending resource never displays fake completed progress",
+    "Entry + resource ready + minimum time allow mode selection",
+    "No JavaScript errors in startup/native/rejected/unsupported flows"
+  ],
+  "cases": [
+    {
+      "name": "desktop",
+      "poster": {
+        "image": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 768
+        },
+        "button": {
+          "x": 39,
+          "y": 695,
+          "right": 441,
+          "bottom": 743
+        },
+        "fit": "cover",
+        "portrait": false,
+        "fs": false
+      },
+      "now": 3787.4000000059605,
+      "paint": 384,
+      "fs": true,
+      "calls": [
+        {
+          "active": true,
+          "time": 752.3000000119209,
+          "screen": "home",
+          "entered": false
+        }
+      ],
+      "focus": "studentModeBtn",
+      "late_entry_ms": 3117.5,
+      "layout": [
+        {
+          "phase": "wizard 0",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 233,
+              "y": 173.75,
+              "right": 1133,
+              "bottom": 594.25,
+              "w": 900,
+              "h": 420.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 234,
+              "y": 519.75,
+              "right": 1132,
+              "bottom": 593.25,
+              "w": 898,
+              "h": 73.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 258,
+              "y": 532.75,
+              "right": 386.171875,
+              "bottom": 581.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 994.765625,
+              "y": 533.75,
+              "right": 1108,
+              "bottom": 580.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "phase": "wizard 1",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 233,
+              "y": 163.25,
+              "right": 1133,
+              "bottom": 604.75,
+              "w": 900,
+              "h": 441.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 234,
+              "y": 530.25,
+              "right": 1132,
+              "bottom": 603.75,
+              "w": 898,
+              "h": 73.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 258,
+              "y": 543.25,
+              "right": 386.171875,
+              "bottom": 591.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 994.765625,
+              "y": 544.25,
+              "right": 1108,
+              "bottom": 590.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "phase": "wizard 2",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 233,
+              "y": 150,
+              "right": 1133,
+              "bottom": 618,
+              "w": 900,
+              "h": 468,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 234,
+              "y": 543.5,
+              "right": 1132,
+              "bottom": 617,
+              "w": 898,
+              "h": 73.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 258,
+              "y": 556.5,
+              "right": 386.171875,
+              "bottom": 605,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 994.765625,
+              "y": 557.5,
+              "right": 1108,
+              "bottom": 604,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "phase": "wizard 3",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 233,
+              "y": 57.140625,
+              "right": 1133,
+              "bottom": 710.859375,
+              "w": 900,
+              "h": 653.71875,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 234,
+              "y": 636.359375,
+              "right": 1132,
+              "bottom": 709.859375,
+              "w": 898,
+              "h": 73.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 258,
+              "y": 649.359375,
+              "right": 386.171875,
+              "bottom": 697.859375,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 940.109375,
+              "y": 650.359375,
+              "right": 1108,
+              "bottom": 696.859375,
+              "w": 167.890625,
+              "h": 46.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "phase": "garage",
+          "rects": [
+            {
+              "selector": "#startRaceBtn",
+              "x": 1139.171875,
+              "y": 698.75,
+              "right": 1311.375,
+              "bottom": 745.25,
+              "w": 172.203125,
+              "h": 46.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#garage [data-act=setup]",
+              "x": 54.625,
+              "y": 697.75,
+              "right": 283.359375,
+              "bottom": 746.25,
+              "w": 228.734375,
+              "h": 48.5,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            },
+            {
+              "selector": "#garagePreviewHost",
+              "x": 480.28125,
+              "y": 80,
+              "right": 1311.375,
+              "bottom": 661,
+              "w": 831.09375,
+              "h": 581,
+              "visible": true,
+              "width": 1366,
+              "height": 768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "portrait-native",
+      "poster": {
+        "image": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844
+        },
+        "button": {
+          "x": 35,
+          "y": 771,
+          "right": 355,
+          "bottom": 819
+        },
+        "fit": "cover",
+        "portrait": true,
+        "fs": false
+      },
+      "now": 3763.5999999940395,
+      "paint": 340,
+      "fs": true,
+      "calls": [
+        {
+          "active": true,
+          "time": 597.1999999880791,
+          "screen": "home",
+          "entered": false
+        }
+      ],
+      "focus": "studentModeBtn",
+      "late_entry_ms": 3235.5999999940395,
+      "layout": [
+        {
+          "phase": "wizard 0",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 219.65625,
+              "right": 382,
+              "bottom": 624.34375,
+              "w": 374,
+              "h": 404.6875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 558.34375,
+              "right": 381,
+              "bottom": 623.34375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 569.34375,
+              "right": 190,
+              "bottom": 613.34375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 569.34375,
+              "right": 367,
+              "bottom": 613.34375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 1",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 157.65625,
+              "right": 382,
+              "bottom": 686.34375,
+              "w": 374,
+              "h": 528.6875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 620.34375,
+              "right": 381,
+              "bottom": 685.34375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 631.34375,
+              "right": 190,
+              "bottom": 675.34375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 631.34375,
+              "right": 367,
+              "bottom": 675.34375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 2",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 220.515625,
+              "right": 382,
+              "bottom": 623.484375,
+              "w": 374,
+              "h": 402.96875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 557.484375,
+              "right": 381,
+              "bottom": 622.484375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 568.484375,
+              "right": 190,
+              "bottom": 612.484375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 568.484375,
+              "right": 367,
+              "bottom": 612.484375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 3",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 89.7890625,
+              "right": 382,
+              "bottom": 754.2109375,
+              "w": 374,
+              "h": 664.421875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 688.2109375,
+              "right": 381,
+              "bottom": 753.2109375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 699.2109375,
+              "right": 190,
+              "bottom": 743.2109375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 699.2109375,
+              "right": 367,
+              "bottom": 743.2109375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "garage",
+          "rects": [
+            {
+              "selector": "#startRaceBtn",
+              "x": 198,
+              "y": 792,
+              "right": 380,
+              "bottom": 836,
+              "w": 182,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#garage [data-act=setup]",
+              "x": 10,
+              "y": 792,
+              "right": 192,
+              "bottom": 836,
+              "w": 182,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#garagePreviewHost",
+              "x": 10,
+              "y": 364.125,
+              "right": 380,
+              "bottom": 725,
+              "w": 370,
+              "h": 360.875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "landscape-native",
+      "poster": {
+        "image": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390
+        },
+        "button": {
+          "x": 27,
+          "y": 325,
+          "right": 282,
+          "bottom": 373
+        },
+        "fit": "cover",
+        "portrait": false,
+        "fs": false
+      },
+      "now": 3825.100000023842,
+      "paint": 384,
+      "fs": true,
+      "calls": [
+        {
+          "active": true,
+          "time": 680.5,
+          "screen": "home",
+          "entered": false
+        }
+      ],
+      "focus": "studentModeBtn",
+      "late_entry_ms": 3225,
+      "layout": [
+        {
+          "phase": "wizard 0",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 66.75,
+              "right": 832,
+              "bottom": 323.25,
+              "w": 820,
+              "h": 256.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 258.75,
+              "right": 831,
+              "bottom": 322.25,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 266.75,
+              "right": 157.171875,
+              "bottom": 315.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 267.75,
+              "right": 815,
+              "bottom": 314.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 1",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 44.25,
+              "right": 832,
+              "bottom": 345.75,
+              "w": 820,
+              "h": 301.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 281.25,
+              "right": 831,
+              "bottom": 344.75,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 289.25,
+              "right": 157.171875,
+              "bottom": 337.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 290.25,
+              "right": 815,
+              "bottom": 336.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 2",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 31,
+              "right": 832,
+              "bottom": 359,
+              "w": 820,
+              "h": 328,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 294.5,
+              "right": 831,
+              "bottom": 358,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 302.5,
+              "right": 157.171875,
+              "bottom": 351,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 303.5,
+              "right": 815,
+              "bottom": 350,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 3",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 16,
+              "right": 832,
+              "bottom": 374,
+              "w": 820,
+              "h": 358,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 309.5,
+              "right": 831,
+              "bottom": 373,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 317.5,
+              "right": 157.171875,
+              "bottom": 366,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 647.109375,
+              "y": 318.5,
+              "right": 815,
+              "bottom": 365,
+              "w": 167.890625,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "garage",
+          "rects": [
+            {
+              "selector": "#startRaceBtn",
+              "x": 723.453125,
+              "y": 334.5,
+              "right": 832,
+              "bottom": 378.5,
+              "w": 108.546875,
+              "h": 44,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#garage [data-act=setup]",
+              "x": 12,
+              "y": 334.5,
+              "right": 162.53125,
+              "bottom": 378.5,
+              "w": 150.53125,
+              "h": 44,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#garagePreviewHost",
+              "x": 341.078125,
+              "y": 61,
+              "right": 831.984375,
+              "bottom": 321,
+              "w": 490.90625,
+              "h": 260,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "portrait",
+      "poster": {
+        "image": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844
+        },
+        "button": {
+          "x": 35,
+          "y": 771,
+          "right": 355,
+          "bottom": 819
+        },
+        "fit": "cover",
+        "portrait": true,
+        "fs": false
+      },
+      "now": 3847.699999988079,
+      "paint": 396,
+      "fs": false,
+      "calls": [
+        {
+          "active": true,
+          "time": 829.2999999821186,
+          "screen": "home",
+          "entered": false
+        }
+      ],
+      "focus": "studentModeBtn",
+      "late_entry_ms": 3132.199999988079,
+      "layout": [
+        {
+          "phase": "wizard 0",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 219.65625,
+              "right": 382,
+              "bottom": 624.34375,
+              "w": 374,
+              "h": 404.6875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 558.34375,
+              "right": 381,
+              "bottom": 623.34375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 569.34375,
+              "right": 190,
+              "bottom": 613.34375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 569.34375,
+              "right": 367,
+              "bottom": 613.34375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 1",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 157.65625,
+              "right": 382,
+              "bottom": 686.34375,
+              "w": 374,
+              "h": 528.6875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 620.34375,
+              "right": 381,
+              "bottom": 685.34375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 631.34375,
+              "right": 190,
+              "bottom": 675.34375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 631.34375,
+              "right": 367,
+              "bottom": 675.34375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 2",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 220.515625,
+              "right": 382,
+              "bottom": 623.484375,
+              "w": 374,
+              "h": 402.96875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 557.484375,
+              "right": 381,
+              "bottom": 622.484375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 568.484375,
+              "right": 190,
+              "bottom": 612.484375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 568.484375,
+              "right": 367,
+              "bottom": 612.484375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "wizard 3",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 8,
+              "y": 89.7890625,
+              "right": 382,
+              "bottom": 754.2109375,
+              "w": 374,
+              "h": 664.421875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 9,
+              "y": 688.2109375,
+              "right": 381,
+              "bottom": 753.2109375,
+              "w": 372,
+              "h": 65,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 23,
+              "y": 699.2109375,
+              "right": 190,
+              "bottom": 743.2109375,
+              "w": 167,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 202,
+              "y": 699.2109375,
+              "right": 367,
+              "bottom": 743.2109375,
+              "w": 165,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        },
+        {
+          "phase": "garage",
+          "rects": [
+            {
+              "selector": "#startRaceBtn",
+              "x": 198,
+              "y": 792,
+              "right": 380,
+              "bottom": 836,
+              "w": 182,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#garage [data-act=setup]",
+              "x": 10,
+              "y": 792,
+              "right": 192,
+              "bottom": 836,
+              "w": 182,
+              "h": 44,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            },
+            {
+              "selector": "#garagePreviewHost",
+              "x": 10,
+              "y": 364.125,
+              "right": 380,
+              "bottom": 725,
+              "w": 370,
+              "h": 360.875,
+              "visible": true,
+              "width": 390,
+              "height": 844
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "landscape",
+      "poster": {
+        "image": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390
+        },
+        "button": {
+          "x": 27,
+          "y": 325,
+          "right": 282,
+          "bottom": 373
+        },
+        "fit": "cover",
+        "portrait": false,
+        "fs": false
+      },
+      "now": 3862.699999988079,
+      "paint": 388,
+      "fs": false,
+      "calls": [],
+      "focus": "studentModeBtn",
+      "late_entry_ms": 485.19999998807907,
+      "layout": [
+        {
+          "phase": "wizard 0",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 66.75,
+              "right": 832,
+              "bottom": 323.25,
+              "w": 820,
+              "h": 256.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 258.75,
+              "right": 831,
+              "bottom": 322.25,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 266.75,
+              "right": 157.171875,
+              "bottom": 315.25,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 267.75,
+              "right": 815,
+              "bottom": 314.25,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 1",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 44.25,
+              "right": 832,
+              "bottom": 345.75,
+              "w": 820,
+              "h": 301.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 281.25,
+              "right": 831,
+              "bottom": 344.75,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 289.25,
+              "right": 157.171875,
+              "bottom": 337.75,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 290.25,
+              "right": 815,
+              "bottom": 336.75,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 2",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 31,
+              "right": 832,
+              "bottom": 359,
+              "w": 820,
+              "h": 328,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 294.5,
+              "right": 831,
+              "bottom": 358,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 302.5,
+              "right": 157.171875,
+              "bottom": 351,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 701.765625,
+              "y": 303.5,
+              "right": 815,
+              "bottom": 350,
+              "w": 113.234375,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "wizard 3",
+          "rects": [
+            {
+              "selector": "#setupDialog",
+              "x": 12,
+              "y": 16,
+              "right": 832,
+              "bottom": 374,
+              "w": 820,
+              "h": 358,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm>.dialog-foot",
+              "x": 13,
+              "y": 309.5,
+              "right": 831,
+              "bottom": 373,
+              "w": 818,
+              "h": 63.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#onboardingBack",
+              "x": 29,
+              "y": 317.5,
+              "right": 157.171875,
+              "bottom": 366,
+              "w": 128.171875,
+              "h": 48.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#setupForm button[type=submit]",
+              "x": 647.109375,
+              "y": 318.5,
+              "right": 815,
+              "bottom": 365,
+              "w": 167.890625,
+              "h": 46.5,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        },
+        {
+          "phase": "garage",
+          "rects": [
+            {
+              "selector": "#startRaceBtn",
+              "x": 723.453125,
+              "y": 334.5,
+              "right": 832,
+              "bottom": 378.5,
+              "w": 108.546875,
+              "h": 44,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#garage [data-act=setup]",
+              "x": 12,
+              "y": 334.5,
+              "right": 162.53125,
+              "bottom": 378.5,
+              "w": 150.53125,
+              "h": 44,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            },
+            {
+              "selector": "#garagePreviewHost",
+              "x": 341.078125,
+              "y": 61,
+              "right": 831.984375,
+              "bottom": 321,
+              "w": 490.90625,
+              "h": 260,
+              "visible": true,
+              "width": 844,
+              "height": 390
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

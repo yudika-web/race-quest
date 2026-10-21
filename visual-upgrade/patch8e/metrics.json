@@ -1,0 +1,78 @@
+{
+  "baseline_commit": "c34fe8b1da86ca561f5ff49419a88e401185fe28",
+  "baseline_html": "blokraya-patch8d-controls.html",
+  "html_file": "blokraya-patch8e-startup.html",
+  "baseline_bytes": 25003218,
+  "html_bytes": 25005151,
+  "growth_bytes": 1933,
+  "growth_percent": 0.0077,
+  "under_25_decimal_MB": false,
+  "bytes_over_target": 5151,
+  "html_sha256": "3b8803767a4c0854731260b990ac5bc5ee0da3e714b7c8013c8cd9da8a26fc69",
+  "teacher_export_bytes": 25040869,
+  "startup_visible_to_mode_ms": {
+    "desktop": 3403,
+    "portrait-native": 3424,
+    "landscape-native": 3441,
+    "portrait": 3452,
+    "landscape": 3475
+  },
+  "late_click_to_mode_ms": 485,
+  "viewport_sizes": [
+    [
+      1366,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "native_startup_viewports": [
+    "desktop",
+    "portrait-native",
+    "landscape-native"
+  ],
+  "protected_old_script_payloads": 53,
+  "new_GLBs": 0,
+  "new_textures": 0,
+  "new_3D_geometry": 0,
+  "offline_asset_requests": 0,
+  "screenshots": 53,
+  "reports": {
+    "scope-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "early-entry-tests": {
+      "status": "passed",
+      "checks": 5
+    },
+    "startup-tests": {
+      "status": "passed",
+      "checks": 76
+    },
+    "flow-tests": {
+      "status": "passed",
+      "checks": 25
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 3
+    }
+  },
+  "total_reported_checks": 116,
+  "native_ESC_exited_in_headless_test": false,
+  "limits": [
+    "Chromium/SwiftShader with emulated mobile viewports; no physical Android/iOS/Safari or phone FPS claim.",
+    "Headless Escape reached the app pause handler instead of exiting native fullscreen; actual exitFullscreen API and trusted manual HUD re-entry are tested.",
+    "Race gate/finish fixtures accelerate the actual flow/podium test; no full manual race or thirteen-stage physics benchmark is claimed.",
+    "Managed browser blocks file://; offline is tested with network disabled, locally fulfilled document and teacher export played again. Real HTTP release is also tested.",
+    "Cover preserves image aspect ratio with edge cropping on nonmatching screen ratios. No poster is recreated/replaced.",
+    "Soft 25 MB target is exceeded slightly; assets/features unchanged. No new 3D performance benchmark because renderer/physics/AI/model code is unchanged."
+  ]
+}
