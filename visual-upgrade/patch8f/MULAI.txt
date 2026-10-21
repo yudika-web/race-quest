@@ -1,0 +1,5 @@
+BLOKRAYA PATCH 8F
+Ekstrak ZIP, lalu buka blokraya-patch8f-economy.html pada browser modern.
+Semua aset tertanam. Tidak memerlukan CDN atau instalasi.
+Data tersimpan pada browser/origin yang digunakan. Gunakan lokasi/origin yang sama untuk mempertahankan profil; pemindahan file atau browser dapat membuat penyimpanan terpisah.
+Empat karakter awal gratis; karakter lainnya 60 token. Profil lama tetap dipertahankan.

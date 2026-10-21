@@ -1,0 +1,10 @@
+{
+  "passed": 5,
+  "checks": [
+    "cancel purchase preserves balance",
+    "failed storage rolls purchase back, wallet and lock unchanged",
+    "teacher bank import without profile retains recipient wallet/unlocks",
+    "teacher bank import with valid profile retains recipient wallet/unlocks",
+    "teacher HTML export uses fresh four-unlock zero-wallet profile; source profile unchanged"
+  ]
+}

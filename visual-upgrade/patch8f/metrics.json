@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "34b9defab52e2b992235f24ce8162e411f6833cd",
+  "html_bytes": 25007244,
+  "growth_bytes": 2093,
+  "html_sha256": "b2f926f52e9a127ec96fe37c28d6563e4c39692790104b5d568f50f60f8f834e",
+  "named_test_groups": 57,
+  "test_groups": {
+    "unit-results.json": 7,
+    "browser-results.json": 15,
+    "edge-results.json": 5,
+    "visual-results.json": 4,
+    "flow-tests.json": 25
+  },
+  "scope_passed": true,
+  "screenshots": 22,
+  "new_external_assets": 0,
+  "physical_mobile_tested": false,
+  "full_stage_benchmark_repeated": false
+}

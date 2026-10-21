@@ -1,0 +1,23 @@
+{
+  "passed": 15,
+  "checks": [
+    "fresh balance zero / insufficient purchase disabled",
+    "unlock status page 0",
+    "unlock status page 1",
+    "unlock status page 2",
+    "fresh no external requests or JS errors",
+    "double click subtracts exactly 60, unlock once",
+    "reload keeps premium unlock",
+    "same session finish twice: one result, one reward",
+    "result tokens match wallet reward",
+    "podium still renders real race result",
+    "race no JS errors/external network",
+    "legacy wallet retained",
+    "legacy all unlocked page 0",
+    "legacy all unlocked page 1",
+    "legacy all unlocked page 2"
+  ],
+  "limits": [
+    "Chromium browser emulation; no physical mobile device test."
+  ]
+}

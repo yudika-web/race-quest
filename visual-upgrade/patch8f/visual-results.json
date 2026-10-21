@@ -1,0 +1,9 @@
+{
+  "passed": 4,
+  "checks": [
+    "baseline missing profile unlock bug reproduced",
+    "fixed missing profile stays locked",
+    "purchase dialog and actions within 390×844",
+    "purchase dialog and actions within 844×390"
+  ]
+}

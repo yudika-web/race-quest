@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "fresh profile: zero tokens, exactly four free",
+    "missing profile import and null profile cannot unlock all",
+    "valid legacy all-unlocked profile retains progression",
+    "insufficient purchase rejects without mutation",
+    "60 charged once, duplicate purchase no charge, reload retains",
+    "all ten premium characters cost 60; paints remain 40",
+    "existing rewards unchanged; same result once after save/reload"
+  ],
+  "passed": 7
+}

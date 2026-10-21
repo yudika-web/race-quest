@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8E: Fullscreen dari Layar Pembuka
+# BlokRaya PRO — PATCH 8F: Token dan Unlock Karakter
+
+Profil baru memperoleh 0 token dan empat karakter gratis. Sepuluh karakter lainnya berharga 60 token dengan konfirmasi pembelian, perlindungan klik ganda, dan penyimpanan unlock. Profil lama tetap dipertahankan; reward hasil balapan dilindungi dari pemrosesan berulang.
+
+- [ZIP playable terbaru](blokraya-patch8f-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8f-economy.html) · [ZIP review](blokraya-patch8f-review.zip).
+- [Garasi terkunci](visual-upgrade/patch8f/screenshots/after-locked-garage.png) · [Pembelian](visual-upgrade/patch8f/screenshots/confirm-purchase.png) · [Galeri](visual-upgrade/patch8f/review.html).
+- [Laporan dan sumber](visual-upgrade/patch8f/README.md) · [Metrik](visual-upgrade/patch8f/metrics.json).
+
+HTML **25.007.244 byte**, bertambah **2.093 byte** dari PATCH 8E. Uji profil, transaksi, reward, impor/ekspor guru, reload, offline, fullscreen, analog, kuis dan podium lulus. 55 payload script lain identik dengan baseline. HP fisik dan navigasi file:// pada browser cloud tidak diklaim diuji. Tidak merge, deployment, atau mengubah index.html utama.
+
+# Tahap sebelumnya — PATCH 8E: Fullscreen dari Layar Pembuka
 
 Ketuk poster atau **Masuk BlokRaya** untuk meminta fullscreen lewat helper PATCH 8D yang sama. Mode Siswa/Guru menunggu interaksi, kesiapan game dan minimum tiga detik sejak paint awal, tanpa timer tiga detik kedua. Browser yang menolak/tidak mendukung fullscreen tetap dapat bermain. Mulai Balapan tidak meminta fullscreen lagi; tombol manual HUD tetap tersedia.
 
