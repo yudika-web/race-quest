@@ -1,4 +1,17 @@
-# BlokRaya — Stage 10 Bromo: Volcano Challenge (6G)
+# BlokRaya — Stage 11 Kubu Raya: Mangrove Extreme Run (6H)
+
+Kubu Raya sudah playable: sirkuit papan mangrove **886,86m**, perairan payau, akar bercabang, dermaga/perahu dan mercusuar jauh. Sepuluh zona meliputi tong/pintu bergerak, jembatan sempit, lumpur/genangan, gap bertanda dan dua jalur papan dengan risiko/hadiah berbeda. Rescue mundur ke checkpoint dengan waktu tunggu2,4s, tanpa menghapus inventori/token/nilai.
+
+**13 kartu,11 playable. Kayong Utara dan Ketapang tetap Segera Hadir.** Kalbar Klasik3 dan Nusantara10 tetap; Extreme3 dan Lengkap13 belum aktif.
+
+- [ZIP playable terbaru](blokraya-stage11-kubu-raya-playable.zip) — ekstrak lalu buka `blokraya-stage11-kubu-raya.html`.
+- [HTML mandiri](visual-upgrade/blokraya-stage11-kubu-raya.html) · [ZIP review: sumber, screenshot, metadata dan laporan](blokraya-stage11-kubu-raya-review.zip).
+- [Mercusuar/mangrove](visual-upgrade/stage11-kubu-raya/screenshots/lighthouse-mangrove.png) · [Lompatan](visual-upgrade/stage11-kubu-raya/screenshots/canal-jump.png) · [Percabangan](visual-upgrade/stage11-kubu-raya/screenshots/fork-routes.png).
+- [HP landscape](visual-upgrade/stage11-kubu-raya/screenshots/race-844x390.png) · [Dokumentasi, aturan obstacle/rescue dan pengujian](visual-upgrade/stage11-kubu-raya/README.md).
+
+HTML **24.838.968 byte**, bertambah36.856 byte. Uji collider/jump/rescue,18 balapan driver dan72 completion AI,108 frame render, pause/soal, PIN/progres/ghost/ekspor offline dan sentuh emulasi lolos. Satu AI Santai memakai rescue mundur; tidak ada warp maju. 26 render lama identik. Percabangan memakai koordinat lateral/progres engine, bukan graph rute independen. Landmark merupakan interpretasi belum diverifikasi foto; file:// diblokir browser cloud dan HP fisik/FPS belum diuji. Tidak merge, deployment atau mengubah index.html.
+
+# Tahap sebelumnya — Stage 10 Bromo: Volcano Challenge (6G)
 
 Bromo sudah playable: lintasan vulkanik fiktif **820,41m**, lautan pasir, kawah terbuka beralur, kerucut pendamping, dinding kaldera, kepulan blocky dan horizon pagi. **Seluruh sepuluh arena tersedia; Grand Prix Nusantara dapat dimainkan.** Kalbar Klasik tetap tiga arena awal.
 

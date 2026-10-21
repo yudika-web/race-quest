@@ -1,0 +1,1496 @@
+{
+  "status": "passed",
+  "checks": [
+    "Authenticated teacher saves dynamic cup in existing bank settings",
+    "Dynamic round metadata and four Smart Racing AI active: kampung",
+    "Pause freezes simulation",
+    "Actual stage renders without WebGL error: kampung",
+    "Quiz freezes player, AI and buffs: kampung",
+    "Inventory follows academic answer: kampung",
+    "Correct original stage ID and academic score persisted: kampung",
+    "No premature cup completion on round 1",
+    "Dynamic round metadata and four Smart Racing AI active: kapuas",
+    "Actual stage renders without WebGL error: kapuas",
+    "Quiz freezes player, AI and buffs: kapuas",
+    "Inventory follows academic answer: kapuas",
+    "Correct original stage ID and academic score persisted: kapuas",
+    "No premature cup completion on round 2",
+    "Dynamic round metadata and four Smart Racing AI active: hutan",
+    "Actual stage renders without WebGL error: hutan",
+    "Quiz freezes player, AI and buffs: hutan",
+    "Inventory follows academic answer: hutan",
+    "Correct original stage ID and academic score persisted: hutan",
+    "No premature cup completion on round 3",
+    "Dynamic round metadata and four Smart Racing AI active: sambas",
+    "Actual stage renders without WebGL error: sambas",
+    "Quiz freezes player, AI and buffs: sambas",
+    "Inventory follows academic answer: sambas",
+    "Correct original stage ID and academic score persisted: sambas",
+    "No premature cup completion on round 4",
+    "Dynamic round metadata and four Smart Racing AI active: sintang",
+    "Actual stage renders without WebGL error: sintang",
+    "Quiz freezes player, AI and buffs: sintang",
+    "Inventory follows academic answer: sintang",
+    "Correct original stage ID and academic score persisted: sintang",
+    "No premature cup completion on round 5",
+    "Dynamic round metadata and four Smart Racing AI active: kapuas_hulu",
+    "Actual stage renders without WebGL error: kapuas_hulu",
+    "Quiz freezes player, AI and buffs: kapuas_hulu",
+    "Inventory follows academic answer: kapuas_hulu",
+    "Correct original stage ID and academic score persisted: kapuas_hulu",
+    "No premature cup completion on round 6",
+    "Dynamic round metadata and four Smart Racing AI active: bengkayang",
+    "Actual stage renders without WebGL error: bengkayang",
+    "Quiz freezes player, AI and buffs: bengkayang",
+    "Inventory follows academic answer: bengkayang",
+    "Correct original stage ID and academic score persisted: bengkayang",
+    "No premature cup completion on round 7",
+    "Dynamic round metadata and four Smart Racing AI active: yogyakarta",
+    "Actual stage renders without WebGL error: yogyakarta",
+    "Quiz freezes player, AI and buffs: yogyakarta",
+    "Inventory follows academic answer: yogyakarta",
+    "Correct original stage ID and academic score persisted: yogyakarta",
+    "No premature cup completion on round 8",
+    "Dynamic round metadata and four Smart Racing AI active: bali",
+    "Actual stage renders without WebGL error: bali",
+    "Quiz freezes player, AI and buffs: bali",
+    "Inventory follows academic answer: bali",
+    "Correct original stage ID and academic score persisted: bali",
+    "No premature cup completion on round 9",
+    "Dynamic round metadata and four Smart Racing AI active: bromo-blocked",
+    "Actual stage renders without WebGL error: bromo-blocked",
+    "Quiz freezes player, AI and buffs: bromo-blocked",
+    "Inventory follows academic answer: bromo-blocked",
+    "Correct original stage ID and academic score persisted: bromo-blocked",
+    "Round ten still requires academic mastery",
+    "Dynamic round metadata and four Smart Racing AI active: bromo-retry",
+    "Actual stage renders without WebGL error: bromo-retry",
+    "Quiz freezes player, AI and buffs: bromo-retry",
+    "Inventory follows academic answer: bromo-retry",
+    "Correct original stage ID and academic score persisted: bromo-retry",
+    "Failed-round points rolled back before retry",
+    "No premature cup completion on round 10",
+    "Ten real arena rounds produce final champion and recap",
+    "Ten round recap rendered",
+    "No invalid next round after Bromo",
+    "Academic result JSON export retains dynamic Grand Prix recap",
+    "Durable progress records failed and successful attempts separately",
+    "Ghosts still saved with legacy race key",
+    "Teacher PIN verifier unchanged after GP and reload",
+    "Stage progress survives reload",
+    "Wrong PIN still denied",
+    "Existing PIN opens teacher after reload",
+    "Teacher bank JSON exports new cup settings without PIN verifier",
+    "No JavaScript errors across GP, retry and authentication"
+  ],
+  "errors": [],
+  "rounds": [
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 1,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 25,
+          "wins": 1
+        },
+        {
+          "id": 1,
+          "points": 18,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 15,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 12,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 10,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 2,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 50,
+          "wins": 2
+        },
+        {
+          "id": 1,
+          "points": 36,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 30,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 24,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 20,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 3,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 75,
+          "wins": 3
+        },
+        {
+          "id": 1,
+          "points": 54,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 45,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 36,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 30,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 4,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 100,
+          "wins": 4
+        },
+        {
+          "id": 1,
+          "points": 72,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 60,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 48,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 40,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 5,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 125,
+          "wins": 5
+        },
+        {
+          "id": 1,
+          "points": 90,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 75,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 60,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 50,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 6,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 150,
+          "wins": 6
+        },
+        {
+          "id": 1,
+          "points": 108,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 90,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 72,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 60,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 7,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 175,
+          "wins": 7
+        },
+        {
+          "id": 1,
+          "points": 126,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 105,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 84,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 70,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 8,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 200,
+          "wins": 8
+        },
+        {
+          "id": 1,
+          "points": 144,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 120,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 96,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 80,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 9,
+          "stage": "bali",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 9,
+      "blocked": false,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 225,
+          "wins": 9
+        },
+        {
+          "id": 1,
+          "points": 162,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 135,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 108,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 90,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 9,
+          "stage": "bali",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 10,
+          "stage": "bromo",
+          "position": 1,
+          "score": 0,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": null,
+      "round": 10,
+      "blocked": true,
+      "complete": false,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 250,
+          "wins": 10
+        },
+        {
+          "id": 1,
+          "points": 180,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 150,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 120,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 100,
+          "wins": 0
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "label": "Grand Prix Nusantara",
+      "totalRounds": 10,
+      "stageIds": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "roundSummaries": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 9,
+          "stage": "bali",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 10,
+          "stage": "bromo",
+          "position": 1,
+          "score": 100,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "champion": 0,
+      "round": 10,
+      "blocked": false,
+      "complete": true,
+      "threshold": 60,
+      "standings": [
+        {
+          "id": 0,
+          "points": 250,
+          "wins": 10
+        },
+        {
+          "id": 1,
+          "points": 180,
+          "wins": 0
+        },
+        {
+          "id": 2,
+          "points": 150,
+          "wins": 0
+        },
+        {
+          "id": 3,
+          "points": 120,
+          "wins": 0
+        },
+        {
+          "id": 4,
+          "points": 100,
+          "wins": 0
+        }
+      ]
+    }
+  ],
+  "method": "Actual game renderer and UI; test-only teleports to quiz gate/finish, not full manual races."
+}

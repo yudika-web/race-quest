@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "Finite two-slot supplies at physical public gates, no timer refill, no free start stock",
+    "All nine buffs selected from context, not a pace-only upgrade",
+    "Targets include player/AI, range/lane/air/finish rules and no easy attacks",
+    "Delayed attack telegraph, one charge use, target revalidation and global player attack spacing",
+    "Cooldown and Nitro charges, nonstacking speed and shields, expiration",
+    "Shield/reflect/grip work for AI and do not create reflection loops; easy player protected",
+    "Actual swept projectile/oil collision reaches player; chain-hit immunity retained",
+    "Sensors bounded by visible range; radar expands to 45m; no inventory/answer peeking",
+    "All AI state, windup, supplies, cooldown, projectiles freeze during pause/quiz/feedback/countdown",
+    "No rubberband/rank speed and no teleport; caps 23/31; collision and finish",
+    "Player/AI contact and AI/AI contact apply penalties without relocation"
+  ]
+}

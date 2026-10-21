@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "kubu_raya",
+    "ready": 11,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "aa268e32eececace4e9ec1fb7e23b86dddac49491ad555cbcbe1fbf94c6614ce"
+}

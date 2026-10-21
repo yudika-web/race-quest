@@ -1,0 +1,116 @@
+{
+  "catalog_size": 13,
+  "playable": 11,
+  "cups": {
+    "kalbar-klasik": "available-3",
+    "nusantara": "available-10",
+    "kalbar-extreme": "blocked-2-missing",
+    "lengkap-13": "blocked-2-missing"
+  },
+  "stages": [
+    {
+      "id": "kampung",
+      "name": "Pontianak — City Road",
+      "order": 1,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RacePontianakCity"
+    },
+    {
+      "id": "kapuas",
+      "name": "Mempawah — Garden Road",
+      "order": 2,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceMempawahGarden"
+    },
+    {
+      "id": "hutan",
+      "name": "Singkawang — Coastal Festival",
+      "order": 3,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceSingkawangCoast"
+    },
+    {
+      "id": "sambas",
+      "name": "Sambas — Royal River Road",
+      "order": 4,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceSambasRiver"
+    },
+    {
+      "id": "sintang",
+      "name": "Sintang — Kelam Mountain Run",
+      "order": 5,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceSintangMountain"
+    },
+    {
+      "id": "kapuas_hulu",
+      "name": "Kapuas Hulu — Sentarum Lake Circuit",
+      "order": 6,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceSentarumLake"
+    },
+    {
+      "id": "bengkayang",
+      "name": "Bengkayang — Waterfall Adventure",
+      "order": 7,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceBengkayangWaterfall"
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta — Heritage Night Race",
+      "order": 8,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceYogyakartaNight"
+    },
+    {
+      "id": "bali",
+      "name": "Bali — Rice Terrace Rush",
+      "order": 9,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceBaliTerraces"
+    },
+    {
+      "id": "bromo",
+      "name": "Bromo — Volcano Challenge",
+      "order": 10,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceBromoVolcano"
+    },
+    {
+      "id": "kubu_raya",
+      "name": "Kubu Raya — Mangrove Extreme Run",
+      "order": 11,
+      "available": true,
+      "status": "ready-for-review",
+      "builder": "RaceKubuRayaMangrove"
+    },
+    {
+      "id": "kayong_utara",
+      "name": "Kayong Utara — Segera Hadir",
+      "order": 12,
+      "available": false,
+      "status": "coming-soon-no-world",
+      "builder": null
+    },
+    {
+      "id": "ketapang",
+      "name": "Ketapang — Segera Hadir",
+      "order": 13,
+      "available": false,
+      "status": "coming-soon-no-world",
+      "builder": null
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "baseline": "7fdbc485a50c851a9e02ab2b675fbc5603bb9c50",
+  "baseline_bytes": 24802112,
+  "html_bytes": 24838968,
+  "growth_bytes": 36856,
+  "html_sha256": "aa268e32eececace4e9ec1fb7e23b86dddac49491ad555cbcbe1fbf94c6614ce",
+  "remaining_to_25M": 161032,
+  "track": {
+    "length": 886.8588481664905,
+    "max_height": 3.799810595615935,
+    "max_abs_grade": 0.07473203835339404,
+    "minimum_nonadjacent_centerline_distance": 20.161228974732335,
+    "obstacles": [],
+    "ramps": [],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 48830,
+    "colour_draw_calls": 31,
+    "shadow_draw_calls": 14,
+    "textures": 10,
+    "zones": 10,
+    "dynamic_hazards": 2,
+    "geographic_reconstruction": false,
+    "minimum_structure_vertex_clearance": 0.7736499957867965
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "kubu_raya-landmark.webp": 4442,
+    "kubu_raya-race.webp": 7236
+  },
+  "growth_components_bytes": [
+    12926,
+    332,
+    143,
+    71,
+    7497,
+    15887
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 105,
+        "max": 215
+      },
+      "depth_draws": {
+        "min": 24,
+        "max": 68
+      },
+      "colour_triangles": {
+        "min": 81327,
+        "max": 130729
+      },
+      "depth_triangles": {
+        "min": 77301,
+        "max": 126685
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 101,
+        "max": 215
+      },
+      "depth_draws": {
+        "min": 24,
+        "max": 68
+      },
+      "colour_triangles": {
+        "min": 80895,
+        "max": 130729
+      },
+      "depth_triangles": {
+        "min": 77301,
+        "max": 126685
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 93,
+        "max": 207
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 62174,
+        "max": 86484
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 61.914583333331954,
+      "max_stall_seconds": 2.4499999999999993,
+      "overtake_plans": 125
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 46.147916666666184,
+      "max_stall_seconds": 0,
+      "overtake_plans": 438
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 45.43333333333289,
+      "max_stall_seconds": 0,
+      "overtake_plans": 931
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "AI_rescue_events": 1,
+  "new_stage_rescue_wait_seconds": 2.4,
+  "moving_obstacle_checks": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": 1.6484616799286829,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 1.8
+          },
+          {
+            "lat": 2.0784586519467076,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 5.4
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -2.975257422882419,
+            "half": 1.1447425771175812,
+            "offset": 1.7175280640043171,
+            "depth": 1.8375280640043172,
+            "angle": 1.0328525231548218
+          },
+          {
+            "lat": -3.2956977112114183,
+            "half": 0.8243022887885818,
+            "offset": 1.8718862908860583,
+            "depth": 1.9918862908860584,
+            "angle": 1.2109278432521282
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  },
+  "obstacle_rules": [
+    "Ten separated challenge zones and moving colliders share authoritative pose",
+    "Narrow bridge rail collision and physical safe side around partial obstacles",
+    "Full canal jump uses native 10.5 m/s impulse and clears at 9, 12, 23 and legal boosted 31 m/s",
+    "Failed gap rescues backward with 2.4s immobilization; inventory, tokens and academic records intact",
+    "Open-edge water and stuck fallback rescue; normal stationary braking does not trigger rescue",
+    "Fork safe path needs no jump; risky completed jump pays exactly one track token per lap",
+    "Manual jump can earn risk-route reward; radar reports actual nearby custom hazards",
+    "Ban Anti-Selip limits mud traction effect; pause/quiz freezes all stage state and moving poses"
+  ],
+  "sky_counter_note": "Two existing gradient/cloud draw calls; no additional sky program, light or texture. Prior night-stage resources are freed on transition.",
+  "grand_prix": {
+    "enabled": true,
+    "rounds": 10,
+    "catalog_size": 13,
+    "playable_stages": 11,
+    "extreme_cup_enabled": false,
+    "complete13_cup_enabled": false,
+    "unit_tests": "passed",
+    "actual_UI_tests": "passed",
+    "UI_method": "Position fixtures at quiz gate/finish; ten real worlds loaded; not full manual races.",
+    "full_route_reference_driver_stages": 1,
+    "legacy_stage_physics_equality_steps_each": 350,
+    "legacy_stages_compared": 10,
+    "classic_cup_rounds": 3
+  }
+}

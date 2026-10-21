@@ -1,0 +1,7 @@
+{
+  "status": "blocked",
+  "method": "Direct navigation to the released standalone HTML using file://, no policy-bypass flags.",
+  "errors": [],
+  "requests": [],
+  "reason": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-stage11-kubu-raya.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/race-quest/visual-upgrade/blokraya-stage11-kubu-raya.html\", waiting until \"load\"\u001b[22m\n"
+}

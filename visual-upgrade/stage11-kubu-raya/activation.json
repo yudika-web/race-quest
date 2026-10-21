@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "baseline": "7fdbc485a50c851a9e02ab2b675fbc5603bb9c50",
+  "target": "kubu_raya",
+  "baseline_present": false,
+  "release_available": true,
+  "available_stage_ids": [
+    "kampung",
+    "kapuas",
+    "hutan",
+    "sambas",
+    "sintang",
+    "kapuas_hulu",
+    "bengkayang",
+    "yogyakarta",
+    "bali",
+    "bromo",
+    "kubu_raya"
+  ],
+  "future_unavailable": [
+    "kayong_utara",
+    "ketapang"
+  ],
+  "classic_rounds": 3,
+  "nusantara_rounds": 10,
+  "extreme_enabled": false,
+  "complete13_enabled": false,
+  "candidate_release_identical": true,
+  "html_sha256": "aa268e32eececace4e9ec1fb7e23b86dddac49491ad555cbcbe1fbf94c6614ce"
+}

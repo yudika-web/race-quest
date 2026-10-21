@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "Rendered barrel/gate, water, cloud and actor pixels freeze during question/pause",
+    "Two actual moving hazard meshes respond only to simulation time",
+    "Night → Kubu Raya restores identical daylight frame",
+    "No JavaScript/WebGL errors"
+  ],
+  "result": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": 1.6484616799286829,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 1.8
+          },
+          {
+            "lat": 2.0784586519467076,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 5.4
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -2.975257422882419,
+            "half": 1.1447425771175812,
+            "offset": 1.7175280640043171,
+            "depth": 1.8375280640043172,
+            "angle": 1.0328525231548218
+          },
+          {
+            "lat": -3.2956977112114183,
+            "half": 0.8243022887885818,
+            "offset": 1.8718862908860583,
+            "depth": 1.9918862908860584,
+            "angle": 1.2109278432521282
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  }
+}

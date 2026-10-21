@@ -1,0 +1,210 @@
+{
+  "id": "kubu_raya",
+  "name": "Kubu Raya · Mangrove Extreme Run",
+  "seed": 611011,
+  "weather": "clear",
+  "pts": [
+    [
+      0,
+      -146
+    ],
+    [
+      -50,
+      -132
+    ],
+    [
+      -99,
+      -103
+    ],
+    [
+      -126,
+      -57
+    ],
+    [
+      -107,
+      -12
+    ],
+    [
+      -131,
+      28
+    ],
+    [
+      -110,
+      79
+    ],
+    [
+      -57,
+      100
+    ],
+    [
+      -13,
+      76
+    ],
+    [
+      29,
+      101
+    ],
+    [
+      80,
+      84
+    ],
+    [
+      119,
+      42
+    ],
+    [
+      95,
+      -2
+    ],
+    [
+      133,
+      -43
+    ],
+    [
+      108,
+      -97
+    ],
+    [
+      60,
+      -110
+    ],
+    [
+      31,
+      -144
+    ]
+  ],
+  "hills": [
+    [
+      0.12,
+      0.09,
+      2.2
+    ],
+    [
+      0.3,
+      0.09,
+      3.8
+    ],
+    [
+      0.61,
+      0.1,
+      3.0
+    ],
+    [
+      0.87,
+      0.09,
+      2.4
+    ]
+  ],
+  "palette": {
+    "grass": [
+      0.22,
+      0.32,
+      0.21
+    ],
+    "water": [
+      0.19,
+      0.33,
+      0.27
+    ],
+    "road": [
+      0.65,
+      0.52,
+      0.34
+    ],
+    "fog": [
+      0.7,
+      0.81,
+      0.75
+    ]
+  },
+  "obstacles": [],
+  "ramps": [],
+  "gaps": [],
+  "extremeZones": [
+    {
+      "id": "log",
+      "u": 0.1,
+      "kind": "solid",
+      "lat": -2.7,
+      "half": 1.35,
+      "length": 1.2,
+      "label": "Batang · kanan aman"
+    },
+    {
+      "id": "barrel",
+      "u": 0.2,
+      "kind": "barrel",
+      "lat": 0,
+      "half": 0.85,
+      "length": 1.7,
+      "label": "Tong bergerak"
+    },
+    {
+      "id": "bridge",
+      "u": 0.3,
+      "kind": "bridge",
+      "length": 27,
+      "half": 3.25,
+      "label": "Jembatan sempit"
+    },
+    {
+      "id": "mud",
+      "u": 0.41,
+      "kind": "mud",
+      "lat": 2.0,
+      "half": 1.8,
+      "length": 11,
+      "label": "Lumpur · kiri aman"
+    },
+    {
+      "id": "canal",
+      "u": 0.49,
+      "kind": "gap",
+      "length": 3.2,
+      "label": "Kanal · gas dan lompat"
+    },
+    {
+      "id": "gate",
+      "u": 0.59,
+      "kind": "gate",
+      "lat": -2,
+      "half": 2,
+      "length": 1.0,
+      "label": "Pintu ayun · kanan aman"
+    },
+    {
+      "id": "bamboo",
+      "u": 0.68,
+      "kind": "solid",
+      "lat": 2.7,
+      "half": 1.05,
+      "length": 1.2,
+      "label": "Bambu · kiri aman"
+    },
+    {
+      "id": "crate",
+      "u": 0.77,
+      "kind": "solid",
+      "lat": -2.7,
+      "half": 1.1,
+      "length": 1.8,
+      "label": "Peti · kanan aman"
+    },
+    {
+      "id": "puddle",
+      "u": 0.85,
+      "kind": "puddle",
+      "lat": -1.8,
+      "half": 1.8,
+      "length": 10,
+      "label": "Genangan · kanan aman"
+    },
+    {
+      "id": "fork",
+      "u": 0.94,
+      "kind": "fork",
+      "length": 46,
+      "label": "Kiri aman · kanan lompat +1 token"
+    }
+  ]
+}

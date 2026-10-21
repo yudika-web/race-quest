@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "views": [
+    {
+      "baseline": true,
+      "status": "available",
+      "viewport": [
+        1366,
+        768
+      ],
+      "note": "Baseline ten-stage catalog: Stage11 did not exist, last card was Bromo. No before-world fabricated."
+    },
+    {
+      "baseline": false,
+      "status": "available",
+      "viewport": [
+        1366,
+        768
+      ],
+      "note": "Actual enabled card with renderer thumbnail."
+    }
+  ]
+}
