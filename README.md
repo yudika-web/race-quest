@@ -1,4 +1,17 @@
-# BlokRaya — Stage 12 Kayong Utara: Coastal Cliff Challenge (6I)
+# BlokRaya — Stage 13 Ketapang: Ale-Ale Chaos Circuit (6J)
+
+Ketapang playable untuk tinjauan: sirkuit kota-pelabuhan fiktif **1.241,93m**, jalan bertingkat19m, jembatan, slalom, ramp/gap dan percabangan. Dua belas zona termasuk kontainer bergeser, palang, rotor, drum, oli dan rangkaian final. Tugu Ale-Ale serta Keraton Matan berada di plaza aman. Langit hangat menjelang sore.
+
+**Seluruh13 arena tersedia.** Kalbar Klasik3 dan Nusantara10 dipertahankan; **Kalbar Extreme Challenge3** dan **Grand Prix Lengkap13 Arena** kini tersedia setelah pengujian transisi/ketuntasan.
+
+- [ZIP playable terbaru](blokraya-stage13-ketapang-playable.zip) — ekstrak, lalu buka HTML di dalamnya.
+- [HTML mandiri](visual-upgrade/blokraya-stage13-ketapang.html) · [ZIP review: source, metadata, screenshot dan laporan](blokraya-stage13-ketapang-review.zip).
+- [Overview](visual-upgrade/stage13-ketapang/screenshots/overview.png) · [Ale-Ale](visual-upgrade/stage13-ketapang/screenshots/tugu-ale-ale.png) · [Keraton](visual-upgrade/stage13-ketapang/screenshots/keraton-matan.png) · [Jump](visual-upgrade/stage13-ketapang/screenshots/ramp-jump.png).
+- [HP landscape](visual-upgrade/stage13-ketapang/screenshots/race-844x390.png) · [Dokumentasi dan hasil uji](visual-upgrade/stage13-ketapang/README.md).
+
+HTML **24.927.106 byte**, bertambah44.827 byte. Lingkungan65.930 segitiga/50 batch warna. Uji18 driver,14 kendaraan,72 completion AI,48 AI rotasi kendaraan, dan3 driver/12 AI tiga lap; collision/rescue/jump/freeze serta offline/ekspor dan kontrol sentuh diuji.28 render lama identik. UI empat turnamen memakai29 ronde sukses+4 gagal/ulang dengan fixture posisi, bukan balapan manual penuh. Landmark belum diverifikasi foto; file:// diblokir cloud dan HP fisik/FPS belum diuji. Tidak merge, deployment, mengganti index.html online atau mengerjakan Prompt7.
+
+# Tahap sebelumnya — Stage 12 Kayong Utara: Coastal Cliff Challenge (6I)
 
 Kayong Utara sudah playable untuk tinjauan: sirkuit pesisir fiktif **1.133,81m**, hairpin/S-curve, elevasi16m, laut turquoise, pantai/kelapa, tebing, bukit tropis dan interpretasi monumen Sail Karimata. Sepuluh zona termasuk batu bolak-balik berperingatan, palang berkala, bridge sempit, kerikil/pasir, gap dan percabangan kiri aman/kanan lompat. Rescue mundur2,4s mempertahankan inventori/token/nilai.
 

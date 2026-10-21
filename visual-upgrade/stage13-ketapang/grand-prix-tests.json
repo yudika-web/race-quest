@@ -1,0 +1,448 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 13 real worlds construct; no coming-soon alias or reused name-only world",
+    "All four real cups complete at dynamic last round, academic mastery/retry and point rollback preserved",
+    "Extreme order 11→12→13; Complete13 enabled without changing old cup metadata"
+  ],
+  "cups": [
+    {
+      "id": "kalbar-klasik",
+      "rounds": 3,
+      "order": [
+        "kampung",
+        "kapuas",
+        "hutan"
+      ],
+      "summary": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "rounds": 10,
+      "order": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo"
+      ],
+      "summary": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 9,
+          "stage": "bali",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 10,
+          "stage": "bromo",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kalbar-extreme",
+      "rounds": 3,
+      "order": [
+        "kubu_raya",
+        "kayong_utara",
+        "ketapang"
+      ],
+      "summary": [
+        {
+          "round": 1,
+          "stage": "kubu_raya",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kayong_utara",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "ketapang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lengkap-13",
+      "rounds": 13,
+      "order": [
+        "kampung",
+        "kapuas",
+        "hutan",
+        "sambas",
+        "sintang",
+        "kapuas_hulu",
+        "bengkayang",
+        "yogyakarta",
+        "bali",
+        "bromo",
+        "kubu_raya",
+        "kayong_utara",
+        "ketapang"
+      ],
+      "summary": [
+        {
+          "round": 1,
+          "stage": "kampung",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 2,
+          "stage": "kapuas",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 3,
+          "stage": "hutan",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 4,
+          "stage": "sambas",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 5,
+          "stage": "sintang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 6,
+          "stage": "kapuas_hulu",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 7,
+          "stage": "bengkayang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 8,
+          "stage": "yogyakarta",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 9,
+          "stage": "bali",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 10,
+          "stage": "bromo",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 11,
+          "stage": "kubu_raya",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 12,
+          "stage": "kayong_utara",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "round": 13,
+          "stage": "ketapang",
+          "position": 1,
+          "score": 60,
+          "finishOrder": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

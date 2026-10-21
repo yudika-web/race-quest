@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "baseline": "c5c717e23cd020b1d0d464ed0923f3b5cb504089",
+  "baseline_bytes": 24882279,
+  "html_bytes": 24927106,
+  "growth_bytes": 44827,
+  "html_sha256": "3a5e2e4270b3a4843f3114b7b57e86cac48104449301382b9c491e71ddbaa645",
+  "remaining_to_25M": 72894,
+  "reverse_assembly_exact": true,
+  "historical_files_unchanged": 2714,
+  "protected_script_payloads": [
+    {
+      "id": "blokRayaPosters",
+      "sha256": "ef0a0b14eb3e67e394efdcf9dc23245708ebe760f2c4f1eec69ecbea1bb984a9"
+    },
+    {
+      "id": "blokRayaLoading",
+      "sha256": "b06b68354d5ef0d85f2022dcf577ba779483fa310fa21e3be393f03835425620"
+    },
+    {
+      "id": "initialData",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "id": "assetData",
+      "sha256": "31c603288dd5e4fc6d11f633451d0cbd08cfcc300d796be3731fc8d414beb041"
+    },
+    {
+      "id": "pontianakStageVisuals",
+      "sha256": "c3edbbb6f25c0e2fae33078d251d3370e3f71a0d6119499e5fdf992ebb698dc2"
+    },
+    {
+      "id": "mempawahStageVisuals",
+      "sha256": "3ad2c2efbdb1fcd11ece8572c003b6b215f5399f1d4ac3a3534e246cd229af62"
+    },
+    {
+      "id": "singkawangStageVisuals",
+      "sha256": "e652d25b2f571b7a6f56b4b63a25ed11ccddc074e664481aecfee48b44eb0941"
+    },
+    {
+      "id": "stage6aTrack",
+      "sha256": "caf62a3d9159c5d131c89f1f16269038ece647f45affcf21c473617bba9609b5"
+    },
+    {
+      "id": "sambasStageVisuals",
+      "sha256": "b7d52fd5b47259b4758804f94d190879395ec96fa11fe8ee94478bdd9adf3177"
+    },
+    {
+      "id": "stage6bTrack",
+      "sha256": "8f184752fb6deb023a4085a6951809b4d9e5616f19c8d9dc9c32c63d508b1858"
+    },
+    {
+      "id": "sintangStageVisuals",
+      "sha256": "a58d374dda991c34b96ac8400a905707f5b96b5aa0e457ba5a235121bb941c77"
+    },
+    {
+      "id": "stage6cTrack",
+      "sha256": "697b6de68b3f1c7e6d3340cfc1ee81c5df8e99a13d7df9c7d7b1e696fe4f5b1e"
+    },
+    {
+      "id": "sentarumStageVisuals",
+      "sha256": "e31547e684586affb8079f93ae9679daa80834cf92edc23ec1fa8a4305c8aab3"
+    },
+    {
+      "id": "stage6dTrack",
+      "sha256": "07e350e7aa20d1ecb9153e6fe57c9bb0282f5de006f9956b83a0399a25c00ca5"
+    },
+    {
+      "id": "waterfallStageVisuals",
+      "sha256": "4af8d68db8880c703576014677d1b86c5f92f7215be773899883fd5147b37e94"
+    },
+    {
+      "id": "stage6eTrack",
+      "sha256": "ce3aefba728becc2217bbaa67d0cf72144fb35f66f348fc8563e8f3b36219309"
+    },
+    {
+      "id": "yogyakartaStageVisuals",
+      "sha256": "304e5e4e10a671700b3650a3a7e0ad3d9a99d4319aeb706fedf1a70e9c406f14"
+    },
+    {
+      "id": "stage6fTrack",
+      "sha256": "1cf6c3fea61362700fbaeb6dca7cfaff49fd9258ead420cf46b28cf450cdde00"
+    },
+    {
+      "id": "baliStageVisuals",
+      "sha256": "2a11efe3cc391fccaa728994024f9990dfc1b99e7bf3dbde48609abb09aa9f97"
+    },
+    {
+      "id": "stage6gTrack",
+      "sha256": "aefbe952d82ba95dbc7c8039a873e597193ddbeb973c6d5a6bf552ed934f2877"
+    },
+    {
+      "id": "bromoStageVisuals",
+      "sha256": "5b259e68e06ca6ebfd86e6d2f12187976379c5f999ad620264b9cba8012a6bc3"
+    },
+    {
+      "id": "stage6hTrack",
+      "sha256": "25b73113fb301e03164392c5cb85babefc1ee81ac2b6aa3152a609c11e87ca99"
+    },
+    {
+      "id": "kubuRayaStageVisuals",
+      "sha256": "a278348a643b24b013cc9c00e028bf83d5ae9b0fdec728414829cee9e8893fbd"
+    },
+    {
+      "id": "stage6iTrack",
+      "sha256": "47c2832aac957821c71dedd1271bb0d4e38095dd90fa53d7704c9b91dac76137"
+    },
+    {
+      "id": "kayongUtaraStageVisuals",
+      "sha256": "706db52542e474a07eef698b06e2728238f963c85e51869091f2516f8d55061e"
+    },
+    {
+      "id": "patch5CupCatalog",
+      "sha256": "3169dd4e61404315b7b4b9d52a62f59f4925650652eaa894462394f3121fd54f"
+    },
+    {
+      "id": "patch5StageRegistry",
+      "sha256": "0f9e66026e5f4d3f9388e4991101a22d0a1deaba8b263ccc8154b107bbfa733a"
+    },
+    {
+      "id": "patch1Workshop",
+      "sha256": "a81d784ada625c21800a01d3fbbdf447649428deb267daf6de4c1f04ece5b70d"
+    },
+    {
+      "id": "patch1StageUI",
+      "sha256": "5544c0148b4f4b6891e588f6a141bfe0869d25d3723f992b10f8f1a1a4e0d2d1"
+    },
+    {
+      "id": "patch2Audio",
+      "sha256": "b922949e7e4bf062a44e3481d4d6b0801c1c405f6b5b15f2a6c3210b23212161"
+    },
+    {
+      "id": "patch2VFX",
+      "sha256": "190f71891862cd311b29d1ee848d3e60c2f1b69be7316ecd41c477c545054997"
+    },
+    {
+      "id": "patch3BuffIcons",
+      "sha256": "b68d8a17c1a84e1e59d55d8bf675633f921996ccc6ad71df585bb158070fc175"
+    },
+    {
+      "id": "patch3BuffSystem",
+      "sha256": "8454aa820660679c54a3c5757bbd64609101036e5c925d82ed1630e4ba5a7629"
+    },
+    {
+      "id": "patch3BuffUI",
+      "sha256": "30c69a43e0c65e1580118afd35eb7c675d2cc07d4199a15eaeedc67f96cce08b"
+    },
+    {
+      "id": "patch4SmartAI",
+      "sha256": "84fb05ee61f1b7e226dd76ee4c4cc47477984242a6ff18cd51c44f381938bc7c"
+    },
+    {
+      "id": "patch4AIUI",
+      "sha256": "63fe8d02404f74c5728201113369003be16b263dd475a49eafefa07051a2303d"
+    },
+    {
+      "id": "patch45HUD",
+      "sha256": "cbcf3f2b7b19fa431aaff5a553498d6cda626af93e8c2311a38095923b518363"
+    },
+    {
+      "id": "blokRayaModes",
+      "sha256": "e5066fbacad6573f92c62120d7ccac9052b0c8700f6ebe7d85b4a9ccbcb39662"
+    },
+    {
+      "id": "stage11Mechanics",
+      "sha256": "db095d5f58b526da6c8bc8467d5895682e41fb6d3d03e8907f88813f7886d1ce"
+    },
+    {
+      "id": "stage12Mechanics",
+      "sha256": "736236bfbf131ca6508fab72fb2ea357e6a05ed839760cfee924f239292dd925"
+    }
+  ],
+  "protected_old_thumbnails": 24,
+  "new_rendered_thumbnails": 2,
+  "original_core_renderer_scenery_source_unchanged": true,
+  "other_stage_metadata_identical": true,
+  "new_runtime_track_id": "ketapang"
+}

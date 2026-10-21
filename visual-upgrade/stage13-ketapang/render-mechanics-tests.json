@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "Rendered container/rotor/drum/gate, water, cloud and actor pixels freeze during question/pause",
+    "Five actual moving hazard meshes respond only to simulation time",
+    "Night → Ketapang restores identical daylight frame",
+    "No JavaScript/WebGL errors"
+  ],
+  "result": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "slider",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.3,
+            "half": 1.1,
+            "length": 3.2,
+            "height": 2.2,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          },
+          {
+            "lat": -2.8166666666666664,
+            "half": 1.1,
+            "length": 3.2,
+            "height": 2.2,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.6995490601766283,
+            "half": 0.42045093982337167,
+            "offset": 1.9773035257034395,
+            "length": 4.194607051406879,
+            "height": 1.5,
+            "angle": 1.42,
+            "warning": true
+          },
+          {
+            "lat": -2.0398668443175167,
+            "half": 2.0801331556824834,
+            "offset": 0.39733866159012243,
+            "length": 1.0346773231802449,
+            "height": 1.5,
+            "angle": 0.2,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "rotor",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.25,
+            "half": 1.172528020797253,
+            "length": 2.086277081520125,
+            "height": 1.1,
+            "offset": 0,
+            "angle": 0.72,
+            "warning": true
+          },
+          {
+            "lat": -3.25,
+            "half": 0.8979788047508577,
+            "length": 2.5678736901803125,
+            "height": 1.1,
+            "offset": 0,
+            "angle": 2.16,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3,
+            "half": 0.85,
+            "offset": 0,
+            "length": 1.7,
+            "height": 1.7,
+            "angle": 1.8,
+            "warning": true
+          },
+          {
+            "lat": -1,
+            "half": 0.85,
+            "offset": 0,
+            "length": 1.7,
+            "height": 1.7,
+            "angle": 5.4,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "slider",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": 3.3,
+            "half": 1.1,
+            "length": 2.6,
+            "height": 1.6,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          },
+          {
+            "lat": 2.8166666666666664,
+            "half": 1.1,
+            "length": 2.6,
+            "height": 1.6,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  }
+}

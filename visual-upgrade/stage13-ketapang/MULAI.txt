@@ -1,0 +1,25 @@
+BLOKRAYA — 6J / STAGE 13 KETAPANG: ALE-ALE CHAOS CIRCUIT
+
+Ekstrak ZIP, lalu buka blokraya-stage13-ketapang.html pada browser modern dengan WebGL. Seluruh aset tertanam, tanpa CDN/fetch aset lokal/server wajib. Gunakan profil browser/origin yang sama untuk mempertahankan data lama. Mode Siswa tanpa PIN; Mode Guru memakai PIN lokal perangkat. Audio memerlukan klik/sentuh.
+
+13 arena kini playable. Empat turnamen tersedia: Kalbar Klasik3, Nusantara10, Kalbar Extreme Challenge3 (Kubu Raya → Kayong Utara → Ketapang), serta Grand Prix Lengkap13 Arena. Ketuntasan belajar, retry dan poin mengikuti aturan lama. Skor akademik tidak ditentukan posisi finis.
+
+Ketapang adalah sirkuit kota/pelabuhan FIKTIF sepanjang1241,93m dengan elevasi19m, jalan bertingkat, S-curve, tikungan, jembatan6,7m, slalom, ramp, gap dan dua jalur. Keraton Matan berada di plaza aman, bukan objek yang ditabrak/dihancurkan. Tugu Ale-Ale dan keraton merupakan interpretasi stylized, bukan rekonstruksi terverifikasi. Referensi foto tidak tersedia dan akses web ditolak403; bentuk, warna dan proporsi tidak diklaim akurat.
+
+12 zona: kontainer bergeser, palang, rotor, bridge, drum menggelinding, peti, slalom, oli, ramp/gap, percabangan, penghalang final bergerak, dan rangkaian akhir. Selalu ada sisi aman di sekitar obstacle parsial. Lampu dan papan memberi peringatan. Semua gerakan/collider memakai clock simulasi yang sama; tidak berjalan saat pause/soal.
+
+Kontainer, palang, rotor dan drum mempunyai pola teratur dan kontinu. Peringatan mendahului pergerakan translasi/penutupan; rotor terus bergerak dengan lampu bahaya tetap. Collider solid memisahkan kendaraan ke sisi yang tersedia, atau mundur bila tidak ada sisi aman, disertai penalti laju. Tidak memindahkan AI maju melewati bahaya.
+
+Ramp dua tingkat menggunakan dua bidang visual dan satu takeoff impuls10,5m/s asli. Gap utama3,2m diuji pada9/12/23/31m/s. Kiri percabangan aman; kanan melompati3m dan memberi1 token setelah mendarat, sekali per lap. Dua jalur menggunakan koordinat lateral/progres engine, bukan graph rute independen. AI Santai memilih aman; personality berisiko pada Sedang/Menantang dapat memilih kanan.
+
+Rescue mundur ke checkpoint yang benar-benar sudah dilewati dan menahan kendaraan2,4s. Tidak menghapus inventori, charge, token atau catatan jawaban. Buff berdurasi mengikuti clock simulasi saat menunggu; kuis/pause membekukan clock. Oli dapat dimitigasi Ban Anti-Selip; Radar menampilkan ancaman; buff lain memakai aturan lama. Tidak ada buff baru atau item AI tak terbatas.
+
+A/D/panah: kemudi; W/S: gas/rem; C: drift; Shift: jump; E/Spasi: buff; Q/1/2: slot; P/Esc: pause. Kontrol sentuh tersedia. Rem sebelum tikungan sempit, perhatikan lampu mekanisme, pilih jalur aman bila perlu.
+
+Pengujian memakai Chromium cloud dan emulasi sentuh, bukan HP fisik/FPS. Uji offline mematikan jaringan browser dan memasok HTML melalui harness localhost; tidak ada request aset eksternal. file:// dicoba terpisah tetapi diblokir administrator cloud, sehingga perlu uji pada browser target. Tidak ada dependensi server baru.
+
+UI turnamen memakai fixture posisi ke gate soal/finish, bukan balapan manual penuh29 ronde. Rute penuh diuji pada Session engine dengan driver referensi, semua14 pilihan kendaraan, tiga kesulitan/enam seed dan tiga lap. Screenshot berasal dari renderer game, bukan ilustrasi. Tidak ada profil/token/unlock QA ditanam dalam distribusi.
+
+Review ZIP menambahkan sumber builder/track/metadata, screenshot, thumbnail, metrik dan laporan. Build ulang membutuhkan checkout repository baseline Stage12; geometri arena prosedural JavaScript, tidak memerlukan GLB/Blender baru. Hash lengkap ZIP review ada pada release-metrics.json di repository.
+
+Tidak merge, deployment, mengubah index.html online atau menjalankan Prompt7.

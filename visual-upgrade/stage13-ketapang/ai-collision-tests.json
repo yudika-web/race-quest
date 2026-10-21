@@ -1,0 +1,298 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 14 vehicle identities covered by rotated four-AI grids across all three difficulties",
+    "48 AI finish; sampled physical solid colliders never remain penetrated after response",
+    "No forward warp; only current obstacle pose queried; finite inventory and existing personality logic retained"
+  ],
+  "cases": [
+    {
+      "level": "easy",
+      "character": 0,
+      "AI_characters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finish": [
+        82.54999999999745,
+        85.74999999999727,
+        86.04999999999725,
+        86.49999999999723
+      ],
+      "collision_sample_frames": 6813,
+      "collisions": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rescues": []
+    },
+    {
+      "level": "easy",
+      "character": 4,
+      "AI_characters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "finish": [
+        83.04999999999742,
+        84.09999999999737,
+        84.54999999999734,
+        84.29999999999735
+      ],
+      "collision_sample_frames": 6716,
+      "collisions": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "rescues": []
+    },
+    {
+      "level": "easy",
+      "character": 8,
+      "AI_characters": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "finish": [
+        83.4499999999974,
+        86.44999999999723,
+        86.69999999999722,
+        87.24999999999719
+      ],
+      "collision_sample_frames": 6873,
+      "collisions": [
+        0,
+        1,
+        4,
+        3
+      ],
+      "rescues": []
+    },
+    {
+      "level": "easy",
+      "character": 12,
+      "AI_characters": [
+        13,
+        0,
+        1,
+        2
+      ],
+      "finish": [
+        81.54999999999751,
+        83.19999999999742,
+        81.99999999999748,
+        83.84999999999738
+      ],
+      "collision_sample_frames": 6608,
+      "collisions": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rescues": []
+    },
+    {
+      "level": "normal",
+      "character": 0,
+      "AI_characters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finish": [
+        62.44999999999859,
+        65.04999999999845,
+        62.59999999999858,
+        65.49999999999842
+      ],
+      "collision_sample_frames": 5108,
+      "collisions": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "rescues": []
+    },
+    {
+      "level": "normal",
+      "character": 4,
+      "AI_characters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "finish": [
+        64.49999999999848,
+        65.19999999999844,
+        65.49999999999842,
+        65.64999999999841
+      ],
+      "collision_sample_frames": 5213,
+      "collisions": [
+        1,
+        3,
+        5,
+        3
+      ],
+      "rescues": []
+    },
+    {
+      "level": "normal",
+      "character": 8,
+      "AI_characters": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "finish": [
+        63.399999999998535,
+        65.69999999999841,
+        66.19999999999838,
+        66.49999999999837
+      ],
+      "collision_sample_frames": 5232,
+      "collisions": [
+        0,
+        2,
+        6,
+        5
+      ],
+      "rescues": []
+    },
+    {
+      "level": "normal",
+      "character": 12,
+      "AI_characters": [
+        13,
+        0,
+        1,
+        2
+      ],
+      "finish": [
+        62.2499999999986,
+        63.44999999999853,
+        63.09999999999855,
+        64.1499999999985
+      ],
+      "collision_sample_frames": 5055,
+      "collisions": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "character": 0,
+      "AI_characters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finish": [
+        60.249999999998714,
+        62.94999999999856,
+        63.29999999999854,
+        63.59999999999852
+      ],
+      "collision_sample_frames": 4998,
+      "collisions": [
+        0,
+        6,
+        6,
+        4
+      ],
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "character": 4,
+      "AI_characters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "finish": [
+        60.249999999998714,
+        62.149999999998606,
+        62.89999999999856,
+        63.09999999999855
+      ],
+      "collision_sample_frames": 4964,
+      "collisions": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "character": 8,
+      "AI_characters": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "finish": [
+        60.64999999999869,
+        63.14999999999855,
+        63.34999999999854,
+        63.49999999999853
+      ],
+      "collision_sample_frames": 5009,
+      "collisions": [
+        0,
+        4,
+        3,
+        3
+      ],
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "character": 12,
+      "AI_characters": [
+        13,
+        0,
+        1,
+        2
+      ],
+      "finish": [
+        59.149999999998776,
+        61.649999999998634,
+        61.299999999998654,
+        62.09999999999861
+      ],
+      "collision_sample_frames": 4880,
+      "collisions": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rescues": []
+    }
+  ]
+}

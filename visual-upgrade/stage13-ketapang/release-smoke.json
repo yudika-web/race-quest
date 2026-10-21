@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "ketapang",
+    "ready": 13,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "3a5e2e4270b3a4843f3114b7b57e86cac48104449301382b9c491e71ddbaa645"
+}

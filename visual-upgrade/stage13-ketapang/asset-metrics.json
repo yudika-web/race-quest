@@ -1,0 +1,1328 @@
+{
+  "baseline": "c5c717e23cd020b1d0d464ed0923f3b5cb504089",
+  "baseline_bytes": 24882279,
+  "html_bytes": 24927106,
+  "growth_bytes": 44827,
+  "html_sha256": "3a5e2e4270b3a4843f3114b7b57e86cac48104449301382b9c491e71ddbaa645",
+  "remaining_to_25M": 72894,
+  "track": {
+    "length": 1241.9267749944445,
+    "max_height": 18.999194793670256,
+    "max_abs_grade": 0.2001799598463112,
+    "minimum_nonadjacent_centerline_distance": 17.98742287073455,
+    "obstacles": [],
+    "ramps": [],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 65930,
+    "colour_draw_calls": 50,
+    "shadow_draw_calls": 15,
+    "textures": 14,
+    "zones": 12,
+    "dynamic_hazards": 5,
+    "geographic_reconstruction": false,
+    "minimum_structure_vertex_clearance": 0.7707154517331489
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "ketapang-landmark.webp": 4432,
+    "ketapang-race.webp": 9006
+  },
+  "growth_components_bytes": [
+    17349,
+    9252,
+    18226
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 116,
+        "max": 226
+      },
+      "depth_draws": {
+        "min": 25,
+        "max": 69
+      },
+      "colour_triangles": {
+        "min": 97561,
+        "max": 146963
+      },
+      "depth_triangles": {
+        "min": 91401,
+        "max": 140785
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 112,
+        "max": 226
+      },
+      "depth_draws": {
+        "min": 25,
+        "max": 69
+      },
+      "colour_triangles": {
+        "min": 97129,
+        "max": 146963
+      },
+      "depth_triangles": {
+        "min": 91401,
+        "max": 140785
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 112,
+        "max": 218
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 79272,
+        "max": 102718
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 84.37916666666402,
+      "max_stall_seconds": 0,
+      "overtake_plans": 206,
+      "solid_collisions": 8
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 64.29583333333181,
+      "max_stall_seconds": 0,
+      "overtake_plans": 527,
+      "solid_collisions": 64
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 62.149999999998606,
+      "max_stall_seconds": 0,
+      "overtake_plans": 1090,
+      "solid_collisions": 78
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "personality_order": [
+    "agresif",
+    "defensif",
+    "berisiko",
+    "seimbang"
+  ],
+  "multilap_validation": {
+    "status": "passed",
+    "checks": [
+      "Three-lap player reference races complete at all difficulties with five actual answers and score100",
+      "Twelve AI complete three laps without forward warps; route hazards/checkpoints repeat across lap boundaries"
+    ],
+    "races": [
+      {
+        "level": "easy",
+        "laps": 3,
+        "time": 187.9500000000085,
+        "score": 100,
+        "rescues": [
+          {
+            "actor": 2,
+            "from": 2180.550948898428,
+            "to": 2161.58149011525,
+            "time": 147.64999999999932,
+            "wait": 2.4,
+            "reason": "gap"
+          }
+        ]
+      },
+      {
+        "level": "normal",
+        "laps": 3,
+        "time": 188.9000000000087,
+        "score": 100,
+        "rescues": [
+          {
+            "actor": 2,
+            "from": 3541.766791835707,
+            "to": 3496.9630977789816,
+            "time": 170.30000000000447,
+            "wait": 2.4,
+            "reason": "gap"
+          }
+        ]
+      },
+      {
+        "level": "hard",
+        "laps": 3,
+        "time": 190.40000000000904,
+        "score": 100,
+        "rescues": []
+      }
+    ],
+    "AI": [
+      {
+        "level": "easy",
+        "laps": 3,
+        "finish": [
+          248.7000000000223,
+          253.5500000000234,
+          253.75000000002345,
+          255.10000000002375
+        ],
+        "rescues": []
+      },
+      {
+        "level": "normal",
+        "laps": 3,
+        "finish": [
+          190.80000000000913,
+          197.3000000000106,
+          190.10000000000898,
+          194.90000000001007
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "laps": 3,
+        "finish": [
+          178.70000000000638,
+          182.80000000000732,
+          180.60000000000682,
+          183.10000000000738
+        ],
+        "rescues": []
+      }
+    ]
+  },
+  "AI_rescue_events": 0,
+  "new_stage_rescue_wait_seconds": 2.4,
+  "all_14_vehicle_completion_cases": 14,
+  "camera_and_terrain_clearance": {
+    "blocked": [],
+    "blocked_count": 0,
+    "road_samples": 1564,
+    "camera": [
+      {
+        "u": 0,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.010416666666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.020833333333333332,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.03125,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.041666666666666664,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.052083333333333336,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.0625,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.07291666666666667,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.08333333333333333,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.09375,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.10416666666666667,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.11458333333333333,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.125,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.13541666666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.14583333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.15625,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.16666666666666666,
+        "speed": 12,
+        "clearance": 4.774013855571294,
+        "glError": 0
+      },
+      {
+        "u": 0.17708333333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.1875,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.19791666666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.20833333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.21875,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.22916666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.23958333333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.25,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.2604166666666667,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.2708333333333333,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.28125,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.2916666666666667,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3020833333333333,
+        "speed": 31,
+        "clearance": 3.518836872181942,
+        "glError": 0
+      },
+      {
+        "u": 0.3125,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3229166666666667,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3333333333333333,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.34375,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3541666666666667,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3645833333333333,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.375,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3854166666666667,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.3958333333333333,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.40625,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4166666666666667,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4270833333333333,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4375,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4479166666666667,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4583333333333333,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.46875,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4791666666666667,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.4895833333333333,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5104166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5208333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.53125,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5416666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5520833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5625,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5729166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.5833333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.59375,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6041666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6145833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.625,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6354166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6458333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.65625,
+        "speed": 31,
+        "clearance": 3.5824052725030793,
+        "glError": 0
+      },
+      {
+        "u": 0.6666666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6770833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6875,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.6979166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7083333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.71875,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7291666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7395833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.75,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7604166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7708333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.78125,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.7916666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8020833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8125,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8229166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8333333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.84375,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8541666666666666,
+        "speed": 12,
+        "clearance": 2.415594033426041,
+        "glError": 0
+      },
+      {
+        "u": 0.8645833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.875,
+        "speed": 12,
+        "clearance": 2.7999106302265258,
+        "glError": 0
+      },
+      {
+        "u": 0.8854166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.8958333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.90625,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9166666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9270833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9375,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9479166666666666,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9583333333333334,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.96875,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9791666666666666,
+        "speed": 12,
+        "clearance": null,
+        "glError": 0
+      },
+      {
+        "u": 0.9895833333333334,
+        "speed": 31,
+        "clearance": null,
+        "glError": 0
+      }
+    ],
+    "negative_camera_clearance": 0,
+    "physics_camera_unchanged": true,
+    "expected_ramp_approaches_excluded": true
+  },
+  "moving_obstacle_checks": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "slider",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.3,
+            "half": 1.1,
+            "length": 3.2,
+            "height": 2.2,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          },
+          {
+            "lat": -2.8166666666666664,
+            "half": 1.1,
+            "length": 3.2,
+            "height": 2.2,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.6995490601766283,
+            "half": 0.42045093982337167,
+            "offset": 1.9773035257034395,
+            "length": 4.194607051406879,
+            "height": 1.5,
+            "angle": 1.42,
+            "warning": true
+          },
+          {
+            "lat": -2.0398668443175167,
+            "half": 2.0801331556824834,
+            "offset": 0.39733866159012243,
+            "length": 1.0346773231802449,
+            "height": 1.5,
+            "angle": 0.2,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "rotor",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.25,
+            "half": 1.172528020797253,
+            "length": 2.086277081520125,
+            "height": 1.1,
+            "offset": 0,
+            "angle": 0.72,
+            "warning": true
+          },
+          {
+            "lat": -3.25,
+            "half": 0.8979788047508577,
+            "length": 2.5678736901803125,
+            "height": 1.1,
+            "offset": 0,
+            "angle": 2.16,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3,
+            "half": 0.85,
+            "offset": 0,
+            "length": 1.7,
+            "height": 1.7,
+            "angle": 1.8,
+            "warning": true
+          },
+          {
+            "lat": -1,
+            "half": 0.85,
+            "offset": 0,
+            "length": 1.7,
+            "height": 1.7,
+            "angle": 5.4,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "slider",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": 3.3,
+            "half": 1.1,
+            "length": 2.6,
+            "height": 1.6,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          },
+          {
+            "lat": 2.8166666666666664,
+            "half": 1.1,
+            "length": 2.6,
+            "height": 1.6,
+            "offset": 0,
+            "angle": 0,
+            "warning": true
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  },
+  "obstacle_rules": [
+    "Twelve separated functional zones; expanded static/dynamic colliders and actual visual parameters",
+    "Container, barrier, rotor, drum, crates, slalom and final chain collide and resolve penetration without forward skips",
+    "Predictable continuous hazards warn before activating and always leave at least one safe lane",
+    "Narrow bridge and fork divider have physical response; no landmark collider on route",
+    "Two-tier ramp and gap clear using native impulse at 9/12/23/31m/s",
+    "Rescue is backward and finite, preserves inventory/charges/tokens/answers and cannot skip checkpoint",
+    "Safe branch needs no jump; risky crossing pays exactly once only after airborne crossing and landing",
+    "Oil is temporary, Grip mitigates it, Radar uses current visible hazards, every stage clock freezes on quiz/pause"
+  ],
+  "sky_counter_note": "Two existing gradient/cloud draw calls; no additional sky program, light or texture. Prior night-stage resources are freed on transition.",
+  "grand_prix": {
+    "enabled": true,
+    "nusantara_rounds": 10,
+    "catalog_size": 13,
+    "playable_stages": 13,
+    "extreme_cup_enabled": true,
+    "complete13_cup_enabled": true,
+    "unit_tests": "passed",
+    "actual_UI_tests": "passed",
+    "UI_method": "Position fixtures at quiz gate/finish; all thirteen real worlds loaded across four cups; not full manual races.",
+    "full_route_reference_driver_stages": 1,
+    "legacy_stage_physics_equality_steps_each": 350,
+    "legacy_stages_compared": 12,
+    "classic_cup_rounds": 3,
+    "cups": [
+      {
+        "id": "kalbar-klasik",
+        "rounds": 3,
+        "order": [
+          "kampung",
+          "kapuas",
+          "hutan"
+        ],
+        "available": true
+      },
+      {
+        "id": "nusantara",
+        "rounds": 10,
+        "order": [
+          "kampung",
+          "kapuas",
+          "hutan",
+          "sambas",
+          "sintang",
+          "kapuas_hulu",
+          "bengkayang",
+          "yogyakarta",
+          "bali",
+          "bromo"
+        ],
+        "available": true
+      },
+      {
+        "id": "kalbar-extreme",
+        "rounds": 3,
+        "order": [
+          "kubu_raya",
+          "kayong_utara",
+          "ketapang"
+        ],
+        "available": true
+      },
+      {
+        "id": "lengkap-13",
+        "rounds": 13,
+        "order": [
+          "kampung",
+          "kapuas",
+          "hutan",
+          "sambas",
+          "sintang",
+          "kapuas_hulu",
+          "bengkayang",
+          "yogyakarta",
+          "bali",
+          "bromo",
+          "kubu_raya",
+          "kayong_utara",
+          "ketapang"
+        ],
+        "available": true
+      }
+    ]
+  },
+  "AI_collision_validation": {
+    "status": "passed",
+    "checks": [
+      "All 14 vehicle identities covered by rotated four-AI grids across all three difficulties",
+      "48 AI finish; sampled physical solid colliders never remain penetrated after response",
+      "No forward warp; only current obstacle pose queried; finite inventory and existing personality logic retained"
+    ],
+    "cases": [
+      {
+        "level": "easy",
+        "character": 0,
+        "AI_characters": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "finish": [
+          82.54999999999745,
+          85.74999999999727,
+          86.04999999999725,
+          86.49999999999723
+        ],
+        "collision_sample_frames": 6813,
+        "collisions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rescues": []
+      },
+      {
+        "level": "easy",
+        "character": 4,
+        "AI_characters": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "finish": [
+          83.04999999999742,
+          84.09999999999737,
+          84.54999999999734,
+          84.29999999999735
+        ],
+        "collision_sample_frames": 6716,
+        "collisions": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "rescues": []
+      },
+      {
+        "level": "easy",
+        "character": 8,
+        "AI_characters": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "finish": [
+          83.4499999999974,
+          86.44999999999723,
+          86.69999999999722,
+          87.24999999999719
+        ],
+        "collision_sample_frames": 6873,
+        "collisions": [
+          0,
+          1,
+          4,
+          3
+        ],
+        "rescues": []
+      },
+      {
+        "level": "easy",
+        "character": 12,
+        "AI_characters": [
+          13,
+          0,
+          1,
+          2
+        ],
+        "finish": [
+          81.54999999999751,
+          83.19999999999742,
+          81.99999999999748,
+          83.84999999999738
+        ],
+        "collision_sample_frames": 6608,
+        "collisions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rescues": []
+      },
+      {
+        "level": "normal",
+        "character": 0,
+        "AI_characters": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "finish": [
+          62.44999999999859,
+          65.04999999999845,
+          62.59999999999858,
+          65.49999999999842
+        ],
+        "collision_sample_frames": 5108,
+        "collisions": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "rescues": []
+      },
+      {
+        "level": "normal",
+        "character": 4,
+        "AI_characters": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "finish": [
+          64.49999999999848,
+          65.19999999999844,
+          65.49999999999842,
+          65.64999999999841
+        ],
+        "collision_sample_frames": 5213,
+        "collisions": [
+          1,
+          3,
+          5,
+          3
+        ],
+        "rescues": []
+      },
+      {
+        "level": "normal",
+        "character": 8,
+        "AI_characters": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "finish": [
+          63.399999999998535,
+          65.69999999999841,
+          66.19999999999838,
+          66.49999999999837
+        ],
+        "collision_sample_frames": 5232,
+        "collisions": [
+          0,
+          2,
+          6,
+          5
+        ],
+        "rescues": []
+      },
+      {
+        "level": "normal",
+        "character": 12,
+        "AI_characters": [
+          13,
+          0,
+          1,
+          2
+        ],
+        "finish": [
+          62.2499999999986,
+          63.44999999999853,
+          63.09999999999855,
+          64.1499999999985
+        ],
+        "collision_sample_frames": 5055,
+        "collisions": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "character": 0,
+        "AI_characters": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "finish": [
+          60.249999999998714,
+          62.94999999999856,
+          63.29999999999854,
+          63.59999999999852
+        ],
+        "collision_sample_frames": 4998,
+        "collisions": [
+          0,
+          6,
+          6,
+          4
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "character": 4,
+        "AI_characters": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "finish": [
+          60.249999999998714,
+          62.149999999998606,
+          62.89999999999856,
+          63.09999999999855
+        ],
+        "collision_sample_frames": 4964,
+        "collisions": [
+          0,
+          0,
+          9,
+          9
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "character": 8,
+        "AI_characters": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "finish": [
+          60.64999999999869,
+          63.14999999999855,
+          63.34999999999854,
+          63.49999999999853
+        ],
+        "collision_sample_frames": 5009,
+        "collisions": [
+          0,
+          4,
+          3,
+          3
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "character": 12,
+        "AI_characters": [
+          13,
+          0,
+          1,
+          2
+        ],
+        "finish": [
+          59.149999999998776,
+          61.649999999998634,
+          61.299999999998654,
+          62.09999999999861
+        ],
+        "collision_sample_frames": 4880,
+        "collisions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rescues": []
+      }
+    ]
+  }
+}

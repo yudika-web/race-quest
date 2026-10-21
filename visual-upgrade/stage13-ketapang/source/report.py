@@ -1,0 +1,17 @@
+from pathlib import Path
+import json
+B=Path(__file__).resolve().parents[1];read=lambda name:json.loads((B/(name+'.json')).read_text())
+s=read('scope-tests');w=read('world-tests');p=read('physics-tests');changes=read('bounded-changes')
+m={**{k:s[k]for k in ['baseline','baseline_bytes','html_bytes','growth_bytes','html_sha256','remaining_to_25M']},'track':p['track'],'environment':{k:v for k,v in w['stats'].items()if k not in ['objects','landmarks']},'sky':w['sky'],'thumbnail_bytes':{k:v['bytes']for k,v in json.loads((B/'thumbnails/assets.json').read_text()).items()},'growth_components_bytes':[len(c['new'].encode())-len(c['old'].encode())for c in changes],'quality_samples':{},'AI_completion':{},'physical_phone_tested':False,'FPS_measured':False,'memory_benchmarked':False,'new_external_runtime_dependencies':0,'landmark_accuracy_verified':False,'direct_file_scheme_result':read('direct-file-tests')['status'],'network_disabled_offline_test':read('offline-tests')['status']}
+for q in ['high','medium','low']:
+ samples=[x for x in w['samples']if x['quality']==q and x['weather']=='clear'];m['quality_samples'][q]={k:{'min':min(a[k]for a in samples),'max':max(a[k]for a in samples)}for k in ['colour_draws','depth_draws','colour_triangles','depth_triangles']}
+for level in ['easy','normal','hard']:
+ cases=[x for x in p['completion']if x['level']==level];m['AI_completion'][level]={'seed_cases':len(cases),'all_4_AI_finished':True,'mean_simulation_finish_seconds':sum(sum(a['finish_times'])for a in cases)/(len(cases)*4),'max_stall_seconds':max(a['max_stall']for a in cases),'overtake_plans':sum(sum(a['overtake_plans'])for a in cases),'solid_collisions':sum(sum(a['collisions'])for a in cases)}
+m['personality_order']=['agresif','defensif','berisiko','seimbang'];m['multilap_validation']=read('multilap-tests')
+m['AI_rescue_events']=sum(len(x.get('rescues',[]))for x in read('physics-tests')['completion']);m['new_stage_rescue_wait_seconds']=2.4
+m['all_14_vehicle_completion_cases']=len(p['vehicles']);m['camera_and_terrain_clearance']=read('clearance-tests')['result']
+m['moving_obstacle_checks']=read('render-mechanics-tests')['result'];m['obstacle_rules']=read('mechanics-tests')['checks'];m['sky_counter_note']='Two existing gradient/cloud draw calls; no additional sky program, light or texture. Prior night-stage resources are freed on transition.'
+m['grand_prix']={'enabled':True,'nusantara_rounds':10,'catalog_size':13,'playable_stages':13,'extreme_cup_enabled':True,'complete13_cup_enabled':True,'unit_tests':read('grand-prix-tests')['status'],'actual_UI_tests':read('grand-prix-browser-tests')['status'],'UI_method':'Position fixtures at quiz gate/finish; all thirteen real worlds loaded across four cups; not full manual races.','full_route_reference_driver_stages':1,'legacy_stage_physics_equality_steps_each':350,'legacy_stages_compared':12,'classic_cup_rounds':3}
+m['grand_prix']['cups']=[{'id':x['id'],'rounds':x['rounds'],'order':x['order'],'available':True}for x in read('grand-prix-tests')['cups']]
+m['AI_collision_validation']=read('ai-collision-tests')
+(B/'asset-metrics.json').write_text(json.dumps(m,indent=2))

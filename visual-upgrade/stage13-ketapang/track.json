@@ -1,0 +1,253 @@
+{
+  "id": "ketapang",
+  "name": "Ketapang · Ale-Ale Chaos Circuit",
+  "seed": 613013,
+  "weather": "clear",
+  "pts": [
+    [
+      0,
+      -161
+    ],
+    [
+      -64,
+      -151
+    ],
+    [
+      -124,
+      -128
+    ],
+    [
+      -151,
+      -77
+    ],
+    [
+      -106,
+      -45
+    ],
+    [
+      -147,
+      -5
+    ],
+    [
+      -153,
+      51
+    ],
+    [
+      -109,
+      103
+    ],
+    [
+      -52,
+      117
+    ],
+    [
+      -12,
+      78
+    ],
+    [
+      -25,
+      22
+    ],
+    [
+      24,
+      -3
+    ],
+    [
+      58,
+      20
+    ],
+    [
+      39,
+      63
+    ],
+    [
+      77,
+      94
+    ],
+    [
+      132,
+      83
+    ],
+    [
+      157,
+      31
+    ],
+    [
+      126,
+      -22
+    ],
+    [
+      155,
+      -76
+    ],
+    [
+      123,
+      -128
+    ],
+    [
+      67,
+      -147
+    ],
+    [
+      25,
+      -150
+    ]
+  ],
+  "hills": [
+    [
+      0.2,
+      0.12,
+      19
+    ],
+    [
+      0.34,
+      0.07,
+      5
+    ],
+    [
+      0.65,
+      0.1,
+      6
+    ],
+    [
+      0.83,
+      0.09,
+      9
+    ]
+  ],
+  "palette": {
+    "grass": [
+      0.36,
+      0.47,
+      0.29
+    ],
+    "water": [
+      0.2,
+      0.45,
+      0.48
+    ],
+    "road": [
+      0.34,
+      0.37,
+      0.4
+    ],
+    "fog": [
+      0.86,
+      0.79,
+      0.66
+    ]
+  },
+  "obstacles": [],
+  "ramps": [],
+  "gaps": [],
+  "extremeZones": [
+    {
+      "id": "container",
+      "u": 0.08,
+      "kind": "slider",
+      "lat": -2.7,
+      "half": 1.1,
+      "length": 3.2,
+      "height": 2.2,
+      "label": "Kontainer bergerak · kanan aman"
+    },
+    {
+      "id": "gate",
+      "u": 0.17,
+      "kind": "gate",
+      "lat": -2,
+      "half": 2,
+      "length": 1,
+      "height": 1.5,
+      "label": "Palang berkala · kanan aman"
+    },
+    {
+      "id": "rotor",
+      "u": 0.255,
+      "kind": "rotor",
+      "lat": -3.2,
+      "half": 1.4,
+      "length": 0.3,
+      "height": 1.1,
+      "label": "Rotor · kanan aman"
+    },
+    {
+      "id": "bridge",
+      "u": 0.34,
+      "kind": "bridge",
+      "half": 3.35,
+      "length": 28,
+      "label": "Jembatan sempit · rem"
+    },
+    {
+      "id": "drum",
+      "u": 0.43,
+      "kind": "barrel",
+      "lat": 0,
+      "half": 0.85,
+      "length": 1.7,
+      "height": 1.7,
+      "label": "Drum melintas · lihat lampu"
+    },
+    {
+      "id": "crate",
+      "u": 0.52,
+      "kind": "solid",
+      "lat": -2.8,
+      "half": 1.05,
+      "length": 2.1,
+      "height": 1.5,
+      "label": "Peti · kanan aman"
+    },
+    {
+      "id": "slalom",
+      "u": 0.605,
+      "kind": "slalom",
+      "length": 56,
+      "height": 0.85,
+      "label": "Slalom · kurangi kecepatan"
+    },
+    {
+      "id": "oil",
+      "u": 0.69,
+      "kind": "oil",
+      "lat": 2,
+      "half": 1.8,
+      "length": 12,
+      "height": 0.15,
+      "label": "Oli · kiri aman"
+    },
+    {
+      "id": "gap",
+      "u": 0.755,
+      "kind": "gap",
+      "length": 3.2,
+      "label": "Ramp dua tingkat · gas + lompat"
+    },
+    {
+      "id": "fork",
+      "u": 0.85,
+      "kind": "fork",
+      "length": 52,
+      "label": "Kiri aman · kanan lompat +1"
+    },
+    {
+      "id": "final-slider",
+      "u": 0.925,
+      "kind": "slider",
+      "lat": 2.7,
+      "half": 1.1,
+      "length": 2.6,
+      "height": 1.6,
+      "label": "Final · geser ke kiri"
+    },
+    {
+      "id": "final-sequence",
+      "u": 0.977,
+      "kind": "sequence",
+      "length": 18,
+      "height": 0.9,
+      "label": "Final · kanan aman sampai finis"
+    }
+  ]
+}
