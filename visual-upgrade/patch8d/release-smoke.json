@@ -5,7 +5,7 @@
     "Student entry starts the replaced wizard on normal HTTP navigation"
   ],
   "errors": [],
-  "html_sha256": "46d3cbded9e08a17f17f3d68cc8ce1be893b9c90d8951354b6c095b026c44112",
+  "html_sha256": "6f311e1c10440bed8c8e6024425bc0ab750584d380f797a4bd3047b5a95740f8",
   "file_navigation": "blocked_or_unavailable",
   "file_navigation_error": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/race-quest/visual-upgrade/blokraya-patch8d-controls.html"
 }

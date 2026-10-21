@@ -1,15 +1,35 @@
 {
   "baseline_commit": "18fce7045518dc7f4b8569ce3010a73f267056d2",
+  "follow_up_baseline_commit": "d12401fc337b0a5869b2b9fdd8be9a4757c29fcb",
+  "follow_up_growth_bytes": 198,
+  "test_provenance": {
+    "rerun_on_current_html": [
+      "scope-tests",
+      "input-tests",
+      "fullscreen-tests",
+      "offline-tests",
+      "compatibility-tests",
+      "release-smoke"
+    ],
+    "retained_from_pushed_patch8d": [
+      "responsive-tests",
+      "short-viewport-tests",
+      "stage-controls-tests",
+      "navigation-tests",
+      "render-parity-tests"
+    ],
+    "retained_reason": "Full HTML matches pushed d12401f byte-for-byte except joystick boundary input module; layout, engine, AI, models, auth, onboarding and all other input hooks are unchanged."
+  },
   "html_file": "blokraya-patch8d-controls.html",
   "baseline_bytes": 24985707,
-  "html_bytes": 25003020,
-  "growth_bytes": 17313,
-  "growth_percent": 0.0693,
+  "html_bytes": 25003218,
+  "growth_bytes": 17511,
+  "growth_percent": 0.0701,
   "under_25_decimal_MB": false,
-  "bytes_over_target": 3020,
-  "html_sha256": "46d3cbded9e08a17f17f3d68cc8ce1be893b9c90d8951354b6c095b026c44112",
-  "teacher_export_bytes": 25038504,
-  "mounted_teacher_export_bytes": 25038569,
+  "bytes_over_target": 3218,
+  "html_sha256": "6f311e1c10440bed8c8e6024425bc0ab750584d380f797a4bd3047b5a95740f8",
+  "teacher_export_bytes": 25038702,
+  "mounted_teacher_export_bytes": 25038767,
   "new_GLBs": 0,
   "new_textures": 0,
   "new_3D_geometry": 0,
@@ -37,11 +57,11 @@
         {
           "type": "request",
           "active": true,
-          "t": 5547.700000017881
+          "t": 5806.100000023842
         },
         {
           "type": "world",
-          "t": 5622
+          "t": 5887.9000000059605
         }
       ]
     },
@@ -53,22 +73,22 @@
         {
           "type": "request",
           "active": true,
-          "t": 4591
+          "t": 4667.300000011921
         },
         {
           "type": "world",
-          "t": 4622.699999988079
+          "t": 4706.4000000059605
         }
       ]
     }
   ],
   "native_fullscreen_HUD_roundtrips": 7,
   "offline_HTTP_asset_requests": 0,
-  "screenshots": 112,
+  "screenshots": 113,
   "reports": {
     "scope-tests": {
       "status": "passed",
-      "checks": 6
+      "checks": 7
     },
     "responsive-tests": {
       "status": "passed",
@@ -76,7 +96,7 @@
     },
     "input-tests": {
       "status": "passed",
-      "checks": 36
+      "checks": 42
     },
     "fullscreen-tests": {
       "status": "passed",
@@ -111,7 +131,7 @@
       "checks": 2
     }
   },
-  "total_reported_checks": 359,
+  "total_reported_checks": 366,
   "limits": [
     "Browser tests use Chromium/SwiftShader and emulated touch/viewport; no physical Android/iOS or Safari test and no device FPS claim.",
     "Fullscreen native success is measured in Chromium headless; rejected/unavailable APIs are explicit fixtures. CSS cannot hide browser system controls on unsupported iOS.",

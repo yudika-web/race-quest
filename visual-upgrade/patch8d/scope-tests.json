@@ -1,10 +1,12 @@
 {
   "status": "passed",
   "baseline_commit": "18fce7045518dc7f4b8569ce3010a73f267056d2",
+  "follow_up_baseline_commit": "d12401fc337b0a5869b2b9fdd8be9a4757c29fcb",
+  "follow_up_growth_bytes": 198,
   "baseline_bytes": 24985707,
-  "html_bytes": 25003020,
-  "growth_bytes": 17313,
-  "html_sha256": "46d3cbded9e08a17f17f3d68cc8ce1be893b9c90d8951354b6c095b026c44112",
+  "html_bytes": 25003218,
+  "growth_bytes": 17511,
+  "html_sha256": "6f311e1c10440bed8c8e6024425bc0ab750584d380f797a4bd3047b5a95740f8",
   "protected_script_payloads": [
     {
       "id": "blokRayaPosters",
@@ -230,6 +232,7 @@
     "PATCH 8B onboarding/stage UI, PIN auth and PATCH 8C podium/classification byte-identical",
     "Academic grading, report, start validation/loading, finish and export results unchanged",
     "Existing CSS retained; scoped viewport/control overrides added",
-    "All prior tracked artifacts and online index.html unchanged except root release README"
+    "All prior tracked artifacts and online index.html unchanged except root release README",
+    "Compared with pushed PATCH 8D HEAD, HTML changes only the joystick boundary input module"
   ]
 }

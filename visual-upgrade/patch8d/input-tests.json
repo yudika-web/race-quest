@@ -10,13 +10,19 @@
     "slight right reaches original Session.advance steering adapter",
     "full right normalized continuous axis",
     "full right reaches original Session.advance steering adapter",
-    "Pointer capture tracks finger beyond joystick boundary",
+    "Leaving joystick boundary cancels steering and releases capture",
+    "Re-entering without a fresh touch cannot restore cancelled steering",
     "Release immediately returns to neutral",
     "Native pointer cancellation returns to neutral",
     "Native two-finger analog + gas",
     "Native three-finger analog + gas + drift",
     "Native three-finger analog + gas + jump",
     "Releasing joystick does not release gas held by another finger",
+    "Exit left is neutral while another finger keeps gas held",
+    "Exit right is neutral while another finger keeps gas held",
+    "Exit top is neutral while another finger keeps gas held",
+    "Exit bottom is neutral while another finger keeps gas held",
+    "Exit corner is neutral while another finger keeps gas held",
     "Analog + earned-inventory fixture buff activation",
     "Secondary finger selects slot two while analog held",
     "Secondary finger uses exactly one Nitro charge without duplicate native click",
@@ -55,13 +61,13 @@
       "label": "slight right",
       "axis": 0.2777777914505279,
       "input": 0.2777777914505279,
-      "steering": -0.0821375792363974
+      "steering": -0.4030591873631839
     },
     {
       "label": "full right",
       "axis": 1,
       "input": 1,
-      "steering": 0.7498200652843336
+      "steering": 0.5418719108607961
     }
   ],
   "errors": []

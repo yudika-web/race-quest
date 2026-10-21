@@ -5,7 +5,7 @@ HTML mandiri sudah berisi seluruh poster, audio, 14 karakter/kendaraan dan 13 ar
 Alur Siswa tetap: Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas) → Garasi → Mulai Balapan.
 Pada klik Mulai Balapan, game meminta fullscreen jika API/browser mengizinkan. Jika ditolak/tidak tersedia, balapan tetap berjalan di viewport browser. Tombol fullscreen HUD dapat dipakai untuk masuk/keluar; kontrol browser tetap tersedia.
 
-HP: analog kiri bawah mengatur besar belokan. Jari kanan dapat memakai gas/rem, drift, loncat dan buff bersamaan. Lepaskan analog untuk netral.
+HP: analog kiri bawah mengatur besar belokan. Jari kanan dapat memakai gas/rem, drift, loncat dan buff bersamaan. Lepaskan analog atau geser jari keluar lingkaran dasarnya untuk netral. Setelah keluar area, sentuh analog lagi untuk mulai mengemudi; gas dari jari lain tetap aktif.
 Pengaturan Suara & Kontrol atau Pause menyediakan Model kemudi sentuh: Analog / Tombol Kiri-Kanan. Pilihan tampil/sembunyikan kontrol sentuh tetap tersedia dan disimpan pada browser yang sama.
 Desktop: WASD/panah, C drift, Shift loncat, E/Spasi buff dan shortcut lama tetap berlaku.
 
