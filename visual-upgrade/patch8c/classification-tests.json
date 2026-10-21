@@ -1,0 +1,1186 @@
+{
+  "status": "passed",
+  "checks": [
+    "78 actual AI continuations: all 13 stages × three difficulties × two seeds; no AI repositioning",
+    "Live student state, time, score, token count, rank, ghost and future RNG sequences unchanged in every case",
+    "Student ranks one through five come from actual finish times",
+    "Preserves existing race equal-time tie order: descending entrant ID",
+    "Bounded failure retains explicit DNF; never invents AI finish times",
+    "Four cups retain points, dynamic completion and points/wins/ID tie-break",
+    "Explicit tie fixture: wins outrank entrant ID, equal wins use ascending ID"
+  ],
+  "cases": [
+    {
+      "id": "kampung",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 48.35,
+      "steps": 2901,
+      "finishOrder": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kampung",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 47.63333333333333,
+      "steps": 2858,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "kampung",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 39.666666666666664,
+      "steps": 2380,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kampung",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 38.36666666666667,
+      "steps": 2302,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kampung",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 35.083333333333336,
+      "steps": 2105,
+      "finishOrder": [
+        0,
+        3,
+        1,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kampung",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 34.63333333333333,
+      "steps": 2078,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 49.53333333333333,
+      "steps": 2972,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 49.75,
+      "steps": 2985,
+      "finishOrder": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 41,
+      "steps": 2460,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 37.85,
+      "steps": 2271,
+      "finishOrder": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 35.45,
+      "steps": 2127,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 38.25,
+      "steps": 2295,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 52.95,
+      "steps": 3177,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 53,
+      "steps": 3180,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 42.666666666666664,
+      "steps": 2560,
+      "finishOrder": [
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 39.916666666666664,
+      "steps": 2395,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 39.65,
+      "steps": 2379,
+      "finishOrder": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "hutan",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 38.78333333333333,
+      "steps": 2327,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 48.28333333333333,
+      "steps": 2897,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 47.43333333333333,
+      "steps": 2846,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 37.03333333333333,
+      "steps": 2222,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 36.4,
+      "steps": 2184,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 35.666666666666664,
+      "steps": 2140,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sambas",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 36.6,
+      "steps": 2196,
+      "finishOrder": [
+        0,
+        3,
+        4,
+        2,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 63.95,
+      "steps": 3837,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 63,
+      "steps": 3780,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 48.75,
+      "steps": 2925,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 49.36666666666667,
+      "steps": 2962,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 46.333333333333336,
+      "steps": 2780,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "sintang",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 46.25,
+      "steps": 2775,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 59.233333333333334,
+      "steps": 3554,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 57.86666666666667,
+      "steps": 3472,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 43.983333333333334,
+      "steps": 2639,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 43.583333333333336,
+      "steps": 2615,
+      "finishOrder": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 44.85,
+      "steps": 2691,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 43.916666666666664,
+      "steps": 2635,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 55.733333333333334,
+      "steps": 3344,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 55.11666666666667,
+      "steps": 3307,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 42.15,
+      "steps": 2529,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 42.53333333333333,
+      "steps": 2552,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 43,
+      "steps": 2580,
+      "finishOrder": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bengkayang",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 40.65,
+      "steps": 2439,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 57.06666666666667,
+      "steps": 3424,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 57.166666666666664,
+      "steps": 3430,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 46.166666666666664,
+      "steps": 2770,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 45.18333333333333,
+      "steps": 2711,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 44.21666666666667,
+      "steps": 2653,
+      "finishOrder": [
+        0,
+        3,
+        4,
+        2,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "id": "yogyakarta",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 45.18333333333333,
+      "steps": 2711,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 53.88333333333333,
+      "steps": 3233,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 54.21666666666667,
+      "steps": 3253,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 45.55,
+      "steps": 2733,
+      "finishOrder": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 42.15,
+      "steps": 2529,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 41.61666666666667,
+      "steps": 2497,
+      "finishOrder": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "id": "bali",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 39.4,
+      "steps": 2364,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 55.916666666666664,
+      "steps": 3355,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 56.483333333333334,
+      "steps": 3389,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 43.31666666666667,
+      "steps": 2599,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 42.516666666666666,
+      "steps": 2551,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 41.516666666666666,
+      "steps": 2491,
+      "finishOrder": [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "bromo",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 41.56666666666667,
+      "steps": 2494,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 63.583333333333336,
+      "steps": 3815,
+      "finishOrder": [
+        0,
+        3,
+        2,
+        1,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 62.7,
+      "steps": 3762,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 48.516666666666666,
+      "steps": 2911,
+      "finishOrder": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 48.75,
+      "steps": 2925,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 47.06666666666667,
+      "steps": 2824,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kubu_raya",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 45.88333333333333,
+      "steps": 2753,
+      "finishOrder": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 84.38333333333334,
+      "steps": 5063,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 84.05,
+      "steps": 5043,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 61,
+      "steps": 3660,
+      "finishOrder": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 65.21666666666667,
+      "steps": 3913,
+      "finishOrder": [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 59.25,
+      "steps": 3555,
+      "finishOrder": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "kayong_utara",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 58.43333333333333,
+      "steps": 3506,
+      "finishOrder": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "easy",
+      "seed": 19,
+      "tailSeconds": 88,
+      "steps": 5280,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "easy",
+      "seed": 61,
+      "tailSeconds": 87,
+      "steps": 5220,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "normal",
+      "seed": 19,
+      "tailSeconds": 68.08333333333333,
+      "steps": 4085,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "normal",
+      "seed": 61,
+      "tailSeconds": 67.13333333333334,
+      "steps": 4028,
+      "finishOrder": [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "hard",
+      "seed": 19,
+      "tailSeconds": 64.98333333333333,
+      "steps": 3899,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "id": "ketapang",
+      "level": "hard",
+      "seed": 61,
+      "tailSeconds": 62.6,
+      "steps": 3756,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete": true
+    }
+  ],
+  "error": null,
+  "wall_ms": 29575.221335
+}

@@ -1,0 +1,139 @@
+{
+  "baseline_commit": "659e74b524f674b8a7c9275ab9b1207ba7ebceba",
+  "html_file": "blokraya-patch8c-podium.html",
+  "baseline_bytes": 24967184,
+  "html_bytes": 24985707,
+  "growth_bytes": 18523,
+  "under_25_decimal_MB": true,
+  "html_sha256": "b8239755f5968532a9127815cf5d15827b76b75abddacdf54541b8cd8afbbac9",
+  "teacher_export_bytes": 25021107,
+  "mounted_teacher_export_bytes": 25021173,
+  "post_podium_export_bytes": 25022790,
+  "new_GLBs": 0,
+  "new_textures": 0,
+  "new_lights": 0,
+  "new_shadow_maps": 0,
+  "podium_stage_triangles": 1752,
+  "podium_stage_colour_batches": 8,
+  "measured_full_podium_draw_calls": [
+    83,
+    105
+  ],
+  "measured_full_podium_triangles": [
+    19006,
+    62043
+  ],
+  "cold_prepare_and_first_submission_CPU_ms": {
+    "min": 15.100000023841858,
+    "median": 25.799999997019768,
+    "max": 75.09999999403954,
+    "note": "Includes GLB preparation/upload and stage creation in cloud Chromium; not GPU frame timing or device FPS."
+  },
+  "max_prepared_kart_models": 6,
+  "unowned_live_stage_buffers_after_leave": 0,
+  "model_LOD_trio_cases": 56,
+  "responsive_viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "long_name_viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      320,
+      568
+    ]
+  ],
+  "AI_completion_cases": 78,
+  "AI_completion_finished": 78,
+  "AI_completion_total_Node_CPU_wall_ms": 29575.221335,
+  "postfinish_simulated_seconds_range": [
+    34.63333333333333,
+    88
+  ],
+  "browser_rank_cases": 5,
+  "protected_world_render_comparisons": 13,
+  "protected_model_render_comparisons": 14,
+  "protected_script_payloads": 51,
+  "grand_prix_successful_rounds": 29,
+  "grand_prix_failed_retry_cases": 4,
+  "offline_HTTP_asset_requests": 0,
+  "reports": {
+    "scope-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "classification-tests": {
+      "status": "passed",
+      "checks": 7
+    },
+    "browser-tests": {
+      "status": "passed",
+      "checks": 58
+    },
+    "render-tests": {
+      "status": "passed",
+      "checks": 5
+    },
+    "tie-layout-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "grand-prix-browser-tests": {
+      "status": "passed",
+      "checks": 272
+    },
+    "offline-tests": {
+      "status": "passed",
+      "checks": 29
+    },
+    "compatibility-tests": {
+      "status": "passed",
+      "checks": 13
+    },
+    "render-parity-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 2
+    }
+  },
+  "limits": [
+    "Rank/GP browser tests use documented finish/gate fixtures, not complete manual driving",
+    "AI continuation tests start from explicit finished-player fixtures and advance original engine physics; no AI repositioning",
+    "Rendering/model measurements use cloud Chromium with SwiftShader, not physical-phone FPS",
+    "Managed cloud browser blocks direct file://; network-disabled document/offline export and normal HTTP are tested",
+    "If bounded completion cannot produce three confirmed finishers, academic result remains available with explicit DNF records; no projected AI finish times are shown",
+    "Teacher exports can exceed 25 MB by bank/runtime markup data; no models or features removed"
+  ]
+}

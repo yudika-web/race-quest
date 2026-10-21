@@ -1,0 +1,3209 @@
+{
+  "status": "passed",
+  "checks": [
+    "Six desktop/tablet/phone layouts: all three vehicles inside frame, actions visible, no page scroll or panel overlap",
+    "All 14 characters represented in 56 high/low desktop/portrait trios using existing GLBs",
+    "One shared WebGL canvas; no unowned stage buffers after leaving 56 podium views",
+    "Reduced Motion/Reduced Effects suppress confetti and celebration clock",
+    "No JavaScript or WebGL errors"
+  ],
+  "views": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 1906,
+        "b": 109.296875,
+        "w": 1892,
+        "h": 109.296875
+      },
+      "message": {
+        "x": 14,
+        "y": 114.296875,
+        "r": 1906,
+        "b": 138.296875,
+        "w": 1892,
+        "h": 24
+      },
+      "preview": {
+        "x": 360,
+        "y": 143.296875,
+        "r": 1560,
+        "b": 899,
+        "w": 1200,
+        "h": 755.703125
+      },
+      "names": {
+        "x": 460,
+        "y": 899,
+        "r": 1460,
+        "b": 1010,
+        "w": 1000,
+        "h": 111
+      },
+      "foot": {
+        "x": 14,
+        "y": 1010,
+        "r": 1906,
+        "b": 1080,
+        "w": 1892,
+        "h": 70
+      },
+      "buttons": [
+        {
+          "x": 741.59375,
+          "y": 1020,
+          "r": 912.234375,
+          "b": 1066,
+          "w": 170.640625,
+          "h": 46
+        },
+        {
+          "x": 924.234375,
+          "y": 1020,
+          "r": 1046.046875,
+          "b": 1066,
+          "w": 121.8125,
+          "h": 46
+        },
+        {
+          "x": 1056.046875,
+          "y": 1020,
+          "r": 1178.40625,
+          "b": 1066,
+          "w": 122.359375,
+          "h": 46
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.815999999999997,
+            7.556913655719503
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 8.099999999999993,
+          "maxNDC": [
+            0.9093117833922608,
+            0.6697746007822555
+          ]
+        },
+        "canvas": [
+          1200,
+          756
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 1352,
+        "b": 109.296875,
+        "w": 1338,
+        "h": 109.296875
+      },
+      "message": {
+        "x": 14,
+        "y": 114.296875,
+        "r": 1352,
+        "b": 138.296875,
+        "w": 1338,
+        "h": 24
+      },
+      "preview": {
+        "x": 83,
+        "y": 143.296875,
+        "r": 1283,
+        "b": 587,
+        "w": 1200,
+        "h": 443.703125
+      },
+      "names": {
+        "x": 183,
+        "y": 587,
+        "r": 1183,
+        "b": 698,
+        "w": 1000,
+        "h": 111
+      },
+      "foot": {
+        "x": 14,
+        "y": 698,
+        "r": 1352,
+        "b": 768,
+        "w": 1338,
+        "h": 70
+      },
+      "buttons": [
+        {
+          "x": 464.59375,
+          "y": 708,
+          "r": 635.234375,
+          "b": 754,
+          "w": 170.640625,
+          "h": 46
+        },
+        {
+          "x": 647.234375,
+          "y": 708,
+          "r": 769.046875,
+          "b": 754,
+          "w": 121.8125,
+          "h": 46
+        },
+        {
+          "x": 779.046875,
+          "y": 708,
+          "r": 901.40625,
+          "b": 754,
+          "w": 122.359375,
+          "h": 46
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 376,
+        "b": 79.6875,
+        "w": 362,
+        "h": 79.6875
+      },
+      "message": {
+        "x": 14,
+        "y": 85.6875,
+        "r": 376,
+        "b": 103.6875,
+        "w": 362,
+        "h": 18
+      },
+      "preview": {
+        "x": 14,
+        "y": 109.6875,
+        "r": 376,
+        "b": 627.5,
+        "w": 362,
+        "h": 517.8125
+      },
+      "names": {
+        "x": 14,
+        "y": 627.5,
+        "r": 376,
+        "b": 732,
+        "w": 362,
+        "h": 104.5
+      },
+      "foot": {
+        "x": 14,
+        "y": 732,
+        "r": 376,
+        "b": 844,
+        "w": 362,
+        "h": 112
+      },
+      "buttons": [
+        {
+          "x": 14,
+          "y": 739,
+          "r": 376,
+          "b": 783,
+          "w": 362,
+          "h": 44
+        },
+        {
+          "x": 14,
+          "y": 790,
+          "r": 191.5,
+          "b": 834,
+          "w": 177.5,
+          "h": 44
+        },
+        {
+          "x": 198.5,
+          "y": 790,
+          "r": 376,
+          "b": 834,
+          "w": 177.5,
+          "h": 44
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 830,
+        "b": 55.390625,
+        "w": 816,
+        "h": 55.390625
+      },
+      "message": {
+        "x": 14,
+        "y": 57.390625,
+        "r": 830,
+        "b": 73.890625,
+        "w": 816,
+        "h": 16.5
+      },
+      "preview": {
+        "x": 14,
+        "y": 75.890625,
+        "r": 830,
+        "b": 294.5,
+        "w": 816,
+        "h": 218.609375
+      },
+      "names": {
+        "x": 14,
+        "y": 294.5,
+        "r": 830,
+        "b": 337,
+        "w": 816,
+        "h": 42.5
+      },
+      "foot": {
+        "x": 14,
+        "y": 337,
+        "r": 830,
+        "b": 390,
+        "w": 816,
+        "h": 53
+      },
+      "buttons": [
+        {
+          "x": 246.890625,
+          "y": 341,
+          "r": 384.8125,
+          "b": 385,
+          "w": 137.921875,
+          "h": 44
+        },
+        {
+          "x": 392.8125,
+          "y": 341,
+          "r": 489.71875,
+          "b": 385,
+          "w": 96.90625,
+          "h": 44
+        },
+        {
+          "x": 499.71875,
+          "y": 341,
+          "r": 597.09375,
+          "b": 385,
+          "w": 97.375,
+          "h": 44
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.5154352184355443,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          816,
+          219
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 754,
+        "b": 94.53125,
+        "w": 740,
+        "h": 94.53125
+      },
+      "message": {
+        "x": 14,
+        "y": 99.53125,
+        "r": 754,
+        "b": 117.53125,
+        "w": 740,
+        "h": 18
+      },
+      "preview": {
+        "x": 14,
+        "y": 122.53125,
+        "r": 754,
+        "b": 852,
+        "w": 740,
+        "h": 729.46875
+      },
+      "names": {
+        "x": 14,
+        "y": 852,
+        "r": 754,
+        "b": 954,
+        "w": 740,
+        "h": 102
+      },
+      "foot": {
+        "x": 14,
+        "y": 954,
+        "r": 754,
+        "b": 1024,
+        "w": 740,
+        "h": 70
+      },
+      "buttons": [
+        {
+          "x": 165.59375,
+          "y": 964,
+          "r": 336.234375,
+          "b": 1010,
+          "w": 170.640625,
+          "h": 46
+        },
+        {
+          "x": 348.234375,
+          "y": 964,
+          "r": 470.046875,
+          "b": 1010,
+          "w": 121.8125,
+          "h": 46
+        },
+        {
+          "x": 480.046875,
+          "y": 964,
+          "r": 602.40625,
+          "b": 1010,
+          "w": 122.359375,
+          "h": 46
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            5.643999999999995,
+            9.952703953022565
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 10.399999999999984,
+          "maxNDC": [
+            0.9108480548431107,
+            0.7582702809104916
+          ]
+        },
+        "canvas": [
+          740,
+          729
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "header": {
+        "x": 14,
+        "y": 0,
+        "r": 1010,
+        "b": 103.53125,
+        "w": 996,
+        "h": 103.53125
+      },
+      "message": {
+        "x": 14,
+        "y": 108.53125,
+        "r": 1010,
+        "b": 131.5625,
+        "w": 996,
+        "h": 23.03125
+      },
+      "preview": {
+        "x": 14,
+        "y": 136.5625,
+        "r": 1010,
+        "b": 590.96875,
+        "w": 996,
+        "h": 454.40625
+      },
+      "names": {
+        "x": 14,
+        "y": 590.96875,
+        "r": 1010,
+        "b": 698,
+        "w": 996,
+        "h": 107.03125
+      },
+      "foot": {
+        "x": 14,
+        "y": 698,
+        "r": 1010,
+        "b": 768,
+        "w": 996,
+        "h": 70
+      },
+      "buttons": [
+        {
+          "x": 293.59375,
+          "y": 708,
+          "r": 464.234375,
+          "b": 754,
+          "w": 170.640625,
+          "h": 46
+        },
+        {
+          "x": 476.234375,
+          "y": 708,
+          "r": 598.046875,
+          "b": 754,
+          "w": 121.8125,
+          "h": 46
+        },
+        {
+          "x": 608.046875,
+          "y": 708,
+          "r": 730.40625,
+          "b": 754,
+          "w": 122.359375,
+          "h": 46
+        }
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.8754203698928383,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          996,
+          454
+        ],
+        "time": 0.05
+      },
+      "gl": 0
+    }
+  ],
+  "models": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 0,
+      "quality": "high",
+      "top": [
+        1,
+        0,
+        2
+      ],
+      "calls": 101,
+      "triangles": 55539,
+      "cpu_ms": 75.09999999403954,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 1,
+      "quality": "high",
+      "top": [
+        2,
+        1,
+        3
+      ],
+      "calls": 84,
+      "triangles": 38950,
+      "cpu_ms": 19.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 2,
+      "quality": "high",
+      "top": [
+        3,
+        2,
+        4
+      ],
+      "calls": 84,
+      "triangles": 39624,
+      "cpu_ms": 21.099999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7195481854784307,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 3,
+      "quality": "high",
+      "top": [
+        4,
+        3,
+        5
+      ],
+      "calls": 83,
+      "triangles": 40340,
+      "cpu_ms": 25.299999982118607,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 4,
+      "quality": "high",
+      "top": [
+        5,
+        4,
+        6
+      ],
+      "calls": 83,
+      "triangles": 40718,
+      "cpu_ms": 20.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 5,
+      "quality": "high",
+      "top": [
+        6,
+        5,
+        7
+      ],
+      "calls": 92,
+      "triangles": 43088,
+      "cpu_ms": 19.200000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 6,
+      "quality": "high",
+      "top": [
+        7,
+        6,
+        8
+      ],
+      "calls": 96,
+      "triangles": 45178,
+      "cpu_ms": 25,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 7,
+      "quality": "high",
+      "top": [
+        8,
+        7,
+        9
+      ],
+      "calls": 97,
+      "triangles": 44840,
+      "cpu_ms": 18.099999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 8,
+      "quality": "high",
+      "top": [
+        9,
+        8,
+        10
+      ],
+      "calls": 91,
+      "triangles": 46996,
+      "cpu_ms": 20.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 9,
+      "quality": "high",
+      "top": [
+        10,
+        9,
+        11
+      ],
+      "calls": 89,
+      "triangles": 45506,
+      "cpu_ms": 29.700000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 10,
+      "quality": "high",
+      "top": [
+        11,
+        10,
+        12
+      ],
+      "calls": 89,
+      "triangles": 47212,
+      "cpu_ms": 21.099999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 11,
+      "quality": "high",
+      "top": [
+        12,
+        11,
+        13
+      ],
+      "calls": 89,
+      "triangles": 49628,
+      "cpu_ms": 24.099999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 12,
+      "quality": "high",
+      "top": [
+        13,
+        12,
+        0
+      ],
+      "calls": 105,
+      "triangles": 62043,
+      "cpu_ms": 32.599999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 13,
+      "quality": "high",
+      "top": [
+        0,
+        13,
+        1
+      ],
+      "calls": 102,
+      "triangles": 58193,
+      "cpu_ms": 15.100000023841858,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7211181797937231,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          1200,
+          444
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 0,
+      "quality": "low",
+      "top": [
+        1,
+        0,
+        2
+      ],
+      "calls": 101,
+      "triangles": 24098,
+      "cpu_ms": 54.69999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 1,
+      "quality": "low",
+      "top": [
+        2,
+        1,
+        3
+      ],
+      "calls": 84,
+      "triangles": 19006,
+      "cpu_ms": 27.599999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 2,
+      "quality": "low",
+      "top": [
+        3,
+        2,
+        4
+      ],
+      "calls": 84,
+      "triangles": 19084,
+      "cpu_ms": 31.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7195481854784307,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 3,
+      "quality": "low",
+      "top": [
+        4,
+        3,
+        5
+      ],
+      "calls": 83,
+      "triangles": 19252,
+      "cpu_ms": 29.799999982118607,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 4,
+      "quality": "low",
+      "top": [
+        5,
+        4,
+        6
+      ],
+      "calls": 83,
+      "triangles": 19330,
+      "cpu_ms": 25.30000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 5,
+      "quality": "low",
+      "top": [
+        6,
+        5,
+        7
+      ],
+      "calls": 92,
+      "triangles": 20236,
+      "cpu_ms": 27.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 6,
+      "quality": "low",
+      "top": [
+        7,
+        6,
+        8
+      ],
+      "calls": 96,
+      "triangles": 21198,
+      "cpu_ms": 32.70000001788139,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 7,
+      "quality": "low",
+      "top": [
+        8,
+        7,
+        9
+      ],
+      "calls": 97,
+      "triangles": 21116,
+      "cpu_ms": 26.100000023841858,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 8,
+      "quality": "low",
+      "top": [
+        9,
+        8,
+        10
+      ],
+      "calls": 91,
+      "triangles": 22008,
+      "cpu_ms": 29.700000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 9,
+      "quality": "low",
+      "top": [
+        10,
+        9,
+        11
+      ],
+      "calls": 89,
+      "triangles": 21342,
+      "cpu_ms": 31,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 10,
+      "quality": "low",
+      "top": [
+        11,
+        10,
+        12
+      ],
+      "calls": 89,
+      "triangles": 21896,
+      "cpu_ms": 28.200000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 11,
+      "quality": "low",
+      "top": [
+        12,
+        11,
+        13
+      ],
+      "calls": 89,
+      "triangles": 22324,
+      "cpu_ms": 32.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 12,
+      "quality": "low",
+      "top": [
+        13,
+        12,
+        0
+      ],
+      "calls": 105,
+      "triangles": 26334,
+      "cpu_ms": 42.30000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7105945257993587,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "character": 13,
+      "quality": "low",
+      "top": [
+        0,
+        13,
+        1
+      ],
+      "calls": 102,
+      "triangles": 25056,
+      "cpu_ms": 24.899999976158142,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.7211181797937231,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          780,
+          289
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 0,
+      "quality": "high",
+      "top": [
+        1,
+        0,
+        2
+      ],
+      "calls": 101,
+      "triangles": 55539,
+      "cpu_ms": 25.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 5,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 1,
+      "quality": "high",
+      "top": [
+        2,
+        1,
+        3
+      ],
+      "calls": 84,
+      "triangles": 38950,
+      "cpu_ms": 19.19999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 4,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 2,
+      "quality": "high",
+      "top": [
+        3,
+        2,
+        4
+      ],
+      "calls": 84,
+      "triangles": 39624,
+      "cpu_ms": 19.19999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 3,
+      "quality": "high",
+      "top": [
+        4,
+        3,
+        5
+      ],
+      "calls": 83,
+      "triangles": 40340,
+      "cpu_ms": 22.900000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 4,
+      "quality": "high",
+      "top": [
+        5,
+        4,
+        6
+      ],
+      "calls": 83,
+      "triangles": 40718,
+      "cpu_ms": 18.19999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 5,
+      "quality": "high",
+      "top": [
+        6,
+        5,
+        7
+      ],
+      "calls": 92,
+      "triangles": 43088,
+      "cpu_ms": 18.900000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 6,
+      "quality": "high",
+      "top": [
+        7,
+        6,
+        8
+      ],
+      "calls": 96,
+      "triangles": 45178,
+      "cpu_ms": 23.900000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 7,
+      "quality": "high",
+      "top": [
+        8,
+        7,
+        9
+      ],
+      "calls": 97,
+      "triangles": 44840,
+      "cpu_ms": 17.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 8,
+      "quality": "high",
+      "top": [
+        9,
+        8,
+        10
+      ],
+      "calls": 91,
+      "triangles": 46996,
+      "cpu_ms": 20.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 9,
+      "quality": "high",
+      "top": [
+        10,
+        9,
+        11
+      ],
+      "calls": 89,
+      "triangles": 45506,
+      "cpu_ms": 21.200000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 10,
+      "quality": "high",
+      "top": [
+        11,
+        10,
+        12
+      ],
+      "calls": 89,
+      "triangles": 47212,
+      "cpu_ms": 19.899999976158142,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 11,
+      "quality": "high",
+      "top": [
+        12,
+        11,
+        13
+      ],
+      "calls": 89,
+      "triangles": 49628,
+      "cpu_ms": 22.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 12,
+      "quality": "high",
+      "top": [
+        13,
+        12,
+        0
+      ],
+      "calls": 105,
+      "triangles": 62043,
+      "cpu_ms": 30.69999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 13,
+      "quality": "high",
+      "top": [
+        0,
+        13,
+        1
+      ],
+      "calls": 102,
+      "triangles": 58193,
+      "cpu_ms": 22.69999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 3,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          362,
+          518
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 0,
+      "quality": "low",
+      "top": [
+        1,
+        0,
+        2
+      ],
+      "calls": 101,
+      "triangles": 24098,
+      "cpu_ms": 51.19999998807907,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 1,
+      "quality": "low",
+      "top": [
+        2,
+        1,
+        3
+      ],
+      "calls": 84,
+      "triangles": 19006,
+      "cpu_ms": 25.799999982118607,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 2,
+      "quality": "low",
+      "top": [
+        3,
+        2,
+        4
+      ],
+      "calls": 84,
+      "triangles": 19084,
+      "cpu_ms": 24.400000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 3,
+      "quality": "low",
+      "top": [
+        4,
+        3,
+        5
+      ],
+      "calls": 83,
+      "triangles": 19252,
+      "cpu_ms": 29.099999994039536,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 4,
+      "quality": "low",
+      "top": [
+        5,
+        4,
+        6
+      ],
+      "calls": 83,
+      "triangles": 19330,
+      "cpu_ms": 27.400000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 5,
+      "quality": "low",
+      "top": [
+        6,
+        5,
+        7
+      ],
+      "calls": 92,
+      "triangles": 20236,
+      "cpu_ms": 27.299999982118607,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 6,
+      "quality": "low",
+      "top": [
+        7,
+        6,
+        8
+      ],
+      "calls": 96,
+      "triangles": 21198,
+      "cpu_ms": 32.900000005960464,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 7,
+      "quality": "low",
+      "top": [
+        8,
+        7,
+        9
+      ],
+      "calls": 97,
+      "triangles": 21116,
+      "cpu_ms": 28.200000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 8,
+      "quality": "low",
+      "top": [
+        9,
+        8,
+        10
+      ],
+      "calls": 91,
+      "triangles": 22008,
+      "cpu_ms": 29.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 9,
+      "quality": "low",
+      "top": [
+        10,
+        9,
+        11
+      ],
+      "calls": 89,
+      "triangles": 21342,
+      "cpu_ms": 32.5,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 10,
+      "quality": "low",
+      "top": [
+        11,
+        10,
+        12
+      ],
+      "calls": 89,
+      "triangles": 21896,
+      "cpu_ms": 29.30000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 11,
+      "quality": "low",
+      "top": [
+        12,
+        11,
+        13
+      ],
+      "calls": 89,
+      "triangles": 22324,
+      "cpu_ms": 33.80000001192093,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 12,
+      "quality": "low",
+      "top": [
+        13,
+        12,
+        0
+      ],
+      "calls": 105,
+      "triangles": 26334,
+      "cpu_ms": 46.60000002384186,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "character": 13,
+      "quality": "low",
+      "top": [
+        0,
+        13,
+        1
+      ],
+      "calls": 102,
+      "triangles": 25056,
+      "cpu_ms": 25.200000017881393,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.939999999999989,
+            13.311332244453448
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 13.999999999999972,
+          "maxNDC": [
+            0.9126239024983034,
+            0.5230516280790364
+          ]
+        },
+        "canvas": [
+          235,
+          337
+        ],
+        "time": 0
+      },
+      "gl": 0,
+      "unowned_live_buffers": 0
+    }
+  ],
+  "errors": []
+}

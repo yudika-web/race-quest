@@ -1,4 +1,14 @@
-# BlokRaya PRO — PATCH 8B: Alur Siswa Ringkas
+# BlokRaya PRO — PATCH 8C: Podium Tiga Pembalap
+
+Podium kemenangan **2–1–3** memakai karakter dan mobil asli, panggung bertingkat, medali serta perayaan singkat. Bebas memakai urutan finis aktual; GP memakai klasemen akhir dengan tie-break lama. Hasil belajar asli tetap dibuka melalui tombol **Lihat Hasil Belajar**; ronde GP/retry tetap berjalan seperti sebelumnya.
+
+- [ZIP playable terbaru](blokraya-patch8c-playable.zip) · [HTML mandiri](visual-upgrade/blokraya-patch8c-podium.html) · [ZIP review](blokraya-patch8c-review.zip).
+- [Desktop](visual-upgrade/patch8c/screenshots/podium-1366x768.png) · [HP portrait](visual-upgrade/patch8c/screenshots/podium-390x844.png) · [HP landscape](visual-upgrade/patch8c/screenshots/podium-844x390.png) · [Galeri](visual-upgrade/patch8c/review.html).
+- [Dokumentasi, sumber dan pengujian](visual-upgrade/patch8c/README.md) · [Metrik](visual-upgrade/patch8c/metrics.json).
+
+HTML **24.985.707 byte** (+18.523). 78 kelanjutan AI pada 13 arena mencapai finis tanpa mengubah snapshot siswa/ghost; 56 trio model high/low dan enam layout diuji. 58 pemeriksaan UI peringkat 1–5, 272 pemeriksaan empat GP, offline/ekspor/PIN serta perbandingan piksel 13 world/14 model lolos. Tes GP memakai fixture posisi, bukan balapan manual penuh. Waktu lawan yang belum finis tidak lagi diproyeksikan; dicatat melalui salinan simulasi asli. HP fisik/FPS dan file:// cloud tidak diklaim diuji. Tidak merge/deployment atau mengubah index.html utama.
+
+# Tahap sebelumnya — PATCH 8B: Alur Siswa Ringkas
 
 **Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas saja) → Garasi → Mulai Balapan.** Grand Prix langsung menuju garasi. Satu carousel arena memakai panah, keyboard, swipe dan daftar ringkas; pengaturan opsional berada dalam accordion. State Bebas/GP terpisah, jumlah soal tetap mengikuti Guru, dan start ganda dicegah.
 

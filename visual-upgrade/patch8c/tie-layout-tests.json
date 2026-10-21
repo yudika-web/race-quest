@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "checks": [
+    "True existing cup points fixture proves wins tie-break and then ascending entrant ID; student fourth receives no winner message",
+    "Completed thirteen-round cup and maximum-length student name at portrait, short landscape and small phone: actions visible and models inside frame",
+    "Incomplete/blocked GP cannot produce overall podium"
+  ],
+  "views": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "actionBottom": 844,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            6.435999999999991,
+            12.005199020008105
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 12.599999999999977,
+          "maxNDC": [
+            0.9176104942340989,
+            0.5948060435379715
+          ]
+        },
+        "canvas": [
+          235,
+          298
+        ],
+        "time": 0
+      },
+      "names": [
+        "Pinguin",
+        "Bintang Nusantara Pelajar Sekolah Hebat",
+        "Beruang"
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "actionBottom": 390,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            4.167999999999999,
+            5.877599510004062
+          ],
+          "target": [
+            0,
+            1.9,
+            0
+          ],
+          "d": 6.299999999999999,
+          "maxNDC": [
+            0.4754242654063011,
+            0.891202791369616
+          ]
+        },
+        "canvas": [
+          530,
+          131
+        ],
+        "time": 0
+      },
+      "names": [
+        "Pinguin",
+        "Bintang Nusantara Pelajar Sekolah Hebat",
+        "Beruang"
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "horizontal": 0,
+      "vertical": 0,
+      "actionBottom": 568,
+      "metrics": {
+        "triangles": 1752,
+        "drawCalls": 8,
+        "textures": 0,
+        "preparedModels": 6,
+        "camera": {
+          "eye": [
+            0,
+            5.211999999999996,
+            8.833161189212273
+          ],
+          "target": [
+            0,
+            1.9,
+            0.25
+          ],
+          "d": 9.199999999999989,
+          "maxNDC": [
+            0.543814615198942,
+            0.8919793066934903
+          ]
+        },
+        "canvas": [
+          190,
+          95
+        ],
+        "time": 0
+      },
+      "names": [
+        "Pinguin",
+        "Bintang Nusantara Pelajar Sekolah Hebat",
+        "Beruang"
+      ]
+    }
+  ],
+  "errors": [],
+  "tie": {
+    "order": [
+      2,
+      3,
+      1,
+      0,
+      4
+    ],
+    "cards": [
+      3,
+      2,
+      1
+    ],
+    "message": "Bintang Nusantara Pelajar Sekolah Hebat finis di peringkat 4. Tetap semangat pada balapan berikutnya!"
+  }
+}

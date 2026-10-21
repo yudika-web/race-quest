@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "checks": [
+    "Previous podium cleared before new race 1",
+    "Quiz still freezes live race 1",
+    "Actual result position 1",
+    "Every participant has recorded actual finish time 1",
+    "Podium 2–1–3 matches finish order 1",
+    "Honest student celebration message 1",
+    "Academic score/class unaffected 1",
+    "Mute retained, no WebGL errors 1",
+    "Leaving podium releases celebration state 1",
+    "Original academic report shown 1",
+    "Print retains textual academic report, not podium",
+    "JSON export retains score and recorded order 1",
+    "Previous podium cleared before new race 2",
+    "Quiz still freezes live race 2",
+    "Actual result position 2",
+    "Every participant has recorded actual finish time 2",
+    "Podium 2–1–3 matches finish order 2",
+    "Honest student celebration message 2",
+    "Academic score/class unaffected 2",
+    "Mute retained, no WebGL errors 2",
+    "Leaving podium releases celebration state 2",
+    "Original academic report shown 2",
+    "JSON export retains score and recorded order 2",
+    "Previous podium cleared before new race 3",
+    "Quiz still freezes live race 3",
+    "Actual result position 3",
+    "Every participant has recorded actual finish time 3",
+    "Podium 2–1–3 matches finish order 3",
+    "Honest student celebration message 3",
+    "Academic score/class unaffected 3",
+    "Mute retained, no WebGL errors 3",
+    "Leaving podium releases celebration state 3",
+    "Original academic report shown 3",
+    "JSON export retains score and recorded order 3",
+    "Previous podium cleared before new race 4",
+    "Quiz still freezes live race 4",
+    "Actual result position 4",
+    "Every participant has recorded actual finish time 4",
+    "Podium 2–1–3 matches finish order 4",
+    "Honest student celebration message 4",
+    "Academic score/class unaffected 4",
+    "Mute retained, no WebGL errors 4",
+    "Balapan Lagi works directly from podium",
+    "Previous podium cleared before new race 5",
+    "Quiz still freezes live race 5",
+    "Actual result position 5",
+    "Every participant has recorded actual finish time 5",
+    "Podium 2–1–3 matches finish order 5",
+    "Honest student celebration message 5",
+    "Academic score/class unaffected 5",
+    "Mute retained, no WebGL errors 5",
+    "Menu Utama works directly from podium",
+    "Menu Utama closes podium/results state",
+    "Academic CSV exports five rows after podium",
+    "Export after mounted podium removes private name/class",
+    "Export does not serialize previous podium entrants",
+    "Five results survive reload; teacher remains locked",
+    "No JavaScript errors across all rank cases"
+  ],
+  "errors": [],
+  "ranks": [
+    {
+      "rank": 1,
+      "finishOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": "q_mvi5xsa4_khw6tlm",
+      "time": 50.016666666666666,
+      "classification": {
+        "version": 1,
+        "method": "actual-finish-with-ai-continuation",
+        "complete": true,
+        "steps": 150,
+        "tailSeconds": 2.5,
+        "dnf": [],
+        "error": null
+      }
+    },
+    {
+      "rank": 2,
+      "finishOrder": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "id": "q_mvi5xwb6_pv36dl9",
+      "time": 50.016666666666666,
+      "classification": {
+        "version": 1,
+        "method": "actual-finish-with-ai-continuation",
+        "complete": true,
+        "steps": 129,
+        "tailSeconds": 2.15,
+        "dnf": [],
+        "error": null
+      }
+    },
+    {
+      "rank": 3,
+      "finishOrder": [
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "id": "q_mvi5xzx5_tunqjj9",
+      "time": 50.016666666666666,
+      "classification": {
+        "version": 1,
+        "method": "actual-finish-with-ai-continuation",
+        "complete": true,
+        "steps": 120,
+        "tailSeconds": 2,
+        "dnf": [],
+        "error": null
+      }
+    },
+    {
+      "rank": 4,
+      "finishOrder": [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "id": "q_mvi5y3l0_o70eg4f",
+      "time": 50.016666666666666,
+      "classification": {
+        "version": 1,
+        "method": "actual-finish-with-ai-continuation",
+        "complete": true,
+        "steps": 106,
+        "tailSeconds": 1.7666666666666666,
+        "dnf": [],
+        "error": null
+      }
+    },
+    {
+      "rank": 5,
+      "finishOrder": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "id": "q_mvi5y6rf_kji539o",
+      "time": 50.016666666666666,
+      "classification": {
+        "version": 1,
+        "method": "actual-finish-with-ai-continuation",
+        "complete": true,
+        "steps": 0,
+        "tailSeconds": 0,
+        "dnf": [],
+        "error": null
+      }
+    }
+  ],
+  "post_podium_export_bytes": 25022790
+}

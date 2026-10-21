@@ -1,0 +1,13 @@
+BLOKRAYA PRO — PATCH 8C: PODIUM TIGA PEMBALAP
+Ekstrak ZIP dan buka blokraya-patch8c-podium.html dengan browser modern.
+HTML mandiri berisi seluruh poster, model karakter+mobil, audio dan 13 arena. Tidak memakai CDN.
+
+Alur siswa PATCH 8B tetap: Nama/Kelas → Kesulitan → Mode → Arena/Cuaca (Bebas) → Garasi → Balapan.
+Saat siswa finis, data belajarnya dibekukan. Lawan yang belum finis dituntaskan pada salinan simulasi untuk mencatat urutan yang sah.
+Bebas: podium tiga besar → Lihat Hasil Belajar → laporan akademik asli.
+Grand Prix: hasil ronde tetap langsung ke laporan; podium cup hanya setelah cup benar-benar tuntas.
+Balapan Lagi dan Menu Utama tersedia pada podium maupun laporan.
+
+Mode Guru tetap memakai PIN lokal. Jangan menghapus penyimpanan browser untuk mencoba versi ini.
+Bukti offline memakai Chromium dengan jaringan dinonaktifkan. Navigasi file:// ditolak kebijakan browser cloud; tidak diklaim telah diuji pada lingkungan itu.
+HP fisik/FPS tidak diuji. Laporan dan screenshot berada di visual-upgrade/patch8c/ pada ZIP review.
