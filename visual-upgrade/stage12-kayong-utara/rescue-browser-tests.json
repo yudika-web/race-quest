@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual game rescue moves backward to safe checkpoint",
+    "Both slots, charges, tokens and academic records survive rescue",
+    "Pause freezes rescue wait, AI, moving obstacle clock and stage events",
+    "Actual gameplay resumes driving after finite rescue penalty"
+  ],
+  "errors": [],
+  "method": "Actual student UI/renderer, test-only quiz count (1), initial positions and two-slot inventory; no QA data embedded in distribution.",
+  "state": {
+    "rescue": {
+      "actor": "player",
+      "from": 555.5825326577337,
+      "to": 530.5673104462822,
+      "time": 0.016666666666666666,
+      "wait": 2.4,
+      "reason": "bay"
+    },
+    "s": 530.5673104462822,
+    "tokens": 7,
+    "inventory": [
+      {
+        "id": "shield",
+        "charges": 1
+      },
+      {
+        "id": "nitro",
+        "charges": 2
+      }
+    ],
+    "records": 0,
+    "elapsed": 0.09999999999999999
+  }
+}

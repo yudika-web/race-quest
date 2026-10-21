@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "13 IDs; one future world cannot construct",
+    "Classic 3 and Nusantara 10 preserve points/mastery/retry/order exactly",
+    "Extreme and complete-13 cups blocked until Ketapang world exists",
+    "Pure 13-round metadata sequence completes at round13; no fake future world construction"
+  ]
+}

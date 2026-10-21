@@ -1,0 +1,1174 @@
+{
+  "status": "passed",
+  "checks": [
+    "Coastal beach and sail monument built",
+    "Landmarks remain outside gameplay obstacles",
+    "Located props have safe footprint clearance",
+    "108 actual renderer samples: 12 route positions × 3 quality × 3 weather, no WebGL errors",
+    "Owned GPU buffers/textures freed on all old-stage transitions and stable rebuild counts",
+    "Existing gradient/cloud system retained without sky textures",
+    "No JavaScript errors during renderer and cleanup checks"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 114,
+      "depth_draws": 22,
+      "colour_triangles": 106951,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 114,
+      "depth_draws": 22,
+      "colour_triangles": 106951,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 114,
+      "depth_draws": 22,
+      "colour_triangles": 106951,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "high",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 212,
+      "depth_draws": 22,
+      "colour_triangles": 130073,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 22,
+      "colour_triangles": 129641,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 207,
+      "depth_draws": 22,
+      "colour_triangles": 129639,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 22,
+      "colour_triangles": 129641,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 207,
+      "depth_draws": 22,
+      "colour_triangles": 129639,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 66,
+      "colour_triangles": 155165,
+      "depth_triangles": 150015
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 22,
+      "colour_triangles": 129641,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 22,
+      "colour_triangles": 106519,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 102,
+      "depth_draws": 22,
+      "colour_triangles": 106195,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 98,
+      "depth_draws": 22,
+      "colour_triangles": 105763,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "medium",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 207,
+      "depth_draws": 22,
+      "colour_triangles": 129639,
+      "depth_triangles": 100631
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 0,
+      "colour_triangles": 111784,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 0,
+      "colour_triangles": 88230,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 0,
+      "colour_triangles": 88662,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "clear",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 0,
+      "colour_triangles": 111784,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 0,
+      "colour_triangles": 88230,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 0,
+      "colour_triangles": 88662,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "rain",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0,
+      "glError": 0,
+      "colour_draws": 208,
+      "depth_draws": 0,
+      "colour_triangles": 111784,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.08333333333333333,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.16666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.25,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.3333333333333333,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.4166666666666667,
+      "glError": 0,
+      "colour_draws": 106,
+      "depth_draws": 0,
+      "colour_triangles": 88230,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5,
+      "glError": 0,
+      "colour_draws": 110,
+      "depth_draws": 0,
+      "colour_triangles": 88662,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.5833333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.6666666666666666,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.75,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.8333333333333334,
+      "glError": 0,
+      "colour_draws": 94,
+      "depth_draws": 0,
+      "colour_triangles": 87474,
+      "depth_triangles": 0
+    },
+    {
+      "quality": "low",
+      "weather": "fog",
+      "u": 0.9166666666666666,
+      "glError": 0,
+      "colour_draws": 194,
+      "depth_draws": 0,
+      "colour_triangles": 109866,
+      "depth_triangles": 0
+    }
+  ],
+  "stats": {
+    "landmarks": [
+      {
+        "x": -225,
+        "y": -0.73,
+        "z": 10,
+        "yaw": -0.35,
+        "radius": 33,
+        "type": "pulau-datok-inspired",
+        "clearance": 83.18432640168237
+      },
+      {
+        "x": 65,
+        "y": -0.63,
+        "z": -211,
+        "yaw": 0,
+        "radius": 18,
+        "type": "sail-karimata-interpretation",
+        "clearance": 68.35400222812542
+      }
+    ],
+    "objects": [],
+    "triangles": 74130,
+    "colour_draw_calls": 32,
+    "shadow_draw_calls": 12,
+    "textures": 11,
+    "zones": 10,
+    "dynamic_hazards": 2,
+    "geographic_reconstruction": false,
+    "minimum_structure_vertex_clearance": 0.14273853488613886
+  },
+  "cleanup": {
+    "all_kayong_utara_buffers_deleted": true,
+    "all_kayong_utara_textures_deleted": true,
+    "terrain_lookup_released": true,
+    "city_restored": true,
+    "rebuild_same_owned_count": true,
+    "kapuas_buffers_deleted": true,
+    "kapuas_textures_deleted": true,
+    "kapuas_restored": true,
+    "prior_surface_lookup_cleared": true,
+    "hutan_buffers_deleted": true,
+    "hutan_textures_deleted": true,
+    "hutan_restored": true,
+    "sambas_buffers_deleted": true,
+    "sambas_textures_deleted": true,
+    "sambas_restored": true,
+    "sintang_buffers_deleted": true,
+    "sintang_textures_deleted": true,
+    "sintang_restored": true,
+    "kapuas_hulu_buffers_deleted": true,
+    "kapuas_hulu_textures_deleted": true,
+    "kapuas_hulu_restored": true,
+    "bengkayang_buffers_deleted": true,
+    "bengkayang_textures_deleted": true,
+    "bengkayang_restored": true,
+    "yogyakarta_buffers_deleted": true,
+    "yogyakarta_textures_deleted": true,
+    "yogyakarta_restored": true,
+    "bali_buffers_deleted": true,
+    "bali_textures_deleted": true,
+    "bali_restored": true,
+    "bromo_buffers_deleted": true,
+    "bromo_textures_deleted": true,
+    "bromo_restored": true,
+    "kubu_raya_buffers_deleted": true,
+    "kubu_raya_textures_deleted": true,
+    "kubu_raya_restored": true
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  }
+}

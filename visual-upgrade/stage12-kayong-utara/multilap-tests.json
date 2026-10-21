@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "checks": [
+    "Three-lap player reference races complete at all difficulties with five actual answers and score100",
+    "Twelve AI complete three laps without forward warps; route hazards/checkpoints repeat across lap boundaries"
+  ],
+  "races": [
+    {
+      "level": "easy",
+      "laps": 3,
+      "time": 160.85000000000232,
+      "score": 100,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 1692.052636968682,
+          "to": 1667.7582063997154,
+          "time": 116.09999999999555,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "laps": 3,
+      "time": 160.95000000000235,
+      "score": 100,
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "laps": 3,
+      "time": 160.95000000000235,
+      "score": 100,
+      "rescues": []
+    }
+  ],
+  "AI": [
+    {
+      "level": "easy",
+      "laps": 3,
+      "finish": [
+        227.40000000001746,
+        249.2000000000224,
+        242.00000000002078,
+        233.2500000000188
+      ],
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 2823.593473921907,
+          "to": 2803.734799122638,
+          "time": 205.05000000001237,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "laps": 3,
+      "finish": [
+        179.75000000000662,
+        181.8000000000071,
+        179.30000000000652,
+        180.30000000000675
+      ],
+      "rescues": []
+    },
+    {
+      "level": "hard",
+      "laps": 3,
+      "finish": [
+        167.8000000000039,
+        167.60000000000386,
+        163.4000000000029,
+        171.55000000000476
+      ],
+      "rescues": []
+    }
+  ]
+}

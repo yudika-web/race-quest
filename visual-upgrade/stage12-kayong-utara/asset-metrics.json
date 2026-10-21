@@ -1,0 +1,890 @@
+{
+  "baseline": "f2d57c8659a752315c3627e9ed26261cee1583d1",
+  "baseline_bytes": 24838968,
+  "html_bytes": 24882279,
+  "growth_bytes": 43311,
+  "html_sha256": "25fd1845058816e2e70808833d31ad2e30f1eb541ab48886df270855de3640d6",
+  "remaining_to_25M": 117721,
+  "track": {
+    "length": 1133.810837645474,
+    "max_height": 15.999928782084464,
+    "max_abs_grade": 0.13850807288762867,
+    "minimum_nonadjacent_centerline_distance": 19.05672082646092,
+    "obstacles": [],
+    "ramps": [],
+    "gaps": []
+  },
+  "environment": {
+    "triangles": 74130,
+    "colour_draw_calls": 32,
+    "shadow_draw_calls": 12,
+    "textures": 11,
+    "zones": 10,
+    "dynamic_hazards": 2,
+    "geographic_reconstruction": false,
+    "minimum_structure_vertex_clearance": 0.14273853488613886
+  },
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  },
+  "thumbnail_bytes": {
+    "kayong_utara-landmark.webp": 5820,
+    "kayong_utara-race.webp": 9992
+  },
+  "growth_components_bytes": [
+    13961,
+    7951,
+    21399
+  ],
+  "quality_samples": {
+    "high": {
+      "colour_draws": {
+        "min": 102,
+        "max": 212
+      },
+      "depth_draws": {
+        "min": 22,
+        "max": 66
+      },
+      "colour_triangles": {
+        "min": 106195,
+        "max": 155165
+      },
+      "depth_triangles": {
+        "min": 100631,
+        "max": 150015
+      }
+    },
+    "medium": {
+      "colour_draws": {
+        "min": 98,
+        "max": 208
+      },
+      "depth_draws": {
+        "min": 22,
+        "max": 66
+      },
+      "colour_triangles": {
+        "min": 105763,
+        "max": 155165
+      },
+      "depth_triangles": {
+        "min": 100631,
+        "max": 150015
+      }
+    },
+    "low": {
+      "colour_draws": {
+        "min": 94,
+        "max": 208
+      },
+      "depth_draws": {
+        "min": 0,
+        "max": 0
+      },
+      "colour_triangles": {
+        "min": 87474,
+        "max": 111784
+      },
+      "depth_triangles": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "AI_completion": {
+    "easy": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 77.38958333333109,
+      "max_stall_seconds": 2.4499999999999993,
+      "overtake_plans": 147
+    },
+    "normal": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 59.50624999999875,
+      "max_stall_seconds": 0,
+      "overtake_plans": 577
+    },
+    "hard": {
+      "seed_cases": 6,
+      "all_4_AI_finished": true,
+      "mean_simulation_finish_seconds": 56.92083333333223,
+      "max_stall_seconds": 0,
+      "overtake_plans": 957
+    }
+  },
+  "physical_phone_tested": false,
+  "FPS_measured": false,
+  "memory_benchmarked": false,
+  "new_external_runtime_dependencies": 0,
+  "landmark_accuracy_verified": false,
+  "direct_file_scheme_result": "blocked",
+  "network_disabled_offline_test": "passed",
+  "personality_order": [
+    "agresif",
+    "defensif",
+    "berisiko",
+    "seimbang"
+  ],
+  "multilap_validation": {
+    "status": "passed",
+    "checks": [
+      "Three-lap player reference races complete at all difficulties with five actual answers and score100",
+      "Twelve AI complete three laps without forward warps; route hazards/checkpoints repeat across lap boundaries"
+    ],
+    "races": [
+      {
+        "level": "easy",
+        "laps": 3,
+        "time": 160.85000000000232,
+        "score": 100,
+        "rescues": [
+          {
+            "actor": 1,
+            "from": 1692.052636968682,
+            "to": 1667.7582063997154,
+            "time": 116.09999999999555,
+            "wait": 2.4,
+            "reason": "bay"
+          }
+        ]
+      },
+      {
+        "level": "normal",
+        "laps": 3,
+        "time": 160.95000000000235,
+        "score": 100,
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "laps": 3,
+        "time": 160.95000000000235,
+        "score": 100,
+        "rescues": []
+      }
+    ],
+    "AI": [
+      {
+        "level": "easy",
+        "laps": 3,
+        "finish": [
+          227.40000000001746,
+          249.2000000000224,
+          242.00000000002078,
+          233.2500000000188
+        ],
+        "rescues": [
+          {
+            "actor": 1,
+            "from": 2823.593473921907,
+            "to": 2803.734799122638,
+            "time": 205.05000000001237,
+            "wait": 2.4,
+            "reason": "bay"
+          }
+        ]
+      },
+      {
+        "level": "normal",
+        "laps": 3,
+        "finish": [
+          179.75000000000662,
+          181.8000000000071,
+          179.30000000000652,
+          180.30000000000675
+        ],
+        "rescues": []
+      },
+      {
+        "level": "hard",
+        "laps": 3,
+        "finish": [
+          167.8000000000039,
+          167.60000000000386,
+          163.4000000000029,
+          171.55000000000476
+        ],
+        "rescues": []
+      }
+    ]
+  },
+  "AI_rescue_events": 1,
+  "new_stage_rescue_wait_seconds": 2.4,
+  "all_14_vehicle_completion_cases": 14,
+  "camera_and_terrain_clearance": {
+    "blocked": [],
+    "blocked_count": 0,
+    "road_samples": 1555,
+    "camera": [
+      {
+        "u": 0,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.010416666666666666,
+        "speed": 31,
+        "clearance": 4.705086942476618,
+        "glError": 0
+      },
+      {
+        "u": 0.020833333333333332,
+        "speed": 12,
+        "clearance": 5.075978396900397,
+        "glError": 0
+      },
+      {
+        "u": 0.03125,
+        "speed": 31,
+        "clearance": 5.675377317274496,
+        "glError": 0
+      },
+      {
+        "u": 0.041666666666666664,
+        "speed": 12,
+        "clearance": 6.479091679596024,
+        "glError": 0
+      },
+      {
+        "u": 0.052083333333333336,
+        "speed": 31,
+        "clearance": 7.453930455654287,
+        "glError": 0
+      },
+      {
+        "u": 0.0625,
+        "speed": 12,
+        "clearance": 8.55868866685333,
+        "glError": 0
+      },
+      {
+        "u": 0.07291666666666667,
+        "speed": 31,
+        "clearance": 9.044708971608538,
+        "glError": 0
+      },
+      {
+        "u": 0.08333333333333333,
+        "speed": 12,
+        "clearance": 9.1439927536018,
+        "glError": 0
+      },
+      {
+        "u": 0.09375,
+        "speed": 31,
+        "clearance": 9.212239108360212,
+        "glError": 0
+      },
+      {
+        "u": 0.10416666666666667,
+        "speed": 12,
+        "clearance": 9.251930411199961,
+        "glError": 0
+      },
+      {
+        "u": 0.11458333333333333,
+        "speed": 31,
+        "clearance": 9.174192000045934,
+        "glError": 0
+      },
+      {
+        "u": 0.125,
+        "speed": 12,
+        "clearance": 8.824279406728541,
+        "glError": 0
+      },
+      {
+        "u": 0.13541666666666666,
+        "speed": 31,
+        "clearance": 8.817273896181794,
+        "glError": 0
+      },
+      {
+        "u": 0.14583333333333334,
+        "speed": 12,
+        "clearance": 8.726810158368721,
+        "glError": 0
+      },
+      {
+        "u": 0.15625,
+        "speed": 31,
+        "clearance": 8.583263567141454,
+        "glError": 0
+      },
+      {
+        "u": 0.16666666666666666,
+        "speed": 12,
+        "clearance": 8.43473504861201,
+        "glError": 0
+      },
+      {
+        "u": 0.17708333333333334,
+        "speed": 31,
+        "clearance": 8.266447617943927,
+        "glError": 0
+      },
+      {
+        "u": 0.1875,
+        "speed": 12,
+        "clearance": 8.195001908898625,
+        "glError": 0
+      },
+      {
+        "u": 0.19791666666666666,
+        "speed": 31,
+        "clearance": 8.103266864342256,
+        "glError": 0
+      },
+      {
+        "u": 0.20833333333333334,
+        "speed": 12,
+        "clearance": 8.027609061216918,
+        "glError": 0
+      },
+      {
+        "u": 0.21875,
+        "speed": 31,
+        "clearance": 7.8524741052717,
+        "glError": 0
+      },
+      {
+        "u": 0.22916666666666666,
+        "speed": 12,
+        "clearance": 7.859870147526281,
+        "glError": 0
+      },
+      {
+        "u": 0.23958333333333334,
+        "speed": 31,
+        "clearance": 8.006132335418636,
+        "glError": 0
+      },
+      {
+        "u": 0.25,
+        "speed": 12,
+        "clearance": 8.110081638501109,
+        "glError": 0
+      },
+      {
+        "u": 0.2604166666666667,
+        "speed": 31,
+        "clearance": 8.122037510684406,
+        "glError": 0
+      },
+      {
+        "u": 0.2708333333333333,
+        "speed": 12,
+        "clearance": 8.284335993110965,
+        "glError": 0
+      },
+      {
+        "u": 0.28125,
+        "speed": 31,
+        "clearance": 8.368121485953793,
+        "glError": 0
+      },
+      {
+        "u": 0.2916666666666667,
+        "speed": 12,
+        "clearance": 8.461139086557898,
+        "glError": 0
+      },
+      {
+        "u": 0.3020833333333333,
+        "speed": 31,
+        "clearance": 3.4512244703976442,
+        "glError": 0
+      },
+      {
+        "u": 0.3125,
+        "speed": 12,
+        "clearance": 3.496129259250065,
+        "glError": 0
+      },
+      {
+        "u": 0.3229166666666667,
+        "speed": 31,
+        "clearance": 8.609244299374563,
+        "glError": 0
+      },
+      {
+        "u": 0.3333333333333333,
+        "speed": 12,
+        "clearance": 8.48204766480988,
+        "glError": 0
+      },
+      {
+        "u": 0.34375,
+        "speed": 31,
+        "clearance": 8.354439973104864,
+        "glError": 0
+      },
+      {
+        "u": 0.3541666666666667,
+        "speed": 12,
+        "clearance": 8.251334767288517,
+        "glError": 0
+      },
+      {
+        "u": 0.3645833333333333,
+        "speed": 31,
+        "clearance": 8.182071855561134,
+        "glError": 0
+      },
+      {
+        "u": 0.375,
+        "speed": 12,
+        "clearance": 7.784135850370907,
+        "glError": 0
+      },
+      {
+        "u": 0.3854166666666667,
+        "speed": 31,
+        "clearance": 7.050255096754256,
+        "glError": 0
+      },
+      {
+        "u": 0.3958333333333333,
+        "speed": 12,
+        "clearance": 6.319074218133423,
+        "glError": 0
+      },
+      {
+        "u": 0.40625,
+        "speed": 31,
+        "clearance": 5.654375268168227,
+        "glError": 0
+      },
+      {
+        "u": 0.4166666666666667,
+        "speed": 12,
+        "clearance": 5.115633192700521,
+        "glError": 0
+      },
+      {
+        "u": 0.4270833333333333,
+        "speed": 31,
+        "clearance": 4.749315685929707,
+        "glError": 0
+      },
+      {
+        "u": 0.4375,
+        "speed": 12,
+        "clearance": 4.586755573164771,
+        "glError": 0
+      },
+      {
+        "u": 0.4479166666666667,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.4583333333333333,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.46875,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.4791666666666667,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.4895833333333333,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.5,
+        "speed": 12,
+        "clearance": 4.580270826875197,
+        "glError": 0
+      },
+      {
+        "u": 0.5104166666666666,
+        "speed": 31,
+        "clearance": 4.746903814164236,
+        "glError": 0
+      },
+      {
+        "u": 0.5208333333333334,
+        "speed": 12,
+        "clearance": 5.240983502307772,
+        "glError": 0
+      },
+      {
+        "u": 0.53125,
+        "speed": 31,
+        "clearance": 6.04021560090688,
+        "glError": 0
+      },
+      {
+        "u": 0.5416666666666666,
+        "speed": 12,
+        "clearance": 7.111831755666742,
+        "glError": 0
+      },
+      {
+        "u": 0.5520833333333334,
+        "speed": 31,
+        "clearance": 8.41152239868967,
+        "glError": 0
+      },
+      {
+        "u": 0.5625,
+        "speed": 12,
+        "clearance": 9.502995781727865,
+        "glError": 0
+      },
+      {
+        "u": 0.5729166666666666,
+        "speed": 31,
+        "clearance": 9.51796013162572,
+        "glError": 0
+      },
+      {
+        "u": 0.5833333333333334,
+        "speed": 12,
+        "clearance": 9.395871878886377,
+        "glError": 0
+      },
+      {
+        "u": 0.59375,
+        "speed": 31,
+        "clearance": 9.438990679286459,
+        "glError": 0
+      },
+      {
+        "u": 0.6041666666666666,
+        "speed": 12,
+        "clearance": 9.513377890589204,
+        "glError": 0
+      },
+      {
+        "u": 0.6145833333333334,
+        "speed": 31,
+        "clearance": 9.32927337183488,
+        "glError": 0
+      },
+      {
+        "u": 0.625,
+        "speed": 12,
+        "clearance": 9.301059140661192,
+        "glError": 0
+      },
+      {
+        "u": 0.6354166666666666,
+        "speed": 31,
+        "clearance": 8.975021520305832,
+        "glError": 0
+      },
+      {
+        "u": 0.6458333333333334,
+        "speed": 12,
+        "clearance": 8.913576922696818,
+        "glError": 0
+      },
+      {
+        "u": 0.65625,
+        "speed": 31,
+        "clearance": 8.661155868008407,
+        "glError": 0
+      },
+      {
+        "u": 0.6666666666666666,
+        "speed": 12,
+        "clearance": 8.421627764980204,
+        "glError": 0
+      },
+      {
+        "u": 0.6770833333333334,
+        "speed": 31,
+        "clearance": 8.214130444162842,
+        "glError": 0
+      },
+      {
+        "u": 0.6875,
+        "speed": 12,
+        "clearance": 8.057300150242932,
+        "glError": 0
+      },
+      {
+        "u": 0.6979166666666666,
+        "speed": 31,
+        "clearance": 7.8424296570263206,
+        "glError": 0
+      },
+      {
+        "u": 0.7083333333333334,
+        "speed": 12,
+        "clearance": 7.69262703959061,
+        "glError": 0
+      },
+      {
+        "u": 0.71875,
+        "speed": 31,
+        "clearance": 7.583595048810082,
+        "glError": 0
+      },
+      {
+        "u": 0.7291666666666666,
+        "speed": 12,
+        "clearance": 7.570819302954879,
+        "glError": 0
+      },
+      {
+        "u": 0.7395833333333334,
+        "speed": 31,
+        "clearance": 7.726021488765193,
+        "glError": 0
+      },
+      {
+        "u": 0.75,
+        "speed": 12,
+        "clearance": 7.721729003653256,
+        "glError": 0
+      },
+      {
+        "u": 0.7604166666666666,
+        "speed": 31,
+        "clearance": 7.831478125207453,
+        "glError": 0
+      },
+      {
+        "u": 0.7708333333333334,
+        "speed": 12,
+        "clearance": 7.9917705214005,
+        "glError": 0
+      },
+      {
+        "u": 0.78125,
+        "speed": 31,
+        "clearance": 8.267506561126014,
+        "glError": 0
+      },
+      {
+        "u": 0.7916666666666666,
+        "speed": 12,
+        "clearance": 8.439002966181212,
+        "glError": 0
+      },
+      {
+        "u": 0.8020833333333334,
+        "speed": 31,
+        "clearance": 8.7217262209606,
+        "glError": 0
+      },
+      {
+        "u": 0.8125,
+        "speed": 12,
+        "clearance": 8.88302653722727,
+        "glError": 0
+      },
+      {
+        "u": 0.8229166666666666,
+        "speed": 31,
+        "clearance": 8.926795260406667,
+        "glError": 0
+      },
+      {
+        "u": 0.8333333333333334,
+        "speed": 12,
+        "clearance": 8.704936315829315,
+        "glError": 0
+      },
+      {
+        "u": 0.84375,
+        "speed": 31,
+        "clearance": 8.459845933201455,
+        "glError": 0
+      },
+      {
+        "u": 0.8541666666666666,
+        "speed": 12,
+        "clearance": 8.269685058669126,
+        "glError": 0
+      },
+      {
+        "u": 0.8645833333333334,
+        "speed": 31,
+        "clearance": 8.079750876209133,
+        "glError": 0
+      },
+      {
+        "u": 0.875,
+        "speed": 12,
+        "clearance": 7.777502764235493,
+        "glError": 0
+      },
+      {
+        "u": 0.8854166666666666,
+        "speed": 31,
+        "clearance": 7.52328765677717,
+        "glError": 0
+      },
+      {
+        "u": 0.8958333333333334,
+        "speed": 12,
+        "clearance": 6.472726116091865,
+        "glError": 0
+      },
+      {
+        "u": 0.90625,
+        "speed": 31,
+        "clearance": 5.554011466259045,
+        "glError": 0
+      },
+      {
+        "u": 0.9166666666666666,
+        "speed": 12,
+        "clearance": 4.9003112090089775,
+        "glError": 0
+      },
+      {
+        "u": 0.9270833333333334,
+        "speed": 31,
+        "clearance": 4.5967814408902585,
+        "glError": 0
+      },
+      {
+        "u": 0.9375,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.9479166666666666,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.9583333333333334,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.96875,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.9791666666666666,
+        "speed": 12,
+        "clearance": 4.58,
+        "glError": 0
+      },
+      {
+        "u": 0.9895833333333334,
+        "speed": 31,
+        "clearance": 4.58,
+        "glError": 0
+      }
+    ],
+    "negative_camera_clearance": 0,
+    "physics_camera_unchanged": true
+  },
+  "moving_obstacle_checks": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 1.8,
+            "warning": true
+          },
+          {
+            "lat": -1,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 5.4,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.6995490601766283,
+            "half": 0.42045093982337167,
+            "offset": 1.9773035257034395,
+            "depth": 2.0973035257034396,
+            "angle": 1.42,
+            "warning": true
+          },
+          {
+            "lat": -2.0398668443175167,
+            "half": 2.0801331556824834,
+            "offset": 0.39733866159012243,
+            "depth": 0.5173386615901224,
+            "angle": 0.2,
+            "warning": true
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  },
+  "obstacle_rules": [
+    "Ten separated challenge zones and moving colliders share authoritative pose",
+    "Warnings precede predictable rock crossing and barrier closing; closed barrier remains red",
+    "Narrow bridge rail collision and physical safe side around partial obstacles",
+    "Full bay jump uses native 10.5 m/s impulse and clears at 9, 12, 23 and legal boosted 31 m/s",
+    "Failed gap rescues backward with 2.4s immobilization; inventory, tokens and academic records intact",
+    "Cliff-edge and stuck fallback rescue; normal stationary braking does not trigger rescue",
+    "Fork safe path needs no jump; risky completed jump pays exactly one track token per lap",
+    "Manual jump can earn risk-route reward; radar reports actual nearby custom hazards",
+    "Ban Anti-Selip limits gravel traction effect; pause/quiz freezes all stage state and moving poses"
+  ],
+  "sky_counter_note": "Two existing gradient/cloud draw calls; no additional sky program, light or texture. Prior night-stage resources are freed on transition.",
+  "grand_prix": {
+    "enabled": true,
+    "rounds": 10,
+    "catalog_size": 13,
+    "playable_stages": 12,
+    "extreme_cup_enabled": false,
+    "complete13_cup_enabled": false,
+    "unit_tests": "passed",
+    "actual_UI_tests": "passed",
+    "UI_method": "Position fixtures at quiz gate/finish; ten real worlds loaded; not full manual races.",
+    "full_route_reference_driver_stages": 1,
+    "legacy_stage_physics_equality_steps_each": 350,
+    "legacy_stages_compared": 11,
+    "classic_cup_rounds": 3
+  }
+}

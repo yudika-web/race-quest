@@ -1,4 +1,17 @@
-# BlokRaya — Stage 11 Kubu Raya: Mangrove Extreme Run (6H)
+# BlokRaya — Stage 12 Kayong Utara: Coastal Cliff Challenge (6I)
+
+Kayong Utara sudah playable untuk tinjauan: sirkuit pesisir fiktif **1.133,81m**, hairpin/S-curve, elevasi16m, laut turquoise, pantai/kelapa, tebing, bukit tropis dan interpretasi monumen Sail Karimata. Sepuluh zona termasuk batu bolak-balik berperingatan, palang berkala, bridge sempit, kerikil/pasir, gap dan percabangan kiri aman/kanan lompat. Rescue mundur2,4s mempertahankan inventori/token/nilai.
+
+**13 kartu,12 playable; Ketapang tetap Segera Hadir.** Kalbar Klasik3 dan Nusantara10 tetap tersedia; Extreme3/Lengkap13 menunggu Ketapang.
+
+- [ZIP playable terbaru](blokraya-stage12-kayong-utara-playable.zip) — ekstrak, lalu buka HTML di dalamnya.
+- [HTML mandiri](visual-upgrade/blokraya-stage12-kayong-utara.html) · [ZIP review: sumber, screenshot, metadata dan laporan](blokraya-stage12-kayong-utara-review.zip).
+- [Overview](visual-upgrade/stage12-kayong-utara/screenshots/overview.png) · [Pantai](visual-upgrade/stage12-kayong-utara/screenshots/pulau-datok.png) · [Monumen](visual-upgrade/stage12-kayong-utara/screenshots/sail-karimata.png) · [Jump](visual-upgrade/stage12-kayong-utara/screenshots/bay-jump.png).
+- [HP landscape](visual-upgrade/stage12-kayong-utara/screenshots/race-844x390.png) · [Sumber, hasil uji dan keterbatasan](visual-upgrade/stage12-kayong-utara/README.md).
+
+HTML **24.882.279 byte**, bertambah43.311 byte; lingkungan74.130 segitiga dan32 batch warna. Uji18 balapan driver,14 kendaraan,72 completion AI serta3 balapan/12 AI tiga lap lolos; terdapat rescue mundur pada kasus AI, tidak ada warp maju.108 sampel renderer,1.555 titik lajur,96 frame kamera, kuis/PIN/buff/progres/ghost, ekspor offline dan kontrol sentuh emulasi diuji.27 render terlindungi identik dengan baseline Stage11. GP10 UI diuji dengan fixture posisi, bukan balapan manual penuh. Landmark belum diverifikasi foto; file:// diblokir cloud dan HP fisik/FPS belum diuji. Tidak merge, deployment, mengganti index.html online atau membuat Stage13.
+
+# Tahap sebelumnya — Stage 11 Kubu Raya: Mangrove Extreme Run (6H)
 
 Kubu Raya sudah playable: sirkuit papan mangrove **886,86m**, perairan payau, akar bercabang, dermaga/perahu dan mercusuar jauh. Sepuluh zona meliputi tong/pintu bergerak, jembatan sempit, lumpur/genangan, gap bertanda dan dua jalur papan dengan risiko/hadiah berbeda. Rescue mundur ke checkpoint dengan waktu tunggu2,4s, tanpa menghapus inventori/token/nilai.
 

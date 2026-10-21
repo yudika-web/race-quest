@@ -1,0 +1,55 @@
+[
+  {
+    "id": "kalbar-klasik",
+    "displayName": "Grand Prix Kalbar Klasik",
+    "stageIds": [
+      "kampung",
+      "kapuas",
+      "hutan"
+    ]
+  },
+  {
+    "id": "nusantara",
+    "displayName": "Grand Prix Nusantara",
+    "stageIds": [
+      "kampung",
+      "kapuas",
+      "hutan",
+      "sambas",
+      "sintang",
+      "kapuas_hulu",
+      "bengkayang",
+      "yogyakarta",
+      "bali",
+      "bromo"
+    ]
+  },
+  {
+    "id": "kalbar-extreme",
+    "displayName": "Kalbar Extreme Challenge",
+    "stageIds": [
+      "kubu_raya",
+      "kayong_utara",
+      "ketapang"
+    ]
+  },
+  {
+    "id": "lengkap-13",
+    "displayName": "Grand Prix Lengkap 13 Arena",
+    "stageIds": [
+      "kampung",
+      "kapuas",
+      "hutan",
+      "sambas",
+      "sintang",
+      "kapuas_hulu",
+      "bengkayang",
+      "yogyakarta",
+      "bali",
+      "bromo",
+      "kubu_raya",
+      "kayong_utara",
+      "ketapang"
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "errors": [],
+  "views": {
+    "overview": {
+      "u": 0.3,
+      "eye": [
+        300,
+        270,
+        340
+      ],
+      "target": [
+        -20,
+        0,
+        -5
+      ],
+      "fov": 80,
+      "fog": 0,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "sail-karimata": {
+      "u": 0.12,
+      "eye": [
+        100,
+        15,
+        -174
+      ],
+      "target": [
+        65,
+        10,
+        -211
+      ],
+      "fov": 66,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "pulau-datok": {
+      "u": 0.35,
+      "eye": [
+        -160,
+        30,
+        70
+      ],
+      "target": [
+        -225,
+        0,
+        10
+      ],
+      "fov": 64,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "cliff-bridge": {
+      "u": 0.3,
+      "eye": null,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "rolling-rock": {
+      "u": 0.1887133182844244,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "timed-barrier": {
+      "u": 0.5787133182844243,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": false,
+      "jump_height": 0
+    },
+    "bay-jump": {
+      "u": 0.49,
+      "jump": true,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": true,
+      "jump_height": 1.8600000000000003
+    },
+    "fork-routes": {
+      "u": 0.94,
+      "lateral": -2.8,
+      "eye": [
+        83.53940798139035,
+        35,
+        -115.9915843116076
+      ],
+      "target": [
+        60.53940798139036,
+        0,
+        -141.9915843116076
+      ],
+      "fov": 65,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": true,
+      "jump_height": 0
+    },
+    "gameplay": {
+      "u": 0.29,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": true,
+      "jump_height": 0
+    },
+    "hairpin": {
+      "u": 0.61,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": true,
+      "jump_height": 0
+    },
+    "descent-camera": {
+      "u": 0.73,
+      "glError": 0,
+      "width": 1280,
+      "height": 800,
+      "air": true,
+      "jump_height": 0
+    }
+  },
+  "html_sha256": "25fd1845058816e2e70808833d31ad2e30f1eb541ab48886df270855de3640d6",
+  "method": "Actual game renderer; inspector overview/landmarks, native gameplay chase; fog disabled only in overview. Jump uses eight real simulation steps.",
+  "stats": {
+    "landmarks": [
+      {
+        "x": -225,
+        "y": -0.73,
+        "z": 10,
+        "yaw": -0.35,
+        "radius": 33,
+        "type": "pulau-datok-inspired"
+      },
+      {
+        "x": 65,
+        "y": -0.63,
+        "z": -211,
+        "yaw": 0,
+        "radius": 18,
+        "type": "sail-karimata-interpretation"
+      }
+    ],
+    "objects": [],
+    "triangles": 74130,
+    "colour_draw_calls": 32,
+    "shadow_draw_calls": 12,
+    "textures": 11,
+    "zones": 10,
+    "dynamic_hazards": 2,
+    "geographic_reconstruction": false
+  },
+  "length": 1133.810837645474,
+  "sky": {
+    "groupsHigh": 18,
+    "groupsLow": 10,
+    "trianglesHigh": 3240,
+    "trianglesLow": 1800,
+    "gpuBytes": 47088,
+    "drawCalls": 2,
+    "textures": 0,
+    "animated": false
+  }
+}

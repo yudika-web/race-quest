@@ -1,0 +1,222 @@
+{
+  "id": "kayong_utara",
+  "name": "Kayong Utara · Coastal Cliff Challenge",
+  "seed": 612012,
+  "weather": "clear",
+  "pts": [
+    [
+      0,
+      -169
+    ],
+    [
+      -58,
+      -151
+    ],
+    [
+      -104,
+      -116
+    ],
+    [
+      -129,
+      -62
+    ],
+    [
+      -108,
+      -16
+    ],
+    [
+      -144,
+      29
+    ],
+    [
+      -126,
+      83
+    ],
+    [
+      -82,
+      125
+    ],
+    [
+      -29,
+      109
+    ],
+    [
+      13,
+      62
+    ],
+    [
+      54,
+      67
+    ],
+    [
+      40,
+      118
+    ],
+    [
+      88,
+      137
+    ],
+    [
+      136,
+      103
+    ],
+    [
+      151,
+      50
+    ],
+    [
+      123,
+      9
+    ],
+    [
+      157,
+      -35
+    ],
+    [
+      141,
+      -92
+    ],
+    [
+      91,
+      -136
+    ],
+    [
+      41,
+      -145
+    ]
+  ],
+  "hills": [
+    [
+      0.16,
+      0.16,
+      12
+    ],
+    [
+      0.33,
+      0.11,
+      5
+    ],
+    [
+      0.66,
+      0.16,
+      16
+    ],
+    [
+      0.84,
+      0.09,
+      6
+    ]
+  ],
+  "palette": {
+    "grass": [
+      0.25,
+      0.46,
+      0.26
+    ],
+    "water": [
+      0.17,
+      0.67,
+      0.7
+    ],
+    "road": [
+      0.33,
+      0.37,
+      0.39
+    ],
+    "fog": [
+      0.72,
+      0.86,
+      0.87
+    ]
+  },
+  "obstacles": [],
+  "ramps": [],
+  "gaps": [],
+  "extremeZones": [
+    {
+      "id": "rock",
+      "u": 0.1,
+      "kind": "solid",
+      "lat": -2.7,
+      "half": 1.35,
+      "length": 1.2,
+      "label": "Batu tikungan · kanan aman"
+    },
+    {
+      "id": "roller",
+      "u": 0.2,
+      "kind": "barrel",
+      "lat": 0,
+      "half": 0.85,
+      "length": 1.7,
+      "label": "Batu melintas · lampu peringatan"
+    },
+    {
+      "id": "bridge",
+      "u": 0.3,
+      "kind": "bridge",
+      "length": 27,
+      "half": 3.25,
+      "label": "Jembatan sempit"
+    },
+    {
+      "id": "gravel",
+      "u": 0.41,
+      "kind": "gravel",
+      "lat": 2.0,
+      "half": 1.8,
+      "length": 11,
+      "label": "Kerikil · kiri aman"
+    },
+    {
+      "id": "bay",
+      "u": 0.49,
+      "kind": "gap",
+      "length": 3.2,
+      "label": "Celah · gas dan lompat"
+    },
+    {
+      "id": "gate",
+      "u": 0.59,
+      "kind": "gate",
+      "lat": -2,
+      "half": 2,
+      "length": 1.0,
+      "label": "Palang berkala · kanan aman"
+    },
+    {
+      "id": "bollards",
+      "u": 0.68,
+      "kind": "solid",
+      "lat": 2.7,
+      "half": 1.05,
+      "length": 1.2,
+      "label": "Tiang · kiri aman"
+    },
+    {
+      "id": "rubble",
+      "u": 0.77,
+      "kind": "solid",
+      "lat": -2.7,
+      "half": 1.1,
+      "length": 1.8,
+      "label": "Batu tepi jalan · kanan aman"
+    },
+    {
+      "id": "sand",
+      "u": 0.85,
+      "kind": "sand",
+      "lat": -1.8,
+      "half": 1.8,
+      "length": 10,
+      "label": "Pasir · kanan aman"
+    },
+    {
+      "id": "fork",
+      "u": 0.94,
+      "kind": "fork",
+      "length": 46,
+      "label": "Kiri aman · kanan lompat +1 token"
+    }
+  ]
+}

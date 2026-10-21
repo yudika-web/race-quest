@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "Rendered barrel/gate, water, cloud and actor pixels freeze during question/pause",
+    "Two actual moving hazard meshes respond only to simulation time",
+    "Night → Kayong Utara restores identical daylight frame",
+    "No JavaScript/WebGL errors"
+  ],
+  "result": {
+    "fixed": {
+      "paused": true,
+      "question": true
+    },
+    "moving_pixels_change": true,
+    "meshes": [
+      {
+        "kind": "barrel",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 1.8,
+            "warning": true
+          },
+          {
+            "lat": -1,
+            "half": 0.85,
+            "offset": 0,
+            "angle": 5.4,
+            "warning": true
+          }
+        ]
+      },
+      {
+        "kind": "gate",
+        "parts": 2,
+        "positions": [
+          {
+            "lat": -3.6995490601766283,
+            "half": 0.42045093982337167,
+            "offset": 1.9773035257034395,
+            "depth": 2.0973035257034396,
+            "angle": 1.42,
+            "warning": true
+          },
+          {
+            "lat": -2.0398668443175167,
+            "half": 2.0801331556824834,
+            "offset": 0.39733866159012243,
+            "depth": 0.5173386615901224,
+            "angle": 0.2,
+            "warning": true
+          }
+        ]
+      }
+    ],
+    "day_night_day_identical": true,
+    "cloud_restored": true,
+    "glError": 0
+  }
+}

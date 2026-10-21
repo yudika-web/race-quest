@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "errors": [],
+  "runtime": {
+    "id": "kayong_utara",
+    "ready": 12,
+    "world": true,
+    "actors": 14,
+    "ai": 4,
+    "glError": 0
+  },
+  "html_sha256": "25fd1845058816e2e70808833d31ad2e30f1eb541ab48886df270855de3640d6"
+}

@@ -1,0 +1,23 @@
+BLOKRAYA — 6I / STAGE 12 KAYONG UTARA: COASTAL CLIFF CHALLENGE
+
+Ekstrak ZIP lalu buka blokraya-stage12-kayong-utara.html di browser modern dengan WebGL. Semua aset tertanam; tidak memakai CDN atau fetch aset lokal. Gunakan browser/profil/origin yang sama agar data lama tersedia. Mode Siswa tanpa PIN, Mode Guru memakai PIN lokal. Audio memerlukan klik/sentuh.
+
+13 kartu, 12 arena playable. Ketapang tetap Segera Hadir. Kalbar Klasik3 dan Nusantara10 tetap tersedia. Kalbar Extreme Challenge dan Lengkap13 masih terkunci sampai Ketapang benar-benar dibuat.
+
+Sirkuit pesisir FIKTIF sekitar1133,81m dengan hairpin, S-curve, jembatan, elevasi16m, turunan, teluk dan dua pilihan jalur. Inspirasi pantai Pulau Datok/perbukitan Sukadana, bukan klaim adanya jalan tebing ekstrem pada lokasi nyata. Monumen Sail Karimata adalah interpretasi nautika stylized; foto bangunan belum bisa diverifikasi karena sumber web ditolak403. Tidak mengklaim akurasi siluet/warna/proporsi landmark.
+
+Sepuluh zona: batu tikungan, batu bergerak, jembatan sempit, kerikil, gap, palang buka-tutup, tiang, batu tepi jalan, pasir dan percabangan. Tanda36m sebelum titik bahaya (lebih awal untuk zona panjang). Batu bolak-balik dengan2s/1,5s peringatan sebelum melintas; palang memberi2s peringatan sebelum mulai menutup dan tetap merah selama tertutup. Selalu ada lajur aman di sekitar obstacle parsial.
+
+Gap utama3,2m memakai impuls10,5m/s asli; lolos pada kecepatan9/12/23/31m/s dalam tes. Percabangan tetap memakai koordinat progres/lateral engine: dua lajur terpisah, bukan graph jalan terpisah. Kiri aman; kanan gap3m berhadiah1 token setelah benar-benar melintas dan mendarat, sekali per lap. AI Santai memilih kiri. Buff pemain tetap berasal dari jawaban benar, nilai akademik tidak dipengaruhi hadiah lintasan.
+
+Rescue mundur ke checkpoint aman dengan tunggu2,4s pada clock simulasi. Tidak teleport maju. Inventori/charge/token/records soal tidak dihapus. Buff berdurasi tetap mengikuti waktu simulasi selama menunggu. Pause/soal membekukan clock, obstacle, AI dan rescue. Gunakan rem menjelang hairpin atau pilih jalur aman; drift tidak diwajibkan untuk mencapai finish.
+
+Offline diuji pada Chromium dengan jaringan browser dinonaktifkan dan dokumen disuplai harness localhost; nol request aset HTTP/CDN. Navigasi file:// dicoba terpisah, tetapi diblokir kebijakan administrator cloud. Perlu pemeriksaan file:// pada browser target; tidak ada server wajib yang ditambahkan. HP fisik, FPS, frame time dan memori belum diukur.
+
+Tes rute penuh:18 balapan referensi (3 kesulitan×6 seed),14 pilihan karakter/kendaraan,72 completion AI. UI GP10 ronde dan kuis/finish memakai fixture posisi, bukan balapan manual penuh. Tidak ada profil/token/unlock QA ditanam pada distribusi. Stage1–11 dilindungi hash, physics deterministik dan render pixel setara.
+
+A/D/panah: kemudi; W/S: gas/rem; C: drift; Shift: jump; E/Spasi: buff; Q/1/2: slot; P/Esc: pause. Kontrol sentuh tersedia. Konfigurasi asli tidak berubah.
+
+Review ZIP berisi builder prosedural JavaScript, track, metadata, thumbnail, screenshot aktual dan laporan. Memerlukan checkout repository baseline Stage11 untuk build ulang. Tidak ada GLB atau Blender baru karena geometri arena dibangun prosedural.
+
+Tidak mengubah index.html online, merge, deployment atau membuat Stage13.
