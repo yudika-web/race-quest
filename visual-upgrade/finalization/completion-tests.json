@@ -1,0 +1,5011 @@
+{
+  "status": "passed",
+  "method": "Full fixed-step engine races from start to finish with steering reference driver and real quiz answers. No position shortcuts. AI-only extensions advance the real AI after the driver finishes.",
+  "races": [
+    {
+      "stage": "kampung",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 34.50000000000018,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kampung",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 34.65000000000017,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kampung",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 42.04999999999975,
+      "score": 80,
+      "jumps": 0,
+      "landings": 0,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 38.84999999999993,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 38.64999999999994,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 39.299999999999905,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 40.64999999999983,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 43.89999999999964,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 40.49999999999984,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 35.050000000000146,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 35.35000000000013,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 35.15000000000014,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 45.94999999999953,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 45.69999999999954,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 46.499999999999496,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.89999999999976,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.49999999999978,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.69999999999977,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 37.000000000000036,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 40.349999999999845,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 36.75000000000005,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.249999999999794,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.34999999999979,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 40.99999999999981,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 37.550000000000004,
+      "score": 80,
+      "jumps": 1,
+      "landings": 0,
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 37.30000000000002,
+      "score": 80,
+      "jumps": 1,
+      "landings": 0,
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 41.1999999999998,
+      "score": 80,
+      "jumps": 1,
+      "landings": 0,
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 39.3499999999999,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 39.3999999999999,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 39.24999999999991,
+      "score": 80,
+      "jumps": 1,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 70.74999999999812,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 71.04999999999811,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 70.49999999999814,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 70.74999999999812,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 70.89999999999812,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 70.74999999999812,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 70.34999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 70.29999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 70.44999999999814,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 70.39999999999814,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 70.19999999999816,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 70.19999999999816,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 70.34999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 70.49999999999814,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 70.54999999999814,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 70.24999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 70.34999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 70.24999999999815,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 78.44999999999769,
+      "score": 80,
+      "jumps": 0,
+      "landings": 2,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 558.2626480427357,
+          "to": 537.5673104462822,
+          "time": 39.449999999999896,
+          "wait": 2.4,
+          "reason": "bay"
+        },
+        {
+          "actor": 3,
+          "from": 558.7054872512967,
+          "to": 537.5673104462822,
+          "time": 41.1999999999998,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 77.79999999999772,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 77.39999999999775,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": [
+        {
+          "actor": 2,
+          "from": 556.4455587609576,
+          "to": 537.5673104462822,
+          "time": 37.899999999999984,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 77.84999999999772,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": [
+        {
+          "actor": 0,
+          "from": 558.1843519154664,
+          "to": 537.5673104462822,
+          "time": 38.19999999999997,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 77.74999999999773,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": [
+        {
+          "actor": 3,
+          "from": 558.216399557583,
+          "to": 537.5673104462822,
+          "time": 40.64999999999983,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 77.59999999999773,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 78.89999999999766,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 76.94999999999777,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 77.74999999999773,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 77.24999999999775,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 76.79999999999778,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 77.04999999999777,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 77.09999999999776,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 77.24999999999775,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 77.09999999999776,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 77.19999999999776,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 79.09999999999765,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 77.04999999999777,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 64.0999999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 64.0999999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 940.6723927313396,
+          "to": 918.9866989477026,
+          "time": 65.54999999999842,
+          "wait": 2.4,
+          "reason": "gap"
+        },
+        {
+          "actor": 2,
+          "from": 940.1700353172603,
+          "to": 919.6547151208056,
+          "time": 66.19999999999838,
+          "wait": 2.4,
+          "reason": "gap"
+        }
+      ]
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 63.949999999998504,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 940.4550575673194,
+          "to": 919.6547151208056,
+          "time": 62.699999999998575,
+          "wait": 2.4,
+          "reason": "gap"
+        }
+      ]
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 64.0999999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 64.0999999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 64.0499999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 66.69999999999835,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 65.29999999999843,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 63.949999999998504,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 63.79999999999851,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 63.049999999998555,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 63.9999999999985,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 101,
+      "vehicle": 3,
+      "time": 66.29999999999838,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 8020,
+      "vehicle": 12,
+      "time": 63.64999999999852,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 15939,
+      "vehicle": 7,
+      "time": 66.64999999999836,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 23858,
+      "vehicle": 2,
+      "time": 66.44999999999837,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 31777,
+      "vehicle": 11,
+      "time": 65.8499999999984,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 39696,
+      "vehicle": 6,
+      "time": 66.99999999999834,
+      "score": 80,
+      "jumps": 0,
+      "landings": 1,
+      "rescues": []
+    }
+  ],
+  "ai": [
+    {
+      "stage": "kampung",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 45.39999999999956,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 46.849999999999476,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 47.09999999999946,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 7
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 47.49999999999944,
+          "uses": {},
+          "collisions": 6
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kampung",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 34.550000000000175,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 36.650000000000055,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 36.80000000000005,
+          "uses": {
+            "nitro": 2,
+            "oil": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 39.04999999999992,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "magnet": 1,
+            "reflect": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kampung",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 33.25000000000025,
+          "uses": {
+            "oil": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 37.10000000000003,
+          "uses": {
+            "grip": 1,
+            "magnet": 1,
+            "oil": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 33.40000000000024,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 39.54999999999989,
+          "uses": {
+            "bubble": 1,
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 47.29999999999945,
+          "uses": {},
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 49.149999999999345,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 45.54999999999955,
+          "uses": {
+            "grip": 1,
+            "turbo": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 49.54999999999932,
+          "uses": {
+            "grip": 1,
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 37.699999999999996,
+          "uses": {
+            "magnet": 1,
+            "shield": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 43.149999999999686,
+          "uses": {
+            "turbo": 1,
+            "grip": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 35.800000000000104,
+          "uses": {
+            "turbo": 1,
+            "oil": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 39.84999999999987,
+          "uses": {
+            "bubble": 1,
+            "grip": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 35.950000000000095,
+          "uses": {
+            "grip": 1,
+            "oil": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 39.69999999999988,
+          "uses": {
+            "radar": 1,
+            "grip": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 37.200000000000024,
+          "uses": {
+            "oil": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 34.350000000000186,
+          "uses": {
+            "turbo": 1,
+            "nitro": 1,
+            "grip": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 50.49999999999927,
+          "uses": {
+            "nitro": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 55.299999999998995,
+          "uses": {},
+          "collisions": 9
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 50.899999999999245,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 55.54999999999898,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 7
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 38.49999999999995,
+          "uses": {
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 44.5999999999996,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 38.249999999999964,
+          "uses": {
+            "oil": 1,
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 41.99999999999975,
+          "uses": {
+            "radar": 1,
+            "grip": 1,
+            "oil": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "hutan",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 42.54999999999972,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 39.999999999999865,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 8
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 40.64999999999983,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 38.14999999999997,
+          "uses": {},
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 45.14999999999957,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 47.94999999999941,
+          "uses": {},
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 45.69999999999954,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 48.1499999999994,
+          "uses": {
+            "magnet": 1,
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 35.75000000000011,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 39.59999999999989,
+          "uses": {},
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 36.90000000000004,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 36.70000000000005,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sambas",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 34.50000000000018,
+          "uses": {
+            "oil": 1,
+            "radar": 1,
+            "nitro": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 36.300000000000075,
+          "uses": {
+            "grip": 1,
+            "shield": 1,
+            "turbo": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 36.40000000000007,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1,
+            "bubble": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 36.75000000000005,
+          "uses": {
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 62.04999999999861,
+          "uses": {},
+          "collisions": 2
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 63.59999999999852,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 59.64999999999875,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 63.09999999999855,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 51.14999999999923,
+          "uses": {
+            "radar": 1,
+            "bubble": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 47.64999999999943,
+          "uses": {
+            "turbo": 1,
+            "reflect": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 53.549999999999095,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 48.54999999999938,
+          "uses": {
+            "bubble": 1,
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "sintang",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 48.449999999999385,
+          "uses": {
+            "radar": 1,
+            "bubble": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 46.19999999999951,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 50.44999999999927,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 45.49999999999955,
+          "uses": {
+            "turbo": 1,
+            "bubble": 1,
+            "nitro": 1
+          },
+          "collisions": 5
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 55.59999999999898,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 57.399999999998876,
+          "uses": {
+            "radar": 1,
+            "magnet": 1,
+            "nitro": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 57.599999999998865,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 58.7499999999988,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 45.94999999999953,
+          "uses": {
+            "radar": 1,
+            "bubble": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 43.499999999999666,
+          "uses": {
+            "turbo": 1,
+            "oil": 1,
+            "bubble": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 44.89999999999959,
+          "uses": {
+            "reflect": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 46.349999999999504,
+          "uses": {
+            "turbo": 1,
+            "oil": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kapuas_hulu",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 40.699999999999825,
+          "uses": {
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 43.44999999999967,
+          "uses": {
+            "magnet": 1,
+            "reflect": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 44.5999999999996,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 43.59999999999966,
+          "uses": {
+            "bubble": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 53.199999999999115,
+          "uses": {},
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 56.14999999999895,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 56.349999999998936,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 57.54999999999887,
+          "uses": {},
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 43.699999999999655,
+          "uses": {
+            "bubble": 1,
+            "reflect": 1,
+            "turbo": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 43.04999999999969,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 5
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 42.14999999999974,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 41.69999999999977,
+          "uses": {
+            "bubble": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bengkayang",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 39.24999999999991,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "nitro": 2
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 41.049999999999805,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 41.1499999999998,
+          "uses": {},
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 41.29999999999979,
+          "uses": {
+            "radar": 1,
+            "bubble": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 55.04999999999901,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 58.14999999999883,
+          "uses": {},
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 55.849999999998964,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 58.39999999999882,
+          "uses": {},
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 41.79999999999976,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 46.29999999999951,
+          "uses": {
+            "nitro": 1
+          },
+          "collisions": 15
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 46.349999999999504,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1,
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 15
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 44.049999999999635,
+          "uses": {
+            "oil": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "yogyakarta",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 39.49999999999989,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 44.049999999999635,
+          "uses": {
+            "nitro": 2,
+            "bubble": 1,
+            "magnet": 1
+          },
+          "collisions": 13
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 42.14999999999974,
+          "uses": {
+            "magnet": 1,
+            "nitro": 1,
+            "oil": 1
+          },
+          "collisions": 11
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 44.199999999999626,
+          "uses": {
+            "shield": 1,
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 51.14999999999923,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 54.249999999999055,
+          "uses": {},
+          "collisions": 3
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 51.34999999999922,
+          "uses": {},
+          "collisions": 3
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 54.449999999999044,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 39.799999999999876,
+          "uses": {
+            "oil": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 52.39999999999916,
+          "uses": {
+            "turbo": 1,
+            "nitro": 1
+          },
+          "collisions": 16
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 48.449999999999385,
+          "uses": {
+            "magnet": 1,
+            "bubble": 1
+          },
+          "collisions": 16
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 40.549999999999834,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bali",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 38.049999999999976,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 39.84999999999987,
+          "uses": {
+            "grip": 1,
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 37.200000000000024,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1,
+            "bubble": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 38.89999999999993,
+          "uses": {
+            "oil": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 53.99999999999907,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 55.94999999999896,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 54.19999999999906,
+          "uses": {
+            "turbo": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 56.84999999999891,
+          "uses": {},
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 46.04999999999952,
+          "uses": {
+            "grip": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 45.14999999999957,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 41.84999999999976,
+          "uses": {
+            "bubble": 1,
+            "oil": 1,
+            "nitro": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 44.5999999999996,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "bromo",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 39.69999999999988,
+          "uses": {
+            "reflect": 1,
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 42.999999999999694,
+          "uses": {
+            "radar": 1,
+            "turbo": 1,
+            "bubble": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 44.14999999999963,
+          "uses": {
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 40.79999999999982,
+          "uses": {
+            "bubble": 1,
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 4
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 61.49999999999864,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 65.59999999999842,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 67.09999999999833,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 62.2499999999986,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 67.44999999999831,
+          "uses": {
+            "radar": 1,
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 65.7999999999984,
+          "uses": {},
+          "collisions": 1
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 62.149999999998606,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 69.4999999999982,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 60.4499999999987,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 60.19999999999872,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1,
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 62.1999999999986,
+          "uses": {
+            "shield": 1,
+            "nitro": 2
+          },
+          "collisions": 0
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 63.199999999998546,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 67.49999999999831,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 65.04999999999845,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 60.4999999999987,
+          "uses": {
+            "shield": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 65.29999999999843,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1
+          },
+          "collisions": 5
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 60.4499999999987,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 62.79999999999857,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 65.9499999999984,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 63.69999999999852,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 62.499999999998586,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 72.74999999999801,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 20
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 72.34999999999803,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 21
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 66.39999999999837,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 47.24999999999945,
+          "uses": {
+            "reflect": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 50.29999999999928,
+          "uses": {
+            "radar": 1,
+            "bubble": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 48.99999999999935,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 48.99999999999935,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 4
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 48.29999999999939,
+          "uses": {
+            "radar": 1,
+            "reflect": 1
+          },
+          "collisions": 7
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 52.74999999999914,
+          "uses": {
+            "bubble": 1,
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 11
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 48.799999999999365,
+          "uses": {
+            "shield": 1,
+            "turbo": 1
+          },
+          "collisions": 7
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 52.39999999999916,
+          "uses": {
+            "shield": 1,
+            "bubble": 1,
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 11
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 49.39999999999933,
+          "uses": {
+            "reflect": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 46.09999999999952,
+          "uses": {
+            "bubble": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 46.499999999999496,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 50.399999999999274,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 45.49999999999955,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 50.49999999999927,
+          "uses": {
+            "shield": 1,
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 46.89999999999947,
+          "uses": {
+            "turbo": 1,
+            "bubble": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 48.249999999999396,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1,
+            "radar": 1,
+            "nitro": 2
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 45.94999999999953,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 46.79999999999948,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 47.29999999999945,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 48.1499999999994,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 47.84999999999942,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 45.49999999999955,
+          "uses": {
+            "radar": 1,
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 45.299999999999564,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 50.44999999999927,
+          "uses": {
+            "turbo": 1,
+            "reflect": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 45.449999999999555,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 47.49999999999944,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 6
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 42.54999999999972,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 47.59999999999943,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 6
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 48.89999999999936,
+          "uses": {
+            "oil": 1,
+            "reflect": 1,
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 50.749999999999254,
+          "uses": {
+            "reflect": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 46.94999999999947,
+          "uses": {
+            "grip": 1,
+            "oil": 1,
+            "radar": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 49.44999999999933,
+          "uses": {
+            "nitro": 2,
+            "bubble": 1,
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 51.39999999999922,
+          "uses": {
+            "radar": 1,
+            "nitro": 2,
+            "shield": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 44.79999999999959,
+          "uses": {
+            "turbo": 1,
+            "shield": 1,
+            "oil": 1,
+            "magnet": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 46.19999999999951,
+          "uses": {
+            "radar": 1,
+            "turbo": 1,
+            "grip": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 48.39999999999939,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1,
+            "nitro": 2,
+            "bubble": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 43.64999999999966,
+          "uses": {
+            "reflect": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 45.999999999999524,
+          "uses": {
+            "shield": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 46.94999999999947,
+          "uses": {
+            "magnet": 1,
+            "bubble": 1,
+            "shield": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 47.199999999999456,
+          "uses": {
+            "reflect": 1,
+            "bubble": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 45.14999999999957,
+          "uses": {
+            "oil": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 48.04999999999941,
+          "uses": {
+            "reflect": 1,
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 46.349999999999504,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 48.1499999999994,
+          "uses": {
+            "bubble": 1,
+            "nitro": 2,
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 45.24999999999957,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 45.54999999999955,
+          "uses": {},
+          "collisions": 8
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 43.09999999999969,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 46.699999999999484,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 78.49999999999768,
+          "uses": {
+            "nitro": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 83.84999999999738,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 79.14999999999765,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 85.59999999999728,
+          "uses": {
+            "radar": 1,
+            "reflect": 1
+          },
+          "collisions": 7
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 558.2626480427357,
+          "to": 537.5673104462822,
+          "time": 39.449999999999896,
+          "wait": 2.4,
+          "reason": "bay"
+        },
+        {
+          "actor": 3,
+          "from": 558.7054872512967,
+          "to": 537.5673104462822,
+          "time": 41.1999999999998,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 76.09999999999782,
+          "uses": {
+            "reflect": 1,
+            "nitro": 2,
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 77.39999999999775,
+          "uses": {
+            "turbo": 1,
+            "nitro": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 81.49999999999751,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 78.1499999999977,
+          "uses": {},
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 75.39999999999786,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 75.14999999999787,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 80.94999999999754,
+          "uses": {
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 77.84999999999772,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 2,
+          "from": 556.4455587609576,
+          "to": 537.5673104462822,
+          "time": 37.899999999999984,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 81.6999999999975,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 79.74999999999761,
+          "uses": {
+            "reflect": 1,
+            "radar": 1,
+            "nitro": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 76.09999999999782,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 81.09999999999754,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 0,
+          "from": 558.1843519154664,
+          "to": 537.5673104462822,
+          "time": 38.19999999999997,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 74.34999999999792,
+          "uses": {
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 76.4499999999978,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 76.64999999999779,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 84.59999999999734,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 3,
+          "from": 558.216399557583,
+          "to": 537.5673104462822,
+          "time": 40.64999999999983,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 74.99999999999788,
+          "uses": {
+            "radar": 1,
+            "shield": 1,
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 77.34999999999775,
+          "uses": {
+            "radar": 1,
+            "shield": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 74.7999999999979,
+          "uses": {
+            "radar": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 77.54999999999774,
+          "uses": {},
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 58.89999999999879,
+          "uses": {
+            "oil": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 66.69999999999835,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 64.49999999999848,
+          "uses": {
+            "nitro": 2,
+            "shield": 1,
+            "bubble": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 63.899999999998506,
+          "uses": {
+            "bubble": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 59.09999999999878,
+          "uses": {
+            "oil": 1,
+            "shield": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 61.84999999999862,
+          "uses": {
+            "grip": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 64.1499999999985,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 62.2499999999986,
+          "uses": {
+            "reflect": 1,
+            "bubble": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 59.79999999999874,
+          "uses": {
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 8
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 61.84999999999862,
+          "uses": {
+            "reflect": 1
+          },
+          "collisions": 11
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 61.59999999999864,
+          "uses": {
+            "nitro": 2,
+            "radar": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 61.999999999998614,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 9
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 58.59999999999881,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 65.69999999999841,
+          "uses": {
+            "magnet": 1,
+            "bubble": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 60.89999999999868,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 66.04999999999839,
+          "uses": {
+            "turbo": 1,
+            "oil": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 57.749999999998856,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 64.34999999999849,
+          "uses": {
+            "reflect": 1,
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 60.249999999998714,
+          "uses": {
+            "reflect": 1,
+            "oil": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 62.499999999998586,
+          "uses": {
+            "radar": 1,
+            "magnet": 1,
+            "grip": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 60.99999999999867,
+          "uses": {
+            "reflect": 1,
+            "nitro": 2
+          },
+          "collisions": 0
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 58.14999999999883,
+          "uses": {
+            "magnet": 1,
+            "oil": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 62.94999999999856,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 60.599999999998694,
+          "uses": {
+            "turbo": 1,
+            "shield": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 56.9999999999989,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 60.89999999999868,
+          "uses": {
+            "nitro": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 60.69999999999869,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 58.84999999999879,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 59.79999999999874,
+          "uses": {
+            "magnet": 1,
+            "nitro": 1,
+            "bubble": 1
+          },
+          "collisions": 8
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 62.54999999999858,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 58.24999999999883,
+          "uses": {
+            "magnet": 1,
+            "reflect": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 59.94999999999873,
+          "uses": {
+            "magnet": 1,
+            "bubble": 1,
+            "turbo": 1,
+            "shield": 1
+          },
+          "collisions": 10
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 56.79999999999891,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 56.59999999999892,
+          "uses": {
+            "reflect": 1,
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 56.74999999999891,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 55.54999999999898,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 57.54999999999887,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 58.999999999998785,
+          "uses": {
+            "shield": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 56.09999999999895,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 55.79999999999897,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 64.69999999999847,
+          "uses": {
+            "radar": 1,
+            "oil": 1,
+            "reflect": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 58.799999999998796,
+          "uses": {
+            "reflect": 1,
+            "oil": 1,
+            "nitro": 2,
+            "bubble": 1
+          },
+          "collisions": 7
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 56.14999999999895,
+          "uses": {
+            "grip": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 61.69999999999863,
+          "uses": {
+            "nitro": 2,
+            "shield": 1,
+            "magnet": 1,
+            "bubble": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 55.74999999999897,
+          "uses": {
+            "shield": 1,
+            "bubble": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 54.89999999999902,
+          "uses": {
+            "nitro": 2,
+            "shield": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 56.9499999999989,
+          "uses": {},
+          "collisions": 5
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 56.79999999999891,
+          "uses": {
+            "radar": 1,
+            "nitro": 2
+          },
+          "collisions": 5
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 84.19999999999736,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 86.29999999999724,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 86.9499999999972,
+          "uses": {},
+          "collisions": 2
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 87.19999999999719,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 2
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 83.24999999999741,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 91.74999999999693,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "reflect": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 92.2999999999969,
+          "uses": {
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 7
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 86.19999999999725,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 940.6723927313396,
+          "to": 918.9866989477026,
+          "time": 65.54999999999842,
+          "wait": 2.4,
+          "reason": "gap"
+        },
+        {
+          "actor": 2,
+          "from": 940.1700353172603,
+          "to": 919.6547151208056,
+          "time": 66.19999999999838,
+          "wait": 2.4,
+          "reason": "gap"
+        }
+      ]
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 81.89999999999749,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 87.89999999999715,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 82.99999999999743,
+          "uses": {
+            "radar": 1,
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 82.74999999999744,
+          "uses": {
+            "radar": 1,
+            "turbo": 1,
+            "magnet": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 940.4550575673194,
+          "to": 919.6547151208056,
+          "time": 62.699999999998575,
+          "wait": 2.4,
+          "reason": "gap"
+        }
+      ]
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 83.09999999999742,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 84.39999999999735,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1,
+            "radar": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 84.59999999999734,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 85.44999999999729,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 82.84999999999744,
+          "uses": {},
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 84.49999999999734,
+          "uses": {
+            "radar": 1,
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 83.34999999999741,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 84.79999999999733,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 88.7999999999971,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 14
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 90.04999999999703,
+          "uses": {
+            "turbo": 1,
+            "nitro": 2
+          },
+          "collisions": 11
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 89.69999999999705,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 9
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 86.54999999999723,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 6
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 62.499999999998586,
+          "uses": {
+            "oil": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 67.89999999999829,
+          "uses": {
+            "radar": 1,
+            "grip": 1
+          },
+          "collisions": 8
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 64.69999999999847,
+          "uses": {
+            "reflect": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 68.59999999999825,
+          "uses": {
+            "grip": 1,
+            "radar": 1,
+            "nitro": 1
+          },
+          "collisions": 6
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 66.64999999999836,
+          "uses": {
+            "nitro": 1,
+            "bubble": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 68.84999999999823,
+          "uses": {
+            "shield": 1,
+            "nitro": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 63.84999999999851,
+          "uses": {
+            "bubble": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 68.99999999999822,
+          "uses": {
+            "turbo": 1,
+            "bubble": 1,
+            "radar": 1,
+            "nitro": 2
+          },
+          "collisions": 7
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 61.84999999999862,
+          "uses": {},
+          "collisions": 1
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 62.54999999999858,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 61.999999999998614,
+          "uses": {
+            "oil": 1,
+            "turbo": 1,
+            "nitro": 2
+          },
+          "collisions": 2
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 65.8499999999984,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 62.849999999998566,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 64.49999999999848,
+          "uses": {
+            "bubble": 1,
+            "turbo": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 62.1999999999986,
+          "uses": {
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 67.49999999999831,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 61.94999999999862,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 65.04999999999845,
+          "uses": {
+            "nitro": 2,
+            "turbo": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 64.0999999999985,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1,
+            "nitro": 2
+          },
+          "collisions": 5
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 64.34999999999849,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 62.94999999999856,
+          "uses": {
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 63.24999999999854,
+          "uses": {
+            "magnet": 1
+          },
+          "collisions": 3
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 64.0499999999985,
+          "uses": {
+            "radar": 1,
+            "nitro": 2,
+            "magnet": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 63.399999999998535,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1,
+            "turbo": 1
+          },
+          "collisions": 3
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 101,
+      "actors": [
+        {
+          "character": 4,
+          "personality": "agresif",
+          "time": 61.89999999999862,
+          "uses": {
+            "magnet": 1,
+            "oil": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 5,
+          "personality": "defensif",
+          "time": 65.14999999999844,
+          "uses": {
+            "turbo": 1,
+            "nitro": 1,
+            "oil": 1
+          },
+          "collisions": 6
+        },
+        {
+          "character": 6,
+          "personality": "berisiko",
+          "time": 66.64999999999836,
+          "uses": {
+            "oil": 1,
+            "turbo": 1,
+            "reflect": 1
+          },
+          "collisions": 5
+        },
+        {
+          "character": 7,
+          "personality": "seimbang",
+          "time": 66.94999999999834,
+          "uses": {
+            "turbo": 1,
+            "reflect": 1
+          },
+          "collisions": 7
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 8020,
+      "actors": [
+        {
+          "character": 13,
+          "personality": "agresif",
+          "time": 60.79999999999868,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 0,
+          "personality": "defensif",
+          "time": 66.14999999999839,
+          "uses": {
+            "oil": 1,
+            "magnet": 1,
+            "nitro": 1,
+            "radar": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 1,
+          "personality": "berisiko",
+          "time": 62.59999999999858,
+          "uses": {
+            "bubble": 1,
+            "turbo": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 2,
+          "personality": "seimbang",
+          "time": 63.84999999999851,
+          "uses": {
+            "turbo": 1,
+            "radar": 1,
+            "nitro": 2,
+            "reflect": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 15939,
+      "actors": [
+        {
+          "character": 8,
+          "personality": "agresif",
+          "time": 60.29999999999871,
+          "uses": {
+            "magnet": 1,
+            "oil": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 9,
+          "personality": "defensif",
+          "time": 66.84999999999835,
+          "uses": {
+            "turbo": 1,
+            "reflect": 1,
+            "bubble": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 10,
+          "personality": "berisiko",
+          "time": 62.499999999998586,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 11,
+          "personality": "seimbang",
+          "time": 63.64999999999852,
+          "uses": {
+            "radar": 1,
+            "reflect": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 23858,
+      "actors": [
+        {
+          "character": 3,
+          "personality": "agresif",
+          "time": 64.79999999999846,
+          "uses": {
+            "magnet": 1,
+            "reflect": 1,
+            "nitro": 2,
+            "bubble": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 4,
+          "personality": "defensif",
+          "time": 65.8999999999984,
+          "uses": {
+            "bubble": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 5,
+          "personality": "berisiko",
+          "time": 67.79999999999829,
+          "uses": {
+            "nitro": 2,
+            "magnet": 1,
+            "radar": 1
+          },
+          "collisions": 4
+        },
+        {
+          "character": 6,
+          "personality": "seimbang",
+          "time": 62.699999999998575,
+          "uses": {
+            "nitro": 2,
+            "oil": 1,
+            "bubble": 1
+          },
+          "collisions": 4
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 31777,
+      "actors": [
+        {
+          "character": 12,
+          "personality": "agresif",
+          "time": 60.14999999999872,
+          "uses": {
+            "radar": 1
+          },
+          "collisions": 0
+        },
+        {
+          "character": 13,
+          "personality": "defensif",
+          "time": 67.89999999999829,
+          "uses": {
+            "radar": 1,
+            "shield": 1
+          },
+          "collisions": 1
+        },
+        {
+          "character": 0,
+          "personality": "berisiko",
+          "time": 60.34999999999871,
+          "uses": {
+            "bubble": 1,
+            "oil": 1,
+            "nitro": 2
+          },
+          "collisions": 1
+        },
+        {
+          "character": 1,
+          "personality": "seimbang",
+          "time": 64.1499999999985,
+          "uses": {
+            "radar": 1,
+            "magnet": 1
+          },
+          "collisions": 0
+        }
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "seed": 39696,
+      "actors": [
+        {
+          "character": 7,
+          "personality": "agresif",
+          "time": 64.49999999999848,
+          "uses": {
+            "nitro": 2
+          },
+          "collisions": 6
+        },
+        {
+          "character": 8,
+          "personality": "defensif",
+          "time": 60.249999999998714,
+          "uses": {
+            "turbo": 1,
+            "magnet": 1,
+            "reflect": 1
+          },
+          "collisions": 2
+        },
+        {
+          "character": 9,
+          "personality": "berisiko",
+          "time": 61.299999999998654,
+          "uses": {
+            "turbo": 1,
+            "oil": 1,
+            "radar": 1
+          },
+          "collisions": 7
+        },
+        {
+          "character": 10,
+          "personality": "seimbang",
+          "time": 60.399999999998705,
+          "uses": {
+            "turbo": 1
+          },
+          "collisions": 1
+        }
+      ],
+      "rescues": []
+    }
+  ]
+}

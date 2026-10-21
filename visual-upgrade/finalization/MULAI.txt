@@ -1,0 +1,13 @@
+BLOKRAYA PRO — 13 ARENA
+
+Ekstrak ZIP playable, lalu buka blokraya-pro-final.html dengan browser modern.
+Game berisi aset tertanam; tidak memakai CDN/backend atau unduhan aset saat dimainkan.
+
+Alur siswa: tunggu poster Memuat minimal 3 detik → Mode Siswa → nama dan kelas → arena/cuaca → pengaturan balapan → karakter → Mulai Game.
+Mode Guru: buat PIN lokal sendiri pada penggunaan pertama. Tidak ada PIN bawaan.
+Data disimpan pada perangkat/browser/origin tersebut. Simpan ekspor guru/laporan sebelum menghapus data browser.
+
+Uji offline cloud menggunakan jaringan mati dan dokumen lokal; navigasi file:// diblokir administrator lingkungan pengujian, sehingga direct-file tidak diklaim sudah diuji. PIN memerlukan Web Crypto dan izin penyimpanan lokal browser. HP fisik/FPS dan seluruh Grand Prix manual belum diuji.
+
+Untuk ZIP review, HTML berada pada visual-upgrade/blokraya-pro-final.html; laporan dan source berada pada visual-upgrade/finalization/README.md.
+Tidak ada perubahan pada main/index.html atau deployment.

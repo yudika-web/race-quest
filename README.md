@@ -1,4 +1,15 @@
-# BlokRaya — Stage 13 Ketapang: Ale-Ale Chaos Circuit (6J)
+# BlokRaya PRO — Finalisasi 13 Arena (Prompt 7)
+
+Versi final untuk tinjauan melanjutkan HEAD 6J. **13 arena playable**, 14 pasangan karakter/kendaraan dan empat turnamen dipertahankan. Alur siswa kini **Nama dan Kelas → Arena dan Cuaca → Pengaturan Balapan → Karakter → Mulai Game**. Kelas siswa dicatat pada hasil tanpa mengubah bank soal/PIN/data lama.
+
+- [Unduh ZIP playable terbaru](blokraya-pro-final-playable.zip) — ekstrak lalu buka HTML.
+- [HTML mandiri](visual-upgrade/blokraya-pro-final.html) · [ZIP review](blokraya-pro-final-review.zip).
+- [Dokumentasi, screenshot dan hasil pengujian](visual-upgrade/finalization/README.md) · [Status 13 arena](visual-upgrade/finalization/stage-status.json).
+- [Identitas siswa HP](visual-upgrade/finalization/screenshots/identity-390.png) · [13 kartu arena](visual-upgrade/finalization/screenshots/stages-1366.png) · [Pengaturan HP landscape](visual-upgrade/finalization/screenshots/settings-844.png).
+
+HTML **24.932.762 byte** (+5.656 byte). **126 balapan driver referensi** sampai finish, termasuk 42 balapan tiga lap pada semua 14 kendaraan di tiga arena ekstrem; **372 completion AI**. Empat GP lolos 202 pemeriksaan UI/transisi dengan fixture posisi, bukan seluruh GP manual. Semua 13 render arena identik dengan 6J. Offline dan ekspor guru diuji tanpa permintaan aset jaringan. Sebagian AI memakai rescue sah dan tetap finish; HP fisik/FPS dan navigasi file:// cloud tidak diklaim diuji. Tidak merge/deployment atau mengubah index.html utama.
+
+# Tahap sebelumnya — Stage 13 Ketapang: Ale-Ale Chaos Circuit (6J)
 
 Ketapang playable untuk tinjauan: sirkuit kota-pelabuhan fiktif **1.241,93m**, jalan bertingkat19m, jembatan, slalom, ramp/gap dan percabangan. Dua belas zona termasuk kontainer bergeser, palang, rotor, drum, oli dan rangkaian final. Tugu Ale-Ale serta Keraton Matan berada di plaza aman. Langit hangat menjelang sore.
 

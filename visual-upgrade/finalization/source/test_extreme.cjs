@@ -1,0 +1,4 @@
+// Reuse the accepted per-stage mechanics and Smart AI item suites against final HTML.
+const fs=require('fs'),Module=require('module'),path=require('path'),D=path.resolve(__dirname,'..');
+function run(file,stage,report){let code=fs.readFileSync(file,'utf8').replaceAll("D+'/mechanics-tests.json'",`D+'/${report}.json'`).replaceAll("D+'/item-tests.json'",`D+'/${report}.json'`);if(stage)code=code.replaceAll("'ketapang'",JSON.stringify(stage));const m=new Module(path.join(__dirname,'reused-'+report+'.cjs'),module);m.filename=path.join(__dirname,'reused-'+report+'.cjs');m.paths=module.paths;m._compile(code,m.filename)}
+for(const [folder,id]of [['stage11-kubu-raya','kubu_raya'],['stage12-kayong-utara','kayong_utara'],['stage13-ketapang','ketapang']]){run(path.resolve(D,'../'+folder+'/source/test_mechanics.cjs'),null,id+'-mechanics');run(path.resolve(D,'../stage13-ketapang/source/test_items.cjs'),id,id+'-items')}

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "checks": [
+    "Twelve separated functional zones; expanded static/dynamic colliders and actual visual parameters",
+    "Container, barrier, rotor, drum, crates, slalom and final chain collide and resolve penetration without forward skips",
+    "Predictable continuous hazards warn before activating and always leave at least one safe lane",
+    "Narrow bridge and fork divider have physical response; no landmark collider on route",
+    "Two-tier ramp and gap clear using native impulse at 9/12/23/31m/s",
+    "Rescue is backward and finite, preserves inventory/charges/tokens/answers and cannot skip checkpoint",
+    "Safe branch needs no jump; risky crossing pays exactly once only after airborne crossing and landing",
+    "Oil is temporary, Grip mitigates it, Radar uses current visible hazards, every stage clock freezes on quiz/pause"
+  ],
+  "hits": [
+    {
+      "id": "container",
+      "speed": 5.4,
+      "resolved_lateral": -1.5158333333333327
+    },
+    {
+      "id": "gate",
+      "speed": 5.4,
+      "resolved_lateral": -4.78
+    },
+    {
+      "id": "rotor",
+      "speed": 5.4,
+      "resolved_lateral": -4.162516176586796
+    },
+    {
+      "id": "drum",
+      "speed": 5.4,
+      "resolved_lateral": -4.409999999999998
+    },
+    {
+      "id": "crate",
+      "speed": 5.4,
+      "resolved_lateral": -4.51
+    },
+    {
+      "id": "slalom-0",
+      "speed": 5.4,
+      "resolved_lateral": -4.51
+    },
+    {
+      "id": "slalom-1",
+      "speed": 5.4,
+      "resolved_lateral": 1.0899999999999999
+    },
+    {
+      "id": "slalom-2",
+      "speed": 5.4,
+      "resolved_lateral": -4.51
+    },
+    {
+      "id": "final-slider",
+      "speed": 5.4,
+      "resolved_lateral": 1.5158333333333327
+    },
+    {
+      "id": "final-sequence-0",
+      "speed": 5.4,
+      "resolved_lateral": -4.51
+    },
+    {
+      "id": "final-sequence-1",
+      "speed": 5.4,
+      "resolved_lateral": -4.51
+    }
+  ],
+  "jumps": [
+    {
+      "speed": 9,
+      "maxY": 1.8600000000000003,
+      "landed_s": 944.6630811530636
+    },
+    {
+      "speed": 12,
+      "maxY": 1.8600000000000003,
+      "landed_s": 947.0441208593504
+    },
+    {
+      "speed": 23,
+      "maxY": 1.8600000000000003,
+      "landed_s": 953.6894877476573
+    },
+    {
+      "speed": 31,
+      "maxY": 1.8600000000000003,
+      "landed_s": 960.0207240384186
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "checks": [
+    "All thirteen arena renders exactly match 6J at fixed camera/time/seed; pause pixels freeze; no WebGL error"
+  ],
+  "errors": [],
+  "renders": [
+    {
+      "id": "kampung",
+      "sha256": "eed4763881333177f242b41e7b592f0da8176c1b63c6826a9e4d8542060d559b",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "kapuas",
+      "sha256": "227a256d35f83c06ac27378b8b492e01f5374caabcfb809d44381f0640a34f03",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "hutan",
+      "sha256": "2ca0e69c1eeff410086ab063c4196e094b202aecdb2b1bfb5bd15b0d8199dd8e",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "sambas",
+      "sha256": "57a767e826d3e37c84aecee03f36efb499039443a90ade141f232e9b72671ea2",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "sintang",
+      "sha256": "38d4920ce688df3835e03a8d1e10330a4b63e1bb68102d1c097f0784702ebe0d",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "kapuas_hulu",
+      "sha256": "ad1823c9a99f673b66ad134bd5775529da3d3943c090b1f93b162d595f2aaa5b",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "bengkayang",
+      "sha256": "da7847f36b6c5c404e486f5b0fda27a2c751c1231d04e0bdc76ba8f5fd4528d3",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "yogyakarta",
+      "sha256": "0ed7a59b64053a2580af51a3005a447628576f14ac00590aafc32886e1033db7",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "bali",
+      "sha256": "d9ad613c7681a0265f5fcc7409b764584723ef0d99decb271618b2b790165a2b",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "bromo",
+      "sha256": "8db5b0d73ca48526551553d6ccedafa0daa469915e32dccc94446bcef6f837b8",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "kubu_raya",
+      "sha256": "924ede44fe01b0ccccb3ed2251efd53402ef600947c05dc08bc1624428cfbb4f",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "kayong_utara",
+      "sha256": "fbb8ec90592adbd88898a413021eec5fc34c7772616231203c30b06f928337c4",
+      "exact": true,
+      "paused_pixels_frozen": true
+    },
+    {
+      "id": "ketapang",
+      "sha256": "8fe8732271fbdd9838f5fe24111b34d7862e99575d6e92d34dba36007a69dcb2",
+      "exact": true,
+      "paused_pixels_frozen": true
+    }
+  ]
+}

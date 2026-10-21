@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual moving obstacle pixels change with simulation time in all three extreme worlds",
+    "Pause and quiz produce identical frozen frames for moving obstacle, water, sky and actor render",
+    "No JS or WebGL errors; mobile landscape captures are real engine renders using fixed test poses"
+  ],
+  "errors": [],
+  "stages": [
+    {
+      "id": "kubu_raya",
+      "frozen": {
+        "paused": true,
+        "question": true
+      },
+      "moves": true,
+      "gl": 0
+    },
+    {
+      "id": "kayong_utara",
+      "frozen": {
+        "paused": true,
+        "question": true
+      },
+      "moves": true,
+      "gl": 0
+    },
+    {
+      "id": "ketapang",
+      "frozen": {
+        "paused": true,
+        "question": true
+      },
+      "moves": true,
+      "gl": 0
+    }
+  ]
+}

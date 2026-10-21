@@ -1,0 +1,97 @@
+{
+  "baseline_commit": "1b3f9454a780af9f7a53ecebb1a6e599f052cb32",
+  "html_file": "blokraya-pro-final.html",
+  "html_bytes": 24932762,
+  "growth_bytes": 5656,
+  "remaining_to_25M": 67238,
+  "html_sha256": "6ec7882aa994377e6de871ee59a4837c758b969acc5ca09c1de5f0b86065d405",
+  "under_25_decimal_MB": true,
+  "full_reference_driver_races": 126,
+  "completion_AI_actors": 372,
+  "three_lap_driver_races": 42,
+  "protected_script_payloads": 49,
+  "protected_tracked_files": 2893,
+  "exact_world_render_comparisons": 13,
+  "teacher_export_bytes": 24968174,
+  "teacher_export_after_garage_bytes": 24968337,
+  "offline_HTTP_asset_requests": 0,
+  "GP_browser_checks": 202,
+  "GP_successful_rounds": 29,
+  "GP_mastery_retry_attempts": 4,
+  "reports": {
+    "completion-tests": {
+      "status": "passed",
+      "checks": 0
+    },
+    "extreme-vehicles-tests": {
+      "status": "passed",
+      "checks": 0
+    },
+    "unit-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "onboarding-tests": {
+      "status": "passed",
+      "checks": 22
+    },
+    "layout-tests": {
+      "status": "passed",
+      "checks": 2
+    },
+    "grand-prix-browser-tests": {
+      "status": "passed",
+      "checks": 202
+    },
+    "offline-tests": {
+      "status": "passed",
+      "checks": 28
+    },
+    "compatibility-tests": {
+      "status": "passed",
+      "checks": 13
+    },
+    "render-tests": {
+      "status": "passed",
+      "checks": 1
+    },
+    "extreme-render-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "scope-tests": {
+      "status": "passed",
+      "checks": 3
+    },
+    "release-smoke": {
+      "status": "passed",
+      "checks": 3
+    },
+    "kubu_raya-items": {
+      "status": "passed",
+      "checks": 11
+    },
+    "kubu_raya-mechanics": {
+      "status": "passed",
+      "checks": 8
+    },
+    "kayong_utara-items": {
+      "status": "passed",
+      "checks": 11
+    },
+    "kayong_utara-mechanics": {
+      "status": "passed",
+      "checks": 9
+    },
+    "ketapang-items": {
+      "status": "passed",
+      "checks": 11
+    },
+    "ketapang-mechanics": {
+      "status": "passed",
+      "checks": 8
+    }
+  },
+  "no_physical_phone_or_FPS_claim": true,
+  "direct_file_navigation": "Blocked by managed browser administrator in baseline test; offline tested with network-disabled contexts and locally intercepted document. Direct file:// not claimed tested."
+}

@@ -1,0 +1,566 @@
+{
+  "status": "passed",
+  "races": [
+    {
+      "stage": "kubu_raya",
+      "character": 0,
+      "level": "easy",
+      "laps": 3,
+      "time": 207.45000000001292,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 1,
+      "level": "normal",
+      "laps": 3,
+      "time": 207.10000000001284,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 2,
+      "level": "hard",
+      "laps": 3,
+      "time": 207.05000000001283,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 3,
+      "level": "easy",
+      "laps": 3,
+      "time": 207.25000000001288,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 4,
+      "level": "normal",
+      "laps": 3,
+      "time": 206.9500000000128,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 5,
+      "level": "hard",
+      "laps": 3,
+      "time": 207.05000000001283,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 6,
+      "level": "easy",
+      "laps": 3,
+      "time": 207.3000000000129,
+      "rescues": [
+        {
+          "actor": 0,
+          "from": 2211.4038568286815,
+          "to": 2188.734032144769,
+          "time": 150.44999999999996,
+          "wait": 2.4,
+          "reason": "canal"
+        }
+      ]
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 7,
+      "level": "normal",
+      "laps": 3,
+      "time": 207.00000000001282,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 8,
+      "level": "hard",
+      "laps": 3,
+      "time": 207.15000000001285,
+      "rescues": [
+        {
+          "actor": 3,
+          "from": 2210.5463404132565,
+          "to": 2190.278531934561,
+          "time": 112.69999999999574,
+          "wait": 2.4,
+          "reason": "canal"
+        }
+      ]
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 9,
+      "level": "easy",
+      "laps": 3,
+      "time": 207.750000000013,
+      "rescues": [
+        {
+          "actor": 2,
+          "from": 436.76632728044154,
+          "to": 414.69305328304523,
+          "time": 33.300000000000246,
+          "wait": 2.4,
+          "reason": "canal"
+        },
+        {
+          "actor": 1,
+          "from": 1322.33658256524,
+          "to": 1301.4771403018278,
+          "time": 93.49999999999683,
+          "wait": 2.4,
+          "reason": "canal"
+        }
+      ]
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 10,
+      "level": "normal",
+      "laps": 3,
+      "time": 206.9500000000128,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 11,
+      "level": "hard",
+      "laps": 3,
+      "time": 206.9000000000128,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 12,
+      "level": "easy",
+      "laps": 3,
+      "time": 207.60000000001295,
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "character": 13,
+      "level": "normal",
+      "laps": 3,
+      "time": 206.75000000001276,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 0,
+      "level": "easy",
+      "laps": 3,
+      "time": 229.3500000000179,
+      "rescues": [
+        {
+          "actor": 3,
+          "from": 557.4282477206976,
+          "to": 537.5673104462822,
+          "time": 39.3999999999999,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 1,
+      "level": "normal",
+      "laps": 3,
+      "time": 227.45000000001747,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 2,
+      "level": "hard",
+      "laps": 3,
+      "time": 227.70000000001752,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 3,
+      "level": "easy",
+      "laps": 3,
+      "time": 228.35000000001767,
+      "rescues": [
+        {
+          "actor": 3,
+          "from": 2825.8404813378565,
+          "to": 2805.1889857372303,
+          "time": 196.8500000000105,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 4,
+      "level": "normal",
+      "laps": 3,
+      "time": 227.80000000001755,
+      "rescues": [
+        {
+          "actor": 2,
+          "from": 558.0876217184469,
+          "to": 533.4620076551818,
+          "time": 30.800000000000303,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 5,
+      "level": "hard",
+      "laps": 3,
+      "time": 227.90000000001757,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 6,
+      "level": "easy",
+      "laps": 3,
+      "time": 228.55000000001772,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 558.1561044689428,
+          "to": 537.5673104462822,
+          "time": 38.99999999999992,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 7,
+      "level": "normal",
+      "laps": 3,
+      "time": 227.80000000001755,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 8,
+      "level": "hard",
+      "laps": 3,
+      "time": 227.5500000000175,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 9,
+      "level": "easy",
+      "laps": 3,
+      "time": 228.9000000000178,
+      "rescues": [
+        {
+          "actor": 2,
+          "from": 558.5898237711301,
+          "to": 537.5673104462822,
+          "time": 38.049999999999976,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 10,
+      "level": "normal",
+      "laps": 3,
+      "time": 227.6000000000175,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 11,
+      "level": "hard",
+      "laps": 3,
+      "time": 227.6500000000175,
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 12,
+      "level": "easy",
+      "laps": 3,
+      "time": 228.60000000001773,
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 1689.620383538981,
+          "to": 1671.3781480917564,
+          "time": 120.64999999999529,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "character": 13,
+      "level": "normal",
+      "laps": 3,
+      "time": 227.85000000001756,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 0,
+      "level": "easy",
+      "laps": 3,
+      "time": 188.25000000000855,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 1,
+      "level": "normal",
+      "laps": 3,
+      "time": 187.75000000000844,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 2,
+      "level": "hard",
+      "laps": 3,
+      "time": 189.15000000000876,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 3,
+      "level": "easy",
+      "laps": 3,
+      "time": 188.4000000000086,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 4,
+      "level": "normal",
+      "laps": 3,
+      "time": 190.6000000000091,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 5,
+      "level": "hard",
+      "laps": 3,
+      "time": 188.35000000000858,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 6,
+      "level": "easy",
+      "laps": 3,
+      "time": 188.0000000000085,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 7,
+      "level": "normal",
+      "laps": 3,
+      "time": 189.65000000000887,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 8,
+      "level": "hard",
+      "laps": 3,
+      "time": 188.20000000000854,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 9,
+      "level": "easy",
+      "laps": 3,
+      "time": 188.4500000000086,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 10,
+      "level": "normal",
+      "laps": 3,
+      "time": 188.10000000000852,
+      "rescues": [
+        {
+          "actor": 0,
+          "from": 939.0170494718074,
+          "to": 916.9650390779183,
+          "time": 48.74999999999937,
+          "wait": 2.4,
+          "reason": "gap"
+        },
+        {
+          "actor": 2,
+          "from": 938.9527277216908,
+          "to": 916.0101258151104,
+          "time": 48.949999999999356,
+          "wait": 2.4,
+          "reason": "gap"
+        }
+      ]
+    },
+    {
+      "stage": "ketapang",
+      "character": 11,
+      "level": "hard",
+      "laps": 3,
+      "time": 188.80000000000868,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 12,
+      "level": "easy",
+      "laps": 3,
+      "time": 188.15000000000853,
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "character": 13,
+      "level": "normal",
+      "laps": 3,
+      "time": 188.80000000000868,
+      "rescues": []
+    }
+  ],
+  "AI": [
+    {
+      "stage": "kubu_raya",
+      "level": "easy",
+      "laps": 3,
+      "finish": [
+        176.85000000000596,
+        185.750000000008,
+        177.60000000000613,
+        179.05000000000646
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "normal",
+      "laps": 3,
+      "finish": [
+        134.7499999999964,
+        141.69999999999797,
+        138.2999999999972,
+        140.5499999999977
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kubu_raya",
+      "level": "hard",
+      "laps": 3,
+      "finish": [
+        129.8999999999953,
+        139.29999999999742,
+        140.59999999999772,
+        132.6499999999959
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "easy",
+      "laps": 3,
+      "finish": [
+        222.05000000001624,
+        239.60000000002023,
+        227.5500000000175,
+        229.750000000018
+      ],
+      "rescues": [
+        {
+          "actor": 1,
+          "from": 558.4314996209939,
+          "to": 534.3002306562335,
+          "time": 38.949999999999925,
+          "wait": 2.4,
+          "reason": "bay"
+        }
+      ]
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "normal",
+      "laps": 3,
+      "finish": [
+        170.8500000000046,
+        180.5000000000068,
+        177.5000000000061,
+        180.60000000000682
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "kayong_utara",
+      "level": "hard",
+      "laps": 3,
+      "finish": [
+        165.40000000000336,
+        172.30000000000493,
+        168.95000000000417,
+        172.55000000000499
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "easy",
+      "laps": 3,
+      "finish": [
+        241.45000000002065,
+        254.0000000000235,
+        254.20000000002355,
+        247.25000000002197
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "normal",
+      "laps": 3,
+      "finish": [
+        180.00000000000668,
+        193.7000000000098,
+        184.75000000000776,
+        187.40000000000836
+      ],
+      "rescues": []
+    },
+    {
+      "stage": "ketapang",
+      "level": "hard",
+      "laps": 3,
+      "finish": [
+        175.15000000000558,
+        185.00000000000782,
+        179.35000000000653,
+        185.15000000000785
+      ],
+      "rescues": []
+    }
+  ]
+}

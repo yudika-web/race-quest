@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "checks": [
+    "Ten separated challenge zones and moving colliders share authoritative pose",
+    "Narrow bridge rail collision and physical safe side around partial obstacles",
+    "Full canal jump uses native 10.5 m/s impulse and clears at 9, 12, 23 and legal boosted 31 m/s",
+    "Failed gap rescues backward with 2.4s immobilization; inventory, tokens and academic records intact",
+    "Open-edge water and stuck fallback rescue; normal stationary braking does not trigger rescue",
+    "Fork safe path needs no jump; risky completed jump pays exactly one track token per lap",
+    "Manual jump can earn risk-route reward; radar reports actual nearby custom hazards",
+    "Ban Anti-Selip limits mud traction effect; pause/quiz freezes all stage state and moving poses"
+  ],
+  "hits": [
+    {
+      "id": "log",
+      "speed": 5.547665724429855,
+      "slip": 0,
+      "pose": {
+        "lat": -2.7,
+        "half": 1.35,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "barrel",
+      "speed": 5.555890960110851,
+      "slip": 0,
+      "pose": {
+        "lat": 0.08998056125967312,
+        "half": 0.85,
+        "offset": 0,
+        "angle": 0.09000000000000001
+      }
+    },
+    {
+      "id": "gate",
+      "speed": 5.547410175119672,
+      "slip": 0,
+      "pose": {
+        "lat": -2.4935854143021645,
+        "half": 1.6264145856978351,
+        "offset": 1.3155664544206116,
+        "depth": 1.4355664544206115,
+        "angle": 0.7178718534213917
+      }
+    },
+    {
+      "id": "bamboo",
+      "speed": 5.561242229611134,
+      "slip": 0,
+      "pose": {
+        "lat": 2.7,
+        "half": 1.05,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "crate",
+      "speed": 5.553,
+      "slip": 0,
+      "pose": {
+        "lat": -2.7,
+        "half": 1.1,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "mud",
+      "speed": 12.34,
+      "slip": 0.25,
+      "pose": {
+        "lat": 2,
+        "half": 1.8,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "puddle",
+      "speed": 12.327020514390426,
+      "slip": 0.12,
+      "pose": {
+        "lat": -1.8,
+        "half": 1.8,
+        "offset": 0,
+        "angle": 0
+      }
+    }
+  ],
+  "jumps": [
+    {
+      "speed": 9,
+      "maxY": 1.8600000000000003,
+      "landing_s": 441.7012694847413,
+      "gap_end": 437.7608356015803
+    },
+    {
+      "speed": 12,
+      "maxY": 1.8600000000000003,
+      "landing_s": 444.05556090054665,
+      "gap_end": 437.7608356015803
+    },
+    {
+      "speed": 23,
+      "maxY": 1.8600000000000003,
+      "landing_s": 450.39660329655015,
+      "gap_end": 437.7608356015803
+    },
+    {
+      "speed": 31,
+      "maxY": 1.8600000000000003,
+      "landing_s": 456.60002122590964,
+      "gap_end": 437.7608356015803
+    }
+  ]
+}

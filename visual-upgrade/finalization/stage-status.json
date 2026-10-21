@@ -1,0 +1,262 @@
+[
+  {
+    "id": "kampung",
+    "order": 1,
+    "displayName": "Pontianak — City Road",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      34.50000000000018,
+      42.04999999999975
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "kapuas",
+    "order": 2,
+    "displayName": "Mempawah — Garden Road",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      38.64999999999994,
+      39.299999999999905
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "hutan",
+    "order": 3,
+    "displayName": "Singkawang — Coastal Festival",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      40.49999999999984,
+      43.89999999999964
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "sambas",
+    "order": 4,
+    "displayName": "Sambas — Royal River Road",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      35.050000000000146,
+      35.35000000000013
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "sintang",
+    "order": 5,
+    "displayName": "Sintang — Kelam Mountain Run",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      45.69999999999954,
+      46.499999999999496
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "kapuas_hulu",
+    "order": 6,
+    "displayName": "Kapuas Hulu — Sentarum Lake Circuit",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      41.49999999999978,
+      41.89999999999976
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "bengkayang",
+    "order": 7,
+    "displayName": "Bengkayang — Waterfall Adventure",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      36.75000000000005,
+      40.349999999999845
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "yogyakarta",
+    "order": 8,
+    "displayName": "Yogyakarta — Heritage Night Race",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      40.99999999999981,
+      41.34999999999979
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "bali",
+    "order": 9,
+    "displayName": "Bali — Rice Terrace Rush",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      37.30000000000002,
+      41.1999999999998
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "bromo",
+    "order": 10,
+    "displayName": "Bromo — Volcano Challenge",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 3,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      39.24999999999991,
+      39.3999999999999
+    ],
+    "completed_AI": 12,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "kubu_raya",
+    "order": 11,
+    "displayName": "Kubu Raya — Mangrove Extreme Run",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 18,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      70.19999999999816,
+      71.04999999999811
+    ],
+    "completed_AI": 72,
+    "driver_rescues": 0,
+    "AI_rescues": 0
+  },
+  {
+    "id": "kayong_utara",
+    "order": 12,
+    "displayName": "Kayong Utara — Coastal Cliff Challenge",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 18,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      76.79999999999778,
+      79.09999999999765
+    ],
+    "completed_AI": 72,
+    "driver_rescues": 0,
+    "AI_rescues": 5
+  },
+  {
+    "id": "ketapang",
+    "order": 13,
+    "displayName": "Ketapang — Ale-Ale Chaos Circuit",
+    "available": true,
+    "review_status": "Playable; finalization tests passed; awaiting user review",
+    "full_driver_races": 18,
+    "difficulty_levels": [
+      "easy",
+      "hard",
+      "normal"
+    ],
+    "time_range_seconds": [
+      63.049999999998555,
+      66.99999999999834
+    ],
+    "completed_AI": 72,
+    "driver_rescues": 0,
+    "AI_rescues": 3
+  }
+]

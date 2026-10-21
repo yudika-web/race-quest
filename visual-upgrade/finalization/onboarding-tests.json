@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "Class required 1366",
+    "Arena before settings 1366",
+    "13 actual stage cards 1366",
+    "Race settings after stage 1366",
+    "Back preserves choices 1366",
+    "Character selection after settings 1366",
+    "Chosen world and AI 1366",
+    "Class required 390",
+    "Arena before settings 390",
+    "13 actual stage cards 390",
+    "Race settings after stage 390",
+    "Back preserves choices 390",
+    "Character selection after settings 390",
+    "Chosen world and AI 390",
+    "Class required 844",
+    "Arena before settings 844",
+    "13 actual stage cards 844",
+    "Race settings after stage 844",
+    "Back preserves choices 844",
+    "Character selection after settings 844",
+    "Chosen world and AI 844",
+    "No JS errors"
+  ],
+  "errors": []
+}

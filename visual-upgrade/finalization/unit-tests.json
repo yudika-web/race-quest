@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": [
+    "All four real cup configurations, dynamic finish indices and round counts",
+    "Existing normalizer retains old data and new per-result student/bank class fields",
+    "13 worlds, 14 racers and nine buffs retained"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Student onboarding does not award tokens or free unlocks",
+    "Export after garage stays below 25 decimal MB without repeated avatar cards",
+    "Export after mounted wizard removes private student inputs",
+    "Export after mounted wizard excludes PIN",
+    "Exported wizard starts with blank identity",
+    "Re-exported mounted wizard can reach garage without duplicate IDs",
+    "No duplicate form/stepper after export",
+    "Teacher bank, class, mastery and question count unchanged",
+    "Legacy tokens, XP and unlocks unchanged",
+    "Legacy three-stage progress unchanged",
+    "Existing PIN verifier survives reload and export",
+    "Reload locks teacher authentication",
+    "No JavaScript errors in mounted export / data compatibility"
+  ],
+  "errors": [],
+  "mounted_export_bytes": 24968337
+}

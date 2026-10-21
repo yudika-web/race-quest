@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "checks": [
+    "Ten separated challenge zones and moving colliders share authoritative pose",
+    "Warnings precede predictable rock crossing and barrier closing; closed barrier remains red",
+    "Narrow bridge rail collision and physical safe side around partial obstacles",
+    "Full bay jump uses native 10.5 m/s impulse and clears at 9, 12, 23 and legal boosted 31 m/s",
+    "Failed gap rescues backward with 2.4s immobilization; inventory, tokens and academic records intact",
+    "Cliff-edge and stuck fallback rescue; normal stationary braking does not trigger rescue",
+    "Fork safe path needs no jump; risky completed jump pays exactly one track token per lap",
+    "Manual jump can earn risk-route reward; radar reports actual nearby custom hazards",
+    "Ban Anti-Selip limits gravel traction effect; pause/quiz freezes all stage state and moving poses"
+  ],
+  "hits": [
+    {
+      "id": "rock",
+      "speed": 5.534631124190858,
+      "slip": 0,
+      "pose": {
+        "lat": -2.7,
+        "half": 1.35,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "roller",
+      "speed": 5.567024549195233,
+      "slip": 0,
+      "pose": {
+        "lat": -3,
+        "half": 0.85,
+        "offset": 0,
+        "angle": 0.09000000000000001,
+        "warning": true
+      }
+    },
+    {
+      "id": "gate",
+      "speed": 5.527195033221429,
+      "slip": 0,
+      "pose": {
+        "lat": -3.6995490601766283,
+        "half": 0.42045093982337167,
+        "offset": 1.9773035257034395,
+        "depth": 2.0973035257034396,
+        "angle": 1.42,
+        "warning": true
+      }
+    },
+    {
+      "id": "bollards",
+      "speed": 5.563075412986707,
+      "slip": 0,
+      "pose": {
+        "lat": 2.7,
+        "half": 1.05,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "rubble",
+      "speed": 5.563661068325639,
+      "slip": 0,
+      "pose": {
+        "lat": -2.7,
+        "half": 1.1,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "gravel",
+      "speed": 12.360271849361114,
+      "slip": 0.25,
+      "pose": {
+        "lat": 2,
+        "half": 1.8,
+        "offset": 0,
+        "angle": 0
+      }
+    },
+    {
+      "id": "sand",
+      "speed": 12.353252039059637,
+      "slip": 0.12,
+      "pose": {
+        "lat": -1.8,
+        "half": 1.8,
+        "offset": 0,
+        "angle": 0
+      }
+    }
+  ],
+  "jumps": [
+    {
+      "speed": 9,
+      "maxY": 1.8600000000000003,
+      "landing_s": 562.741907106588,
+      "gap_end": 558.7673104462823
+    },
+    {
+      "speed": 12,
+      "maxY": 1.8600000000000003,
+      "landing_s": 565.0979079009181,
+      "gap_end": 558.7673104462823
+    },
+    {
+      "speed": 23,
+      "maxY": 1.8600000000000003,
+      "landing_s": 570.9761880302175,
+      "gap_end": 558.7673104462823
+    },
+    {
+      "speed": 31,
+      "maxY": 1.8600000000000003,
+      "landing_s": 575.3691940917139,
+      "gap_end": 558.7673104462823
+    }
+  ]
+}
